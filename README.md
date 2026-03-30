@@ -112,6 +112,8 @@ pipeline/                             # Classification pipeline documentation
   per_claim_extraction_schema.json    # Haiku 4.5 per-claim schema
   field_normalization.md              # Free-text normalization rules
 
+appendices/                            # Supplementary appendices (A through K)
+
 analysis/                             # Extended analysis methodology
 ```
 
@@ -164,3 +166,26 @@ The unified dataset (N=3,193 cases, 6,718 claims) and full audit trail are avail
 ## License
 
 This replication package is provided for academic use. The underlying court opinions are public domain.
+
+---
+
+## Appendices
+
+The following supplementary appendices are referenced throughout the Note's footnotes. Each appendix is available as a standalone document in the [`appendices/`](appendices/) directory.
+
+| Appendix | Title | Description |
+|----------|-------|-------------|
+| [A](appendices/Appendix_A_Case_Dataset_Methodology.md) | FHA Case Dataset — Construction Methodology | Full dataset construction methodology, source accounting, deduplication, classification protocol, and known limitations |
+| [A-2](appendices/Appendix_A2_PUMS_Replication.md) | PUMS Replication Methodology | ACS 2020–2024 5-Year PUMS variable definitions, replication queries, standard errors via successive-differences replication, and sensitivity analysis |
+| [A-3](appendices/Appendix_A3_Extended_Empirical_Analysis.md) | Extended Empirical Analysis | Multivariate regression specifications, pro se plaintiff analysis, interactive process findings, Hispanic/Latino PUMS analysis, housing stock data, and subsidy program analysis |
+| [A-4](appendices/Appendix_A4_Reproducibility_Audit.md) | Classification Reproducibility Audit | 50-case stratified-random reproducibility audit: sampling protocol, field-level match rates, Cohen's kappa values, tier-disaggregated results, and robustness assessment |
+| [B](appendices/Appendix_B_Results_Tables.md) | Post-*Loper Bright* Analysis | Year-by-year plaintiff win rates (Table B.3), pre/post comparison tables, and chi-squared results |
+| [C](appendices/Appendix_C_Iqbal_Citation_Analysis.md) | *Iqbal* Citation Analysis | *Iqbal* citation rates, temporal patterns, and accommodation-type MTD survival rates |
+| [D](appendices/Appendix_D_Protected_Class_Distribution.md) | Protected-Class Distribution | Distribution of protected classes across the litigation dataset |
+| [E](appendices/Appendix_E_Accommodation_Defendant_Analysis.md) | Accommodation & Defendant-Type Analysis | Win rates by accommodation type, legal theory, defendant type, and disability category |
+| [F](appendices/Appendix_F_Galanter_Plaintiff_Type.md) | Galanter Plaintiff-Type Analysis | Repeat-player hypothesis testing, individual vs. organizational plaintiff outcomes, and the "double gatekeeping" framework |
+| [G](appendices/Appendix_G_Circuit_Level_Analysis.md) | Circuit-Level Analysis | Circuit-by-circuit win rates, MTD survival rates, pre/post *Loper Bright* variation, and interactive process discussion rates |
+| [H](appendices/Appendix_H_Supplementary_Data.md) | Supplementary Data | Modification desert data, design-and-construction noncompliance ratios, PUMS disability housing summary, enforcement infrastructure data, and procedural posture win rates |
+| [I](appendices/Appendix_I_AFFH_Case_Classification.md) | AFFH Case Classification | LLM-assisted classification methodology and results for 71 CourtListener AFFH decisions |
+| [J](appendices/Appendix_J_Safe_Harbor_Detail.md) | Safe Harbor Operational Detail | Worked examples, rural edge cases, Availability Audit mechanics, and multi-jurisdiction population threshold survey |
+| [K](appendices/Appendix_K_Classification_Prompts.md) | Classification Prompts | Full text of FHA relevance screening and case classification prompts |
