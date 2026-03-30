@@ -105,4 +105,4 @@ Used by all three OpenRouter models (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) at 
 
 ---
 
-*Supplementary materials prepared for [Law Review Name]. The unified dataset (N=3,193 cases, 6,718 claims) and replication materials are available upon request from the author.*
+*Supplementary materials prepared for the University of Arizona Law Review. The unified dataset (N=3,193 cases, 6,718 claims) and replication materials are available upon request from the author.*

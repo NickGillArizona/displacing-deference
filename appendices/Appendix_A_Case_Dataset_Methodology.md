@@ -288,6 +288,6 @@ Despite these limitations, the triple-model-with-adjudication methodology substa
 
 ### A.8 Classification Prompts
 
-The FHA relevance screening prompt and case classification prompt constitute the instruments used to generate all classification data in both databases. They are reproduced in full in Technical Appendix K (at the end of this document) to enable replication. Cross-references to the prompt controlled vocabulary (e.g., "13 categories (see Section A.8.2)") refer to Technical Appendix K.
+The FHA relevance screening prompt and case classification prompt constitute the instruments used to generate all classification data in both databases. They are reproduced in full in Technical Appendix K to enable replication. Cross-references to the prompt controlled vocabulary (e.g., "13 categories (see Section A.8.2)") refer to Technical Appendix K.
 
 ---

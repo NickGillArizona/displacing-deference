@@ -12,7 +12,7 @@ Pre-2024 FHA merits win rate: 17.9%. Post-2024: 16.0%. 2025 specifically: 7.9%.
 
 Per-theory merits win rates from the Unified Dataset are reported in Appendix E, Section E.1a (Table: Win Rates by Legal Theory).
 
-### B.2a *Loper Bright* Focus: The 2025 Trough
+### B.2.1 *Loper Bright* Focus: The 2025 Trough
 
 The 2025 win rate of 7.9% (n=214 FHA merits claims) represents the lowest annual plaintiff success rate in the dataset. This trough is consistent with the *Loper Bright* deference-free environment taking full effect after a transition year (2024: 13.7%, n=153). The severity of the 2025 collapse — less than half the pre-2024 baseline of 17.9% — suggests that the removal of Chevron deference has had a pronounced effect on FHA disability enforcement outcomes.
 

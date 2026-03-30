@@ -40,18 +40,18 @@
 
 | Circuit | 2015 FHA Pre n | 2015 FHA Pre Broad | 2015 FHA Post Broad | 2015 FHA Δ | RA Pre n | RA Pre Broad | RA Post Broad | RA Δ |
 |---------|--------------|-------------------|--------------------|-----------|---------|-----------|--------------|----|
-| 1st | 35 | 45.7% | 30.0% | −15.7 pp | 19 | 47.4% | 15.4% | −32.0 pp |
-| 2d | 128 | 37.5% | 14.7% | −22.8 pp | 109 | 15.6% | 12.9% | −2.7 pp |
-| 3d | 71 | 38.0% | 33.3% | −4.7 pp | 62 | 22.6% | 23.6% | +1.1 pp |
-| 4th | 48 | 50.0% | 22.2% | −27.8 pp | 49 | 30.6% | 20.5% | −10.1 pp |
-| 5th | 60 | 38.3% | 35.5% | −2.8 pp | 53 | 39.6% | 23.8% | −15.8 pp |
-| 6th | 61 | 34.4% | 29.7% | −4.7 pp | 62 | 32.3% | 21.8% | −10.4 pp |
-| 7th | 74 | 47.3% | 41.5% | −5.8 pp | 79 | 36.7% | 29.5% | −7.2 pp |
-| 8th | 36 | 33.3% | 24.0% | −9.3 pp | 23 | 43.5% | 16.7% | −26.8 pp |
-| 9th | 149 | 43.0% | 23.1% | −19.9 pp | 143 | 30.1% | 20.9% | −9.1 pp |
-| 10th | 35 | 37.1% | 25.0% | −12.1 pp | 35 | 28.6% | 23.4% | −5.2 pp |
-| 11th | 68 | 45.6% | 38.9% | −6.7 pp | 52 | 36.5% | 21.2% | −15.4 pp |
-| DC | — | — | — | — | 15 | 60.0% | 8.3% | −51.7 pp |
+| 1st | 35 | 45.7% | 30.0% | −15.7 percentage points | 19 | 47.4% | 15.4% | −32.0 percentage points |
+| 2d | 128 | 37.5% | 14.7% | −22.8 percentage points | 109 | 15.6% | 12.9% | −2.7 percentage points |
+| 3d | 71 | 38.0% | 33.3% | −4.7 percentage points | 62 | 22.6% | 23.6% | +1.1 percentage points |
+| 4th | 48 | 50.0% | 22.2% | −27.8 percentage points | 49 | 30.6% | 20.5% | −10.1 percentage points |
+| 5th | 60 | 38.3% | 35.5% | −2.8 percentage points | 53 | 39.6% | 23.8% | −15.8 percentage points |
+| 6th | 61 | 34.4% | 29.7% | −4.7 percentage points | 62 | 32.3% | 21.8% | −10.4 percentage points |
+| 7th | 74 | 47.3% | 41.5% | −5.8 percentage points | 79 | 36.7% | 29.5% | −7.2 percentage points |
+| 8th | 36 | 33.3% | 24.0% | −9.3 percentage points | 23 | 43.5% | 16.7% | −26.8 percentage points |
+| 9th | 149 | 43.0% | 23.1% | −19.9 percentage points | 143 | 30.1% | 20.9% | −9.1 percentage points |
+| 10th | 35 | 37.1% | 25.0% | −12.1 percentage points | 35 | 28.6% | 23.4% | −5.2 percentage points |
+| 11th | 68 | 45.6% | 38.9% | −6.7 percentage points | 52 | 36.5% | 21.2% | −15.4 percentage points |
+| DC | — | — | — | — | 15 | 60.0% | 8.3% | −51.7 percentage points |
 
 ### G.4 Interactive Process Discussion Rate by Circuit
 
@@ -73,7 +73,7 @@ Circuit-level variation reveals a pronounced geographic dimension to disability 
 
 2. **MTD gatekeeping.** The 1st Circuit shows the highest MTD survival rate (54.2% broad, 2015 FHA Database), while the 8th Circuit (17.6%) and 2d Circuit (21.1%) are the most hostile at the pleading stage. The 2d Circuit's low rate is substantially explained by the S.D.N.Y. pro se concentration effect (63.0% pro se in the RA Database with 0.0% strict win rate).
 
-3. **Post-*Loper Bright* variation.** The decline is not uniform across circuits. The 4th Circuit (−27.8 pp, 2015 FHA Database) and 2d Circuit (−22.8 pp) experienced the steepest drops; the 5th Circuit (−2.8 pp), 3d Circuit (−4.7 pp), and 6th Circuit (−4.7 pp) showed relative resilience.
+3. **Post-*Loper Bright* variation.** The decline is not uniform across circuits. The 4th Circuit (−27.8 percentage points, 2015 FHA Database) and 2d Circuit (−22.8 percentage points) experienced the steepest drops; the 5th Circuit (−2.8 percentage points), 3d Circuit (−4.7 percentage points), and 6th Circuit (−4.7 percentage points) showed relative resilience.
 
 4. **Divergence between databases.** The RA Database (all FHA protected classes, 2021–2026) generally shows lower win rates than the 2015 FHA Database (disability only, 2015–2026), reflecting the inclusion of non-§ 3604(f) claims with lower baseline success rates.
 

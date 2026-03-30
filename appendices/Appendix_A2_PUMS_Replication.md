@@ -69,9 +69,9 @@ GET ...?get=PWGTP,DPHY,DOUT,GRPIP&for=state:*&SPORDER=1&TEN=3&RAC1P={1,2,3}
 
 | Race | Disabled CB Rate | Non-Disabled CB Rate | Disability Penalty |
 |------|-----------------|---------------------|-------------------|
-| White alone | 54.7% | 37.8% | 16.9 pp |
-| Black/AA alone | 56.3% | 46.2% | 10.1 pp |
-| AIAN alone | 48.2% | 40.9% | 7.3 pp |
+| White alone | 54.7% | 37.8% | 16.9 percentage points |
+| Black/AA alone | 56.3% | 46.2% | 10.1 percentage points |
+| AIAN alone | 48.2% | 40.9% | 7.3 percentage points |
 
 #### Query 3: GRPIP=101 Rate by Race
 
@@ -100,22 +100,22 @@ The primary analysis defines disability as DPHY=1 (ambulatory difficulty) or DOU
 | White prevalence | 14.01% | 21.04% |
 | Black prevalence | 14.57% | 20.28% |
 | AIAN prevalence | 13.08% | 20.71% |
-| White disability penalty | 16.9 pp | 14.7 pp |
-| Black disability penalty | 10.1 pp | 9.2 pp |
-| AIAN disability penalty | 7.3 pp | 6.6 pp |
+| White disability penalty | 16.9 percentage points | 14.7 percentage points |
+| Black disability penalty | 10.1 percentage points | 9.2 percentage points |
+| AIAN disability penalty | 7.3 percentage points | 6.6 percentage points |
 
-Under the broader DIS=1 definition, disability prevalence rises substantially across all groups (to 20–21%), and the disability penalty narrows slightly but remains large (6.6–14.7 pp). The directional findings are robust: disability remains the dominant axis of housing cost burden under either definition.
+Under the broader DIS=1 definition, disability prevalence rises substantially across all groups (to 20–21%), and the disability penalty narrows slightly but remains large (6.6–14.7 percentage points). The directional findings are robust: disability remains the dominant axis of housing cost burden under either definition.
 
 ### Comparison to Prior Estimates
 
 | Metric | 2019-2023 5-Year | 2020-2024 5-Year | Change |
 |--------|-----------------|-----------------|--------|
-| Black disability prevalence (renter HH) | 14.53% | 14.57% | +0.04 pp |
-| AIAN disability prevalence (renter HH) | 14.34% | 13.08% | -1.26 pp |
-| White disability prevalence (renter HH) | 13.86% | 14.01% | +0.15 pp |
-| White cost-burden disability penalty | 19.3 pp | 16.9 pp | -2.4 pp |
-| Black cost-burden disability penalty | 12.6 pp | 10.1 pp | -2.5 pp |
-| AIAN cost-burden disability penalty | 10.1 pp | 7.3 pp | -2.8 pp |
+| Black disability prevalence (renter HH) | 14.53% | 14.57% | +0.04 percentage points |
+| AIAN disability prevalence (renter HH) | 14.34% | 13.08% | -1.26 percentage points |
+| White disability prevalence (renter HH) | 13.86% | 14.01% | +0.15 percentage points |
+| White cost-burden disability penalty | 19.3 percentage points | 16.9 percentage points | -2.4 percentage points |
+| Black cost-burden disability penalty | 12.6 percentage points | 10.1 percentage points | -2.5 percentage points |
+| AIAN cost-burden disability penalty | 10.1 percentage points | 7.3 percentage points | -2.8 percentage points |
 
 ### Standard Errors via Successive-Differences Replication
 
@@ -123,34 +123,34 @@ Under the broader DIS=1 definition, disability prevalence rises substantially ac
 
 | Race | Prevalence | SE | 95% CI |
 |------|-----------|-----|--------|
-| White alone | 14.01% | 0.049 pp | [13.91%, 14.10%] |
-| Black/AA alone | 14.57% | 0.081 pp | [14.41%, 14.73%] |
-| AIAN alone | 13.08% | 0.356 pp | [12.38%, 13.78%] |
+| White alone | 14.01% | 0.049 percentage points | [13.91%, 14.10%] |
+| Black/AA alone | 14.57% | 0.081 percentage points | [14.41%, 14.73%] |
+| AIAN alone | 13.08% | 0.356 percentage points | [12.38%, 13.78%] |
 
 **Disability Penalty:**
 
 | Race | Penalty | SE | 95% CI |
 |------|---------|-----|--------|
-| White alone | 16.9 pp | 0.25 pp | [16.4 pp, 17.4 pp] |
-| Black/AA alone | 10.1 pp | 0.43 pp | [9.2 pp, 10.9 pp] |
-| AIAN alone | 7.3 pp | 1.40 pp | [4.6 pp, 10.0 pp] |
+| White alone | 16.9 percentage points | 0.25 percentage points | [16.4 percentage points, 17.4 percentage points] |
+| Black/AA alone | 10.1 percentage points | 0.43 percentage points | [9.2 percentage points, 10.9 percentage points] |
+| AIAN alone | 7.3 percentage points | 1.40 percentage points | [4.6 percentage points, 10.0 percentage points] |
 
-All penalties are statistically significantly greater than zero; the AIAN lower bound (4.6 pp) is 3.3 times the SE, confirming the finding even for the smallest sample group.
+All penalties are statistically significantly greater than zero; the AIAN lower bound (4.6 percentage points) is 3.3 times the SE, confirming the finding even for the smallest sample group.
 
 **GRPIP=101 Rate (Disabled Renters):**
 
 | Race | Rate | SE | 95% CI |
 |------|------|----|--------|
-| Black/AA alone | 19.3% | 0.26 pp | [18.8%, 19.8%] |
-| White alone | 15.7% | 0.16 pp | [15.4%, 16.0%] |
-| AIAN alone | 12.5% | 0.80 pp | [11.0%, 14.1%] |
+| Black/AA alone | 19.3% | 0.26 percentage points | [18.8%, 19.8%] |
+| White alone | 15.7% | 0.16 percentage points | [15.4%, 16.0%] |
+| AIAN alone | 12.5% | 0.80 percentage points | [11.0%, 14.1%] |
 
 **Derived: Racial Cost-Burden Gap by Disability Status (Black − White):**
 
 | Group | Gap | SE | 95% CI |
 |-------|-----|-----|--------|
-| Non-disabled renters | 8.4 pp | 0.16 pp | [8.1 pp, 8.7 pp] |
-| Disabled renters | 1.6 pp | 0.45 pp | [0.7 pp, 2.4 pp] |
+| Non-disabled renters | 8.4 percentage points | 0.16 percentage points | [8.1 percentage points, 8.7 percentage points] |
+| Disabled renters | 1.6 percentage points | 0.45 percentage points | [0.7 percentage points, 2.4 percentage points] |
 
 ### Limitations
 

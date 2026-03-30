@@ -62,3 +62,5 @@ Defendant type distribution for the Unified Dataset (N=3,193) is reported in App
 - Mobility disabilities showed a significant post-*Loper Bright* decline (56.0% to 35.1%, p=0.008).
 
 ---
+
+*Note: Throughout this appendix, \* denotes p < 0.05 and \*\* denotes p < 0.01 (chi-squared test).*

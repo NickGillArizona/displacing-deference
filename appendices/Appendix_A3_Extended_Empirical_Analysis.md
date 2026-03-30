@@ -92,13 +92,13 @@ The overall pro se win rate (0.9%) represents a 10.1-fold disadvantage relative 
 | Other | 4 | 0 | 0.0% | 5 | 2 | 40.0% |
 | **Total** | **54** | **4** | **7.4%** | **102** | **28** | **27.5%** |
 
-On the merits, the representation gap is largest against property management companies (31.2 pp) and private landlords (20.0 pp), where informal negotiation and adversarial litigation capability are most consequential. Against housing authorities, the gap effectively disappears (13.3% vs. 15.4%), consistent with the hypothesis that formalized public-housing grievance procedures partially substitute for litigation capability. The municipality pro se cell (n=1) is unreliable. Cell sizes are modest throughout.
+On the merits, the representation gap is largest against property management companies (31.2 percentage points) and private landlords (20.0 percentage points), where informal negotiation and adversarial litigation capability are most consequential. Against housing authorities, the gap effectively disappears (13.3% vs. 15.4%), consistent with the hypothesis that formalized public-housing grievance procedures partially substitute for litigation capability. The municipality pro se cell (n=1) is unreliable. Cell sizes are modest throughout.
 
 **Interpretation.** The full-database and merits-reached analyses tell complementary stories. The full database reveals that the pro se penalty operates primarily as a threshold barrier—92% pleading-stage attrition versus 65% for represented plaintiffs (*see* Section C above)—compounded by channeling into housing-authority defendants where even represented plaintiffs win at below-average rates. The merits-reached subset shows that among the small number of pro se plaintiffs who survive dismissal, defendant type matters more than representation status in certain matchups. Both findings are consistent with the Galanter repeat-player framework: the pro se disadvantage is structural and operates at multiple stages of litigation.
 
 #### C.6 Post-Loper Bright Pro Se Trends
 
-Post-*Loper Bright* decline is concentrated among represented plaintiffs (broad rate -6.6 pp RA, -8.7 pp § 3604); pro se changes are statistically insignificant because the baseline was already near zero. On RA merits claims, the post-*Loper Bright* decline from 20.4% to 6.7% plaintiff win rate represents a 67% relative decline — more severe than the full-database decline — suggesting that the deference-free environment particularly disadvantages accommodation claims.
+Post-*Loper Bright* decline is concentrated among represented plaintiffs (broad rate -6.6 percentage points RA, -8.7 percentage points § 3604); pro se changes are statistically insignificant because the baseline was already near zero. On RA merits claims, the post-*Loper Bright* decline from 20.4% to 6.7% plaintiff win rate represents a 67% relative decline — more severe than the full-database decline — suggesting that the deference-free environment particularly disadvantages accommodation claims.
 
 #### C.7 State-Level and Circuit-Level Analysis
 
@@ -106,7 +106,7 @@ Post-*Loper Bright* decline is concentrated among represented plaintiffs (broad 
 
 **S.D.N.Y. concentration effect.** S.D.N.Y. cases: RA Database 63.0% pro se (0.0% strict win rate); § 3604 Database 47.7% pro se (0.0% strict). The 2d Circuit's 10.2% MTD broad rate (lowest of circuits with n≥20) is substantially explained by the S.D.N.Y. pro se concentration effect.
 
-**State-level disability cost-burden penalties (2020–2024 ACS 5-Year PUMS).** Top White disability penalties: Ohio 19.3 pp, Pennsylvania 19.1 pp, Maryland 18.8 pp, Texas 18.7 pp, Illinois 18.0 pp. Spearman rank correlations (n=10 states with highest case volumes): penalty vs. litigation volume rho=-0.03; White penalty vs. § 3604 broad win rate rho=-0.43. Housing authority defendant share in high-penalty states: 13.0% vs. 6.1% in low-penalty states.
+**State-level disability cost-burden penalties (2020–2024 ACS 5-Year PUMS).** Top White disability penalties: Ohio 19.3 percentage points, Pennsylvania 19.1 percentage points, Maryland 18.8 percentage points, Texas 18.7 percentage points, Illinois 18.0 percentage points. Spearman rank correlations (n=10 states with highest case volumes): penalty vs. litigation volume rho=-0.03; White penalty vs. § 3604 broad win rate rho=-0.43. Housing authority defendant share in high-penalty states: 13.0% vs. 6.1% in low-penalty states.
 
 ### D. Interactive Process and Delay-as-Denial Analysis
 
@@ -116,7 +116,7 @@ The interactive_process_discussed and delay_as_denial fields (binary YES/NO) wer
 
 #### D.2 Full-Database Findings
 
-Interactive process effect on win rates (unified dataset, N=3,193): 12.2% win rate when interactive process is discussed versus 4.2% when not discussed. Strongest effects by accommodation type: transfer +45.2 pp broad (57.1% vs. 11.9%), parking +36.1 pp (83.3% vs. 47.2%). By defendant type: HOA/condo 18.5% IP rate, private landlord 7.4%. By circuit: 1st Circuit 38.5%, 2d Circuit 9.2%, 3d Circuit 4.9%.
+Interactive process effect on win rates (unified dataset, N=3,193): 12.2% win rate when interactive process is discussed versus 4.2% when not discussed. Strongest effects by accommodation type: transfer +45.2 percentage points broad (57.1% vs. 11.9%), parking +36.1 percentage points (83.3% vs. 47.2%). By defendant type: HOA/condo 18.5% IP rate, private landlord 7.4%. By circuit: 1st Circuit 38.5%, 2d Circuit 9.2%, 3d Circuit 4.9%.
 
 Delay-as-denial: raised in 2.8% of cases. Against private landlords: 2.3% rate, 80.0% broad win. Against HOAs: 9.0% rate, 73.7% broad.
 
@@ -156,11 +156,11 @@ The HISP variable distinguishes Hispanic (HISP=02–24) from non-Hispanic (HISP=
 
 #### E.2 Key Results
 
-Non-Hispanic White penalty: 17.5 pp. Non-Hispanic Black: 10.1 pp. Non-Hispanic AIAN: 11.1 pp. Hispanic (any race): 7.6 pp.
+Non-Hispanic White penalty: 17.5 percentage points. Non-Hispanic Black: 10.1 percentage points. Non-Hispanic AIAN: 11.1 percentage points. Hispanic (any race): 7.6 percentage points.
 
-Hispanic-NHW convergence: non-disabled gap 9.2 pp inverts to −0.7 pp among disabled renters (compression >100%).
+Hispanic-NHW convergence: non-disabled gap 9.2 percentage points inverts to −0.7 percentage points among disabled renters (compression >100%).
 
-AIAN composition finding: 47.9% of AIAN-alone renter householders are Hispanic. Removing them raises disability prevalence from 13.1% to 17.2% and the penalty from 7.3 pp to 11.1 pp.
+AIAN composition finding: 47.9% of AIAN-alone renter householders are Hispanic. Removing them raises disability prevalence from 13.1% to 17.2% and the penalty from 7.3 percentage points to 11.1 percentage points.
 
 ### F. Housing Adequacy and Building Stock Analysis
 
@@ -172,7 +172,7 @@ FHA § 3604(f)(3)(C) coverage estimated by: BLD in {5,6,7,8,9} (≥3 apartments,
 
 #### F.2 Key Results
 
-Pre-1990 building occupancy (disabled): White 67.7%, Black 72.5%, AIAN 69.8%. Disability penalty: White 5.1 pp, Black 8.2 pp, AIAN 5.1 pp.
+Pre-1990 building occupancy (disabled): White 67.7%, Black 72.5%, AIAN 69.8%. Disability penalty: White 5.1 percentage points, Black 8.2 percentage points, AIAN 5.1 percentage points.
 
 FHA coverage (disabled renters in 4+ unit post-1990 buildings): White 23.7%, Black 19.8%, AIAN 15.4%.
 
@@ -196,7 +196,7 @@ State-level plaintiff win rates computed from the unified dataset (N=3,193) for 
 
 #### H.2 Key Results
 
-Spearman rank correlations (n=10 states): White penalty vs. litigation volume rho=−0.03; White penalty vs. § 3604 broad win rate rho=−0.43. High-penalty states have 2.1x the housing authority defendant rate. Top penalties: Ohio 19.3 pp, Pennsylvania 19.1 pp, Maryland 18.8 pp (White).
+Spearman rank correlations (n=10 states): White penalty vs. litigation volume rho=−0.03; White penalty vs. § 3604 broad win rate rho=−0.43. High-penalty states have 2.1x the housing authority defendant rate. Top penalties: Ohio 19.3 percentage points, Pennsylvania 19.1 percentage points, Maryland 18.8 percentage points (White).
 
 ### I. Invisible Population Analysis
 
@@ -220,7 +220,7 @@ Unified dataset (N=3,193) cross-tabulated disability_category with accommodation
 
 #### K.2 Key Results
 
-Win rate hierarchy (strict): sensory 29.7%, I/DD 29.8%, mobility 25.8%, substance use 22.4%, mental health 18.4%. Post-LB collapse: sensory −31.7 pp (small n), I/DD −15.8 pp, substance use −4.4 pp (most resilient). MTD dismissal rate: mental health 76%, mobility 56%. PUMS confirms DPHY/DOUT definition captures highest-penalty disabilities.
+Win rate hierarchy (strict): sensory 29.7%, I/DD 29.8%, mobility 25.8%, substance use 22.4%, mental health 18.4%. Post-LB collapse: sensory −31.7 percentage points (small n), I/DD −15.8 percentage points, substance use −4.4 percentage points (most resilient). MTD dismissal rate: mental health 76%, mobility 56%. PUMS confirms DPHY/DOUT definition captures highest-penalty disabilities.
 
 ### L. Computational Environment
 
