@@ -35,9 +35,13 @@ This repository provides what HUD does not: a structured empirical dataset of 3,
 
 ## Why Three Models Instead of One
 
-In 2023, HUD's Office of Policy Development and Research published [*Generative AI: Mining Housing Data With a Higher Powered Shovel*](https://www.huduser.gov/portal/periodicals/cityscape/vol25num3/ch9.pdf) (Dylan J. Hayden, *Cityscape* Vol. 25 No. 3), demonstrating that generative AI could accelerate housing data analysis while flagging the risks of bias and hallucination that demand human supervision.
+The core empirical claim of this project requires classifying 3,193 federal court opinions into structured data — extracting accommodation type, outcome, procedural posture, disability category, and housing type from each case, ultimately yielding 6,718 individual claims. That is the kind of dataset HUD has never built and no existing legal database provides.
 
-This repository applies that insight to a harder problem: **structured legal classification of court opinions**, where accuracy matters more than speed and a single model's errors propagate silently through an entire dataset. A single LLM will hallucinate, miscategorize, and silently drop fields. The solution is not to avoid AI but to architect around its failure modes:
+**Manual review was not feasible.** A single researcher reading and coding 3,193 opinions at even 15 minutes per case would need approximately 800 hours — roughly five months of full-time work. Traditional research-assistant coding at that scale introduces its own reliability problems (coder drift, inconsistent application of classification rules, fatigue-induced errors) and would require extensive inter-rater reliability testing to validate. The dataset simply could not exist without automated classification.
+
+**But a single LLM is not trustworthy enough.** In 2023, HUD's Office of Policy Development and Research published [*Generative AI: Mining Housing Data With a Higher Powered Shovel*](https://www.huduser.gov/portal/periodicals/cityscape/vol25num3/ch9.pdf) (Dylan J. Hayden, *Cityscape* Vol. 25 No. 3), demonstrating that generative AI could accelerate housing data analysis while flagging the risks of bias and hallucination that demand human supervision. A single LLM will hallucinate, miscategorize, and silently drop fields — and when the entire empirical foundation of a law review article depends on the accuracy of that classification, silent errors are unacceptable.
+
+**The solution was to use three independent LLMs and treat disagreement as a quality signal.** Rather than trusting any single model, the pipeline runs each case through three separate models and uses their agreement (or lack of it) to determine confidence and route difficult cases to stronger adjudicators. This approach applies the logic of inter-rater reliability — the same principle that governs human coding in empirical legal research — to automated classification:
 
 1. **No single point of failure.** Three independent models (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) classify each case separately. When all three disagree, the case is flagged for adjudication rather than silently miscoded.
 
