@@ -22,11 +22,11 @@ At minimum 823,000 disabled renters of color reside in non-entitlement communiti
 
 The entire AFFH canon — from *Shannon* to *Inclusive Communities* — was built to address racial segregation. Disability has generated **zero AFFH precedent** despite dominating the complaint docket since at least the mid-2000s. HUD collects no systematic data on accommodation requests or denials and maintains no national accessible housing inventory. None of the forty-nine AFH submissions contained quantitative accessibility data.
 
-This repository provides what HUD does not: a structured empirical dataset of 3,193 federal disability accommodation cases decomposed into 6,718 individual claims, classified by accommodation type, outcome, procedural posture, disability category, and housing type — enabling the first large-scale analysis of how courts actually decide reasonable-accommodation claims under § 3604(f)(3).
+This repository provides what HUD does not: a structured empirical dataset of approximately 2,566 unique federal FHA cases across all protected classes — drawn from three databases (RA Database, n=1,857; 2015 FHA Database, n=1,496; FHA Pilot Database, n=331) and deduplicated into a Unified Dataset of 3,193 cases (6,718 individual claims) for per-claim analysis. The disability-specific findings rely primarily on the 2015 FHA Database (§ 3604(f) cases); the RA Database provides cross-class comparisons across all FHA protected classes.
 
 ### Key Empirical Findings
 
-- **Plaintiff win rates declined significantly after *Loper Bright***: from 25.3% (n=673) to 17.9% (n=330), p=0.012
+- **Plaintiff win rates declined significantly after *Loper Bright***: In the 2015 FHA Database (§ 3604(f) disability cases), strict plaintiff win rates fell from 21.5% to 13.7% (p=0.0004); the RA Database (all protected classes) shows a corroborating decline from 16.7% to 9.0%
 - **Procedural gatekeeping disproportionately burdens disability claims**: courts cite *Iqbal* in disability cases at ~3.3x the rate observed in race cases; when invoked, defendant success at MTD rises from 43.1% to 66.7%
 - **Accommodation type predicts outcomes**: assistance-animal claims yield 38.7% plaintiff success; transfer claims yield 5.4% — suggesting the doctrinal framework advantages discrete, low-cost accommodations over structural or administrative changes
 - **Design-and-construction enforcement is virtually absent**: 47% noncompliance rate against 0.8% of complaints — a 56:1 ratio
@@ -35,7 +35,7 @@ This repository provides what HUD does not: a structured empirical dataset of 3,
 
 ## Why Three Models Instead of One
 
-The core empirical claim of this project requires classifying 3,193 federal court opinions into structured data — extracting accommodation type, outcome, procedural posture, disability category, and housing type from each case, ultimately yielding 6,718 individual claims. That is the kind of dataset HUD has never built and no existing legal database provides.
+The core empirical claim of this project requires classifying approximately 2,566 unique federal FHA opinions into structured data. The RA Database (n=1,857, all protected classes) and 2015 FHA Database (n=1,496, § 3604(f) disability cases) were deduplicated into a Unified Dataset of 3,193 cases, then decomposed via per-claim extraction into 6,718 individual claims. That is the kind of dataset HUD has never built and no existing legal database provides.
 
 **Manual review was not feasible.** A single researcher reading and coding 3,193 opinions at even 15 minutes per case would need approximately 800 hours — roughly five months of full-time work. Traditional research-assistant coding at that scale introduces its own reliability problems (coder drift, inconsistent application of classification rules, fatigue-induced errors) and would require extensive inter-rater reliability testing to validate. The dataset simply could not exist without automated classification.
 
@@ -140,7 +140,7 @@ The pipeline processes court opinions through five stages:
 
 1. **FHA Screening** — Gemini 3.1 Flash Lite binary classifier filters non-FHA opinions
 2. **Triple-Model Classification** — MiniMax M2.7 + DeepSeek V3.2 + Kimi K2.5 independently produce 28-field structured JSON per case
-3. **Tiered Consensus Resolution** — Unanimous → majority vote → Haiku 4.5 adjudication → Sonnet 4.6 adjudication
+3. **Tiered Consensus Resolution** — Unanimous → majority vote → Haiku 4.5 adjudication → Sonnet 4.6 adjudication (RA Database). The 2015 FHA Database uses the same triple-model classification but resolves three-way splits via MiniMax M2.7 tiebreaker rather than API adjudication; see Appendix A, Section A.3
 4. **Per-Claim Extraction** — Haiku 4.5 decomposes multi-claim cases into individual legal claims
 5. **Reproducibility Audit** — Opus 4.6 re-classifies a stratified sample for inter-rater reliability
 
