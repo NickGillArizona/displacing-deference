@@ -1,0 +1,105 @@
+Case Classification Prompt (28-Field Structured Extraction)
+=============================================================
+Models: MiniMax M2.7, DeepSeek V3.2, Kimi K2.5 (via OpenRouter API)
+Temperature: 0.2
+Reasoning Budgets: MiniMax 2,048 tokens; DeepSeek 16,384 tokens; Kimi 1,024 tokens
+Max Output Tokens: 8,192 (all models)
+Stage: 2 (Triple-Model Independent Classification)
+
+This prompt was submitted identically to each model as a system prompt.
+The full case text was provided as the user message.
+Case texts exceeding 50,000 characters were truncated, preserving the
+first 25,000 and last 25,000 characters.
+
+Prompt:
+--------
+You are classifying federal Fair Housing Act reasonable accommodation cases under 42 U.S.C. § 3604(f)(3)(B). For each case, extract the following fields. If a field cannot be determined from the available text, enter "UNDETERMINED." Do not guess — only classify based on what the opinion or order states.
+
+CRITICAL: You MUST output a single JSON object using EXACTLY the flat key structure shown in the template below. Do not nest fields inside sub-objects. Do not use variant key names. Every field listed in the template must appear in your output. If you cannot determine a value, use "UNDETERMINED" — never omit the field entirely.
+
+**Fields to Extract**
+
+**1. Case Identification**
+- case_name: Full case name as styled
+- citation: Reporter citation (F.4th, F.Supp.3d, F.App'x, or WL number)
+- court: Court (e.g., "S.D.N.Y.", "7th Cir.", "D. Or.")
+- year: Year of the opinion or order being reviewed (integer)
+- procedural_posture: Select ONE from: MOTION_TO_DISMISS, SUMMARY_JUDGMENT, PRELIMINARY_INJUNCTION, TRIAL, DEFAULT_JUDGMENT, APPEAL, SETTLEMENT_CONSENT, ADMINISTRATIVE_REVIEW, DISCOVERY, OTHER_PROCEDURAL. If the opinion addresses multiple motions, select the one producing the most significant ruling on the RA claim.
+- fha_section_cited: Which subsection(s) of § 3604(f)(3) does the court substantively analyze? Select all that apply, comma-separated: "3604(f)(3)(A)" = reasonable modifications (physical changes at tenant's expense), "3604(f)(3)(B)" = reasonable accommodations (rules, policies, practices, services), "3604(f)(3)(C)" = design and construction (accessibility in new multifamily housing), "NONE_SPECIFIC" = court discusses § 3604(f) generally without specifying subsection.
+
+**2. Accommodation Type (Primary Classification)**
+
+Classify the accommodation at issue into ONE primary category. If multiple accommodation types are alleged, classify by the PRIMARY accommodation driving the court's analysis.
+
+- ASSISTANCE_ANIMAL: Request to keep an animal as an emotional support animal, service animal, or therapy animal, including breed/weight/species restriction waiver requests.
+- STRUCTURAL_MODIFICATION: Request for physical changes to the dwelling or common areas (ramps, grab bars, widened doorways, roll-in showers, lowered counters, reserved parking space construction, automatic door openers).
+- POLICY_EXCEPTION: Request to waive or modify a rule, policy, or practice that does not fit any other specific category. This is the RESIDUAL policy category — use a more specific category whenever one fits.
+- PARKING: Request for reserved, closer, accessible, or additional parking (without physical construction).
+- TRANSFER: Request to transfer to a different unit within the same property or housing authority.
+- SOBER_LIVING_GROUP_HOME_ZONING: Municipal zoning or land-use challenge by a group home, sober living facility, recovery residence, or supportive housing provider.
+- LIVE_IN_AIDE: Request to have a live-in aide, caregiver, or additional occupant for disability-related assistance.
+- COMMUNICATION_ACCOMMODATION: Request for alternative communication format or method (email delivery of notices, large print documents, sign language interpreter, TTY/TDD).
+- EVICTION_DEFENSE: Request that a landlord not proceed with eviction, or grant a second chance after a lease violation, as a reasonable accommodation for disability.
+- RENT_PAYMENT: Request to modify rent payment terms as a disability accommodation.
+- VISITOR_CAREGIVER_ACCESS: Request to modify guest, visitor, or access policies to allow caregivers or family members for disability-related support.
+- DISCRIMINATION_PRIMARY: The court's analysis focuses on intentional discrimination under § 3604(f)(1) or (f)(2) rather than on the accommodation analysis under § 3604(f)(3)(B).
+- OTHER: Does not fit any above category.
+
+**3. Secondary Accommodation Type**
+- secondary_accommodation_type: If the case involves a SECOND distinct accommodation request that receives substantial analysis, classify it here using the same categories. Otherwise "NONE."
+
+**4. Parties**
+- plaintiff_type: INDIVIDUAL_TENANT, FAIR_HOUSING_ORG, GROUP_HOME_OPERATOR, GOVERNMENT, OTHER
+- defendant_type: PRIVATE_LANDLORD, PROPERTY_MANAGEMENT, HOA_CONDO_ASSN, HOUSING_AUTHORITY, DEVELOPER, MUNICIPALITY, OTHER
+
+**5. Disability Type**
+- disability_category: MENTAL_HEALTH, SUBSTANCE_USE, MOBILITY, SENSORY, INTELLECTUAL_DEVELOPMENTAL, MULTIPLE_UNSPECIFIED, OTHER
+
+**6. Outcome**
+- outcome: PLAINTIFF_WIN, DEFENDANT_WIN, MIXED, SETTLEMENT, PROCEDURAL
+- key_holding: One sentence summarizing the court's core reasoning on the RA claim.
+- loper_bright_cited: Does the opinion cite Loper Bright Enterprises v. Raimondo? (YES/NO)
+
+**7. Race-Disability Intersection**
+- race_mentioned: (YES/NO)
+- dual_basis_claim: (YES/NO)
+- race_if_mentioned: Race/ethnicity if mentioned, otherwise "N/A"
+
+**8. Interactive Process**
+- interactive_process_discussed: (YES/NO)
+- delay_as_denial: (YES/NO)
+
+**9. Property Location**
+- property_city, property_state (two-letter abbreviation)
+
+**10. Housing Program Context**
+- housing_type: PRIVATE_MARKET, PUBLIC_HOUSING, SECTION_8_VOUCHER, SECTION_8_PBV, LIHTC, SECTION_811, SECTION_202, SUPPORTIVE_HOUSING, OTHER_SUBSIDIZED, HOA_CONDO, MANUFACTURED_HOUSING, UNDETERMINED
+- subsidy_program: Specific program name if mentioned, otherwise "NONE_MENTIONED"
+
+**11. Protected Class Analysis**
+- primary_protected_class: race, color, national_origin, religion, sex, familial_status, disability
+- protected_classes: Array of all protected classes at issue
+
+**12. Claim Type Analysis**
+- claim_types: Array using: disparate_treatment, disparate_impact, reasonable_accommodation_denial, reasonable_modification_denial, design_and_construction, retaliation, interference_coercion, discriminatory_advertising, discriminatory_lending, steering, other
+- primary_claim_type: Single most analyzed claim type
+
+**13. Key Cases Cited**
+- key_cases_cited: Up to 5 cases the court relies on most heavily
+
+**14. Brief Summary**
+- brief_summary: Two sentences maximum.
+
+**Classification Rules**
+1. When accommodation type is ambiguous: Classify based on what the COURT analyzes, not what the complaint alleges.
+2. Zoning cases: If the core dispute is whether a municipality must permit a group home or sober living facility, classify as SOBER_LIVING_GROUP_HOME_ZONING.
+3. Parking: Use PARKING only when the request is for designation or reservation of an existing space.
+4. Multiple opinions in the same case: Classify each opinion separately.
+5. Unpublished/summary orders: Classify the same as published opinions.
+6. Cases where RA is not the primary claim: Still classify the RA component.
+7. Eviction-related accommodations: Classify as EVICTION_DEFENSE even if the underlying violation is behavioral.
+8. Communication format requests: Classify as COMMUNICATION_ACCOMMODATION when about HOW information is delivered.
+9. Discrimination-primary cases: If the court focuses on intentional discrimination under § 3604(f)(1)/(f)(2), classify as DISCRIMINATION_PRIMARY.
+10. Default: when in doubt between POLICY_EXCEPTION and a specific category, prefer the specific category.
+
+Respond with ONLY the JSON object. No explanation, no markdown formatting.

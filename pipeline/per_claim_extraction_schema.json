@@ -1,0 +1,47 @@
+{
+  "$schema": "Per-Claim Structured Extraction Schema (Haiku 4.5)",
+  "description": "Schema for the supplemental per-claim extraction that decomposed each case into constituent legal claims. Applied via Claude Haiku 4.5 Batch API at temperature 0.1.",
+  "case_level_fields": {
+    "pro_se": "boolean — whether plaintiff is self-represented",
+    "counsel_named": "string — name of counsel if represented",
+    "disability_alleged": "string — disability type alleged",
+    "plaintiff_type": "INDIVIDUAL_TENANT | FAIR_HOUSING_ORG | GROUP_HOME_OPERATOR | GOVERNMENT | OTHER",
+    "defendant_type": "PRIVATE_LANDLORD | PROPERTY_MANAGEMENT | HOA_CONDO_ASSN | HOUSING_AUTHORITY | DEVELOPER | MUNICIPALITY | OTHER",
+    "disability_category": "MENTAL_HEALTH | SUBSTANCE_USE | MOBILITY | SENSORY | INTELLECTUAL_DEVELOPMENTAL | MULTIPLE_UNSPECIFIED | OTHER",
+    "housing_type": "PRIVATE_MARKET | PUBLIC_HOUSING | SECTION_8_VOUCHER | SECTION_8_PBV | LIHTC | SECTION_811 | SECTION_202 | SUPPORTIVE_HOUSING | OTHER_SUBSIDIZED | HOA_CONDO | MANUFACTURED_HOUSING | UNDETERMINED",
+    "fha_sections_cited": "array of sections",
+    "interactive_process_discussed": "YES | NO",
+    "delay_as_denial": "YES | NO",
+    "loper_bright_cited": "YES | NO",
+    "iqbal_twombly_cited": "YES | NO",
+    "race_mentioned": "YES | NO"
+  },
+  "claims_array": {
+    "description": "Array of claim-level objects, one per distinct FHA claim. Non-FHA claims collapsed into single object per case.",
+    "claim_fields": {
+      "legal_theory": "REASONABLE_ACCOMMODATION | DISPARATE_TREATMENT | DISPARATE_IMPACT | RETALIATION | DESIGN_AND_CONSTRUCTION | INTERFERENCE_COERCION | NOT_FHA | UNCLEAR",
+      "accommodation_type": "For RA claims only, same categories as pipeline classification",
+      "ra_standard_applied": "INTERACTIVE_PROCESS | DIRECT_BALANCING | BURDEN_SHIFTING | UNDUE_BURDEN_DEFENSE | FUNDAMENTAL_ALTERATION_DEFENSE",
+      "procedural_stage": "string",
+      "disposition": "string",
+      "merits_reached": "YES | NO | PARTIAL | SETTLEMENT",
+      "dismissal_reason": "IQBAL_TWOMBLY | SUMMARY_JUDGMENT_GRANTED | SURVIVES_MTD | etc.",
+      "outcome": "PLAINTIFF_WIN | DEFENDANT_WIN | MIXED | PROCEDURAL | SETTLEMENT",
+      "reasoning": "string — extraction reasoning"
+    }
+  },
+  "merits_reached_classification_rule": {
+    "motion_to_dismiss": "Iqbal/Twombly and nexus-failure dismissals → merits_reached=NO (pleading sufficiency, not substantive standard)",
+    "summary_judgment_or_trial": "All outcomes → merits_reached=YES (evidentiary record evaluated against substantive elements)"
+  },
+  "pro_se_detection_patterns": [
+    "pro se",
+    "in forma pauperis",
+    "IFP",
+    "self-represented",
+    "without counsel",
+    "unrepresented",
+    "prisoner",
+    "incarcerated"
+  ]
+}
