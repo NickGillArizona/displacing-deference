@@ -45,7 +45,7 @@ The core empirical claim of this project requires classifying approximately 2,56
 
 **The solution was to use three independent LLMs and treat disagreement as a quality signal.** Rather than trusting any single model, the pipeline runs each case through three separate models and uses their agreement (or lack of it) to determine confidence and route difficult cases to stronger adjudicators. This approach applies the logic of inter-rater reliability — the same principle that governs human coding in empirical legal research — to automated classification:
 
-1. **No single point of failure.** Three independent models (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) classify each case separately. When all three disagree, the case is flagged for adjudication rather than silently miscoded.
+1. **No single point of failure.** Three independent models (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) classify each case separately. These classifiers were selected for architectural independence: different training corpora (Chinese and Western sources), different parameter scales, and different fine-tuning approaches — ensuring that consensus reflects textual signal rather than shared model bias. When all three disagree, the case is flagged for adjudication rather than silently miscoded.
 
 2. **Disagreement is signal, not noise.** A three-way split on `outcome` or `claim_type` usually means the case is genuinely ambiguous — multi-claim opinions, mixed dispositions, or unusual procedural postures. The pipeline routes these to stronger adjudication models that see all three answers plus the original text.
 
@@ -89,6 +89,8 @@ Nearly half of all cases resolved at the cheap majority-vote tier. The remaining
 | Outcome | 70.0% | 0.561 (Moderate) |
 | Primary Claim Type | 62.0% | 0.511 (Moderate) |
 
+**Inter-coder reliability context.** The κ=0.561 outcome score falls within the "moderate" range conventionally expected for multi-category legal classification tasks involving adjacent procedural boundaries. Of 15 outcome disagreements, 11 (73%) involved the procedural/substantive boundary — specifically, whether a dismissal without prejudice constitutes a "Defendant Win" or a "Procedural" disposition, or whether a partial settlement is "Mixed" or a "Plaintiff Win." This captures irreducible legal ambiguity rather than classification noise. Because the dominant disagreement pattern is directional (pipeline classifications skewing toward "procedural" relative to the auditor), any resulting measurement error attenuates regression coefficients toward the null — making the statistically significant post-2024 findings conservative estimates.
+
 See [`pipeline/model_configuration.md`](pipeline/model_configuration.md) for full agreement rates, cost breakdowns, and audit methodology.
 
 ---
@@ -121,6 +123,10 @@ The Java and Python source code for the download pipeline, classification client
 ## Dataset
 
 The unified dataset (N=3,193 cases, 6,718 claims) and full audit trail are available upon request.
+
+## Limitations
+
+The reproducibility audit measures inter-classifier agreement, not accuracy against human-coded ground truth. No human-coded FHA litigation dataset of comparable scope exists against which to benchmark; this dataset is, to the author's knowledge, the first comprehensive classified FHA litigation corpus. Small-N subgroup analyses (n < 30) are flagged as suggestive throughout the article. The dataset captures federal written opinions only, not the universe of FHA disputes, settlements, or administrative resolutions; the coding task is one of structured extraction from judicial opinions into a pre-specified vocabulary, not autonomous legal judgment. Causal claims about *Loper Bright*'s independent judicial effect are expressly disclaimed; the observed decline is consistent with, but not proven to result from, the decision alone.
 
 ## License
 
