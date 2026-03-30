@@ -4,27 +4,48 @@
 
 ---
 
-## Why This Exists
+## The Argument
 
-Disability is the dominant axis of federal fair housing enforcement — 54.6% of all complaints, 38.1% of federal litigation — yet no large-scale empirical dataset of disability accommodation case outcomes exists. Researchers who want to study how courts actually decide reasonable-accommodation claims under 42 U.S.C. § 3604(f)(3) must read thousands of opinions by hand.
+Congress directed federal agencies to "affirmatively further" fair housing but never defined what the obligation required. 42 U.S.C. § 3608(d) specifies neither the content of that mandate nor the outcomes it was meant to produce — an omission that has driven five incompatible regulatory frameworks in a single decade.
 
-In 2023, HUD's Office of Policy Development and Research published [*Generative AI: Mining Housing Data With a Higher Powered Shovel*](https://www.huduser.gov/portal/periodicals/cityscape/vol25num3/ch9.pdf) (Dylan J. Hayden, *Cityscape* Vol. 25 No. 3), demonstrating that generative AI could accelerate housing data analysis — producing in a single day what would otherwise take a week with traditional tools, while flagging the risks of bias and hallucination that demand human supervision.
+The contest has produced two competing models. The **Proactive Integration Model** treats fair housing as a spatial project, measuring progress through dissimilarity indices and racial dispersal across census tracts. The **Equal Access Model** treats fair housing as a transactional guarantee, eliminating discrimination without mandating demographic outcomes. Neither model engages the protected class now dominating fair housing enforcement: **disability**, which constitutes 54.6% of all fair housing complaints and 38.1% of federal litigation.
 
-This repository takes HUD's insight and applies it to a harder problem: **structured legal classification of court opinions**, where accuracy matters more than speed and a single model's errors can propagate silently through an entire dataset.
+This project argues that the post-*Loper Bright* constitutional landscape strongly counsels recalibrating AFFH through the disability-specific mandates of § 3604(f)(3). The elimination of *Chevron* deference and the Major Questions Doctrine substantially constrain the integration model's expansive reading of "affirmatively further," while § 3604(f)(3)'s specific statutory commands — reasonable modifications, reasonable accommodations, and design-and-construction accessibility standards — possess constitutional durability that the ambiguous § 3608(d) delegation lacks.
 
-### Why Three Models Instead of One
+### Why Disability, Not Race, Is the Structural Pivot
 
-A single LLM classifying legal opinions will hallucinate, miscategorize, and silently drop fields — exactly the risks Hayden's HUD article identified. The solution is not to avoid AI but to architect around its failure modes:
+The recalibration is not a retreat from racial equity. Disability is the dominant axis of housing cost burden: the disability penalty (10–17 percentage points across racial groups) exceeds the entire racial cost-burden gap among non-disabled renters (8.4 points Black-White). Among disabled renters, the Black-White cost-burden gap compresses to 1.6 percentage points (56.3% vs. 54.7%). The integration model measures the smaller axis. Section 3604(f)(3) targets the larger one.
 
-1. **No single point of failure.** Three independent models (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) classify each case separately. When two or three agree, confidence is high. When all three disagree, the case is flagged for adjudication rather than silently miscoded.
+At minimum 823,000 disabled renters of color reside in non-entitlement communities the integration model structurally excluded. For this population, disability-centered enforcement is not a tradeoff — it is the only federal enforcement pathway that exists.
 
-2. **Disagreement is signal, not noise.** A three-way split on `outcome` or `claim_type` usually means the case is genuinely ambiguous — multi-claim opinions, mixed dispositions, or unusual procedural postures. The pipeline routes these to stronger models (Haiku 4.5 or Sonnet 4.6) that see all three answers plus the original text.
+### The Empirical Gap This Repository Fills
 
-3. **Cost-tiered escalation.** Most cases resolve at the cheap consensus tier (~$0.01/case). Only the hard cases escalate to expensive adjudication models. Total pipeline cost for 3,193 cases: ~$160. A single-model approach using a frontier model would cost 5-10x more with no disagreement signal.
+The entire AFFH canon — from *Shannon* to *Inclusive Communities* — was built to address racial segregation. Disability has generated **zero AFFH precedent** despite dominating the complaint docket since at least the mid-2000s. HUD collects no systematic data on accommodation requests or denials and maintains no national accessible housing inventory. None of the forty-nine AFH submissions contained quantitative accessibility data.
+
+This repository provides what HUD does not: a structured empirical dataset of 3,193 federal disability accommodation cases decomposed into 6,718 individual claims, classified by accommodation type, outcome, procedural posture, disability category, and housing type — enabling the first large-scale analysis of how courts actually decide reasonable-accommodation claims under § 3604(f)(3).
+
+### Key Empirical Findings
+
+- **Plaintiff win rates declined significantly after *Loper Bright***: from 25.3% (n=673) to 17.9% (n=330), p=0.012
+- **Procedural gatekeeping disproportionately burdens disability claims**: courts cite *Iqbal* in disability cases at ~3.3x the rate observed in race cases; when invoked, defendant success at MTD rises from 43.1% to 66.7%
+- **Accommodation type predicts outcomes**: assistance-animal claims yield 38.7% plaintiff success; transfer claims yield 5.4% — suggesting the doctrinal framework advantages discrete, low-cost accommodations over structural or administrative changes
+- **Design-and-construction enforcement is virtually absent**: 47% noncompliance rate against 0.8% of complaints — a 56:1 ratio
+
+---
+
+## Why Three Models Instead of One
+
+In 2023, HUD's Office of Policy Development and Research published [*Generative AI: Mining Housing Data With a Higher Powered Shovel*](https://www.huduser.gov/portal/periodicals/cityscape/vol25num3/ch9.pdf) (Dylan J. Hayden, *Cityscape* Vol. 25 No. 3), demonstrating that generative AI could accelerate housing data analysis while flagging the risks of bias and hallucination that demand human supervision.
+
+This repository applies that insight to a harder problem: **structured legal classification of court opinions**, where accuracy matters more than speed and a single model's errors propagate silently through an entire dataset. A single LLM will hallucinate, miscategorize, and silently drop fields. The solution is not to avoid AI but to architect around its failure modes:
+
+1. **No single point of failure.** Three independent models (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) classify each case separately. When all three disagree, the case is flagged for adjudication rather than silently miscoded.
+
+2. **Disagreement is signal, not noise.** A three-way split on `outcome` or `claim_type` usually means the case is genuinely ambiguous — multi-claim opinions, mixed dispositions, or unusual procedural postures. The pipeline routes these to stronger adjudication models that see all three answers plus the original text.
+
+3. **Cost-tiered escalation.** Most cases resolve at the cheap consensus tier. Only the hard cases escalate. Total pipeline cost for 3,193 cases: ~$160.
 
 4. **Auditable at every stage.** Every record carries resolution metadata: which tier resolved it, which models agreed, what the adjudicator decided and why. The audit database preserves all three model outputs (~91 fields/record) alongside the canonical answer (~27 fields).
-
-The result: a dataset of 3,193 cases decomposed into 6,718 individual claims, with inter-model agreement rates, Cohen's kappa scores, and a 50-case reproducibility audit against Claude Opus 4.6.
 
 ---
 
@@ -69,15 +90,6 @@ pip install statsmodels numpy
 python scripts/regression_analysis.py <unified_dataset.json>
 ```
 
-## Data Sources
-
-| Source | Access |
-|--------|--------|
-| CourtListener REST API v4 | https://www.courtlistener.com/api/rest/v4/ |
-| ACS 2020-2024 5-Year PUMS | https://api.census.gov/data/2024/acs/acs5/pums |
-| OpenRouter API | https://openrouter.ai/ |
-| Anthropic Message Batches API | https://docs.anthropic.com/ |
-
 ## Classification Pipeline
 
 The pipeline processes court opinions through five stages:
@@ -90,11 +102,18 @@ The pipeline processes court opinions through five stages:
 
 See [`pipeline/`](pipeline/) for full documentation including model costs, agreement rates, and resolution tier distributions.
 
+## Data Sources
+
+| Source | Access |
+|--------|--------|
+| CourtListener REST API v4 | https://www.courtlistener.com/api/rest/v4/ |
+| ACS 2020-2024 5-Year PUMS | https://api.census.gov/data/2024/acs/acs5/pums |
+| OpenRouter API | https://openrouter.ai/ |
+| Anthropic Message Batches API | https://docs.anthropic.com/ |
+
 ## Source Code
 
-The Java and Python source code for the download pipeline, classification clients, and evaluation framework is maintained in the companion repository:
-
-**[MFH-Java-Work](https://github.com/NickGillArizona/MFH-Java-Work)**
+The Java and Python source code for the download pipeline, classification clients, and evaluation framework is maintained in the companion repository: **[MFH-Java-Work](https://github.com/NickGillArizona/MFH-Java-Work)**
 
 ## Dataset
 
