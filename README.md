@@ -51,6 +51,44 @@ The core empirical claim of this project requires classifying 3,193 federal cour
 
 4. **Auditable at every stage.** Every record carries resolution metadata: which tier resolved it, which models agreed, what the adjudicator decided and why. The audit database preserves all three model outputs (~91 fields/record) alongside the canonical answer (~27 fields).
 
+### Pipeline Performance
+
+**Inter-model agreement rates** confirm that the three-model design catches real ambiguity rather than generating artificial noise. Objective fields achieve near-perfect consensus while interpretive fields — where human coders would also disagree — show meaningful divergence:
+
+| Field | Unanimous (3/3) | Majority (2/3) | No Majority |
+|-------|:---:|:---:|:---:|
+| Court | 96.9% | 2.9% | 0.2% |
+| Year | 98.7% | 1.2% | 0.2% |
+| Outcome | 69.1% | 28.0% | 2.9% |
+| Primary Claim Type | 62.6% | 32.2% | 5.2% |
+| Accommodation Type | 34.7% | 45.8% | 19.5% |
+| Disability Category | 47.9% | 47.4% | 4.7% |
+| Housing Type | 70.9% | 26.8% | 2.3% |
+
+Only 0.6% of cases achieved full unanimous consensus across all fields — meaning the multi-model design caught disagreements requiring resolution in 99.4% of records.
+
+**Resolution tier distribution** (n=1,857 RA cases):
+
+| Tier | Resolution Method | Records | % |
+|:---:|---|:---:|:---:|
+| 0 | Unanimous consensus | 12 | 0.6% |
+| 1–2 | Majority vote (no API call) | 843 | 45.4% |
+| 3 | Haiku 4.5 adjudication | 697 | 37.5% |
+| 4 | Sonnet 4.6 adjudication | 302 | 16.3% |
+
+Nearly half of all cases resolved at the cheap majority-vote tier. The remaining cases escalated to progressively stronger (and more expensive) adjudicators — concentrating cost on the genuinely difficult classifications.
+
+**Reproducibility audit.** Claude Opus 4.6 independently re-classified a stratified random sample of 50 cases. Aggregate match rate across 12 vocabulary-aligned fields: **81.5%**. Cohen's Kappa scores ranged from Moderate (outcome: κ=0.561) to Substantial (defendant type: κ=0.740), consistent with inter-rater reliability benchmarks in empirical legal research.
+
+| Field | Match Rate | Cohen's Kappa |
+|-------|:---:|:---:|
+| Plaintiff Type | 90.0% | 0.668 (Substantial) |
+| Defendant Type | 78.0% | 0.740 (Substantial) |
+| Outcome | 70.0% | 0.561 (Moderate) |
+| Primary Claim Type | 62.0% | 0.511 (Moderate) |
+
+See [`pipeline/model_configuration.md`](pipeline/model_configuration.md) for full agreement rates, cost breakdowns, and audit methodology.
+
 ---
 
 ## Repository Structure
