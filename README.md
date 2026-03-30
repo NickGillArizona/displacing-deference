@@ -1,6 +1,6 @@
 # Displacing Deference: Data and Doctrine for a Disability-Centered AFFH
 
-**Nick Gill** | Arizona State University Sandra Day O'Connor College of Law
+**Nick Gill** | University of Arizona James E. Rogers College of Law
 
 ---
 
