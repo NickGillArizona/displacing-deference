@@ -91,49 +91,6 @@ See [`pipeline/model_configuration.md`](pipeline/model_configuration.md) for ful
 
 ---
 
-## Repository Structure
-
-```
-prompts/                              # LLM classification instruments
-  fha_screening_prompt.txt            # Stage 1: Gemini binary FHA screening
-  case_classification_prompt.txt      # Stage 2: 28-field structured extraction
-
-queries/                              # API query specifications
-  census_pums_queries.md              # ACS 2020-2024 5-Year PUMS queries
-  courtlistener_api.md                # CourtListener REST API v4 download specs
-
-scripts/                              # Executable replication scripts
-  census_pums_replication.py          # Full Census PUMS analysis (Python 3)
-  regression_analysis.py              # Multivariate logistic regression
-
-pipeline/                             # Classification pipeline documentation
-  model_configuration.md              # Model specs, costs, and agreement rates
-  consensus_resolution.md             # Tiered consensus algorithm
-  per_claim_extraction_schema.json    # Haiku 4.5 per-claim schema
-  field_normalization.md              # Free-text normalization rules
-
-appendices/                            # Supplementary appendices (A through K)
-
-analysis/                             # Extended analysis methodology
-```
-
-## Quick Start
-
-### Census PUMS Replication (no dependencies)
-
-```bash
-python scripts/census_pums_replication.py
-```
-
-Queries the Census Bureau Data API directly. No API key required. Reproduces disability prevalence, cost-burden penalties, and GRPIP=101 rates.
-
-### Regression Analysis (requires statsmodels)
-
-```bash
-pip install statsmodels numpy
-python scripts/regression_analysis.py <unified_dataset.json>
-```
-
 ## Classification Pipeline
 
 The pipeline processes court opinions through five stages:
@@ -189,3 +146,29 @@ The following supplementary appendices are referenced throughout the Note's foot
 | [I](appendices/Appendix_I_AFFH_Case_Classification.md) | AFFH Case Classification | LLM-assisted classification methodology and results for 71 CourtListener AFFH decisions |
 | [J](appendices/Appendix_J_Safe_Harbor_Detail.md) | Safe Harbor Operational Detail | Worked examples, rural edge cases, Availability Audit mechanics, and multi-jurisdiction population threshold survey |
 | [K](appendices/Appendix_K_Classification_Prompts.md) | Classification Prompts | Full text of FHA relevance screening and case classification prompts |
+
+## Repository Structure
+
+```
+prompts/                              # LLM classification instruments
+  fha_screening_prompt.txt            # Stage 1: Gemini binary FHA screening
+  case_classification_prompt.txt      # Stage 2: 28-field structured extraction
+
+queries/                              # API query specifications
+  census_pums_queries.md              # ACS 2020-2024 5-Year PUMS queries
+  courtlistener_api.md                # CourtListener REST API v4 download specs
+
+scripts/                              # Executable replication scripts
+  census_pums_replication.py          # Full Census PUMS analysis (Python 3)
+  regression_analysis.py              # Multivariate logistic regression
+
+pipeline/                             # Classification pipeline documentation
+  model_configuration.md              # Model specs, costs, and agreement rates
+  consensus_resolution.md             # Tiered consensus algorithm
+  per_claim_extraction_schema.json    # Haiku 4.5 per-claim schema
+  field_normalization.md              # Free-text normalization rules
+
+appendices/                            # Supplementary appendices (A through K)
+
+analysis/                             # Extended analysis methodology
+```
