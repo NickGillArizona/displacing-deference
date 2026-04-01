@@ -166,6 +166,21 @@ python scripts/regression_analysis.py
 
 # Verification of computed vs. expected values
 python scripts/phase5_verify.py
+
+# Iqbal pleading barrier quantification (331 FHA cases)
+python scripts/fha_iqbal_analysis.py
+
+# Comprehensive FHA case statistical analysis
+python scripts/fha_case_deep_dive.py
+
+# Positional bias analysis in LLM classification
+python scripts/positional_bias_v2.py
+
+# Recompute note statistics from Haiku per-claim extraction
+python scripts/phase2_recompute.py
+
+# Final stats extraction using v4 unified database
+python scripts/extract_final.py
 ```
 
 ### Pipeline 2: Census PUMS Housing Analysis
@@ -209,6 +224,7 @@ python scripts/pums_dis1_sensitivity.py
 | `results/pums_results.csv` | Cost burden rates by race × disability status with SE and 90% MOE |
 | `results/pums_se_results.json` | Detailed standard error calculations, disability penalty, GRPIP distributions |
 | `results/housing_stock_results.json` | Building type/era distribution, pre-1990 accessibility gaps |
+| `results/pums_sensitivity_results.json` | Disability-definition sensitivity analysis (DPHY-only vs. DPHY∪DOUT) |
 | `results/regression_results_RA9.txt` | Logistic regression output (7 model specifications) |
 
 ### Note on Reproducibility
@@ -272,13 +288,24 @@ scripts/                              # Executable replication scripts
   regression_analysis_full.py         # Full 4-model regression with interaction terms
   analyze_3604_unified.py            # Section 3604 database analysis (pre/post Loper Bright)
   final_numbers.py                   # Authoritative statistics generator for the Note
+  extract_final.py                   # Final stats extraction using v4 unified database
   phase5_verify.py                   # Verification: expected vs. computed values
+  phase2_recompute.py                # Recompute note statistics from Haiku extraction
+  fha_iqbal_analysis.py              # Iqbal pleading barrier analysis (331 cases)
+  fha_case_deep_dive.py              # Comprehensive FHA case statistical analysis
+  ra_v3_analysis.py                  # RA v3 database analysis
+  positional_bias.py                 # Positional bias in claim classification
+  positional_bias_full.py            # Extended positional bias analysis
+  positional_bias_v2.py              # Refined positional bias methodology
+  extract_stats2.py                  # Pro se count reconciliation across databases
+  pums_export_csv.py                 # Export Census PUMS microdata to CSV
 
 results/                              # Output data and summary tables
   RESULTS_3604_database_analysis.md   # § 3604 database analysis results
   RESULTS_recentFHA_hypothesis_tests.md # Hypothesis test results (8 tests)
   pums_results.csv                    # Cost burden rates by race × disability with SE
   pums_se_results.json                # Detailed standard error calculations
+  pums_sensitivity_results.json       # Disability-definition sensitivity analysis
   housing_stock_results.json          # Housing stock accessibility analysis output
   regression_results_RA9.txt          # Regression model output
 
@@ -290,5 +317,6 @@ pipeline/                             # Classification pipeline documentation
 
 appendices/                            # Supplementary appendices (A through K)
 
-analysis/                             # Extended analysis methodology
+Validation_Methodology_Section.md     # Validation methodology documentation
+empirical_claims_verification_report.md # Empirical claims verification report
 ```
