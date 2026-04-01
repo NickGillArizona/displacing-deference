@@ -1,0 +1,9 @@
+Race,Disability,N_unweighted,Total_weighted,Burdened_weighted,Rate_pct,SE,MOE_90
+White alone,Non-disabled,153214,17848484,2450533,13.7,0.54,0.9
+White alone,Disabled,25198,2618176,679166,25.9,1.37,2.3
+Black alone,Non-disabled,35510,6425110,1188062,18.5,0.47,0.8
+Black alone,Disabled,7108,1004037,263823,26.3,0.7,1.1
+AIAN alone,Non-disabled,3632,381844,62570,16.4,1.62,2.7
+AIAN alone,Disabled,670,53613,11183,20.9,2.67,4.4
+Other,Non-disabled,71556,9774788,1694296,17.3,0.76,1.3
+Other,Disabled,7233,907391,219784,24.2,1.1,1.8

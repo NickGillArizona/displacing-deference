@@ -1,0 +1,464 @@
+{
+  "White": {
+    "total_disabled": 3145804,
+    "total_nondis": 19310451,
+    "disability_prevalence": 0.14008586917097263,
+    "dis_pre90_pct": 0.6774849927077465,
+    "nondis_pre90_pct": 0.6268161732732187,
+    "pre90_penalty_pp": 5.066881943452783,
+    "dis_4p_pre90_count": 1312295,
+    "dis_4p_pre90_pct": 0.41715726726776364,
+    "dis_4p_post90_count": 746312,
+    "dis_4p_post90_pct": 0.23724046380511946,
+    "gap_ratio": 1.7583731736860724,
+    "nondis_4p_pre90_pct": 0.31669757480029853,
+    "dis_pre90_cb": 0.5503091988798575,
+    "dis_pre90_severe": 0.2513839762327877,
+    "dis_pre90_count": 2131235,
+    "nd_pre90_cb": 0.3790625524347524,
+    "nd_pre90_severe": 0.1372694134108602,
+    "nd_pre90_count": 12104103,
+    "dis_post90_cb": 0.5966020088008367,
+    "dis_post90_severe": 0.2841994395879788,
+    "dis_post90_count": 1014569,
+    "nd_post90_cb": 0.394882472471289,
+    "nd_post90_severe": 0.14121014557704173,
+    "nd_post90_count": 7206348,
+    "dis_4p_pre90_cb": 0.5501674449539351,
+    "dis_4p_pre90_severe": 0.24518718706528714,
+    "dis_4p_pre90_g101_pct": 0.15999146533363306,
+    "dis_incomplete_plmb": 0.007622534652508548,
+    "nd_incomplete_plmb": 0.003174446831925365,
+    "plmb_ratio": 2.401216670523138,
+    "era_penalty_pre90": 0.17124664644510512,
+    "era_penalty_post90": 0.2017195363295477,
+    "dis_4p_all_pct": 0.6543977310728831,
+    "nd_4p_all_pct": 0.5559037435220959,
+    "bld_dist": {
+      "Mobile home": {
+        "count": 163009,
+        "pct": 5.2
+      },
+      "Boat/RV": {
+        "count": 6295,
+        "pct": 0.2
+      },
+      "1-fam detached": {
+        "count": 579019,
+        "pct": 18.4
+      },
+      "1-fam attached": {
+        "count": 127317,
+        "pct": 4.0
+      },
+      "2 apts": {
+        "count": 211557,
+        "pct": 6.7
+      },
+      "3-4 apts": {
+        "count": 321514,
+        "pct": 10.2
+      },
+      "5-9 apts": {
+        "count": 317083,
+        "pct": 10.1
+      },
+      "10-19 apts": {
+        "count": 280600,
+        "pct": 8.9
+      },
+      "20-49 apts": {
+        "count": 358901,
+        "pct": 11.4
+      },
+      "50+ apts": {
+        "count": 780509,
+        "pct": 24.8
+      }
+    },
+    "yrblt_dist": {
+      "Pre-1940": {
+        "count": 362077,
+        "pct": 11.5
+      },
+      "1940s": {
+        "count": 136756,
+        "pct": 4.3
+      },
+      "1950s": {
+        "count": 260157,
+        "pct": 8.3
+      },
+      "1960s": {
+        "count": 338094,
+        "pct": 10.7
+      },
+      "1970s": {
+        "count": 577557,
+        "pct": 18.4
+      },
+      "1980s": {
+        "count": 456594,
+        "pct": 14.5
+      },
+      "1990s": {
+        "count": 360461,
+        "pct": 11.5
+      },
+      "2000s": {
+        "count": 326672,
+        "pct": 10.4
+      },
+      "2010s": {
+        "count": 285770,
+        "pct": 9.1
+      },
+      "2020": {
+        "count": 19530,
+        "pct": 0.6
+      },
+      "2021": {
+        "count": 12099,
+        "pct": 0.4
+      },
+      "2022": {
+        "count": 6943,
+        "pct": 0.2
+      },
+      "2023": {
+        "count": 2632,
+        "pct": 0.1
+      },
+      "2024": {
+        "count": 462,
+        "pct": 0.0
+      }
+    },
+    "grpip_bands_4p_pre90": {
+      "Not burdened (0-30)": {
+        "count": 480203,
+        "pct": 36.6
+      },
+      "Moderate (31-50)": {
+        "count": 325571,
+        "pct": 24.8
+      },
+      "Severe (51-100)": {
+        "count": 261741,
+        "pct": 19.9
+      },
+      "Not computed (101)": {
+        "count": 209956,
+        "pct": 16.0
+      }
+    }
+  },
+  "Black": {
+    "total_disabled": 1232091,
+    "total_nondis": 7225492,
+    "disability_prevalence": 0.1456788541123392,
+    "dis_pre90_pct": 0.7251704622467009,
+    "nondis_pre90_pct": 0.6433312776486363,
+    "pre90_penalty_pp": 8.18391845980646,
+    "dis_4p_pre90_count": 555640,
+    "dis_4p_pre90_pct": 0.4509731829872956,
+    "dis_4p_post90_count": 243933,
+    "dis_4p_post90_pct": 0.1979829411950903,
+    "gap_ratio": 2.277838586825071,
+    "nondis_4p_pre90_pct": 0.38237119354640486,
+    "dis_pre90_cb": 0.5871687587168759,
+    "dis_pre90_severe": 0.2853981592287512,
+    "dis_pre90_count": 893476,
+    "nd_pre90_cb": 0.4747078696056471,
+    "nd_pre90_severe": 0.19169949711346218,
+    "nd_pre90_count": 4648385,
+    "dis_post90_cb": 0.5999640072904382,
+    "dis_post90_severe": 0.272690723070561,
+    "dis_post90_count": 338615,
+    "nd_post90_cb": 0.48806925150861846,
+    "nd_post90_severe": 0.1827164255708526,
+    "nd_post90_count": 2577107,
+    "dis_4p_pre90_cb": 0.5720502721682427,
+    "dis_4p_pre90_severe": 0.2624914076578669,
+    "dis_4p_pre90_g101_pct": 0.18675221366352315,
+    "dis_incomplete_plmb": 0.007350918073421525,
+    "nd_incomplete_plmb": 0.004389043680347303,
+    "plmb_ratio": 1.6748336559821728,
+    "era_penalty_pre90": 0.11246088911122881,
+    "era_penalty_post90": 0.11189475578181973,
+    "dis_4p_all_pct": 0.6489561241823859,
+    "nd_4p_all_pct": 0.6262470431079296,
+    "bld_dist": {
+      "Mobile home": {
+        "count": 21540,
+        "pct": 1.7
+      },
+      "Boat/RV": {
+        "count": 524,
+        "pct": 0.0
+      },
+      "1-fam detached": {
+        "count": 234515,
+        "pct": 19.0
+      },
+      "1-fam attached": {
+        "count": 74078,
+        "pct": 6.0
+      },
+      "2 apts": {
+        "count": 101861,
+        "pct": 8.3
+      },
+      "3-4 apts": {
+        "count": 145909,
+        "pct": 11.8
+      },
+      "5-9 apts": {
+        "count": 145575,
+        "pct": 11.8
+      },
+      "10-19 apts": {
+        "count": 122812,
+        "pct": 10.0
+      },
+      "20-49 apts": {
+        "count": 117827,
+        "pct": 9.6
+      },
+      "50+ apts": {
+        "count": 267450,
+        "pct": 21.7
+      }
+    },
+    "yrblt_dist": {
+      "Pre-1940": {
+        "count": 168572,
+        "pct": 13.7
+      },
+      "1940s": {
+        "count": 80680,
+        "pct": 6.5
+      },
+      "1950s": {
+        "count": 130035,
+        "pct": 10.6
+      },
+      "1960s": {
+        "count": 157432,
+        "pct": 12.8
+      },
+      "1970s": {
+        "count": 207483,
+        "pct": 16.8
+      },
+      "1980s": {
+        "count": 149274,
+        "pct": 12.1
+      },
+      "1990s": {
+        "count": 103267,
+        "pct": 8.4
+      },
+      "2000s": {
+        "count": 121946,
+        "pct": 9.9
+      },
+      "2010s": {
+        "count": 99841,
+        "pct": 8.1
+      },
+      "2020": {
+        "count": 6160,
+        "pct": 0.5
+      },
+      "2021": {
+        "count": 3536,
+        "pct": 0.3
+      },
+      "2022": {
+        "count": 2563,
+        "pct": 0.2
+      },
+      "2023": {
+        "count": 1209,
+        "pct": 0.1
+      },
+      "2024": {
+        "count": 93,
+        "pct": 0.0
+      }
+    },
+    "grpip_bands_4p_pre90": {
+      "Not burdened (0-30)": {
+        "count": 184282,
+        "pct": 33.2
+      },
+      "Moderate (31-50)": {
+        "count": 133301,
+        "pct": 24.0
+      },
+      "Severe (51-100)": {
+        "count": 113033,
+        "pct": 20.3
+      },
+      "Not computed (101)": {
+        "count": 103767,
+        "pct": 18.7
+      }
+    }
+  },
+  "AIAN": {
+    "total_disabled": 43496,
+    "total_nondis": 288918,
+    "disability_prevalence": 0.13084888121438928,
+    "dis_pre90_pct": 0.6979492367114217,
+    "nondis_pre90_pct": 0.6466402231775106,
+    "pre90_penalty_pp": 5.130901353391115,
+    "dis_4p_pre90_count": 14599,
+    "dis_4p_pre90_pct": 0.33564005885598674,
+    "dis_4p_post90_count": 6674,
+    "dis_4p_post90_pct": 0.15343939672613574,
+    "gap_ratio": 2.1874438118070123,
+    "nondis_4p_pre90_pct": 0.2936957891166352,
+    "dis_pre90_cb": 0.5140101603429116,
+    "dis_pre90_severe": 0.22321003333862519,
+    "dis_pre90_count": 30358,
+    "nd_pre90_cb": 0.4274923754257301,
+    "nd_pre90_severe": 0.16498154675021065,
+    "nd_pre90_count": 186826,
+    "dis_post90_cb": 0.4781719569663021,
+    "dis_post90_severe": 0.22405974926647107,
+    "dis_post90_count": 13138,
+    "nd_post90_cb": 0.40093483640362937,
+    "nd_post90_severe": 0.14881495738245806,
+    "nd_post90_count": 102092,
+    "dis_4p_pre90_cb": 0.5291708458709462,
+    "dis_4p_pre90_severe": 0.2226680040120361,
+    "dis_4p_pre90_g101_pct": 0.14864031782998835,
+    "dis_incomplete_plmb": 0.009633069707559316,
+    "nd_incomplete_plmb": 0.00391114433853204,
+    "plmb_ratio": 2.462979852892586,
+    "era_penalty_pre90": 0.08651778491718148,
+    "era_penalty_post90": 0.07723712056267273,
+    "dis_4p_all_pct": 0.4890794555821225,
+    "nd_4p_all_pct": 0.4723485556455465,
+    "bld_dist": {
+      "Mobile home": {
+        "count": 2735,
+        "pct": 6.3
+      },
+      "Boat/RV": {
+        "count": 100,
+        "pct": 0.2
+      },
+      "1-fam detached": {
+        "count": 13878,
+        "pct": 31.9
+      },
+      "1-fam attached": {
+        "count": 1642,
+        "pct": 3.8
+      },
+      "2 apts": {
+        "count": 3868,
+        "pct": 8.9
+      },
+      "3-4 apts": {
+        "count": 5219,
+        "pct": 12.0
+      },
+      "5-9 apts": {
+        "count": 3837,
+        "pct": 8.8
+      },
+      "10-19 apts": {
+        "count": 3513,
+        "pct": 8.1
+      },
+      "20-49 apts": {
+        "count": 3770,
+        "pct": 8.7
+      },
+      "50+ apts": {
+        "count": 4934,
+        "pct": 11.3
+      }
+    },
+    "yrblt_dist": {
+      "Pre-1940": {
+        "count": 4915,
+        "pct": 11.3
+      },
+      "1940s": {
+        "count": 2416,
+        "pct": 5.6
+      },
+      "1950s": {
+        "count": 4488,
+        "pct": 10.3
+      },
+      "1960s": {
+        "count": 4488,
+        "pct": 10.3
+      },
+      "1970s": {
+        "count": 8389,
+        "pct": 19.3
+      },
+      "1980s": {
+        "count": 5662,
+        "pct": 13.0
+      },
+      "1990s": {
+        "count": 4171,
+        "pct": 9.6
+      },
+      "2000s": {
+        "count": 4524,
+        "pct": 10.4
+      },
+      "2010s": {
+        "count": 3967,
+        "pct": 9.1
+      },
+      "2020": {
+        "count": 105,
+        "pct": 0.2
+      },
+      "2021": {
+        "count": 119,
+        "pct": 0.3
+      },
+      "2022": {
+        "count": 178,
+        "pct": 0.4
+      },
+      "2023": {
+        "count": 74,
+        "pct": 0.2
+      },
+      "2024": {
+        "count": 0,
+        "pct": 0.0
+      }
+    },
+    "grpip_bands_4p_pre90": {
+      "Not burdened (0-30)": {
+        "count": 5633,
+        "pct": 38.6
+      },
+      "Moderate (31-50)": {
+        "count": 3667,
+        "pct": 25.1
+      },
+      "Severe (51-100)": {
+        "count": 2664,
+        "pct": 18.2
+      },
+      "Not computed (101)": {
+        "count": 2170,
+        "pct": 14.9
+      }
+    }
+  }
+}
