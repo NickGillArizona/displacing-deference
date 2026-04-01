@@ -2,86 +2,87 @@
 
 **Nick Gill** | University of Arizona James E. Rogers College of Law
 
-*Introducing **Agile ELS** — a tiered, multi-model consensus framework for rapid, low-cost empirical legal research. 3,193 federal FHA cases classified in one week for under $200.*
+This repository contains the replication package, classified dataset documentation, and supplementary appendices for a law review note arguing that the post-*Loper Bright* constitutional landscape counsels recalibrating AFFH through the disability-specific mandates of 42 U.S.C. § 3604(f)(3). The empirical foundation is a structured dataset of 3,193 federal FHA cases (6,718 individual claims) constructed through a novel multi-model LLM consensus pipeline — what this Note terms **Agile Empirical Legal Studies (Agile ELS)**.
 
 ---
 
-## The Argument
+## Key Findings
 
-Congress directed federal agencies to "affirmatively further" fair housing but never defined what the obligation required. 42 U.S.C. § 3608(d) specifies neither the content of that mandate nor the outcomes it was meant to produce — an omission that has driven five incompatible regulatory frameworks in a single decade.
+**The convergence thesis.** Disability is the dominant axis of housing cost burden across racial groups. Using ACS 2020-2024 5-Year PUMS microdata — producing the first published race-by-disability cost-burden estimates with confidence intervals — the disability penalty (10-17 percentage points, depending on race) exceeds the entire racial cost-burden gap among non-disabled renters (8.4 points Black-White). Among disabled renters, the Black-White gap compresses to 1.6 percentage points (56.3% vs. 54.7%). Enforcing § 3604(f)(3) does not trade off against racial equity. It reaches the same populations through a larger axis of disadvantage.
 
-The contest has produced two competing models. The **Proactive Integration Model** treats fair housing as a spatial project, measuring progress through dissimilarity indices and racial dispersal across census tracts. The **Equal Access Model** treats fair housing as a transactional guarantee, eliminating discrimination without mandating demographic outcomes. Neither model engages the protected class now dominating fair housing enforcement: **disability**, which constitutes 54.6% of all fair housing complaints and 38.1% of federal litigation.
+**The enforcement desert.** At minimum 823,000 disabled renters of color reside in non-entitlement communities that the integration model structurally excluded from CDBG enforcement. For this population, disability-centered enforcement is not a policy preference — it is the only federal pathway that exists.
 
-This project argues that the post-*Loper Bright* constitutional landscape strongly counsels recalibrating AFFH through the disability-specific mandates of § 3604(f)(3). The elimination of *Chevron* deference and the Major Questions Doctrine substantially constrain the integration model's expansive reading of "affirmatively further," while § 3604(f)(3)'s specific statutory commands — reasonable modifications, reasonable accommodations, and design-and-construction accessibility standards — possess constitutional durability that the ambiguous § 3608(d) delegation lacks.
+**The litigation decline.** After *Loper Bright*, disability plaintiff win rates in the § 3604 Database fell from 21.5% to 13.7% (p=0.0004). The RA Database corroborates the decline across all protected classes: 16.7% to 9.0%. Multivariate logistic regression confirms 40-51% lower odds of plaintiff victory after controlling for procedural posture, defendant type, accommodation type, and plaintiff type.
 
-### Why Disability, Not Race, Is the Structural Pivot
+**The capability gap.** Institutional plaintiffs — fair housing organizations, government agencies, group home operators — succeed at four to eight times the rate of individual tenants, even after controlling for claim type and procedural posture. Pro se plaintiffs constitute 54.3% of the database and win 4.9% of the time, versus 27.0% for represented plaintiffs.
 
-The recalibration is not a retreat from racial equity. Disability is the dominant axis of housing cost burden: the disability penalty (10–17 percentage points across racial groups) exceeds the entire racial cost-burden gap among non-disabled renters (8.4 points Black-White). Among disabled renters, the Black-White cost-burden gap compresses to 1.6 percentage points (56.3% vs. 54.7%). The integration model measures the smaller axis. Section 3604(f)(3) targets the larger one.
+**The procedural gatekeeping problem.** Courts cite *Iqbal* in disability cases at 3.3x the rate observed in race cases. When invoked, defendant success at motion-to-dismiss rises from 43.1% to 66.7%.
 
-At minimum 823,000 disabled renters of color reside in non-entitlement communities the integration model structurally excluded. For this population, disability-centered enforcement is not a tradeoff — it is the only federal enforcement pathway that exists.
-
-### The Empirical Gap This Repository Fills
-
-The entire AFFH canon — from *Shannon* to *Inclusive Communities* — was built to address racial segregation. Disability has generated **zero AFFH precedent** despite dominating the complaint docket since at least the mid-2000s. HUD collects no systematic data on accommodation requests or denials and maintains no national accessible housing inventory. None of the forty-nine AFH submissions contained quantitative accessibility data.
-
-This repository provides what HUD does not: a structured empirical dataset of approximately 2,566 unique federal FHA cases across all protected classes — drawn from three databases (RA Database, n=1,857; 2015 FHA Database, n=1,496; FHA Pilot Database, n=331) and deduplicated into a Unified Dataset of 3,193 cases (6,718 individual claims) for per-claim analysis. The disability-specific findings rely primarily on the RA Database (§ 3604(f) cases); the 2015 FHA Database provides cross-class comparisons across all FHA protected classes.
-
-The repository also includes the first systematic use of ACS PUMS microdata to quantify disability-specific housing cost burden by race. HUD has never cross-tabulated disability status with race in its cost-burden reporting; the Census Bureau publishes disability prevalence and housing cost burden in separate tables that cannot be linked at the individual level without microdata access. This analysis queries the 2020–2024 ACS 5-Year PUMS at the householder level using successive-differences replication with 80 replicate weights for standard errors — the Census Bureau's recommended variance estimation method — producing the first race-by-disability cost-burden estimates with confidence intervals. The finding that the disability cost-burden penalty (7–17 percentage points, depending on racial group) exceeds the entire racial cost-burden gap among non-disabled renters (8.4 percentage points, Black-White) has no antecedent in the published literature. Full replication queries, variable definitions, and sensitivity analyses appear in [Appendix A-2](appendices/Appendix_A2_PUMS_Replication.md).
-
-### Key Empirical Findings
-
-- **Plaintiff win rates declined significantly after *Loper Bright***: In the 2015 FHA Database (§ 3604(f) disability cases), strict plaintiff win rates fell from 21.5% to 13.7% (p=0.0004); the RA Database (all protected classes) shows a corroborating decline from 16.7% to 9.0%
-- **Procedural gatekeeping disproportionately burdens disability claims**: courts cite *Iqbal* in disability cases at ~3.3x the rate observed in race cases; when invoked, defendant success at MTD rises from 43.1% to 66.7%
-- **Accommodation type predicts outcomes**: assistance-animal claims yield 38.7% plaintiff success; transfer claims yield 5.4% — suggesting the doctrinal framework advantages discrete, low-cost accommodations over structural or administrative changes
-- **Design-and-construction enforcement is virtually absent**: 47% noncompliance rate against 0.8% of complaints — a 56:1 ratio
+**The design-and-construction gap.** 47% estimated noncompliance rate in pre-1990 multifamily housing, against 0.8% of fair housing complaints — a 56:1 ratio.
 
 ---
 
-## Agile ELS: A New Framework for Empirical Legal Research
+## The Dataset
 
-This project introduces **Agile Empirical Legal Studies (Agile ELS)** — a resource-efficient, iterative methodology that collapses the traditional barriers separating legal hypothesis from empirical test. Where legacy ELS frameworks require grant funding, multi-year timelines, and teams of trained research assistants before a single datapoint can be coded, Agile ELS enables a solo researcher to construct, classify, audit, and analyze a comprehensive federal litigation dataset in days for minimal cost.
+This repository provides what HUD does not: a structured empirical dataset of approximately 2,566 unique federal FHA cases across all protected classes, drawn from three databases and deduplicated into a Unified Dataset of 3,193 cases with 6,718 individual claims for per-claim analysis.
 
-The framework rests on three principles:
+| Database | Scope | Cases (screened) |
+|----------|-------|:---:|
+| RA Database | All FHA protected classes, 2021-2026 | 1,857 |
+| 2015 FHA Database | § 3604(f) disability cases | 1,496 |
+| FHA Pilot Database | Initial validation cohort | 331 |
+| **Unified Dataset** | **Deduplicated, per-claim extraction** | **3,193 (6,718 claims)** |
 
-1. **Fail-fast hypothesis testing.** Rather than committing to a coding scheme for months before discovering whether a hypothesis survives contact with data, Agile ELS supports rapid exploratory cycles: build a prototype dataset, test the claim, pivot or deepen — all within the same week. This Note's entire empirical foundation — 3,193 classified cases, 6,718 individual claims, eight hypothesis tests, and seven regression models — was constructed and analyzed in a single research sprint.
+The repository also includes the first systematic use of ACS PUMS microdata to quantify disability-specific housing cost burden by race. HUD has never cross-tabulated disability status with race in its cost-burden reporting; the Census Bureau publishes disability prevalence and housing cost burden in separate tables that cannot be linked at the individual level without microdata access. This analysis queries the 2020-2024 ACS 5-Year PUMS at the householder level using successive-differences replication with 80 replicate weights for standard errors — the Census Bureau's recommended variance estimation method. Full replication queries, variable definitions, and sensitivity analyses appear in [Appendix A-2](appendices/Appendix_A2_PUMS_Replication.md).
 
-2. **Tiered consensus extraction.** The pipeline's core innovation treats multi-model disagreement as a quality signal rather than noise. Three architecturally independent LLMs classify each case; their agreement determines confidence, and their disagreement routes contested cases to progressively stronger adjudicators. This design transposes the logic of inter-rater reliability from human coding to computational classification, producing an auditable provenance chain for every datapoint.
+---
 
-3. **Democratized access.** Total pipeline cost for 3,193 cases: ~$160. Traditional manual coding of comparable scope would require approximately 800 researcher-hours and substantial institutional funding. Agile ELS eliminates the resource moat that has historically confined large-N empirical legal research to well-funded institutions.
+## Methodology: Agile ELS
 
-| | Traditional ELS | Agile ELS |
-|---|---|---|
-| **Dataset construction** | Months to years | Days to weeks |
-| **Cost (N ≈ 3,000 cases)** | $50,000–$200,000+ | <$200 |
-| **Minimum team size** | PI + RAs + IRR coders | Solo researcher |
-| **Iteration speed** | One coding pass per grant cycle | Multiple hypothesis cycles per week |
-| **Inter-rater reliability** | Human IRR (Cohen's κ) | Multi-model consensus + frontier audit (Cohen's κ) |
-| **Audit trail** | Codebook + sample recodes | Full provenance: all model outputs preserved (~91 fields/record) |
-| **Scalability** | Linear in RA hours | Sub-linear: consensus tier resolves 46% without escalation |
+Traditional empirical legal studies at this scale — manually reading and coding 3,193 court opinions into structured data — would require roughly 800 hours of researcher time, substantial institutional funding, and extensive inter-rater reliability testing. I constructed this dataset in one week for approximately $160.
 
-The methodology is generalizable beyond fair housing. Any legal domain where structured extraction from judicial opinions is the bottleneck — antitrust enforcement patterns, immigration adjudication, employment discrimination outcomes — can adopt the same architecture. The primary constraint is not technical but financial: this Note used cost-effective models for initial classification tiers and reserved frontier models for adjudication. With standard institutional funding, researchers could deploy frontier models across all tiers and replace static voting with active multi-agent debate strategies, where LLMs evaluate each other's reasoning rather than merely casting independent votes.
+The approach, which I am calling **Agile Empirical Legal Studies (Agile ELS)**, rests on a straightforward insight: rather than trusting a single LLM to classify thousands of cases — fast but unreliable — I ran each case through three independent models and treated their disagreement as a quality signal. When all three agreed, I accepted the answer. When they disagreed, I escalated to a stronger model that could see all three outputs and adjudicate. This transposes the logic of inter-rater reliability — the same principle that governs human coding in empirical legal research — from human coders to computational classifiers.
 
-### Why Three Models Instead of One
+To the best of my knowledge, no published legal study has employed multi-model LLM consensus with tiered adjudication for structured legal data extraction at this scale.
 
-The core empirical claim of this project requires classifying approximately 2,566 unique federal FHA opinions into structured data. The RA Database (n=1,857, all protected classes) and 2015 FHA Database (n=1,496, § 3604(f) disability cases) were deduplicated into a Unified Dataset of 3,193 cases, then decomposed via per-claim extraction into 6,718 individual claims. That is the kind of dataset HUD has never built and no existing legal database provides.
+### Three principles
 
-**Manual review was not feasible.** A single researcher reading and coding 3,193 opinions at even 15 minutes per case would need approximately 800 hours — roughly five months of full-time work. Traditional research-assistant coding at that scale introduces its own reliability problems (coder drift, inconsistent application of classification rules, fatigue-induced errors) and would require extensive inter-rater reliability testing to validate. The dataset simply could not exist without automated classification.
+**1. Fail-fast hypothesis testing.** Rather than committing years of labor to a coding scheme before discovering whether a hypothesis survives contact with data, Agile ELS supports rapid exploratory cycles: construct a prototype dataset, test the claim, pivot or deepen — in the same week. The entire empirical foundation of this Note — 3,193 classified cases, 6,718 individual claims, eight hypothesis tests, and seven regression models — was constructed and analyzed in a single research sprint.
 
-**But a single LLM is not trustworthy enough.** In 2023, HUD's Office of Policy Development and Research published [*Generative AI: Mining Housing Data With a Higher Powered Shovel*](https://www.huduser.gov/portal/periodicals/cityscape/vol25num3/ch9.pdf) (Dylan J. Hayden, *Cityscape* Vol. 25 No. 3), demonstrating that generative AI could accelerate housing data analysis while flagging the risks of bias and hallucination that demand human supervision. A single LLM will hallucinate, miscategorize, and silently drop fields — and when the entire empirical foundation of a law review article depends on the accuracy of that classification, silent errors are unacceptable.
+**2. Tiered consensus extraction.** Three architecturally independent LLMs (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) classify each case separately. They were selected for independence: different training corpora (Chinese and Western sources), different parameter scales, different fine-tuning approaches — ensuring that consensus reflects textual signal rather than shared model bias. Agreement determines confidence; disagreement routes contested cases to progressively stronger adjudicators (Haiku 4.5, then Sonnet 4.6). Every record carries full provenance metadata: which tier resolved it, which models agreed, what the adjudicator decided and why.
 
-**The solution was to use three independent LLMs and treat disagreement as a quality signal.** Rather than trusting any single model, the pipeline runs each case through three separate models and uses their agreement (or lack of it) to determine confidence and route difficult cases to stronger adjudicators. This approach applies the logic of inter-rater reliability — the same principle that governs human coding in empirical legal research — to automated classification:
+**3. Democratized access.** Total pipeline cost for 3,193 cases: ~$160. Forty-six percent of cases resolved through consensus or majority vote alone, without requiring an additional API call. The difficult cases escalated; the straightforward ones were effectively free.
 
-1. **No single point of failure.** Three independent models (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) classify each case separately. These classifiers were selected for architectural independence: different training corpora (Chinese and Western sources), different parameter scales, and different fine-tuning approaches — ensuring that consensus reflects textual signal rather than shared model bias. When all three disagree, the case is flagged for adjudication rather than silently miscoded.
+> **Project summary.** Dataset: 3,193 cases, 6,718 claims. Classification: 3 independent LLMs + tiered adjudication. Cost: ~$160. Timeline: one week. Validation: Cohen's κ 0.56-0.74 across substantive fields.
 
-2. **Disagreement is signal, not noise.** A three-way split on `outcome` or `claim_type` usually means the case is genuinely ambiguous — multi-claim opinions, mixed dispositions, or unusual procedural postures. The pipeline routes these to stronger adjudication models that see all three answers plus the original text.
+### Pipeline stages
 
-3. **Cost-tiered escalation.** Most cases resolve at the cheap consensus tier. Only the hard cases escalate. Total pipeline cost for 3,193 cases: ~$160.
+The pipeline processes court opinions through five stages:
 
-4. **Auditable at every stage.** Every record carries resolution metadata: which tier resolved it, which models agreed, what the adjudicator decided and why. The audit database preserves all three model outputs (~91 fields/record) alongside the canonical answer (~27 fields).
+1. **FHA Screening** — Gemini 3.1 Flash Lite binary classifier filters non-FHA opinions
+2. **Triple-Model Classification** — MiniMax M2.7 + DeepSeek V3.2 + Kimi K2.5 independently produce 28-field structured JSON per case
+3. **Tiered Consensus Resolution** — Unanimous → majority vote → Haiku 4.5 adjudication → Sonnet 4.6 adjudication (RA Database). The 2015 FHA Database resolves three-way splits via MiniMax M2.7 tiebreaker; see Appendix A, Section A.3
+4. **Per-Claim Extraction** — Haiku 4.5 decomposes multi-claim cases into individual legal claims
+5. **Reproducibility Audit** — Opus 4.6 re-classifies a stratified sample for inter-rater reliability
 
-### Pipeline Performance
+See [`pipeline/`](pipeline/) for full documentation including model costs, agreement rates, and resolution tier distributions.
 
-**Inter-model agreement rates** confirm that the three-model design catches real ambiguity rather than generating artificial noise. Objective fields achieve near-perfect consensus while interpretive fields — where human coders would also disagree — show meaningful divergence:
+### Resolution tier distribution (n=1,857 RA cases)
+
+| Tier | Resolution Method | Records | % |
+|:---:|---|:---:|:---:|
+| 0 | Unanimous consensus | 12 | 0.6% |
+| 1-2 | Majority vote (no API call) | 843 | 45.4% |
+| 3 | Haiku 4.5 adjudication | 697 | 37.5% |
+| 4 | Sonnet 4.6 adjudication | 302 | 16.3% |
+
+Nearly half of all cases resolved at the majority-vote tier. The remaining cases escalated to progressively stronger adjudicators — concentrating cost on the genuinely difficult classifications.
+
+---
+
+## Validation and Limitations
+
+The multi-model design performed well on objective fields — court identification (96.9% unanimous), year (98.7%) — and showed meaningful divergence on interpretive fields where human coders would also disagree:
 
 | Field | Unanimous (3/3) | Majority (2/3) | No Majority |
 |-------|:---:|:---:|:---:|
@@ -95,18 +96,7 @@ The core empirical claim of this project requires classifying approximately 2,56
 
 Only 0.6% of cases achieved full unanimous consensus across all fields — meaning the multi-model design caught disagreements requiring resolution in 99.4% of records.
 
-**Resolution tier distribution** (n=1,857 RA cases):
-
-| Tier | Resolution Method | Records | % |
-|:---:|---|:---:|:---:|
-| 0 | Unanimous consensus | 12 | 0.6% |
-| 1–2 | Majority vote (no API call) | 843 | 45.4% |
-| 3 | Haiku 4.5 adjudication | 697 | 37.5% |
-| 4 | Sonnet 4.6 adjudication | 302 | 16.3% |
-
-Nearly half of all cases resolved at the cheap majority-vote tier. The remaining cases escalated to progressively stronger (and more expensive) adjudicators — concentrating cost on the genuinely difficult classifications.
-
-**Reproducibility audit.** Claude Opus 4.6 independently re-classified a stratified random sample of 50 cases. Aggregate match rate across 12 vocabulary-aligned fields: **81.5%**. Cohen's Kappa scores ranged from Moderate (outcome: κ=0.561) to Substantial (defendant type: κ=0.740), consistent with inter-rater reliability benchmarks in empirical legal research.
+**Reproducibility audit.** Claude Opus 4.6 independently re-classified a stratified random sample of 50 cases. Aggregate match rate across 12 vocabulary-aligned fields: **81.5%**. Cohen's Kappa ranged from Moderate to Substantial:
 
 | Field | Match Rate | Cohen's Kappa |
 |-------|:---:|:---:|
@@ -115,23 +105,25 @@ Nearly half of all cases resolved at the cheap majority-vote tier. The remaining
 | Outcome | 70.0% | 0.561 (Moderate) |
 | Primary Claim Type | 62.0% | 0.511 (Moderate) |
 
-**Inter-coder reliability context.** The κ=0.561 outcome score falls within the "moderate" range conventionally expected for multi-category legal classification tasks involving adjacent procedural boundaries. Of 15 outcome disagreements, 11 (73%) involved the procedural/substantive boundary — specifically, whether a dismissal without prejudice constitutes a "Defendant Win" or a "Procedural" disposition, or whether a partial settlement is "Mixed" or a "Plaintiff Win." This captures irreducible legal ambiguity rather than classification noise. Because the dominant disagreement pattern is directional (pipeline classifications skewing toward "procedural" relative to the auditor), any resulting measurement error attenuates regression coefficients toward the null — making the statistically significant post-2024 findings conservative estimates.
+The outcome kappa (κ=0.561) warrants context. Of 15 disagreements, 11 (73%) involved the procedural/substantive boundary — whether a dismissal without prejudice constitutes a "Defendant Win" or a "Procedural" disposition, whether a partial settlement is "Mixed" or a "Plaintiff Win." These are genuine boundary disputes: in complex housing litigation, the line between a mixed-outcome settlement and a procedural dismissal is notoriously porous. The audit detects this irreducible legal ambiguity rather than measuring classifier error. In manual empirical legal studies, boundary disputes between adjacent procedural categories routinely produce moderate kappa scores even among trained human coders applying identical protocols. Because the disagreement pattern is directional — pipeline classifications skewing toward "procedural" relative to the auditor — any resulting measurement error attenuates regression coefficients toward the null, making the statistically significant post-2024 findings conservative estimates.
 
-See [`pipeline/model_configuration.md`](pipeline/model_configuration.md) for full agreement rates, cost breakdowns, and audit methodology.
+**What this audit does and does not show.** The reproducibility audit measures inter-classifier agreement, not accuracy against human-coded ground truth. No human-coded FHA litigation dataset of comparable scope exists against which to benchmark; this dataset is, to the author's knowledge, the first comprehensive classified FHA litigation corpus. The kappa scores are consistent with inter-rater reliability benchmarks in empirical legal research — but the claim is that independent classifiers operating under identical protocols reach substantially similar results, not that the pipeline achieves perfect accuracy.
+
+**Additional limitations.** Small-N subgroup analyses (n < 30) are flagged as suggestive throughout the article. The dataset captures federal written opinions only, not the universe of FHA disputes, settlements, or administrative resolutions; the coding task is one of structured extraction from judicial opinions into a pre-specified vocabulary, not autonomous legal judgment. Causal claims about *Loper Bright*'s independent judicial effect are expressly disclaimed; the observed decline is consistent with, but not proven to result from, the decision alone — this Note treats the post-2024 period as a changed legal-administrative environment encompassing guidance withdrawal, FHIP defunding, and zero reasonable-cause charges alongside the elimination of *Chevron* deference.
+
+See [`pipeline/model_configuration.md`](pipeline/model_configuration.md) for full agreement rates, cost breakdowns, and audit methodology. The complete classification protocol, sampling methodology, and tier-disaggregated results appear in [Appendix A-4](appendices/Appendix_A4_Reproducibility_Audit.md).
 
 ---
 
-## Classification Pipeline
+## Broader Significance
 
-This is the Agile ELS tiered consensus extraction pipeline. It processes court opinions through five stages:
+The substantive findings of this Note bear on fair housing policy. The methodology bears on legal scholarship more broadly. If a comprehensive classified litigation dataset can be built for $160 in a week, the resource barriers that have historically confined large-N empirical legal research to well-funded institutions are not what they were.
 
-1. **FHA Screening** — Gemini 3.1 Flash Lite binary classifier filters non-FHA opinions
-2. **Triple-Model Classification** — MiniMax M2.7 + DeepSeek V3.2 + Kimi K2.5 independently produce 28-field structured JSON per case
-3. **Tiered Consensus Resolution** — Unanimous → majority vote → Haiku 4.5 adjudication → Sonnet 4.6 adjudication (RA Database). The 2015 FHA Database uses the same triple-model classification but resolves three-way splits via MiniMax M2.7 tiebreaker rather than API adjudication; see Appendix A, Section A.3
-4. **Per-Claim Extraction** — Haiku 4.5 decomposes multi-claim cases into individual legal claims
-5. **Reproducibility Audit** — Opus 4.6 re-classifies a stratified sample for inter-rater reliability
+Any legal domain where structured extraction from judicial opinions is the bottleneck — antitrust enforcement patterns, immigration adjudication, employment discrimination outcomes, habeas corpus petitions — can adopt the same architecture. The pipeline is not domain-specific; the classification prompts are. The primary constraint in this project was financial: I used cost-effective models for initial classification and reserved frontier models for adjudication. With standard institutional funding, researchers could deploy frontier models across all tiers and replace static voting with active multi-agent debate strategies — where LLMs evaluate each other's reasoning rather than merely casting independent votes.
 
-See [`pipeline/`](pipeline/) for full documentation including model costs, agreement rates, and resolution tier distributions.
+The Agile ELS pipeline — the classification, consensus resolution, and per-claim extraction stages — is documented in [`pipeline/`](pipeline/) and the companion repository [MFH-Java-Work](https://github.com/NickGillArizona/MFH-Java-Work). A researcher with access to the CourtListener API and an OpenRouter account can replicate the full pipeline for a comparable corpus at comparable cost.
+
+---
 
 ## Data Sources
 
@@ -142,19 +134,13 @@ See [`pipeline/`](pipeline/) for full documentation including model costs, agree
 | OpenRouter API | https://openrouter.ai/ |
 | Anthropic Message Batches API | https://docs.anthropic.com/ |
 
-## Source Code
-
 The Java and Python source code for the download pipeline, classification clients, and evaluation framework is maintained in the companion repository: **[MFH-Java-Work](https://github.com/NickGillArizona/MFH-Java-Work)**
-
-## Dataset
 
 The unified dataset (N=3,193 cases, 6,718 claims) and full audit trail are available upon request.
 
-## Limitations
+---
 
-The reproducibility audit measures inter-classifier agreement, not accuracy against human-coded ground truth. No human-coded FHA litigation dataset of comparable scope exists against which to benchmark; this dataset is, to the author's knowledge, the first comprehensive classified FHA litigation corpus. Small-N subgroup analyses (n < 30) are flagged as suggestive throughout the article. The dataset captures federal written opinions only, not the universe of FHA disputes, settlements, or administrative resolutions; the coding task is one of structured extraction from judicial opinions into a pre-specified vocabulary, not autonomous legal judgment. Causal claims about *Loper Bright*'s independent judicial effect are expressly disclaimed; the observed decline is consistent with, but not proven to result from, the decision alone.
-
-## Replication Guide (Agile ELS Pipeline)
+## Replication Guide
 
 ### Prerequisites
 
@@ -253,16 +239,6 @@ python scripts/pums_dis1_sensitivity.py
 | `results/pums_sensitivity_results.json` | Disability-definition sensitivity analysis (DPHY-only vs. DPHY∪DOUT) |
 | `results/regression_results_RA9.txt` | Logistic regression output (7 model specifications) |
 
-### Note on Reproducibility
-
-The litigation statistics depend on the classified case database JSON files. These contain structured extractions from public-domain court opinions and are available upon request. The PUMS statistics can be independently reproduced using Census API access and the query specifications in [`queries/census_pums_queries.md`](queries/census_pums_queries.md). Some statistics cited in the Note (e.g., HUD's 70.2% deadline miss rate, 54.6% disability complaint share) derive from published government reports, not from these scripts.
-
-The Agile ELS pipeline itself — the classification, consensus resolution, and per-claim extraction stages — is documented in [`pipeline/`](pipeline/) and the companion repository [MFH-Java-Work](https://github.com/NickGillArizona/MFH-Java-Work). A researcher with access to the CourtListener API and an OpenRouter account can replicate the full pipeline for a comparable corpus at comparable cost.
-
-## License
-
-This replication package is provided for academic use. The underlying court opinions are public domain.
-
 ---
 
 ## Appendices
@@ -272,7 +248,7 @@ The following supplementary appendices are referenced throughout the Note's foot
 | Appendix | Title | Description |
 |----------|-------|-------------|
 | [A](appendices/Appendix_A_Case_Dataset_Methodology.md) | FHA Case Dataset — Construction Methodology | Full dataset construction methodology, source accounting, deduplication, classification protocol, and known limitations |
-| [A-2](appendices/Appendix_A2_PUMS_Replication.md) | PUMS Replication Methodology | ACS 2020–2024 5-Year PUMS variable definitions, replication queries, standard errors via successive-differences replication, and sensitivity analysis |
+| [A-2](appendices/Appendix_A2_PUMS_Replication.md) | PUMS Replication Methodology | ACS 2020-2024 5-Year PUMS variable definitions, replication queries, standard errors via successive-differences replication, and sensitivity analysis |
 | [A-3](appendices/Appendix_A3_Extended_Empirical_Analysis.md) | Extended Empirical Analysis | Multivariate regression specifications, pro se plaintiff analysis, interactive process findings, Hispanic/Latino PUMS analysis, housing stock data, and subsidy program analysis |
 | [A-4](appendices/Appendix_A4_Reproducibility_Audit.md) | Classification Reproducibility Audit | 50-case stratified-random reproducibility audit: sampling protocol, field-level match rates, Cohen's kappa values, tier-disaggregated results, and robustness assessment |
 | [B](appendices/Appendix_B_Results_Tables.md) | Post-*Loper Bright* Analysis | Year-by-year plaintiff win rates (Table B.3), pre/post comparison tables, and chi-squared results |
@@ -285,6 +261,8 @@ The following supplementary appendices are referenced throughout the Note's foot
 | [I](appendices/Appendix_I_AFFH_Case_Classification.md) | AFFH Case Classification | LLM-assisted classification methodology and results for 71 CourtListener AFFH decisions |
 | [J](appendices/Appendix_J_Safe_Harbor_Detail.md) | Safe Harbor Operational Detail | Worked examples, rural edge cases, Availability Audit mechanics, and multi-jurisdiction population threshold survey |
 | [K](appendices/Appendix_K_Classification_Prompts.md) | Classification Prompts | Full text of FHA relevance screening and case classification prompts |
+
+---
 
 ## Repository Structure
 
@@ -348,3 +326,7 @@ appendices/                            # Supplementary appendices (A through K)
 Validation_Methodology_Section.md     # Validation methodology documentation
 empirical_claims_verification_report.md # Empirical claims verification report
 ```
+
+## License
+
+This replication package is provided for academic use. The underlying court opinions are public domain.
