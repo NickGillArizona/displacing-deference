@@ -2,6 +2,8 @@
 
 **Nick Gill** | University of Arizona James E. Rogers College of Law
 
+*Introducing **Agile ELS** — a tiered, multi-model consensus framework for rapid, low-cost empirical legal research. 3,193 federal FHA cases classified in one week for under $200.*
+
 ---
 
 ## The Argument
@@ -35,7 +37,31 @@ The repository also includes the first systematic use of ACS PUMS microdata to q
 
 ---
 
-## Why Three Models Instead of One
+## Agile ELS: A New Framework for Empirical Legal Research
+
+This project introduces **Agile Empirical Legal Studies (Agile ELS)** — a resource-efficient, iterative methodology that collapses the traditional barriers separating legal hypothesis from empirical test. Where legacy ELS frameworks require grant funding, multi-year timelines, and teams of trained research assistants before a single datapoint can be coded, Agile ELS enables a solo researcher to construct, classify, audit, and analyze a comprehensive federal litigation dataset in days for minimal cost.
+
+The framework rests on three principles:
+
+1. **Fail-fast hypothesis testing.** Rather than committing to a coding scheme for months before discovering whether a hypothesis survives contact with data, Agile ELS supports rapid exploratory cycles: build a prototype dataset, test the claim, pivot or deepen — all within the same week. This Note's entire empirical foundation — 3,193 classified cases, 6,718 individual claims, eight hypothesis tests, and seven regression models — was constructed and analyzed in a single research sprint.
+
+2. **Tiered consensus extraction.** The pipeline's core innovation treats multi-model disagreement as a quality signal rather than noise. Three architecturally independent LLMs classify each case; their agreement determines confidence, and their disagreement routes contested cases to progressively stronger adjudicators. This design transposes the logic of inter-rater reliability from human coding to computational classification, producing an auditable provenance chain for every datapoint.
+
+3. **Democratized access.** Total pipeline cost for 3,193 cases: ~$160. Traditional manual coding of comparable scope would require approximately 800 researcher-hours and substantial institutional funding. Agile ELS eliminates the resource moat that has historically confined large-N empirical legal research to well-funded institutions.
+
+| | Traditional ELS | Agile ELS |
+|---|---|---|
+| **Dataset construction** | Months to years | Days to weeks |
+| **Cost (N ≈ 3,000 cases)** | $50,000–$200,000+ | <$200 |
+| **Minimum team size** | PI + RAs + IRR coders | Solo researcher |
+| **Iteration speed** | One coding pass per grant cycle | Multiple hypothesis cycles per week |
+| **Inter-rater reliability** | Human IRR (Cohen's κ) | Multi-model consensus + frontier audit (Cohen's κ) |
+| **Audit trail** | Codebook + sample recodes | Full provenance: all model outputs preserved (~91 fields/record) |
+| **Scalability** | Linear in RA hours | Sub-linear: consensus tier resolves 46% without escalation |
+
+The methodology is generalizable beyond fair housing. Any legal domain where structured extraction from judicial opinions is the bottleneck — antitrust enforcement patterns, immigration adjudication, employment discrimination outcomes — can adopt the same architecture. The primary constraint is not technical but financial: this Note used cost-effective models for initial classification tiers and reserved frontier models for adjudication. With standard institutional funding, researchers could deploy frontier models across all tiers and replace static voting with active multi-agent debate strategies, where LLMs evaluate each other's reasoning rather than merely casting independent votes.
+
+### Why Three Models Instead of One
 
 The core empirical claim of this project requires classifying approximately 2,566 unique federal FHA opinions into structured data. The RA Database (n=1,857, all protected classes) and 2015 FHA Database (n=1,496, § 3604(f) disability cases) were deduplicated into a Unified Dataset of 3,193 cases, then decomposed via per-claim extraction into 6,718 individual claims. That is the kind of dataset HUD has never built and no existing legal database provides.
 
@@ -97,7 +123,7 @@ See [`pipeline/model_configuration.md`](pipeline/model_configuration.md) for ful
 
 ## Classification Pipeline
 
-The pipeline processes court opinions through five stages:
+This is the Agile ELS tiered consensus extraction pipeline. It processes court opinions through five stages:
 
 1. **FHA Screening** — Gemini 3.1 Flash Lite binary classifier filters non-FHA opinions
 2. **Triple-Model Classification** — MiniMax M2.7 + DeepSeek V3.2 + Kimi K2.5 independently produce 28-field structured JSON per case
@@ -128,7 +154,7 @@ The unified dataset (N=3,193 cases, 6,718 claims) and full audit trail are avail
 
 The reproducibility audit measures inter-classifier agreement, not accuracy against human-coded ground truth. No human-coded FHA litigation dataset of comparable scope exists against which to benchmark; this dataset is, to the author's knowledge, the first comprehensive classified FHA litigation corpus. Small-N subgroup analyses (n < 30) are flagged as suggestive throughout the article. The dataset captures federal written opinions only, not the universe of FHA disputes, settlements, or administrative resolutions; the coding task is one of structured extraction from judicial opinions into a pre-specified vocabulary, not autonomous legal judgment. Causal claims about *Loper Bright*'s independent judicial effect are expressly disclaimed; the observed decline is consistent with, but not proven to result from, the decision alone.
 
-## How to Generate the Statistics
+## Replication Guide (Agile ELS Pipeline)
 
 ### Prerequisites
 
@@ -230,6 +256,8 @@ python scripts/pums_dis1_sensitivity.py
 ### Note on Reproducibility
 
 The litigation statistics depend on the classified case database JSON files. These contain structured extractions from public-domain court opinions and are available upon request. The PUMS statistics can be independently reproduced using Census API access and the query specifications in [`queries/census_pums_queries.md`](queries/census_pums_queries.md). Some statistics cited in the Note (e.g., HUD's 70.2% deadline miss rate, 54.6% disability complaint share) derive from published government reports, not from these scripts.
+
+The Agile ELS pipeline itself — the classification, consensus resolution, and per-claim extraction stages — is documented in [`pipeline/`](pipeline/) and the companion repository [MFH-Java-Work](https://github.com/NickGillArizona/MFH-Java-Work). A researcher with access to the CourtListener API and an OpenRouter account can replicate the full pipeline for a comparable corpus at comparable cost.
 
 ## License
 
