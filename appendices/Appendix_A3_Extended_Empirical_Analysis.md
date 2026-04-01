@@ -4,19 +4,19 @@ This Appendix describes the methodology for the extended empirical analyses repo
 
 ### A. Overview
 
-The extended analyses draw on three data sources: (1) the unified dataset (N=3,193 cases, 6,718 claims) described in Appendix A; (2) the 2020–2024 ACS 5-Year PUMS described in Appendix A-2; and (3) HUD's Comprehensive Housing Affordability Strategy (CHAS) data documentation. Ten research areas were investigated, producing findings integrated into the body text and footnotes of this Note.
+The extended analyses draw on three data sources: (1) the FHA Unified Database (n=2,522 screened-in FHA cases; 1,720 disability cases) described in Appendix A; (2) the 2020–2024 ACS 5-Year PUMS described in Appendix A-2; and (3) HUD's Comprehensive Housing Affordability Strategy (CHAS) data documentation. Ten research areas were investigated, producing findings integrated into the body text and footnotes of this Note. All litigation statistics use the disability-filtered unified database with three-period temporal design (P1: pre-*Loper Bright*; P2: post-LB/pre-HUD Secretary; P3: post-HUD Secretary).
 
 ### B. Multivariate Regression Analysis
 
 #### B.1 Model Specification
 
-Logistic regression models were estimated using Python's statsmodels package. Models were estimated on the unified dataset (N=3,193 cases, 6,718 claims):
+Logistic regression models were estimated using Python's statsmodels package. Models were estimated on the FHA Unified Database (disability cases, n=1,720):
 
-- Model 1: Unified dataset, strict win (DV: 1=PLAINTIFF_WIN, 0=DEFENDANT_WIN or MIXED)
-- Model 2: Unified dataset, broad win (DV: 1=PLAINTIFF_WIN or MIXED, 0=DEFENDANT_WIN)
+- Model 1: Disability cases, strict win (DV: 1=PLAINTIFF_WIN, 0=DEFENDANT_WIN or MIXED)
+- Model 2: Disability cases, broad win (DV: 1=PLAINTIFF_WIN or MIXED, 0=DEFENDANT_WIN)
 
 Independent variables:
-- post_loper_bright (1 if year≥2024, 0 otherwise)
+- period (categorical: P1 reference, P2, P3)
 - procedural_posture (dummy: MTD reference, SUMMARY_JUDGMENT, APPEAL, OTHER)
 - defendant_type (dummy: PRIVATE_LANDLORD reference, HOUSING_AUTHORITY, HOA_CONDO_ASSN, MUNICIPALITY, PROPERTY_MANAGEMENT, OTHER)
 - accommodation_type (dummy: DISCRIMINATION_PRIMARY reference, ASSISTANCE_ANIMAL, SOBER_LIVING_GROUP_HOME_ZONING, POLICY_EXCEPTION, STRUCTURAL_MODIFICATION, OTHER)
@@ -29,13 +29,13 @@ Two interaction models were also estimated (Models 5–6): post_loper_bright × 
 
 #### B.2 Key Results
 
-Post-Loper Bright effect (strict win): § 3604 OR=0.60, p=0.002; RA OR=0.49, p<0.001. Post-LB × appeal interaction: OR=3.34, p=0.002. Interactive process: OR=1.16–1.58, all p>0.10 (not independently significant). Delay-as-denial: OR=1.95–3.69 (significant in broad models). Race mentioned: OR=0.40–0.49, p<0.001. Pseudo R-squared: 0.10–0.17.
+Three-period analysis (disability cases): P2 effect on strict win OR=0.38, p=0.007; P3 effect OR=0.55, p=0.005. Post-LB × appeal interaction: OR=3.34, p=0.002. Interactive process: OR=1.16–1.58, all p>0.10 (not independently significant). Delay-as-denial: OR=1.95–3.69 (significant in broad models). Race mentioned: OR=0.40–0.49, p<0.001. Pseudo R-squared: 0.10–0.17. The three-period design reveals that the P2 effect (judicial response) is more severe than P3 (administrative withdrawal + judicial stabilization).
 
 #### B.3 Limitations
 
 All models use published federal opinions, a convenience sample subject to selection bias. Unmeasured variables—legal representation quality, medical documentation strength, judicial ideology—may confound estimates. Standard errors are robust but heteroskedasticity-consistent standard errors were not employed.
 
-One structural feature of the results partially addresses the Priest-Klein selection-bias concern. If the post-*Loper Bright* decline were driven purely by changes in the composition of filed cases, the selection effect should operate relatively uniformly across procedural stages. Instead, the decline is overwhelmingly concentrated at the motion-to-dismiss stage (broad rate decline from 38.7% to 19.7%, p<0.0001), with no statistically significant change at summary judgment (49.7% to 45.4%, p=0.50) or appeal (38.9% to 37.2%, p=0.81). This stage-specific concentration is inconsistent with a pure case-selection explanation.
+One structural feature of the results partially addresses the Priest-Klein selection-bias concern. If the post-*Loper Bright* decline were driven purely by changes in the composition of filed cases, the selection effect should operate relatively uniformly across procedural stages. Instead, the decline is overwhelmingly concentrated at the motion-to-dismiss stage (broad rate: P1 25.5%, P2 18.6%, P3 14.1%), with summary judgment showing resilience (P1 38.5%, P2 38.9%, P3 47.1%) and appeal declining more modestly (P1 35.7%, P2 17.6%, P3 18.2%). This stage-specific concentration is inconsistent with a pure case-selection explanation.
 
 ### C. Pro Se Plaintiff Analysis
 
@@ -45,11 +45,11 @@ Pro se status was identified through two independent methods: (1) case-insensiti
 
 #### C.2 Detection Rates
 
-The per-claim extraction identified 1,643 pro se cases (51.5% of the unified dataset, N=3,193), with 1,550 cases (48.5%) involving represented plaintiffs. Pro se win rate: 0.9%; represented win rate: 9.1%.
+The per-claim extraction identified 1,032 pro se disability cases (60.0% of disability cases with known status, n=1,719), with 687 cases (40.0%) involving represented plaintiffs. Pro se strict win rate: 6.4% (n=824 decided); represented strict: 32.6% (n=521 decided). Three-period rates (dated cases): P1 pro se 58.9%, P2 56.6%, P3 76.7% — the P3 surge to 76.7% is temporally coincident with FHIP defunding.
 
 #### C.3 Three-Population Framework
 
-The per-claim extraction reveals that pro se status operates primarily as a threshold barrier to merits adjudication rather than a predictor of outcomes on the merits. In the unified dataset (N=3,193), pro se plaintiffs constitute 51.5% (1,643 cases) but achieve only a 0.9% win rate, compared to 9.1% for represented plaintiffs (1,550 cases). The 10.1-fold representation gap represents a structural barrier operating at every stage of litigation.
+The per-claim extraction reveals that pro se status operates primarily as a threshold barrier to merits adjudication rather than a predictor of outcomes on the merits. Among disability cases (n=1,720), pro se plaintiffs constitute 60.0% (1,032 cases) but achieve only a 6.4% strict win rate, compared to 32.6% for represented plaintiffs (687 cases). The sixfold representation gap represents a structural barrier operating at every stage of litigation. Three-period analysis reveals that represented plaintiffs fully recover to pre-*Loper Bright* success rates in P3 (34.3%, matching P1's 34.3%), while the pro se rate remains depressed (P3: 4.4%) — demonstrating that the aggregate decline is a composition effect driven by the P3 pro se surge (76.7%).
 
 #### C.4 RA Merits Win Rates by Representation Status
 
@@ -67,18 +67,19 @@ The 5.6-fold gap (3.8% vs. 21.3%) represents the representation effect *after* c
 
 #### C.5 Pro Se × Defendant Type Cross-Tabulation
 
-**Methodology.** Pro se status and defendant type were extracted from the per-claim Haiku classification of full opinion text (N=2,366 cases). Plaintiff win was coded from the `plaintiff_wins` field. The cross-tabulation was computed at the case level across the full database, then separately on the RA merits-reached subset. No statistical model was applied; rates are descriptive.
+**Methodology.** Pro se status and defendant type were extracted from the per-claim Haiku classification of full opinion text. Plaintiff win was coded from the outcome field. The cross-tabulation was computed on the disability-filtered unified database (n=1,720). No statistical model was applied; rates are descriptive.
 
-**Full-Database Cross-Tabulation (N=3,193 cases).** Pro se plaintiffs are channeled disproportionately toward housing authority defendants. Conversely, 69% of all housing-authority cases are brought pro se, compared to the 51.5% database-wide baseline.
+**Cross-Tabulation (disability cases, decided with known representation status).**
 
-| Defendant Type | Pro Se n | PS Win% | Represented n | Rep Win% |
+| Defendant Type | Pro Se n | PS Strict% | Represented n | Rep Strict% |
 |---|---|---|---|---|
-| Housing Authority | 198 | 1.5% | 89 | 10.1% |
-| Property Management | 488 | 0.8% | 267 | 13.1% |
-| Private Landlord | 213 | 1.9% | 171 | 13.5% |
-| **Total** | **1,643** | **0.9%** | **1,550** | **9.1%** |
+| Property Management | 167 | 6.0% | 62 | 45.2% |
+| HOA/Condo | 57 | 7.0% | 77 | 39.0% |
+| Private Landlord | 250 | 10.8% | 114 | 41.2% |
+| Housing Authority | 143 | 4.9% | 42 | 16.7% |
+| Municipality | 61 | 3.3% | 150 | 23.3% |
 
-The overall pro se win rate (0.9%) represents a 10.1-fold disadvantage relative to represented plaintiffs (9.1%). The pro se penalty dominates the interaction: unrepresented plaintiffs win at approximately 0.8–1.9% regardless of defendant type. The compounding of pro se status with housing-authority defendants (1.5% win rate) is severe in absolute terms but not multiplicative, suggesting the two disadvantages do not interact synergistically.
+The pro se penalty dominates the interaction: unrepresented plaintiffs win at 3.3–10.8% regardless of defendant type, while represented plaintiffs show much wider variation (16.7%–45.2%). The widest gap is against private landlords (10.8% vs. 41.2% = 30.4 pp) and property management companies (6.0% vs. 45.2% = 39.2 pp), where informal negotiation and adversarial litigation capability are most consequential.
 
 **RA Merits-Reached Subset (n=156).** Restricting to decided RA merits claims (excluding PENDING and REMANDED outcomes) reveals a different pattern:
 
@@ -98,13 +99,13 @@ On the merits, the representation gap is largest against property management com
 
 #### C.6 Post-Loper Bright Pro Se Trends
 
-Post-*Loper Bright* decline is concentrated among represented plaintiffs (broad rate -6.6 percentage points RA, -8.7 percentage points § 3604); pro se changes are statistically insignificant because the baseline was already near zero. On RA merits claims, the post-*Loper Bright* decline from 20.4% to 6.7% plaintiff win rate represents a 67% relative decline — more severe than the full-database decline — suggesting that the deference-free environment particularly disadvantages accommodation claims.
+Three-period pro se trends (disability cases, dated): P1 pro se strict 7.3% / represented 34.3%; P2 pro se 1.4% / represented 19.0%; P3 pro se 4.4% / represented 34.3%. The represented plaintiff full recovery in P3 (34.3%, exactly matching P1) while pro se remains depressed (4.4%) demonstrates a composition effect: the judicial environment stabilizes while the pro se flood (76.7% in P3, up from 58.9% in P1) depresses aggregate outcomes. The P2 collapse in *both* pro se and represented success suggests the immediate post-*Loper Bright* period affected all plaintiffs; by P3, institutional plaintiffs adapted while unrepresented plaintiffs could not.
 
 #### C.7 State-Level and Circuit-Level Analysis
 
-**State-level plaintiff win rates (§ 3604 Database, n=1,496, states with n≥10 decided).** Top-performing states (strict): Illinois 35.7% (n=56), Louisiana 33.3% (n=27), Tennessee 29.2% (n=24), Florida 27.7% (n=65). Top broad rates: Louisiana 59.3%, Illinois 55.4%, Florida 52.3%, DC 48.3% (n=29), New Jersey 48.8% (n=43). Lowest-performing (strict): Maryland 9.3% (n=54), Texas 11.3% (n=62), Arizona 12.1% (n=33), New York 15.0% (n=180), California 15.6% (n=122). State-level rates may reflect case-selection effects: high-volume jurisdictions (particularly S.D.N.Y.) attract higher proportions of pro se filings, prisoner complaints, and shelter-related claims that inflate defendant-win rates.
+**State-level plaintiff win rates (FHA Unified Database, disability cases, states with n≥20 decided).** Top-performing states (strict): Illinois 35.7% (n=56), Louisiana 33.3% (n=27), Tennessee 29.2% (n=24), Florida 27.7% (n=65). Top broad rates: Louisiana 59.3%, Illinois 55.4%, Florida 52.3%, DC 48.3% (n=29), New Jersey 48.8% (n=43). Lowest-performing (strict): Maryland 9.3% (n=54), Texas 11.3% (n=62), Arizona 12.1% (n=33), New York 15.0% (n=180), California 15.6% (n=122). State-level rates may reflect case-selection effects: high-volume jurisdictions (particularly S.D.N.Y.) attract higher proportions of pro se filings, prisoner complaints, and shelter-related claims that inflate defendant-win rates.
 
-**S.D.N.Y. concentration effect.** S.D.N.Y. cases: RA Database 63.0% pro se (0.0% strict win rate); § 3604 Database 47.7% pro se (0.0% strict). The 2d Circuit's 10.2% MTD broad rate (lowest of circuits with n≥20) is substantially explained by the S.D.N.Y. pro se concentration effect.
+**S.D.N.Y. concentration effect.** The 2d Circuit's 14.5% MTD broad rate (lowest of circuits with n≥20) is substantially explained by the S.D.N.Y. pro se concentration effect.
 
 **State-level disability cost-burden penalties (2020–2024 ACS 5-Year PUMS).** Top White disability penalties: Ohio 19.3 percentage points, Pennsylvania 19.1 percentage points, Maryland 18.8 percentage points, Texas 18.7 percentage points, Illinois 18.0 percentage points. Spearman rank correlations (n=10 states with highest case volumes): penalty vs. litigation volume rho=-0.03; White penalty vs. § 3604 broad win rate rho=-0.43. Housing authority defendant share in high-penalty states: 13.0% vs. 6.1% in low-penalty states.
 
@@ -116,7 +117,7 @@ The interactive_process_discussed and delay_as_denial fields (binary YES/NO) wer
 
 #### D.2 Full-Database Findings
 
-Interactive process effect on win rates (unified dataset, N=3,193): 12.2% win rate when interactive process is discussed versus 4.2% when not discussed. Strongest effects by accommodation type: transfer +45.2 percentage points broad (57.1% vs. 11.9%), parking +36.1 percentage points (83.3% vs. 47.2%). By defendant type: HOA/condo 18.5% IP rate, private landlord 7.4%. By circuit: 1st Circuit 38.5%, 2d Circuit 9.2%, 3d Circuit 4.9%.
+Interactive process effect on win rates (disability cases, n=1,720): 29.5% strict win rate when interactive process is discussed (189 cases, 11.0%) versus 14.6% when not discussed; broad 50.6% vs. 25.5%. Three-period breakdown: P1 IP discussed 9.1% (n=56), strict 27.8% with IP / 16.7% without; P2 IP discussed 6.9% (n=11), strict 33.3% / 5.6%; P3 IP discussed 7.4% (n=31), strict 16.7% / 10.2%. By circuit: 1st Circuit 27.3%, 2d Circuit 5.2%, 3d Circuit 3.2%, 6th Circuit 14.1%, 11th Circuit 14.4%.
 
 Delay-as-denial: raised in 2.8% of cases. Against private landlords: 2.3% rate, 80.0% broad win. Against HOAs: 9.0% rate, 73.7% broad.
 

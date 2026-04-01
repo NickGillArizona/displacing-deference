@@ -2,20 +2,26 @@
 
 ### A.1 Overview
 
-This Appendix describes the construction of the principal empirical dataset underlying the case-classification analysis in this Note.
+This Appendix describes the construction of the **FHA Unified Database**, the principal empirical dataset underlying the case-classification analysis in this Note.
 
-**Naming conventions.** This Appendix and its supplements refer to three source databases and one combined dataset. The following names are used consistently throughout:
+**The FHA Unified Database** (n=2,522 screened-in FHA cases; **1,720 disability cases**) is the single source of truth for all statistical claims in this Note. It was constructed by merging two overlapping source corpora — the RA Database (1,857 all-protected-class FHA cases, 2021–2026) and the 2015 FHA Database (1,461 screened-in § 3604(f) disability cases, 2015–2026) — with 796 cases appearing in both. A per-claim structured extraction via Claude Haiku 4.5 Batch API enriched each record with detailed claim-level data. For the Note's disability-focused analysis, the unified database is filtered to the 1,720 cases where disability is a protected class.
+
+**Three-Period Temporal Design.** Exact decision dates (resolved for all cases via CourtListener API, opinion text extraction, and Google Scholar) enable a three-period analysis:
+
+| Period | Date Range | Boundary Event | Dated Disability Decided |
+|--------|-----------|----------------|:---:|
+| P1 | Jan 1, 2022 – June 28, 2024 | Pre-*Loper Bright* | 456 |
+| P2 | June 28, 2024 – Feb 5, 2025 | *Loper Bright* decision → HUD Secretary confirmation | 116 |
+| P3 | Feb 5, 2025 – present | Post-HUD Secretary change | 317 |
+
+Of 1,720 disability cases, 1,191 have exact decision dates falling within the study period (2022–present). The remaining 529 are undated or pre-2022; they are included in overall statistics but excluded from three-period analysis.
+
+**Source corpora.** The unified database draws from:
 
 - **RA Database** (n=1,857): All-protected-class FHA cases, 2021–2026, from a CourtListener "fair housing act" search.
-- **2015 FHA Database** (n=1,496): Section 3604(f) disability cases, 2015–2026, from a CourtListener search supplemented by Google Scholar.
-- **FHA Pilot Database** (n=331): All-protected-class FHA cases, 2012–2026, from a CourtListener search requiring "fair housing act," "race," and "zoning."
-- **Unified Dataset** (N=3,193 cases; 6,718 claims): The deduplicated combination of the RA Database and 2015 FHA Database, subjected to per-claim structured extraction via Claude Haiku 4.5 Batch API. The Unified Dataset is the single source of truth for all statistical claims in this Note unless a specific source database is identified.
+- **2015 FHA Database** (n=1,461 screened-in): Section 3604(f) disability cases, 2015–2026, from a CourtListener search supplemented by Google Scholar.
 
-Where a section header includes "(2015 FHA Database)" or "(RA Database)," the table draws from the named source database's per-case classification rather than the Unified Dataset's per-claim extraction. These source-database tables are retained for continuity and for comparison with the per-claim results; the Unified Dataset tables are authoritative.
-
-The Unified Dataset was constructed from the RA Database and 2015 FHA Database — deduplicated by source file to 3,193 unique cases, then subjected to per-claim structured extraction. It contains 6,718 total claims (4,464 FHA claims + 2,254 non-FHA claims). The FHA Pilot Database (n=331) was used for cross-class comparisons and *Iqbal* citation analysis.
-
-Both source databases were classified across twenty-eight substantive fields including case outcome, claim types, accommodation type, disability category, and procedural posture, using a multi-model classification pipeline with automated consensus detection. The RA Database used tiered consensus adjudication with Anthropic model adjudication for three-way splits; the 2015 FHA Database used the same triple-model classification pipeline but resolved three-way splits using MiniMax M2.7 as the tiebreaker rather than API adjudication. After deduplication, all 3,193 unique cases were subjected to per-claim structured extraction via Claude Haiku 4.5 Batch API, producing the Unified Dataset. See Section A.5 for the reconciliation analysis.
+Both source databases were classified across twenty-eight substantive fields including case outcome, claim types, accommodation type, disability category, and procedural posture, using a multi-model classification pipeline with automated consensus detection. The RA Database used tiered consensus adjudication with Anthropic model adjudication for three-way splits; the 2015 FHA Database used the same triple-model classification pipeline but resolved three-way splits using MiniMax M2.7 as the tiebreaker rather than API adjudication. After deduplication and merging, all cases were subjected to per-claim structured extraction via Claude Haiku 4.5 Batch API. See Section A.5 for the reconciliation analysis.
 
 ### A.1.1 Research Design and Database Rationale
 

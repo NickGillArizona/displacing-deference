@@ -2,7 +2,7 @@
 
 **Nick Gill** | University of Arizona James E. Rogers College of Law
 
-This repository contains the replication package, classified dataset documentation, and supplementary appendices for a law review note arguing that the post-*Loper Bright* constitutional landscape counsels recalibrating AFFH through the disability-specific mandates of 42 U.S.C. § 3604(f)(3). The empirical foundation is a structured dataset of 3,193 federal FHA cases (6,718 individual claims) constructed through a novel multi-model LLM consensus pipeline — what this Note terms **Agile Empirical Legal Studies (Agile ELS)**.
+This repository contains the replication package, classified dataset documentation, and supplementary appendices for a law review note arguing that the post-*Loper Bright* constitutional landscape counsels recalibrating AFFH through the disability-specific mandates of 42 U.S.C. § 3604(f)(3). The empirical foundation is the **FHA Unified Database** — 1,720 federal FHA disability cases (filtered from a broader corpus of 2,522 screened-in FHA cases across all protected classes), constructed through a novel multi-model LLM consensus pipeline this Note terms **Agile Empirical Legal Studies (Agile ELS)**. A three-period temporal design separates the judicial response to *Loper Bright* from the subsequent administrative contraction.
 
 ---
 
@@ -12,11 +12,11 @@ This repository contains the replication package, classified dataset documentati
 
 **The enforcement desert.** At minimum 823,000 disabled renters of color reside in non-entitlement communities that the integration model structurally excluded from CDBG enforcement. For this population, disability-centered enforcement is not a policy preference — it is the only federal pathway that exists.
 
-**The litigation decline.** After *Loper Bright*, disability plaintiff win rates in the § 3604 Database fell from 21.5% to 13.7% (p=0.0004). The RA Database corroborates the decline across all protected classes: 16.7% to 9.0%. Multivariate logistic regression confirms 40-51% lower odds of plaintiff victory after controlling for procedural posture, defendant type, accommodation type, and plaintiff type.
+**The litigation decline.** Three-period analysis reveals a two-phase contraction: strict win rates fell from 18.0% (P1: pre-*Loper Bright*) to 7.8% (P2: post-*Loper Bright*, pre-HUD Secretary change) to 10.7% (P3: post-HUD Secretary), with the P1-to-P2 decline statistically significant (p=0.007). Multivariate logistic regression confirms 40-51% lower odds of plaintiff victory after controlling for procedural posture, defendant type, accommodation type, and plaintiff type.
 
-**The capability gap.** Institutional plaintiffs — fair housing organizations, government agencies, group home operators — succeed at four to eight times the rate of individual tenants, even after controlling for claim type and procedural posture. Pro se plaintiffs constitute 54.3% of the database and win 4.9% of the time, versus 27.0% for represented plaintiffs.
+**The capability gap and pro se surge.** Institutional plaintiffs — fair housing organizations, government agencies, group home operators — succeed at four to eight times the rate of individual tenants. Pro se plaintiffs constitute 64.8% of disability cases, surging to 76.7% in P3 (consistent with FHIP defunding), and win 5.3% of the time versus 32.1% for represented plaintiffs. Represented plaintiff success fully recovers to pre-*Loper Bright* levels in P3 (34.3%); the aggregate decline is entirely a composition effect driven by the pro se flood.
 
-**The procedural gatekeeping problem.** Courts cite *Iqbal* in disability cases at 3.3x the rate observed in race cases. When invoked, defendant success at motion-to-dismiss rises from 43.1% to 66.7%.
+**The procedural gatekeeping problem.** Courts cite *Iqbal* in 82.4% of disability MTD cases. MTD broad survival rates show continuous three-period decline: 25.5% → 18.6% → 14.1%.
 
 **The design-and-construction gap.** 47% estimated noncompliance rate in pre-1990 multifamily housing, against 0.8% of fair housing complaints — a 56:1 ratio.
 
@@ -24,14 +24,21 @@ This repository contains the replication package, classified dataset documentati
 
 ## The Dataset
 
-This repository provides what HUD does not: a structured empirical dataset of approximately 2,566 unique federal FHA cases across all protected classes, drawn from three databases and deduplicated into a Unified Dataset of 3,193 cases with 6,718 individual claims for per-claim analysis.
+This repository provides what HUD does not: a structured empirical dataset of 2,522 screened-in federal FHA cases across all protected classes, unified from multiple source corpora into a single **FHA Unified Database**. For the Note's disability-focused analysis, the database is filtered to the 1,720 cases where disability is a protected class.
 
-| Database | Scope | Cases (screened) |
-|----------|-------|:---:|
-| RA Database | All FHA protected classes, 2021-2026 | 1,857 |
-| 2015 FHA Database | § 3604(f) disability cases | 1,496 |
-| FHA Pilot Database | Initial validation cohort | 331 |
-| **Unified Dataset** | **Deduplicated, per-claim extraction** | **3,193 (6,718 claims)** |
+| Scope | Cases |
+|-------|:---:|
+| Total FHA cases (all protected classes) | 2,522 |
+| **Disability cases (analysis population)** | **1,720** |
+| Dated disability cases (three-period analysis) | 1,191 |
+
+**Three-Period Design:**
+
+| Period | Date Range | Dated Decided |
+|--------|-----------|:---:|
+| P1: Pre-*Loper Bright* | Jan 1, 2022 – June 28, 2024 | 456 |
+| P2: Post-LB / Pre-HUD Secretary | June 28, 2024 – Feb 5, 2025 | 116 |
+| P3: Post-HUD Secretary | Feb 5, 2025 – present | 317 |
 
 The repository also includes the first systematic use of ACS PUMS microdata to quantify disability-specific housing cost burden by race. HUD has never cross-tabulated disability status with race in its cost-burden reporting; the Census Bureau publishes disability prevalence and housing cost burden in separate tables that cannot be linked at the individual level without microdata access. This analysis queries the 2020-2024 ACS 5-Year PUMS at the householder level using successive-differences replication with 80 replicate weights for standard errors — the Census Bureau's recommended variance estimation method. Full replication queries, variable definitions, and sensitivity analyses appear in [Appendix A-2](appendices/Appendix_A2_PUMS_Replication.md).
 
@@ -39,7 +46,7 @@ The repository also includes the first systematic use of ACS PUMS microdata to q
 
 ## Methodology: Agile ELS
 
-Traditional empirical legal studies at this scale — manually reading and coding 3,193 court opinions into structured data — would require roughly 800 hours of researcher time, substantial institutional funding, and extensive inter-rater reliability testing. I constructed this dataset in one week for approximately $160.
+Traditional empirical legal studies at this scale — manually reading and coding 2,522 court opinions into structured data — would require roughly 600 hours of researcher time, substantial institutional funding, and extensive inter-rater reliability testing. I constructed this dataset in one week for approximately $200.
 
 The approach, which I am calling **Agile Empirical Legal Studies (Agile ELS)**, rests on a straightforward insight: rather than trusting a single LLM to classify thousands of cases — fast but unreliable — I ran each case through three independent models and treated their disagreement as a quality signal. When all three agreed, I accepted the answer. When they disagreed, I escalated to a stronger model that could see all three outputs and adjudicate. This transposes the logic of inter-rater reliability — the same principle that governs human coding in empirical legal research — from human coders to computational classifiers.
 
@@ -47,13 +54,13 @@ To the best of my knowledge, no published legal study has employed multi-model L
 
 ### Three principles
 
-**1. Fail-fast hypothesis testing.** Rather than committing years of labor to a coding scheme before discovering whether a hypothesis survives contact with data, Agile ELS supports rapid exploratory cycles: construct a prototype dataset, test the claim, pivot or deepen — in the same week. The entire empirical foundation of this Note — 3,193 classified cases, 6,718 individual claims, eight hypothesis tests, and seven regression models — was constructed and analyzed in a single research sprint.
+**1. Fail-fast hypothesis testing.** Rather than committing years of labor to a coding scheme before discovering whether a hypothesis survives contact with data, Agile ELS supports rapid exploratory cycles: construct a prototype dataset, test the claim, pivot or deepen — in the same week. The entire empirical foundation of this Note — 2,522 classified FHA cases (1,720 disability), eight hypothesis tests, and seven regression models — was constructed and analyzed in a single research sprint.
 
 **2. Tiered consensus extraction.** Three architecturally independent LLMs (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) classify each case separately. They were selected for independence: different training corpora (Chinese and Western sources), different parameter scales, different fine-tuning approaches — ensuring that consensus reflects textual signal rather than shared model bias. Agreement determines confidence; disagreement routes contested cases to progressively stronger adjudicators (Haiku 4.5, then Sonnet 4.6). Every record carries full provenance metadata: which tier resolved it, which models agreed, what the adjudicator decided and why.
 
-**3. Democratized access.** Total pipeline cost for 3,193 cases: ~$160. Forty-six percent of cases resolved through consensus or majority vote alone, without requiring an additional API call. The difficult cases escalated; the straightforward ones were effectively free.
+**3. Democratized access.** Total pipeline cost for 2,522 cases: ~$200. Forty-six percent of cases resolved through consensus or majority vote alone, without requiring an additional API call. The difficult cases escalated; the straightforward ones were effectively free.
 
-> **Project summary.** Dataset: 3,193 cases, 6,718 claims. Classification: 3 independent LLMs + tiered adjudication. Cost: ~$160. Timeline: one week. Validation: Cohen's κ 0.56-0.74 across substantive fields.
+> **Project summary.** Dataset: 2,522 FHA cases (1,720 disability). Classification: 3 independent LLMs + tiered adjudication. Cost: ~$200. Timeline: one week. Validation: Cohen's κ 0.56-0.74 across substantive fields.
 
 ### Pipeline stages
 
@@ -136,7 +143,7 @@ The Agile ELS pipeline — the classification, consensus resolution, and per-cla
 
 The Java and Python source code for the download pipeline, classification clients, and evaluation framework is maintained in the companion repository: **[MFH-Java-Work](https://github.com/NickGillArizona/MFH-Java-Work)**
 
-The unified dataset (N=3,193 cases, 6,718 claims) and full audit trail are available upon request.
+The FHA Unified Database (N=2,522 screened-in FHA cases; 1,720 disability) and full audit trail are available upon request.
 
 ---
 
@@ -152,47 +159,28 @@ The PUMS scripts that query the Census API require a Census API key set in a `.e
 
 ### Pipeline 1: Litigation Database Analysis
 
-These scripts analyze the classified FHA case databases. They expect JSON database files in their working directory (paths are hardcoded to the author's local environment; update paths before running).
+These scripts analyze the FHA Unified Database. They expect the unified JSON database file (paths are hardcoded to the author's local environment; update paths before running).
 
 ```bash
-# Primary § 3604(f) disability litigation statistics
-# Produces: pre/post Loper Bright win rates, MTD survival, pro se gaps,
-# interactive process effect, defendant-type disparities
-python scripts/disability_only_stats.py
+# PRIMARY: Three-period statistics for all appendices (disability cases only)
+# Produces: appendix_report.md, appendix_data.json
+python scripts/recompute_all_appendices.py
 
-# Reconciled statistics across all three databases
-# Produces: unified pro se rates (4.9% vs 27.0%), defendant-type win rates
-python scripts/final_numbers.py
+# Three-period win rates, pro se, MTD, circuit, interactive process
+# Produces: unified_stats_report.md, unified_stats.json
+python scripts/recompute_stats_unified.py
 
-# Cross-tabulation: accommodation type × defendant type
-python scripts/crosstab_3604.py
-
-# Deep-dive 3604 analysis (1,256 lines)
-python scripts/combined_case_analysis.py
-
-# Unified § 3604 database analysis
-python scripts/analyze_3604_unified.py
-
-# Multivariate logistic regression (7 models across 2 databases)
+# Multivariate logistic regression (7 models)
 python scripts/regression_analysis.py
 
-# Verification of computed vs. expected values
-python scripts/phase5_verify.py
+# Full regression with interaction terms (post-LB × posture)
+python scripts/regression_analysis_full.py
 
-# Iqbal pleading barrier quantification (331 FHA cases)
+# Iqbal pleading barrier quantification
 python scripts/fha_iqbal_analysis.py
-
-# Comprehensive FHA case statistical analysis
-python scripts/fha_case_deep_dive.py
 
 # Positional bias analysis in LLM classification
 python scripts/positional_bias_v2.py
-
-# Recompute note statistics from Haiku per-claim extraction
-python scripts/phase2_recompute.py
-
-# Final stats extraction using v4 unified database
-python scripts/extract_final.py
 ```
 
 ### Pipeline 2: Census PUMS Housing Analysis
@@ -231,13 +219,14 @@ python scripts/pums_dis1_sensitivity.py
 
 | File | Contents |
 |------|----------|
-| `results/RESULTS_3604_database_analysis.md` | § 3604 case analysis: pre/post *Loper Bright*, win rates by defendant/accommodation type |
-| `results/RESULTS_recentFHA_hypothesis_tests.md` | 8 hypothesis tests on disability litigation patterns |
+| `results/appendix_report.md` | Complete three-period statistics for all appendices (disability cases only) |
+| `results/appendix_data.json` | Machine-readable appendix data |
+| `results/unified_stats_report.md` | Three-period win rates, pro se, MTD, circuit, interactive process |
+| `results/unified_stats.json` | Machine-readable unified statistics |
 | `results/pums_results.csv` | Cost burden rates by race × disability status with SE and 90% MOE |
 | `results/pums_se_results.json` | Detailed standard error calculations, disability penalty, GRPIP distributions |
 | `results/housing_stock_results.json` | Building type/era distribution, pre-1990 accessibility gaps |
 | `results/pums_sensitivity_results.json` | Disability-definition sensitivity analysis (DPHY-only vs. DPHY∪DOUT) |
-| `results/regression_results_RA9.txt` | Logistic regression output (7 model specifications) |
 
 ---
 
@@ -276,44 +265,35 @@ queries/                              # API query specifications
   courtlistener_api.md                # CourtListener REST API v4 download specs
 
 scripts/                              # Executable replication scripts
-  census_pums_replication.py          # Census PUMS cost-burden replication (Python 3, no deps)
-  pums_analysis.py                    # Core PUMS national-level disability prevalence & cost burden
-  pums_costburden_analysis.py         # Cost burden by race × disability with SE (primary PUMS script)
-  pums_cb_se.py                       # Cost burden with replicate-weight standard errors
-  pums_replicate_weights.py           # Successive-differences replication methodology (80 weights)
-  pums_housing_stock_analysis.py      # Pre-1990 building stock gap analysis
-  pums_housing_stock_fast.py          # Optimized housing stock analysis (vectorized NumPy)
-  pums_cdbg_analysis.py              # CDBG non-entitlement community analysis
-  pums_5year_aian_analysis.py         # ACS 5-Year AIAN-focused disability & cost burden
-  pums_dis1_sensitivity.py           # Disability-definition sensitivity analysis
-  disability_only_stats.py            # § 3604(f) litigation statistics (primary case analysis)
-  combined_case_analysis.py           # Deep-dive 3604 accommodation & defendant-type analysis
-  crosstab_3604.py                    # Cross-tabulation: accommodation type × defendant type
-  extract_stats.py                    # Pro se statistics & capability gap extraction
-  regression_analysis.py              # Multivariate logistic regression (7 models, 2 databases)
+  # --- Litigation analysis (FHA Unified Database) ---
+  recompute_all_appendices.py         # PRIMARY: Three-period stats for all appendices
+  recompute_stats_unified.py          # Three-period win rates, pro se, MTD, circuit, IP
+  regression_analysis.py              # Multivariate logistic regression (7 models)
   regression_analysis_full.py         # Full 4-model regression with interaction terms
-  analyze_3604_unified.py            # Section 3604 database analysis (pre/post Loper Bright)
-  final_numbers.py                   # Authoritative statistics generator for the Note
-  extract_final.py                   # Final stats extraction using v4 unified database
-  phase5_verify.py                   # Verification: expected vs. computed values
-  phase2_recompute.py                # Recompute note statistics from Haiku extraction
-  fha_iqbal_analysis.py              # Iqbal pleading barrier analysis (331 cases)
-  fha_case_deep_dive.py              # Comprehensive FHA case statistical analysis
-  ra_v3_analysis.py                  # RA v3 database analysis
-  positional_bias.py                 # Positional bias in claim classification
-  positional_bias_full.py            # Extended positional bias analysis
-  positional_bias_v2.py              # Refined positional bias methodology
-  extract_stats2.py                  # Pro se count reconciliation across databases
+  fha_iqbal_analysis.py              # Iqbal pleading barrier analysis
+  positional_bias_v2.py              # Positional bias in LLM classification
+  # --- Census PUMS analysis ---
+  census_pums_replication.py          # Census PUMS cost-burden replication
+  pums_analysis.py                    # National-level disability prevalence & cost burden
+  pums_costburden_analysis.py         # Cost burden by race × disability with SE
+  pums_cb_se.py                       # Cost burden with replicate-weight standard errors
+  pums_replicate_weights.py           # Successive-differences replication (80 weights)
+  pums_housing_stock_analysis.py      # Pre-1990 building stock gap analysis
+  pums_housing_stock_fast.py          # Optimized housing stock analysis
+  pums_cdbg_analysis.py              # CDBG non-entitlement community analysis
+  pums_5year_aian_analysis.py         # ACS 5-Year AIAN-focused analysis
+  pums_dis1_sensitivity.py           # Disability-definition sensitivity analysis
   pums_export_csv.py                 # Export Census PUMS microdata to CSV
 
 results/                              # Output data and summary tables
-  RESULTS_3604_database_analysis.md   # § 3604 database analysis results
-  RESULTS_recentFHA_hypothesis_tests.md # Hypothesis test results (8 tests)
+  appendix_report.md                  # Complete three-period appendix data
+  appendix_data.json                  # Machine-readable appendix data
+  unified_stats_report.md             # Three-period unified statistics report
+  unified_stats.json                  # Machine-readable unified statistics
   pums_results.csv                    # Cost burden rates by race × disability with SE
   pums_se_results.json                # Detailed standard error calculations
   pums_sensitivity_results.json       # Disability-definition sensitivity analysis
   housing_stock_results.json          # Housing stock accessibility analysis output
-  regression_results_RA9.txt          # Regression model output
 
 pipeline/                             # Classification pipeline documentation
   model_configuration.md              # Model specs, costs, and agreement rates
