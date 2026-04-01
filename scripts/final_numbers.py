@@ -1,33 +1,21 @@
-"""
-Get all final verified numbers for the note update.
-
-Usage:
-    python final_numbers.py <ra_unified.json> <ra_claims.json> <3604_claims.json> <3604_unified.json>
-
-Arguments:
-    ra_unified.json    — RA Database unified (e.g., FHA_RA_Database_unified_*.json)
-    ra_claims.json     — RA claims extraction (e.g., RAClassification_DB_claims_extraction.json)
-    3604_claims.json   — 3604 claims extraction (e.g., RAClassification_DB_3604_claims_extraction.json)
-    3604_unified.json  — 3604 Database unified (e.g., FHA_3604_Database_unified_*.json)
-"""
+"""Get all final verified numbers for the note update."""
 import json
-import sys
 from collections import defaultdict
 
-if len(sys.argv) < 5:
-    print(__doc__)
-    sys.exit(1)
-
-with open(sys.argv[1], encoding="utf-8") as f:
+# RA v4 unified (the authoritative RA Database)
+with open(r"C:\Users\nickg\IdeaProjects\MFH-Java-Work\allFHAcases\recentcases\FHA_RA_Database_unified_20260328_090852.json", encoding="utf-8") as f:
     ra_v4 = json.load(f)
 
-with open(sys.argv[2], encoding="utf-8") as f:
+# RA claims extraction (has pro_se)
+with open(r"C:\Users\nickg\IdeaProjects\MFH-Java-Work\allFHAcases\recentcases\RAClassification_DB_claims_extraction.json", encoding="utf-8") as f:
     ra_claims = json.load(f)
 
-with open(sys.argv[3], encoding="utf-8") as f:
+# 3604 claims extraction (has pro_se)
+with open(r"C:\Users\nickg\IdeaProjects\MFH-Java-Work\allFHAcases\3604\RAClassification_DB_3604_claims_extraction.json", encoding="utf-8") as f:
     s3604_claims = json.load(f)
 
-with open(sys.argv[4], encoding="utf-8") as f:
+# 3604 unified DB
+with open(r"C:\Users\nickg\IdeaProjects\MFH-Java-Work\allFHAcases\3604\FHA_3604_Database_unified_20260328_104352.json", encoding="utf-8") as f:
     s3604_db = json.load(f)
 
 # Build pro_se lookup from RA claims

@@ -124,7 +124,7 @@ all_results = {
     'prevalence': {k: {kk: float(vv) for kk, vv in v.items()} for k, v in prevalence_results.items()},
     'cost_burden': {k: {kk: float(vv) for kk, vv in v.items()} for k, v in cb_results.items()}
 }
-with open('pums_se_results.json', 'w') as f:
+with open('C:/Users/nickg/OneDrive/Documents/Note/pums_se_results.json', 'w') as f:
     json.dump(all_results, f, indent=2)
 
 # Print summary

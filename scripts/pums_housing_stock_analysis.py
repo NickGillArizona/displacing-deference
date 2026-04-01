@@ -482,6 +482,6 @@ for race in all_results:
         for k, v in all_results[race]['grpip_bands_4plus_pre90'].items()
     }
 
-with open('housing_stock_results.json', 'w') as f:
+with open('C:/Users/nickg/OneDrive/Documents/Note/housing_stock_results.json', 'w') as f:
     json.dump(output, f, indent=2, default=float)
 print("\n\nResults saved to housing_stock_results.json")

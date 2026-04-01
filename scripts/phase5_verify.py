@@ -1,18 +1,8 @@
-"""
-Phase 5: Verify all statistics cited in the revised Note and Appendix.
-
-Usage:
-    python phase5_verify.py <ra_claims_extraction.json>
-"""
+"""Phase 5: Verify all statistics cited in the revised Note and Appendix."""
 import json
-import sys
 from collections import Counter
 
-if len(sys.argv) < 2:
-    print(__doc__)
-    sys.exit(1)
-
-with open(sys.argv[1], encoding='utf-8') as f:
+with open('C:/Users/nickg/IdeaProjects/MFH-Java-Work/allFHAcases/recentcases/RAClassification_DB_claims_extraction.json', encoding='utf-8') as f:
     data = json.load(f)
 
 exts = [d['extraction'] for d in data]

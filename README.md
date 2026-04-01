@@ -128,6 +128,93 @@ The unified dataset (N=3,193 cases, 6,718 claims) and full audit trail are avail
 
 The reproducibility audit measures inter-classifier agreement, not accuracy against human-coded ground truth. No human-coded FHA litigation dataset of comparable scope exists against which to benchmark; this dataset is, to the author's knowledge, the first comprehensive classified FHA litigation corpus. Small-N subgroup analyses (n < 30) are flagged as suggestive throughout the article. The dataset captures federal written opinions only, not the universe of FHA disputes, settlements, or administrative resolutions; the coding task is one of structured extraction from judicial opinions into a pre-specified vocabulary, not autonomous legal judgment. Causal claims about *Loper Bright*'s independent judicial effect are expressly disclaimed; the observed decline is consistent with, but not proven to result from, the decision alone.
 
+## How to Generate the Statistics
+
+### Prerequisites
+
+```bash
+pip install pandas numpy scipy httpx requests anthropic openpyxl python-dotenv statsmodels
+```
+
+The PUMS scripts that query the Census API require a Census API key set in a `.env` file. The litigation analysis scripts require the case database JSON files (available upon request).
+
+### Pipeline 1: Litigation Database Analysis
+
+These scripts analyze the classified FHA case databases. They expect JSON database files in their working directory (paths are hardcoded to the author's local environment; update paths before running).
+
+```bash
+# Primary § 3604(f) disability litigation statistics
+# Produces: pre/post Loper Bright win rates, MTD survival, pro se gaps,
+# interactive process effect, defendant-type disparities
+python scripts/disability_only_stats.py
+
+# Reconciled statistics across all three databases
+# Produces: unified pro se rates (4.9% vs 27.0%), defendant-type win rates
+python scripts/final_numbers.py
+
+# Cross-tabulation: accommodation type × defendant type
+python scripts/crosstab_3604.py
+
+# Deep-dive 3604 analysis (1,256 lines)
+python scripts/combined_case_analysis.py
+
+# Unified § 3604 database analysis
+python scripts/analyze_3604_unified.py
+
+# Multivariate logistic regression (7 models across 2 databases)
+python scripts/regression_analysis.py
+
+# Verification of computed vs. expected values
+python scripts/phase5_verify.py
+```
+
+### Pipeline 2: Census PUMS Housing Analysis
+
+These scripts query ACS PUMS microdata. Some pull directly from the Census API; others read pre-downloaded CSV files (`pums_1year_2023_renters.csv`, `pums_5year_2023_renters.csv` — not included due to size).
+
+```bash
+# Primary: cost burden by race × disability with standard errors
+# Produces: disability penalty (16.9pp White, 10.1pp Black),
+# racial gap compression, results → pums_se_results.json
+python scripts/pums_costburden_analysis.py
+
+# Standard errors via successive-differences replication (80 weights)
+# Produces: pums_se_results.json
+python scripts/pums_cb_se.py
+
+# Replication weight methodology
+python scripts/pums_replicate_weights.py
+
+# Pre-1990 vs. post-1990 housing stock accessibility gaps
+# Produces: housing_stock_results.json
+python scripts/pums_housing_stock_analysis.py
+
+# ACS 5-Year AIAN-focused analysis
+python scripts/pums_5year_aian_analysis.py
+
+# CDBG non-entitlement community analysis
+python scripts/pums_cdbg_analysis.py
+
+# Disability definition sensitivity analysis
+# Produces: pums_sensitivity_results.json
+python scripts/pums_dis1_sensitivity.py
+```
+
+### Key Output Files
+
+| File | Contents |
+|------|----------|
+| `results/RESULTS_3604_database_analysis.md` | § 3604 case analysis: pre/post *Loper Bright*, win rates by defendant/accommodation type |
+| `results/RESULTS_recentFHA_hypothesis_tests.md` | 8 hypothesis tests on disability litigation patterns |
+| `results/pums_results.csv` | Cost burden rates by race × disability status with SE and 90% MOE |
+| `results/pums_se_results.json` | Detailed standard error calculations, disability penalty, GRPIP distributions |
+| `results/housing_stock_results.json` | Building type/era distribution, pre-1990 accessibility gaps |
+| `results/regression_results_RA9.txt` | Logistic regression output (7 model specifications) |
+
+### Note on Reproducibility
+
+The litigation statistics depend on the classified case database JSON files. These contain structured extractions from public-domain court opinions and are available upon request. The PUMS statistics can be independently reproduced using Census API access and the query specifications in [`queries/census_pums_queries.md`](queries/census_pums_queries.md). Some statistics cited in the Note (e.g., HUD's 70.2% deadline miss rate, 54.6% disability complaint share) derive from published government reports, not from these scripts.
+
 ## License
 
 This replication package is provided for academic use. The underlying court opinions are public domain.
@@ -168,15 +255,32 @@ queries/                              # API query specifications
 
 scripts/                              # Executable replication scripts
   census_pums_replication.py          # Census PUMS cost-burden replication (Python 3, no deps)
+  pums_analysis.py                    # Core PUMS national-level disability prevalence & cost burden
+  pums_costburden_analysis.py         # Cost burden by race × disability with SE (primary PUMS script)
   pums_cb_se.py                       # Cost burden with replicate-weight standard errors
+  pums_replicate_weights.py           # Successive-differences replication methodology (80 weights)
   pums_housing_stock_analysis.py      # Pre-1990 building stock gap analysis
+  pums_housing_stock_fast.py          # Optimized housing stock analysis (vectorized NumPy)
   pums_cdbg_analysis.py              # CDBG non-entitlement community analysis
+  pums_5year_aian_analysis.py         # ACS 5-Year AIAN-focused disability & cost burden
   pums_dis1_sensitivity.py           # Disability-definition sensitivity analysis
-  regression_analysis.py              # Multivariate logistic regression (2-model replication)
+  disability_only_stats.py            # § 3604(f) litigation statistics (primary case analysis)
+  combined_case_analysis.py           # Deep-dive 3604 accommodation & defendant-type analysis
+  crosstab_3604.py                    # Cross-tabulation: accommodation type × defendant type
+  extract_stats.py                    # Pro se statistics & capability gap extraction
+  regression_analysis.py              # Multivariate logistic regression (7 models, 2 databases)
   regression_analysis_full.py         # Full 4-model regression with interaction terms
   analyze_3604_unified.py            # Section 3604 database analysis (pre/post Loper Bright)
   final_numbers.py                   # Authoritative statistics generator for the Note
   phase5_verify.py                   # Verification: expected vs. computed values
+
+results/                              # Output data and summary tables
+  RESULTS_3604_database_analysis.md   # § 3604 database analysis results
+  RESULTS_recentFHA_hypothesis_tests.md # Hypothesis test results (8 tests)
+  pums_results.csv                    # Cost burden rates by race × disability with SE
+  pums_se_results.json                # Detailed standard error calculations
+  housing_stock_results.json          # Housing stock accessibility analysis output
+  regression_results_RA9.txt          # Regression model output
 
 pipeline/                             # Classification pipeline documentation
   model_configuration.md              # Model specs, costs, and agreement rates

@@ -1,18 +1,8 @@
-"""
-Comprehensive analysis of the unified 3604 database.
-
-Usage:
-    python analyze_3604_unified.py <3604_unified.json>
-"""
+"""Comprehensive analysis of the unified 3604 database."""
 import json
-import sys
 from collections import Counter
 
-if len(sys.argv) < 2:
-    print(__doc__)
-    sys.exit(1)
-
-DB_PATH = sys.argv[1]
+DB_PATH = r'C:\Users\nickg\IdeaProjects\MFH-Java-Work\allFHAcases\3604\FHA_3604_Database_unified_20260328_104352.json'
 
 with open(DB_PATH, 'r', encoding='utf-8') as f:
     data = json.load(f)
