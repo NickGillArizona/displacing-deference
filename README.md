@@ -167,8 +167,16 @@ queries/                              # API query specifications
   courtlistener_api.md                # CourtListener REST API v4 download specs
 
 scripts/                              # Executable replication scripts
-  census_pums_replication.py          # Full Census PUMS analysis (Python 3)
-  regression_analysis.py              # Multivariate logistic regression
+  census_pums_replication.py          # Census PUMS cost-burden replication (Python 3, no deps)
+  pums_cb_se.py                       # Cost burden with replicate-weight standard errors
+  pums_housing_stock_analysis.py      # Pre-1990 building stock gap analysis
+  pums_cdbg_analysis.py              # CDBG non-entitlement community analysis
+  pums_dis1_sensitivity.py           # Disability-definition sensitivity analysis
+  regression_analysis.py              # Multivariate logistic regression (2-model replication)
+  regression_analysis_full.py         # Full 4-model regression with interaction terms
+  analyze_3604_unified.py            # Section 3604 database analysis (pre/post Loper Bright)
+  final_numbers.py                   # Authoritative statistics generator for the Note
+  phase5_verify.py                   # Verification: expected vs. computed values
 
 pipeline/                             # Classification pipeline documentation
   model_configuration.md              # Model specs, costs, and agreement rates
