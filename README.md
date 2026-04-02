@@ -188,17 +188,17 @@ The FHA Unified Database JSON files are included in `data/`. PUMS scripts query 
 
 ## How to Cite
 
+Nicholas Gill, *Displacing Deference: Administrative Failure, Empirical Evidence, and the Case for a Disability-Centered AFFH*, __ ___. L. Rev. __ (forthcoming 2026).
+
 ```bibtex
-@dataset{gill_fha_2026,
+@article{gill_displacing_2026,
   author    = {Gill, Nicholas},
-  title     = {FHA Unified Database: Replication Package for Displacing Deference},
+  title     = {Displacing Deference: Administrative Failure, Empirical Evidence, and the Case for a Disability-Centered AFFH},
+  journal   = {__ ___. L. Rev.},
   year      = {2026},
-  publisher = {GitHub},
-  url       = {https://github.com/NickGillArizona/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH}
+  note      = {Forthcoming}
 }
 ```
-
-Or use the [CITATION.cff](CITATION.cff) file for automatic citation via GitHub's "Cite this repository" feature.
 
 ---
 
