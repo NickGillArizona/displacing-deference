@@ -11,16 +11,22 @@ date-released: 2026-04-01
 url: "https://github.com/NickGillArizona/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH"
 repository-code: "https://github.com/NickGillArizona/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH"
 abstract: >-
-  Replication package for a law review note arguing that the post-Loper Bright
-  constitutional landscape counsels recalibrating AFFH through the disability-specific
-  mandates of 42 U.S.C. § 3604(f)(3). Contains the FHA Unified Database (2,522
-  screened-in federal FHA cases; 1,720 disability), classification pipeline
-  documentation, Census PUMS analysis scripts, and supplementary appendices.
+  Replication package for a law review note demonstrating that HUD's
+  administrative choices — guidance rescission, FHIP defunding, and zero
+  reasonable-cause charges — created the disability fair housing enforcement
+  crisis. Contains the FHA Unified Database (2,522 screened-in federal FHA
+  cases; 1,720 disability), the first published race-by-disability housing
+  cost-burden cross-tabulations, classification pipeline documentation, Census
+  PUMS analysis scripts, and supplementary appendices.
 keywords:
   - fair housing act
   - disability
   - AFFH
-  - Loper Bright
+  - administrative law
+  - HUD
   - empirical legal studies
   - LLM classification
+  - housing cost burden
+  - replication package
+  - census pums
 license: MIT AND CC-BY-4.0
