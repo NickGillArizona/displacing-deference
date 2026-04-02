@@ -69,6 +69,41 @@ Replication package for a law review note arguing that the post-*Loper Bright* c
 
 ---
 
+## Methodology: Agile ELS
+
+Traditional empirical legal studies at this scale — manually coding 2,522 court opinions — would require roughly 600 hours and substantial institutional funding. This dataset was constructed in one week for approximately $200.
+
+**Agile Empirical Legal Studies (Agile ELS)** transposes the logic of inter-rater reliability from human coders to computational classifiers: three architecturally independent LLMs classify each case, and their disagreement becomes a quality signal. When they agree, accept. When they disagree, escalate.
+
+### Three Principles
+
+1. **Fail-fast hypothesis testing.** Construct a prototype dataset, test the claim, pivot or deepen — in the same week.
+2. **Tiered consensus extraction.** Three independent LLMs (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) — selected for training-corpus independence — classify each case. Agreement determines confidence; disagreement escalates to Haiku 4.5, then Sonnet 4.6.
+3. **Democratized access.** Total cost ~$200. 46% of cases resolved through consensus alone without an API call.
+
+### Pipeline Stages
+
+| Stage | Model | Task | Cost |
+|:---:|-------|------|------|
+| 1 | Gemini 3.1 Flash Lite | Binary FHA screening | ~$5 |
+| 2 | MiniMax + DeepSeek + Kimi | 28-field parallel classification | ~$135 |
+| 3 | Haiku 4.5 / Sonnet 4.6 | Tiered consensus adjudication | included above |
+| 4 | Haiku 4.5 | Per-claim extraction (6,718 claims) | ~$18 |
+| 5 | Opus 4.6 | Reproducibility audit (50 cases) | ~$5 |
+
+### Resolution Tier Distribution (n=1,857 RA cases)
+
+| Tier | Method | Records | % | API Cost |
+|:---:|--------|:---:|:---:|:---:|
+| 0 | Unanimous consensus | 12 | 0.6% | None |
+| 1-2 | Majority vote | 843 | 45.4% | None |
+| 3 | Haiku 4.5 adjudication | 697 | 37.5% | Low |
+| 4 | Sonnet 4.6 adjudication | 302 | 16.3% | Moderate |
+
+See [`pipeline/`](pipeline/) for model specifications, agreement rates, and resolution algorithms.
+
+---
+
 ## Key Findings
 
 **The convergence thesis.** Disability is the dominant axis of housing cost burden across racial groups. The disability penalty (10-17 percentage points, depending on race) exceeds the entire racial cost-burden gap among non-disabled renters (8.4 points Black-White). Enforcing § 3604(f)(3) does not trade off against racial equity — it reaches the same populations through a larger axis of disadvantage.
@@ -135,41 +170,6 @@ Each case record contains the following fields:
 | `model_agreement` | object | Per-field agreement metadata across three classifiers |
 | `adjudicator` | string | Which model adjudicated (if escalated) |
 | `source_corpus` | enum | RA Database, 2015 FHA Database, or recent supplement |
-
----
-
-## Methodology: Agile ELS
-
-Traditional empirical legal studies at this scale — manually coding 2,522 court opinions — would require roughly 600 hours and substantial institutional funding. This dataset was constructed in one week for approximately $200.
-
-**Agile Empirical Legal Studies (Agile ELS)** transposes the logic of inter-rater reliability from human coders to computational classifiers: three architecturally independent LLMs classify each case, and their disagreement becomes a quality signal. When they agree, accept. When they disagree, escalate.
-
-### Three Principles
-
-1. **Fail-fast hypothesis testing.** Construct a prototype dataset, test the claim, pivot or deepen — in the same week.
-2. **Tiered consensus extraction.** Three independent LLMs (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) — selected for training-corpus independence — classify each case. Agreement determines confidence; disagreement escalates to Haiku 4.5, then Sonnet 4.6.
-3. **Democratized access.** Total cost ~$200. 46% of cases resolved through consensus alone without an API call.
-
-### Pipeline Stages
-
-| Stage | Model | Task | Cost |
-|:---:|-------|------|------|
-| 1 | Gemini 3.1 Flash Lite | Binary FHA screening | ~$5 |
-| 2 | MiniMax + DeepSeek + Kimi | 28-field parallel classification | ~$135 |
-| 3 | Haiku 4.5 / Sonnet 4.6 | Tiered consensus adjudication | included above |
-| 4 | Haiku 4.5 | Per-claim extraction (6,718 claims) | ~$18 |
-| 5 | Opus 4.6 | Reproducibility audit (50 cases) | ~$5 |
-
-### Resolution Tier Distribution (n=1,857 RA cases)
-
-| Tier | Method | Records | % | API Cost |
-|:---:|--------|:---:|:---:|:---:|
-| 0 | Unanimous consensus | 12 | 0.6% | None |
-| 1-2 | Majority vote | 843 | 45.4% | None |
-| 3 | Haiku 4.5 adjudication | 697 | 37.5% | Low |
-| 4 | Sonnet 4.6 adjudication | 302 | 16.3% | Moderate |
-
-See [`pipeline/`](pipeline/) for model specifications, agreement rates, and resolution algorithms.
 
 ---
 
