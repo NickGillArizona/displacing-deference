@@ -1,6 +1,6 @@
 # Displacing Deference: Data and Doctrine for a Disability-Centered AFFH
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE) [![License: CC BY 4.0](https://img.shields.io/badge/Data-CC_BY_4.0-lightgrey.svg)](LICENSE-DATA)
 
 **Nicholas Gill** | J.D. Candidate, 2027 | University of Arizona James E. Rogers College of Law | nickgill@arizona.edu
 
@@ -204,4 +204,7 @@ Nicholas Gill, *Displacing Deference: Administrative Failure, Empirical Evidence
 
 ## License
 
-[MIT](LICENSE) — This replication package is provided for academic use. The underlying court opinions are public domain.
+- **Code** (scripts/, pipeline/, queries/, prompts/): [MIT](LICENSE)
+- **Data and documentation** (data/, appendices/): [CC BY 4.0](LICENSE-DATA)
+
+The underlying court opinions are public domain. See [CREDITS.md](CREDITS.md) for full data source attributions.
