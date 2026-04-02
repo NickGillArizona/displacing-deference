@@ -10,15 +10,26 @@ Federal fair housing law requires agencies to "affirmatively further" fair housi
 
 ---
 
+## Original Contributions
+
+- **First comprehensive classified dataset of federal FHA disability litigation** (1,720 cases, 28 fields per record) — HUD has never produced one, and no comparable dataset exists in the published literature
+- **First published race-by-disability housing cost-burden cross-tabulations** with confidence intervals, derived from ACS 2020–2024 5-Year PUMS microdata
+- **First application of multi-model LLM consensus classification to empirical legal research at scale** — a methodology this Note terms Agile Empirical Legal Studies (Agile ELS), producing in one week for ~$200 what traditional methods would require ~600 researcher-hours to replicate
+- **First doctrinal proposal to rebuild AFFH around § 3604(f)(3)'s specific statutory commands** rather than § 3608(d)'s ambiguous delegation — grounded in the empirical finding that the enforcement crisis is administrative in origin, not judicial
+
+---
+
 ## Key Findings
 
-**The convergence thesis.** Disability is the dominant axis of housing cost burden across racial groups. The disability penalty (10-17 percentage points, depending on race) exceeds the entire racial cost-burden gap among non-disabled renters (8.4 points Black-White). Among disabled renters, the Black-White gap compresses to 1.6 percentage points. Enforcing § 3604(f)(3) does not trade off against racial equity — it reaches the same populations through a larger axis of disadvantage.
+The data tell a single story: HUD's administrative choices — not judicial doctrine — created the disability fair housing enforcement crisis. Represented plaintiffs still win; the system failed the unrepresented ones HUD was supposed to support.
+
+**The composition effect.** Pro se plaintiffs constitute 64.8% of disability filings, surging to 76.7% in P3 (consistent with FHIP defunding), and win on the merits only 5.3% of the time versus 32.1% for represented plaintiffs. Represented plaintiff success fully recovers to pre-*Loper Bright* levels in P3 (34.3%). The aggregate decline in plaintiff success is entirely a composition effect driven by HUD's withdrawal of institutional support — not a permanent shift in judicial hostility.
+
+**The litigation decline.** Three-period analysis reveals strict win rates falling from 18.0% (P1: pre-*Loper Bright*) to 7.8% (P2) to 10.7% (P3: post-HUD Secretary), with the P1-to-P2 decline statistically significant (p=0.007). Multivariate logistic regression confirms 40–51% lower odds of plaintiff victory after controlling for procedural posture, defendant type, accommodation type, and plaintiff type.
+
+**The convergence thesis.** Disability is the dominant axis of housing cost burden across racial groups. The disability penalty (10–17 percentage points, depending on race) exceeds the entire racial cost-burden gap among non-disabled renters (8.4 points Black–White). Enforcing § 3604(f)(3) does not trade off against racial equity — it reaches the same populations through a larger axis of disadvantage.
 
 **The enforcement desert.** At minimum 823,000 disabled renters of color reside in non-entitlement communities structurally excluded from CDBG enforcement under the integration model. For this population, disability-centered enforcement is the only federal pathway that exists.
-
-**The litigation decline.** Three-period analysis reveals strict win rates falling from 18.0% (P1: pre-*Loper Bright*) to 7.8% (P2: post-*Loper Bright*, pre-HUD Secretary change) to 10.7% (P3: post-HUD Secretary), with the P1-to-P2 decline statistically significant (p=0.007). Multivariate logistic regression confirms 40-51% lower odds of plaintiff victory after controlling for procedural posture, defendant type, accommodation type, and plaintiff type.
-
-**The capability gap.** Pro se plaintiffs constitute 64.8% of disability filings, surging to 76.7% in P3 (consistent with FHIP defunding), and win 5.3% of the time versus 32.1% for represented plaintiffs. Represented plaintiff success fully recovers to pre-*Loper Bright* levels in P3 (34.3%); the aggregate decline is entirely a composition effect driven by the withdrawal of institutional support.
 
 **The procedural gatekeeping problem.** Courts cite *Iqbal*/*Twombly* in 82.4% of disability motions to dismiss. MTD broad survival rates show continuous three-period decline: 25.5% → 18.6% → 14.1%.
 
