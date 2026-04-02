@@ -213,6 +213,12 @@ Nicholas Gill, *Displacing Deference: Administrative Failure, Empirical Evidence
 
 ---
 
+## About the Author
+
+**Nicholas Gill** is a J.D. Candidate (2027) at the University of Arizona James E. Rogers College of Law. This Note was written for the law review best student research award competition. The FHA Unified Database and Agile ELS methodology were designed and built by the author; no comparable classified FHA litigation dataset exists in the published literature or in HUD's own records. Contact: [nickgill@arizona.edu](mailto:nickgill@arizona.edu).
+
+---
+
 ## License
 
 - **Code** (scripts/, pipeline/, queries/, prompts/): [MIT](LICENSE)
