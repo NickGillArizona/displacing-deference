@@ -69,28 +69,6 @@ Replication package for a law review note arguing that the post-*Loper Bright* c
 
 ---
 
-## Quick Start
-
-```bash
-git clone https://github.com/nickgill97/FHAdata.git
-cd FHAdata
-pip install -r requirements.txt
-
-# Validate key empirical claims against the database
-python scripts/validate_claims.py
-
-# Run full replication (litigation + Census PUMS)
-python scripts/run_all.py
-
-# Or run components independently
-python scripts/run_all.py --litigation-only
-python scripts/run_all.py --pums-only
-```
-
-> **Note:** PUMS scripts query the Census Bureau's public API and do not require an API key. Litigation scripts use pre-built database files included in `data/`.
-
----
-
 ## Key Findings
 
 **The convergence thesis.** Disability is the dominant axis of housing cost burden across racial groups. The disability penalty (10-17 percentage points, depending on race) exceeds the entire racial cost-burden gap among non-disabled renters (8.4 points Black-White). Enforcing § 3604(f)(3) does not trade off against racial equity — it reaches the same populations through a larger axis of disadvantage.
@@ -264,89 +242,6 @@ python scripts/pums_cdbg_analysis.py          # CDBG non-entitlement analysis
 | [ACS 2020-2024 5-Year PUMS](https://api.census.gov/data/2024/acs/acs5/pums) | Census microdata for housing analysis |
 | [OpenRouter API](https://openrouter.ai/) | Multi-model LLM access |
 
----
-
-## Repository Structure
-
-```
-.
-├── README.md
-├── LICENSE                                    # MIT License
-├── CITATION.cff                               # Machine-readable citation metadata
-├── CONTRIBUTING.md                            # Contribution guidelines
-├── DATA_DICTIONARY.md                         # Full 28-field schema documentation
-├── requirements.txt                           # Python dependencies
-├── Validation_Methodology_Section.md          # Validation methodology documentation
-├── empirical_claims_verification_report.md    # Empirical claims audit trail
-│
-├── data/                                      # Database files
-│   ├── FHA_Unified_Database.json              # Primary: 2,522 FHA cases (1,720 disability)
-│   ├── FHA_3604_Database_unified_*.json       # 2015 FHA Database (§ 3604(f) cases)
-│   └── FHA_RA_Database_unified_*.json         # RA Database (all protected classes)
-│
-├── scripts/                                   # Replication scripts
-│   ├── run_all.py                             # Master orchestrator (--litigation-only, --pums-only)
-│   ├── config.py                              # Centralized path configuration
-│   ├── validate_claims.py                     # Key-claim validation against database
-│   ├── recompute_all_appendices.py            # Three-period appendix statistics
-│   ├── recompute_stats_unified.py             # Unified database statistics
-│   ├── regression_analysis.py                 # Logistic regression (7 models)
-│   ├── regression_analysis_full.py            # Full regression with interactions
-│   ├── fha_iqbal_analysis.py                  # Iqbal/Twombly pleading analysis
-│   ├── positional_bias_v2.py                  # LLM positional bias audit
-│   ├── census_pums_replication.py             # Census PUMS replication
-│   ├── pums_costburden_analysis.py            # Cost burden by race x disability
-│   ├── pums_cb_se.py                          # Replicate-weight standard errors
-│   ├── pums_replicate_weights.py              # Successive-differences replication
-│   ├── pums_housing_stock_analysis.py         # Pre-1990 housing stock gaps
-│   ├── pums_housing_stock_fast.py             # Optimized housing stock analysis
-│   ├── pums_analysis.py                       # National disability prevalence
-│   ├── pums_cdbg_analysis.py                  # CDBG non-entitlement analysis
-│   ├── pums_5year_aian_analysis.py            # AIAN-focused analysis
-│   ├── pums_dis1_sensitivity.py               # Disability-definition sensitivity
-│   └── pums_export_csv.py                     # Export PUMS microdata to CSV
-│
-├── pipeline/                                  # Classification pipeline documentation
-│   ├── model_configuration.md                 # Model specs, costs, agreement rates
-│   ├── consensus_resolution.md                # Tiered consensus algorithm
-│   ├── per_claim_extraction_schema.json       # Haiku 4.5 per-claim JSON schema
-│   └── field_normalization.md                 # Free-text normalization rules
-│
-├── prompts/                                   # LLM classification instruments
-│   ├── fha_screening_prompt.txt               # Stage 1: Gemini binary FHA screening
-│   └── case_classification_prompt.txt         # Stage 2: 28-field structured extraction
-│
-├── queries/                                   # API query specifications
-│   ├── census_pums_queries.md                 # ACS PUMS variable definitions and queries
-│   └── courtlistener_api.md                   # CourtListener download specifications
-│
-├── results/                                   # Output data
-│   ├── appendix_report.md                     # Three-period appendix data
-│   ├── appendix_data.json                     # Machine-readable appendix data
-│   ├── unified_stats_report.md                # Unified statistics report
-│   ├── unified_stats.json                     # Machine-readable statistics
-│   ├── pums_results.csv                       # Cost burden rates with SE
-│   ├── pums_se_results.json                   # Detailed standard errors
-│   ├── pums_sensitivity_results.json          # Sensitivity analysis
-│   └── housing_stock_results.json             # Housing stock analysis
-│
-└── appendices/                                # Supplementary appendices (A-K)
-    ├── Appendix_A_Case_Dataset_Methodology.md
-    ├── Appendix_A2_PUMS_Replication.md
-    ├── Appendix_A3_Extended_Empirical_Analysis.md
-    ├── Appendix_A4_Reproducibility_Audit.md
-    ├── Appendix_B_Results_Tables.md
-    ├── Appendix_C_Iqbal_Citation_Analysis.md
-    ├── Appendix_D_Protected_Class_Distribution.md
-    ├── Appendix_E_Accommodation_Defendant_Analysis.md
-    ├── Appendix_F_Galanter_Plaintiff_Type.md
-    ├── Appendix_G_Circuit_Level_Analysis.md
-    ├── Appendix_H_Supplementary_Data.md
-    ├── Appendix_I_AFFH_Case_Classification.md
-    ├── Appendix_J_Safe_Harbor_Detail.md
-    └── Appendix_K_Classification_Prompts.md
-```
-
 ## Companion Repository
 
 The Java source code for the CourtListener download pipeline, OpenRouter classification clients, and tiered consensus resolution is maintained separately:
@@ -370,12 +265,6 @@ Researchers wishing to replicate the full pipeline from raw CourtListener data n
 ```
 
 Or use the [CITATION.cff](CITATION.cff) file for automatic citation via GitHub's "Cite this repository" feature.
-
----
-
-## Broader Significance
-
-If a comprehensive classified litigation dataset can be built for $200 in a week, the resource barriers that have historically confined large-N empirical legal research to well-funded institutions are not what they were. Any legal domain where structured extraction from judicial opinions is the bottleneck — antitrust, immigration, employment discrimination, habeas corpus — can adopt the same architecture. The pipeline is domain-agnostic; the classification prompts are domain-specific.
 
 ---
 
