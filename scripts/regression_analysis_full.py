@@ -11,19 +11,19 @@ import statsmodels.api as sm
 from statsmodels.formula.api import logit
 import warnings
 warnings.filterwarnings('ignore')
+from config import DB_3604_PATH, DB_RA_PATH
 
 # ============================================================
 # 1. LOAD AND PREPARE DATA
 # ============================================================
 
-if len(sys.argv) < 3:
-    print("Usage: python regression_analysis_full.py <3604_unified.json> <ra_unified.json>")
-    sys.exit(1)
+path_3604 = sys.argv[1] if len(sys.argv) >= 3 else DB_3604_PATH
+path_ra   = sys.argv[2] if len(sys.argv) >= 3 else DB_RA_PATH
 
-with open(sys.argv[1], "r", encoding="utf-8") as f:
+with open(path_3604, "r", encoding="utf-8") as f:
     db3604_raw = json.load(f)
 
-with open(sys.argv[2], "r", encoding="utf-8") as f:
+with open(path_ra, "r", encoding="utf-8") as f:
     ra_raw = json.load(f)
 
 print(f"3604 Database raw: {len(db3604_raw)} cases")

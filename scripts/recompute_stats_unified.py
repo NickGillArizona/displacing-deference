@@ -17,13 +17,13 @@ import sys
 import math
 from collections import Counter, defaultdict
 from datetime import datetime
+from config import UNIFIED_DB_PATH, RESULTS_DIR
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-DATA_DIR = r'C:\Users\nickg\OneDrive\Documents\Note\data\2'
-UNIFIED_DB = os.path.join(DATA_DIR, 'FHA_Unified_Database.json')
-STATS_OUTPUT = os.path.join(DATA_DIR, 'unified_stats.json')
-REPORT_OUTPUT = os.path.join(DATA_DIR, 'unified_stats_report.md')
+UNIFIED_DB = UNIFIED_DB_PATH
+STATS_OUTPUT = os.path.join(RESULTS_DIR, 'unified_stats.json')
+REPORT_OUTPUT = os.path.join(RESULTS_DIR, 'unified_stats_report.md')
 
 P1_START = '2022-01-01'
 P1_END   = '2024-06-28'

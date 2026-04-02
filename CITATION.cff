@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this dataset or replication package, please cite as below."
+title: "FHA Unified Database: Replication Package for Displacing Deference"
+authors:
+  - family-names: Gill
+    given-names: Nicholas
+    email: "nickgill@arizona.edu"
+    affiliation: "J.D. Candidate, 2027, University of Arizona James E. Rogers College of Law"
+type: dataset
+date-released: 2026-04-01
+url: "https://github.com/nickgill97/FHAdata"
+repository-code: "https://github.com/nickgill97/FHAdata"
+abstract: >-
+  Replication package for a law review note arguing that the post-Loper Bright
+  constitutional landscape counsels recalibrating AFFH through the disability-specific
+  mandates of 42 U.S.C. § 3604(f)(3). Contains the FHA Unified Database (2,522
+  screened-in federal FHA cases; 1,720 disability), classification pipeline
+  documentation, Census PUMS analysis scripts, and supplementary appendices.
+keywords:
+  - fair housing act
+  - disability
+  - AFFH
+  - Loper Bright
+  - empirical legal studies
+  - LLM classification
+license: MIT

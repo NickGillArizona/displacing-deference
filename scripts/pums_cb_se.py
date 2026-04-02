@@ -1,5 +1,7 @@
 """Cost burden replicate-weight SEs with robust retry logic."""
-import urllib.request, json, math, time, sys, ssl
+import urllib.request, json, math, time, sys, ssl, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from config import RESULTS_DIR
 
 BASE = 'https://api.census.gov/data/2024/acs/acs5/pums'
 ctx = ssl.create_default_context()
@@ -124,7 +126,7 @@ all_results = {
     'prevalence': {k: {kk: float(vv) for kk, vv in v.items()} for k, v in prevalence_results.items()},
     'cost_burden': {k: {kk: float(vv) for kk, vv in v.items()} for k, v in cb_results.items()}
 }
-with open('C:/Users/nickg/OneDrive/Documents/Note/pums_se_results.json', 'w') as f:
+with open(os.path.join(RESULTS_DIR, 'pums_se_results.json'), 'w') as f:
     json.dump(all_results, f, indent=2)
 
 # Print summary

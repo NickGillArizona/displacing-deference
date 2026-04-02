@@ -1,6 +1,6 @@
 # FHA Unified Database — Complete Appendix Data
 
-Generated: 2026-04-01 12:02
+Generated: 2026-04-01 16:22
 
 **Database:** FHA Unified Database, disability cases only
 - Total FHA screened-in: 2522

@@ -28,14 +28,14 @@
 
 | Model | Stage | Task | Configuration |
 |-------|-------|------|---------------|
-| Claude Haiku 4.5 | Tier 3 | Non-critical field 3-way splits | Batch API (50% discount), default settings |
-| Claude Sonnet 4.6 | Tier 4 | Critical field 3-way splits | Batch API (50% discount), 2,000 thinking tokens, 4,000 max output |
+| Haiku 4.5 | Tier 3 | Non-critical field 3-way splits | Batch API (50% discount), default settings |
+| Sonnet 4.6 | Tier 4 | Critical field 3-way splits | Batch API (50% discount), 2,000 thinking tokens, 4,000 max output |
 
 ### Stage 4: Per-Claim Structured Extraction
 
 | Parameter | Value |
 |-----------|-------|
-| Model | Claude Haiku 4.5 (Anthropic Batch API) |
+| Model | Haiku 4.5 (Batch API) |
 | Temperature | 0.1 |
 | Records processed | 3,193 cases |
 | Output | 6,718 claims (4,464 FHA + 2,254 non-FHA) |
@@ -45,7 +45,7 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Model | Claude Opus 4.6 (Anthropic Batch API) |
+| Model | Opus 4.6 (Batch API) |
 | Temperature | Default |
 | Max output | 16,000 tokens |
 | Cases audited | 50 (stratified random sample) |
@@ -67,7 +67,7 @@
 
 *12,290 generation records total, including the abandoned GLM-5 run.*
 
-### Anthropic Batch API Costs
+### Tier 3-4 Batch API Costs
 
 | Component | Cost |
 |-----------|------|

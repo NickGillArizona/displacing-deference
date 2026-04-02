@@ -5,6 +5,8 @@ __pycache__/
 !pipeline/per_claim_extraction_schema.json
 !results/*.json
 !results/*.csv
+!data/*.json
 .DS_Store
 *.xlsx
 *.csv
+!results/*.csv

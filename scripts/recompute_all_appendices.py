@@ -13,13 +13,13 @@ Produces: data/2/appendix_data.json  (machine-readable)
 import json, os, sys, math
 from collections import Counter, defaultdict
 from datetime import datetime
+from config import UNIFIED_DB_PATH, RESULTS_DIR
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-DATA_DIR = r'C:\Users\nickg\OneDrive\Documents\Note\data\2'
-DB_PATH  = os.path.join(DATA_DIR, 'FHA_Unified_Database.json')
-OUT_JSON = os.path.join(DATA_DIR, 'appendix_data.json')
-OUT_MD   = os.path.join(DATA_DIR, 'appendix_report.md')
+DB_PATH  = UNIFIED_DB_PATH
+OUT_JSON = os.path.join(RESULTS_DIR, 'appendix_data.json')
+OUT_MD   = os.path.join(RESULTS_DIR, 'appendix_report.md')
 
 P1_START = '2022-01-01'; P1_END = '2024-06-28'; P2_END = '2025-02-05'
 DECIDED = {'PLAINTIFF_WIN','DEFENDANT_WIN','MIXED'}

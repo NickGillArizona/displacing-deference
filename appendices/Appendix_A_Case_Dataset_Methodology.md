@@ -4,7 +4,7 @@
 
 This Appendix describes the construction of the **FHA Unified Database**, the principal empirical dataset underlying the case-classification analysis in this Note.
 
-**The FHA Unified Database** (n=2,522 screened-in FHA cases; **1,720 disability cases**) is the single source of truth for all statistical claims in this Note. It was constructed by merging two overlapping source corpora — the RA Database (1,857 all-protected-class FHA cases, 2021–2026) and the 2015 FHA Database (1,461 screened-in § 3604(f) disability cases, 2015–2026) — with 796 cases appearing in both. A per-claim structured extraction via Claude Haiku 4.5 Batch API enriched each record with detailed claim-level data. For the Note's disability-focused analysis, the unified database is filtered to the 1,720 cases where disability is a protected class.
+**The FHA Unified Database** (n=2,522 screened-in FHA cases; **1,720 disability cases**) is the single source of truth for all statistical claims in this Note. It was constructed by merging two overlapping source corpora — the RA Database (1,857 all-protected-class FHA cases, 2021–2026) and the 2015 FHA Database (1,461 screened-in § 3604(f) disability cases, 2015–2026) — with 796 cases appearing in both. A per-claim structured extraction via Haiku 4.5 Batch API enriched each record with detailed claim-level data. For the Note's disability-focused analysis, the unified database is filtered to the 1,720 cases where disability is a protected class.
 
 **Three-Period Temporal Design.** Exact decision dates (resolved for all cases via CourtListener API, opinion text extraction, and Google Scholar) enable a three-period analysis:
 
@@ -21,7 +21,7 @@ Of 1,720 disability cases, 1,191 have exact decision dates falling within the st
 - **RA Database** (n=1,857): All-protected-class FHA cases, 2021–2026, from a CourtListener "fair housing act" search.
 - **2015 FHA Database** (n=1,461 screened-in): Section 3604(f) disability cases, 2015–2026, from a CourtListener search supplemented by Google Scholar.
 
-Both source databases were classified across twenty-eight substantive fields including case outcome, claim types, accommodation type, disability category, and procedural posture, using a multi-model classification pipeline with automated consensus detection. The RA Database used tiered consensus adjudication with Anthropic model adjudication for three-way splits; the 2015 FHA Database used the same triple-model classification pipeline but resolved three-way splits using MiniMax M2.7 as the tiebreaker rather than API adjudication. After deduplication and merging, all cases were subjected to per-claim structured extraction via Claude Haiku 4.5 Batch API. See Section A.5 for the reconciliation analysis.
+Both source databases were classified across twenty-eight substantive fields including case outcome, claim types, accommodation type, disability category, and procedural posture, using a multi-model classification pipeline with automated consensus detection. The RA Database used tiered consensus adjudication with model adjudication for three-way splits; the 2015 FHA Database used the same triple-model classification pipeline but resolved three-way splits using MiniMax M2.7 as the tiebreaker rather than API adjudication. After deduplication and merging, all cases were subjected to per-claim structured extraction via Haiku 4.5 Batch API. See Section A.5 for the reconciliation analysis.
 
 ### A.1.1 Research Design and Database Rationale
 
@@ -70,7 +70,7 @@ Each model was configured at temperature 0.2 with explicit reasoning budget caps
 | DeepSeek V3.2 | Consensus verification | 0.2 | 16,384 tokens | 8,192 | $0.38 |
 | Kimi K2.5 | Consensus verification | 0.2 | 1,024 tokens | 8,192 | $2.20 |
 | Gemini 3.1 Flash Lite | FHA relevance screening | 0.0 | 0 (disabled) | — | — |
-| Claude Haiku 4.5 | Tier 3 adjudication (Batch API) | default | default | default | — |
+| Haiku 4.5 | Tier 3 adjudication (Batch API) | default | default | default | — |
 | Claude Sonnet 4.6 | Tier 4 adjudication (Batch API) | default | 2,000 (thinking) | 4,000 | — |
 
 Reasoning budgets were calibrated primarily by cost. MiniMax M2.7 served as the primary extraction model; DeepSeek V3.2 and Kimi K2.5 served as independent verification models whose role was to confirm or dispute MiniMax's classifications. DeepSeek received the largest reasoning budget (16,384 tokens) because its output pricing ($0.38/M) made extended reasoning inexpensive. Kimi K2.5 received a smaller budget (1,024 tokens) despite higher output cost ($2.20/M) because its verification role did not require extended deliberation. MiniMax's budget (2,048 tokens) balanced extraction quality against its moderate output cost ($1.20/M).
@@ -241,7 +241,7 @@ HUD administrative complaint data shows disability at **54.6%** of all complaint
 
 ### A.5 Deduplication and Unified Dataset Construction
 
-The RA Database (2,366 source documents) and 2015 FHA Database (1,661 source documents) were deduplicated by source file to produce 3,193 unique cases. The combined corpus was then subjected to per-claim structured extraction via Claude Haiku 4.5 Batch API, producing the unified dataset (N=3,193 cases, 6,718 claims) that serves as the single source of truth for all statistical claims in this Note.
+The RA Database (2,366 source documents) and 2015 FHA Database (1,661 source documents) were deduplicated by source file to produce 3,193 unique cases. The combined corpus was then subjected to per-claim structured extraction via Haiku 4.5 Batch API, producing the unified dataset (N=3,193 cases, 6,718 claims) that serves as the single source of truth for all statistical claims in this Note.
 **Relationship to the "approximately 2,566" figure in the Note.** The Note refers to "approximately 2,566 unique federal FHA cases" when describing the combined corpus across all three databases. This figure reflects the total unique cases after deduplicating across the RA Database (1,857 FHA-relevant), 2015 FHA Database (1,496 FHA-relevant), and FHA Pilot Database (331 FHA-relevant), with approximately 1,118 cases appearing in multiple databases. The Unified Dataset (N=3,193) is larger because it counts the RA and 2015 FHA Databases before cross-database deduplication — each case retains its source-database classification for comparison purposes, while per-claim extraction treats the deduplicated set as a single corpus. The 2,566 figure is the correct unique-case count; the 3,193 figure is the correct input count for per-claim extraction.
 
 The unified dataset contains 4,464 FHA claims and 2,254 non-FHA claims. Theory distribution among FHA claims: DISPARATE_TREATMENT 1,731 (38.8%), REASONABLE_ACCOMMODATION 1,257 (28.2%), RETALIATION 601 (13.5%), DISPARATE_IMPACT 392 (8.8%), INTERFERENCE_COERCION 243 (5.4%), UNCLEAR 168 (3.8%), DESIGN_AND_CONSTRUCTION 72 (1.6%).

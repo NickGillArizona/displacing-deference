@@ -7,7 +7,9 @@ Uses Census API to fetch 2023 ACS 1-Year PUMS microdata.
 import pandas as pd
 import numpy as np
 import requests
-import sys
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from config import RESULTS_DIR
 
 API_BASE = "https://api.census.gov/data/2023/acs/acs1/pums"
 
@@ -226,7 +228,7 @@ def analyze(df):
         print("Sample too small for reliable estimates. Use 5-Year PUMS for AIAN analysis.")
 
     # Save
-    out = r"C:\Users\nickg\OneDrive\Documents\Note\pums_results.csv"
+    out = os.path.join(RESULTS_DIR, "pums_results.csv")
     pd.DataFrame(results).to_csv(out, index=False)
     print(f"\nResults saved to {out}")
 

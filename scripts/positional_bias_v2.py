@@ -6,8 +6,9 @@ This catches case-specific language the fixed map misses.
 """
 import json, re, os
 from collections import Counter
+from config import DB_RA_RESOLVED_PATH, CASE_DIR, RESULTS_DIR
 
-with open('C:/Users/nickg/IdeaProjects/MFH-Java-Work/allFHAcases/recentcases/RAClassification_DB_resolved_20260328_085823.json', encoding='utf-8') as f:
+with open(DB_RA_RESOLVED_PATH, encoding='utf-8') as f:
     resolved = json.load(f)
 
 # ---- Broader keyword map (v2) ----
@@ -164,7 +165,7 @@ for r in resolved:
 
 print(f"Target cases (any 2+ different specific categories): {len(targets)}")
 
-CASE_DIR = 'C:/Users/nickg/IdeaProjects/MFH-Java-Work/allFHAcases/recentcases'
+# CASE_DIR imported from config
 results = []
 skipped_no_file = 0
 skipped_no_cats = 0
@@ -298,7 +299,7 @@ for r in informative:
     for cat, s in r['scan'].items():
         print(f"      {cat:35s} pos={s['first_pos_pct']:5.1f}%  mentions={s['mentions']:3d}  density={s['density']}")
 
-with open('C:/Users/nickg/OneDrive/Documents/Note/positional_bias_analysis.json', 'w', encoding='utf-8') as f:
+with open(os.path.join(RESULTS_DIR, 'positional_bias_analysis.json'), 'w', encoding='utf-8') as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print(f"\nSaved {len(results)} results to positional_bias_analysis.json")

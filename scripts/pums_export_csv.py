@@ -15,9 +15,10 @@ import time
 import sys
 import os
 
-OUTPUT_DIR = r"C:\Users\nickg\OneDrive\Documents\Note"
-# Fallback for large files that OneDrive may lock during write
-OUTPUT_DIR_LOCAL = r"C:\Users\nickg\Documents"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from config import RESULTS_DIR
+OUTPUT_DIR = RESULTS_DIR
+OUTPUT_DIR_LOCAL = RESULTS_DIR
 
 API_1YR = "https://api.census.gov/data/2023/acs/acs1/pums"
 API_5YR = "https://api.census.gov/data/2023/acs/acs5/pums"

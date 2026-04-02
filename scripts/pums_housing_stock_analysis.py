@@ -13,8 +13,10 @@ Cross-tabulations:
 Uses successive-differences replication for standard errors.
 """
 
-import urllib.request, json, math, time, sys, ssl, csv
+import urllib.request, json, math, time, sys, ssl, csv, os
 from collections import defaultdict
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from config import RESULTS_DIR
 
 BASE = 'https://api.census.gov/data/2024/acs/acs5/pums'
 ctx = ssl.create_default_context()
@@ -482,6 +484,6 @@ for race in all_results:
         for k, v in all_results[race]['grpip_bands_4plus_pre90'].items()
     }
 
-with open('C:/Users/nickg/OneDrive/Documents/Note/housing_stock_results.json', 'w') as f:
+with open(os.path.join(RESULTS_DIR, 'housing_stock_results.json'), 'w') as f:
     json.dump(output, f, indent=2, default=float)
 print("\n\nResults saved to housing_stock_results.json")

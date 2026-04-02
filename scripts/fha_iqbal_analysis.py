@@ -9,8 +9,9 @@ facing disability plaintiffs in complaint-driven enforcement.
 import json
 import re
 from collections import Counter, defaultdict
+from config import UNIFIED_DB_PATH
 
-DB_PATH = r"C:\Users\nickg\IdeaProjects\MFH-Java-Work\allFHAcases\recentcases\FHAClassification_DB.json"
+DB_PATH = UNIFIED_DB_PATH
 
 with open(DB_PATH, "r", encoding="utf-8") as f:
     cases = json.load(f)

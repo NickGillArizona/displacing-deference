@@ -23,14 +23,14 @@ but one model dissents.
 
 ### Tier 3 — Three-Way Split, Non-Critical → Haiku 4.5
 All three models return different values for non-critical fields with no majority.
-→ Submit to Claude Haiku 4.5 (Anthropic Batch API) with original case text
+→ Submit to Haiku 4.5 (Batch API) with original case text
   and each model's answer for disputed fields.
 → Haiku determines correct classification using the same controlled vocabulary.
 
 ### Tier 4 — Three-Way Split, Critical → Sonnet 4.6
 All three models return different values for `outcome`, `primary_claim_type`,
 or `claim_types`.
-→ Submit to Claude Sonnet 4.6 (Anthropic Batch API) with original case text
+→ Submit to Sonnet 4.6 (Batch API) with original case text
   and each model's answer.
 → Sonnet also re-extracts four free-text narrative fields fresh from source.
 

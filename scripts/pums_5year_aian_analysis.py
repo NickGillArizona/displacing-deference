@@ -5,6 +5,9 @@ AIAN Disability Cost-Burden Estimates with Successive-Differences Replication SE
 Queries the Census API state-by-state, merges multi-call results,
 and computes cost-burden rates by race for disabled renter householders.
 """
+# NOTE: This script uses the 2019-2023 ACS 5-Year vintage (predecessor analysis).
+# The authoritative results in the Note use the 2020-2024 ACS 5-Year vintage
+# via census_pums_replication.py and pums_costburden_analysis.py.
 
 import urllib.request
 import urllib.error

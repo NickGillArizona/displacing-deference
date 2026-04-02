@@ -16,6 +16,9 @@ Key tables:
 No single table cross-tabs disability x race x tenure, so we estimate
 via independence assumption.
 """
+# NOTE: This script uses the ACS 2022 5-Year vintage (predecessor analysis).
+# The authoritative results in the Note use the 2020-2024 ACS 5-Year vintage
+# via census_pums_replication.py and pums_costburden_analysis.py.
 
 import urllib.request
 import json

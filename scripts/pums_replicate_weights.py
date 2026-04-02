@@ -2,7 +2,9 @@
 PUMS Replicate Weight Standard Error Computation
 Queries Census API for 80 replicate weights to compute SEs via successive-differences replication.
 """
-import urllib.request, json, math, time, sys
+import urllib.request, json, math, time, sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from config import RESULTS_DIR
 
 BASE = 'https://api.census.gov/data/2024/acs/acs5/pums'
 
@@ -340,6 +342,6 @@ all_results = {
     'prevalence': {k: {kk: float(vv) for kk, vv in v.items()} for k, v in prevalence_results.items()},
     'cost_burden': {k: {kk: float(vv) for kk, vv in v.items()} for k, v in cb_results.items()}
 }
-with open('C:/Users/nickg/OneDrive/Documents/Note/pums_se_results.json', 'w') as f:
+with open(os.path.join(RESULTS_DIR, 'pums_se_results.json'), 'w') as f:
     json.dump(all_results, f, indent=2)
 print("\nResults saved to pums_se_results.json")

@@ -4,8 +4,10 @@ Queries 2020-2024 ACS 5-Year PUMS via Census API.
 Run the full replicate-weight version later for SEs.
 """
 
-import urllib.request, json, math, time, sys, ssl
+import urllib.request, json, math, time, sys, ssl, os
 from collections import defaultdict
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from config import RESULTS_DIR
 
 BASE = 'https://api.census.gov/data/2024/acs/acs5/pums'
 ctx = ssl.create_default_context()
@@ -344,6 +346,6 @@ for race in all_results:
         if dk in all_results[race]:
             output[race][dk] = all_results[race][dk]
 
-with open('C:/Users/nickg/OneDrive/Documents/Note/housing_stock_results.json', 'w') as f:
+with open(os.path.join(RESULTS_DIR, 'housing_stock_results.json'), 'w') as f:
     json.dump(output, f, indent=2, default=float)
 print("Results saved to housing_stock_results.json")

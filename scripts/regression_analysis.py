@@ -10,15 +10,16 @@ import statsmodels.api as sm
 from statsmodels.formula.api import logit
 import warnings
 warnings.filterwarnings('ignore')
+from config import DB_3604_PATH, DB_RA_PATH
 
 # ============================================================
 # 1. LOAD AND PREPARE DATA
 # ============================================================
 
-with open(r"C:\Users\nickg\IdeaProjects\MFH-Java-Work\allFHAcases\3604\FHA_3604_Database_unified_20260328_104352.json", "r", encoding="utf-8") as f:
+with open(DB_3604_PATH, "r", encoding="utf-8") as f:
     db3604_raw = json.load(f)
 
-with open(r"C:\Users\nickg\IdeaProjects\MFH-Java-Work\allFHAcases\recentcases\FHA_RA_Database_unified_20260328_090852.json", "r", encoding="utf-8") as f:
+with open(DB_RA_PATH, "r", encoding="utf-8") as f:
     ra_raw = json.load(f)
 
 print(f"3604 Database raw: {len(db3604_raw)} cases")

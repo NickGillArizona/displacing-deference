@@ -6,7 +6,7 @@ Seventy-one decisions were identified through CourtListener searches for "affirm
 
 ### I.2 Classification Protocol
 
-Each decision was classified using LLM-assisted coding (Claude Haiku 4.5) with manual verification. Inclusion criteria: (1) the court addressed an AFFH obligation under § 3608(d) or (e) or a funding recipient's duty to affirmatively further fair housing; (2) the decision reached or discussed the substantive content of the AFFH mandate (excluding cases invoking AFFH only in background recitations). Twelve of the seventy-one decisions were false positives (not substantively addressing AFFH), leaving approximately fifty-nine actual AFFH cases. Each was classified by primary protected class based on the claim the court addressed.
+Each decision was classified using LLM-assisted coding (Haiku 4.5) with manual verification. Inclusion criteria: (1) the court addressed an AFFH obligation under § 3608(d) or (e) or a funding recipient's duty to affirmatively further fair housing; (2) the decision reached or discussed the substantive content of the AFFH mandate (excluding cases invoking AFFH only in background recitations). Twelve of the seventy-one decisions were false positives (not substantively addressing AFFH), leaving approximately fifty-nine actual AFFH cases. Each was classified by primary protected class based on the claim the court addressed.
 
 ### I.3 Results
 

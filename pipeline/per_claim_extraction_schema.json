@@ -1,6 +1,6 @@
 {
   "$schema": "Per-Claim Structured Extraction Schema (Haiku 4.5)",
-  "description": "Schema for the supplemental per-claim extraction that decomposed each case into constituent legal claims. Applied via Claude Haiku 4.5 Batch API at temperature 0.1.",
+  "description": "Schema for the supplemental per-claim extraction that decomposed each case into constituent legal claims. Applied via Haiku 4.5 Batch API at temperature 0.1.",
   "case_level_fields": {
     "pro_se": "boolean — whether plaintiff is self-represented",
     "counsel_named": "string — name of counsel if represented",
