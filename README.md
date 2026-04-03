@@ -6,7 +6,7 @@
 
 ## Abstract
 
-Federal fair housing law requires agencies to "affirmatively further" fair housing but has never defined what that obligation means — and HUD's administrative choices, not judicial doctrine, created the resulting enforcement crisis. This replication package supports a law review note demonstrating that HUD's withdrawal of institutional support — guidance rescission, FHIP defunding, and zero reasonable-cause charges — drove the post-2024 decline in plaintiff success, while disability, the protected class generating the majority of all FHA complaints, has produced zero published federal precedent under the affirmative mandate. The empirical foundation is the **FHA Unified Database**: 2,522 federal FHA cases across all protected classes (1,720 disability), constructed through a novel multi-model LLM consensus pipeline this Note terms **Agile Empirical Legal Studies (Agile ELS)**. No comparable classified FHA litigation dataset exists in the published literature; HUD has never produced one. The repository also contains the first published race-by-disability housing cost-burden estimates derived from ACS 2020-2024 5-Year PUMS microdata with confidence intervals. Together, the litigation and Census analyses demonstrate that disability is simultaneously the largest axis of housing cost burden, the dominant source of fair housing complaints, and the most neglected category in federal AFFH enforcement — and that rebuilding the mandate around the Act's disability-specific commands in 42 U.S.C. § 3604(f)(3) offers a durable alternative that does not depend on the ambiguous delegation no administration has been able to sustain.
+Federal fair housing law requires agencies to "affirmatively further" fair housing but has never defined what that obligation means — and HUD's administrative choices, not judicial doctrine, created the resulting enforcement crisis. This replication package supports a Note demonstrating that HUD's withdrawal of institutional support — guidance rescission, FHIP defunding, and zero reasonable-cause charges — drove the post-2024 decline in plaintiff success, while disability, the protected class generating the majority of all FHA complaints, has produced zero published federal precedent under the affirmative mandate. The empirical foundation is the **FHA Unified Database**: 2,522 federal FHA cases across all protected classes (1,720 disability), constructed through a novel multi-model LLM consensus pipeline this Note terms **Agile Empirical Legal Studies (Agile ELS)**. No comparable classified FHA litigation dataset exists in the published literature; HUD has never produced one. The repository also contains the first published race-by-disability housing cost-burden estimates derived from ACS 2020-2024 5-Year PUMS microdata with confidence intervals. Together, the litigation and Census analyses demonstrate that disability is simultaneously the largest axis of housing cost burden, the dominant source of fair housing complaints, and the most neglected category in federal AFFH enforcement — and that rebuilding the mandate around the Act's disability-specific commands in 42 U.S.C. § 3604(f)(3) offers a durable alternative that does not depend on the ambiguous delegation no administration has been able to sustain.
 
 ---
 
@@ -199,13 +199,12 @@ The FHA Unified Database JSON files are included in `data/`. PUMS scripts query 
 
 ## How to Cite
 
-Nicholas Gill, *Displacing Deference: Administrative Failure, Empirical Evidence, and the Case for a Disability-Centered AFFH*, __ ___. L. Rev. __ (forthcoming 2026).
+Nicholas Gill, *Displacing Deference: Administrative Failure, Empirical Evidence, and the Case for a Disability-Centered AFFH* (forthcoming 2026).
 
 ```bibtex
 @article{gill_displacing_2026,
   author    = {Gill, Nicholas},
   title     = {Displacing Deference: Administrative Failure, Empirical Evidence, and the Case for a Disability-Centered AFFH},
-  journal   = {__ ___. L. Rev.},
   year      = {2026},
   note      = {Forthcoming}
 }
