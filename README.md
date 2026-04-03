@@ -93,35 +93,35 @@ To the best of the author's knowledge, no published legal study has employed mul
                     │                               [discarded]
                     │
          ┌──────────▼──────────────────────────────────┐
-         │         Stage 2: Triple-Model Classification │
+         │    Stage 2: Triple-Model Classification     │
          │  ┌──────────┐ ┌──────────┐ ┌──────────────┐ │
          │  │ MiniMax  │ │ DeepSeek │ │    Kimi      │ │
          │  │  M2.7    │ │  V3.2    │ │    K2.5      │ │
          │  └────┬─────┘ └────┬─────┘ └──────┬───────┘ │
-         │       │             │              │         │
-         │       └─────────────┼──────────────┘         │
-         └─────────────────────┼────────────────────────┘
+         │       │             │              │        │
+         │       └─────────────┼──────────────┘        │
+         └─────────────────────┼───────────────────────┘
                                │
               ┌────────────────▼────────────────┐
-              │  Stage 3: Tiered Consensus       │
-              │                                  │
-              │  Tier 0: Unanimous    (0.6%)     │──► Accept
-              │  Tier 1-2: Majority   (45.4%)    │──► Accept
-              │  Tier 3: Haiku 4.5    (37.5%)    │──► Adjudicate
-              │  Tier 4: Sonnet 4.6   (16.3%)    │──► Re-extract
+              │  Stage 3: Tiered Consensus      │
+              │                                 │
+              │  Tier 0: Unanimous    (0.6%)    │──► Accept
+              │  Tier 1-2: Majority   (45.4%)   │──► Accept
+              │  Tier 3: Haiku 4.5    (37.5%)   │──► Adjudicate
+              │  Tier 4: Sonnet 4.6   (16.3%)   │──► Re-extract
               └────────────────┬────────────────┘
                                │
               ┌────────────────▼────────────────┐
-              │  Stage 4: Per-Claim Extraction   │
-              │  Haiku 4.5 decomposes            │
-              │  3,193 cases → 6,718 claims      │
+              │  Stage 4: Per-Claim Extraction  │
+              │  Haiku 4.5 decomposes           │
+              │  3,193 cases → 6,718 claims     │
               └────────────────┬────────────────┘
                                │
               ┌────────────────▼────────────────┐
-              │  Stage 5: Reproducibility Audit  │
-              │  Opus 4.6 re-classifies          │
-              │  50-case stratified sample        │
-              │  Cohen's κ: 0.56–0.74            │
+              │  Stage 5: Reproducibility Audit │
+              │  Opus 4.6 re-classifies         │
+              │  50-case stratified sample      │
+              │  Cohen's κ: 0.56–0.74           │
               └─────────────────────────────────┘
 ```
 
