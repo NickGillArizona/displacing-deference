@@ -85,12 +85,12 @@ To the best of the author's knowledge, no published legal study has employed mul
                                      │
                           ┌──────────▼──────────┐
                     ┌─────┤  Stage 1: Screening  ├─────┐
-                    │     │  Gemini Flash Lite    │     │
-                    │     │  Binary FHA filter    │     │
+                    │     │  Gemini Flash Lite    │    │
+                    │     │  Binary FHA filter    │    │
                     │     └──────────────────────┘     │
-                    │                                   │
-                 YES (2,522)                        NO (1,505)
-                    │                               [discarded]
+                    │                                  │
+                 YES (2,522)                       NO (1,505)
+                    │                             [discarded]
                     │
          ┌──────────▼──────────────────────────────────┐
          │    Stage 2: Triple-Model Classification     │
