@@ -1,6 +1,6 @@
 # Empirical Claims Requiring Verification
 
-## Report on: *Recalibrating AFFH: Disability Enforcement After Loper Bright*
+## Report on: *Displacing Deference: Administrative Failure, Empirical Evidence, and the Case for a Disability-Centered AFFH*
 
 This report catalogs empirical claims made in the memo that rely on external data sources and should be verified for accuracy before publication. Claims are organized by subject area with the cited source and the specific assertion to check.
 
