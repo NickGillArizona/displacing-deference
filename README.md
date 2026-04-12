@@ -217,7 +217,11 @@ Nicholas Gill, *Displacing Deference: Administrative Failure, Empirical Evidence
 **Nicholas Gill** is a J.D. Candidate (2027) at the University of Arizona James E. Rogers College of Law. The FHA Unified Database and Agile ELS methodology were designed and built by the author; no comparable classified FHA litigation dataset exists in the published literature or in HUD's own records. Contact: [nickgill@arizona.edu](mailto:nickgill@arizona.edu).
 
 ---
+## AI Use Policy
 
+Artificial-intelligence tools assisted limited aspects of research, document classification, data processing, and drafting in this project. The empirical methodology is also intended to show that AI-assisted legal classification can help individual researchers construct and validate datasets at a scale that previously required institutional resources. AI outputs were used as research aids and analytical instruments, not as legal authority and not as substitutes for primary-source analysis. The author independently reviewed and verified all cited authorities, quotations, source characterizations, coding judgments, and empirical results, and made all analytical, doctrinal, and editorial decisions. No confidential or privileged information was submitted to external AI systems. The full classification pipeline and replication materials are documented here.
+
+---
 ## License
 
 - **Code** (scripts/, pipeline/, queries/, prompts/): [MIT](LICENSE)
