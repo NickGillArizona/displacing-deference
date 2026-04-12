@@ -1,0 +1,819 @@
+{
+  "h1_win_rates": {
+    "SPECIFIC_DUTY": {
+      "n": 794,
+      "strict_win_rate": 0.2607,
+      "broad_win_rate": 0.3929,
+      "pro_se_share": 0.4786
+    },
+    "MIXED": {
+      "n": 214,
+      "strict_win_rate": 0.1121,
+      "broad_win_rate": 0.4299,
+      "pro_se_share": 0.5981
+    },
+    "OPEN_TEXTURED": {
+      "n": 381,
+      "strict_win_rate": 0.0105,
+      "broad_win_rate": 0.0105,
+      "pro_se_share": 0.8845
+    }
+  },
+  "h1_period": {
+    "SPECIFIC_DUTY": {
+      "P1": {
+        "n": 441,
+        "strict": 0.3129,
+        "broad": 0.458
+      },
+      "P2": {
+        "n": 131,
+        "strict": 0.145,
+        "broad": 0.3053
+      },
+      "P3": {
+        "n": 222,
+        "strict": 0.2252,
+        "broad": 0.3153
+      }
+    },
+    "MIXED": {
+      "P1": {
+        "n": 115,
+        "strict": 0.1478,
+        "broad": 0.4609
+      },
+      "P2": {
+        "n": 38,
+        "strict": 0.0263,
+        "broad": 0.4211
+      },
+      "P3": {
+        "n": 61,
+        "strict": 0.0984,
+        "broad": 0.377
+      }
+    },
+    "OPEN_TEXTURED": {
+      "P1": {
+        "n": 184,
+        "strict": 0.0109,
+        "broad": 0.0109
+      },
+      "P2": {
+        "n": 64,
+        "strict": 0.0,
+        "broad": 0.0
+      },
+      "P3": {
+        "n": 133,
+        "strict": 0.015,
+        "broad": 0.015
+      }
+    }
+  },
+  "h1_chi2": {
+    "chi2": 204.133,
+    "p": 0.0
+  },
+  "h1_model": {
+    "formula": "broad_win ~ is_open + is_mixed + pro_se_int + post_2024 + C(def_cat)",
+    "n": 1389,
+    "pseudo_r2": 0.2692,
+    "coefficients": {
+      "Intercept": {
+        "coef": 0.1941,
+        "se": 0.217,
+        "p": 0.371,
+        "or": 1.2142
+      },
+      "C(def_cat)[T.PRIVATE]": {
+        "coef": 0.5157,
+        "se": 0.2217,
+        "p": 0.02,
+        "or": 1.6748
+      },
+      "C(def_cat)[T.PUBLIC_QUASI]": {
+        "coef": -0.1897,
+        "se": 0.2379,
+        "p": 0.4253,
+        "or": 0.8272
+      },
+      "is_open": {
+        "coef": -3.5058,
+        "se": 0.5136,
+        "p": 0.0,
+        "or": 0.03
+      },
+      "is_mixed": {
+        "coef": 0.4709,
+        "se": 0.1724,
+        "p": 0.0063,
+        "or": 1.6014
+      },
+      "pro_se_int": {
+        "coef": -1.6941,
+        "se": 0.1475,
+        "p": 0.0,
+        "or": 0.1838
+      },
+      "post_2024": {
+        "coef": -0.3572,
+        "se": 0.1414,
+        "p": 0.0115,
+        "or": 0.6996
+      }
+    }
+  },
+  "h1_enacted_model": {
+    "formula": "broad_win ~ enacted_int + pro_se_int + post_2024 + C(def_cat)",
+    "n": 1389,
+    "pseudo_r2": 0.2475,
+    "coefficients": {
+      "Intercept": {
+        "coef": -2.2192,
+        "se": 0.3383,
+        "p": 0.0,
+        "or": 0.1087
+      },
+      "C(def_cat)[T.PRIVATE]": {
+        "coef": 0.4768,
+        "se": 0.2184,
+        "p": 0.029,
+        "or": 1.6108
+      },
+      "C(def_cat)[T.PUBLIC_QUASI]": {
+        "coef": -0.1436,
+        "se": 0.2347,
+        "p": 0.5405,
+        "or": 0.8662
+      },
+      "enacted_int": {
+        "coef": 2.5123,
+        "se": 0.2974,
+        "p": 0.0,
+        "or": 12.3329
+      },
+      "pro_se_int": {
+        "coef": -1.6486,
+        "se": 0.1441,
+        "p": 0.0,
+        "or": 0.1923
+      },
+      "post_2024": {
+        "coef": -0.3649,
+        "se": 0.1403,
+        "p": 0.0093,
+        "or": 0.6942
+      }
+    }
+  },
+  "h2_win_rates": {
+    "LOW": {
+      "n": 669,
+      "strict_win_rate": 0.0927,
+      "broad_win_rate": 0.1256,
+      "pro_se_share": 0.87
+    },
+    "MODERATE": {
+      "n": 634,
+      "strict_win_rate": 0.2287,
+      "broad_win_rate": 0.4401,
+      "pro_se_share": 0.3849
+    },
+    "HIGH": {
+      "n": 86,
+      "strict_win_rate": 0.3256,
+      "broad_win_rate": 0.5233,
+      "pro_se_share": 0.2209
+    }
+  },
+  "h2_representation_gap": {
+    "LOW": {
+      "represented_n": 87,
+      "represented_broad_win": 0.4943,
+      "prose_n": 582,
+      "prose_broad_win": 0.0704,
+      "gap": 0.4238
+    },
+    "MODERATE": {
+      "represented_n": 390,
+      "represented_broad_win": 0.5359,
+      "prose_n": 244,
+      "prose_broad_win": 0.2869,
+      "gap": 0.249
+    },
+    "HIGH": {
+      "represented_n": 67,
+      "represented_broad_win": 0.597,
+      "prose_n": 19,
+      "prose_broad_win": 0.2632,
+      "gap": 0.3339
+    }
+  },
+  "h2_model": {
+    "formula": "broad_win ~ pro_se_int + is_moderate + is_high + prose_x_moderate + prose_x_high + post_2024 + C(def_cat)",
+    "n": 1389,
+    "pseudo_r2": 0.218,
+    "coefficients": {
+      "Intercept": {
+        "coef": -0.684,
+        "se": 0.302,
+        "p": 0.0235,
+        "or": 0.5046
+      },
+      "C(def_cat)[T.PRIVATE]": {
+        "coef": 0.9878,
+        "se": 0.2226,
+        "p": 0.0,
+        "or": 2.6854
+      },
+      "C(def_cat)[T.PUBLIC_QUASI]": {
+        "coef": 0.1407,
+        "se": 0.2344,
+        "p": 0.5485,
+        "or": 1.151
+      },
+      "pro_se_int": {
+        "coef": -2.4219,
+        "se": 0.2742,
+        "p": 0.0,
+        "or": 0.0888
+      },
+      "is_moderate": {
+        "coef": 0.4194,
+        "se": 0.2472,
+        "p": 0.0897,
+        "or": 1.5211
+      },
+      "is_high": {
+        "coef": 0.9389,
+        "se": 0.3525,
+        "p": 0.0077,
+        "or": 2.5573
+      },
+      "prose_x_moderate": {
+        "coef": 1.3076,
+        "se": 0.3275,
+        "p": 0.0001,
+        "or": 3.6974
+      },
+      "prose_x_high": {
+        "coef": 0.7825,
+        "se": 0.6552,
+        "p": 0.2324,
+        "or": 2.1869
+      },
+      "post_2024": {
+        "coef": -0.3221,
+        "se": 0.1388,
+        "p": 0.0203,
+        "or": 0.7246
+      }
+    }
+  },
+  "h2_simple_model": {
+    "formula": "broad_win ~ pro_se_int + is_moderate + is_high + post_2024 + C(def_cat)",
+    "n": 1389,
+    "pseudo_r2": 0.2085,
+    "coefficients": {
+      "Intercept": {
+        "coef": -1.3266,
+        "se": 0.2535,
+        "p": 0.0,
+        "or": 0.2654
+      },
+      "C(def_cat)[T.PRIVATE]": {
+        "coef": 1.0492,
+        "se": 0.2209,
+        "p": 0.0,
+        "or": 2.8553
+      },
+      "C(def_cat)[T.PUBLIC_QUASI]": {
+        "coef": 0.1414,
+        "se": 0.2344,
+        "p": 0.5465,
+        "or": 1.1518
+      },
+      "pro_se_int": {
+        "coef": -1.5369,
+        "se": 0.1514,
+        "p": 0.0,
+        "or": 0.2151
+      },
+      "is_moderate": {
+        "coef": 1.1734,
+        "se": 0.1643,
+        "p": 0.0,
+        "or": 3.2331
+      },
+      "is_high": {
+        "coef": 1.5498,
+        "se": 0.2829,
+        "p": 0.0,
+        "or": 4.7106
+      },
+      "post_2024": {
+        "coef": -0.3315,
+        "se": 0.1385,
+        "p": 0.0167,
+        "or": 0.7179
+      }
+    }
+  },
+  "combined_model": {
+    "formula": "broad_win ~ is_open + is_mixed + is_moderate + is_high + pro_se_int + post_2024 + C(def_cat)",
+    "n": 1389,
+    "pseudo_r2": 0.284,
+    "coefficients": {
+      "Intercept": {
+        "coef": -0.5622,
+        "se": 0.2722,
+        "p": 0.0389,
+        "or": 0.5699
+      },
+      "C(def_cat)[T.PRIVATE]": {
+        "coef": 0.7097,
+        "se": 0.2389,
+        "p": 0.003,
+        "or": 2.0334
+      },
+      "C(def_cat)[T.PUBLIC_QUASI]": {
+        "coef": -0.0866,
+        "se": 0.2538,
+        "p": 0.7328,
+        "or": 0.917
+      },
+      "is_open": {
+        "coef": -3.4014,
+        "se": 0.5186,
+        "p": 0.0,
+        "or": 0.0333
+      },
+      "is_mixed": {
+        "coef": 0.3367,
+        "se": 0.1765,
+        "p": 0.0565,
+        "or": 1.4003
+      },
+      "is_moderate": {
+        "coef": 0.6821,
+        "se": 0.1716,
+        "p": 0.0001,
+        "or": 1.9779
+      },
+      "is_high": {
+        "coef": 1.3628,
+        "se": 0.3155,
+        "p": 0.0,
+        "or": 3.9071
+      },
+      "pro_se_int": {
+        "coef": -1.4016,
+        "se": 0.1584,
+        "p": 0.0,
+        "or": 0.2462
+      },
+      "post_2024": {
+        "coef": -0.374,
+        "se": 0.1433,
+        "p": 0.0091,
+        "or": 0.688
+      }
+    }
+  },
+  "validation_samples": {
+    "SPECIFIC_DUTY": [
+      {
+        "case_name": "Pinnacle Treatment Centers, Inc. v. City of Crown Point, Indiana",
+        "year": 2022,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The claim is anchored to section 3604(f)(3)(B) reasonable accommodation duty with a discrete, identified accommodation request (exemption from zoning occupancy restrictions for a group home serving disabled residents). The court's analysis turns on whether the City satisfied its statutory obligation to provide reasonable accommodation, not on broad policy goals.",
+        "key_holding": "A group home operator for recovering substance abusers has standing under the Fair Housing Act as an 'aggrieved person' because the concrete injury of municipal fines levied against it satisfies the i"
+      },
+      {
+        "case_name": "Sinisio Sarafin v. Hawaii Public Housing Authority",
+        "year": 2024,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The reasonable accommodation claim is anchored to section 3604(f)(3)(B)'s requirement that housing providers make reasonable accommodations in rules, policies, practices, or services when necessary to afford a person with a disability equal opportunity to use and enjoy a dwelling. The dispute centers on whether HPHA satisfied this specific statutory duty by responding to and processing Sarafin's documented transfer request.",
+        "key_holding": "The court denied dismissal of Sarafin's FHA reasonable accommodation claim against HPHA, finding he adequately alleged HPHA failed to timely respond to his transfer requests and improperly transferred"
+      },
+      {
+        "case_name": "Les Bock and Dunnia E. Aplicano v. Brentwood Homeowners' Association, Inc.",
+        "year": 2024,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The case is anchored to FHA section 3604(f)(3)(A) reasonable modification claim with a discrete, identified accommodation request (relandscaping with low-maintenance materials) that was denied. The court applied a specific legal test examining whether the Association knew or should have known of the disability and whether the modification request communicated its disability-relatedness.",
+        "key_holding": "Although plaintiffs adequately alleged injury-in-fact for standing purposes based on emotional distress damages, they failed to state a reasonable modification claim because they did not adequately al"
+      },
+      {
+        "case_name": "Barbara A. Perricone-Bernovich, et al. v. Community Development Corporation of Long Island, Inc., et al.",
+        "year": 2021,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The case centers on a discrete, denied reasonable accommodation request under FHA section 3604(f)(3)(B)—a specific request to use a Section 8 voucher at an alternative location. The legal duty is anchored to the statutory requirement to provide reasonable accommodations in housing programs, with identifiable compliance criteria (necessity and reasonableness of the requested accommodation).",
+        "key_holding": "The court did not rule on the merits of the reasonable accommodation claim; instead, it identified threshold deficiencies requiring plaintiffs to establish capacity (Perricone-Bernovich cannot represe"
+      },
+      {
+        "case_name": "Judy Shaw Foundation v. City of Howard, South Dakota",
+        "year": 2026,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The FHA disparate treatment claim is anchored to a specific, identifiable adverse action: the City's enactment of Ordinances 745 and 746 requiring special exception permits for group homes and treatment facilities. The court applies the FHA proximate cause standard from Bank of America v. Miami to assess whether the ordinances were enacted with discriminatory intent targeting disabled individuals, a discrete statutory violation under section 3604(a).",
+        "key_holding": "The court granted summary judgment for the City on JSF's ADA claim for lack of standing, but denied the City's motion on JSF's FHA disparate treatment claim, finding genuine issues of material fact ex"
+      },
+      {
+        "case_name": "Mikel James Gueltzau v. Derek Warehime, Property Manager and Owner; and Cathy Warehime, Property Manager and Owner",
+        "year": 2025,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The case involves a discrete, enacted statutory duty under the ADA/Rehabilitation Act reasonable accommodation standard applied to court filing procedures. The court's analysis turns on whether the specific accommodation requests (email/fax filing and remote hearings) were reasonably necessary given plaintiff's circumstances and past conduct.",
+        "key_holding": "The Court denied Plaintiff's ADA accommodation requests for email/fax filing and remote hearings because such accommodations are not reasonably necessary—email and fax filing would be inappropriate gi"
+      },
+      {
+        "case_name": "Scott Meyer v. Ten Mile Island Condominium Association",
+        "year": 2025,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "Both claims are anchored to discrete FHA statutory provisions: reasonable accommodation under section 3604(f)(3)(B) with an identified, specific accommodation request (reserved parking spot), and retaliation under section 3617 with a protected activity (accommodation request) and alleged adverse action. The court's analysis turns on whether the defendant satisfied the statutory duty, not on broad policy.",
+        "key_holding": "The court granted defendants summary judgment because the parties' prior Settlement Agreement signed during CCRD conciliation proceedings released defendants from 'any and all claims' arising from the"
+      },
+      {
+        "case_name": "United States of America and Fair Housing Partnership of Greater Pittsburgh, Inc. et al. v. AION Management, LLC et al.",
+        "year": 2025,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The claims are anchored to discrete statutory provisions (§ 3604(f)(3)(B) reasonable accommodation and § 3604(c) discriminatory statements) with identifiable compliance criteria: whether defendants refused a specific, identified accommodation (assigned parking) and whether statements violated the FHA's prohibition on discrimination. The court applied specific legal tests for each claim rather than assessing broad policy.",
+        "key_holding": "The court denied Defendants' motions to dismiss, finding that Plaintiffs sufficiently alleged all three elements of a § 3604(f)(3)(B) reasonable accommodation claim (refusal, reasonable accommodation,"
+      },
+      {
+        "case_name": "Kenneth O'Rourke, et al. v. Kim VanHeel, et al.",
+        "year": 2022,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The case is anchored to FHA section 3604(f)(3)(B)'s specific statutory duty to provide reasonable accommodations for assistance animals. The court applied the discrete five-element Dubois test to evaluate whether the defendant satisfied its obligation to accommodate the plaintiffs' service dogs.",
+        "key_holding": "The court found serious questions going to the merits of plaintiffs' FHA reasonable accommodation claim regarding service dogs and granted a TRO vacating eviction orders and prohibiting reinitiating e"
+      },
+      {
+        "case_name": "Hiatt v. Sun City Festival Community Association Incorporated",
+        "year": 2024,
+        "claim_specificity": "SPECIFIC_DUTY",
+        "specificity_reasoning": "The case is anchored to FHA section 3604(f)(3)(B)'s requirement that housing providers make reasonable accommodations in rules, policies, practices, or services when necessary to afford a person with a disability equal enjoyment of housing. The dispute centers on whether the defendant satisfied this specific statutory duty by engaging in the interactive process and granting a particularized accommodation request.",
+        "key_holding": "The court struck defendant's MSJ on necessity and reasonableness for failure to comply with local rules governing motions for reconsideration, but denied defendant's MSJ on damages, finding genuine is"
+      }
+    ],
+    "MIXED": [
+      {
+        "case_name": "Lopez v. YWCA of Northeast New York",
+        "year": 2025,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The reasonable accommodation claims under § 3604(f)(3)(B) are anchored to specific, identified accommodation requests (cannabis exemption, service dogs, contractor restriction, police-intervention exemption) with documented denials or violations, constituting specific-duty claims. However, the sex-based discrimination and hostile housing environment claims rely on broader allegations of discriminatory comments and conduct without reference to discrete statutory compliance criteria, rendering them more open-textured.",
+        "key_holding": "On initial IFP review, the court allowed FHA and ADA disability discrimination, reasonable accommodation, sex-based discrimination, hostile housing environment, and retaliation claims against the YWCA"
+      },
+      {
+        "case_name": "Green v. Allied First Bank SB",
+        "year": 2024,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The case involves both a specific-duty claim (reasonable accommodation denial under section 3604(f)(3)(B), though no accommodation was actually requested) and an open-textured discriminatory lending claim under ECOA/FHA without clear statutory anchoring. The foreclosure context and lack of identified accommodation request blur the specificity of the FHA duty at issue.",
+        "key_holding": "The court denied plaintiff's motion for a preliminary injunction to stop a foreclosure sale because the defendant had already cancelled the sale, eliminating any substantial threat of irreparable harm"
+      },
+      {
+        "case_name": "Rosemary McVicker v. Muskogee Housing Authority",
+        "year": 2024,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The reasonable accommodation claim targets a specific statutory duty under section 3604(f)(3)(B) with an identified accommodation request (written medical marijuana policy), but the disparate treatment and retaliation claims rely on broader allegations of discriminatory intent without clear statutory hooks or specific adverse actions tied to disability status.",
+        "key_holding": "The court granted summary judgment for MHA on Plaintiff's FHA claims because MHA had a policy prohibiting marijuana use, Plaintiff had actual notice of this policy through newsletters and her lease, a"
+      },
+      {
+        "case_name": "White v. Matthews",
+        "year": 2024,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The case alleges discriminatory eviction under the FHA, which invokes section 3604(f)(1)'s prohibition on discriminatory refusal or terms—a specific duty. However, the accommodation_type is undetermined, no specific FHA section is cited, and the claim lacks clear statutory anchoring, blending specific adverse-action elements with generalized discrimination framing.",
+        "key_holding": "The court granted in part Defendants' motion for discovery sanctions, ordering Plaintiff to supplement her discovery responses regarding living arrangements during homelessness, damage calculations, a"
+      },
+      {
+        "case_name": "Jennifer Dixon v. Silva-Markham Partners and Koelbel & Co.",
+        "year": 2025,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The case involves specific statutory claims under § 3604 (disparate treatment, reasonable accommodation denial) and § 3617 (retaliation), which are anchored to discrete enacted duties. However, the hostile housing environment claim relies on broader, open-textured standards requiring assessment of whether conduct was 'sufficiently severe or pervasive' without reference to specific statutory compliance criteria.",
+        "key_holding": "The court adopted the magistrate judge's recommendation granting defendants summary judgment on all FHA claims—discrimination, hostile housing environment, and retaliation—because plaintiff's objectio"
+      },
+      {
+        "case_name": "Judy Shaw Foundation v. City of Howard, South Dakota",
+        "year": 2026,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The FHA disparate treatment claim under § 3604(f)(3)(B) is anchored to a specific statutory provision and requires proof of discriminatory intent regarding a discrete adverse action (zoning ordinance denial), but the claim also implicates broader municipal policy-making and lacks a specific, pre-identified accommodation request, blending specific-duty and open-textured elements.",
+        "key_holding": "The court granted summary judgment for the City on JSF's ADA associational standing claim because JSF lacked any association with disabled persons, but denied summary judgment on JSF's FHA disparate t"
+      },
+      {
+        "case_name": "Curtis K. Jackson, Sr. v. Chicago Housing Authority",
+        "year": 2025,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The reasonable accommodation claim under section 3604(f)(3)(B) is anchored to a specific statutory duty (necessity and reasonableness), but plaintiff's allegations were too vague to identify the specific accommodation requested or denied. The retaliation claim under section 3617 similarly invokes a specific statutory provision but was dismissed for failure to allege specific protected activity and adverse action with sufficient particularity.",
+        "key_holding": "Jackson's FHA claim failed because he provided no allegations that the Authority and its employees denied him a housing accommodation or otherwise interfered with his right to rent or enjoy property, "
+      },
+      {
+        "case_name": "Horizon House, Inc. v. East Norriton Township",
+        "year": 2020,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The reasonable accommodation claim under § 3604(f)(3)(B) is anchored to a specific statutory duty with identifiable compliance criteria (necessity and reasonableness), but the disparate treatment and disparate impact claims rely on broader statutory purpose and facial/applied discrimination analysis without discrete compliance criteria.",
+        "key_holding": "The reasonable accommodation claim was dismissed because plaintiff alleged only that the requested waiver of zoning conditions would cause additional costs and delays, but failed to plausibly allege t"
+      },
+      {
+        "case_name": "Boria v. The Heritage at Alexander Hamilton",
+        "year": 2024,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The case contains a specific reasonable accommodation claim (transfer to mold-free unit) anchored to section 3604(f)(3)(B), but the court's analysis conflated this with negligence per se and statutory violation theories that lack discrete compliance criteria. The FHA claim itself remains pending and underdeveloped at the MTD stage.",
+        "key_holding": "The court dismissed plaintiffs' negligence per se claim because violations of New Jersey's Hotel and Multiple Dwellings Law regulations, the FHA, and the TSCA cannot form the basis of a negligence per"
+      },
+      {
+        "case_name": "Kortney Donavon v. Richmond-Henrico Arms Limited Partnership",
+        "year": 2026,
+        "claim_specificity": "MIXED",
+        "specificity_reasoning": "The case invokes section 3604(f) (reasonable accommodation) and section 3617 (retaliation), which are specific statutory duties, but the accommodation request itself is undetermined and not described in the federal court record. The claims are anchored to statutory provisions but lack the concrete factual predicate (specific accommodation, specific denial, specific adverse action) needed for full specificity classification.",
+        "key_holding": "The court dismissed the action for lack of subject matter jurisdiction because the state court eviction proceeding was not properly removable, the claims were moot after execution of the writ of evict"
+      }
+    ],
+    "OPEN_TEXTURED": [
+      {
+        "case_name": "Victoria-Joy Godwin v. Senior Garden Apartments, et al.",
+        "year": 2021,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "The complaint alleges FHA violations generically without identifying a specific statutory provision, accommodation request, denial, or adverse action. The court's dismissal was procedural (unopposed motions) and did not engage with discrete statutory duties or compliance criteria.",
+        "key_holding": "The court granted all five unopposed motions to dismiss under Local Rule 7-2(d), which treats a party's failure to file a response as consent to granting the motion, dismissing all claims against all "
+      },
+      {
+        "case_name": "Gerard Torres, + 2 Children v. Alexis Winnell, Property Manager, et al.",
+        "year": 2026,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "The complaint fails to identify any specific statutory duty, disability, discriminatory conduct, or protected activity. The retaliation and reasonable accommodation claims lack the discrete factual predicates (identified accommodation request, denial, protected activity, adverse action) required for specific-duty classification, and the court found no well-pleaded federal claim anchored to FHA provisions.",
+        "key_holding": "The court lacks subject matter jurisdiction over the plaintiff's complaint because his pleading fails to identify any disability, discriminatory conduct, or how he exercised rights under the Fair Hous"
+      },
+      {
+        "case_name": "Frank Ditto; Julie Ditto v. Peterson Properties; Peterson Property Management; Ted Peterson; Steve Peterson; Does 1-10",
+        "year": 2022,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "The complaint vaguely references the Fair Housing Act without specifying which statutory provision was violated, what accommodation was requested, or what adverse action occurred. The accommodation type and disability category are both undetermined, indicating the pleading lacks the discrete, identifiable elements required for a specific-duty classification.",
+        "key_holding": "The court transferred the case to the Northern District of California because the operative events (rental of an Oakland, California apartment) occurred there, making venue more appropriate in that di"
+      },
+      {
+        "case_name": "Joseph D.S. Phillips, Jr. v. City of Pittsburgh",
+        "year": 2022,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "The complaint makes only disjointed, incoherent references to the Fair Housing Act without identifying any specific statutory duty, accommodation request, denial, or adverse action tied to disability. The claims lack anchoring to discrete FHA provisions and instead blend unrelated tort theories (breach of duty, breach of contract, unjust enrichment) with vague FHA references.",
+        "key_holding": "The Third Circuit affirmed the district court's dismissal with prejudice of Phillips's pro se amended complaint because it failed to coherently allege any facts sufficient to state a plausible claim f"
+      },
+      {
+        "case_name": "Sam Sohn v. California Housing Financing Agency",
+        "year": 2021,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "The plaintiff's FHA claims lack anchoring to discrete statutory provisions with identifiable compliance criteria. The court found allegations conclusory and factually insufficient, with no specific accommodation request details, denial mechanism, or statutory duty articulated—the claims are framed as generalized discrimination without clear statutory hooks or identified adverse actions.",
+        "key_holding": "The court dismissed the second amended complaint without leave to amend because plaintiff's factual allegations were insufficient to state any viable claim, including her Fair Housing Act and reasonab"
+      },
+      {
+        "case_name": "Cherry-El v. Blount",
+        "year": 2025,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "The complaint fails to articulate a specific, identifiable accommodation request or identify which statutory duty was allegedly violated. The court found the allegations too vague to discern whether plaintiff challenged his designation, sought priority on a housing list, or claimed a denied accommodation—indicating the claim lacks the discrete, enacted statutory anchor required for SPECIFIC_DUTY classification.",
+        "key_holding": "Plaintiff's complaint was sua sponte dismissed without prejudice for failing to comply with Rules 8 and 12(b)(6) because it was too vague to provide fair notice of the nature or substance of his claim"
+      },
+      {
+        "case_name": "Phyllis J. Carpenter v. Southern Nevada Regional Housing Authority",
+        "year": 2021,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "Plaintiff's FHA disparate treatment claim lacks any identified adverse housing action, specific statutory provision, or factual allegations tying disability to housing denial or discriminatory terms. The complaint merely lists statutory violations without anchoring claims to discrete, enacted duties.",
+        "key_holding": "The court dismissed all of pro se plaintiff's claims without prejudice for failure to state a plausible claim for relief under Twombly/Iqbal, because plaintiff listed dozens of alleged legal violation"
+      },
+      {
+        "case_name": "Jason Scutt v. Maui Family Life Center, Inc.",
+        "year": 2020,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "The disparate treatment claim lacks anchoring to a specific statutory provision or identified adverse action with clear compliance criteria. The allegations are vague and conclusory about discriminatory motive without identifying a discrete FHA duty or measurable denial standard, making this a generalized discrimination allegation rather than a claim tied to specific statutory requirements.",
+        "key_holding": "The court dismissed Plaintiff's FHA claim because she provided only vague, conclusory allegations that failed to establish the defendant denied her rental assistance application because of her race or"
+      },
+      {
+        "case_name": "Larry Johnson v. Thomas Brenneke; Guardian Management, LLC; Guardian Real Estate Services; Uptown Tower Apartments; Lisa Simonson; Kelly Paine; et al.",
+        "year": 2025,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "This case is a procedural motion (Rule 60 relief) seeking to reopen previously dismissed FHA claims, not a substantive adjudication of FHA duties. The court's analysis focuses on timeliness and procedural requirements for reopening, not on whether specific statutory FHA duties were met or violated.",
+        "key_holding": "The court denied plaintiff's Rule 60 motion as untimely, noting the judgment was entered in August 2022 and plaintiff offered no compelling reason for delaying nearly three years to seek reopening."
+      },
+      {
+        "case_name": "Mezie Oduka v. Danisha Davis, et al.",
+        "year": 2025,
+        "claim_specificity": "OPEN_TEXTURED",
+        "specificity_reasoning": "The case is in early procedural posture with no specific FHA section cited, no identified accommodation request, and no concrete adverse action articulated. The court's order addresses only pro bono counsel appointment and does not engage with the substantive legal theory or statutory basis of the FHA claim.",
+        "key_holding": "The court grants plaintiff's request for pro bono counsel to assist him during settlement negotiations and at the upcoming settlement conference, finding that plaintiff qualifies as indigent and that "
+      }
+    ],
+    "complexity_LOW": [
+      {
+        "case_name": "Tasha Chapman v. Franklin County Sheriff",
+        "year": 2022,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The case is at the § 1915A screening stage with no substantive merits analysis conducted. The court has not yet engaged with the factual predicates or legal elements of the FHA claims, and no expert proof or specialized analysis is evident from the opinion.",
+        "accommodation_type": "UNDETERMINED"
+      },
+      {
+        "case_name": "Lorin Grossman v. B&J Services of Miami, LLC, et al.",
+        "year": 2026,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The case involves straightforward factual predicates: a wheelchair user was refused housing while able-bodied prospective tenants were shown the property. The discrimination is documented through communications and comparative treatment, requiring no expert testimony, architectural analysis, or specialized technical knowledge.",
+        "accommodation_type": "DISCRIMINATION_PRIMARY"
+      },
+      {
+        "case_name": "Gerald Cymbalsky v. 522 Shore Road Owners, Inc.",
+        "year": 2025,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The case involves straightforward factual predicates: whether plaintiff made an accommodation request and whether defendant denied it. No expert testimony, technical measurements, architectural analysis, or specialized proof is needed; the dispute is resolved on documentary evidence and the pleadings alone.",
+        "accommodation_type": "DISCRIMINATION_PRIMARY"
+      },
+      {
+        "case_name": "Brooklynn C. Clark v. GSL Properties, Inc. et al.",
+        "year": 2024,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The case involves straightforward pleading deficiencies rather than complex factual or technical disputes. The court dismissed on motion to dismiss under § 1915(e)(2)(B) screening without reaching the merits, focusing on whether plaintiff adequately alleged comparator facts (race, sex, gender identity of similarly situated neighbors) rather than requiring expert analysis, measurements, or specialized proof.",
+        "accommodation_type": "POLICY_EXCEPTION"
+      },
+      {
+        "case_name": "Gregory R. Marlor v. The Housing Company",
+        "year": 2025,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The surviving claim involves a straightforward factual predicate: plaintiff's documented July 2023 request for doorbell installation and defendant's denial, with clear dates and communications. No expert testimony, architectural analysis, or specialized technical knowledge is required to resolve whether the accommodation was requested and denied.",
+        "accommodation_type": "STRUCTURAL_MODIFICATION"
+      },
+      {
+        "case_name": "Walter Tanner v. Rochdale Village Inc.",
+        "year": 2024,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The case involves straightforward factual allegations of alleged discrimination and refusal to perform repairs, resolvable on documentary evidence and lay testimony without expert analysis, technical measurements, or specialized professional knowledge.",
+        "accommodation_type": "DISCRIMINATION_PRIMARY"
+      },
+      {
+        "case_name": "Robinson v. Brazos Valley Council of Governments",
+        "year": 2026,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The decided issue is purely procedural—whether to appoint counsel under 28 U.S.C. § 1915(e)(1)—requiring no technical expertise, expert testimony, or specialized knowledge. The underlying FHA claims remain pending and unanalyzed.",
+        "accommodation_type": "UNDETERMINED"
+      },
+      {
+        "case_name": "Tracy A. Miller v. Georgia Department of Community Supervision, et al.",
+        "year": 2024,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The case involves straightforward factual predicates: whether plaintiff was a buyer/renter under FHA, whether the Board denied or made housing unavailable, and whether placement at Bostick constituted accommodation rather than discrimination. No expert testimony, architectural analysis, or technical measurements are required; the dispute is resolved on documentary evidence and the Board's placement decision.",
+        "accommodation_type": "DISCRIMINATION_PRIMARY"
+      },
+      {
+        "case_name": "Brown v. Nationwide Mutual Insurance Company",
+        "year": 2026,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The case involves straightforward factual predicates: a documented accommodation request, an alleged denial, and clear temporal facts (2016 conduct, 2024 filing). No expert testimony, architectural analysis, or specialized technical knowledge is required to resolve the merits; the case was resolved on statute of limitations grounds without need for complex evidentiary development.",
+        "accommodation_type": "COMMUNICATION_ACCOMMODATION"
+      },
+      {
+        "case_name": "Clifford Osborne et al v. Kevin Belton",
+        "year": 2022,
+        "technical_complexity": "LOW",
+        "complexity_reasoning": "The case involves straightforward factual predicates: a documented ESA request, clear denial by the landlord, and subsequent eviction. No expert testimony, architectural analysis, or specialized knowledge was required; the court resolved the claims on documentary evidence and deemed admissions from the defendant's failure to respond to discovery.",
+        "accommodation_type": "ASSISTANCE_ANIMAL"
+      }
+    ],
+    "complexity_MODERATE": [
+      {
+        "case_name": "Reading Housing Authority v. Pennsylvania Human Relations Commission",
+        "year": 2025,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case involves multiple factual predicates including the interactive process (repeated requests, physician's letter, waitlist management), comparative evidence (six non-disabled applicants receiving parking before the tenant), and temporal analysis (nearly five-year delay). While no architectural or engineering expertise was required, the analysis required assembly of communications, medical documentation, and comparative treatment evidence across an extended period.",
+        "accommodation_type": "PARKING"
+      },
+      {
+        "case_name": "Parker v. Lee",
+        "year": 2024,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case involves multiple claim theories, multiple defendants, and requires comparative evidence analysis (comparator tenants for disparate treatment) and temporal proximity analysis for retaliation causation, though no expert testimony or technical measurements are required.",
+        "accommodation_type": "UNDETERMINED"
+      },
+      {
+        "case_name": "BOARD OF COUNTY COMMISSIONERS OF JOHNSON COUNTY v. Jorgensen",
+        "year": 2024,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case involves analysis of regulatory compliance and the interaction between fire code requirements and FHA accommodation duties, requiring understanding of both statutory frameworks. However, the core dispute turns on whether a categorical exemption constitutes a reasonable accommodation rather than technical measurements or expert assessment of specific design features.",
+        "accommodation_type": "POLICY_EXCEPTION"
+      },
+      {
+        "case_name": "Allison Barton Rice v. City and County of San Francisco",
+        "year": 2024,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case required analysis of the interactive process, the reasonableness and necessity of the specific accommodation request, and comparison of the defendant's response to statutory obligations. While not requiring expert testimony, the dispute involved multiple communications and factual predicates regarding the accommodation request and denial.",
+        "accommodation_type": "POLICY_EXCEPTION"
+      },
+      {
+        "case_name": "Discovery Real Estate and Development, LLC v. Town of St. Francisville",
+        "year": 2022,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case involves analysis of multiple ordinances (CZO and Sewer Capacity Ordinance), causation and traceability analysis, and procedural doctrines (standing, ripeness) requiring careful factual and legal parsing. However, it does not require expert testimony or technical measurements to resolve.",
+        "accommodation_type": "DISCRIMINATION_PRIMARY"
+      },
+      {
+        "case_name": "Yolanda E. Quewon v. Philadelphia Housing Authority",
+        "year": 2025,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case involves a structural modification accommodation requiring assessment of necessity and reasonableness, but is dismissed at the pleading stage for failure to adequately allege basic elements rather than on the merits. Resolution on the merits would require comparative evidence on burden and necessity, though the specific ramp modification itself is straightforward.",
+        "accommodation_type": "STRUCTURAL_MODIFICATION"
+      },
+      {
+        "case_name": "Simmons v. T.M. Associates Management, Inc.",
+        "year": 2018,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case requires analysis of the interactive process and comparative evidence regarding the direct threat defense, including post-conviction treatment and stabilization documentation. However, it does not require expert testimony, architectural analysis, or statistical evidence—the dispute centers on whether the defendant engaged in individualized assessment rather than categorical denial.",
+        "accommodation_type": "POLICY_EXCEPTION"
+      },
+      {
+        "case_name": "Sang W. Mendy v. Tracy L. Larson et al.",
+        "year": 2024,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case involves multiple procedural steps (competing motions to seal, protective order, and compel), financial document analysis for punitive damages assessment, and successor liability analysis under contract law. However, the discovery order itself does not address the merits of the underlying FHA claims, limiting the technical complexity at this stage.",
+        "accommodation_type": "UNDETERMINED"
+      },
+      {
+        "case_name": "Affinity Recovery Center LLC v. Town Commissioners of Sudlersville",
+        "year": 2024,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case involves comparative zoning analysis (8-bed vs. 16-bed limitation), evaluation of whether economic non-viability satisfies the necessity prong of reasonable accommodation doctrine, and assessment of whether the zoning code facially or as-applied discriminates. No expert testimony or physical measurements are required, but the analysis requires careful statutory interpretation and comparative policy analysis.",
+        "accommodation_type": "SOBER_LIVING_GROUP_HOME_ZONING"
+      },
+      {
+        "case_name": "Larry Johnson v. Lisa Simonson and Kelly Paine",
+        "year": 2025,
+        "technical_complexity": "MODERATE",
+        "complexity_reasoning": "The case involves multiple retaliation claims across different time periods with back-and-forth communications regarding recertification paperwork and accommodation requests, requiring analysis of causal links and temporal proximity. However, it does not require expert testimony, technical measurements, or specialized regulatory expertise—the disputes turn on documentary evidence of communications and plaintiff's own actions (refusal to sign documents).",
+        "accommodation_type": "DISCRIMINATION_PRIMARY"
+      }
+    ],
+    "complexity_HIGH": [
+      {
+        "case_name": "Tamara Johnson, et al. v. The City of Annapolis, et al. / The Estate of Damon R. Fisher, et al. v. The City of Annapolis, et al.",
+        "year": 2023,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The disparate impact claim requires statistical analysis and expert testimony to establish causation between the non-inspection policy and racial disparities in housing conditions. The court's order specifically authorizes expert discovery (deposition of Dr. Parnell, plaintiffs' expert), indicating technical proof is essential to resolving the merits.",
+        "accommodation_type": "UNDETERMINED"
+      },
+      {
+        "case_name": "Stason Sutton and Fair Housing Justice Center, Inc. v. CREF 546 West 44th Street, LLC, Patrinely Group, LLC, and CETRA/CRI Architecture, PLLC",
+        "year": 2025,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The case requires architectural analysis, technical measurements against FHAG standards, and engineering assessment of structural modifications across multiple building systems (doorways, thresholds, bathtub controls, kitchen features) in a 280-unit multifamily property. Resolution involves specialized expertise in design and construction compliance and retrofit implementation.",
+        "accommodation_type": "STRUCTURAL_MODIFICATION"
+      },
+      {
+        "case_name": "United States of America ex rel. James Dieter and Karen Schwenke v. City of Milwaukee, City of Milwaukee Community Development Grants Administration, Housing Authority of the City of Milwaukee, and Milwaukee County",
+        "year": 2023,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The case requires specialized expertise in HUD regulatory compliance, AFFH mandate interpretation, disparate impact statistical analysis, and False Claims Act pleading standards under Rule 9(b). Multiple defendants with complex entity relationships (municipality, housing authority, county) and analysis of federal funding certifications require regulatory and technical knowledge beyond lay understanding.",
+        "accommodation_type": "UNDETERMINED"
+      },
+      {
+        "case_name": "Bowman v. SWBC Real Estates Services, LLC",
+        "year": 2024,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "Design and construction claims require architectural analysis and measurement of accessibility barriers against FHAG standards; the court's directive to specify barrier locations indicates need for technical documentation of physical accessibility features.",
+        "accommodation_type": "OTHER"
+      },
+      {
+        "case_name": "MHANY Management, Inc. v. County of Nassau et al.",
+        "year": 2016,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The case requires analysis of complex zoning law, HUD regulatory burden-shifting frameworks (24 C.F.R. § 100.500(c)), Arlington Heights discriminatory intent factors, and multi-defendant liability allocation under New York law; it also involves statistical and pattern evidence of race-based animus in municipal decision-making.",
+        "accommodation_type": "OTHER"
+      },
+      {
+        "case_name": "Rosemarie Vargas; et al. v. Facebook, Inc.",
+        "year": 2023,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The case requires expert analysis of algorithmic targeting mechanisms, data flows, and Facebook's technical development of ad targeting tools. It also involves complex questions about platform liability, Section 230 immunity doctrine, and the distinction between passive publishing and active contribution to discrimination—requiring specialized knowledge of both technology and telecommunications law.",
+        "accommodation_type": "DISCRIMINATION_PRIMARY"
+      },
+      {
+        "case_name": "Plainview Mobile Home Park v. City of Oak Grove, Kentucky",
+        "year": 2024,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The case requires expert accountant testimony to establish damages and financial impact of the alleged discriminatory denial of utility service; involves multiple defendants (municipality and public works director) with complex allocation of responsibility; and requires analysis of discriminatory intent and systemic impact on manufactured home communities, necessitating specialized economic and statistical proof.",
+        "accommodation_type": "UNDETERMINED"
+      },
+      {
+        "case_name": "Fair Housing Rights Center in Southeastern Pennsylvania v. Post Goldtex GP, LLC",
+        "year": 2016,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The case requires technical analysis of design and construction accessibility standards (narrow doors, high thresholds, inaccessible kitchen counters) measured against FHAG compliance criteria, and involves regulatory interpretation requiring specialized expertise in HUD's design and construction requirements and the meaning of 'first occupancy' under the FHA.",
+        "accommodation_type": "OTHER"
+      },
+      {
+        "case_name": "Morris v. Baltimore Municipal",
+        "year": 2025,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The case involves structural modifications and ADA/Rehabilitation Act compliance requiring architectural and engineering assessment, multiple defendant entities with complex responsibility allocation, and facility-wide accessibility standards analysis. The sweeping nature of the requested accommodations (elevators, bathroom remodeling, technology infrastructure) and the need to evaluate necessity and reasonableness against building-wide conditions necessitate expert technical evaluation.",
+        "accommodation_type": "STRUCTURAL_MODIFICATION"
+      },
+      {
+        "case_name": "Fair Housing Justice Center, Inc. v. 203 Jay St. Associates, LLC",
+        "year": 2022,
+        "technical_complexity": "HIGH",
+        "complexity_reasoning": "The case requires expert testimony and technical measurements to establish design and construction violations, including accessibility expert observations of specific architectural features (door weight, interior dimensions, slopes, thresholds) measured against FHA accessibility guidelines.",
+        "accommodation_type": "OTHER"
+      }
+    ]
+  }
+}
