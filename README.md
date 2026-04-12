@@ -23,7 +23,7 @@ Federal fair housing law requires agencies to "affirmatively further" fair housi
 
 The data tell a single story: HUD's administrative choices — not judicial doctrine — created the disability fair housing enforcement crisis. Represented plaintiffs still win; the system failed the unrepresented ones HUD was supposed to support.
 
-**The composition effect.** Pro se plaintiffs constitute 64.8% of disability filings, surging to 76.7% in P3 (consistent with FHIP defunding), and win on the merits only 5.3% of the time versus 32.1% for represented plaintiffs. Represented plaintiff success fully recovers to pre-*Loper Bright* levels in P3 (34.3%). The aggregate decline in plaintiff success is entirely a composition effect driven by HUD's withdrawal of institutional support — not a permanent shift in judicial hostility.
+**The composition effect.** Pro se plaintiffs constitute 64.8% of disability filings, surging to 76.7% in P3 (consistent with FHIP defunding), and win on the merits only 5.3% of the time versus 32.1% for represented plaintiffs. Represented plaintiff success fully recovers to pre-*Loper Bright* levels in P3 (34.3%). A formal Oaxaca-Blinder decomposition attributes 76% of the aggregate win-rate decline to the composition shift and only 24% to within-group rate changes; the represented win rate is statistically indistinguishable between P1 and P3 (χ² p = 0.991). The aggregate decline is a composition effect driven by HUD's withdrawal of institutional support — not a permanent shift in judicial hostility. See [Appendix A-5](appendices/Appendix_A5_Robustness_Checks.md) for full robustness checks.
 
 **The litigation decline.** Three-period analysis reveals strict win rates falling from 18.0% (P1: pre-*Loper Bright*) to 7.8% (P2) to 10.7% (P3: post-HUD Secretary), with the P1-to-P2 decline statistically significant (p=0.007). Multivariate logistic regression confirms 40–51% lower odds of plaintiff victory after controlling for procedural posture, defendant type, accommodation type, and plaintiff type.
 
@@ -171,6 +171,7 @@ The following appendices are referenced throughout the Note's footnotes. Each is
 | [I](appendices/Appendix_I_AFFH_Case_Classification.md) | AFFH Case Classification |
 | [J](appendices/Appendix_J_Safe_Harbor_Detail.md) | Safe Harbor Operational Detail |
 | [K](appendices/Appendix_K_Classification_Prompts.md) | Classification Prompts |
+| [L](appendices/Appendix_L_HUD_Administrative_Data.md) | HUD Administrative Data (CDBG, POSH, REAC/NSPIRE) |
 
 ---
 

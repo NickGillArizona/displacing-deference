@@ -12,3 +12,4 @@ __pycache__/
 !data/*.xls
 *.csv
 !results/*.csv
+push.bat

@@ -47,6 +47,10 @@ GROUP_1 = [
     "recompute_stats_unified.py",
     "regression_analysis.py",
     "regression_analysis_full.py",
+    "robustness_checks.py",
+    "cdbg_analysis.py",
+    "posh_analysis.py",
+    "reac_analysis.py",
 ]
 
 GROUP_2 = [

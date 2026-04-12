@@ -10,6 +10,8 @@ U.S. Census Bureau, American Community Survey 2020–2024 5-Year Public Use Micr
 
 The 2024 vintage of the ACS 5-Year PUMS covers survey years 2020 through 2024. This updates the 2019–2023 5-Year PUMS used in the original analysis.
 
+**Vintage selection.** The 5-Year PUMS is used for all demographic parameters reported in the main text---disability prevalence by race, disability penalties in cost burden, and the racial cost-burden gap---because the AIAN renter-householder subpopulation is too small in the 1-Year PUMS for reliable estimation (n=670 unweighted records versus n=17,877 in the 5-Year, yielding standard-error reductions of approximately 50--60%). The 5-Year window (2020--2024) includes pandemic-era survey years in which temporary rental assistance and stimulus payments suppressed absolute cost-burden rates by approximately 6--8 percentage points relative to the 2019--2023 vintage; the disability *penalty* (the within-race differential between disabled and non-disabled cost-burden rates) is less affected because both numerator and denominator shift in the same direction. Absolute cost-burden rates from the 2023 ACS 1-Year PUMS are available in Appendix D for point-in-time comparison.
+
 ### Variable Definitions
 
 | Variable | Description | Values Used |

@@ -1,0 +1,759 @@
+{
+  "metadata": {
+    "analysis_date": "2026-04-12",
+    "public_housing_source": "HUD REAC Physical Inspection Scores - Public Housing (08252025)",
+    "multifamily_source": "HUD REAC Physical Inspection Scores - Multifamily (08252025)",
+    "fha_source": "FHA_Unified_Database.json (3198 cases)",
+    "notes": "REAC scores on 0-100 scale. Below 60 = failing under both UPCS and NSPIRE protocols."
+  },
+  "inspection_overview": {
+    "public_housing": {
+      "total_inspections": 6190,
+      "unique_developments": 6190,
+      "unique_phas": 2694,
+      "states_covered": 54,
+      "date_range": "2013-06-24 to 2025-07-22",
+      "mean_score": 83.1,
+      "median_score": 88,
+      "pct_below_60": 10.5,
+      "n_below_60": 652,
+      "protocol_breakdown": {
+        "UPCS": 3139,
+        "NSPIRE": 3051
+      }
+    },
+    "multifamily": {
+      "total_inspections": 28459,
+      "unique_properties": 28459,
+      "states_covered": 55,
+      "date_range": "2013-02-06 to 2025-08-20",
+      "mean_score": 89.4,
+      "median_score": 92,
+      "pct_below_60": 2.8,
+      "n_below_60": 790,
+      "protocol_breakdown": {
+        "UPCS": 12414,
+        "NSPIRE": 16045
+      }
+    },
+    "combined": {
+      "total_properties_inspected": 34649,
+      "combined_mean_score": 88.3,
+      "combined_median_score": 92,
+      "total_below_60": 1442,
+      "pct_below_60": 4.2
+    }
+  },
+  "score_distribution": {
+    "public_housing": {
+      "0-9": 20,
+      "10-19": 17,
+      "20-29": 31,
+      "30-39": 79,
+      "40-49": 119,
+      "50-59": 386,
+      "60-69": 236,
+      "70-79": 807,
+      "80-89": 1729,
+      "90-100": 2766
+    },
+    "multifamily": {
+      "0-9": 48,
+      "10-19": 29,
+      "20-29": 39,
+      "30-39": 87,
+      "40-49": 132,
+      "50-59": 455,
+      "60-69": 652,
+      "70-79": 1860,
+      "80-89": 6650,
+      "90-100": 18507
+    }
+  },
+  "nspire_transition_insight": {
+    "description": "NSPIRE protocol (replacing UPCS starting 2023) catches significantly more failures",
+    "public_housing_UPCS_failure_rate": 4.4,
+    "public_housing_NSPIRE_failure_rate": 16.8,
+    "multifamily_UPCS_failure_rate": 0.9,
+    "multifamily_NSPIRE_failure_rate": 4.2,
+    "implication": "NSPIRE transition creates natural opening for adding accessibility compliance modules"
+  },
+  "cross_reference_with_fha_litigation": {
+    "total_fha_cases_in_database": 3198,
+    "cases_in_subsidized_housing": 736,
+    "public_housing_cases": 164,
+    "section_8_cases": 246,
+    "directly_reac_inspected_types_litigation": 410,
+    "ra_cases_in_subsidized": 386,
+    "subsidized_housing_outcomes": {
+      "defendant_win_pct": 63.2,
+      "plaintiff_win_pct": 10.6
+    },
+    "correlations": {
+      "spearman_mean_score_vs_litigation_rate": {
+        "rho": -0.285,
+        "p_value": 0.0384,
+        "interpretation": "Weak negative correlation: states with lower inspection scores tend to have slightly higher litigation rates (marginally significant)"
+      },
+      "pearson_mean_score_vs_litigation_rate": {
+        "r": -0.232,
+        "p_value": 0.0947
+      },
+      "spearman_pct_failing_vs_litigation_rate": {
+        "rho": 0.208,
+        "p_value": 0.1352
+      }
+    }
+  },
+  "enforcement_desert_analysis": {
+    "description": "States with above-median inspection failure rates but below-median disability litigation rates per 1000 inspected properties",
+    "median_failure_rate_pct": 3.4,
+    "median_litigation_rate_per_1000": 55.3,
+    "desert_states": [
+      {
+        "state": "PR",
+        "pct_failing": 15.9,
+        "litigation_rate_per_1000": 18.1,
+        "mean_score": 82.6,
+        "n_failing_properties": 79
+      },
+      {
+        "state": "ND",
+        "pct_failing": 8.7,
+        "litigation_rate_per_1000": 7.2,
+        "mean_score": 85.7,
+        "n_failing_properties": 12
+      },
+      {
+        "state": "GA",
+        "pct_failing": 7.4,
+        "litigation_rate_per_1000": 38.5,
+        "mean_score": 85.5,
+        "n_failing_properties": 71
+      },
+      {
+        "state": "MS",
+        "pct_failing": 6.4,
+        "litigation_rate_per_1000": 46.3,
+        "mean_score": 84.3,
+        "n_failing_properties": 29
+      },
+      {
+        "state": "AK",
+        "pct_failing": 6.1,
+        "litigation_rate_per_1000": 0.0,
+        "mean_score": 86.8,
+        "n_failing_properties": 5
+      },
+      {
+        "state": "VA",
+        "pct_failing": 5.5,
+        "litigation_rate_per_1000": 51.1,
+        "mean_score": 87.5,
+        "n_failing_properties": 42
+      },
+      {
+        "state": "NC",
+        "pct_failing": 4.9,
+        "litigation_rate_per_1000": 23.6,
+        "mean_score": 88.6,
+        "n_failing_properties": 65
+      },
+      {
+        "state": "AL",
+        "pct_failing": 4.9,
+        "litigation_rate_per_1000": 53.3,
+        "mean_score": 89.1,
+        "n_failing_properties": 35
+      },
+      {
+        "state": "KS",
+        "pct_failing": 4.1,
+        "litigation_rate_per_1000": 55.0,
+        "mean_score": 88.4,
+        "n_failing_properties": 17
+      },
+      {
+        "state": "SC",
+        "pct_failing": 4.0,
+        "litigation_rate_per_1000": 36.5,
+        "mean_score": 88.3,
+        "n_failing_properties": 23
+      },
+      {
+        "state": "TN",
+        "pct_failing": 3.9,
+        "litigation_rate_per_1000": 48.8,
+        "mean_score": 88.9,
+        "n_failing_properties": 32
+      },
+      {
+        "state": "OH",
+        "pct_failing": 3.6,
+        "litigation_rate_per_1000": 49.9,
+        "mean_score": 88.3,
+        "n_failing_properties": 62
+      }
+    ]
+  },
+  "state_level_data": {
+    "AK": {
+      "n_inspections": 82,
+      "mean_score": 86.8,
+      "pct_failing": 6.1,
+      "n_failing": 5,
+      "total_fha_cases": 0,
+      "ra_cases": 0,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 0.0
+    },
+    "AL": {
+      "n_inspections": 713,
+      "mean_score": 89.1,
+      "pct_failing": 4.9,
+      "n_failing": 35,
+      "total_fha_cases": 38,
+      "ra_cases": 21,
+      "subsidized_housing_cases": 13,
+      "litigation_rate_per_1000_properties": 53.3
+    },
+    "AR": {
+      "n_inspections": 485,
+      "mean_score": 91.2,
+      "pct_failing": 2.5,
+      "n_failing": 12,
+      "total_fha_cases": 10,
+      "ra_cases": 5,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 20.6
+    },
+    "AZ": {
+      "n_inspections": 295,
+      "mean_score": 90.3,
+      "pct_failing": 3.1,
+      "n_failing": 9,
+      "total_fha_cases": 66,
+      "ra_cases": 34,
+      "subsidized_housing_cases": 14,
+      "litigation_rate_per_1000_properties": 223.7
+    },
+    "CA": {
+      "n_inspections": 2308,
+      "mean_score": 90.4,
+      "pct_failing": 1.8,
+      "n_failing": 41,
+      "total_fha_cases": 230,
+      "ra_cases": 110,
+      "subsidized_housing_cases": 59,
+      "litigation_rate_per_1000_properties": 99.7
+    },
+    "CO": {
+      "n_inspections": 530,
+      "mean_score": 88.2,
+      "pct_failing": 2.1,
+      "n_failing": 11,
+      "total_fha_cases": 23,
+      "ra_cases": 12,
+      "subsidized_housing_cases": 10,
+      "litigation_rate_per_1000_properties": 43.4
+    },
+    "CT": {
+      "n_inspections": 531,
+      "mean_score": 89.4,
+      "pct_failing": 3.2,
+      "n_failing": 17,
+      "total_fha_cases": 33,
+      "ra_cases": 6,
+      "subsidized_housing_cases": 8,
+      "litigation_rate_per_1000_properties": 62.1
+    },
+    "DC": {
+      "n_inspections": 197,
+      "mean_score": 80.7,
+      "pct_failing": 14.2,
+      "n_failing": 28,
+      "total_fha_cases": 42,
+      "ra_cases": 19,
+      "subsidized_housing_cases": 26,
+      "litigation_rate_per_1000_properties": 213.2
+    },
+    "DE": {
+      "n_inspections": 129,
+      "mean_score": 85.0,
+      "pct_failing": 7.8,
+      "n_failing": 10,
+      "total_fha_cases": 10,
+      "ra_cases": 3,
+      "subsidized_housing_cases": 5,
+      "litigation_rate_per_1000_properties": 77.5
+    },
+    "FL": {
+      "n_inspections": 1084,
+      "mean_score": 86.9,
+      "pct_failing": 4.8,
+      "n_failing": 52,
+      "total_fha_cases": 129,
+      "ra_cases": 54,
+      "subsidized_housing_cases": 13,
+      "litigation_rate_per_1000_properties": 119.0
+    },
+    "GA": {
+      "n_inspections": 960,
+      "mean_score": 85.5,
+      "pct_failing": 7.4,
+      "n_failing": 71,
+      "total_fha_cases": 37,
+      "ra_cases": 14,
+      "subsidized_housing_cases": 12,
+      "litigation_rate_per_1000_properties": 38.5
+    },
+    "GU": {
+      "n_inspections": 5,
+      "mean_score": 69.8,
+      "pct_failing": 40.0,
+      "n_failing": 2,
+      "total_fha_cases": 0,
+      "ra_cases": 0,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 0.0
+    },
+    "HI": {
+      "n_inspections": 126,
+      "mean_score": 88.4,
+      "pct_failing": 2.4,
+      "n_failing": 3,
+      "total_fha_cases": 20,
+      "ra_cases": 9,
+      "subsidized_housing_cases": 7,
+      "litigation_rate_per_1000_properties": 158.7
+    },
+    "IA": {
+      "n_inspections": 393,
+      "mean_score": 89.1,
+      "pct_failing": 1.3,
+      "n_failing": 5,
+      "total_fha_cases": 1,
+      "ra_cases": 1,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 2.5
+    },
+    "ID": {
+      "n_inspections": 170,
+      "mean_score": 89.9,
+      "pct_failing": 2.4,
+      "n_failing": 4,
+      "total_fha_cases": 17,
+      "ra_cases": 7,
+      "subsidized_housing_cases": 5,
+      "litigation_rate_per_1000_properties": 100.0
+    },
+    "IL": {
+      "n_inspections": 1452,
+      "mean_score": 88.7,
+      "pct_failing": 3.4,
+      "n_failing": 50,
+      "total_fha_cases": 96,
+      "ra_cases": 39,
+      "subsidized_housing_cases": 34,
+      "litigation_rate_per_1000_properties": 66.1
+    },
+    "IN": {
+      "n_inspections": 808,
+      "mean_score": 88.0,
+      "pct_failing": 5.1,
+      "n_failing": 41,
+      "total_fha_cases": 78,
+      "ra_cases": 36,
+      "subsidized_housing_cases": 26,
+      "litigation_rate_per_1000_properties": 96.5
+    },
+    "KS": {
+      "n_inspections": 418,
+      "mean_score": 88.4,
+      "pct_failing": 4.1,
+      "n_failing": 17,
+      "total_fha_cases": 23,
+      "ra_cases": 14,
+      "subsidized_housing_cases": 7,
+      "litigation_rate_per_1000_properties": 55.0
+    },
+    "KY": {
+      "n_inspections": 719,
+      "mean_score": 90.6,
+      "pct_failing": 2.4,
+      "n_failing": 17,
+      "total_fha_cases": 15,
+      "ra_cases": 6,
+      "subsidized_housing_cases": 7,
+      "litigation_rate_per_1000_properties": 20.9
+    },
+    "LA": {
+      "n_inspections": 587,
+      "mean_score": 86.7,
+      "pct_failing": 7.2,
+      "n_failing": 42,
+      "total_fha_cases": 66,
+      "ra_cases": 23,
+      "subsidized_housing_cases": 12,
+      "litigation_rate_per_1000_properties": 112.4
+    },
+    "MA": {
+      "n_inspections": 1260,
+      "mean_score": 90.7,
+      "pct_failing": 1.3,
+      "n_failing": 17,
+      "total_fha_cases": 36,
+      "ra_cases": 16,
+      "subsidized_housing_cases": 13,
+      "litigation_rate_per_1000_properties": 28.6
+    },
+    "MD": {
+      "n_inspections": 800,
+      "mean_score": 86.2,
+      "pct_failing": 6.4,
+      "n_failing": 51,
+      "total_fha_cases": 100,
+      "ra_cases": 40,
+      "subsidized_housing_cases": 33,
+      "litigation_rate_per_1000_properties": 125.0
+    },
+    "ME": {
+      "n_inspections": 329,
+      "mean_score": 89.4,
+      "pct_failing": 2.4,
+      "n_failing": 8,
+      "total_fha_cases": 0,
+      "ra_cases": 0,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 0.0
+    },
+    "MI": {
+      "n_inspections": 1135,
+      "mean_score": 89.3,
+      "pct_failing": 3.3,
+      "n_failing": 38,
+      "total_fha_cases": 53,
+      "ra_cases": 24,
+      "subsidized_housing_cases": 10,
+      "litigation_rate_per_1000_properties": 46.7
+    },
+    "MN": {
+      "n_inspections": 1166,
+      "mean_score": 89.9,
+      "pct_failing": 2.7,
+      "n_failing": 31,
+      "total_fha_cases": 22,
+      "ra_cases": 8,
+      "subsidized_housing_cases": 5,
+      "litigation_rate_per_1000_properties": 18.9
+    },
+    "MO": {
+      "n_inspections": 753,
+      "mean_score": 89.1,
+      "pct_failing": 2.8,
+      "n_failing": 21,
+      "total_fha_cases": 43,
+      "ra_cases": 12,
+      "subsidized_housing_cases": 9,
+      "litigation_rate_per_1000_properties": 57.1
+    },
+    "MP": {
+      "n_inspections": 4,
+      "mean_score": 91.0,
+      "pct_failing": 0.0,
+      "n_failing": 0,
+      "total_fha_cases": 0,
+      "ra_cases": 0,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 0.0
+    },
+    "MS": {
+      "n_inspections": 454,
+      "mean_score": 84.3,
+      "pct_failing": 6.4,
+      "n_failing": 29,
+      "total_fha_cases": 21,
+      "ra_cases": 2,
+      "subsidized_housing_cases": 2,
+      "litigation_rate_per_1000_properties": 46.3
+    },
+    "MT": {
+      "n_inspections": 133,
+      "mean_score": 88.4,
+      "pct_failing": 2.3,
+      "n_failing": 3,
+      "total_fha_cases": 4,
+      "ra_cases": 1,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 30.1
+    },
+    "NC": {
+      "n_inspections": 1316,
+      "mean_score": 88.6,
+      "pct_failing": 4.9,
+      "n_failing": 65,
+      "total_fha_cases": 31,
+      "ra_cases": 11,
+      "subsidized_housing_cases": 6,
+      "litigation_rate_per_1000_properties": 23.6
+    },
+    "ND": {
+      "n_inspections": 138,
+      "mean_score": 85.7,
+      "pct_failing": 8.7,
+      "n_failing": 12,
+      "total_fha_cases": 1,
+      "ra_cases": 0,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 7.2
+    },
+    "NE": {
+      "n_inspections": 385,
+      "mean_score": 89.0,
+      "pct_failing": 1.8,
+      "n_failing": 7,
+      "total_fha_cases": 24,
+      "ra_cases": 12,
+      "subsidized_housing_cases": 8,
+      "litigation_rate_per_1000_properties": 62.3
+    },
+    "NH": {
+      "n_inspections": 253,
+      "mean_score": 93.0,
+      "pct_failing": 0.0,
+      "n_failing": 0,
+      "total_fha_cases": 17,
+      "ra_cases": 8,
+      "subsidized_housing_cases": 8,
+      "litigation_rate_per_1000_properties": 67.2
+    },
+    "NJ": {
+      "n_inspections": 902,
+      "mean_score": 86.0,
+      "pct_failing": 7.6,
+      "n_failing": 69,
+      "total_fha_cases": 76,
+      "ra_cases": 29,
+      "subsidized_housing_cases": 19,
+      "litigation_rate_per_1000_properties": 84.3
+    },
+    "NM": {
+      "n_inspections": 217,
+      "mean_score": 81.4,
+      "pct_failing": 8.8,
+      "n_failing": 19,
+      "total_fha_cases": 19,
+      "ra_cases": 5,
+      "subsidized_housing_cases": 10,
+      "litigation_rate_per_1000_properties": 87.6
+    },
+    "NV": {
+      "n_inspections": 123,
+      "mean_score": 90.9,
+      "pct_failing": 0.8,
+      "n_failing": 1,
+      "total_fha_cases": 33,
+      "ra_cases": 14,
+      "subsidized_housing_cases": 4,
+      "litigation_rate_per_1000_properties": 268.3
+    },
+    "NY": {
+      "n_inspections": 1795,
+      "mean_score": 87.0,
+      "pct_failing": 6.3,
+      "n_failing": 113,
+      "total_fha_cases": 367,
+      "ra_cases": 130,
+      "subsidized_housing_cases": 155,
+      "litigation_rate_per_1000_properties": 204.5
+    },
+    "OH": {
+      "n_inspections": 1722,
+      "mean_score": 88.3,
+      "pct_failing": 3.6,
+      "n_failing": 62,
+      "total_fha_cases": 86,
+      "ra_cases": 33,
+      "subsidized_housing_cases": 33,
+      "litigation_rate_per_1000_properties": 49.9
+    },
+    "OK": {
+      "n_inspections": 425,
+      "mean_score": 85.2,
+      "pct_failing": 6.8,
+      "n_failing": 29,
+      "total_fha_cases": 53,
+      "ra_cases": 22,
+      "subsidized_housing_cases": 12,
+      "litigation_rate_per_1000_properties": 124.7
+    },
+    "OR": {
+      "n_inspections": 475,
+      "mean_score": 86.3,
+      "pct_failing": 4.0,
+      "n_failing": 19,
+      "total_fha_cases": 62,
+      "ra_cases": 32,
+      "subsidized_housing_cases": 21,
+      "litigation_rate_per_1000_properties": 130.5
+    },
+    "PA": {
+      "n_inspections": 1464,
+      "mean_score": 88.2,
+      "pct_failing": 4.3,
+      "n_failing": 63,
+      "total_fha_cases": 115,
+      "ra_cases": 44,
+      "subsidized_housing_cases": 42,
+      "litigation_rate_per_1000_properties": 78.6
+    },
+    "PR": {
+      "n_inspections": 496,
+      "mean_score": 82.6,
+      "pct_failing": 15.9,
+      "n_failing": 79,
+      "total_fha_cases": 9,
+      "ra_cases": 6,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 18.1
+    },
+    "RI": {
+      "n_inspections": 326,
+      "mean_score": 90.9,
+      "pct_failing": 1.5,
+      "n_failing": 5,
+      "total_fha_cases": 8,
+      "ra_cases": 2,
+      "subsidized_housing_cases": 4,
+      "litigation_rate_per_1000_properties": 24.5
+    },
+    "SC": {
+      "n_inspections": 575,
+      "mean_score": 88.3,
+      "pct_failing": 4.0,
+      "n_failing": 23,
+      "total_fha_cases": 21,
+      "ra_cases": 6,
+      "subsidized_housing_cases": 5,
+      "litigation_rate_per_1000_properties": 36.5
+    },
+    "SD": {
+      "n_inspections": 217,
+      "mean_score": 89.4,
+      "pct_failing": 2.3,
+      "n_failing": 5,
+      "total_fha_cases": 12,
+      "ra_cases": 8,
+      "subsidized_housing_cases": 4,
+      "litigation_rate_per_1000_properties": 55.3
+    },
+    "TN": {
+      "n_inspections": 820,
+      "mean_score": 88.9,
+      "pct_failing": 3.9,
+      "n_failing": 32,
+      "total_fha_cases": 40,
+      "ra_cases": 16,
+      "subsidized_housing_cases": 8,
+      "litigation_rate_per_1000_properties": 48.8
+    },
+    "TX": {
+      "n_inspections": 1888,
+      "mean_score": 88.2,
+      "pct_failing": 3.5,
+      "n_failing": 66,
+      "total_fha_cases": 123,
+      "ra_cases": 40,
+      "subsidized_housing_cases": 30,
+      "litigation_rate_per_1000_properties": 65.1
+    },
+    "UT": {
+      "n_inspections": 196,
+      "mean_score": 88.8,
+      "pct_failing": 1.5,
+      "n_failing": 3,
+      "total_fha_cases": 27,
+      "ra_cases": 17,
+      "subsidized_housing_cases": 5,
+      "litigation_rate_per_1000_properties": 137.8
+    },
+    "VA": {
+      "n_inspections": 763,
+      "mean_score": 87.5,
+      "pct_failing": 5.5,
+      "n_failing": 42,
+      "total_fha_cases": 39,
+      "ra_cases": 15,
+      "subsidized_housing_cases": 6,
+      "litigation_rate_per_1000_properties": 51.1
+    },
+    "VI": {
+      "n_inspections": 30,
+      "mean_score": 73.4,
+      "pct_failing": 30.0,
+      "n_failing": 9,
+      "total_fha_cases": 4,
+      "ra_cases": 4,
+      "subsidized_housing_cases": 1,
+      "litigation_rate_per_1000_properties": 133.3
+    },
+    "VT": {
+      "n_inspections": 167,
+      "mean_score": 90.5,
+      "pct_failing": 1.8,
+      "n_failing": 3,
+      "total_fha_cases": 3,
+      "ra_cases": 0,
+      "subsidized_housing_cases": 1,
+      "litigation_rate_per_1000_properties": 18.0
+    },
+    "WA": {
+      "n_inspections": 666,
+      "mean_score": 88.6,
+      "pct_failing": 2.6,
+      "n_failing": 17,
+      "total_fha_cases": 53,
+      "ra_cases": 20,
+      "subsidized_housing_cases": 9,
+      "litigation_rate_per_1000_properties": 79.6
+    },
+    "WI": {
+      "n_inspections": 905,
+      "mean_score": 89.2,
+      "pct_failing": 2.3,
+      "n_failing": 21,
+      "total_fha_cases": 40,
+      "ra_cases": 11,
+      "subsidized_housing_cases": 10,
+      "litigation_rate_per_1000_properties": 44.2
+    },
+    "WV": {
+      "n_inspections": 277,
+      "mean_score": 88.4,
+      "pct_failing": 2.5,
+      "n_failing": 7,
+      "total_fha_cases": 9,
+      "ra_cases": 1,
+      "subsidized_housing_cases": 2,
+      "litigation_rate_per_1000_properties": 32.5
+    },
+    "WY": {
+      "n_inspections": 82,
+      "mean_score": 91.0,
+      "pct_failing": 1.2,
+      "n_failing": 1,
+      "total_fha_cases": 0,
+      "ra_cases": 0,
+      "subsidized_housing_cases": 0,
+      "litigation_rate_per_1000_properties": 0.0
+    }
+  },
+  "key_findings_for_note": {
+    "finding_1_infrastructure_exists": "HUD already inspects 34,649 subsidized properties through the REAC program: 6,190 public housing developments and 28,459 multifamily properties across 55 jurisdictions. This inspection infrastructure is the foundation for the Tier 1 accessibility compliance model.",
+    "finding_2_failure_rate": "4.2% of all inspected properties (1,442) score below the 60-point failing threshold. Public housing has a higher failure rate (10.5%, 652 properties) than multifamily (2.8%, 790 properties). The 2024-2025 data shows rising failure rates under the new NSPIRE protocol.",
+    "finding_3_nspire_opportunity": "The NSPIRE protocol transition creates a natural regulatory opening. Public housing NSPIRE failure rate is 16.8% vs 4.4% under old UPCS. Multifamily NSPIRE failure rate is 4.2% vs 0.9% under UPCS. Adding accessibility modules during this already-ongoing protocol revision minimizes additional regulatory burden.",
+    "finding_4_enforcement_deserts": "12 states qualify as enforcement deserts: high inspection failure rates but low disability litigation. Puerto Rico leads (15.9% failing, only 18.1 cases per 1000 properties). Georgia, North Carolina, and Louisiana show similar patterns. These deserts demonstrate that neither inspection nor litigation currently addresses accessibility, supporting the note's argument that REAC must be extended to fill this gap.",
+    "finding_5_litigation_gap": "736 FHA disability cases involve subsidized housing, but only 410 involve property types directly subject to REAC inspections (164 public housing, 246 Section 8). Defendants win 63.2% of subsidized housing cases. This suggests structural barriers to private enforcement that proactive inspection could address.",
+    "finding_6_scale_argument": "The REAC infrastructure already covers 34,649 properties in 55 jurisdictions with standardized, scored inspections. Adding accessibility compliance items to existing NSPIRE inspection protocols would extend disability-focused oversight to all inspected properties at marginal cost, compared to the current system where fewer than 410 properties face disability litigation despite covering a portfolio of tens of thousands."
+  }
+}

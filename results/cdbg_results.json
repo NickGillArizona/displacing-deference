@@ -1,0 +1,497 @@
+{
+  "source": "HUD CDBG National Accomplishments Report (CDBG_Accomp_Natl.xlsx)",
+  "source_url": "https://files.hudexchange.info/resources/documents/CDBG_Accomp_Natl.xlsx",
+  "data_type": "Persons/households served (accomplishments), NOT dollar expenditures",
+  "fiscal_years_covered": "FY2005-FY2024 (20 years)",
+  "notes": [
+    "Data measures persons benefitting from CDBG activities, not dollar spending",
+    "CDBG grantees must certify they will affirmatively further fair housing (AFFH) under 42 USC 5304(b)(2)",
+    "Matrix codes 05B and 03B are the only disability-specific CDBG categories",
+    "No separate category exists for ADA compliance, housing accessibility, or disability-related housing modifications",
+    "Housing rehabilitation (14A-14J) may include some accessibility modifications but these are not tracked separately"
+  ],
+  "cdbg_formula_grant_appropriations_billions": {
+    "2005": 4.117,
+    "2006": 3.711,
+    "2007": 3.711,
+    "2008": 3.593,
+    "2009": 3.642,
+    "2010": 3.948,
+    "2011": 3.303,
+    "2012": 2.948,
+    "2013": 3.078,
+    "2014": 3.03,
+    "2015": 3.066,
+    "2016": 3.0,
+    "2017": 3.0,
+    "2018": 3.365,
+    "2019": 3.365,
+    "2020": 3.425,
+    "2021": 3.45,
+    "2022": 3.3,
+    "2023": 3.3,
+    "2024": 3.3
+  },
+  "activity_categories": {
+    "housing": {
+      "05R": {
+        "name": "Homebuyer Downpayment Assistance-Excluding Housing Counseling, under 24 CFR 5.100"
+      },
+      "12": {
+        "name": "Construction of Housing"
+      },
+      "13": {
+        "name": "Direct Homeownership Assistance"
+      },
+      "13B": {
+        "name": "Housing Assistance - excluding  Housing Counseling under 24 CFR 5.100"
+      },
+      "14A": {
+        "name": "Rehabilitation: Single-Unit Residential"
+      },
+      "14B": {
+        "name": "Rehabilitation: Multi-Unit Residential"
+      },
+      "14C": {
+        "name": "Public Housing Modernization"
+      },
+      "14D": {
+        "name": "Rehabilitation: Other Publicly-owned Residential Buildings"
+      },
+      "14F": {
+        "name": "Energy Efficiency Improvements"
+      },
+      "14G": {
+        "name": "Acquisition for Rehabilitation"
+      },
+      "14H": {
+        "name": "Rehabilitation Administration"
+      },
+      "14I": {
+        "name": "Lead-based Paint/lead Hazard Test/Abatement"
+      },
+      "14J": {
+        "name": "Housing Services, excluding Housing Counseling under 24 CFR 5.100"
+      },
+      "16A": {
+        "name": "Residential Historic Preservation"
+      }
+    },
+    "public_services": {
+      "03T": {
+        "name": "Operating Costs of Homeless/Aids Patients Programs"
+      },
+      "05A": {
+        "name": "Senior Services"
+      },
+      "05B": {
+        "name": "Services for Persons with Disabilities"
+      },
+      "05C": {
+        "name": "Legal Services"
+      },
+      "05D": {
+        "name": "Youth Services"
+      },
+      "05E": {
+        "name": "Transportation Services"
+      },
+      "05F": {
+        "name": "Substance Abuse Services"
+      },
+      "05G": {
+        "name": "Services for victims of domestic violence, dating violence, sexual assault or stalking"
+      },
+      "05H": {
+        "name": "Employment Training"
+      },
+      "05I": {
+        "name": "Crime Awareness/Prevention"
+      },
+      "05J": {
+        "name": "Fair Housing Activities"
+      },
+      "05K": {
+        "name": "Tenant/Landlord Counseling"
+      },
+      "05L": {
+        "name": "Child Care Services"
+      },
+      "05M": {
+        "name": "Health Services"
+      },
+      "05N": {
+        "name": "Abused and Neglected Children"
+      },
+      "05O": {
+        "name": "Mental Heath Services"
+      },
+      "05P": {
+        "name": "Screening for Lead-Based Paint/Lead Hazards Poisoning"
+      },
+      "05Q": {
+        "name": "Subsistence Payments"
+      },
+      "05U": {
+        "name": "Housing Counseling only, under 24 CFR 5.100"
+      },
+      "05V": {
+        "name": "Neighborhood Cleanups"
+      },
+      "05W": {
+        "name": "Food Banks"
+      },
+      "05X": {
+        "name": "Housing Information and Referral Services"
+      },
+      "05Z": {
+        "name": "Other Public Services Not Listed in 05A-05Y, 03T"
+      }
+    },
+    "public_improvements": {
+      "03A": {
+        "name": "Senior Centers"
+      },
+      "03B": {
+        "name": "Facility for Persons with Disabilities"
+      },
+      "03C": {
+        "name": "Homeless Facilities (not operating costs)"
+      },
+      "03D": {
+        "name": "Youth Centers/Facilities"
+      },
+      "03E": {
+        "name": "Neighborhood Facilities"
+      },
+      "03F": {
+        "name": "Parks, Recreational Facilities"
+      },
+      "03G": {
+        "name": "Parking Facilities"
+      },
+      "03H": {
+        "name": "Solid Waste Disposal Facilities"
+      },
+      "03I": {
+        "name": "Flood and Drainage Facilities"
+      },
+      "03J": {
+        "name": "Water/Sewer Improvements"
+      },
+      "03K": {
+        "name": "Street Improvements"
+      },
+      "03L": {
+        "name": "Sidewalks"
+      },
+      "03M": {
+        "name": "Child Care Centers/Facilities for Children"
+      },
+      "03N": {
+        "name": "Tree Planting"
+      },
+      "03O": {
+        "name": "Fire Stations/Equipment"
+      },
+      "03P": {
+        "name": "Health Facilities"
+      },
+      "03Q": {
+        "name": "Abused and Neglected Children Facilities"
+      },
+      "03R": {
+        "name": "Asbestos Removal"
+      },
+      "03S": {
+        "name": "Facilities for Aids Patients (not operating costs)"
+      },
+      "03Z": {
+        "name": "Other Public Improvements Not Listed in 03A-03S"
+      }
+    }
+  },
+  "disability_analysis_by_year": {
+    "2005": {
+      "05B_disability_services_persons": 154149,
+      "03B_disability_facilities_persons": 107768,
+      "combined_disability_persons": 261917,
+      "05J_fair_housing_persons": 86413,
+      "public_services_total_benefitting": 15337677,
+      "public_improvements_total_benefitting": 4677101,
+      "housing_total_households": 170644,
+      "disability_pct_of_public_services": 1.005,
+      "disability_pct_of_public_improvements": 2.304,
+      "cdbg_formula_grant_billions": 4.117
+    },
+    "2006": {
+      "05B_disability_services_persons": 178952,
+      "03B_disability_facilities_persons": 6941,
+      "combined_disability_persons": 185893,
+      "05J_fair_housing_persons": 74260,
+      "public_services_total_benefitting": 11538162,
+      "public_improvements_total_benefitting": 1856073,
+      "housing_total_households": 179385,
+      "disability_pct_of_public_services": 1.551,
+      "disability_pct_of_public_improvements": 0.374,
+      "cdbg_formula_grant_billions": 3.711
+    },
+    "2007": {
+      "05B_disability_services_persons": 73002,
+      "03B_disability_facilities_persons": 124795,
+      "combined_disability_persons": 197797,
+      "05J_fair_housing_persons": 118437,
+      "public_services_total_benefitting": 12521895,
+      "public_improvements_total_benefitting": 4377035,
+      "housing_total_households": 152164,
+      "disability_pct_of_public_services": 0.583,
+      "disability_pct_of_public_improvements": 2.851,
+      "cdbg_formula_grant_billions": 3.711
+    },
+    "2008": {
+      "05B_disability_services_persons": 116459,
+      "03B_disability_facilities_persons": 22852,
+      "combined_disability_persons": 139311,
+      "05J_fair_housing_persons": 99420,
+      "public_services_total_benefitting": 13488631,
+      "public_improvements_total_benefitting": 2714757,
+      "housing_total_households": 149254,
+      "disability_pct_of_public_services": 0.863,
+      "disability_pct_of_public_improvements": 0.842,
+      "cdbg_formula_grant_billions": 3.593
+    },
+    "2009": {
+      "05B_disability_services_persons": 145854,
+      "03B_disability_facilities_persons": 81661,
+      "combined_disability_persons": 227515,
+      "05J_fair_housing_persons": 97757,
+      "public_services_total_benefitting": 10609355,
+      "public_improvements_total_benefitting": 5197998,
+      "housing_total_households": 105380,
+      "disability_pct_of_public_services": 1.375,
+      "disability_pct_of_public_improvements": 1.571,
+      "cdbg_formula_grant_billions": 3.642
+    },
+    "2010": {
+      "05B_disability_services_persons": 115498,
+      "03B_disability_facilities_persons": 43962,
+      "combined_disability_persons": 159460,
+      "05J_fair_housing_persons": 62515,
+      "public_services_total_benefitting": 10367566,
+      "public_improvements_total_benefitting": 4175083,
+      "housing_total_households": 109047,
+      "disability_pct_of_public_services": 1.114,
+      "disability_pct_of_public_improvements": 1.053,
+      "cdbg_formula_grant_billions": 3.948
+    },
+    "2011": {
+      "05B_disability_services_persons": 148827,
+      "03B_disability_facilities_persons": 36106,
+      "combined_disability_persons": 184933,
+      "05J_fair_housing_persons": 109674,
+      "public_services_total_benefitting": 10099345,
+      "public_improvements_total_benefitting": 4071331,
+      "housing_total_households": 96615,
+      "disability_pct_of_public_services": 1.474,
+      "disability_pct_of_public_improvements": 0.887,
+      "cdbg_formula_grant_billions": 3.303
+    },
+    "2012": {
+      "05B_disability_services_persons": 141560,
+      "03B_disability_facilities_persons": 28548,
+      "combined_disability_persons": 170108,
+      "05J_fair_housing_persons": 40504,
+      "public_services_total_benefitting": 11218098,
+      "public_improvements_total_benefitting": 3378507,
+      "housing_total_households": 89012,
+      "disability_pct_of_public_services": 1.262,
+      "disability_pct_of_public_improvements": 0.845,
+      "cdbg_formula_grant_billions": 2.948
+    },
+    "2013": {
+      "05B_disability_services_persons": 81900,
+      "03B_disability_facilities_persons": 50209,
+      "combined_disability_persons": 132109,
+      "05J_fair_housing_persons": 93072,
+      "public_services_total_benefitting": 9846478,
+      "public_improvements_total_benefitting": 3284503,
+      "housing_total_households": 94333,
+      "disability_pct_of_public_services": 0.832,
+      "disability_pct_of_public_improvements": 1.529,
+      "cdbg_formula_grant_billions": 3.078
+    },
+    "2014": {
+      "05B_disability_services_persons": 141181,
+      "03B_disability_facilities_persons": 14466,
+      "combined_disability_persons": 155647,
+      "05J_fair_housing_persons": 170103,
+      "public_services_total_benefitting": 9292217,
+      "public_improvements_total_benefitting": 3209673,
+      "housing_total_households": 82621,
+      "disability_pct_of_public_services": 1.519,
+      "disability_pct_of_public_improvements": 0.451,
+      "cdbg_formula_grant_billions": 3.03
+    },
+    "2015": {
+      "05B_disability_services_persons": 86779,
+      "03B_disability_facilities_persons": 16827,
+      "combined_disability_persons": 103606,
+      "05J_fair_housing_persons": 47961,
+      "public_services_total_benefitting": 7961258,
+      "public_improvements_total_benefitting": 3237506,
+      "housing_total_households": 67341,
+      "disability_pct_of_public_services": 1.09,
+      "disability_pct_of_public_improvements": 0.52,
+      "cdbg_formula_grant_billions": 3.066
+    },
+    "2016": {
+      "05B_disability_services_persons": 339590,
+      "03B_disability_facilities_persons": 20257,
+      "combined_disability_persons": 359847,
+      "05J_fair_housing_persons": 46788,
+      "public_services_total_benefitting": 9174462,
+      "public_improvements_total_benefitting": 2407803,
+      "housing_total_households": 73757,
+      "disability_pct_of_public_services": 3.701,
+      "disability_pct_of_public_improvements": 0.841,
+      "cdbg_formula_grant_billions": 3.0
+    },
+    "2017": {
+      "05B_disability_services_persons": 145857,
+      "03B_disability_facilities_persons": 15545,
+      "combined_disability_persons": 161402,
+      "05J_fair_housing_persons": 78961,
+      "public_services_total_benefitting": 8227414,
+      "public_improvements_total_benefitting": 3037069,
+      "housing_total_households": 66330,
+      "disability_pct_of_public_services": 1.773,
+      "disability_pct_of_public_improvements": 0.512,
+      "cdbg_formula_grant_billions": 3.0
+    },
+    "2018": {
+      "05B_disability_services_persons": 429399,
+      "03B_disability_facilities_persons": 19328,
+      "combined_disability_persons": 448727,
+      "05J_fair_housing_persons": 63729,
+      "public_services_total_benefitting": 8132544,
+      "public_improvements_total_benefitting": 1798045,
+      "housing_total_households": 65229,
+      "disability_pct_of_public_services": 5.28,
+      "disability_pct_of_public_improvements": 1.075,
+      "cdbg_formula_grant_billions": 3.365
+    },
+    "2019": {
+      "05B_disability_services_persons": 427391,
+      "03B_disability_facilities_persons": 28921,
+      "combined_disability_persons": 456312,
+      "05J_fair_housing_persons": 64668,
+      "public_services_total_benefitting": 6832603,
+      "public_improvements_total_benefitting": 2380015,
+      "housing_total_households": 84088,
+      "disability_pct_of_public_services": 6.255,
+      "disability_pct_of_public_improvements": 1.215,
+      "cdbg_formula_grant_billions": 3.365
+    },
+    "2020": {
+      "05B_disability_services_persons": 488625,
+      "03B_disability_facilities_persons": 16817,
+      "combined_disability_persons": 505442,
+      "05J_fair_housing_persons": 95992,
+      "public_services_total_benefitting": 5708306,
+      "public_improvements_total_benefitting": 1764997,
+      "housing_total_households": 52994,
+      "disability_pct_of_public_services": 8.56,
+      "disability_pct_of_public_improvements": 0.953,
+      "cdbg_formula_grant_billions": 3.425
+    },
+    "2021": {
+      "05B_disability_services_persons": 650273,
+      "03B_disability_facilities_persons": 249,
+      "combined_disability_persons": 650522,
+      "05J_fair_housing_persons": 2659,
+      "public_services_total_benefitting": 1396294,
+      "public_improvements_total_benefitting": 108848,
+      "housing_total_households": 59424,
+      "disability_pct_of_public_services": 46.571,
+      "disability_pct_of_public_improvements": 0.229,
+      "cdbg_formula_grant_billions": 3.45
+    },
+    "2022": {
+      "05B_disability_services_persons": 53757,
+      "03B_disability_facilities_persons": 14966,
+      "combined_disability_persons": 68723,
+      "05J_fair_housing_persons": 90755,
+      "public_services_total_benefitting": 7178166,
+      "public_improvements_total_benefitting": 2067669,
+      "housing_total_households": 60119,
+      "disability_pct_of_public_services": 0.749,
+      "disability_pct_of_public_improvements": 0.724,
+      "cdbg_formula_grant_billions": 3.3
+    },
+    "2023": {
+      "05B_disability_services_persons": 597640,
+      "03B_disability_facilities_persons": 60620,
+      "combined_disability_persons": 658260,
+      "05J_fair_housing_persons": 151655,
+      "public_services_total_benefitting": 7504119,
+      "public_improvements_total_benefitting": 2575596,
+      "housing_total_households": 173236,
+      "disability_pct_of_public_services": 7.964,
+      "disability_pct_of_public_improvements": 2.354,
+      "cdbg_formula_grant_billions": 3.3
+    },
+    "2024": {
+      "05B_disability_services_persons": 93467,
+      "03B_disability_facilities_persons": 54353,
+      "combined_disability_persons": 147820,
+      "05J_fair_housing_persons": 49746,
+      "public_services_total_benefitting": 7276077,
+      "public_improvements_total_benefitting": 1815472,
+      "housing_total_households": 132739,
+      "disability_pct_of_public_services": 1.285,
+      "disability_pct_of_public_improvements": 2.994,
+      "cdbg_formula_grant_billions": 3.3
+    }
+  },
+  "summary_statistics": {
+    "twenty_year_totals": {
+      "disability_services_05B_total_persons": 4610160,
+      "disability_facilities_03B_total_persons": 765191,
+      "combined_disability_total_persons": 5375351,
+      "fair_housing_05J_total_persons": 1645069,
+      "public_services_total_benefitting": 183710667,
+      "public_improvements_total_benefitting": 58135081
+    },
+    "twenty_year_averages": {
+      "avg_annual_disability_services_05B": 230508,
+      "avg_annual_disability_facilities_03B": 38260,
+      "avg_annual_public_services_total": 9185533,
+      "avg_annual_public_improvements_total": 2906754
+    },
+    "share_calculations": {
+      "05B_share_of_public_services_20yr_pct": 2.509,
+      "03B_share_of_public_improvements_20yr_pct": 1.316
+    },
+    "trend_03B_facilities": {
+      "avg_FY2005_2009": 68803,
+      "avg_FY2019_2023": 24315,
+      "change_pct": -64.7
+    },
+    "trend_05B_services": {
+      "avg_FY2005_2009": 133683,
+      "avg_FY2019_2023": 443537,
+      "change_pct": 231.8
+    },
+    "total_cdbg_formula_grants_20yr_billions": 67.652
+  },
+  "argument_support": {
+    "finding_1": "HUD CDBG accomplishment data contains exactly TWO disability-specific activity categories out of approximately 50 total: 05B (Services for Persons with Disabilities) and 03B (Facility for Persons with Disabilities).",
+    "finding_2": "Over 20 years (FY2005-FY2024), disability services (05B) served 4,610,160 persons - only 2.51% of all 183,710,667 public service beneficiaries.",
+    "finding_3": "Disability facilities (03B) served 765,191 persons - only 1.32% of all 58,135,081 public improvement beneficiaries.",
+    "finding_4": "NO separate CDBG category exists for ADA compliance, housing accessibility modifications, or disability-related housing rehabilitation. Any accessibility work is buried in general rehabilitation codes (14A-14J) with no disability-specific tracking.",
+    "finding_5": "Fair Housing Activities (05J) served 1,645,069 persons over 20 years, but there is no subcategory for disability-specific fair housing work, despite disability being a protected class under the Fair Housing Act.",
+    "finding_6": "CDBG grantees received $67.7 billion in formula grants over this period while certifying they would affirmatively further fair housing, yet disability-specific accomplishments represent a negligible fraction of total activity.",
+    "finding_7": "The absence of disability-specific tracking categories for housing accessibility is itself evidence of performative AFFH certification - grantees cannot meaningfully report on disability accessibility because the reporting system does not require it.",
+    "finding_8": "Disability facility construction (03B) declined from an average of 68,803 persons/year (FY2005-2009) to 24,314 persons/year (FY2019-2023), a -64.7% change."
+  }
+}

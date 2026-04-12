@@ -1,0 +1,172 @@
+DISPLACING DEFERENCE -- EMPIRICAL ROBUSTNESS CHECKS
+Run date: 2026-04-11 16:56
+Database: C:\Users\nickg\OneDrive\Documents\Note\Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH\data\FHA_Unified_Database.json
+
+Loaded 1720 disability cases from FHA Unified Database
+
+BASELINE:
+  Dated disability cases: 1191 (P1:615, P2:159, P3:417)
+  P1: PS share=58.9%, PS win=7.3%, Rep win=34.3%, Agg win=18.0%
+  P2: PS share=56.6%, PS win=1.4%, Rep win=19.0%, Agg win=7.8%
+  P3: PS share=76.7%, PS win=4.4%, Rep win=34.3%, Agg win=10.7%
+
+========================================================================
+CHECK 1: RECLASSIFICATION SENSITIVITY
+Reclassifying all non-decided outcomes as DEFENDANT_WIN
+========================================================================
+
+  Non-decided outcomes by period:
+    P1: 159 non-decided out of 615 (25.9%)
+      PROCEDURAL: 153
+      SETTLEMENT: 6
+    P2: 43 non-decided out of 159 (27.0%)
+      PROCEDURAL: 40
+      SETTLEMENT: 3
+    P3: 100 non-decided out of 417 (24.0%)
+      PROCEDURAL: 98
+      SETTLEMENT: 2
+
+  Total reclassified: 302 cases
+
+Metric                                 P1 Base    P1 Recl    P2 Base    P2 Recl    P3 Base    P3 Recl
+-----------------------------------------------------------------------------------------------
+N decided                                  456        615        116        159        317        417
+Agg strict win rate %                     18.0       13.3        7.8        5.7       10.7        8.2
+Agg broad win rate %                      30.0       22.3       20.7       15.1       18.9       14.4
+Pro se share % (unchanged)                58.9       58.9       56.6       56.6       76.7       76.7
+Pro se strict win rate %                   7.3        5.5        1.4        1.1        4.4        3.4
+Represented strict win rate %             34.3       24.5       19.0       11.6       34.3       23.7
+Represented broad win rate %              53.6       38.3                             55.2       38.1
+
+  COMPOSITION EFFECT TEST (reclassified):
+    P1 represented strict: 24.5% -> P3 represented strict: 23.7%
+    P3 pro se share: 76.7%
+    Delta (P3 - P1 rep win rate): -0.8 pp
+    RESULT: Finding HOLDS - rep win rate essentially stable (<5pp change)
+
+========================================================================
+CHECK 2: PERIOD-BOUNDARY SENSITIVITY
+Shifting P2/P3 boundary +/- 2 months
+========================================================================
+
+Boundary                    P2 N   P3 N   P3 PS%   PS Win%   Rep Win%   Agg Win%
+----------------------------------------------------------------------------
+Dec 2024 (early)             123    453     76.2       4.1       32.4       10.2
+Feb 2025 (original)          159    417     76.7       4.4       34.3       10.7
+Apr 2025 (late)              224    352     79.0       4.2       32.0        9.5
+
+  P1/P2 boundary shifts:
+
+P1/P2 Boundary              P1 N   P2 N   P1 PS%  P1 Rep Win%
+------------------------------------------------------------
+Apr 2024 (early)             565    209     58.6         34.7
+Jun 2024 (original)          615    159     58.9         34.3
+Aug 2024 (late)              676     98     57.1         32.7
+
+========================================================================
+CHECK 3: CATEGORY EXCLUSION
+Excluding smallest defendant_type and plaintiff_type categories
+========================================================================
+
+  Defendant type distribution:
+    PRIVATE_LANDLORD: 315
+    PROPERTY_MANAGEMENT: 234
+    MUNICIPALITY: 165
+    HOUSING_AUTHORITY: 156
+    OTHER: 115
+    HOA_CONDO_ASSN: 106
+    GOVERNMENT: 45
+    DEVELOPER: 13
+    LANDLORD: 11
+    UNDETERMINED: 8
+    PROPERTY_MANAGER: 8
+    LENDER: 6
+    INDIVIDUAL_TENANT: 3
+    HOA_CONDO_COOP: 2
+    GROUP_HOME_OPERATOR: 2
+    OTHER: Non-profit transitional housing program operator and its employees: 1
+    REAL_ESTATE_AGENT: 1
+
+  Plaintiff type distribution:
+    INDIVIDUAL_TENANT: 984
+    GROUP_HOME_OPERATOR: 93
+    FAIR_HOUSING_ORG: 49
+    OTHER: 35
+    GOVERNMENT: 24
+    PRIVATE_LANDLORD: 2
+    INDIVIDUAL_PROSPECTIVE: 1
+    ASSOCIATION: 1
+    UNDETERMINED: 1
+    HOA_CONDO_ASSN: 1
+
+  Threshold (5% of 1191 = 60):
+  Small defendant types: {'REAL_ESTATE_AGENT', 'GROUP_HOME_OPERATOR', 'PROPERTY_MANAGER', 'DEVELOPER', 'HOA_CONDO_COOP', 'OTHER: Non-profit transitional housing program operator and its employees', 'LENDER', 'GOVERNMENT', 'UNDETERMINED', 'LANDLORD', 'INDIVIDUAL_TENANT'}
+  Small plaintiff types: {'ASSOCIATION', 'PRIVATE_LANDLORD', 'HOA_CONDO_ASSN', 'INDIVIDUAL_PROSPECTIVE', 'GOVERNMENT', 'UNDETERMINED', 'FAIR_HOUSING_ORG', 'OTHER'}
+  Cases after exclusion: 994 (removed 197)
+
+Period       N     PS%   PS Win%   Rep Win%   Agg Win%
+--------------------------------------------------
+P1         501    64.7       7.5       35.6       17.2
+P2         130    62.3       1.5       15.6        6.0
+P3         363    80.2       4.8       30.6        9.4
+
+========================================================================
+CHECK 4: BOOTSTRAP CONFIDENCE INTERVALS (n=10000)
+Testing whether P3 represented win rate CI overlaps P1
+========================================================================
+
+Group                 Point Est             95% CI  N decided
+------------------------------------------------------------
+P1 represented            34.3%       [27.6, 41.4]        181
+P1 pro se                  7.3%        [4.4, 10.5]        275
+P2 represented            19.0%        [7.1, 31.0]         42
+P2 pro se                  1.4%         [0.0, 4.1]         74
+P3 represented            34.3%       [23.9, 46.3]         67
+P3 pro se                  4.4%         [2.0, 7.2]        250
+P1 aggregate              18.0%       [14.5, 21.5]        456
+P2 aggregate               7.8%        [3.4, 12.9]        116
+P3 aggregate              10.7%        [7.6, 14.2]        317
+
+  P1 represented: 34.3% [27.6, 41.4]
+  P3 represented: 34.3% [23.9, 46.3]
+  CIs overlap: YES
+  -> Represented win rate statistically INDISTINGUISHABLE P1 vs P3
+
+  Pro se share bootstrap (95% CI):
+    P1: 58.9% [55.0, 62.8] (n=615)
+    P2: 56.6% [49.1, 64.2] (n=159)
+    P3: 76.7% [72.7, 80.8] (n=417)
+
+========================================================================
+CHECK 5: STATISTICAL SIGNIFICANCE OF COMPOSITION SHIFT
+Chi-squared test for pro se share P1 vs P3
+========================================================================
+
+  P1: 362 pro se, 253 represented (total 615)
+  P3: 320 pro se, 97 represented (total 417)
+  P1 pro se share: 58.9%
+  P3 pro se share: 76.7%
+
+  Chi-squared (pro se share P1 vs P3): chi2=35.434, p=0.0
+  Significant at p<0.001: NO
+
+  Win rate chi-squared tests:
+    Represented win rate P1 vs P3: chi2=0.0, p=0.991276
+    P1: 34.3% (62/181)
+    P3: 34.3% (23/67)
+
+    Aggregate win rate P1 vs P3: chi2=7.721, p=0.005458
+    P1: 18.0% (82/456)
+    P3: 10.7% (34/317)
+
+  OAXACA-BLINDER-STYLE DECOMPOSITION:
+    P1 weighted aggregate: 18.4%
+    P3 weighted aggregate: 11.4%
+    Counterfactual (P3 rates, P1 composition): 16.7%
+    Total decline: -7.1 pp
+    Composition effect: -5.3 pp (76% of decline)
+    Rate effect: -1.7 pp (24% of decline)
+
+========================================================================
+ALL ROBUSTNESS CHECKS COMPLETE
+========================================================================

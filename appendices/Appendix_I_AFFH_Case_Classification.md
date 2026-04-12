@@ -2,7 +2,7 @@
 
 ### I.1 Corpus Construction
 
-Seventy-one decisions were identified through CourtListener searches for "affirmatively further" AND "fair housing" in federal courts, supplemented by forward citation tracing from *Shannon v. HUD*, 436 F.2d 809 (3d Cir. 1970), *Hills v. Gautreaux*, 425 U.S. 284 (1976), and *NAACP v. Sec'y of HUD*, 817 F.2d 149 (1st Cir. 1987).
+Seventy-one decisions were identified through CourtListener searches for "affirmatively further" AND "fair housing" in federal courts, supplemented by forward citation tracing from *Shannon v. HUD*, 436 F.2d 809 (3d Cir. 1970), *Hills v. Gautreaux*, 425 U.S. 284 (1976), and *NAACP v. Sec'y of HUD*, 817 F.2d 149 (1st Cir. 1987). The search was limited to the CourtListener database of federal opinions. Because CourtListener's coverage of older district-court decisions is incomplete, the negative-precedent claim (no published federal case applying the AFFH integration obligation to disability) should be understood as bounded by that corpus; the forward-citation tracing from the three seed cases partially compensates by capturing decisions that cite the foundational AFFH opinions regardless of whether they appear in the primary keyword search.
 
 ### I.2 Classification Protocol
 
