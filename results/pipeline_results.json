@@ -1,0 +1,407 @@
+{
+  "funnel_2024": {
+    "disability_complaints_filed": 17645,
+    "total_completions": 8188,
+    "est_disability_completions": 4470,
+    "est_disability_no_cause": 2352,
+    "est_disability_charged": 257,
+    "est_disability_conciliated": 958,
+    "est_disability_admin_closed": 601,
+    "est_disability_withdrawn": 300,
+    "disability_share_assumption": 0.5459,
+    "note": "Disability-specific completions estimated by applying 54.59% share to aggregate completions",
+    "litigation_cases_per_year_avg": 334,
+    "complaint_to_litigation_ratio": 52.8,
+    "complaint_to_charge_ratio": 69
+  },
+  "complaint_vs_litigation": {
+    "series": [
+      {
+        "year": 2014,
+        "total_complaints": 27528,
+        "est_disability_complaints": 13764,
+        "disability_share_used": 0.5,
+        "fho_share": 69.1,
+        "hud_share": 6.2,
+        "hud_charged": 27
+      },
+      {
+        "year": 2015,
+        "total_complaints": 27937,
+        "est_disability_complaints": 13968,
+        "disability_share_used": 0.5,
+        "fho_share": 70.3,
+        "hud_share": 4.6,
+        "hud_charged": 28
+      },
+      {
+        "year": 2016,
+        "total_complaints": 28181,
+        "est_disability_complaints": 14090,
+        "disability_share_used": 0.5,
+        "fho_share": 70.0,
+        "hud_share": 4.9,
+        "hud_charged": 37
+      },
+      {
+        "year": 2017,
+        "total_complaints": 28825,
+        "est_disability_complaints": 14412,
+        "disability_share_used": 0.5,
+        "fho_share": 71.4,
+        "hud_share": 4.5,
+        "hud_charged": 19
+      },
+      {
+        "year": 2018,
+        "total_complaints": 31202,
+        "est_disability_complaints": 16225,
+        "disability_share_used": 0.52,
+        "fho_share": 75.0,
+        "hud_share": 5.7,
+        "hud_charged": 28
+      },
+      {
+        "year": 2019,
+        "total_complaints": 28880,
+        "est_disability_complaints": 15018,
+        "disability_share_used": 0.52,
+        "fho_share": 73.1,
+        "hud_share": 6.1,
+        "hud_charged": 37
+      },
+      {
+        "year": 2020,
+        "total_complaints": 28712,
+        "est_disability_complaints": 14930,
+        "disability_share_used": 0.52,
+        "fho_share": 73.5,
+        "hud_share": 5.9,
+        "hud_charged": 36
+      },
+      {
+        "year": 2021,
+        "total_complaints": 31216,
+        "est_disability_complaints": 16232,
+        "disability_share_used": 0.52,
+        "fho_share": 72.6,
+        "hud_share": 6.7,
+        "hud_charged": 36
+      },
+      {
+        "year": 2022,
+        "total_complaints": 33007,
+        "est_disability_complaints": 17164,
+        "disability_share_used": 0.52,
+        "fho_share": 73.9,
+        "hud_share": 5.8,
+        "hud_charged": 21
+      },
+      {
+        "year": 2023,
+        "total_complaints": 34150,
+        "est_disability_complaints": 17966,
+        "disability_share_used": 0.5261,
+        "fho_share": 75.5,
+        "hud_share": 5.1,
+        "hud_charged": 47
+      },
+      {
+        "year": 2024,
+        "total_complaints": 32321,
+        "est_disability_complaints": 17644,
+        "disability_share_used": 0.5459,
+        "fho_share": 74.1,
+        "hud_share": 4.8,
+        "hud_charged": 31
+      }
+    ],
+    "disability_complaint_change_2018_2024_pct": 8.7,
+    "litigation_broad_win_p1": 30.0,
+    "litigation_broad_win_p3": 18.9,
+    "pro_se_share_p1": 53.0,
+    "pro_se_share_p3": 71.4,
+    "diagnosis": "Complaint volume stable/growing while litigation quality declining. Pipeline failure, not violation decline."
+  },
+  "fho_institutional": {
+    "fho_share_of_complaints_2024": 74.12,
+    "hud_share_of_complaints_2024": 4.85,
+    "fhap_share_of_complaints_2024": 20.9,
+    "fho_count_2024": 82,
+    "fho_count_2023": 86,
+    "fho_decline": -4,
+    "fho_decline_pct": -4.7,
+    "institutional_plaintiff_share_p1": 16.9,
+    "institutional_plaintiff_share_p2": 14.9,
+    "institutional_plaintiff_share_p3": 12.1,
+    "institutional_plaintiff_decline_p1_to_p3": -4.8
+  },
+  "cause_finding": {
+    "charged_by_year": {
+      "2014": 27,
+      "2015": 28,
+      "2016": 37,
+      "2017": 19,
+      "2018": 28,
+      "2019": 37,
+      "2020": 36,
+      "2021": 36,
+      "2022": 21,
+      "2023": 47,
+      "2024": 31
+    },
+    "avg_2014_2020": 30.3,
+    "avg_2021_2024": 33.8,
+    "change_2023_2024": -16,
+    "change_2023_2024_pct": -34.0,
+    "fheo_funding_2024": 86000000,
+    "fheo_funding_needed": 153000000,
+    "fheo_funding_gap_pct": 43.8
+  },
+  "geographic": {
+    "top_states": [
+      {
+        "state": "California",
+        "filed": 4874,
+        "disability_basis": 2986,
+        "disability_share": 61.3,
+        "charge_rate": 0.1,
+        "no_cause_rate": 55.1
+      },
+      {
+        "state": "Texas",
+        "filed": 4042,
+        "disability_basis": 2336,
+        "disability_share": 57.8,
+        "charge_rate": 0.1,
+        "no_cause_rate": 44.9
+      },
+      {
+        "state": "Florida",
+        "filed": 2848,
+        "disability_basis": 1670,
+        "disability_share": 58.6,
+        "charge_rate": 0.1,
+        "no_cause_rate": 51.2
+      },
+      {
+        "state": "New York",
+        "filed": 2521,
+        "disability_basis": 1597,
+        "disability_share": 63.3,
+        "charge_rate": 0.8,
+        "no_cause_rate": 54.2
+      },
+      {
+        "state": "Ohio",
+        "filed": 2152,
+        "disability_basis": 1255,
+        "disability_share": 58.3,
+        "charge_rate": 0.0,
+        "no_cause_rate": 40.6
+      },
+      {
+        "state": "Michigan",
+        "filed": 1704,
+        "disability_basis": 994,
+        "disability_share": 58.3,
+        "charge_rate": 0.6,
+        "no_cause_rate": 62.4
+      },
+      {
+        "state": "Massachusetts",
+        "filed": 1680,
+        "disability_basis": 943,
+        "disability_share": 56.1,
+        "charge_rate": 0.4,
+        "no_cause_rate": 50.1
+      },
+      {
+        "state": "Illinois",
+        "filed": 1466,
+        "disability_basis": 731,
+        "disability_share": 49.9,
+        "charge_rate": 0.0,
+        "no_cause_rate": 48.6
+      },
+      {
+        "state": "Indiana",
+        "filed": 1208,
+        "disability_basis": 616,
+        "disability_share": 51.0,
+        "charge_rate": 0.0,
+        "no_cause_rate": 58.9
+      },
+      {
+        "state": "Arizona",
+        "filed": 1076,
+        "disability_basis": 714,
+        "disability_share": 66.4,
+        "charge_rate": 0.1,
+        "no_cause_rate": 64.4
+      },
+      {
+        "state": "Missouri",
+        "filed": 1064,
+        "disability_basis": 592,
+        "disability_share": 55.6,
+        "charge_rate": 0.5,
+        "no_cause_rate": 43.5
+      },
+      {
+        "state": "Iowa",
+        "filed": 958,
+        "disability_basis": 545,
+        "disability_share": 56.9,
+        "charge_rate": 0.1,
+        "no_cause_rate": 37.6
+      },
+      {
+        "state": "Washington",
+        "filed": 945,
+        "disability_basis": 566,
+        "disability_share": 59.9,
+        "charge_rate": 0.3,
+        "no_cause_rate": 55.1
+      },
+      {
+        "state": "Pennsylvania",
+        "filed": 915,
+        "disability_basis": 525,
+        "disability_share": 57.4,
+        "charge_rate": 0.5,
+        "no_cause_rate": 42.3
+      },
+      {
+        "state": "Georgia",
+        "filed": 846,
+        "disability_basis": 443,
+        "disability_share": 52.4,
+        "charge_rate": 0.6,
+        "no_cause_rate": 52.2
+      }
+    ]
+  },
+  "fheo_historical": [
+    {
+      "year": 2000,
+      "filed": 7116,
+      "disability": 2454,
+      "pct": 34.5
+    },
+    {
+      "year": 2001,
+      "filed": 7011,
+      "disability": 2500,
+      "pct": 35.7
+    },
+    {
+      "year": 2002,
+      "filed": 7813,
+      "disability": 2946,
+      "pct": 37.7
+    },
+    {
+      "year": 2003,
+      "filed": 8279,
+      "disability": 3236,
+      "pct": 39.1
+    },
+    {
+      "year": 2004,
+      "filed": 9516,
+      "disability": 3543,
+      "pct": 37.2
+    },
+    {
+      "year": 2005,
+      "filed": 9455,
+      "disability": 3967,
+      "pct": 42.0
+    },
+    {
+      "year": 2006,
+      "filed": 10587,
+      "disability": 4341,
+      "pct": 41.0
+    },
+    {
+      "year": 2007,
+      "filed": 10264,
+      "disability": 4479,
+      "pct": 43.6
+    },
+    {
+      "year": 2008,
+      "filed": 10782,
+      "disability": 4668,
+      "pct": 43.3
+    },
+    {
+      "year": 2009,
+      "filed": 10110,
+      "disability": 4574,
+      "pct": 45.2
+    },
+    {
+      "year": 2010,
+      "filed": 10326,
+      "disability": 4878,
+      "pct": 47.2
+    },
+    {
+      "year": 2011,
+      "filed": 9013,
+      "disability": 4384,
+      "pct": 48.6
+    },
+    {
+      "year": 2012,
+      "filed": 8534,
+      "disability": 4300,
+      "pct": 50.4
+    },
+    {
+      "year": 2013,
+      "filed": 8230,
+      "disability": 4386,
+      "pct": 53.3
+    },
+    {
+      "year": 2014,
+      "filed": 8882,
+      "disability": 4758,
+      "pct": 53.6
+    },
+    {
+      "year": 2015,
+      "filed": 8212,
+      "disability": 4572,
+      "pct": 55.7
+    },
+    {
+      "year": 2016,
+      "filed": 8547,
+      "disability": 5026,
+      "pct": 58.8
+    },
+    {
+      "year": 2017,
+      "filed": 7908,
+      "disability": 4718,
+      "pct": 59.7
+    },
+    {
+      "year": 2018,
+      "filed": 7912,
+      "disability": 4803,
+      "pct": 60.7
+    },
+    {
+      "year": 2019,
+      "filed": 7801,
+      "disability": 4848,
+      "pct": 62.1
+    }
+  ]
+}

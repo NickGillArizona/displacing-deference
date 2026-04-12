@@ -1,0 +1,202 @@
+{
+  "claim_pattern_comparison": {
+    "public": {
+      "PROCESS_AND_INTENT": 228,
+      "PROCESS_ONLY": 209,
+      "INTENT_ONLY": 182,
+      "OTHER": 122,
+      "STRUCTURAL": 15
+    },
+    "private": {
+      "PROCESS_AND_INTENT": 308,
+      "PROCESS_ONLY": 240,
+      "INTENT_ONLY": 229,
+      "OTHER": 187,
+      "STRUCTURAL": 50
+    },
+    "public_pct": {
+      "PROCESS_AND_INTENT": 30.1587,
+      "PROCESS_ONLY": 27.6455,
+      "INTENT_ONLY": 24.0741,
+      "OTHER": 16.1376,
+      "STRUCTURAL": 1.9841
+    },
+    "private_pct": {
+      "PROCESS_AND_INTENT": 30.3748,
+      "PROCESS_ONLY": 23.6686,
+      "INTENT_ONLY": 22.5838,
+      "OTHER": 18.4418,
+      "STRUCTURAL": 4.931
+    }
+  },
+  "chi2_pattern": {
+    "chi2": 14.68,
+    "p": 0.0054
+  },
+  "process_indicators": {
+    "PUBLIC": {
+      "n": 554,
+      "interactive_process_rate": 0.1101,
+      "delay_as_denial_rate": 0.0325,
+      "measurable_facts_rate": 0.5361,
+      "process_claim_rate": 0.5921,
+      "intent_claim_rate": 0.5415
+    },
+    "QUASI_PUBLIC": {
+      "n": 202,
+      "interactive_process_rate": 0.0594,
+      "delay_as_denial_rate": 0.0347,
+      "measurable_facts_rate": 0.4059,
+      "process_claim_rate": 0.5396,
+      "intent_claim_rate": 0.5446
+    },
+    "PRIVATE": {
+      "n": 1014,
+      "interactive_process_rate": 0.1144,
+      "delay_as_denial_rate": 0.0444,
+      "measurable_facts_rate": 0.5533,
+      "process_claim_rate": 0.5404,
+      "intent_claim_rate": 0.5296
+    }
+  },
+  "outcome_by_pattern": {
+    "PUBLIC": {
+      "PROCESS_ONLY": {
+        "n": 127,
+        "broad_win": 0.252,
+        "mtd_survival": 0.4016
+      },
+      "INTENT_ONLY": {
+        "n": 111,
+        "broad_win": 0.2883,
+        "mtd_survival": 0.3243
+      },
+      "PROCESS_AND_INTENT": {
+        "n": 156,
+        "broad_win": 0.2692,
+        "mtd_survival": 0.609
+      }
+    },
+    "QUASI_PUBLIC": {
+      "PROCESS_ONLY": {
+        "n": 42,
+        "broad_win": 0.2857,
+        "mtd_survival": 0.3333
+      },
+      "INTENT_ONLY": {
+        "n": 50,
+        "broad_win": 0.18,
+        "mtd_survival": 0.2
+      },
+      "PROCESS_AND_INTENT": {
+        "n": 52,
+        "broad_win": 0.2692,
+        "mtd_survival": 0.5192
+      }
+    },
+    "PRIVATE": {
+      "PROCESS_ONLY": {
+        "n": 183,
+        "broad_win": 0.4098,
+        "mtd_survival": 0.4699
+      },
+      "INTENT_ONLY": {
+        "n": 205,
+        "broad_win": 0.2341,
+        "mtd_survival": 0.3268
+      },
+      "PROCESS_AND_INTENT": {
+        "n": 252,
+        "broad_win": 0.3968,
+        "mtd_survival": 0.5595
+      }
+    }
+  },
+  "public_housing_types": {
+    "SUPPORTIVE_HOUSING": 163,
+    "SECTION_8_VOUCHER": 147,
+    "PRIVATE_MARKET": 132,
+    "PUBLIC_HOUSING": 127,
+    "UNDETERMINED": 92,
+    "OTHER_SUBSIDIZED": 39,
+    "SECTION_8_PBV": 21,
+    "LIHTC": 14,
+    "MANUFACTURED_HOUSING": 7,
+    "HOA_CONDO": 5,
+    "SECTION_811": 2,
+    "OTHER": 2,
+    "RENTAL_APARTMENT": 2,
+    "SECTION_202": 1,
+    "SINGLE_FAMILY": 1,
+    "ASSISTED_LIVING": 1
+  },
+  "model_public_process": {
+    "formula": "broad_win ~ is_public + process_int + intent_int + pub_x_process + pro_se_int + post_2024",
+    "n": 1389,
+    "pseudo_r2": 0.1726,
+    "coefficients": {
+      "Intercept": {
+        "coef": 0.0764,
+        "se": 0.1828,
+        "p": 0.676,
+        "or": 1.0794
+      },
+      "is_public": {
+        "coef": -0.271,
+        "se": 0.2211,
+        "p": 0.2203,
+        "or": 0.7626
+      },
+      "process_int": {
+        "coef": 0.561,
+        "se": 0.1801,
+        "p": 0.0018,
+        "or": 1.7523
+      },
+      "intent_int": {
+        "coef": 0.1854,
+        "se": 0.1359,
+        "p": 0.1725,
+        "or": 1.2037
+      },
+      "pub_x_process": {
+        "coef": -0.5091,
+        "se": 0.2779,
+        "p": 0.0669,
+        "or": 0.601
+      },
+      "pro_se_int": {
+        "coef": -1.9557,
+        "se": 0.1368,
+        "p": 0.0,
+        "or": 0.1415
+      },
+      "post_2024": {
+        "coef": -0.3295,
+        "se": 0.1356,
+        "p": 0.0151,
+        "or": 0.7193
+      }
+    }
+  },
+  "claim_level": {
+    "public_theories": {
+      "REASONABLE_ACCOMMODATION": 597,
+      "DISPARATE_TREATMENT": 461,
+      "RETALIATION": 214,
+      "DISPARATE_IMPACT": 100,
+      "INTERFERENCE_COERCION": 53,
+      "UNCLEAR": 43,
+      "DESIGN_AND_CONSTRUCTION": 7
+    },
+    "private_theories": {
+      "REASONABLE_ACCOMMODATION": 596,
+      "DISPARATE_TREATMENT": 452,
+      "RETALIATION": 246,
+      "UNCLEAR": 86,
+      "INTERFERENCE_COERCION": 72,
+      "DESIGN_AND_CONSTRUCTION": 64,
+      "DISPARATE_IMPACT": 58
+    }
+  }
+}

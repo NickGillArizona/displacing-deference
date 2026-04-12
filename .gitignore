@@ -8,5 +8,7 @@ __pycache__/
 !data/*.json
 .DS_Store
 *.xlsx
+!data/*.xlsx
+!data/*.xls
 *.csv
 !results/*.csv

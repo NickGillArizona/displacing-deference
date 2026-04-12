@@ -1,0 +1,177 @@
+{
+  "physical_case_rates": {
+    "With evidence": {
+      "n": 100,
+      "strict_win": 0.32,
+      "broad_win": 0.56,
+      "mtd_survival": 0.6,
+      "merits_reached": 0.33,
+      "pro_se_share": 0.38
+    },
+    "Without evidence": {
+      "n": 74,
+      "strict_win": 0.2027,
+      "broad_win": 0.3919,
+      "mtd_survival": 0.527,
+      "merits_reached": 0.2703,
+      "pro_se_share": 0.6622
+    }
+  },
+  "fisher_physical_cases": {
+    "or": 1.975,
+    "p": 0.0324
+  },
+  "all_case_rates": {
+    "With evidence": {
+      "n": 235,
+      "strict_win": 0.2213,
+      "broad_win": 0.4255,
+      "mtd_survival": 0.5191,
+      "merits_reached": 0.3106
+    },
+    "Without evidence": {
+      "n": 1154,
+      "strict_win": 0.1586,
+      "broad_win": 0.2669,
+      "mtd_survival": 0.3744,
+      "merits_reached": 0.2574
+    }
+  },
+  "chi2_all_cases": {
+    "chi2": 22.925,
+    "p": 0.0
+  },
+  "model_all_cases": {
+    "formula": "broad_win ~ phys_ev_int + pro_se_int + post_2024 + C(def_cat)",
+    "n": 1389,
+    "pseudo_r2": 0.1782,
+    "coefficients": {
+      "Intercept": {
+        "coef": -0.3332,
+        "se": 0.2008,
+        "p": 0.097,
+        "or": 0.7166
+      },
+      "C(def_cat)[T.PRIVATE]": {
+        "coef": 0.8702,
+        "se": 0.2047,
+        "p": 0.0,
+        "or": 2.3874
+      },
+      "C(def_cat)[T.PUBLIC_QUASI]": {
+        "coef": 0.1806,
+        "se": 0.2215,
+        "p": 0.415,
+        "or": 1.1979
+      },
+      "phys_ev_int": {
+        "coef": 0.4856,
+        "se": 0.1666,
+        "p": 0.0036,
+        "or": 1.6252
+      },
+      "pro_se_int": {
+        "coef": -2.0015,
+        "se": 0.139,
+        "p": 0.0,
+        "or": 0.1351
+      },
+      "post_2024": {
+        "coef": -0.3355,
+        "se": 0.1362,
+        "p": 0.0137,
+        "or": 0.7149
+      }
+    }
+  },
+  "model_interaction": {
+    "formula": "broad_win ~ phys_ev_int + is_physical_int + phys_x_physcase + pro_se_int + post_2024 + C(def_cat)",
+    "n": 1389,
+    "pseudo_r2": 0.1856,
+    "coefficients": {
+      "Intercept": {
+        "coef": -0.4184,
+        "se": 0.205,
+        "p": 0.0413,
+        "or": 0.6581
+      },
+      "C(def_cat)[T.PRIVATE]": {
+        "coef": 0.8807,
+        "se": 0.2099,
+        "p": 0.0,
+        "or": 2.4126
+      },
+      "C(def_cat)[T.PUBLIC_QUASI]": {
+        "coef": 0.2755,
+        "se": 0.2268,
+        "p": 0.2246,
+        "or": 1.3172
+      },
+      "phys_ev_int": {
+        "coef": 0.1496,
+        "se": 0.2186,
+        "p": 0.4938,
+        "or": 1.1614
+      },
+      "is_physical_int": {
+        "coef": 0.6163,
+        "se": 0.2851,
+        "p": 0.0307,
+        "or": 1.8521
+      },
+      "phys_x_physcase": {
+        "coef": 0.2446,
+        "se": 0.4176,
+        "p": 0.558,
+        "or": 1.2772
+      },
+      "pro_se_int": {
+        "coef": -2.0005,
+        "se": 0.1401,
+        "p": 0.0,
+        "or": 0.1353
+      },
+      "post_2024": {
+        "coef": -0.3202,
+        "se": 0.137,
+        "p": 0.0194,
+        "or": 0.726
+      }
+    }
+  },
+  "model_physical_only": {
+    "formula": "broad_win ~ phys_ev_int + pro_se_int + post_2024",
+    "n": 174,
+    "pseudo_r2": 0.0793,
+    "coefficients": {
+      "Intercept": {
+        "coef": 0.4037,
+        "se": 0.3365,
+        "p": 0.2302,
+        "or": 1.4974
+      },
+      "phys_ev_int": {
+        "coef": 0.4114,
+        "se": 0.3359,
+        "p": 0.2207,
+        "or": 1.5089
+      },
+      "pro_se_int": {
+        "coef": -1.1276,
+        "se": 0.336,
+        "p": 0.0008,
+        "or": 0.3238
+      },
+      "post_2024": {
+        "coef": -0.286,
+        "se": 0.3296,
+        "p": 0.3855,
+        "or": 0.7512
+      }
+    }
+  },
+  "design_construction": {
+    "n_total": 62,
+    "n_decided": 40
+  }
+}
