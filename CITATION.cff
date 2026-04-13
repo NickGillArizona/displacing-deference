@@ -11,13 +11,13 @@ date-released: 2026-04-01
 url: "https://github.com/NickGillArizona/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH"
 repository-code: "https://github.com/NickGillArizona/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH"
 abstract: >-
-  Replication package for a Note demonstrating that HUD's
-  administrative choices — guidance rescission, FHIP defunding, and zero
-  reasonable-cause charges — created the disability fair housing enforcement
-  crisis. Contains the FHA Unified Database (2,522 screened-in federal FHA
-  cases; 1,720 disability), the first published race-by-disability housing
-  cost-burden cross-tabulations, classification pipeline documentation, Census
-  PUMS analysis scripts, and supplementary appendices.
+  Replication package for a Note arguing that AFFH's present problem is a
+  durability failure, that disability exposes it most clearly, and that
+  the reinforcement/replication distinction supplies a limiting principle.
+  Contains the FHA Unified Database (2,522 screened-in federal FHA cases;
+  1,770 disability), race-by-disability housing cost-burden
+  cross-tabulations, HUD administrative-system analyses (CDBG, REAC/NSPIRE,
+  POSH), classification pipeline documentation, and supplementary appendices.
 keywords:
   - fair housing act
   - disability
