@@ -4,63 +4,73 @@
 
 **Nicholas Gill** | J.D. Candidate, 2027 | University of Arizona James E. Rogers College of Law | nickgill@arizona.edu
 
+## What This Project Is About
+
+The Fair Housing Act (FHA) requires federal agencies to "affirmatively further fair housing" (AFFH) — meaning they must do more than just avoid discrimination; they must actively promote equal housing opportunity. But the law never defined what that means in practice. The Department of Housing and Urban Development (HUD) has tried four different regulatory frameworks since 2015, each reversing the last. None has survived a change in administration.
+
+This project asks: what can be built that will last? The answer is a narrower model focused on disability — the protected class generating 55% of all fair housing complaints — where Congress already enacted specific duties (accessible design, reasonable accommodations, reasonable modifications) that HUD can verify through reporting and inspection, without needing the kind of broad, politically vulnerable planning regime that keeps getting dismantled.
+
+The repository contains the data, code, and methodology behind that argument: a classified database of 1,770 federal disability housing cases, analyses of HUD's own administrative systems, and Census-derived housing cost-burden estimates.
+
+---
+
 ## Abstract
 
-This replication package supports a Note arguing that AFFH's present problem is a durability failure and that disability exposes it most clearly. Four incompatible AFFH frameworks from 2015 to 2025 demonstrate that affirmative content built chiefly on section 3608(d)'s undefined language has not survived political turnover. The 2015 Rule operationalized race-centered integration while leaving disability structurally underbuilt — and no published federal AFFH decision applies the affirmative integration obligation to disability.
+This replication package supports a law review Note arguing that AFFH's present problem is a durability failure and that disability exposes it most clearly. Four incompatible AFFH frameworks from 2015 to 2025 demonstrate that affirmative content built chiefly on the statute's undefined language (42 U.S.C. § 3608(d)) has not survived political turnover. HUD's 2015 Rule operationalized race-centered integration planning while leaving disability structurally underbuilt — and no published federal AFFH decision applies the affirmative integration obligation to disability.
 
-The empirical foundation is the **FHA Unified Database**: 2,522 federal FHA cases across all protected classes (1,770 disability), constructed through a multi-model LLM consensus pipeline. The central empirical finding is a **composition effect**: represented plaintiffs recovered to roughly their pre-*Loper Bright* success rates (Level C), but the pro se filing share surged to 76.7% as institutional intermediaries contracted, concentrating the aggregate decline at the pleading stage. The post-2024 downturn is better understood as an enforcement-pipeline failure — disability complaints reached approximately 17,600 in 2024 while only ~1.5% resulted in charges and roughly 53 complaints entered the administrative system for every case reaching federal litigation — than as generalized judicial hostility.
+The empirical foundation is the **FHA Unified Database**: 2,522 federal FHA cases across all protected classes (1,770 disability), constructed through a multi-model LLM consensus pipeline. The central empirical finding is a **composition effect**: plaintiffs with lawyers recovered to roughly their pre-*Loper Bright* success rates (Level C), but the share of self-represented (pro se) plaintiffs surged to 76.7% as the fair housing organizations that screen and develop cases contracted, concentrating the aggregate decline at the pleading stage. The post-2024 downturn is better understood as an enforcement-pipeline failure — disability complaints reached approximately 17,600 in 2024 while only ~1.5% resulted in charges and roughly 53 complaints entered the administrative system for every case reaching federal litigation — than as generalized judicial hostility.
 
-The Note's doctrinal contribution is a limiting principle: the distinction between *reinforcement* — using HUD's administration and reporting authority under sections 3608(e)(5)–(6) and its rulemaking power under section 3614a to verify compliance with duties Congress enacted in section 3604(f)(3) — and *replication* — generating broad new obligations from section 3608(d)'s undefined text. Under present conditions, AFFH is on firmer ground reinforcing enacted disability duties than replicating the full 2015-style integration project. The repository also contains race-by-disability housing cost-burden estimates derived from ACS 2020–2024 5-Year PUMS microdata with confidence intervals.
+The Note's doctrinal contribution is a limiting principle distinguishing *reinforcement* from *replication*. Reinforcement means using HUD's existing authority to verify compliance with specific disability duties Congress already enacted — accessible design, reasonable accommodations, reasonable modifications (42 U.S.C. § 3604(f)(3)). Replication means trying to rebuild broad integration-planning obligations from the statute's undefined "affirmatively further" text. The Note argues that reinforcement is the more defensible present path. The repository also contains race-by-disability housing cost-burden estimates derived from American Community Survey (ACS) 2020–2024 5-Year Public Use Microdata Sample (PUMS) data with confidence intervals.
 
 ---
 
 ## Original Contributions
 
-- **Doctrinal limiting principle**: The reinforcement/replication distinction — grounded in the statutory architecture of sections 3608(d), 3608(e)(5)–(6), 3614a, and 3604(f)(3) — as the basis for a disability-centered AFFH model that verifies compliance with enacted duties rather than reconstructing broad planning obligations from open-textured statutory text
-- **Classified FHA litigation dataset**: 1,770 federal FHA disability decisions (from a broader corpus of 2,522 FHA cases across protected classes), each with 28 classified fields, constructed through multi-model LLM consensus classification with tiered adjudication — no comparable classified FHA litigation dataset exists in the published literature
-- **Enforcement-pipeline analysis**: Integration of administrative-system data (CDBG activity codes, REAC/NSPIRE inspection outputs, POSH disability rates, FHEO complaint series) documenting that HUD's grant-reporting and inspection architectures contain no field for housing accessibility despite covering approximately 1.8 million disabled households
-- **Race-by-disability housing cost-burden cross-tabulations**: First published estimates with confidence intervals, derived from ACS 2020–2024 5-Year PUMS microdata using successive-differences replication
+- **A proposed legal limiting principle** (reinforcement vs. replication): Rather than trying to rebuild a broad integration-planning regime from vague statutory text, the Note argues HUD should focus on verifying compliance with the specific disability duties Congress already enacted — accessible design, reasonable accommodations, and reasonable modifications
+- **Classified litigation dataset**: 1,770 federal disability housing decisions (from 2,522 total FHA cases), each coded across 28 fields, built using multi-model AI consensus classification — no comparable classified FHA litigation dataset exists in the published literature
+- **Enforcement-pipeline analysis**: An examination of HUD's own grant-reporting systems (CDBG activity codes), property inspection program (REAC/NSPIRE), subsidized-housing data (Picture of Subsidized Households), and complaint records (FHEO), showing that the administrative systems covering ~1.8 million disabled households contain no field for housing accessibility
+- **Housing cost-burden estimates**: First published race-by-disability cross-tabulations with confidence intervals, derived from Census Bureau ACS 2020–2024 microdata
 
 ---
 
 ## Key Findings
 
-The data support a narrower institutional account of the post-2024 downturn than a simple "courts turned hostile" story.
+The data support an institutional account of the post-2024 downturn: the problem is the collapse of the enforcement infrastructure, not a generalized turn by courts against disability plaintiffs.
 
-**The composition effect.** Pro se plaintiffs surged to 76.7% of disability filings in P3 (Level A), consistent with FHIP disruption and institutional contraction. Represented plaintiff success recovered to roughly pre-*Loper Bright* levels — 34.3% strict win in both P1 and P3 (Level C) — while pro se plaintiffs won on the merits 5.3% of the time versus 32.1% for represented plaintiffs. A Kitagawa composition/rate decomposition attributes 76% of the aggregate P1-to-P3 win-rate decline to the shifting composition of the plaintiff pool rather than within-group deterioration. The aggregate decline is a composition effect consistent with institutional contraction, not a generalized shift in judicial hostility. See [Appendix A-5](appendices/Appendix_A5_Robustness_Checks.md) for full robustness checks.
+**Who is winning, who is losing, and why.** Plaintiffs with lawyers recovered to roughly their pre-2024 success rates (34.3% win rate in both the baseline and post-withdrawal periods). But self-represented plaintiffs surged to 76.7% of all disability filings as the fair housing organizations that screen, investigate, and develop cases contracted. Self-represented plaintiffs win on the merits only 5.3% of the time versus 32.1% for represented plaintiffs. A Kitagawa decomposition — a standard technique for separating "who is filing" effects from "how each group fares" effects — attributes 76% of the aggregate win-rate decline to this shift in the plaintiff pool's composition. See [Appendix A-5](appendices/Appendix_A5_Robustness_Checks.md) for robustness checks.
 
-**The enforcement pipeline.** Disability complaints reached approximately 17,600 in 2024 (+8.7% since 2018), yet fair housing organizations processing 74% of all complaints declined from 86 to 82 in a single year, only ~1.5% of disability complaints resulted in a charge or cause finding, and roughly 53 complaints entered the administrative system for every case reaching federal litigation. Nothing in the current administrative record suggests that the underlying violation rate is declining.
+**The pipeline is broken.** Disability complaints reached ~17,600 in 2024 (+8.7% since 2018) — people are still reporting violations at record levels. But the organizations that process 74% of all fair housing complaints declined from 86 to 82 in a single year, only ~1.5% of disability complaints resulted in a formal charge, and roughly 53 complaints enter the administrative system for every case that reaches federal court. The violation rate is not declining; the infrastructure converting complaints into enforceable cases is thinning at every stage.
 
-**The administrative measurement failure.** HUD's CDBG accomplishment system contains approximately fifty activity codes; none covers housing accessibility. HUD's REAC/NSPIRE inspection program reaches over 34,000 properties but produces a single aggregate physical-condition score with no accessibility or design-and-construction field. Approximately 1.8 million disabled households reside in federally subsidized housing (weighted disability rate: 39.3%), yet the systems that fund, certify, and inspect their housing cannot generate disability-specific compliance data.
+**HUD's own systems can't see the problem.** HUD's grant-reporting system has ~50 activity codes for tracking how federal housing dollars are spent; none covers housing accessibility. HUD's property inspection program (REAC/NSPIRE) inspects over 34,000 public-housing and assisted properties nationwide, but the inspection output is a single aggregate score with no accessibility field. Approximately 1.8 million disabled households live in federally subsidized housing, yet the systems that fund, certify, and inspect their housing cannot measure whether it is accessible.
 
-**The litigation decline.** Three-period analysis reveals strict win rates falling from 18.0% (P1: baseline) to 7.8% (P2: transition) to 10.7% (P3: post-withdrawal). Represented plaintiff MTD survival remains stable across all three periods (82.0%/76.1%/82.8%), while aggregate MTD survival falls from 53.6% to 38.6%, confirming that the decline concentrates at the pleading stage among unrepresented plaintiffs.
+**Plaintiff outcomes are falling at the front door.** Win rates fell from 18.0% (baseline) to 7.8% (transition) to 10.7% (post-withdrawal). But represented plaintiffs survived motions to dismiss at stable rates across all three periods (82.0%/76.1%/82.8%), while aggregate dismissal-survival rates fell from 53.6% to 38.6%. The decline is concentrated at the pleading stage among unrepresented plaintiffs — not at the merits.
 
-**Specificity drives outcomes.** Specific-duty claims grounded in section 3604(f)(3) achieve a 39.3% broad win rate; open-textured claims relying on broad statutory purpose achieve 1.0%. After controls, open-textured framing reduces odds of success by 97% (OR=0.033, p<10⁻¹⁰), while enacted-duty framing increases odds more than twelvefold (OR=12.33, p<10⁻¹⁷). The composition confound is real — 88.5% of open-textured cases are pro se — but specificity remains the dominant predictor after controlling for representation.
+**Specific legal claims win; vague ones don't.** Claims grounded in Congress's specific disability duties (accessible design, reasonable accommodations) win 39.3% of the time; claims relying on broad, undefined statutory language win 1.0%. After statistical controls, specific-duty framing increases odds of success more than twelvefold. This is the empirical basis for the Note's argument that enforcement built on specific enacted duties is more viable than enforcement built on vague statutory text.
 
-**The disability penalty.** The disability cost-burden penalty (7.3–16.9 percentage points, depending on race) exceeds the racial cost-burden gap among non-disabled renters (8.4 points Black–White). An estimated 823,000 disabled renters of color reside in non-entitlement communities the 2015 model never directly reached. These distributional facts are descriptive, not thesis-bearing.
+**Disability imposes a larger housing cost burden than race alone.** The "disability penalty" — the additional housing cost burden disabled renters bear compared to non-disabled renters of the same race — ranges from 7.3 to 16.9 percentage points, exceeding the 8.4-point racial cost-burden gap among non-disabled renters. An estimated 823,000 disabled renters of color live in communities that HUD's prior integration model never directly reached.
 
-**The design-and-construction gap.** 47% estimated noncompliance rate in covered multifamily housing, against 0.8% of fair housing complaints and 2.2% of litigated cases. Physical evidence is present in 37 of 40 decided design-and-construction cases, confirming the tractability of verification-centered enforcement.
+**Widespread noncompliance, almost no enforcement.** An estimated 47% of covered multifamily buildings violate federal accessibility requirements, but design-and-construction complaints constitute only 0.8% of fair housing filings and 2.2% of litigated cases. Physical evidence of accessibility violations is present in 37 of 40 decided cases — these are the kind of concrete, inspectable violations that a reporting-and-verification system would catch.
 
 ---
 
 ## The Dataset
 
-This repository provides what HUD does not: a structured empirical dataset of federal FHA litigation, unified from multiple source corpora into a single classified database.
+HUD does not maintain a structured, classified dataset of federal fair housing litigation outcomes. This repository provides one — built from federal court opinions, classified by AI with human-equivalent reliability, and organized into a single searchable database.
 
 | Scope | Cases |
 |-------|:---:|
-| Total screened-in FHA cases (all protected classes) | 2,522 |
-| **Disability cases (analysis population)** | **1,770** |
-| Dated disability cases (three-period analysis) | 1,191 |
-| Resolved-outcome cases (temporal analysis) | 889 |
+| Total federal fair housing cases screened in (all protected classes) | 2,522 |
+| **Disability cases (primary analysis population)** | **1,770** |
+| Disability cases with exact decision dates (for three-period analysis) | 1,191 |
+| Disability cases with resolved outcomes (for win-rate analysis) | 889 |
 
 **Three-Period Design:**
 
 | Period | Date Range | n |
 |--------|-----------|:---:|
-| P1: Pre-*Loper Bright* | Jan 1, 2022 – June 28, 2024 | 456 |
-| P2: Post-LB / Pre-HUD Secretary | June 28, 2024 – Feb 5, 2025 | 116 |
-| P3: Post-HUD Secretary | Feb 5, 2025 – present | 317 |
+| P1: Baseline (pre-*Loper Bright v. Raimondo*) | Jan 1, 2022 – June 28, 2024 | 456 |
+| P2: Transition (post-*Loper Bright*, pre-HUD withdrawal) | June 28, 2024 – Feb 5, 2025 | 116 |
+| P3: Post-withdrawal (HUD enforcement contraction) | Feb 5, 2025 – present | 317 |
 
 Each case record contains 28 classified fields — including procedural posture, outcome, accommodation type, disability category, plaintiff and defendant type, *Iqbal*/*Twombly* citation, and nested per-claim decomposition — plus full pipeline provenance metadata. For the complete field-level schema with types, enumerated values, and examples, see [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 
