@@ -18,6 +18,7 @@ import json
 import os
 import sys
 import hashlib
+from pathlib import Path
 import anthropic
 
 API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
@@ -25,11 +26,15 @@ MODEL = "claude-haiku-4-5"
 TEMPERATURE = 0.0
 MAX_TOKENS = 1024
 
-DB_PATH = 'C:/Users/nickg/OneDrive/Documents/Note/data/2/FHA_Unified_Database.json'
-OUTPUT_PATH = 'C:/Users/nickg/OneDrive/Documents/Note/supplemental_classification_results.json'
-BATCH_ID_FILE = 'C:/Users/nickg/OneDrive/Documents/Note/supplemental_batch_id.txt'
-ID_LOOKUP_FILE = 'C:/Users/nickg/OneDrive/Documents/Note/supplemental_id_lookup.json'
-ERROR_LOG = 'C:/Users/nickg/OneDrive/Documents/Note/supplemental_batch_errors.json'
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RESULTS_DIR = REPO_ROOT / "results"
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+DB_PATH = str(REPO_ROOT / "data" / "FHA_Unified_Database.json")
+OUTPUT_PATH = str(RESULTS_DIR / "supplemental_classification_results.json")
+BATCH_ID_FILE = str(RESULTS_DIR / "supplemental_batch_id.txt")
+ID_LOOKUP_FILE = str(RESULTS_DIR / "supplemental_id_lookup.json")
+ERROR_LOG = str(RESULTS_DIR / "supplemental_batch_errors.json")
 
 SYSTEM_PROMPT = """You are a legal research assistant performing supplemental classification of federal court FHA opinions. You receive previously extracted structured case data and classify additional dimensions.
 
