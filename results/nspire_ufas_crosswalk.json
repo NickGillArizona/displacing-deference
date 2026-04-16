@@ -1,0 +1,566 @@
+{
+  "generated_at_utc": "2026-04-16T12:24:45+00:00",
+  "repo_dir": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH",
+  "files_created_or_modified": [
+    "results/nspire_ufas_crosswalk.json",
+    "results/nspire_ufas_crosswalk_analysis.md"
+  ],
+  "scope": {
+    "description": "Consolidated crosswalk between NSPIRE inspectable standards and the principal UFAS / Section 504 accessibility requirement categories most relevant to accessible multifamily housing and common areas.",
+    "counting_unit": "Consolidated requirement category, not every UFAS sentence-level subsection.",
+    "counted_requirement_categories": 17
+  },
+  "coding_rule": {
+    "FULL": "NSPIRE would need to inspect the same feature in a way that verifies the core UFAS accessibility requirement, including existence where required and the governing dimensional/operability criteria.",
+    "PARTIAL": "NSPIRE inspects some accessibility-relevant aspect of the same feature, but only incompletely—for example, by checking safety or operability of an existing feature without verifying that the feature is required, present, correctly located, or dimensionally compliant.",
+    "NOT": "NSPIRE contains no inspectable item for the requirement, or only generic maintenance checks that do not test the accessibility standard itself."
+  },
+  "headline_title": "Of 17 consolidated UFAS/Section 504 accessibility requirement categories most relevant to federally assisted multifamily housing, NSPIRE fully covers 0, partially covers 4, and does not cover 13; no NSPIRE item verifies whether the required number of accessible units exist.",
+  "headline_findings": [
+    "Of 17 core UFAS/Section 504 accessibility requirement categories applicable to federally assisted multifamily housing, NSPIRE inspections fully cover 0 (0.0%), partially cover 4 (23.5%), and do not cover 13 (76.5%). No NSPIRE item verifies that the required number of accessible units exist in a property.",
+    "HUD's own May 2023 final-rule response states that NSPIRE may include elements of accessibility but that those elements are not the same as the federal accessibility standards and that compliance with NSPIRE does not mean compliance with federal accessibility standards.",
+    "The strongest verified overlaps are narrow: route passability/safety on existing paths and ramps, elevator operability/leveling, grab-bar security if a bar is already installed, and smoke/CO alarm functionality including audio-or-visual signaling.",
+    "The biggest omission remains property-level verification: NSPIRE has no item for accessible-unit counts, no item for designated-unit feature verification, and no accessibility output field."
+  ],
+  "summary_statistics": {
+    "total_categories": 17,
+    "fully_covered_count": 0,
+    "partially_covered_count": 4,
+    "not_covered_count": 13,
+    "fully_covered_percent": 0.0,
+    "partially_covered_percent": 23.5,
+    "not_covered_percent": 76.5,
+    "section504_required_unit_verification_present": false,
+    "quote_ready_finding": "Of 17 core UFAS/Section 504 accessibility requirement categories applicable to federally assisted multifamily housing, NSPIRE inspections fully cover 0 (0.0%), partially cover 4 (23.5%), and do not cover 13 (76.5%). No NSPIRE item verifies that the required number of accessible units exist in a property."
+  },
+  "main_conclusion": "The crosswalk confirms the note's core claim. NSPIRE is a habitability and health-and-safety inspection system, not an accessibility-compliance inspection system. It can catch some narrow accessibility-adjacent failures in existing features, but it does not verify whether accessible units exist in the required numbers or whether those units actually satisfy UFAS.",
+  "important_hud_rule_quote": "The NSPIRE Standards will include elements of accessibility within the standards, but these elements are not the same as the Federal accessibility standards as they relate to housing. Compliance with these NSPIRE Standards does not mean the participant has complied with the Federal accessibility standards.",
+  "issues_encountered": [
+    "Appendix F's shorthand description of ramp overlap is broader than the directly verified May 2023 standards tables. Direct review of HUD's final standards PDF confirmed route/ramp overlap, but only at the level of blocked/impassable/functionally-adequate paths and related handrail/guardrail/trip-hazard checks—not full UFAS dimensional compliance.",
+    "Some UFAS concepts are best understood through dwelling-unit provisions in 4.34 plus cross-referenced Chapter 4 sections. The crosswalk therefore consolidates those requirements into grouped categories rather than treating every subsection as a separate statistic."
+  ],
+  "sources_used": [
+    {
+      "id": "local_note_v89",
+      "type": "local_memo",
+      "path_or_url": "/mnt/c/Users/nickg/OneDrive/Documents/Note/note_v89_A.md",
+      "sections_used": "lines 69-105",
+      "notes": "Core claim that NSPIRE can score 100 while producing no accessibility output; system-gap table listing NSPIRE as having no accessibility inspection items."
+    },
+    {
+      "id": "local_appendix_f",
+      "type": "local_memo",
+      "path_or_url": "/mnt/c/Users/nickg/OneDrive/Documents/Note/v89_MEMO_APPENDIX_F_REGISTRIES_HMDA.md",
+      "sections_used": "F.9-F.14 (lines 216-347)",
+      "notes": "Existing Appendix F NSPIRE material and preliminary mapping."
+    },
+    {
+      "id": "local_prompt",
+      "type": "local_prompt",
+      "path_or_url": "/mnt/c/Users/nickg/OneDrive/Documents/Note/CODEX_RESEARCH_PROMPTS.md",
+      "sections_used": "lines 392-425",
+      "notes": "Original task specification, coding categories, and quote-ready finding template."
+    },
+    {
+      "id": "hud_federal_register_rule",
+      "type": "public_primary_source",
+      "path_or_url": "https://www.federalregister.gov/documents/2023/05/11/2023-09693/economic-growth-regulatory-relief-and-consumer-protection-act-implementation-of-national-standards",
+      "sections_used": "HUD response to accessibility comments in 88 Fed. Reg. 30442",
+      "notes": "HUD states that FHEO remains responsible for ADA/Section 504 accessibility enforcement, that NSPIRE includes only elements of accessibility, and that NSPIRE compliance does not equal federal accessibility compliance."
+    },
+    {
+      "id": "hud_nspire_standards_pdf",
+      "type": "public_primary_source",
+      "path_or_url": "https://www.hud.gov/sites/dfiles/PIH/documents/6092-N-05nspire_final_standards.pdf",
+      "sections_used": "Direct review of Tables 4, 5, 10, 12, 14, 17, 28-30, 40, 41, 49, 52, 56, and 58",
+      "notes": "Direct coding of NSPIRE standards used for the crosswalk."
+    },
+    {
+      "id": "cfr_8_22",
+      "type": "public_primary_source",
+      "path_or_url": "https://www.ecfr.gov/current/title-24/subtitle-A/part-8/subpart-C/section-8.22",
+      "sections_used": "§ 8.22(b)",
+      "notes": "Section 504 requirement that at least 5% of units be accessible for mobility impairments and an additional 2% for hearing/vision impairments."
+    },
+    {
+      "id": "ufas_4_2",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-2",
+      "sections_used": "4.2.3-.6",
+      "notes": "Turning space, clear floor space, and reach ranges."
+    },
+    {
+      "id": "ufas_4_3",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-3",
+      "sections_used": "4.3.2-.10",
+      "notes": "Accessible route location, width, passing space, slope, level changes, and egress."
+    },
+    {
+      "id": "ufas_4_4",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-4",
+      "sections_used": "4.4.1-.2",
+      "notes": "Protruding object and headroom limits on accessible routes."
+    },
+    {
+      "id": "ufas_4_6",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-6",
+      "sections_used": "4.6.2-.6",
+      "notes": "Accessible parking location, dimensions, access aisles, signage, slope, and clearance."
+    },
+    {
+      "id": "ufas_4_8",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-8",
+      "sections_used": "4.8.1-.8",
+      "notes": "Ramp slope, width, landings, handrails, cross-slope, and edge protection."
+    },
+    {
+      "id": "ufas_4_10",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-10",
+      "sections_used": "4.10.2-.13",
+      "notes": "Elevator leveling, controls, signals, car size, and raised characters."
+    },
+    {
+      "id": "ufas_4_13",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-13",
+      "sections_used": "4.13.5-.12",
+      "notes": "Door clear width, maneuvering clearances, thresholds, hardware, and closing speed."
+    },
+    {
+      "id": "ufas_4_14",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-14",
+      "sections_used": "4.14.1-.2",
+      "notes": "Accessible entrance and route-to-entrance requirements."
+    },
+    {
+      "id": "ufas_4_16",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-16",
+      "sections_used": "4.16.2-.6",
+      "notes": "Water-closet clearances, height, grab bars, flush controls, and dispensers."
+    },
+    {
+      "id": "ufas_4_19",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-19",
+      "sections_used": "4.19.2-.6",
+      "notes": "Lavatory height, knee clearance, floor space, faucets, and mirror height."
+    },
+    {
+      "id": "ufas_4_20",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-20",
+      "sections_used": "4.20.2-.7",
+      "notes": "Bathtub floor space, seats, grab bars, controls, shower spray, and enclosures."
+    },
+    {
+      "id": "ufas_4_21",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-21",
+      "sections_used": "4.21.2-.7",
+      "notes": "Shower size, clearances, seat, grab bars, controls, and shower spray unit."
+    },
+    {
+      "id": "ufas_4_23",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-23",
+      "sections_used": "4.23.2-.9",
+      "notes": "Bathroom door swing, turning space, fixture arrangement, and accessible controls/dispensers."
+    },
+    {
+      "id": "ufas_4_24",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-24",
+      "sections_used": "4.24.2-.7",
+      "notes": "Sink height, knee clearance, floor space, exposed pipes, and faucets."
+    },
+    {
+      "id": "ufas_4_25",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-25",
+      "sections_used": "4.25.2-.4",
+      "notes": "Accessible storage floor space, reach range, and hardware."
+    },
+    {
+      "id": "ufas_4_26",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-26",
+      "sections_used": "4.26.2-.4",
+      "notes": "Grab-bar size/spacing, structural strength, and hazard elimination."
+    },
+    {
+      "id": "ufas_4_27",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-27",
+      "sections_used": "4.27.2-.4",
+      "notes": "Reach ranges, mounting heights, and one-hand operation limits."
+    },
+    {
+      "id": "ufas_4_28",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-28",
+      "sections_used": "4.28.2-.4",
+      "notes": "Audible alarms, visual alarms, and alarm readiness in accessible sleeping accommodations."
+    },
+    {
+      "id": "ufas_4_30",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-30",
+      "sections_used": "4.30.2-.6",
+      "notes": "Raised characters, symbol of accessibility, and mounting height."
+    },
+    {
+      "id": "ufas_4_31",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-31",
+      "sections_used": "4.31.2-.8",
+      "notes": "Telephone communication features for wheelchair users and hearing-impaired users."
+    },
+    {
+      "id": "ufas_4_34",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-34",
+      "sections_used": "4.34.2-.4",
+      "notes": "Accessible dwelling-unit minimum features, controls, alarms, bathrooms, kitchens, and consumer information for adaptable units."
+    },
+    {
+      "id": "ufas_4_34_5",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-34-5",
+      "sections_used": "4.34.5.1-.6",
+      "notes": "Dwelling-unit bathroom requirements."
+    },
+    {
+      "id": "ufas_4_34_6",
+      "type": "public_reference",
+      "path_or_url": "https://www.corada.com/documents/ufas/4-34-6",
+      "sections_used": "4.34.6.1-.7",
+      "notes": "Dwelling-unit kitchen requirements."
+    }
+  ],
+  "crosswalk": [
+    {
+      "id": 1,
+      "requirement_category": "Required number of mobility-accessible and hearing/vision-accessible units",
+      "ufas_or_reg_sections": [
+        "24 C.F.R. § 8.22(b)",
+        "UFAS / § 8.32 compliance incorporated by § 8.22(b)"
+      ],
+      "nspire_items": [
+        "None"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE has no inspectable item that counts accessible units, verifies 5% mobility + 2% hearing/vision minimums, checks unit designations against requirements, or produces property-level accessibility output.",
+      "source_refs": [
+        "cfr_8_22",
+        "local_note_v89",
+        "local_appendix_f"
+      ]
+    },
+    {
+      "id": 2,
+      "requirement_category": "Accessible routes and ramps from site arrival points to entrances and common spaces",
+      "ufas_or_reg_sections": [
+        "UFAS §§ 4.3, 4.8, 4.14.1",
+        "UFAS § 4.34.2(3), (7)"
+      ],
+      "nspire_items": [
+        "Sidewalk, Walkway, and Ramp",
+        "Trip Hazard",
+        "Handrail",
+        "Guardrail",
+        "Egress"
+      ],
+      "coverage": "PARTIAL",
+      "explanation": "NSPIRE checks whether an existing walkway/ramp is blocked, impassable, unsafe, or missing key safety elements such as handrails or guardrails. It does not verify that a compliant accessible route exists, that it is 36 inches wide, that slope/cross-slope/landings comply, or that route continuity from parking/street to the accessible entrance is provided.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_3",
+        "ufas_4_8",
+        "ufas_4_14"
+      ]
+    },
+    {
+      "id": 3,
+      "requirement_category": "Accessible parking spaces and passenger loading zones",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.6"
+      ],
+      "nspire_items": [
+        "Parking Lot (potholes / ponding only)"
+      ],
+      "coverage": "NOT",
+      "explanation": "The NSPIRE Parking Lot standard addresses potholes and ponding, not accessible-space count, 96-inch parking width, 60-inch access aisles, signage, route connection, slope, or 114-inch clearance for vans/loading zones.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_6"
+      ]
+    },
+    {
+      "id": 4,
+      "requirement_category": "Doors and accessible entrances",
+      "ufas_or_reg_sections": [
+        "UFAS §§ 4.13, 4.14",
+        "UFAS § 4.34.2(6)-(7)"
+      ],
+      "nspire_items": [
+        "Door – Entry",
+        "Door – General"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE checks whether doors open, close, latch, lock, or are physically damaged, but it never measures the 32-inch clear opening, maneuvering clearances, threshold height, or accessible hardware operation that UFAS requires for accessible doors and entrances.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_13",
+        "ufas_4_14",
+        "ufas_4_34"
+      ]
+    },
+    {
+      "id": 5,
+      "requirement_category": "Wheelchair turning space, clear floor space, and route headroom/protrusion limits",
+      "ufas_or_reg_sections": [
+        "UFAS §§ 4.2, 4.4",
+        "UFAS § 4.23.3"
+      ],
+      "nspire_items": [
+        "None"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE has no inspectable item for 60-inch turning radius, 30-by-48-inch clear floor space, passing spaces, 80-inch route headroom, or 4-inch protrusion limits for blind/visually impaired users.",
+      "source_refs": [
+        "ufas_4_2",
+        "ufas_4_4",
+        "ufas_4_23"
+      ]
+    },
+    {
+      "id": 6,
+      "requirement_category": "Elevators",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.10"
+      ],
+      "nspire_items": [
+        "Elevator"
+      ],
+      "coverage": "PARTIAL",
+      "explanation": "NSPIRE checks elevator operation, door opening/closing, cab leveling, and emergency-phone/safety-door operation. It does not check hall call button height, raised jamb characters, hall lanterns, visual/audible directional signals, car dimensions, or the more detailed self-leveling and control requirements of UFAS.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_10"
+      ]
+    },
+    {
+      "id": 7,
+      "requirement_category": "Water closets: transfer clearances, height, and flush controls",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.16",
+        "UFAS § 4.34.5.2"
+      ],
+      "nspire_items": [
+        "Toilet"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE inspects toilet presence, operability, leaks, and privacy, but not transfer clearances, seat height, flush-control height/location, or dispenser placement within reach.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_16",
+        "ufas_4_34_5"
+      ]
+    },
+    {
+      "id": 8,
+      "requirement_category": "Bathroom grab bars and reinforcement",
+      "ufas_or_reg_sections": [
+        "UFAS §§ 4.16.4, 4.20.4, 4.21.4, 4.26",
+        "UFAS § 4.34.5.2, .4, .5"
+      ],
+      "nspire_items": [
+        "Grab Bar"
+      ],
+      "coverage": "PARTIAL",
+      "explanation": "NSPIRE checks only whether an installed grab bar moves when tested. It does not verify whether required grab bars are present, properly located, correctly sized/spaced, structurally reinforced, or installed in all required toilet/tub/shower locations.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_16",
+        "ufas_4_20",
+        "ufas_4_21",
+        "ufas_4_26",
+        "ufas_4_34_5"
+      ]
+    },
+    {
+      "id": 9,
+      "requirement_category": "Bathroom layout, door swing, and accessible fixture arrangement",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.23",
+        "UFAS § 4.34.5.1"
+      ],
+      "nspire_items": [
+        "Toilet",
+        "Sink",
+        "Bathtub and Shower"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE has no layout test for bathroom turning space, overlap of clear floor spaces, door swing into fixture clearances, or accessible arrangement of fixtures and controls.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_23",
+        "ufas_4_34_5"
+      ]
+    },
+    {
+      "id": 10,
+      "requirement_category": "Lavatories, mirrors, and medicine cabinets",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.19",
+        "UFAS § 4.34.5.3"
+      ],
+      "nspire_items": [
+        "Sink",
+        "Cabinet and Storage"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE checks sink function and general cabinet condition, not lavatory height, knee/toe clearance, front-approach floor space, mirror mounting height, or medicine-cabinet shelf height.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_19",
+        "ufas_4_34_5"
+      ]
+    },
+    {
+      "id": 11,
+      "requirement_category": "Bathtubs and showers: seats, controls, spray units, transfer area, and enclosure clearance",
+      "ufas_or_reg_sections": [
+        "UFAS §§ 4.20, 4.21",
+        "UFAS § 4.34.5.4-.6"
+      ],
+      "nspire_items": [
+        "Bathtub and Shower"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE evaluates basic operability, drainage, and privacy, not transfer space, required seats, control placement, 60-inch hand-held shower hose, or whether enclosures obstruct transfer or controls.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_20",
+        "ufas_4_21",
+        "ufas_4_34_5"
+      ]
+    },
+    {
+      "id": 12,
+      "requirement_category": "Kitchens: clearances, work surfaces, sink/appliance approach, and appliance controls",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.24",
+        "UFAS § 4.34.6"
+      ],
+      "nspire_items": [
+        "Food Preparation Area",
+        "Cooking Appliance",
+        "Sink",
+        "Cabinet and Storage"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE checks whether the kitchen components exist and function. It does not test 40-inch clearance between opposing elements, accessible work-surface height, knee clearance, 30-by-48-inch clear floor space at appliances, accessible sink depth/height, or control location.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_24",
+        "ufas_4_34_6"
+      ]
+    },
+    {
+      "id": 13,
+      "requirement_category": "Storage reach ranges and accessible hardware",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.25",
+        "UFAS § 4.34.2(8)"
+      ],
+      "nspire_items": [
+        "Cabinet and Storage"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE checks whether storage exists and whether cabinets/drawers/shelves are damaged or inoperable. It does not test 30-by-48-inch approach space, 54-inch maximum clothes-rod height, reach ranges, or accessible hardware operation.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_25",
+        "ufas_4_34"
+      ]
+    },
+    {
+      "id": 14,
+      "requirement_category": "Controls and operating mechanisms",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.27",
+        "UFAS § 4.34.2(9)"
+      ],
+      "nspire_items": [
+        "Electrical – Conductor, Outlet, and Switch",
+        "Minimum Electrical and Lighting"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE checks damaged switches/outlets and the minimum number of working outlets/light fixtures in habitable rooms. It does not test the required 15-inch minimum receptacle height, reachable operable-part height, one-hand operation, or the five-pound activation-force limit.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_27",
+        "ufas_4_34"
+      ]
+    },
+    {
+      "id": 15,
+      "requirement_category": "Visual emergency alarms and alarm readiness in hearing/vision-accessible units",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.28",
+        "UFAS § 4.34.2(10)",
+        "UFAS § 4.34.4(4)"
+      ],
+      "nspire_items": [
+        "Smoke Alarm",
+        "Carbon Monoxide Alarm"
+      ],
+      "coverage": "PARTIAL",
+      "explanation": "NSPIRE checks whether certain smoke and carbon-monoxide alarms are installed and whether they produce an audio or visual alarm when tested. It does not verify visual emergency alarm connection/readiness for accessible sleeping accommodations, the required number of hearing/vision units, or broader communication features.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_28",
+        "ufas_4_34"
+      ]
+    },
+    {
+      "id": 16,
+      "requirement_category": "Accessible signage",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.30"
+      ],
+      "nspire_items": [
+        "Address and Signage"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE checks whether address/building-identification signage is visible for emergency response. It does not inspect raised characters, the international symbol of accessibility, color contrast, or latch-side mounting height for accessible interior signage.",
+      "source_refs": [
+        "hud_nspire_standards_pdf",
+        "ufas_4_30"
+      ]
+    },
+    {
+      "id": 17,
+      "requirement_category": "Telephones and communication features for hearing-impaired users",
+      "ufas_or_reg_sections": [
+        "UFAS § 4.31"
+      ],
+      "nspire_items": [
+        "None"
+      ],
+      "coverage": "NOT",
+      "explanation": "NSPIRE has no inspectable item for telephone clear floor space, operable-part height, hearing-aid compatibility, volume controls, or pushbutton controls.",
+      "source_refs": [
+        "ufas_4_31"
+      ]
+    }
+  ]
+}

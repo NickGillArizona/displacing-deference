@@ -1,0 +1,79 @@
+[
+  {
+    "source_file": "7804109_2022_Sailboat Bend Sober Living v. City of Fort Lauderdale, FL._ca11",
+    "custom_id": "manual-uor-7804109",
+    "case_name": "Sailboat Bend Sober Living, LLC v. City of Fort Lauderdale, Florida",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "provider_trace": [
+      {
+        "custom_id": "manual-uor-7804109",
+        "model": "manual_salvage_from_partial_and_case_text",
+        "raw_text": "Manual salvage from truncated rerun output plus Unified_Claims_Extraction.json and opinion text.",
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0
+        },
+        "provider_response_id": "manual-salvage"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_DEFENDANT_WIN",
+      "pleading_failure_mechanism": "DISABILITY_NEXUS_MISSING",
+      "institutional_function_missing": [
+        "EXPERT_OR_TECHNICAL_TRANSLATION",
+        "FACT_DEVELOPMENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The Eleventh Circuit affirmed summary judgment for the City on FHA and ADA theories arising from zoning and fire-code enforcement against a sober living operator. The core reasonable-accommodation failure turned on plaintiffs’ inability to show a causal nexus between residents’ disabilities and the requested fire-sprinkler accommodation, while the public regulatory setting and record-heavy process make this a public-process case with a meaningful institutional-translation component rather than a simple pleading failure."
+    }
+  },
+  {
+    "source_file": "9884412_2023_Avila v. Acacia Network Inc._nysd",
+    "custom_id": "manual-uor-9884412",
+    "case_name": "Jimmy Avila v. Acacia Network, Inc.",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "provider_trace": [
+      {
+        "custom_id": "manual-uor-9884412",
+        "model": "manual_salvage_from_partial_and_case_text",
+        "raw_text": "Manual salvage from truncated rerun output plus Unified_Claims_Extraction.json and dismissal order text.",
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "total_tokens": 0
+        },
+        "provider_response_id": "manual-salvage"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "PROCEDURAL_GATEWAY",
+      "pleading_failure_mechanism": "TIMING_OR_NOTICE_GAP",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "DOCUMENT_ASSEMBLY"
+      ],
+      "administratively_observable_fact_pattern": [
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "HIGH",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The dismissal order shows a pro se supportive-housing plaintiff proceeding in forma pauperis whose complaint was dismissed under § 1915(e)(2)(B)(ii) after he failed to file the amended complaint the court had ordered to state valid FHA and ADA claims. The case is best understood as a procedural-gateway failure shaped by timing and noncompliance with the amendment process, with the deeper institutional deficits lying in theory selection, fact development, and document assembly rather than an adjudicated merits rejection of a fully formed accommodation claim."
+    }
+  }
+]

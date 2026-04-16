@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-04-16T09:29:58.427854+00:00",
+  "wave_pleading_loss_cases": 535,
+  "gap_cases": 141,
+  "full_results": 676,
+  "wave_lookup_entries": 535,
+  "gap_lookup_entries": 147,
+  "full_lookup_entries": 682,
+  "wave_lookup_unique_source_files": 535,
+  "gap_lookup_unique_source_files": 141,
+  "full_lookup_unique_source_files": 676,
+  "full_results_unique_source_files": 676,
+  "merged_db_unique_source_files": 3198,
+  "lookup_row_counts": {
+    "wave_subset_carried_forward_into_full_build": {
+      "raw_lookup_rows": 535,
+      "unique_source_files": 535
+    },
+    "gap_glm3200_r1_lookup": {
+      "raw_lookup_rows": 141,
+      "unique_source_files": 141
+    },
+    "gap_glm5000_rerun_r1_lookup": {
+      "raw_lookup_rows": 6,
+      "unique_source_files": 6
+    },
+    "gap_final_lookup": {
+      "raw_lookup_rows": 147,
+      "unique_source_files": 141
+    },
+    "full_lookup": {
+      "raw_lookup_rows": 682,
+      "unique_source_files": 676
+    },
+    "full_results": {
+      "rows": 676,
+      "unique_source_files": 676
+    },
+    "merged_db_records": {
+      "rows": 3198,
+      "unique_source_files": 3198
+    }
+  },
+  "duplicate_source_files_from_raw_lookup": [
+    {
+      "source_file": "10221400_2020_Banks v. Gates Hudson _ Associates, Inc._vaed",
+      "canonical_custom_id": "uor-0000-13a1ea0e7559",
+      "raw_lookup_custom_ids": [
+        "uor-0004-13a1ea0e7559",
+        "uor-0000-13a1ea0e7559"
+      ],
+      "raw_lookup_row_count": 2
+    },
+    {
+      "source_file": "10221825_2021_Fedynich v. Lozano_vaed",
+      "canonical_custom_id": "uor-0001-26cbc4388188",
+      "raw_lookup_custom_ids": [
+        "uor-0006-26cbc4388188",
+        "uor-0001-26cbc4388188"
+      ],
+      "raw_lookup_row_count": 2
+    },
+    {
+      "source_file": "10249834_2021_Huzjak v. Ellis_wied",
+      "canonical_custom_id": "uor-0002-8e89e0f6bd3c",
+      "raw_lookup_custom_ids": [
+        "uor-0008-8e89e0f6bd3c",
+        "uor-0002-8e89e0f6bd3c"
+      ],
+      "raw_lookup_row_count": 2
+    },
+    {
+      "source_file": "9531969_2021_Arthur v. Windsor Shadows Homeowner's Association_azd",
+      "canonical_custom_id": "uor-0003-a6ba6b97de8c",
+      "raw_lookup_custom_ids": [
+        "uor-0031-a6ba6b97de8c",
+        "uor-0003-a6ba6b97de8c"
+      ],
+      "raw_lookup_row_count": 2
+    },
+    {
+      "source_file": "9565491_2021_Hamilton v. Madera County_caed",
+      "canonical_custom_id": "uor-0004-c21c817ef482",
+      "raw_lookup_custom_ids": [
+        "uor-0037-c21c817ef482",
+        "uor-0004-c21c817ef482"
+      ],
+      "raw_lookup_row_count": 2
+    },
+    {
+      "source_file": "9750789_2021_McCree v. KMG Prestiege Company_mied",
+      "canonical_custom_id": "uor-0005-3eb874ab26b5",
+      "raw_lookup_custom_ids": [
+        "uor-0066-3eb874ab26b5",
+        "uor-0005-3eb874ab26b5"
+      ],
+      "raw_lookup_row_count": 2
+    }
+  ],
+  "path_consistency": {
+    "repo_local_data_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/FHA_Unified_Database.json",
+    "merge_artifact_data_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/data/2/FHA_Unified_Database.json",
+    "repo_local_sha256": "5a4a8a49de2a43cbaab0c357c1842bdc9aea7a62e20ca51182040dead74200e5",
+    "merge_artifact_sha256": "5a4a8a49de2a43cbaab0c357c1842bdc9aea7a62e20ca51182040dead74200e5",
+    "paths_are_hash_identical": true
+  },
+  "artifacts": {
+    "build_audit_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/results/unified_overnight_openrouter_screened_disability_pleading_loss_full_build_audit.json",
+    "deduped_lookup_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/results/unified_overnight_openrouter_screened_disability_pleading_loss_full_id_lookup_deduped_by_source_file.json"
+  },
+  "notes": [
+    "Raw lookup counts are custom-id row counts. Dedupe counts are unique source_file counts used by the merged/results artifacts and the downstream mechanism analysis.",
+    "The merged_db_* counts refer to the full DB-backed merged artifact (3198 records), not just the 676-case screened disability pleading-loss target subset.",
+    "The consolidated gap-final lookup includes the 141-row glm3200 base lookup plus a 6-row rerun lookup; those six rerun custom IDs duplicate source_files already present in the base lookup, so 147 raw lookup rows collapse to 141 unique source_files.",
+    "The combined full lookup therefore contains 682 raw lookup rows but only 676 unique source_files, matching the deduped full results/merged universe of 676 cases.",
+    "Merge artifacts may reference /mnt/c/Users/nickg/OneDrive/Documents/Note/data/2/FHA_Unified_Database.json, while the analysis script uses /mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/FHA_Unified_Database.json. SHA-256 matches (5a4a8a49de2a43cbaab0c357c1842bdc9aea7a62e20ca51182040dead74200e5)."
+  ]
+}

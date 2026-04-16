@@ -1,0 +1,2741 @@
+{
+  "analysis_timestamp_utc": "2026-04-16T16:27:43+00:00",
+  "data_source": {
+    "survey": "ACS 2020-2024 5-Year PUMS",
+    "api": "https://api.census.gov/data/2024/acs/acs5/pums",
+    "universe": "Renter-occupied householders (TEN=3, SPORDER=1), 50 states + DC; Puerto Rico excluded",
+    "weight": "WGTP"
+  },
+  "methodology": {
+    "four_plus_proxy_definition": "BLD=05-09. BLD=05 is the combined 3-4-unit bucket and serves as the closest reproducible proxy for exact 4-unit buildings.",
+    "exact_building_size_gap_assessment": "Public Census products available in this workspace do not point-identify exact 4-unit buildings; the residual uncertainty is confined to the ACS/AHS BLD=05 bucket.",
+      "checked_public_exact_size_sources": [
+        "ACS detailed-table metadata: B25024 and B25032 use a '3 or 4' category; B25127 uses '2 to 4'",
+        "Local AHS 2019/2023 public-use metadata: BLD=05 is labeled '3 to 4 apartments'"
+      ],
+    "pre_trigger_fraction_applied_to_1990s_bucket": 0.1196604600219058,
+    "pre_trigger_fraction_explanation": "437 of 3,652 days in the ACS 1990-1999 YRBLT bucket fall on or before March 13, 1991.",
+    "metro_classification": "2020 tract-to-PUMA relationship file plus July 2023 OMB delineation file (2020 standards); PUMA classified metro if a majority of its tracts fall in metropolitan counties.",
+    "post_1991_noncompliance_rate": 0.47,
+    "post_1991_noncompliance_rate_source": "Housing Equality Center of Pennsylvania regional testing, as summarized in appendices/Appendix_H_Supplementary_Data.md"
+  },
+  "top_line": {
+    "all_rental_stock_pre_trigger_estimate_share": 0.6565187345476893,
+    "literal_four_plus_share_of_all_renters_lower_bound": 0.4848377325938087,
+    "literal_four_plus_share_of_all_renters_upper_bound": 0.5932166991655705,
+    "literal_four_plus_pre_trigger_share_within_minimum": 0.5562680123016135,
+    "literal_four_plus_pre_trigger_share_within_maximum": 0.6450326608213212,
+    "literal_four_plus_disabled_pre_trigger_share_of_all_disabled_renters_lower_bound": 0.36252061744835123,
+    "literal_four_plus_disabled_pre_trigger_share_of_all_disabled_renters_upper_bound": 0.44464460270586287,
+    "literal_four_plus_disabled_pre_trigger_share_within_minimum": 0.6344976592309439,
+    "literal_four_plus_disabled_pre_trigger_share_within_maximum": 0.706006390391167,
+    "literal_four_plus_disabled_accessibility_deficit_share_of_all_disabled_renters_lower_bound": 0.44930431870107695,
+    "literal_four_plus_disabled_accessibility_deficit_share_of_all_disabled_renters_upper_bound": 0.5431274151171331,
+    "four_plus_proxy_share_of_all_renters": 0.5932166991655705,
+    "four_plus_proxy_pre_trigger_share_within_four_plus": 0.6152245298202748,
+    "four_plus_proxy_pre_trigger_share_of_all_renters": 0.3649614648256735,
+    "disabled_pre_trigger_four_plus_share_of_all_disabled_renters": 0.44464460270586287,
+    "disabled_post_trigger_four_plus_share_of_all_disabled_renters": 0.2095378987473835,
+    "disabled_pre_trigger_four_plus_households": 2435492.7897042716,
+    "disabled_post_trigger_four_plus_households": 1147721.2102957284,
+    "disabled_pre_trigger_four_plus_share_within_multifamily": 0.679695041854679,
+    "disabled_post_trigger_four_plus_share_within_multifamily": 0.32030495814532106,
+    "disabled_post_trigger_noncompliant_share_of_all_disabled_renters": 0.09848281241127023,
+    "disabled_accessibility_deficit_share_of_all_disabled_renters": 0.5431274151171331,
+    "disabled_accessibility_deficit_share_within_multifamily": 0.8302383721829799
+  },
+  "overall": {
+    "segment": "overall",
+    "total_renter_occupied_units": 42812726.0,
+    "disabled_renter_households": 5477392.0,
+    "disabled_share_of_all_renters": 0.12793840784630253,
+    "unknown_year_total": 0.0,
+    "unknown_year_disabled": 0.0,
+    "all_rental_stock": {
+      "total": 42812726.0,
+      "pre_trigger_lower_bound": 27548679.0,
+      "yr1990s_bucket": 4668858.0,
+      "pre_trigger_estimate": 28107356.696056955,
+      "post_trigger_estimate": 14705369.303943045,
+      "pre_trigger_estimate_share": 0.6565187345476893,
+      "post_trigger_estimate_share": 0.3434812654523107,
+      "pre_trigger_lower_bound_share": 0.6434693973936628
+    },
+    "all_rental_stock_disabled": {
+      "total": 5477392.0,
+      "pre_trigger_lower_bound": 3828155.0,
+      "yr1990s_bucket": 561746.0,
+      "pre_trigger_estimate": 3895373.7847754657,
+      "post_trigger_estimate": 1582018.2152245345,
+      "pre_trigger_estimate_share": 0.7111730883558207,
+      "post_trigger_estimate_share": 0.2888269116441793,
+      "pre_trigger_lower_bound_share": 0.698901046337381,
+      "share_of_all_disabled_renters_pre_trigger_estimate": 0.7111730883558207,
+      "share_of_all_disabled_renters_post_trigger_estimate": 0.2888269116441793
+    },
+    "four_plus_proxy_stock": {
+      "total": 25397224.0,
+      "pre_trigger_lower_bound": 15286882.0,
+      "yr1990s_bucket": 2825605.0,
+      "pre_trigger_estimate": 15624995.194140198,
+      "post_trigger_estimate": 9772228.805859802,
+      "pre_trigger_estimate_share": 0.6152245298202748,
+      "post_trigger_estimate_share": 0.38477547017972524,
+      "pre_trigger_lower_bound_share": 0.6019115317485092,
+      "share_of_all_renters": 0.5932166991655705,
+      "pre_trigger_share_within_four_plus_proxy": 0.6152245298202748,
+      "post_trigger_share_within_four_plus_proxy": 0.38477547017972524,
+      "pre_trigger_share_of_all_renters": 0.3649614648256735,
+      "post_trigger_share_of_all_renters": 0.22825523433989703
+    },
+    "four_plus_proxy_disabled": {
+      "total": 3583214.0,
+      "pre_trigger_lower_bound": 2389872.0,
+      "yr1990s_bucket": 381252.0,
+      "pre_trigger_estimate": 2435492.7897042716,
+      "post_trigger_estimate": 1147721.2102957284,
+      "pre_trigger_estimate_share": 0.679695041854679,
+      "post_trigger_estimate_share": 0.32030495814532106,
+      "pre_trigger_lower_bound_share": 0.6669632346826062,
+      "share_of_all_disabled_renters_in_four_plus_proxy": 0.6541825014532464,
+      "share_of_all_disabled_renters_pre_trigger_estimate": 0.44464460270586287,
+      "share_of_all_disabled_renters_post_trigger_estimate": 0.2095378987473835,
+      "disabled_share_within_pre_trigger_four_plus_proxy": 0.15587158648328087,
+      "disabled_share_within_post_trigger_four_plus_proxy": 0.11744723062639618,
+      "post_trigger_noncompliant_share_of_all_disabled_renters": 0.09848281241127023,
+      "accessibility_deficit_share_of_all_disabled_renters": 0.5431274151171331,
+      "accessibility_deficit_disabled_households_estimate": 2974921.758543264,
+      "accessibility_deficit_share_within_four_plus_proxy_disabled_households": 0.8302383721829799
+    },
+    "literal_four_plus_bounds": {
+      "checked_public_sources": [
+        "ACS detailed-table metadata: B25024 and B25032 use a '3 or 4' category; B25127 uses '2 to 4'",
+        "Local AHS 2019/2023 public-use metadata: BLD=05 is labeled '3 to 4 apartments'"
+      ],
+      "exact_size_gap_status": "Public Census products available in this workspace do not point-identify exact 4-unit buildings; the residual uncertainty is confined to the ACS/AHS BLD=05 bucket.",
+      "exact_five_plus_stock_floor": {
+        "total": 20757225.0,
+        "pre_trigger_lower_bound": 11912476.0,
+        "yr1990s_bucket": 2329994.0,
+        "pre_trigger_estimate": 12191284.15388828,
+        "post_trigger_estimate": 8565940.84611172,
+        "pre_trigger_estimate_share": 0.5873272633450897,
+        "post_trigger_estimate_share": 0.4126727366549103,
+        "pre_trigger_lower_bound_share": 0.5738954026850892,
+        "share_of_all_renters": 0.4848377325938087,
+        "pre_trigger_share_of_all_renters": 0.28475841865076007
+      },
+      "indeterminate_bld05_bucket": {
+        "total": 4639999.0,
+        "pre_trigger_lower_bound": 3374406.0,
+        "yr1990s_bucket": 495611.0,
+        "pre_trigger_estimate": 3433711.0402519167,
+        "post_trigger_estimate": 1206287.9597480833,
+        "pre_trigger_estimate_share": 0.7400240905767257,
+        "post_trigger_estimate_share": 0.2599759094232743,
+        "pre_trigger_lower_bound_share": 0.7272428291471614,
+        "share_of_all_renters": 0.10837896657176187,
+        "pre_trigger_share_of_all_renters": 0.08020304617491343,
+        "disabled_total": 586167.0,
+        "disabled_share_of_all_disabled_renters": 0.10701571112675522,
+        "disabled_pre_trigger_estimate": 449825.25985761225,
+        "disabled_post_trigger_estimate": 136341.74014238775,
+        "disabled_pre_trigger_share_of_all_disabled_renters": 0.08212398525751165,
+        "disabled_post_trigger_share_of_all_disabled_renters": 0.024891725869243566
+      },
+      "literal_four_plus_stock_bounds": {
+        "total_lower_bound": 20757225.0,
+        "total_upper_bound": 25397224.0,
+        "share_of_all_renters_lower_bound": 0.4848377325938087,
+        "share_of_all_renters_upper_bound": 0.5932166991655705,
+        "pre_trigger_estimate_lower_bound": 12191284.15388828,
+        "pre_trigger_estimate_upper_bound": 15624995.194140196,
+        "pre_trigger_share_of_all_renters_lower_bound": 0.28475841865076007,
+        "pre_trigger_share_of_all_renters_upper_bound": 0.3649614648256735,
+        "pre_trigger_share_within_literal_four_plus_minimum": 0.5562680123016135,
+        "pre_trigger_share_within_literal_four_plus_maximum": 0.6450326608213212,
+        "minimum_share_assumption": "only the BLD=05 1990-1999 component and the BLD=05 post-1999 component are treated as exact 4-unit",
+        "maximum_share_assumption": "only the BLD=05 pre-1990 component is treated as exact 4-unit"
+      },
+      "literal_four_plus_disabled_bounds": {
+        "total_lower_bound": 2997047.0,
+        "total_upper_bound": 3583214.0,
+        "share_of_all_disabled_renters_in_literal_four_plus_lower_bound": 0.5471667903264912,
+        "share_of_all_disabled_renters_in_literal_four_plus_upper_bound": 0.6541825014532464,
+        "pre_trigger_estimate_lower_bound": 1985667.5298466594,
+        "pre_trigger_estimate_upper_bound": 2435492.7897042716,
+        "share_of_all_disabled_renters_pre_trigger_lower_bound": 0.36252061744835123,
+        "share_of_all_disabled_renters_pre_trigger_upper_bound": 0.44464460270586287,
+        "pre_trigger_share_within_literal_four_plus_minimum": 0.6344976592309439,
+        "pre_trigger_share_within_literal_four_plus_maximum": 0.706006390391167,
+        "minimum_share_assumption": "only the disabled BLD=05 1990-1999 component and the disabled BLD=05 post-1999 component are treated as exact 4-unit",
+        "maximum_share_assumption": "only the disabled BLD=05 pre-1990 component is treated as exact 4-unit",
+        "accessibility_deficit_disabled_households_lower_bound": 2461015.8808187293,
+        "accessibility_deficit_disabled_households_upper_bound": 2974921.758543264,
+        "accessibility_deficit_share_of_all_disabled_renters_lower_bound": 0.44930431870107695,
+        "accessibility_deficit_share_of_all_disabled_renters_upper_bound": 0.5431274151171331
+      }
+    },
+    "size_buckets": {
+      "four_unit_proxy": {
+        "total": 4639999.0,
+        "pre_trigger_lower_bound": 3374406.0,
+        "yr1990s_bucket": 495611.0,
+        "pre_trigger_estimate": 3433711.0402519167,
+        "post_trigger_estimate": 1206287.9597480833,
+        "pre_trigger_estimate_share": 0.7400240905767257,
+        "post_trigger_estimate_share": 0.2599759094232743,
+        "pre_trigger_lower_bound_share": 0.7272428291471614,
+        "share_of_all_renters": 0.10837896657176187,
+        "disabled_count": 586167.0,
+        "disabled_share_within_size_bucket": 0.1263291220536901,
+        "disabled_share_of_all_disabled_renters": 0.10701571112675522,
+        "disabled_pre_trigger_estimate": 449825.25985761225,
+        "disabled_post_trigger_estimate": 136341.74014238775,
+        "disabled_pre_trigger_share_of_all_disabled_renters": 0.08212398525751165,
+        "disabled_post_trigger_share_of_all_disabled_renters": 0.024891725869243566
+      },
+      "five_to_nineteen": {
+        "total": 9736563.0,
+        "pre_trigger_lower_bound": 6079870.0,
+        "yr1990s_bucket": 1283475.0,
+        "pre_trigger_estimate": 6233451.208926615,
+        "post_trigger_estimate": 3503111.7910733847,
+        "pre_trigger_estimate_share": 0.6402106378736127,
+        "post_trigger_estimate_share": 0.3597893621263874,
+        "pre_trigger_lower_bound_share": 0.6244369804827432,
+        "share_of_all_renters": 0.22742216881961685,
+        "disabled_count": 1088387.0,
+        "disabled_share_within_size_bucket": 0.11178349074514282,
+        "disabled_share_of_all_disabled_renters": 0.19870533275690327,
+        "disabled_pre_trigger_estimate": 775175.6311610077,
+        "disabled_post_trigger_estimate": 313211.3688389923,
+        "disabled_pre_trigger_share_of_all_disabled_renters": 0.14152275958357693,
+        "disabled_post_trigger_share_of_all_disabled_renters": 0.05718257317332634
+      },
+      "twenty_to_forty_nine": {
+        "total": 4017192.0,
+        "pre_trigger_lower_bound": 2370834.0,
+        "yr1990s_bucket": 421018.0,
+        "pre_trigger_estimate": 2421213.2075575027,
+        "post_trigger_estimate": 1595978.7924424973,
+        "pre_trigger_estimate_share": 0.6027128420940554,
+        "post_trigger_estimate_share": 0.3972871579059446,
+        "pre_trigger_lower_bound_share": 0.5901719409975924,
+        "share_of_all_renters": 0.09383172657587839,
+        "disabled_count": 607129.0,
+        "disabled_share_within_size_bucket": 0.15113268173390768,
+        "disabled_share_of_all_disabled_renters": 0.110842714927104,
+        "disabled_pre_trigger_estimate": 396416.81845564075,
+        "disabled_post_trigger_estimate": 210712.18154435925,
+        "disabled_pre_trigger_share_of_all_disabled_renters": 0.07237327882606188,
+        "disabled_post_trigger_share_of_all_disabled_renters": 0.03846943610104211
+      },
+      "fifty_plus": {
+        "total": 7003470.0,
+        "pre_trigger_lower_bound": 3461772.0,
+        "yr1990s_bucket": 625501.0,
+        "pre_trigger_estimate": 3536619.737404162,
+        "post_trigger_estimate": 3466850.262595838,
+        "pre_trigger_estimate_share": 0.5049810647299356,
+        "post_trigger_estimate_share": 0.4950189352700644,
+        "pre_trigger_lower_bound_share": 0.4942938286306645,
+        "share_of_all_renters": 0.16358383719831343,
+        "disabled_count": 1301531.0,
+        "disabled_share_within_size_bucket": 0.1858408760228858,
+        "disabled_share_of_all_disabled_renters": 0.23761874264248387,
+        "disabled_pre_trigger_estimate": 814075.0802300109,
+        "disabled_post_trigger_estimate": 487455.91976998904,
+        "disabled_pre_trigger_share_of_all_disabled_renters": 0.14862457903871237,
+        "disabled_post_trigger_share_of_all_disabled_renters": 0.08899416360377148
+      }
+    },
+    "building_stock_by_year_built_size_tenure": [
+      {
+        "year_built_category": "1939 or earlier",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 17651.0,
+        "share_of_all_renter_stock": 0.0004122839550090784
+      },
+      {
+        "year_built_category": "1939 or earlier",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1763503.0,
+        "share_of_all_renter_stock": 0.04119109350803778
+      },
+      {
+        "year_built_category": "1939 or earlier",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 776447.0,
+        "share_of_all_renter_stock": 0.01813589258483564
+      },
+      {
+        "year_built_category": "1939 or earlier",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 813631.0,
+        "share_of_all_renter_stock": 0.019004419386889775
+      },
+      {
+        "year_built_category": "1939 or earlier",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 870327.0,
+        "share_of_all_renter_stock": 0.020328698527629377
+      },
+      {
+        "year_built_category": "1939 or earlier",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 482158.0,
+        "share_of_all_renter_stock": 0.011262025221192408
+      },
+      {
+        "year_built_category": "1939 or earlier",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 564337.0,
+        "share_of_all_renter_stock": 0.013181524577528653
+      },
+      {
+        "year_built_category": "1940-49",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 8770.0,
+        "share_of_all_renter_stock": 0.0002048456339827555
+      },
+      {
+        "year_built_category": "1940-49",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 892648.0,
+        "share_of_all_renter_stock": 0.02085006219879575
+      },
+      {
+        "year_built_category": "1940-49",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 199735.0,
+        "share_of_all_renter_stock": 0.004665318438260624
+      },
+      {
+        "year_built_category": "1940-49",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 220675.0,
+        "share_of_all_renter_stock": 0.005154425345398468
+      },
+      {
+        "year_built_category": "1940-49",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 276430.0,
+        "share_of_all_renter_stock": 0.00645672504012008
+      },
+      {
+        "year_built_category": "1940-49",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 135208.0,
+        "share_of_all_renter_stock": 0.0031581263944743905
+      },
+      {
+        "year_built_category": "1940-49",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 173372.0,
+        "share_of_all_renter_stock": 0.004049543586642906
+      },
+      {
+        "year_built_category": "1950-59",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 30307.0,
+        "share_of_all_renter_stock": 0.0007078969930576249
+      },
+      {
+        "year_built_category": "1950-59",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1718501.0,
+        "share_of_all_renter_stock": 0.040139957450969134
+      },
+      {
+        "year_built_category": "1950-59",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 308094.0,
+        "share_of_all_renter_stock": 0.007196318216223839
+      },
+      {
+        "year_built_category": "1950-59",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 352905.0,
+        "share_of_all_renter_stock": 0.008242992982974267
+      },
+      {
+        "year_built_category": "1950-59",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 539899.0,
+        "share_of_all_renter_stock": 0.012610712992207037
+      },
+      {
+        "year_built_category": "1950-59",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 226439.0,
+        "share_of_all_renter_stock": 0.0052890582113365074
+      },
+      {
+        "year_built_category": "1950-59",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 341678.0,
+        "share_of_all_renter_stock": 0.007980757870919035
+      },
+      {
+        "year_built_category": "1960-69",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 89392.0,
+        "share_of_all_renter_stock": 0.0020879772990862575
+      },
+      {
+        "year_built_category": "1960-69",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1469921.0,
+        "share_of_all_renter_stock": 0.0343337399258342
+      },
+      {
+        "year_built_category": "1960-69",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 325695.0,
+        "share_of_all_renter_stock": 0.007607434294186266
+      },
+      {
+        "year_built_category": "1960-69",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 479293.0,
+        "share_of_all_renter_stock": 0.011195105866419251
+      },
+      {
+        "year_built_category": "1960-69",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 976916.0,
+        "share_of_all_renter_stock": 0.022818355458141114
+      },
+      {
+        "year_built_category": "1960-69",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 394328.0,
+        "share_of_all_renter_stock": 0.009210532401043558
+      },
+      {
+        "year_built_category": "1960-69",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 634188.0,
+        "share_of_all_renter_stock": 0.014813072169242388
+      },
+      {
+        "year_built_category": "1970-79",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 290934.0,
+        "share_of_all_renter_stock": 0.0067955028138128835
+      },
+      {
+        "year_built_category": "1970-79",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1775352.0,
+        "share_of_all_renter_stock": 0.04146785701055336
+      },
+      {
+        "year_built_category": "1970-79",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 433327.0,
+        "share_of_all_renter_stock": 0.010121453139891162
+      },
+      {
+        "year_built_category": "1970-79",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 802964.0,
+        "share_of_all_renter_stock": 0.018755264497757045
+      },
+      {
+        "year_built_category": "1970-79",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1737292.0,
+        "share_of_all_renter_stock": 0.040578869002641876
+      },
+      {
+        "year_built_category": "1970-79",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 603757.0,
+        "share_of_all_renter_stock": 0.014102278841109067
+      },
+      {
+        "year_built_category": "1970-79",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 952538.0,
+        "share_of_all_renter_stock": 0.02224894532527548
+      },
+      {
+        "year_built_category": "1980-89",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 326912.0,
+        "share_of_all_renter_stock": 0.007635860421501775
+      },
+      {
+        "year_built_category": "1980-89",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1486779.0,
+        "share_of_all_renter_stock": 0.03472750135088338
+      },
+      {
+        "year_built_category": "1980-89",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 347829.0,
+        "share_of_all_renter_stock": 0.00812443010519816
+      },
+      {
+        "year_built_category": "1980-89",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 704938.0,
+        "share_of_all_renter_stock": 0.016465618190254924
+      },
+      {
+        "year_built_category": "1980-89",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1679006.0,
+        "share_of_all_renter_stock": 0.03921745137181874
+      },
+      {
+        "year_built_category": "1980-89",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 528944.0,
+        "share_of_all_renter_stock": 0.01235483113128559
+      },
+      {
+        "year_built_category": "1980-89",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 795659.0,
+        "share_of_all_renter_stock": 0.01858463766124119
+      },
+      {
+        "year_built_category": "1990-1999",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 366159.0,
+        "share_of_all_renter_stock": 0.008552573830500771
+      },
+      {
+        "year_built_category": "1990-1999",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1227024.0,
+        "share_of_all_renter_stock": 0.02866026330582173
+      },
+      {
+        "year_built_category": "1990-1999",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 250070.0,
+        "share_of_all_renter_stock": 0.005841020261125162
+      },
+      {
+        "year_built_category": "1990-1999",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 495611.0,
+        "share_of_all_renter_stock": 0.011576254219364588
+      },
+      {
+        "year_built_category": "1990-1999",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1283475.0,
+        "share_of_all_renter_stock": 0.02997881984903274
+      },
+      {
+        "year_built_category": "1990-1999",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 421018.0,
+        "share_of_all_renter_stock": 0.00983394516854638
+      },
+      {
+        "year_built_category": "1990-1999",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 625501.0,
+        "share_of_all_renter_stock": 0.014610165211157076
+      },
+      {
+        "year_built_category": "2000-2009",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 213333.0,
+        "share_of_all_renter_stock": 0.004982934279868094
+      },
+      {
+        "year_built_category": "2000-2009",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1459409.0,
+        "share_of_all_renter_stock": 0.03408820545554609
+      },
+      {
+        "year_built_category": "2000-2009",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 223993.0,
+        "share_of_all_renter_stock": 0.005231925666214293
+      },
+      {
+        "year_built_category": "2000-2009",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 428724.0,
+        "share_of_all_renter_stock": 0.010013938378976382
+      },
+      {
+        "year_built_category": "2000-2009",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1233678.0,
+        "share_of_all_renter_stock": 0.028815684383190175
+      },
+      {
+        "year_built_category": "2000-2009",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 480462.0,
+        "share_of_all_renter_stock": 0.011222410831769974
+      },
+      {
+        "year_built_category": "2000-2009",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 938766.0,
+        "share_of_all_renter_stock": 0.021927265271545662
+      },
+      {
+        "year_built_category": "2010-2019",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 157737.0,
+        "share_of_all_renter_stock": 0.003684348434154835
+      },
+      {
+        "year_built_category": "2010-2019",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 863486.0,
+        "share_of_all_renter_stock": 0.020168909590106456
+      },
+      {
+        "year_built_category": "2010-2019",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 188571.0,
+        "share_of_all_renter_stock": 0.004404554851284172
+      },
+      {
+        "year_built_category": "2010-2019",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 305946.0,
+        "share_of_all_renter_stock": 0.007146146218299671
+      },
+      {
+        "year_built_category": "2010-2019",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1016515.0,
+        "share_of_all_renter_stock": 0.02374329072154854
+      },
+      {
+        "year_built_category": "2010-2019",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 635663.0,
+        "share_of_all_renter_stock": 0.014847524542118622
+      },
+      {
+        "year_built_category": "2010-2019",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1660530.0,
+        "share_of_all_renter_stock": 0.03878589744553991
+      },
+      {
+        "year_built_category": "2020",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 9869.0,
+        "share_of_all_renter_stock": 0.0002305155714681658
+      },
+      {
+        "year_built_category": "2020",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 56852.0,
+        "share_of_all_renter_stock": 0.0013279229171251558
+      },
+      {
+        "year_built_category": "2020",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 10413.0,
+        "share_of_all_renter_stock": 0.00024322207373573922
+      },
+      {
+        "year_built_category": "2020",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 14679.0,
+        "share_of_all_renter_stock": 0.0003428653433560853
+      },
+      {
+        "year_built_category": "2020",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 53773.0,
+        "share_of_all_renter_stock": 0.0012560050485923274
+      },
+      {
+        "year_built_category": "2020",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 46126.0,
+        "share_of_all_renter_stock": 0.0010773899330773751
+      },
+      {
+        "year_built_category": "2020",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 135378.0,
+        "share_of_all_renter_stock": 0.0031620971764330075
+      },
+      {
+        "year_built_category": "2021",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 5968.0,
+        "share_of_all_renter_stock": 0.00013939780428837912
+      },
+      {
+        "year_built_category": "2021",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 47200.0,
+        "share_of_all_renter_stock": 0.0011024759320394594
+      },
+      {
+        "year_built_category": "2021",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 6782.0,
+        "share_of_all_renter_stock": 0.00015841084260787317
+      },
+      {
+        "year_built_category": "2021",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 9964.0,
+        "share_of_all_renter_stock": 0.00023273453785680454
+      },
+      {
+        "year_built_category": "2021",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 35726.0,
+        "share_of_all_renter_stock": 0.0008344715073737654
+      },
+      {
+        "year_built_category": "2021",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 33565.0,
+        "share_of_all_renter_stock": 0.0007839958614174673
+      },
+      {
+        "year_built_category": "2021",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 100613.0,
+        "share_of_all_renter_stock": 0.002350072265895893
+      },
+      {
+        "year_built_category": "2022",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 4420.0,
+        "share_of_all_renter_stock": 0.00010324033092403413
+      },
+      {
+        "year_built_category": "2022",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 33147.0,
+        "share_of_all_renter_stock": 0.0007742324093074569
+      },
+      {
+        "year_built_category": "2022",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 4135.0,
+        "share_of_all_renter_stock": 9.65834317581179e-05
+      },
+      {
+        "year_built_category": "2022",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 6681.0,
+        "share_of_all_renter_stock": 0.0001560517309736362
+      },
+      {
+        "year_built_category": "2022",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 21332.0,
+        "share_of_all_renter_stock": 0.0004982630631835964
+      },
+      {
+        "year_built_category": "2022",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 18899.0,
+        "share_of_all_renter_stock": 0.00044143416609351155
+      },
+      {
+        "year_built_category": "2022",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 52732.0,
+        "share_of_all_renter_stock": 0.0012316898484810335
+      },
+      {
+        "year_built_category": "2023",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 2783.0,
+        "share_of_all_renter_stock": 6.500403641664864e-05
+      },
+      {
+        "year_built_category": "2023",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 16526.0,
+        "share_of_all_renter_stock": 0.0003860067214594091
+      },
+      {
+        "year_built_category": "2023",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 2595.0,
+        "share_of_all_renter_stock": 6.061281872123723e-05
+      },
+      {
+        "year_built_category": "2023",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 3562.0,
+        "share_of_all_renter_stock": 8.319956080348633e-05
+      },
+      {
+        "year_built_category": "2023",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 10930.0,
+        "share_of_all_renter_stock": 0.0002552979223981206
+      },
+      {
+        "year_built_category": "2023",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 9377.0,
+        "share_of_all_renter_stock": 0.00021902366132911042
+      },
+      {
+        "year_built_category": "2023",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 24962.0,
+        "share_of_all_renter_stock": 0.0005830509367705294
+      },
+      {
+        "year_built_category": "2024",
+        "building_size_category": "Mobile home / boat / RV / van",
+        "tenure": "Renter-occupied",
+        "weighted_units": 480.0,
+        "share_of_all_renter_stock": 1.121161964785891e-05
+      },
+      {
+        "year_built_category": "2024",
+        "building_size_category": "1 unit (detached or attached)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 2561.0,
+        "share_of_all_renter_stock": 5.9818662329513895e-05
+      },
+      {
+        "year_built_category": "2024",
+        "building_size_category": "2 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 192.0,
+        "share_of_all_renter_stock": 4.484647859143564e-06
+      },
+      {
+        "year_built_category": "2024",
+        "building_size_category": "3-4 units (includes 4-unit buildings)",
+        "tenure": "Renter-occupied",
+        "weighted_units": 426.0,
+        "share_of_all_renter_stock": 9.950312437474782e-06
+      },
+      {
+        "year_built_category": "2024",
+        "building_size_category": "5-19 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1264.0,
+        "share_of_all_renter_stock": 2.9523931739361797e-05
+      },
+      {
+        "year_built_category": "2024",
+        "building_size_category": "20-49 units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 1248.0,
+        "share_of_all_renter_stock": 2.9150211084433167e-05
+      },
+      {
+        "year_built_category": "2024",
+        "building_size_category": "50+ units",
+        "tenure": "Renter-occupied",
+        "weighted_units": 3216.0,
+        "share_of_all_renter_stock": 7.511785164065469e-05
+      }
+    ]
+  },
+  "by_metro_status": {
+    "Metro": {
+      "segment": "Metro",
+      "total_renter_occupied_units": 38000825.0,
+      "disabled_renter_households": 4626007.0,
+      "disabled_share_of_all_renters": 0.12173438339825517,
+      "unknown_year_total": 0.0,
+      "unknown_year_disabled": 0.0,
+      "all_rental_stock": {
+        "total": 38000825.0,
+        "pre_trigger_lower_bound": 24219882.0,
+        "yr1990s_bucket": 4092002.0,
+        "pre_trigger_estimate": 24709532.841730557,
+        "post_trigger_estimate": 13291292.158269443,
+        "pre_trigger_estimate_share": 0.6502367472740541,
+        "post_trigger_estimate_share": 0.3497632527259459,
+        "pre_trigger_lower_bound_share": 0.6373514785534261
+      },
+      "all_rental_stock_disabled": {
+        "total": 4626007.0,
+        "pre_trigger_lower_bound": 3219971.0,
+        "yr1990s_bucket": 462269.0,
+        "pre_trigger_estimate": 3275286.3211938664,
+        "post_trigger_estimate": 1350720.6788061336,
+        "pre_trigger_estimate_share": 0.7080158592915805,
+        "post_trigger_estimate_share": 0.2919841407084195,
+        "pre_trigger_lower_bound_share": 0.6960583933400879,
+        "share_of_all_disabled_renters_pre_trigger_estimate": 0.7080158592915805,
+        "share_of_all_disabled_renters_post_trigger_estimate": 0.2919841407084195
+      },
+      "four_plus_proxy_stock": {
+        "total": 23466695.0,
+        "pre_trigger_lower_bound": 14042845.0,
+        "yr1990s_bucket": 2587589.0,
+        "pre_trigger_estimate": 14352477.090087622,
+        "post_trigger_estimate": 9114217.909912378,
+        "pre_trigger_estimate_share": 0.6116105011842368,
+        "post_trigger_estimate_share": 0.38838949881576323,
+        "pre_trigger_lower_bound_share": 0.5984159678216298,
+        "share_of_all_renters": 0.6175311983358256,
+        "pre_trigger_share_within_four_plus_proxy": 0.6116105011842368,
+        "post_trigger_share_within_four_plus_proxy": 0.38838949881576323,
+        "pre_trigger_share_of_all_renters": 0.3776885657110766,
+        "post_trigger_share_of_all_renters": 0.239842632624749
+      },
+      "four_plus_proxy_disabled": {
+        "total": 3147114.0,
+        "pre_trigger_lower_bound": 2093723.0,
+        "yr1990s_bucket": 327104.0,
+        "pre_trigger_estimate": 2132864.4151150053,
+        "post_trigger_estimate": 1014249.5848849945,
+        "pre_trigger_estimate_share": 0.6777207356057027,
+        "post_trigger_estimate_share": 0.32227926439429727,
+        "pre_trigger_lower_bound_share": 0.6652834946557385,
+        "share_of_all_disabled_renters_in_four_plus_proxy": 0.680308957595611,
+        "share_of_all_disabled_renters_pre_trigger_estimate": 0.46105948718084633,
+        "share_of_all_disabled_renters_post_trigger_estimate": 0.21924947041476472,
+        "disabled_share_within_pre_trigger_four_plus_proxy": 0.14860601425993875,
+        "disabled_share_within_post_trigger_four_plus_proxy": 0.11128213028371026,
+        "post_trigger_noncompliant_share_of_all_disabled_renters": 0.10304725109493941,
+        "accessibility_deficit_share_of_all_disabled_renters": 0.5641067382757857,
+        "accessibility_deficit_disabled_households_estimate": 2609561.7200109526,
+        "accessibility_deficit_share_within_four_plus_proxy_disabled_households": 0.8291919898710223
+      },
+      "literal_four_plus_bounds": {
+        "checked_public_sources": [
+          "ACS detailed-table metadata: B25024 and B25032 use a '3 or 4' category; B25127 uses '2 to 4'.",
+          "Local AHS 2019/2023 public-use metadata: BLD=05 is labeled '3 to 4 apartments'."
+        ],
+        "exact_size_gap_status": "Public Census products available in this workspace do not point-identify exact 4-unit buildings; the residual uncertainty is confined to the ACS/AHS BLD=05 bucket.",
+        "exact_five_plus_stock_floor": {
+          "total": 19422222.0,
+          "pre_trigger_lower_bound": 11094806.0,
+          "yr1990s_bucket": 2162193.0,
+          "pre_trigger_estimate": 11353535.009036144,
+          "post_trigger_estimate": 8068686.990963856,
+          "pre_trigger_estimate_share": 0.5845641661925265,
+          "post_trigger_estimate_share": 0.4154358338074735,
+          "pre_trigger_lower_bound_share": 0.5712428783895066,
+          "share_of_all_renters": 0.5111000090129623,
+          "pre_trigger_share_of_all_renters": 0.298770750609655
+        },
+        "indeterminate_bld05_bucket": {
+          "total": 4044473.0,
+          "pre_trigger_lower_bound": 2948039.0,
+          "yr1990s_bucket": 425396.0,
+          "pre_trigger_estimate": 2998942.0810514786,
+          "post_trigger_estimate": 1045530.9189485214,
+          "pre_trigger_estimate_share": 0.7414914331364009,
+          "post_trigger_estimate_share": 0.25850856686359913,
+          "pre_trigger_lower_bound_share": 0.7289055953643404,
+          "share_of_all_renters": 0.10643118932286338,
+          "pre_trigger_share_of_all_renters": 0.07891781510142158,
+          "disabled_total": 470605.0,
+          "disabled_share_of_all_disabled_renters": 0.10173028272546929,
+          "disabled_pre_trigger_estimate": 362980.4778203724,
+          "disabled_post_trigger_estimate": 107624.5221796276,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.07846518127196357,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.023265101453505712
+        },
+        "literal_four_plus_stock_bounds": {
+          "total_lower_bound": 19422222.0,
+          "total_upper_bound": 23466695.0,
+          "share_of_all_renters_lower_bound": 0.5111000090129623,
+          "share_of_all_renters_upper_bound": 0.6175311983358256,
+          "pre_trigger_estimate_lower_bound": 11353535.009036144,
+          "pre_trigger_estimate_upper_bound": 14352477.090087622,
+          "pre_trigger_share_of_all_renters_lower_bound": 0.298770750609655,
+          "pre_trigger_share_of_all_renters_upper_bound": 0.3776885657110766,
+          "pre_trigger_share_within_literal_four_plus_minimum": 0.5558082405634961,
+          "pre_trigger_share_within_literal_four_plus_maximum": 0.639311897569552,
+          "minimum_share_assumption": "only the BLD=05 1990-1999 component and the BLD=05 post-1999 component are treated as exact 4-unit",
+          "maximum_share_assumption": "only the BLD=05 pre-1990 component is treated as exact 4-unit"
+        },
+        "literal_four_plus_disabled_bounds": {
+          "total_lower_bound": 2676509.0,
+          "total_upper_bound": 3147114.0,
+          "share_of_all_disabled_renters_in_literal_four_plus_lower_bound": 0.5785786748701418,
+          "share_of_all_disabled_renters_in_literal_four_plus_upper_bound": 0.680308957595611,
+          "pre_trigger_estimate_lower_bound": 1769883.9372946331,
+          "pre_trigger_estimate_upper_bound": 2132864.4151150053,
+          "share_of_all_disabled_renters_pre_trigger_lower_bound": 0.38259430590888277,
+          "share_of_all_disabled_renters_pre_trigger_upper_bound": 0.46105948718084633,
+          "pre_trigger_share_within_literal_four_plus_minimum": 0.6363831446319144,
+          "pre_trigger_share_within_literal_four_plus_maximum": 0.701206556035943,
+          "minimum_share_assumption": "only the disabled BLD=05 1990-1999 component and the disabled BLD=05 post-1999 component are treated as exact 4-unit",
+          "maximum_share_assumption": "only the disabled BLD=05 pre-1990 component is treated as exact 4-unit",
+          "accessibility_deficit_disabled_households_lower_bound": 2195997.7167661553,
+          "accessibility_deficit_disabled_households_upper_bound": 2609561.7200109526,
+          "accessibility_deficit_share_of_all_disabled_renters_lower_bound": 0.47470695932067447,
+          "accessibility_deficit_share_of_all_disabled_renters_upper_bound": 0.5641067382757857
+        }
+      },
+      "size_buckets": {
+        "four_unit_proxy": {
+          "total": 4044473.0,
+          "pre_trigger_lower_bound": 2948039.0,
+          "yr1990s_bucket": 425396.0,
+          "pre_trigger_estimate": 2998942.0810514786,
+          "post_trigger_estimate": 1045530.9189485214,
+          "pre_trigger_estimate_share": 0.7414914331364009,
+          "post_trigger_estimate_share": 0.25850856686359913,
+          "pre_trigger_lower_bound_share": 0.7289055953643404,
+          "share_of_all_renters": 0.10643118932286338,
+          "disabled_count": 470605.0,
+          "disabled_share_within_size_bucket": 0.11635755758537639,
+          "disabled_share_of_all_disabled_renters": 0.10173028272546929,
+          "disabled_pre_trigger_estimate": 362980.4778203724,
+          "disabled_post_trigger_estimate": 107624.5221796276,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.07846518127196357,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.023265101453505712
+        },
+        "five_to_nineteen": {
+          "total": 8954995.0,
+          "pre_trigger_lower_bound": 5586643.0,
+          "yr1990s_bucket": 1177007.0,
+          "pre_trigger_estimate": 5727484.199069004,
+          "post_trigger_estimate": 3227510.800930997,
+          "pre_trigger_estimate_share": 0.6395854156332866,
+          "post_trigger_estimate_share": 0.3604145843667134,
+          "pre_trigger_lower_bound_share": 0.6238577464309025,
+          "share_of_all_renters": 0.23565264701490032,
+          "disabled_count": 939989.0,
+          "disabled_share_within_size_bucket": 0.1049681211435629,
+          "disabled_share_of_all_disabled_renters": 0.2031966229190747,
+          "disabled_pre_trigger_estimate": 671051.2609529025,
+          "disabled_post_trigger_estimate": 268937.7390470975,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.14506058052936419,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.0581360423897105
+        },
+        "twenty_to_forty_nine": {
+          "total": 3727985.0,
+          "pre_trigger_lower_bound": 2202888.0,
+          "yr1990s_bucket": 384245.0,
+          "pre_trigger_estimate": 2248866.933461117,
+          "post_trigger_estimate": 1479118.066538883,
+          "pre_trigger_estimate_share": 0.603239265571379,
+          "post_trigger_estimate_share": 0.3967607344286211,
+          "pre_trigger_lower_bound_share": 0.5909058110480595,
+          "share_of_all_renters": 0.0981027385589655,
+          "disabled_count": 520043.0,
+          "disabled_share_within_size_bucket": 0.1394970741566825,
+          "disabled_share_of_all_disabled_renters": 0.11241725315158407,
+          "disabled_pre_trigger_estimate": 341913.4036144578,
+          "disabled_post_trigger_estimate": 178129.5963855422,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.07391112975282091,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.038506123398763165
+        },
+        "fifty_plus": {
+          "total": 6739242.0,
+          "pre_trigger_lower_bound": 3305275.0,
+          "yr1990s_bucket": 600941.0,
+          "pre_trigger_estimate": 3377183.876506024,
+          "post_trigger_estimate": 3362058.123493976,
+          "pre_trigger_estimate_share": 0.5011222147099071,
+          "post_trigger_estimate_share": 0.49887778529009286,
+          "pre_trigger_lower_bound_share": 0.4904520419358735,
+          "share_of_all_renters": 0.17734462343909638,
+          "disabled_count": 1216477.0,
+          "disabled_share_within_size_bucket": 0.1805065020665529,
+          "disabled_share_of_all_disabled_renters": 0.26296479879948303,
+          "disabled_pre_trigger_estimate": 756919.2727272727,
+          "disabled_post_trigger_estimate": 459557.7272727273,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.16362259562669765,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.09934220317278536
+        }
+      },
+      "building_stock_by_year_built_size_tenure": [
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 14281.0,
+          "share_of_all_renter_stock": 0.0003758076304922327
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1412335.0,
+          "share_of_all_renter_stock": 0.03716590363498687
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 678871.0,
+          "share_of_all_renter_stock": 0.017864638465085955
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 717903.0,
+          "share_of_all_renter_stock": 0.01889177406016843
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 798974.0,
+          "share_of_all_renter_stock": 0.02102517511132982
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 457816.0,
+          "share_of_all_renter_stock": 0.012047527915512361
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 541765.0,
+          "share_of_all_renter_stock": 0.014256664164528006
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 6922.0,
+          "share_of_all_renter_stock": 0.0001821539400789325
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 739408.0,
+          "share_of_all_renter_stock": 0.019457682826622844
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 177141.0,
+          "share_of_all_renter_stock": 0.004661504059451341
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 196294.0,
+          "share_of_all_renter_stock": 0.005165519432801788
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 255849.0,
+          "share_of_all_renter_stock": 0.006732722250109044
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 128471.0,
+          "share_of_all_renter_stock": 0.0033807423917770205
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 166605.0,
+          "share_of_all_renter_stock": 0.0043842469209550055
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 23826.0,
+          "share_of_all_renter_stock": 0.0006269863877955282
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1462889.0,
+          "share_of_all_renter_stock": 0.03849624317366794
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 265925.0,
+          "share_of_all_renter_stock": 0.006997874388253413
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 314310.0,
+          "share_of_all_renter_stock": 0.008271136218753146
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 500253.0,
+          "share_of_all_renter_stock": 0.01316426682841754
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 212727.0,
+          "share_of_all_renter_stock": 0.0055979574127666965
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 329076.0,
+          "share_of_all_renter_stock": 0.008659706730051255
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 63359.0,
+          "share_of_all_renter_stock": 0.0016673059071743838
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1243280.0,
+          "share_of_all_renter_stock": 0.03271718442954857
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 276119.0,
+          "share_of_all_renter_stock": 0.007266131722140243
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 420115.0,
+          "share_of_all_renter_stock": 0.011055417875796118
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 905062.0,
+          "share_of_all_renter_stock": 0.023816903975111065
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 370322.0,
+          "share_of_all_renter_stock": 0.009745104218132107
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 608517.0,
+          "share_of_all_renter_stock": 0.01601325760690722
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 193863.0,
+          "share_of_all_renter_stock": 0.005101547137463463
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1488175.0,
+          "share_of_all_renter_stock": 0.039161649779971885
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 355373.0,
+          "share_of_all_renter_stock": 0.009351718021911367
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 686330.0,
+          "share_of_all_renter_stock": 0.0180609236773149
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1585732.0,
+          "share_of_all_renter_stock": 0.04172888351766047
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 553060.0,
+          "share_of_all_renter_stock": 0.014553894553605087
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 899941.0,
+          "share_of_all_renter_stock": 0.023682143742931896
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 212372.0,
+          "share_of_all_renter_stock": 0.005588615510321158
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1280388.0,
+          "share_of_all_renter_stock": 0.033693689544898035
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 282510.0,
+          "share_of_all_renter_stock": 0.007434312281378102
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 613087.0,
+          "share_of_all_renter_stock": 0.016133518153882184
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1540773.0,
+          "share_of_all_renter_stock": 0.04054577762456473
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 480492.0,
+          "share_of_all_renter_stock": 0.012644251802427973
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 759371.0,
+          "share_of_all_renter_stock": 0.019983013526680013
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 231580.0,
+          "share_of_all_renter_stock": 0.006094078220670209
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1074576.0,
+          "share_of_all_renter_stock": 0.02827770186568318
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 198257.0,
+          "share_of_all_renter_stock": 0.005217176206042895
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 425396.0,
+          "share_of_all_renter_stock": 0.011194388542880318
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1177007.0,
+          "share_of_all_renter_stock": 0.030973195976666295
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 384245.0,
+          "share_of_all_renter_stock": 0.01011149100052433
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 600941.0,
+          "share_of_all_renter_stock": 0.01581389351415397
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 142695.0,
+          "share_of_all_renter_stock": 0.0037550500548343357
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1305433.0,
+          "share_of_all_renter_stock": 0.03435275418362627
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 182830.0,
+          "share_of_all_renter_stock": 0.004811211335543373
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 373683.0,
+          "share_of_all_renter_stock": 0.009833549666355927
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1136050.0,
+          "share_of_all_renter_stock": 0.02989540358663266
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 444117.0,
+          "share_of_all_renter_stock": 0.01168703574198718
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 909070.0,
+          "share_of_all_renter_stock": 0.02392237536948211
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 113826.0,
+          "share_of_all_renter_stock": 0.0029953560218758408
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 767372.0,
+          "share_of_all_renter_stock": 0.02019356158714975
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 157273.0,
+          "share_of_all_renter_stock": 0.004138673305119033
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 266713.0,
+          "share_of_all_renter_stock": 0.007018610780160694
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 940035.0,
+          "share_of_all_renter_stock": 0.02473722609969652
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 595045.0,
+          "share_of_all_renter_stock": 0.015658738987903553
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1614306.0,
+          "share_of_all_renter_stock": 0.04248081456126281
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 7479.0,
+          "share_of_all_renter_stock": 0.000196811516592074
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 52077.0,
+          "share_of_all_renter_stock": 0.0013704176159333383
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 8683.0,
+          "share_of_all_renter_stock": 0.0002284950392524373
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 12450.0,
+          "share_of_all_renter_stock": 0.0003276244660477766
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 50607.0,
+          "share_of_all_renter_stock": 0.00133173424524336
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 43251.0,
+          "share_of_all_renter_stock": 0.001138159500484529
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 131901.0,
+          "share_of_all_renter_stock": 0.003471003590053637
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 4622.0,
+          "share_of_all_renter_stock": 0.00012162893831910228
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 43269.0,
+          "share_of_all_renter_stock": 0.001138633174411345
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 6044.0,
+          "share_of_all_renter_stock": 0.00015904917853757123
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 8906.0,
+          "share_of_all_renter_stock": 0.00023436333290132518
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 32401.0,
+          "share_of_all_renter_stock": 0.000852639383487069
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 31053.0,
+          "share_of_all_renter_stock": 0.0008171664694121772
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 98417.0,
+          "share_of_all_renter_stock": 0.0025898648253031347
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3547.0,
+          "share_of_all_renter_stock": 9.334007880092077e-05
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 30869.0,
+          "share_of_all_renter_stock": 0.0008123244692713909
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3396.0,
+          "share_of_all_renter_stock": 8.936648085929713e-05
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 5576.0,
+          "share_of_all_renter_stock": 0.0001467336564403536
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 20425.0,
+          "share_of_all_renter_stock": 0.0005374883308454487
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 17636.0,
+          "share_of_all_renter_stock": 0.0004640951874071155
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 51752.0,
+          "share_of_all_renter_stock": 0.0013618651700324927
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2424.0,
+          "share_of_all_renter_stock": 6.378808881122975e-05
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 15354.0,
+          "share_of_all_renter_stock": 0.00040404385957410133
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2410.0,
+          "share_of_all_renter_stock": 6.341967575703949e-05
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3329.0,
+          "share_of_all_renter_stock": 8.760336124281513e-05
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 10603.0,
+          "share_of_all_renter_stock": 0.0002790202581128173
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 8573.0,
+          "share_of_all_renter_stock": 0.000225600365255228
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 24493.0,
+          "share_of_all_renter_stock": 0.0006445386383058789
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 480.0,
+          "share_of_all_renter_stock": 1.2631304715095e-05
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2408.0,
+          "share_of_all_renter_stock": 6.336704532072659e-05
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 189.0,
+          "share_of_all_renter_stock": 4.973576231568656e-06
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 381.0,
+          "share_of_all_renter_stock": 1.0026098117606657e-05
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1224.0,
+          "share_of_all_renter_stock": 3.2209827023492254e-05
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1177.0,
+          "share_of_all_renter_stock": 3.09730117701392e-05
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3087.0,
+          "share_of_all_renter_stock": 8.123507844895472e-05
+        }
+      ]
+    },
+    "Non_metro": {
+      "segment": "Non-metro",
+      "total_renter_occupied_units": 4811901.0,
+      "disabled_renter_households": 851385.0,
+      "disabled_share_of_all_renters": 0.17693319126889767,
+      "unknown_year_total": 0.0,
+      "unknown_year_disabled": 0.0,
+      "all_rental_stock": {
+        "total": 4811901.0,
+        "pre_trigger_lower_bound": 3328797.0,
+        "yr1990s_bucket": 576856.0,
+        "pre_trigger_estimate": 3397823.8543263967,
+        "post_trigger_estimate": 1414077.1456736035,
+        "pre_trigger_estimate_share": 0.7061292105399501,
+        "post_trigger_estimate_share": 0.2938707894600499,
+        "pre_trigger_lower_bound_share": 0.6917841825922852
+      },
+      "all_rental_stock_disabled": {
+        "total": 851385.0,
+        "pre_trigger_lower_bound": 608184.0,
+        "yr1990s_bucket": 99477.0,
+        "pre_trigger_estimate": 620087.4635815992,
+        "post_trigger_estimate": 231297.53641840088,
+        "pre_trigger_estimate_share": 0.728327916960716,
+        "post_trigger_estimate_share": 0.2716720830392841,
+        "pre_trigger_lower_bound_share": 0.7143466234429782,
+        "share_of_all_disabled_renters_pre_trigger_estimate": 0.728327916960716,
+        "share_of_all_disabled_renters_post_trigger_estimate": 0.2716720830392841
+      },
+      "four_plus_proxy_stock": {
+        "total": 1930529.0,
+        "pre_trigger_lower_bound": 1244037.0,
+        "yr1990s_bucket": 238016.0,
+        "pre_trigger_estimate": 1272518.104052574,
+        "post_trigger_estimate": 658010.8959474261,
+        "pre_trigger_estimate_share": 0.6591551352259272,
+        "post_trigger_estimate_share": 0.34084486477407283,
+        "pre_trigger_lower_bound_share": 0.6444021301933305,
+        "share_of_all_renters": 0.40119881934395574,
+        "pre_trigger_share_within_four_plus_proxy": 0.6591551352259272,
+        "post_trigger_share_within_four_plus_proxy": 0.34084486477407283,
+        "pre_trigger_share_of_all_renters": 0.26445226201714744,
+        "post_trigger_share_of_all_renters": 0.1367465573268083
+      },
+      "four_plus_proxy_disabled": {
+        "total": 436100.0,
+        "pre_trigger_lower_bound": 296149.0,
+        "yr1990s_bucket": 54148.0,
+        "pre_trigger_estimate": 302628.37458926614,
+        "post_trigger_estimate": 133471.62541073386,
+        "pre_trigger_estimate_share": 0.6939426154305576,
+        "post_trigger_estimate_share": 0.3060573845694425,
+        "pre_trigger_lower_bound_share": 0.6790850722311397,
+        "share_of_all_disabled_renters_in_four_plus_proxy": 0.5122241993927542,
+        "share_of_all_disabled_renters_pre_trigger_estimate": 0.3554542006134312,
+        "share_of_all_disabled_renters_post_trigger_estimate": 0.15676999877932293,
+        "disabled_share_within_pre_trigger_four_plus_proxy": 0.23781852189410038,
+        "disabled_share_within_post_trigger_four_plus_proxy": 0.2028410566341108,
+        "post_trigger_noncompliant_share_of_all_disabled_renters": 0.07368189942628177,
+        "accessibility_deficit_share_of_all_disabled_renters": 0.429136100039713,
+        "accessibility_deficit_disabled_households_estimate": 365360.03853231104,
+        "accessibility_deficit_share_within_four_plus_proxy_disabled_households": 0.8377895861781954
+      },
+      "literal_four_plus_bounds": {
+        "checked_public_sources": [
+          "ACS detailed-table metadata: B25024 and B25032 use a '3 or 4' category; B25127 uses '2 to 4'.",
+          "Local AHS 2019/2023 public-use metadata: BLD=05 is labeled '3 to 4 apartments'."
+        ],
+        "exact_size_gap_status": "Public Census products available in this workspace do not point-identify exact 4-unit buildings; the residual uncertainty is confined to the ACS/AHS BLD=05 bucket.",
+        "exact_five_plus_stock_floor": {
+          "total": 1335003.0,
+          "pre_trigger_lower_bound": 817670.0,
+          "yr1990s_bucket": 167801.0,
+          "pre_trigger_estimate": 837749.1448521358,
+          "post_trigger_estimate": 497253.8551478642,
+          "pre_trigger_estimate_share": 0.627526039156568,
+          "post_trigger_estimate_share": 0.372473960843432,
+          "pre_trigger_lower_bound_share": 0.612485515013824,
+          "share_of_all_renters": 0.2774377527717216,
+          "pre_trigger_share_of_all_renters": 0.17409941410933763
+        },
+        "indeterminate_bld05_bucket": {
+          "total": 595526.0,
+          "pre_trigger_lower_bound": 426367.0,
+          "yr1990s_bucket": 70215.0,
+          "pre_trigger_estimate": 434768.9592004381,
+          "post_trigger_estimate": 160757.0407995619,
+          "pre_trigger_estimate_share": 0.7300587366469946,
+          "post_trigger_estimate_share": 0.2699412633530054,
+          "pre_trigger_lower_bound_share": 0.715950269173806,
+          "share_of_all_renters": 0.12376106657223414,
+          "pre_trigger_share_of_all_renters": 0.09035284790780984,
+          "disabled_total": 115562.0,
+          "disabled_share_of_all_disabled_renters": 0.13573412733369744,
+          "disabled_pre_trigger_estimate": 86844.78203723987,
+          "disabled_post_trigger_estimate": 28717.217962760133,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.10200412508705212,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.03373000224664533
+        },
+        "literal_four_plus_stock_bounds": {
+          "total_lower_bound": 1335003.0,
+          "total_upper_bound": 1930529.0,
+          "share_of_all_renters_lower_bound": 0.2774377527717216,
+          "share_of_all_renters_upper_bound": 0.40119881934395574,
+          "pre_trigger_estimate_lower_bound": 837749.1448521358,
+          "pre_trigger_estimate_upper_bound": 1272518.104052574,
+          "pre_trigger_share_of_all_renters_lower_bound": 0.17409941410933763,
+          "pre_trigger_share_of_all_renters_upper_bound": 0.26445226201714744,
+          "pre_trigger_share_within_literal_four_plus_minimum": 0.5625398753941224,
+          "pre_trigger_share_within_literal_four_plus_maximum": 0.717689153813302,
+          "minimum_share_assumption": "only the BLD=05 1990-1999 component and the BLD=05 post-1999 component are treated as exact 4-unit",
+          "maximum_share_assumption": "only the BLD=05 pre-1990 component is treated as exact 4-unit"
+        },
+        "literal_four_plus_disabled_bounds": {
+          "total_lower_bound": 320538.0,
+          "total_upper_bound": 436100.0,
+          "share_of_all_disabled_renters_in_literal_four_plus_lower_bound": 0.3764900720590567,
+          "share_of_all_disabled_renters_in_literal_four_plus_upper_bound": 0.5122241993927542,
+          "pre_trigger_estimate_lower_bound": 215783.5925520263,
+          "pre_trigger_estimate_upper_bound": 302628.37458926614,
+          "share_of_all_disabled_renters_pre_trigger_lower_bound": 0.25345007552637916,
+          "share_of_all_disabled_renters_pre_trigger_upper_bound": 0.3554542006134312,
+          "pre_trigger_share_within_literal_four_plus_minimum": 0.6195048080564284,
+          "pre_trigger_share_within_literal_four_plus_maximum": 0.7418914007303766,
+          "minimum_share_assumption": "only the disabled BLD=05 1990-1999 component and the disabled BLD=05 post-1999 component are treated as exact 4-unit",
+          "maximum_share_assumption": "only the disabled BLD=05 pre-1990 component is treated as exact 4-unit",
+          "accessibility_deficit_disabled_households_lower_bound": 265018.16405257396,
+          "accessibility_deficit_disabled_households_upper_bound": 365360.03853231104,
+          "accessibility_deficit_share_of_all_disabled_renters_lower_bound": 0.31127887389673764,
+          "accessibility_deficit_share_of_all_disabled_renters_upper_bound": 0.429136100039713
+        }
+      },
+      "size_buckets": {
+        "four_unit_proxy": {
+          "total": 595526.0,
+          "pre_trigger_lower_bound": 426367.0,
+          "yr1990s_bucket": 70215.0,
+          "pre_trigger_estimate": 434768.9592004381,
+          "post_trigger_estimate": 160757.0407995619,
+          "pre_trigger_estimate_share": 0.7300587366469946,
+          "post_trigger_estimate_share": 0.2699412633530054,
+          "pre_trigger_lower_bound_share": 0.715950269173806,
+          "share_of_all_renters": 0.12376106657223414,
+          "disabled_count": 115562.0,
+          "disabled_share_within_size_bucket": 0.19405030175004953,
+          "disabled_share_of_all_disabled_renters": 0.13573412733369744,
+          "disabled_pre_trigger_estimate": 86844.78203723987,
+          "disabled_post_trigger_estimate": 28717.217962760133,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.10200412508705212,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.03373000224664533
+        },
+        "five_to_nineteen": {
+          "total": 781568.0,
+          "pre_trigger_lower_bound": 493227.0,
+          "yr1990s_bucket": 106468.0,
+          "pre_trigger_estimate": 505967.00985761225,
+          "post_trigger_estimate": 275600.99014238775,
+          "pre_trigger_estimate_share": 0.6473742653967566,
+          "post_trigger_estimate_share": 0.3526257346032434,
+          "pre_trigger_lower_bound_share": 0.6310736877661317,
+          "share_of_all_renters": 0.16242395676885288,
+          "disabled_count": 148398.0,
+          "disabled_share_within_size_bucket": 0.18987215443825745,
+          "disabled_share_of_all_disabled_renters": 0.1743018728307405,
+          "disabled_pre_trigger_estimate": 104124.37020810515,
+          "disabled_post_trigger_estimate": 44273.629791894855,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.12229998203880166,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.05200189079193885
+        },
+        "twenty_to_forty_nine": {
+          "total": 289207.0,
+          "pre_trigger_lower_bound": 167946.0,
+          "yr1990s_bucket": 36773.0,
+          "pre_trigger_estimate": 172346.27409638555,
+          "post_trigger_estimate": 116860.72590361445,
+          "pre_trigger_estimate_share": 0.595927049125317,
+          "post_trigger_estimate_share": 0.40407295087468303,
+          "pre_trigger_lower_bound_share": 0.5807120851155055,
+          "share_of_all_renters": 0.06010244184159234,
+          "disabled_count": 87086.0,
+          "disabled_share_within_size_bucket": 0.30111995906046535,
+          "disabled_share_of_all_disabled_renters": 0.1022874492738303,
+          "disabled_pre_trigger_estimate": 54503.414841182916,
+          "disabled_post_trigger_estimate": 32582.585158817084,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.06401735388946589,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.0382700953843644
+        },
+        "fifty_plus": {
+          "total": 264228.0,
+          "pre_trigger_lower_bound": 156497.0,
+          "yr1990s_bucket": 24560.0,
+          "pre_trigger_estimate": 159435.860898138,
+          "post_trigger_estimate": 104792.13910186199,
+          "pre_trigger_estimate_share": 0.6034025951002089,
+          "post_trigger_estimate_share": 0.39659740489979106,
+          "pre_trigger_lower_bound_share": 0.5922801519899481,
+          "share_of_all_renters": 0.054911354161276384,
+          "disabled_count": 85054.0,
+          "disabled_share_within_size_bucket": 0.3218962411250889,
+          "disabled_share_of_all_disabled_renters": 0.09990074995448593,
+          "disabled_pre_trigger_estimate": 57155.80750273823,
+          "disabled_post_trigger_estimate": 27898.192497261774,
+          "disabled_pre_trigger_share_of_all_disabled_renters": 0.06713273959811158,
+          "disabled_post_trigger_share_of_all_disabled_renters": 0.03276801035637435
+        }
+      },
+      "building_stock_by_year_built_size_tenure": [
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3370.0,
+          "share_of_all_renter_stock": 0.0007003469107115878
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 351168.0,
+          "share_of_all_renter_stock": 0.07297905754918899
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 97576.0,
+          "share_of_all_renter_stock": 0.020278056427179197
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 95728.0,
+          "share_of_all_renter_stock": 0.019894008625696995
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 71353.0,
+          "share_of_all_renter_stock": 0.014828443062315705
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 24342.0,
+          "share_of_all_renter_stock": 0.005058707566926252
+        },
+        {
+          "year_built_category": "1939 or earlier",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 22572.0,
+          "share_of_all_renter_stock": 0.004690869575246872
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1848.0,
+          "share_of_all_renter_stock": 0.00038404780148220004
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 153240.0,
+          "share_of_all_renter_stock": 0.031846041720309706
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 22594.0,
+          "share_of_all_renter_stock": 0.004695441572883565
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 24381.0,
+          "share_of_all_renter_stock": 0.005066812471827662
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 20581.0,
+          "share_of_all_renter_stock": 0.004277103789126169
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 6737.0,
+          "share_of_all_renter_stock": 0.0014000703671999903
+        },
+        {
+          "year_built_category": "1940-49",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 6767.0,
+          "share_of_all_renter_stock": 0.001406304909431844
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 6481.0,
+          "share_of_all_renter_stock": 0.001346868940154837
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 255612.0,
+          "share_of_all_renter_stock": 0.053120793632287944
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 42169.0,
+          "share_of_all_renter_stock": 0.008763480379168234
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 38595.0,
+          "share_of_all_renter_stock": 0.00802073858128004
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 39646.0,
+          "share_of_all_renter_stock": 0.008239155377469321
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 13712.0,
+          "share_of_all_renter_stock": 0.0028496014361060213
+        },
+        {
+          "year_built_category": "1950-59",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 12602.0,
+          "share_of_all_renter_stock": 0.0026189233735274273
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 26033.0,
+          "share_of_all_renter_stock": 0.005410127930728417
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 226641.0,
+          "share_of_all_renter_stock": 0.04710009619898664
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 49576.0,
+          "share_of_all_renter_stock": 0.01030278885621296
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 59178.0,
+          "share_of_all_renter_stock": 0.012298258006554997
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 71854.0,
+          "share_of_all_renter_stock": 0.014932559917587664
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 24006.0,
+          "share_of_all_renter_stock": 0.004988880693929489
+        },
+        {
+          "year_built_category": "1960-69",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 25671.0,
+          "share_of_all_renter_stock": 0.00533489778779738
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 97071.0,
+          "share_of_all_renter_stock": 0.020173108299609655
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 287177.0,
+          "share_of_all_renter_stock": 0.059680571150570225
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 77954.0,
+          "share_of_all_renter_stock": 0.016200250171397958
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 116634.0,
+          "share_of_all_renter_stock": 0.024238653289001582
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 151560.0,
+          "share_of_all_renter_stock": 0.03149690735532589
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 50697.0,
+          "share_of_all_renter_stock": 0.0105357529176099
+        },
+        {
+          "year_built_category": "1970-79",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 52597.0,
+          "share_of_all_renter_stock": 0.010930607258960648
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 114540.0,
+          "share_of_all_renter_stock": 0.023803482241218178
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 206391.0,
+          "share_of_all_renter_stock": 0.042891780192485254
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 65319.0,
+          "share_of_all_renter_stock": 0.01357446880141549
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 91851.0,
+          "share_of_all_renter_stock": 0.019088297951267076
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 138233.0,
+          "share_of_all_renter_stock": 0.02872731587786199
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 48452.0,
+          "share_of_all_renter_stock": 0.010069201340592835
+        },
+        {
+          "year_built_category": "1980-89",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 36288.0,
+          "share_of_all_renter_stock": 0.007541302283650474
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 134579.0,
+          "share_of_all_renter_stock": 0.02796794863402219
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 152448.0,
+          "share_of_all_renter_stock": 0.03168144980538876
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 51813.0,
+          "share_of_all_renter_stock": 0.010767677888634865
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 70215.0,
+          "share_of_all_renter_stock": 0.014591946093654046
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 106468.0,
+          "share_of_all_renter_stock": 0.02212597474470069
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 36773.0,
+          "share_of_all_renter_stock": 0.007642094049732112
+        },
+        {
+          "year_built_category": "1990-1999",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 24560.0,
+          "share_of_all_renter_stock": 0.00510401190714439
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 70638.0,
+          "share_of_all_renter_stock": 0.014679853139123187
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 153976.0,
+          "share_of_all_renter_stock": 0.03199899582306452
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 41163.0,
+          "share_of_all_renter_stock": 0.008554415396326733
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 55041.0,
+          "share_of_all_renter_stock": 0.011438514632782346
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 97628.0,
+          "share_of_all_renter_stock": 0.020288862967047742
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 36345.0,
+          "share_of_all_renter_stock": 0.007553147913890996
+        },
+        {
+          "year_built_category": "2000-2009",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 29696.0,
+          "share_of_all_renter_stock": 0.0061713655372377775
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 43911.0,
+          "share_of_all_renter_stock": 0.00912549946476455
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 96114.0,
+          "share_of_all_renter_stock": 0.019974226402413517
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 31298.0,
+          "share_of_all_renter_stock": 0.006504290092418776
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 39233.0,
+          "share_of_all_renter_stock": 0.008153326512744133
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 76480.0,
+          "share_of_all_renter_stock": 0.015893926329739537
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 40618.0,
+          "share_of_all_renter_stock": 0.008441154545781386
+        },
+        {
+          "year_built_category": "2010-2019",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 46224.0,
+          "share_of_all_renter_stock": 0.009606182670840485
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2390.0,
+          "share_of_all_renter_stock": 0.0004966851978043605
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 4775.0,
+          "share_of_all_renter_stock": 0.0009923313052367453
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1730.0,
+          "share_of_all_renter_stock": 0.0003595252687035747
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2229.0,
+          "share_of_all_renter_stock": 0.00046322648782674456
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3166.0,
+          "share_of_all_renter_stock": 0.0006579520235349813
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2875.0,
+          "share_of_all_renter_stock": 0.0005974769638859985
+        },
+        {
+          "year_built_category": "2020",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3477.0,
+          "share_of_all_renter_stock": 0.0007225834446718667
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1346.0,
+          "share_of_all_renter_stock": 0.0002797231281358449
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3931.0,
+          "share_of_all_renter_stock": 0.0008169328504472556
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 738.0,
+          "share_of_all_renter_stock": 0.00015336973890360588
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1058.0,
+          "share_of_all_renter_stock": 0.00021987152271004746
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3325.0,
+          "share_of_all_renter_stock": 0.0006909950973638069
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2512.0,
+          "share_of_all_renter_stock": 0.0005220390028805663
+        },
+        {
+          "year_built_category": "2021",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2196.0,
+          "share_of_all_renter_stock": 0.0004563684913717053
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 873.0,
+          "share_of_all_renter_stock": 0.0001814251789469484
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 2278.0,
+          "share_of_all_renter_stock": 0.00047340957347210595
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 739.0,
+          "share_of_all_renter_stock": 0.000153577556978001
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1105.0,
+          "share_of_all_renter_stock": 0.00022963897220661854
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 907.0,
+          "share_of_all_renter_stock": 0.00018849099347638282
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1263.0,
+          "share_of_all_renter_stock": 0.0002624742279610491
+        },
+        {
+          "year_built_category": "2022",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 980.0,
+          "share_of_all_renter_stock": 0.0002036617129072273
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "Mobile home / boat / RV / van",
+          "tenure": "Renter-occupied",
+          "weighted_units": 359.0,
+          "share_of_all_renter_stock": 7.460668870785164e-05
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 1172.0,
+          "share_of_all_renter_stock": 0.00024356278319109226
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 185.0,
+          "share_of_all_renter_stock": 3.844634376309903e-05
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 233.0,
+          "share_of_all_renter_stock": 4.842161133406527e-05
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 327.0,
+          "share_of_all_renter_stock": 6.795651032720748e-05
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 804.0,
+          "share_of_all_renter_stock": 0.00016708573181368444
+        },
+        {
+          "year_built_category": "2023",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 469.0,
+          "share_of_all_renter_stock": 9.746667689131593e-05
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "1 unit (detached or attached)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 153.0,
+          "share_of_all_renter_stock": 3.1796165382454874e-05
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "2 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 3.0,
+          "share_of_all_renter_stock": 6.234542231853897e-07
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "3-4 units (includes 4-unit buildings)",
+          "tenure": "Renter-occupied",
+          "weighted_units": 45.0,
+          "share_of_all_renter_stock": 9.351813347780845e-06
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "5-19 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 40.0,
+          "share_of_all_renter_stock": 8.312722975805196e-06
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "20-49 units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 71.0,
+          "share_of_all_renter_stock": 1.4755083282054223e-05
+        },
+        {
+          "year_built_category": "2024",
+          "building_size_category": "50+ units",
+          "tenure": "Renter-occupied",
+          "weighted_units": 129.0,
+          "share_of_all_renter_stock": 2.680853159697176e-05
+        }
+      ]
+    }
+  },
+  "query_stats": {
+    "geo_lookup": {
+      "rows_seen": 1604632,
+      "excluded_rows_puerto_rico": 0,
+      "unmatched_puma_rows": 0,
+      "duplicate_serial_conflicts": 0
+    },
+    "core_housing": {
+      "rows_seen": 1604632,
+      "excluded_rows_puerto_rico": 0,
+      "missing_geo_lookup_rows": 0,
+      "blank_weight_rows": 0
+    }
+  }
+}

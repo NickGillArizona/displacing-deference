@@ -1,0 +1,782 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-16T11:23:02.320184+00:00",
+    "repo_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH",
+    "analysis_title": "2023 AHS accessibility analysis",
+    "primary_task": "Research task p4: download and analyze the 2023 AHS national PUF for accessibility-related measures and compare to 2011 and 2019."
+  },
+  "sources": {
+    "2023_flat_csv": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20National%20PUF%20v1.1%20Flat%20CSV.zip",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/AHS 2023 National PUF v1.1 Flat CSV.zip"
+    },
+    "2019_flat_csv": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20National%20PUF%20v1.1%20Flat%20CSV.zip",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/AHS 2019 National PUF v1.1 Flat CSV.zip"
+    },
+    "2011_flat_csv": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2011/AHS%202011%20National%20PUF%20v3.0%20Flat%20CSV.zip",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/AHS 2011 National PUF v3.0 Flat CSV.zip"
+    },
+    "2023_value_labels": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Value%20Labels%20Package.zip",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/AHS 2023 Value Labels Package.zip"
+    },
+    "2019_value_labels": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20Value%20Labels%20Package.zip",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/AHS 2019 Value Labels Package.zip"
+    },
+    "2011_value_labels": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2011/AHS%202011%20National%20Value%20Labels%20Package.zip",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/AHS 2011 National Value Labels Package.zip"
+    },
+    "2023_table_specs": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Table%20Specifications%20and%20PUF%20Estimates%20for%20User%20Verification.xlsx",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/AHS 2023 Table Specifications and PUF Estimates for User Verification.xlsx"
+    },
+    "2019_table_specs": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2019/2019%20AHS%20Table%20Specifications%20and%20PUF%20Estimates%20for%20User%20Verification.xlsx",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/2019 AHS Table Specifications and PUF Estimates for User Verification.xlsx"
+    },
+    "2011_table_specs": {
+      "url": "https://www2.census.gov/programs-surveys/ahs/2011/AHS_%202011_Table_Specs.xls",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/AHS_ 2011_Table_Specs.xls"
+    },
+    "2011_hud_report": {
+      "url": "https://www.huduser.gov/portal/sites/default/files/pdf/accessibility-america-housingStock.pdf",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/accessibility-america-housingStock.pdf"
+    },
+    "2015_2023_puf_guide": {
+      "url": "https://www.census.gov/content/dam/Census/programs-surveys/ahs/tech-documentation/2015/Getting%20Started%20with%20the%20AHS%20PUF%202015%20and%20Beyond.pdf",
+      "local_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/ahs_accessibility/raw/Getting Started with the AHS PUF 2015 and Beyond.pdf"
+    }
+  },
+  "module_history": {
+    "2019": "The 2015-2023 PUF guide lists 2019 Home Accessibility as topical-module Group 2 (Accessibility), implying SP2WEIGHT for module variables.",
+    "2023": "The same guide lists 2023 topical modules such as heat risk, power outages, healthy homes, housing insecurity, and SOGI, but no 2023 Home Accessibility topical module.",
+    "consequence": "2023 analysis must rely on core accessibility proxies and home-improvement accessibility motive, not the detailed 2011/2019 module battery."
+  },
+  "2023_variable_inventory": [
+    {
+      "variable": "NOSTEP",
+      "description": "Whether use of steps is not required to enter the building/home from outside.",
+      "source": "2023 AHS Table Specifications, Housing Unit Characteristics and General Housing tables.",
+      "weight": "WEIGHT",
+      "comparability": "Directly comparable core item in 2011 and 2019."
+    },
+    {
+      "variable": "HMRACCESS",
+      "description": "Whether an owner-occupied unit's home improvement activity in the last two years was done for accessibility for elderly or disabled residents.",
+      "source": "2023 AHS Table Specifications, Home Improvement table.",
+      "weight": "WEIGHT",
+      "comparability": "Available in 2019, not available in 2011."
+    },
+    {
+      "variable": "DISHH",
+      "description": "Whether at least one disabled person lives in the unit.",
+      "source": "2023 AHS Table Specifications, Disability table and Column Variables sheet.",
+      "weight": "WEIGHT",
+      "comparability": "Directly comparable to 2019 DISHH; only approximately harmonized to 2011 HDSB because the 2011 disability recode is not identical."
+    },
+    {
+      "variable": "NUMWALK",
+      "description": "Count category for persons in the unit with a physical disability: none, one, or two or more.",
+      "source": "2023 AHS Table Specifications, Disability table; 2023 Value Labels package.",
+      "weight": "WEIGHT",
+      "comparability": "Directly comparable to 2019 NUMWALK; only approximately harmonized to 2011 HWALK because the 2011 household physical-disability recode is not identical."
+    },
+    {
+      "variable": "UNITFLOORS / BEDROOMS / BATHROOMS",
+      "description": "Structural variables used only to build a lower-bound proxy for Bo'sher level 1 in 2023 because the dedicated accessibility module is absent.",
+      "source": "2023 AHS flat PUF core household file.",
+      "weight": "WEIGHT",
+      "comparability": "Proxy only; not a direct substitute for the 2011 or 2019 accessibility-module questions and not a clean cross-year trend measure."
+    }
+  ],
+  "headline_findings": {
+    "2023_nostep_all_housing_share_pct": 56.35,
+    "2023_nostep_occupied_share_pct": 57.41,
+    "2019_nostep_occupied_share_pct": 53.57,
+    "2011_nostep_occupied_share_pct": 42.38,
+    "2023_accessibility_improvement_share_pct": 6.18,
+    "2019_accessibility_improvement_share_pct": 5.07,
+    "2011_bosher_level_1_published_pct": 33.34,
+    "2011_bosher_level_2_published_pct": 3.76,
+    "2011_bosher_level_3_published_pct": 0.15,
+    "2019_approx_level_1_pct": 40.51,
+    "2023_lower_bound_level_1_proxy_pct": 30.5
+  },
+  "nostep_comparison": {
+    "2011": {
+      "year": 2011,
+      "all_housing_weighted_count": 132428370.68,
+      "occupied_weighted_count": 114832785.14,
+      "nostep_all_housing_share": 0.417935,
+      "nostep_all_housing_share_pct": 41.79,
+      "nostep_occupied_share": 0.42379,
+      "nostep_occupied_share_pct": 42.38,
+      "nostep_occupied_by_tenure": [
+        {
+          "group": "owner",
+          "weighted_count": 76053237.23,
+          "indicator_weighted_count": 33730866.04,
+          "share": 0.443517,
+          "share_pct": 44.35
+        },
+        {
+          "group": "renter_or_no_cash_rent",
+          "weighted_count": 38779547.9,
+          "indicator_weighted_count": 14934176.0,
+          "share": 0.385104,
+          "share_pct": 38.51
+        }
+      ],
+      "nostep_occupied_by_building_type": [
+        {
+          "group": "mobile_or_other",
+          "weighted_count": 7013366.39,
+          "indicator_weighted_count": 1205749.98,
+          "share": 0.171922,
+          "share_pct": 17.19
+        },
+        {
+          "group": "multifamily_20_plus",
+          "weighted_count": 7864244.51,
+          "indicator_weighted_count": 3518105.49,
+          "share": 0.447355,
+          "share_pct": 44.74
+        },
+        {
+          "group": "multifamily_2_4",
+          "weighted_count": 8962944.95,
+          "indicator_weighted_count": 2978251.8,
+          "share": 0.332285,
+          "share_pct": 33.23
+        },
+        {
+          "group": "multifamily_5_19",
+          "weighted_count": 10464665.07,
+          "indicator_weighted_count": 3584385.26,
+          "share": 0.342523,
+          "share_pct": 34.25
+        },
+        {
+          "group": "single_family_attached",
+          "weighted_count": 6659904.95,
+          "indicator_weighted_count": 3232560.38,
+          "share": 0.485376,
+          "share_pct": 48.54
+        },
+        {
+          "group": "single_family_detached",
+          "weighted_count": 73865852.12,
+          "indicator_weighted_count": 34144181.99,
+          "share": 0.462246,
+          "share_pct": 46.22
+        }
+      ],
+      "nostep_occupied_by_year_built": [
+        {
+          "group": "1940_1959",
+          "weighted_count": 18431644.28,
+          "indicator_weighted_count": 6990199.05,
+          "share": 0.37925,
+          "share_pct": 37.92
+        },
+        {
+          "group": "1960_1979",
+          "weighted_count": 35085092.56,
+          "indicator_weighted_count": 16010223.82,
+          "share": 0.456326,
+          "share_pct": 45.63
+        },
+        {
+          "group": "1980_1999",
+          "weighted_count": 28484891.65,
+          "indicator_weighted_count": 13267949.66,
+          "share": 0.465789,
+          "share_pct": 46.58
+        },
+        {
+          "group": "2000_plus",
+          "weighted_count": 15724069.72,
+          "indicator_weighted_count": 8195146.07,
+          "share": 0.521185,
+          "share_pct": 52.12
+        },
+        {
+          "group": "pre_1940",
+          "weighted_count": 17107086.92,
+          "indicator_weighted_count": 4201523.45,
+          "share": 0.245601,
+          "share_pct": 24.56
+        }
+      ],
+      "nostep_occupied_by_disabled_household": [
+        {
+          "group": "False",
+          "weighted_count": 93826212.18,
+          "indicator_weighted_count": 39481724.26,
+          "share": 0.420796,
+          "share_pct": 42.08
+        },
+        {
+          "group": "True",
+          "weighted_count": 21006572.96,
+          "indicator_weighted_count": 9183317.78,
+          "share": 0.437164,
+          "share_pct": 43.72
+        }
+      ],
+      "nostep_occupied_by_physical_disability_household": [
+        {
+          "group": "False",
+          "weighted_count": 102428295.76,
+          "indicator_weighted_count": 43018230.23,
+          "share": 0.419984,
+          "share_pct": 42.0
+        },
+        {
+          "group": "True",
+          "weighted_count": 12404489.38,
+          "indicator_weighted_count": 5646811.81,
+          "share": 0.455223,
+          "share_pct": 45.52
+        }
+      ]
+    },
+    "2019": {
+      "year": 2019,
+      "all_housing_weighted_count": 139684244.0,
+      "occupied_weighted_count": 124135164.59,
+      "nostep_all_housing_share": 0.523069,
+      "nostep_all_housing_share_pct": 52.31,
+      "nostep_occupied_share": 0.53567,
+      "nostep_occupied_share_pct": 53.57,
+      "nostep_occupied_by_tenure": [
+        {
+          "group": "owner",
+          "weighted_count": 79475374.0,
+          "indicator_weighted_count": 43832678.18,
+          "share": 0.551525,
+          "share_pct": 55.15
+        },
+        {
+          "group": "renter_or_no_cash_rent",
+          "weighted_count": 44659790.59,
+          "indicator_weighted_count": 22662839.59,
+          "share": 0.507455,
+          "share_pct": 50.75
+        }
+      ],
+      "nostep_occupied_by_building_type": [
+        {
+          "group": "mobile_or_other",
+          "weighted_count": 6851373.82,
+          "indicator_weighted_count": 1568821.25,
+          "share": 0.228979,
+          "share_pct": 22.9
+        },
+        {
+          "group": "multifamily_20_plus",
+          "weighted_count": 11177350.53,
+          "indicator_weighted_count": 7035724.26,
+          "share": 0.629463,
+          "share_pct": 62.95
+        },
+        {
+          "group": "multifamily_2_4",
+          "weighted_count": 9118093.09,
+          "indicator_weighted_count": 3973344.68,
+          "share": 0.435765,
+          "share_pct": 43.58
+        },
+        {
+          "group": "multifamily_5_19",
+          "weighted_count": 11171585.53,
+          "indicator_weighted_count": 5141869.35,
+          "share": 0.460263,
+          "share_pct": 46.03
+        },
+        {
+          "group": "single_family_attached",
+          "weighted_count": 6481546.29,
+          "indicator_weighted_count": 3789109.61,
+          "share": 0.5846,
+          "share_pct": 58.46
+        },
+        {
+          "group": "single_family_detached",
+          "weighted_count": 79335215.35,
+          "indicator_weighted_count": 44986648.61,
+          "share": 0.567045,
+          "share_pct": 56.7
+        }
+      ],
+      "nostep_occupied_by_year_built": [
+        {
+          "group": "1940_1959",
+          "weighted_count": 18401354.17,
+          "indicator_weighted_count": 8697673.81,
+          "share": 0.472665,
+          "share_pct": 47.27
+        },
+        {
+          "group": "1960_1979",
+          "weighted_count": 31156908.03,
+          "indicator_weighted_count": 17500078.12,
+          "share": 0.561676,
+          "share_pct": 56.17
+        },
+        {
+          "group": "1980_1999",
+          "weighted_count": 32414531.88,
+          "indicator_weighted_count": 18362992.13,
+          "share": 0.566505,
+          "share_pct": 56.65
+        },
+        {
+          "group": "2000_plus",
+          "weighted_count": 26265921.99,
+          "indicator_weighted_count": 16452240.93,
+          "share": 0.626372,
+          "share_pct": 62.64
+        },
+        {
+          "group": "pre_1940",
+          "weighted_count": 15896448.52,
+          "indicator_weighted_count": 5482532.78,
+          "share": 0.34489,
+          "share_pct": 34.49
+        }
+      ],
+      "nostep_occupied_by_disabled_household": [
+        {
+          "group": "False",
+          "weighted_count": 98192369.62,
+          "indicator_weighted_count": 52012502.73,
+          "share": 0.5297,
+          "share_pct": 52.97
+        },
+        {
+          "group": "True",
+          "weighted_count": 25942794.97,
+          "indicator_weighted_count": 14483015.04,
+          "share": 0.558267,
+          "share_pct": 55.83
+        }
+      ],
+      "nostep_occupied_by_physical_disability_household": [
+        {
+          "group": "False",
+          "weighted_count": 109733369.92,
+          "indicator_weighted_count": 58146189.43,
+          "share": 0.529886,
+          "share_pct": 52.99
+        },
+        {
+          "group": "True",
+          "weighted_count": 14401794.67,
+          "indicator_weighted_count": 8349328.33,
+          "share": 0.579742,
+          "share_pct": 57.97
+        }
+      ]
+    },
+    "2023": {
+      "year": 2023,
+      "all_housing_weighted_count": 145344636.0,
+      "occupied_weighted_count": 133230777.08,
+      "nostep_all_housing_share": 0.563495,
+      "nostep_all_housing_share_pct": 56.35,
+      "nostep_occupied_share": 0.574147,
+      "nostep_occupied_share_pct": 57.41,
+      "nostep_occupied_by_tenure": [
+        {
+          "group": "owner",
+          "weighted_count": 86852744.62,
+          "indicator_weighted_count": 51023811.35,
+          "share": 0.587475,
+          "share_pct": 58.75
+        },
+        {
+          "group": "renter_or_no_cash_rent",
+          "weighted_count": 46378032.46,
+          "indicator_weighted_count": 25470270.25,
+          "share": 0.549188,
+          "share_pct": 54.92
+        }
+      ],
+      "nostep_occupied_by_building_type": [
+        {
+          "group": "mobile_or_other",
+          "weighted_count": 7241106.79,
+          "indicator_weighted_count": 1929221.36,
+          "share": 0.266426,
+          "share_pct": 26.64
+        },
+        {
+          "group": "multifamily_20_plus",
+          "weighted_count": 12232168.36,
+          "indicator_weighted_count": 7889262.48,
+          "share": 0.64496,
+          "share_pct": 64.5
+        },
+        {
+          "group": "multifamily_2_4",
+          "weighted_count": 9100257.34,
+          "indicator_weighted_count": 4045177.76,
+          "share": 0.444512,
+          "share_pct": 44.45
+        },
+        {
+          "group": "multifamily_5_19",
+          "weighted_count": 11236129.8,
+          "indicator_weighted_count": 5368285.09,
+          "share": 0.47777,
+          "share_pct": 47.78
+        },
+        {
+          "group": "single_family_attached",
+          "weighted_count": 8160578.37,
+          "indicator_weighted_count": 5539489.75,
+          "share": 0.678811,
+          "share_pct": 67.88
+        },
+        {
+          "group": "single_family_detached",
+          "weighted_count": 85260536.44,
+          "indicator_weighted_count": 51722645.18,
+          "share": 0.606642,
+          "share_pct": 60.66
+        }
+      ],
+      "nostep_occupied_by_year_built": [
+        {
+          "group": "1940_1959",
+          "weighted_count": 18046368.88,
+          "indicator_weighted_count": 9340051.49,
+          "share": 0.517558,
+          "share_pct": 51.76
+        },
+        {
+          "group": "1960_1979",
+          "weighted_count": 32423591.28,
+          "indicator_weighted_count": 19801670.08,
+          "share": 0.610718,
+          "share_pct": 61.07
+        },
+        {
+          "group": "1980_1999",
+          "weighted_count": 33706368.58,
+          "indicator_weighted_count": 19856879.78,
+          "share": 0.589114,
+          "share_pct": 58.91
+        },
+        {
+          "group": "2000_plus",
+          "weighted_count": 32787466.88,
+          "indicator_weighted_count": 21220918.69,
+          "share": 0.647227,
+          "share_pct": 64.72
+        },
+        {
+          "group": "pre_1940",
+          "weighted_count": 16266981.47,
+          "indicator_weighted_count": 6274561.57,
+          "share": 0.385724,
+          "share_pct": 38.57
+        }
+      ],
+      "nostep_occupied_by_disabled_household": [
+        {
+          "group": "False",
+          "weighted_count": 102192417.07,
+          "indicator_weighted_count": 58281350.53,
+          "share": 0.57031,
+          "share_pct": 57.03
+        },
+        {
+          "group": "True",
+          "weighted_count": 31038360.01,
+          "indicator_weighted_count": 18212731.07,
+          "share": 0.586781,
+          "share_pct": 58.68
+        }
+      ],
+      "nostep_occupied_by_physical_disability_household": [
+        {
+          "group": "False",
+          "weighted_count": 117154163.73,
+          "indicator_weighted_count": 66764557.52,
+          "share": 0.569886,
+          "share_pct": 56.99
+        },
+        {
+          "group": "True",
+          "weighted_count": 16076613.35,
+          "indicator_weighted_count": 9729524.09,
+          "share": 0.605197,
+          "share_pct": 60.52
+        }
+      ]
+    }
+  },
+  "home_improvement_accessibility": {
+    "2019": {
+      "year": 2019,
+      "universe_description": "Owner-occupied occupied units with a non-missing response to HMRACCESS, i.e., the home-improvement universe in the AHS Home Improvement table.",
+      "overall": {
+        "weighted_universe": 44476550.27,
+        "weighted_accessibility_yes": 2253188.08,
+        "share": 0.05066,
+        "share_pct": 5.07
+      },
+      "by_disabled_household": {
+        "disabled_any": {
+          "weighted_universe": 10358455.59,
+          "weighted_accessibility_yes": 1171982.41,
+          "share": 0.113143,
+          "share_pct": 11.31
+        },
+        "disabled_physical": {
+          "weighted_universe": 5484956.72,
+          "weighted_accessibility_yes": 858739.9,
+          "share": 0.156563,
+          "share_pct": 15.66
+        },
+        "non_disabled": {
+          "weighted_universe": 33717174.0,
+          "weighted_accessibility_yes": 1071280.74,
+          "share": 0.031773,
+          "share_pct": 3.18
+        }
+      }
+    },
+    "2023": {
+      "year": 2023,
+      "universe_description": "Owner-occupied occupied units with a non-missing response to HMRACCESS, i.e., the home-improvement universe in the AHS Home Improvement table.",
+      "overall": {
+        "weighted_universe": 51549506.92,
+        "weighted_accessibility_yes": 3187298.45,
+        "share": 0.06183,
+        "share_pct": 6.18
+      },
+      "by_disabled_household": {
+        "disabled_any": {
+          "weighted_universe": 12732850.17,
+          "weighted_accessibility_yes": 1692329.53,
+          "share": 0.132911,
+          "share_pct": 13.29
+        },
+        "disabled_physical": {
+          "weighted_universe": 6254145.75,
+          "weighted_accessibility_yes": 1246881.47,
+          "share": 0.199369,
+          "share_pct": 19.94
+        },
+        "non_disabled": {
+          "weighted_universe": 38184434.36,
+          "weighted_accessibility_yes": 1462585.18,
+          "share": 0.038303,
+          "share_pct": 3.83
+        }
+      }
+    }
+  },
+  "2019_home_accessibility_problem_context": {
+    "universe_description": "2019 occupied units in topical-module Group 2 (SP2WEIGHT > 0); no comparable 2023 module exists.",
+    "all_households": {
+      "weighted_universe": 124279237.49,
+      "entering_home_or_property": {
+        "share": 0.034133,
+        "share_pct": 3.41
+      },
+      "getting_to_bedroom": {
+        "share": 0.017391,
+        "share_pct": 1.74
+      },
+      "using_bedroom": {
+        "share": 0.022727,
+        "share_pct": 2.27
+      },
+      "getting_to_kitchen": {
+        "share": 0.016904,
+        "share_pct": 1.69
+      },
+      "using_kitchen": {
+        "share": 0.026019,
+        "share_pct": 2.6
+      },
+      "getting_to_bathroom": {
+        "share": 0.019348,
+        "share_pct": 1.93
+      },
+      "using_bathroom": {
+        "share": 0.026452,
+        "share_pct": 2.65
+      }
+    },
+    "disabled_households": {
+      "weighted_universe": 26800116.93,
+      "entering_home_or_property": {
+        "share": 0.130703,
+        "share_pct": 13.07
+      },
+      "getting_to_bedroom": {
+        "share": 0.067276,
+        "share_pct": 6.73
+      },
+      "using_bedroom": {
+        "share": 0.094269,
+        "share_pct": 9.43
+      },
+      "getting_to_kitchen": {
+        "share": 0.065792,
+        "share_pct": 6.58
+      },
+      "using_kitchen": {
+        "share": 0.107587,
+        "share_pct": 10.76
+      },
+      "getting_to_bathroom": {
+        "share": 0.076106,
+        "share_pct": 7.61
+      },
+      "using_bathroom": {
+        "share": 0.108517,
+        "share_pct": 10.85
+      }
+    },
+    "physical_disability_households": {
+      "weighted_universe": 14825981.08,
+      "entering_home_or_property": {
+        "share": 0.213426,
+        "share_pct": 21.34
+      },
+      "getting_to_bedroom": {
+        "share": 0.11374,
+        "share_pct": 11.37
+      },
+      "using_bedroom": {
+        "share": 0.153677,
+        "share_pct": 15.37
+      },
+      "getting_to_kitchen": {
+        "share": 0.113768,
+        "share_pct": 11.38
+      },
+      "using_kitchen": {
+        "share": 0.174894,
+        "share_pct": 17.49
+      },
+      "getting_to_bathroom": {
+        "share": 0.128357,
+        "share_pct": 12.84
+      },
+      "using_bathroom": {
+        "share": 0.178085,
+        "share_pct": 17.81
+      }
+    },
+    "non_disabled_households": {
+      "weighted_universe": 96002125.72,
+      "entering_home_or_property": {
+        "share": 0.007604,
+        "share_pct": 0.76
+      },
+      "getting_to_bedroom": {
+        "share": 0.003733,
+        "share_pct": 0.37
+      },
+      "using_bedroom": {
+        "share": 0.003104,
+        "share_pct": 0.31
+      },
+      "getting_to_kitchen": {
+        "share": 0.003516,
+        "share_pct": 0.35
+      },
+      "using_kitchen": {
+        "share": 0.003648,
+        "share_pct": 0.36
+      },
+      "getting_to_bathroom": {
+        "share": 0.003801,
+        "share_pct": 0.38
+      },
+      "using_bathroom": {
+        "share": 0.00395,
+        "share_pct": 0.4
+      }
+    }
+  },
+  "bosher_three_tier_framework": {
+    "2011_published": {
+      "all_housing_units": {
+        "level_1_potentially_modifiable_share": 0.3334,
+        "level_2_livable_share": 0.0376,
+        "level_3_wheelchair_accessible_share": 0.0015
+      },
+      "housing_units_with_resident_wheelchair_user": {
+        "level_1_potentially_modifiable_share": 0.442,
+        "level_2_livable_share": 0.124,
+        "level_3_wheelchair_accessible_share": 0.0073
+      },
+      "source": "HUD PD&R, Accessibility of America's Housing Stock: Analysis of the 2011 American Housing Survey (2015), executive summary and Table 7."
+    },
+    "2011_public_puf_reconstruction": {
+      "description": "Approximate public-PUF reconstruction using NOSTEP, inferred one-story entry-level bedroom/bathroom, and 2011 accessibility-module feature variables. Level 1 and level 3 track the published HUD report closely; level 2 does not, so the published HUD values remain the authoritative benchmark.",
+      "level_1_share": 0.321667,
+      "level_1_share_pct": 32.17,
+      "level_2_share": 0.057285,
+      "level_2_share_pct": 5.73,
+      "level_3_share": 0.001419,
+      "level_3_share_pct": 0.14
+    },
+    "2019_level_1_approximation": {
+      "description": "Approximate level-1-style structural measure using occupied 2019 topical-module Group 2 cases (SP2WEIGHT > 0), weighted by SP2WEIGHT, with NOSTEP plus HALIFT/HABEDENTRY/HABATHENTRY and UNITFLOORS. 2019 lacks the 2011 level-2/level-3 feature battery, and this estimate is not directly comparable to the 2023 lower-bound proxy.",
+      "share": 0.405124,
+      "share_pct": 40.51
+    },
+    "2023_level_1_lower_bound_proxy": {
+      "description": "Lower-bound proxy only, computed on the 2023 all-housing core-file universe and weighted by WEIGHT: no-step entry plus a one-floor unit with at least one bedroom and one bathroom. 2023 lacks the 2019/2011 entry-level bedroom, entry-level bathroom, elevator, and wheelchair-feature questions needed for exact Bo'sher replication, so this is not directly comparable to the 2019 approximation.",
+      "share": 0.304954,
+      "share_pct": 30.5
+    },
+    "comparability_note": "The 2019 level-1-style approximation and the 2023 lower-bound level-1 proxy are not a clean 2019\u21922023 time series: the 2019 figure is an occupied topical-module Group 2 estimate weighted with SP2WEIGHT, while the 2023 figure is an all-housing core-file proxy weighted with WEIGHT.",
+    "feasibility": {
+      "2011": "Canonical three-tier framework available from the 2011 accessibility module and published HUD report.",
+      "2019": "Only a partial level-1-style approximation is possible from public materials; the 2019 module was redesigned around accessibility problems and selected features rather than the full 2011 feature battery.",
+      "2023": "Exact replication not possible. The 2015-2023 PUF guide lists no 2023 Home Accessibility topical module, and the 2023 table-spec workbook has no Home Accessibility sheet."
+    }
+  },
+  "limitations": [
+    "The 2023 AHS national PUF does not include the dedicated Home Accessibility topical module that existed in 2019, so there is no 2023 analogue for the 2011 feature battery used by Bo'sher et al.",
+    "2019 Home Accessibility variables use SP2WEIGHT because they are topical-module Group 2 items; 2023 accessibility-related variables used here are core-file items and therefore use WEIGHT.",
+    "The canonical 2011 Bo'sher three-tier figures are reported from the published HUD report. Public-PUF reconstruction comes close for levels 1 and 3 but not level 2, so published HUD values remain the authoritative 2011 benchmark.",
+    "The 2019 level-1-style approximation and 2023 lower-bound proxy are not a clean 2019\u21922023 comparable series because they use different universes, weights, and question batteries (2019 occupied topical-module Group 2 cases with SP2WEIGHT versus a 2023 all-housing core-file proxy with WEIGHT).",
+    "The 2023 Bo'sher-style result is only a lower-bound structural proxy based on no-step entry plus one-floor units with at least one bedroom and one bathroom; it is not directly comparable to the full 2011 level-1 index.",
+    "Because 2023 lacks the 2019 problem-based accessibility module, 2019 home-accessibility problem shares are historical context only, not trend estimates continued into 2023.",
+    "Reported differences in this memo are descriptive weighted differences from AHS tabulations; the script does not estimate sampling variance or test statistical significance.",
+    "Cross-year subgroup comparisons are approximate harmonizations rather than exact apples-to-apples measures: 2011 uses HDSB/HWALK recodes, while 2019 and 2023 use DISHH/NUMWALK or related proxies."
+  ],
+  "files_created_or_modified": [
+    "scripts/ahs_2023_accessibility_analysis.py",
+    "results/ahs_2023_accessibility_results.json",
+    "results/ahs_2023_accessibility_analysis.md"
+  ],
+  "raw_files_downloaded": [
+    "data/ahs_accessibility/raw/AHS 2023 National PUF v1.1 Flat CSV.zip",
+    "data/ahs_accessibility/raw/AHS 2019 National PUF v1.1 Flat CSV.zip",
+    "data/ahs_accessibility/raw/AHS 2011 National PUF v3.0 Flat CSV.zip",
+    "data/ahs_accessibility/raw/AHS 2023 Value Labels Package.zip",
+    "data/ahs_accessibility/raw/AHS 2019 Value Labels Package.zip",
+    "data/ahs_accessibility/raw/AHS 2011 National Value Labels Package.zip",
+    "data/ahs_accessibility/raw/AHS 2023 Table Specifications and PUF Estimates for User Verification.xlsx",
+    "data/ahs_accessibility/raw/2019 AHS Table Specifications and PUF Estimates for User Verification.xlsx",
+    "data/ahs_accessibility/raw/AHS_ 2011_Table_Specs.xls",
+    "data/ahs_accessibility/raw/accessibility-america-housingStock.pdf",
+    "data/ahs_accessibility/raw/Getting Started with the AHS PUF 2015 and Beyond.pdf"
+  ]
+}

@@ -1,0 +1,869 @@
+[
+  {
+    "source_file": "9919221_2023_Watkins v. Housing Authority of the City of Hugo, The_oked",
+    "custom_id": "uor-0017-a0d2b7651940",
+    "case_name": "Watkins v. Housing Authority of the City of Hugo",
+    "input_tokens": 5434,
+    "output_tokens": 2617,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0017-a0d2b7651940",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"NONE_APPARENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"NONE\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"NEITHER\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The court denied the preliminary injunction without prejudice due to lack of service and failure to satisfy Rule 65 notice requirements, leaving the underlying reasonable accommodation claims pending. This public housing eviction defense case presents no pleading failure as the merits remain to be litigated. The procedural posture indicates a temporary procedural setback rather than a substantive deficiency in the FHA theory or factual record.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5434,
+          "output_tokens": 2617,
+          "total_tokens": 8051
+        },
+        "provider_response_id": "gen-1776274733-m5l8if7dcRZJOBbS8kNd"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "NONE_APPARENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "NONE",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "NEITHER",
+      "classification_confidence": "HIGH",
+      "reasoning": "The court denied the preliminary injunction without prejudice due to lack of service and failure to satisfy Rule 65 notice requirements, leaving the underlying reasonable accommodation claims pending. This public housing eviction defense case presents no pleading failure as the merits remain to be litigated. The procedural posture indicates a temporary procedural setback rather than a substantive deficiency in the FHA theory or factual record."
+    }
+  },
+  {
+    "source_file": "10189170_2023_431 E PALISADE AVENUE REAL ESTATE, LLC v. CITY OF ENGLEWOOD_njd",
+    "custom_id": "uor-0001-619d1de76c59",
+    "case_name": "431 E Palisade Avenue Real Estate, LLC v. City of Englewood",
+    "input_tokens": 5885,
+    "output_tokens": 2479,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0001-619d1de76c59",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"NONE_APPARENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"LEASE_OR_POLICY_TEXT\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"DOCUMENTED_REQUEST\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"NEITHER\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The structured record shows represented group-home operators survived a motion to dismiss on FHA disparate impact claims challenging a municipal zoning ordinance, with the court finding allegations of disparate impact on elderly handicapped persons sufficient without statistical evidence at the pleading stage under Inclusive Communities. While the Equal Protection claim was dismissed for conclusory intent allegations under Iqbal/Twombly, the FHA claims remain pending with outcome SURVIVES_MTD, indicating no pleading failure for the federal housing claims. This is a public-process case involving facial challenges to land-use regulations.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5885,
+          "output_tokens": 2479,
+          "total_tokens": 8364
+        },
+        "provider_response_id": "gen-1776274733-9tQbroLequ4SNmFQHW90"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "NONE_APPARENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "LEASE_OR_POLICY_TEXT",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "DOCUMENTED_REQUEST",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "NEITHER",
+      "classification_confidence": "HIGH",
+      "reasoning": "The structured record shows represented group-home operators survived a motion to dismiss on FHA disparate impact claims challenging a municipal zoning ordinance, with the court finding allegations of disparate impact on elderly handicapped persons sufficient without statistical evidence at the pleading stage under Inclusive Communities. While the Equal Protection claim was dismissed for conclusory intent allegations under Iqbal/Twombly, the FHA claims remain pending with outcome SURVIVES_MTD, indicating no pleading failure for the federal housing claims. This is a public-process case involving facial challenges to land-use regulations."
+    }
+  },
+  {
+    "source_file": "10189406_2024_CAREONE AT BIRCHWOOD, LLC v. TOWNSHIP OF EDISON_njd",
+    "custom_id": "uor-0002-20e8da4f30d4",
+    "case_name": "CareOne at Birchwood, LLC v. Township of Edison",
+    "input_tokens": 5774,
+    "output_tokens": 2744,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0002-20e8da4f30d4",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"NONE_APPARENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"DOCUMENTED_REQUEST\",\n    \"COMPARATOR_OR_PATTERN_EVIDENCE\",\n    \"HEARING_OR_GRIEVANCE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"NEITHER\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The record reflects a mixed outcome at summary judgment where plaintiff prevailed on a disparate impact theory challenging the municipal zoning ordinance but the reasonable accommodation claim survived to trial due to genuine disputes over whether the 106-bed, 3-story design was 'necessary.' Because the claim survived and plaintiff won on one theory, no pleading-failure diagnosis dominates. The case involves a municipal zoning process for supportive housing, implicating public-process analysis, with administratively observable patterns including the zoning ordinance, variance request, and statistical evidence of disparate impact.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5774,
+          "output_tokens": 2744,
+          "total_tokens": 8518
+        },
+        "provider_response_id": "gen-1776274733-TYCVCLyhpdpawbLHPQSY"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "NONE_APPARENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "DOCUMENTED_REQUEST",
+        "COMPARATOR_OR_PATTERN_EVIDENCE",
+        "HEARING_OR_GRIEVANCE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "NEITHER",
+      "classification_confidence": "HIGH",
+      "reasoning": "The record reflects a mixed outcome at summary judgment where plaintiff prevailed on a disparate impact theory challenging the municipal zoning ordinance but the reasonable accommodation claim survived to trial due to genuine disputes over whether the 106-bed, 3-story design was 'necessary.' Because the claim survived and plaintiff won on one theory, no pleading-failure diagnosis dominates. The case involves a municipal zoning process for supportive housing, implicating public-process analysis, with administratively observable patterns including the zoning ordinance, variance request, and statistical evidence of disparate impact."
+    }
+  },
+  {
+    "source_file": "9741144_2022_Smith v. New Rez, LLC_mdd",
+    "custom_id": "uor-0014-53b01def3966",
+    "case_name": "Smith v. New Rez, LLC",
+    "input_tokens": 10547,
+    "output_tokens": 4456,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0014-53b01def3966",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"PROC",
+        "usage": {
+          "input_tokens": 5282,
+          "output_tokens": 3200,
+          "total_tokens": 8482
+        },
+        "provider_response_id": "gen-1776274733-uoVK7Kxf3qEy867B0aKz"
+      },
+      {
+        "custom_id": "uor-0014-53b01def3966",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"EXHAUSTION_OR_PRECLUSION\",\n  \"institutional_function_missing\": [\n    \"JURISDICTIONAL_TRIAGE\",\n    \"THEORY_SELECTION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"HEARING_OR_GRIEVANCE_RECORD\",\n    \"NOTICE_OR_TIMELINE_RECORD\",\n    \"LEASE_OR_POLICY_TEXT\"\n  ],\n  \"raw_text_review_priority\": \"LOW\",\n  \"doctrinal_gap_signal\": \"NONE\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"TIER2_INSTITUTIONAL_INTERMEDIATION\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"Pro se plaintiff's FHA discriminatory lending claims were dismissed as barred by res judicata because the same claims arose from the same nucleus of facts as prior state foreclosure proceedings that reached final judgment. The loss is a pure preclusion bar, not a pleading deficiency on the merits. The primary missing institutional function is jurisdictional triage—ensuring federal claims are raised in the proper forum and timing—along with theory selection to frame FHA claims within the original state proceeding.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5265,
+          "output_tokens": 1256,
+          "total_tokens": 6521
+        },
+        "provider_response_id": "gen-1776274933-G3yziXdaWPciEUHO9KzG"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "PROCEDURAL_GATEWAY",
+      "pleading_failure_mechanism": "EXHAUSTION_OR_PRECLUSION",
+      "institutional_function_missing": [
+        "JURISDICTIONAL_TRIAGE",
+        "THEORY_SELECTION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "HEARING_OR_GRIEVANCE_RECORD",
+        "NOTICE_OR_TIMELINE_RECORD",
+        "LEASE_OR_POLICY_TEXT"
+      ],
+      "raw_text_review_priority": "LOW",
+      "doctrinal_gap_signal": "NONE",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+      "classification_confidence": "HIGH",
+      "reasoning": "Pro se plaintiff's FHA discriminatory lending claims were dismissed as barred by res judicata because the same claims arose from the same nucleus of facts as prior state foreclosure proceedings that reached final judgment. The loss is a pure preclusion bar, not a pleading deficiency on the merits. The primary missing institutional function is jurisdictional triage—ensuring federal claims are raised in the proper forum and timing—along with theory selection to frame FHA claims within the original state proceeding."
+    }
+  },
+  {
+    "source_file": "10203219_2024_George v. Overall Creek Apartments, LLC_tnmd",
+    "custom_id": "uor-0003-dabc77f3f655",
+    "case_name": "George v. Overall Creek Apartments, LLC",
+    "input_tokens": 5575,
+    "output_tokens": 2937,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0003-dabc77f3f655",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"LIMITATIONS_OR_TIMELINESS\",\n  \"institutional_function_missing\": [\n    \"JURISDICTIONAL_TRIAGE\",\n    \"FACT_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"PHYSICAL_ACCESS_BARRIER\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"LOW\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The case was dismissed at summary judgment on statute-of-limitations grounds before reaching the merits, with the court finding the two-year period began when the last unit was rented in March 2021 and suit was filed in March 2023. Because the claim is procedurally barred rather than factually or legally underdeveloped on the merits, the failure family is best coded as a procedural gateway issue. The record indicates a represented plaintiff alleging design-and-construction barriers, suggesting the institutional gap lies in jurisdictional triage and date verification rather than translation. The observable fact pattern includes physical access barriers and timeline records, and the loss appears preventable through both better reporting architectures and legal screening.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5575,
+          "output_tokens": 2937,
+          "total_tokens": 8512
+        },
+        "provider_response_id": "gen-1776274733-BWKDAjAmTBmQ6HayRzRT"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "PROCEDURAL_GATEWAY",
+      "pleading_failure_mechanism": "LIMITATIONS_OR_TIMELINESS",
+      "institutional_function_missing": [
+        "JURISDICTIONAL_TRIAGE",
+        "FACT_DEVELOPMENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "PHYSICAL_ACCESS_BARRIER",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "LOW",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "HIGH",
+      "reasoning": "The case was dismissed at summary judgment on statute-of-limitations grounds before reaching the merits, with the court finding the two-year period began when the last unit was rented in March 2021 and suit was filed in March 2023. Because the claim is procedurally barred rather than factually or legally underdeveloped on the merits, the failure family is best coded as a procedural gateway issue. The record indicates a represented plaintiff alleging design-and-construction barriers, suggesting the institutional gap lies in jurisdictional triage and date verification rather than translation. The observable fact pattern includes physical access barriers and timeline records, and the loss appears preventable through both better reporting architectures and legal screening."
+    }
+  },
+  {
+    "source_file": "9919451_2024_Metropolitan Fair Housing Council of Oklahoma, Inc v. Feiock_oked",
+    "custom_id": "uor-0018-d8e3865bb159",
+    "case_name": "Metropolitan Fair Housing Council of Oklahoma, Inc. v. Feiock",
+    "input_tokens": 11116,
+    "output_tokens": 5132,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0018-d8e3865bb159",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"MERITS_EVIDENCE\",\n  \"pleading_failure_mechanism\": \"TECHNICAL_PROOF_GAP\",\n  \"institutional_function_missing\": [\n    \"MEDICAL_OR_DISABILITY_CORROBORATION\",\n    \"EXPERT_OR_TECHNICAL_TRANSLATION\",\n    \"FACT_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"MEDICAL_OR_PROVIDER_LETTER\",\n    \"NOTICE_OR_TIMELINE_RECORD\",\n    \"LEASE_OR_POLICY_TEXT\"\n  ],\n  \"raw_text_review_priority\": \"LOW\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"",
+        "usage": {
+          "input_tokens": 5562,
+          "output_tokens": 3200,
+          "total_tokens": 8762
+        },
+        "provider_response_id": "gen-1776274733-NXGs3LRAmTEjegZCXRwb"
+      },
+      {
+        "custom_id": "uor-0018-d8e3865bb159",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_DEFENDANT_WIN\",\n  \"pleading_failure_mechanism\": \"DISABILITY_NEXUS_MISSING\",\n  \"institutional_function_missing\": [\n    \"FACT_DEVELOPMENT\",\n    \"MEDICAL_OR_DISABILITY_CORROBORATION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"LEASE_OR_POLICY_TEXT\",\n    \"MEDICAL_OR_PROVIDER_LETTER\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"NEITHER\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The court granted summary judgment on developed merits, finding the one-year lease renewal was neither necessary nor reasonable because it provided better terms than other tenants received rather than equal opportunity, and plaintiffs lacked evidentiary support for the disability-accommodation nexus. A fair housing organization already represented plaintiffs, so institutional intermediation was present, and the loss turned on a substantive legal determination about the boundary between accommodation and preferential treatment rather than a correctable translation or documentation gap.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5554,
+          "output_tokens": 1932,
+          "total_tokens": 7486
+        },
+        "provider_response_id": "gen-1776274933-SPBpxrRr9x0AU9u3pk6M"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_DEFENDANT_WIN",
+      "pleading_failure_mechanism": "DISABILITY_NEXUS_MISSING",
+      "institutional_function_missing": [
+        "FACT_DEVELOPMENT",
+        "MEDICAL_OR_DISABILITY_CORROBORATION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "LEASE_OR_POLICY_TEXT",
+        "MEDICAL_OR_PROVIDER_LETTER"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "NEITHER",
+      "classification_confidence": "HIGH",
+      "reasoning": "The court granted summary judgment on developed merits, finding the one-year lease renewal was neither necessary nor reasonable because it provided better terms than other tenants received rather than equal opportunity, and plaintiffs lacked evidentiary support for the disability-accommodation nexus. A fair housing organization already represented plaintiffs, so institutional intermediation was present, and the loss turned on a substantive legal determination about the boundary between accommodation and preferential treatment rather than a correctable translation or documentation gap."
+    }
+  },
+  {
+    "source_file": "9890868_2024_Jane Doe v. Related Companies, LLP_nysd",
+    "custom_id": "uor-0015-b722106f26ae",
+    "case_name": "Jane Doe v. Related Companies, LLP",
+    "input_tokens": 10646,
+    "output_tokens": 4645,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0015-b722106f26ae",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5324,
+          "output_tokens": 3200,
+          "total_tokens": 8524
+        },
+        "provider_response_id": "gen-1776274733-wLdrOzPBrbN4ydADZU9U"
+      },
+      {
+        "custom_id": "uor-0015-b722106f26ae",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"TIMING_OR_NOTICE_GAP\",\n  \"institutional_function_missing\": [\n    \"JURISDICTIONAL_TRIAGE\",\n    \"THEORY_SELECTION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"UNCLEAR\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"TIER2_INSTITUTIONAL_INTERMEDIATION\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The pro se plaintiff's FHA complaint was dismissed under Rule 41(b) for failure to prosecute after she ignored a show cause order for over six months, so the court never reached the merits of any claim. This is a procedural gateway loss driven by the plaintiff's failure to comply with court-imposed deadlines and notice requirements. The underlying claim theory was coded as unclear with no specific accommodation request described, indicating that theory selection and procedural triage support were both missing.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5322,
+          "output_tokens": 1445,
+          "total_tokens": 6767
+        },
+        "provider_response_id": "gen-1776274957-qeLd7MEeM88U4IqyGYIp"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "PROCEDURAL_GATEWAY",
+      "pleading_failure_mechanism": "TIMING_OR_NOTICE_GAP",
+      "institutional_function_missing": [
+        "JURISDICTIONAL_TRIAGE",
+        "THEORY_SELECTION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "UNCLEAR"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The pro se plaintiff's FHA complaint was dismissed under Rule 41(b) for failure to prosecute after she ignored a show cause order for over six months, so the court never reached the merits of any claim. This is a procedural gateway loss driven by the plaintiff's failure to comply with court-imposed deadlines and notice requirements. The underlying claim theory was coded as unclear with no specific accommodation request described, indicating that theory selection and procedural triage support were both missing."
+    }
+  },
+  {
+    "source_file": "10264452_2023_The City of Huntington v. The Lifehouse, Inc.et al_wvsd",
+    "custom_id": "uor-0004-50bd5f634928",
+    "case_name": "The City of Huntington v. The Lifehouse, Inc.",
+    "input_tokens": 11063,
+    "output_tokens": 4522,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0004-50bd5f634928",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5537,
+          "output_tokens": 3200,
+          "total_tokens": 8737
+        },
+        "provider_response_id": "gen-1776274733-oxS7iKbzU4IOld332Rlz"
+      },
+      {
+        "custom_id": "uor-0004-50bd5f634928",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\"NONE_APPARENT\"],\n  \"administratively_observable_fact_pattern\": [\"DOCUMENTED_REQUEST\", \"PUBLIC_PROGRAM_RULE_OR_DECISION\", \"LEASE_OR_POLICY_TEXT\"],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"NEITHER\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The City of Huntington initiated a declaratory judgment action against a sober living home operator seeking clarity on whether federal disability statutes provide a blanket exemption from local zoning, building, fire, and inspection requirements. Both claims survived the motion to dismiss with outcomes still pending, so no pleading failure diagnosis applies. The case raises a significant doctrinal question about the scope of reasonable accommodation obligations vis-a-vis local regulatory authority, and the public regulatory process is central to the dispute.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5526,
+          "output_tokens": 1322,
+          "total_tokens": 6848
+        },
+        "provider_response_id": "gen-1776274957-LfYQJmrE8YbApf7JczAI"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "NONE_APPARENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "LEASE_OR_POLICY_TEXT"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "NEITHER",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The City of Huntington initiated a declaratory judgment action against a sober living home operator seeking clarity on whether federal disability statutes provide a blanket exemption from local zoning, building, fire, and inspection requirements. Both claims survived the motion to dismiss with outcomes still pending, so no pleading failure diagnosis applies. The case raises a significant doctrinal question about the scope of reasonable accommodation obligations vis-a-vis local regulatory authority, and the public regulatory process is central to the dispute."
+    }
+  },
+  {
+    "source_file": "9519145_2024_Sosa Guerrero v. Camp Pendelton and Quantico Housing, LLC_cacd",
+    "custom_id": "uor-0011-b64c30dbe565",
+    "case_name": "Luis Sosa Guerrero, Ashley Sosa, and A.S. v. Camp Pendelton & Quantico Housing, LLC, et al.",
+    "input_tokens": 5492,
+    "output_tokens": 3171,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0011-b64c30dbe565",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"NONE_APPARENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"MEDICAL_OR_PROVIDER_LETTER\",\n    \"LEASE_OR_POLICY_TEXT\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"NEITHER\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The jury returned a plaintiff verdict awarding $98,000 in compensatory damages on the reasonable accommodation claim for a learning disability, so no pleading failure mechanism applies. The court denied the permanent injunction solely on equitable grounds—finding monetary damages adequate and an injunction contrary to public interest regarding military operations—rather than any defect in claim translation or proof. The record reflects represented plaintiffs who successfully developed the claim through trial, with no indication that missing institutional intermediation caused the partial adverse outcome.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5492,
+          "output_tokens": 3171,
+          "total_tokens": 8663
+        },
+        "provider_response_id": "gen-1776274733-s5pFr2qFQUifNXr6NU75"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "NONE_APPARENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "MEDICAL_OR_PROVIDER_LETTER",
+        "LEASE_OR_POLICY_TEXT"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "NEITHER",
+      "classification_confidence": "HIGH",
+      "reasoning": "The jury returned a plaintiff verdict awarding $98,000 in compensatory damages on the reasonable accommodation claim for a learning disability, so no pleading failure mechanism applies. The court denied the permanent injunction solely on equitable grounds—finding monetary damages adequate and an injunction contrary to public interest regarding military operations—rather than any defect in claim translation or proof. The record reflects represented plaintiffs who successfully developed the claim through trial, with no indication that missing institutional intermediation caused the partial adverse outcome."
+    }
+  },
+  {
+    "source_file": "11267589 - Oxford House, Inc. v. Township of North Bergen",
+    "custom_id": "uor-0005-e72c891d1d6f",
+    "case_name": "Oxford House, Inc. v. Township of North Bergen",
+    "input_tokens": 11097,
+    "output_tokens": 5309,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0005-e72c891d1d6f",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5565,
+          "output_tokens": 3200,
+          "total_tokens": 8765
+        },
+        "provider_response_id": "gen-1776274733-fCqyFxm3F57iETsBxl7k"
+      },
+      {
+        "custom_id": "uor-0005-e72c891d1d6f",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"FACTUAL_DETAIL\",\n  \"pleading_failure_mechanism\": \"MIXED\",\n  \"institutional_function_missing\": [\n    \"COMPARATOR_DEVELOPMENT\",\n    \"FACT_DEVELOPMENT\",\n    \"THEORY_SELECTION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"COMPARATOR_OR_PATTERN_EVIDENCE\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The Third Circuit affirmed dismissal of both disparate treatment and disparate impact claims under Iqbal/Twombly for insufficient factual allegations: the disparate treatment claim lacked facts supporting discriminatory intent, and the disparate impact claim was forfeited and lacked statistical data. The municipality's zoning denial of a sober living home's Certificate of Continuing Occupancy application is a public-process dispute, but the pleading failed to connect the zoning decision to disability discrimination with adequate comparator or statistical evidence. Leave to amend was vacated and remanded, indicating the deficiencies may be curable with better factual development and theory selection.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5532,
+          "output_tokens": 2109,
+          "total_tokens": 7641
+        },
+        "provider_response_id": "gen-1776274957-t6zTfAdxPqesmjNTwGcL"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "FACTUAL_DETAIL",
+      "pleading_failure_mechanism": "MIXED",
+      "institutional_function_missing": [
+        "COMPARATOR_DEVELOPMENT",
+        "FACT_DEVELOPMENT",
+        "THEORY_SELECTION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "COMPARATOR_OR_PATTERN_EVIDENCE"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The Third Circuit affirmed dismissal of both disparate treatment and disparate impact claims under Iqbal/Twombly for insufficient factual allegations: the disparate treatment claim lacked facts supporting discriminatory intent, and the disparate impact claim was forfeited and lacked statistical data. The municipality's zoning denial of a sober living home's Certificate of Continuing Occupancy application is a public-process dispute, but the pleading failed to connect the zoning decision to disability discrimination with adequate comparator or statistical evidence. Leave to amend was vacated and remanded, indicating the deficiencies may be curable with better factual development and theory selection."
+    }
+  },
+  {
+    "source_file": "9898381_2022_Moore v. Capital Realty Group, Inc._nywd",
+    "custom_id": "uor-0016-5c7481c7f7dc",
+    "case_name": "Jerry W. Moore v. Capital Realty Group, Inc.",
+    "input_tokens": 11104,
+    "output_tokens": 4583,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0016-5c7481c7f7dc",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5560,
+          "output_tokens": 3200,
+          "total_tokens": 8760
+        },
+        "provider_response_id": "gen-1776274733-uzgJqcuE1VZ24QsogLpY"
+      },
+      {
+        "custom_id": "uor-0016-5c7481c7f7dc",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"JURISDICTIONAL_TRIAGE\",\n    \"EXPERT_OR_TECHNICAL_TRANSLATION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"PHYSICAL_ACCESS_BARRIER\",\n    \"INSPECTION_OR_MEASUREMENT_DATA\",\n    \"DOCUMENTED_REQUEST\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The pro se plaintiff's FHA design-and-construction claim against Capital Realty Group survived § 1915(e)(2) screening as colorable, while the HUD claims were properly dismissed on jurisdictional grounds (no private right of action). The surviving claim concerns physical accessibility of sliding doors for wheelchair users, which will require inspection data and expert translation to prove on the merits. The jurisdictional dismissal of HUD suggests a triage gap, and the pro se plaintiff will need both standardized documentation support and institutional intermediation for the technical design-and-construction claim going forward.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5544,
+          "output_tokens": 1383,
+          "total_tokens": 6927
+        },
+        "provider_response_id": "gen-1776274976-iMR7XrlfDkitoAgZ8iP5"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "JURISDICTIONAL_TRIAGE",
+        "EXPERT_OR_TECHNICAL_TRANSLATION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "PHYSICAL_ACCESS_BARRIER",
+        "INSPECTION_OR_MEASUREMENT_DATA",
+        "DOCUMENTED_REQUEST"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The pro se plaintiff's FHA design-and-construction claim against Capital Realty Group survived § 1915(e)(2) screening as colorable, while the HUD claims were properly dismissed on jurisdictional grounds (no private right of action). The surviving claim concerns physical accessibility of sliding doors for wheelchair users, which will require inspection data and expert translation to prove on the merits. The jurisdictional dismissal of HUD suggests a triage gap, and the pro se plaintiff will need both standardized documentation support and institutional intermediation for the technical design-and-construction claim going forward."
+    }
+  },
+  {
+    "source_file": "10172026_2024_Filho v. Mercy Housing California XVII, LP_cand",
+    "custom_id": "uor-0000-30b59cd1216f",
+    "case_name": "Filho v. Mercy Housing California XVII, LP",
+    "input_tokens": 11086,
+    "output_tokens": 4426,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0000-30b59cd1216f",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5550,
+          "output_tokens": 3200,
+          "total_tokens": 8750
+        },
+        "provider_response_id": "gen-1776274733-mTzpN5sBx9x6EnGkXAk9"
+      },
+      {
+        "custom_id": "uor-0000-30b59cd1216f",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"NOTICE_OR_TIMELINE_RECORD\",\n    \"LEASE_OR_POLICY_TEXT\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The pro se plaintiff's core reasonable accommodation claim survived § 1915 screening against Mercy Housing, with the court finding all five RA elements plausibly alleged, though the individual liability claim against the property manager faces a show-cause order under Iqbal/Twombly. The accommodation request—enforcing a domestic violence restraining order as a policy exception—is an open-textured FHA application that would benefit from both Tier 1 documentation support and Tier 2 theory selection on individual liability.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5536,
+          "output_tokens": 1226,
+          "total_tokens": 6762
+        },
+        "provider_response_id": "gen-1776274992-ndfxLFDU93XPddwCupjA"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "DOCUMENT_ASSEMBLY"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "NOTICE_OR_TIMELINE_RECORD",
+        "LEASE_OR_POLICY_TEXT"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The pro se plaintiff's core reasonable accommodation claim survived § 1915 screening against Mercy Housing, with the court finding all five RA elements plausibly alleged, though the individual liability claim against the property manager faces a show-cause order under Iqbal/Twombly. The accommodation request—enforcing a domestic violence restraining order as a policy exception—is an open-textured FHA application that would benefit from both Tier 1 documentation support and Tier 2 theory selection on individual liability."
+    }
+  },
+  {
+    "source_file": "EIGHT IS ENOUGH, LLC v. OHLIG",
+    "custom_id": "uor-0019-da02a99d6252",
+    "case_name": "Eight Is Enough, LLC v. Ohlig",
+    "input_tokens": 11002,
+    "output_tokens": 5112,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0019-da02a99d6252",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5508,
+          "output_tokens": 3200,
+          "total_tokens": 8708
+        },
+        "provider_response_id": "gen-1776274733-rlhwx8w3yxVhu99lzXEC"
+      },
+      {
+        "custom_id": "uor-0019-da02a99d6252",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT\",\n    \"FACT_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"MEDICAL_OR_PROVIDER_LETTER\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The appellate court remanded because the trial court failed to consider the tenant's disability discrimination defense at the show cause hearing, with both the reasonable accommodation and retaliation claims surviving for further proceedings. The five-day gap between the accommodation request and the termination notice supports a prima facie retaliation claim, yet the interactive process was never discussed. Both Tier 1 documentation (request records, medical letters, timeline evidence) and Tier 2 institutional support (negotiation and interactive process facilitation) could improve outcomes in similar private-landlord eviction disputes.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5494,
+          "output_tokens": 1912,
+          "total_tokens": 7406
+        },
+        "provider_response_id": "gen-1776274983-uJeVwb7hO3ng1FTCM05u"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT",
+        "FACT_DEVELOPMENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "MEDICAL_OR_PROVIDER_LETTER",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The appellate court remanded because the trial court failed to consider the tenant's disability discrimination defense at the show cause hearing, with both the reasonable accommodation and retaliation claims surviving for further proceedings. The five-day gap between the accommodation request and the termination notice supports a prima facie retaliation claim, yet the interactive process was never discussed. Both Tier 1 documentation (request records, medical letters, timeline evidence) and Tier 2 institutional support (negotiation and interactive process facilitation) could improve outcomes in similar private-landlord eviction disputes."
+    }
+  },
+  {
+    "source_file": "9609703_2023_Silver v. Greystar Real Estate Partners, LLC_cand",
+    "custom_id": "uor-0013-b60017b8a718",
+    "case_name": "Aimee Silver v. Greystar California, Inc., et al.",
+    "input_tokens": 10395,
+    "output_tokens": 4562,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0013-b60017b8a718",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " {\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"JURISDICTION_OR_STANDING\",\n  \"institutional_function_missing\": [\n    \"UNCLEAR\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"UNCLEAR\"\n  ],\n  \"raw_text_review_priority\": \"HIGH\",\n  \"doctrinal_gap_signal\": \"NONE\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"UNCLEAR\",\n  \"classification_confidence\": \"LOW\",\n  \"reasoning\": \"The plaintiff voluntarily withdrew the sole federal FHA claim, prompting the court to decline supplemental jurisdiction",
+        "usage": {
+          "input_tokens": 5199,
+          "output_tokens": 3200,
+          "total_tokens": 8399
+        },
+        "provider_response_id": "gen-1776274733-5BZg1vK8QlCQsNE4WSev"
+      },
+      {
+        "custom_id": "uor-0013-b60017b8a718",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"UNCLEAR\",\n  \"pleading_failure_mechanism\": \"UNCLEAR\",\n  \"institutional_function_missing\": [\"UNCLEAR\"],\n  \"administratively_observable_fact_pattern\": [\"UNCLEAR\"],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"UNCLEAR\",\n  \"classification_confidence\": \"LOW\",\n  \"reasoning\": \"The plaintiff voluntarily withdrew the sole federal FHA claim, and the court then declined supplemental jurisdiction over the remaining state law claims, dismissing without prejudice. The structured record contains internal contradictions—disability_alleged is false yet primary_protected_class is disability and primary_claim_type is reasonable_accommodation_denial—and the claim theory is marked UNCLEAR, making it impossible to diagnose a specific failure family from the available data. The voluntary withdrawal could reflect strategic recalibration rather than a pleading defect, but the underlying motivation is not captured.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5196,
+          "output_tokens": 1362,
+          "total_tokens": 6558
+        },
+        "provider_response_id": "gen-1776274992-pl5tD9lGsUxn2PwkHvgt"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "UNCLEAR",
+      "pleading_failure_mechanism": "UNCLEAR",
+      "institutional_function_missing": [
+        "UNCLEAR"
+      ],
+      "administratively_observable_fact_pattern": [
+        "UNCLEAR"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "UNCLEAR",
+      "classification_confidence": "LOW",
+      "reasoning": "The plaintiff voluntarily withdrew the sole federal FHA claim, and the court then declined supplemental jurisdiction over the remaining state law claims, dismissing without prejudice. The structured record contains internal contradictions—disability_alleged is false yet primary_protected_class is disability and primary_claim_type is reasonable_accommodation_denial—and the claim theory is marked UNCLEAR, making it impossible to diagnose a specific failure family from the available data. The voluntary withdrawal could reflect strategic recalibration rather than a pleading defect, but the underlying motivation is not captured."
+    }
+  },
+  {
+    "source_file": "9385862_2023_Suellen Klossner v. IADU Table Mound MHP, LLC_ca8",
+    "custom_id": "uor-0010-7d6f3f9a7cf9",
+    "case_name": "Klossner v. IADU Table Mound MHP, LLC",
+    "input_tokens": 11057,
+    "output_tokens": 5986,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0010-7d6f3f9a7cf9",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5534,
+          "output_tokens": 3200,
+          "total_tokens": 8734
+        },
+        "provider_response_id": "gen-1776274733-o81Yat4kdTfdyqrCqZXG"
+      },
+      {
+        "custom_id": "uor-0010-7d6f3f9a7cf9",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_DEFENDANT_WIN\",\n  \"pleading_failure_mechanism\": \"ELEMENT_MISMATCH\",\n  \"institutional_function_missing\": [\"THEORY_SELECTION\"],\n  \"administratively_observable_fact_pattern\": [\"DOCUMENTED_REQUEST\", \"DENIAL_OR_NO_RESPONSE_RECORD\", \"LEASE_OR_POLICY_TEXT\", \"PUBLIC_PROGRAM_RULE_OR_DECISION\"],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"HIGH\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"NEITHER\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The Eighth Circuit held on developed merits that the FHA reasonable accommodation duty does not extend to accepting housing vouchers to address economic circumstances caused by disability, finding the required nexus between accommodation and amelioration of handicap effects unsatisfied. This is a doctrinal scope determination rather than a pleading or intermediation failure, as the plaintiff had counsel and the claim reached appeal. The case signals a significant doctrinal gap: disabled tenants whose inability to work creates economic hardship have no FHA accommodation avenue for voucher acceptance.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5523,
+          "output_tokens": 2786,
+          "total_tokens": 8309
+        },
+        "provider_response_id": "gen-1776274979-c6mZt596O8q6avRmXtLP"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_DEFENDANT_WIN",
+      "pleading_failure_mechanism": "ELEMENT_MISMATCH",
+      "institutional_function_missing": [
+        "THEORY_SELECTION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "LEASE_OR_POLICY_TEXT",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "HIGH",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "NEITHER",
+      "classification_confidence": "HIGH",
+      "reasoning": "The Eighth Circuit held on developed merits that the FHA reasonable accommodation duty does not extend to accepting housing vouchers to address economic circumstances caused by disability, finding the required nexus between accommodation and amelioration of handicap effects unsatisfied. This is a doctrinal scope determination rather than a pleading or intermediation failure, as the plaintiff had counsel and the claim reached appeal. The case signals a significant doctrinal gap: disabled tenants whose inability to work creates economic hardship have no FHA accommodation avenue for voucher acceptance."
+    }
+  },
+  {
+    "source_file": "9608822_2023_Lu v. Vivente 1, Inc._cand",
+    "custom_id": "uor-0012-66f84644625d",
+    "case_name": "Kai Lu v. Vivente 1, Inc.",
+    "input_tokens": 11806,
+    "output_tokens": 5199,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0012-66f84644625d",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_DEFENDANT_WIN\",\n  \"pleading_failure_mechanism\": \"UNCLEAR\",\n  \"institutional_function_missing\": [\n    \"DOCUMENT_ASSEMBLY\",\n    \"NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"NOTICE_OR_TIMELINE_RECORD\",\n    \"HEARING_OR_GRIEVANCE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"NONE\",\n  \"public_process_failure_flag\":",
+        "usage": {
+          "input_tokens": 5915,
+          "output_tokens": 3200,
+          "total_tokens": 9115
+        },
+        "provider_response_id": "gen-1776274733-hb9otb2tXiPQK3sXTef4"
+      },
+      {
+        "custom_id": "uor-0012-66f84644625d",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"ELEMENT_MISMATCH\",\n  \"pleading_failure_mechanism\": \"ADVERSE_ACTION_NOT_CONNECTED\",\n  \"institutional_function_missing\": [\n    \"DOCUMENT_ASSEMBLY\",\n    \"NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT\",\n    \"FACT_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"NOTICE_OR_TIMELINE_RECORD\",\n    \"LEASE_OR_POLICY_TEXT\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The pro se plaintiff alleged reasonable accommodation denial, but the court found the landlord approved the requests twice and the plaintiff never completed required documentation or hired a live-in aide. This is an element mismatch where the adverse action (eviction proceeding) cannot be connected to a denial of accommodation because none occurred. The case illustrates how a pro se tenant can fail to navigate the post-approval interactive process without institutional support for documentation assembly and follow-through.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5891,
+          "output_tokens": 1999,
+          "total_tokens": 7890
+        },
+        "provider_response_id": "gen-1776274997-4pQh0jdaVd1V7THOmf3d"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "ELEMENT_MISMATCH",
+      "pleading_failure_mechanism": "ADVERSE_ACTION_NOT_CONNECTED",
+      "institutional_function_missing": [
+        "DOCUMENT_ASSEMBLY",
+        "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT",
+        "FACT_DEVELOPMENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "NOTICE_OR_TIMELINE_RECORD",
+        "LEASE_OR_POLICY_TEXT"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The pro se plaintiff alleged reasonable accommodation denial, but the court found the landlord approved the requests twice and the plaintiff never completed required documentation or hired a live-in aide. This is an element mismatch where the adverse action (eviction proceeding) cannot be connected to a denial of accommodation because none occurred. The case illustrates how a pro se tenant can fail to navigate the post-approval interactive process without institutional support for documentation assembly and follow-through."
+    }
+  },
+  {
+    "source_file": "6225633_2022_Karen C. Yeh Ho v. Valencia Isles Homeowners Association, Inc._ca11",
+    "custom_id": "uor-0006-b0d4c2fbb4e4",
+    "case_name": "Karen C. Yeh Ho v. Valencia Isles Homeowners Association, Inc.",
+    "input_tokens": 10913,
+    "output_tokens": 4697,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0006-b0d4c2fbb4e4",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5459,
+          "output_tokens": 3200,
+          "total_tokens": 8659
+        },
+        "provider_response_id": "gen-1776274733-2zUQSwwICXCKgLOqFHKa"
+      },
+      {
+        "custom_id": "uor-0006-b0d4c2fbb4e4",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"UNCLEAR\",\n  \"institutional_function_missing\": [\n    \"DOCUMENT_ASSEMBLY\",\n    \"THEORY_SELECTION\",\n    \"JURISDICTIONAL_TRIAGE\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"UNCLEAR\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"TIER2_INSTITUTIONAL_INTERMEDIATION\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"Pro se plaintiff's disparate treatment and retaliation claims were dismissed without prejudice for failure to timely respond to the motion to dismiss, with merits never reached. The loss is purely procedural—a default for non-response rather than a substantive pleading deficiency—so no specific FHA failure mechanism is identifiable from the record. Institutional intermediation would have been critical to ensure responsive filings and protect the claims from procedural dismissal.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5454,
+          "output_tokens": 1497,
+          "total_tokens": 6951
+        },
+        "provider_response_id": "gen-1776274997-6kDvCR89KCR6UqVn3kqg"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "PROCEDURAL_GATEWAY",
+      "pleading_failure_mechanism": "UNCLEAR",
+      "institutional_function_missing": [
+        "DOCUMENT_ASSEMBLY",
+        "THEORY_SELECTION",
+        "JURISDICTIONAL_TRIAGE"
+      ],
+      "administratively_observable_fact_pattern": [
+        "UNCLEAR"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "Pro se plaintiff's disparate treatment and retaliation claims were dismissed without prejudice for failure to timely respond to the motion to dismiss, with merits never reached. The loss is purely procedural—a default for non-response rather than a substantive pleading deficiency—so no specific FHA failure mechanism is identifiable from the record. Institutional intermediation would have been critical to ensure responsive filings and protect the claims from procedural dismissal."
+    }
+  },
+  {
+    "source_file": "9363862_2023_Socal Recovery, LLC v. City of Costa Mesa_ca9",
+    "custom_id": "uor-0009-867af02d821a",
+    "case_name": "SoCal Recovery, LLC v. City of Costa Mesa",
+    "input_tokens": 5922,
+    "output_tokens": 2683,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0009-867af02d821a",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " {\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"NONE_APPARENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"DOCUMENTED_REQUEST\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"HIGH\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"TIER2_INSTITUTIONAL_INTERMEDIATION\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The Ninth Circuit reversed summary judgment for the municipality, holding that group home operators could establish FHA disability collectively through policies rather than individualized medical evidence. This plaintiff win on appeal arises from a public zoning process involving supportive housing for substance use recovery, indicating a prior doctrinal gap regarding disability proof standards in group home contexts that required appellate clarification.\"\n}",
+        "usage": {
+          "input_tokens": 5922,
+          "output_tokens": 2683,
+          "total_tokens": 8605
+        },
+        "provider_response_id": "gen-1776274733-dx2PMeD6paylKA7KevZH"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "NONE_APPARENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "DOCUMENTED_REQUEST",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "HIGH",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+      "classification_confidence": "HIGH",
+      "reasoning": "The Ninth Circuit reversed summary judgment for the municipality, holding that group home operators could establish FHA disability collectively through policies rather than individualized medical evidence. This plaintiff win on appeal arises from a public zoning process involving supportive housing for substance use recovery, indicating a prior doctrinal gap regarding disability proof standards in group home contexts that required appellate clarification."
+    }
+  },
+  {
+    "source_file": "6245490_2022_Gatling v. Jubilee Housing, Inc._dcd",
+    "custom_id": "uor-0007-5d2d49ddccce",
+    "case_name": "Gatling v. Jubilee Housing, Inc.",
+    "input_tokens": 5740,
+    "output_tokens": 2809,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0007-5d2d49ddccce",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_PLAINTIFF_WIN\",\n  \"pleading_failure_mechanism\": \"CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"PHYSICAL_ACCESS_BARRIER\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"TIER2_INSTITUTIONAL_INTERMEDIATION\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"Pro se wheelchair user plaintiff survived a motion to dismiss on her reasonable accommodation claim seeking structural modifications to a subsidized building's wheelchair ramp and lift, but her intentional discrimination claim was dismissed under Iqbal/Twombly for failure to allege discriminatory animus. This pattern suggests a theory-selection gap where institutional intermediation could have steered the plaintiff away from the futile intentional-discrimination theory toward the viable accommodation framework. The case presents administratively observable facts including documented accommodation requests and physical access barriers.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5740,
+          "output_tokens": 2809,
+          "total_tokens": 8549
+        },
+        "provider_response_id": "gen-1776274733-evkkinqQJJExqbd0U46E"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+      "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+      "institutional_function_missing": [
+        "THEORY_SELECTION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "PHYSICAL_ACCESS_BARRIER",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+      "classification_confidence": "HIGH",
+      "reasoning": "Pro se wheelchair user plaintiff survived a motion to dismiss on her reasonable accommodation claim seeking structural modifications to a subsidized building's wheelchair ramp and lift, but her intentional discrimination claim was dismissed under Iqbal/Twombly for failure to allege discriminatory animus. This pattern suggests a theory-selection gap where institutional intermediation could have steered the plaintiff away from the futile intentional-discrimination theory toward the viable accommodation framework. The case presents administratively observable facts including documented accommodation requests and physical access barriers."
+    }
+  }
+]

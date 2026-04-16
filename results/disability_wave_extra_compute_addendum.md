@@ -1,0 +1,14 @@
+# Editorial addendum: extra-compute validation synthesis
+
+Date: 2026-04-15
+Prepared by: Hermes Agent
+
+The extra-compute validation does not change the draft’s overall revision priorities. It confirms the existing editorial posture: keep the note’s architecture, strengthen Part II’s layered pipeline-failure account, preserve Part III’s floor-not-ceiling administrative program, and avoid any thesis-level pivot. If anything, the new validation increases the need for discipline in how examples are used, not for a broader rewrite.
+
+On revision priorities, the main update is negative rather than structural. The priority order in the master packet still holds, but the validation makes clear that queue-level public-process examples should not be allowed to drive Part II or III unless they have been manually validated. The extra pass therefore reinforces the instruction to lead with the validated tranche-wide mechanism findings and use individual cases only as tightly controlled illustrations.
+
+On public-process examples, the new validation both strengthens and narrows the lane. It strengthens the general claim that public-process failure is real and important, because the resolved tranche still shows a substantial public-process share and the validated `Sykes` record remains a strong example of administratively observable facts that never become a legally sufficient FHA claim. But it weakens any attempt to rely on the noisier queue as if it already supplied a deep bench of clean merits examples. `Wissman` and `Goodwin` remain usable only with narrower mechanism descriptions; `Capel` remains provisional; several other reviewed records are non-merits or likely false-positive/category-fit problems.
+
+Editorially, the note should add three things: (1) a brief sentence that the extra validation confirms the main draft risk is overclaiming from early-stage or non-merits records; (2) a more explicit rule that public-process cases are being used selectively and only where the opinion text supports a substantive mechanism; and (3) one short caution that the disability-wave coding is strongest as mechanism evidence at the body level, not as license to treat every queued case as a note-facing exemplar.
+
+The note should withhold three things: (1) any suggestion that the extra-compute pass changed the paper’s thesis or revision sequence; (2) any reliance on unvalidated queue entries as affirmative support for substantive pleading-failure propositions; and (3) any implication that the public-process lane now has multiple equally strong validated exemplars. The safest present formulation is that the extra validation strengthens the note’s aggregate mechanism account, preserves `Sykes` as the clearest public-process illustration, and counsels caution rather than expansion for the rest of the queue.

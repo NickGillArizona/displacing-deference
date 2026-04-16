@@ -1,0 +1,3290 @@
+[
+  {
+    "source_file": "10213380_2021_Payne v. City of San Antonio, Texas_txwd",
+    "custom_id": "uor-0003-cf36d5adf2dc",
+    "case_name": "Payne v. City of San Antonio, Texas",
+    "input_tokens": 5924,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0003-cf36d5adf2dc",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5924,
+          "output_tokens": 2400,
+          "total_tokens": 8324
+        },
+        "provider_response_id": "gen-1776326585-FLOJOkraINucZWAHxqy1"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10164858_2021_Miller v. Coastline Management_alsd",
+    "custom_id": "uor-0000-976277295dbe",
+    "case_name": "Miller v. Coastline Management",
+    "input_tokens": 5455,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0000-976277295dbe",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5455,
+          "output_tokens": 2400,
+          "total_tokens": 7855
+        },
+        "provider_response_id": "gen-1776326585-9lE6ei4T4px27PbWShCf"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10254272_2019_Manzke, Sara v. Jefferson County_wiwd",
+    "custom_id": "uor-0009-e02e18072b81",
+    "case_name": "Sara Manzke v. Jefferson County and Town of Ixonia",
+    "input_tokens": 5364,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0009-e02e18072b81",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5364,
+          "output_tokens": 2400,
+          "total_tokens": 7764
+        },
+        "provider_response_id": "gen-1776326596-OQMAvf8zuJxuggIh2sJA"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10249834_2021_Huzjak v. Ellis_wied",
+    "custom_id": "uor-0008-8e89e0f6bd3c",
+    "case_name": "Debra Lee Huzjak v. Kim Ellis, et al.",
+    "input_tokens": 5516,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0008-8e89e0f6bd3c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5516,
+          "output_tokens": 2400,
+          "total_tokens": 7916
+        },
+        "provider_response_id": "gen-1776326596-tBu3iVd5HQWbLz03rVFJ"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10258314_2018_Thomas v. Nationstar Mortgage, LLC_wvnd",
+    "custom_id": "uor-0010-819b9548ae27",
+    "case_name": "Thomas v. Nationstar Mortgage, LLC",
+    "input_tokens": 5402,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0010-819b9548ae27",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5402,
+          "output_tokens": 2400,
+          "total_tokens": 7802
+        },
+        "provider_response_id": "gen-1776326609-a0RuqLEIwVc37CwFHdIk"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10696687_2019_Scott Chandler v. Chartwell Holdings, Inc., et al._nhd",
+    "custom_id": "uor-0011-0bea9e7d59a4",
+    "case_name": "Scott Chandler v. Chartwell Holdings, Inc., et al.",
+    "input_tokens": 5509,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0011-0bea9e7d59a4",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5509,
+          "output_tokens": 2400,
+          "total_tokens": 7909
+        },
+        "provider_response_id": "gen-1776326609-jpvuOR06UbJAWR7GdW3Y"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10697217_2017_Lath v. Oak Brook Condominium Owners Assoc., et al._nhd",
+    "custom_id": "uor-0012-f7dac3b1bbfb",
+    "case_name": "Sanjeev Lath v. Oak Brook Condominium Owners' Association, et al.",
+    "input_tokens": 5728,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0012-f7dac3b1bbfb",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5728,
+          "output_tokens": 2400,
+          "total_tokens": 8128
+        },
+        "provider_response_id": "gen-1776326622-dHBdQdxHFetEgGpLTVYk"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "2961319_2015_Freedman v. Suntrust Banks, Inc._dcd",
+    "custom_id": "uor-0013-ac2de816a045",
+    "case_name": "Shana Freedman v. SunTrust Banks, Inc. and SunTrust Mortgage, Inc.",
+    "input_tokens": 5493,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0013-ac2de816a045",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5493,
+          "output_tokens": 2400,
+          "total_tokens": 7893
+        },
+        "provider_response_id": "gen-1776326623-eLxR1YAP5wQqW3uYlAna"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "3171091_2016_Richard Wolf v. Bank of America, N.A., et a_ca5",
+    "custom_id": "uor-0014-e202fde26339",
+    "case_name": "Richard B. Wolf; Marcia A. Wolf v. Bank of America National Association; Marvin Blankenship; Kianie King; Jimmy Widdle; Phil Gonzalez",
+    "input_tokens": 5479,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0014-e202fde26339",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5479,
+          "output_tokens": 2400,
+          "total_tokens": 7879
+        },
+        "provider_response_id": "gen-1776326633-Lanoo0nFfTAXxfqs0k9u"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "4110396_2016_Abdus-Sabur v. Corrections Corporation of America_dcd",
+    "custom_id": "uor-0015-d4f7922b9489",
+    "case_name": "Jason Abdus-Sabur v. Hope Village, Inc., et al.",
+    "input_tokens": 5734,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0015-d4f7922b9489",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5734,
+          "output_tokens": 2400,
+          "total_tokens": 8134
+        },
+        "provider_response_id": "gen-1776326634-9AZLf9Gbe9zQzIhXrFhm"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "4274256_2018_Collington v. District of Columbia Housing Authority_dcd",
+    "custom_id": "uor-0016-c8adfdd4e204",
+    "case_name": "William Hugh Collington v. District of Columbia Housing Authority et al.",
+    "input_tokens": 5520,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0016-c8adfdd4e204",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5520,
+          "output_tokens": 2400,
+          "total_tokens": 7920
+        },
+        "provider_response_id": "gen-1776326645-SHEuthxvaIiIQ3fW3RL9"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "4309890_2018_Carol Vorchheimer v. Philadelphian Owners Associati_ca3",
+    "custom_id": "uor-0017-c1312d67d6e3",
+    "case_name": "Carol Vorchheimer v. The Philadelphian Owners Association; June Idzal; Frank J. Bonom",
+    "input_tokens": 5391,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0017-c1312d67d6e3",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5391,
+          "output_tokens": 2400,
+          "total_tokens": 7791
+        },
+        "provider_response_id": "gen-1776326645-NN2YSXKr4L3NHRreOhzr"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "4865538_2021_MacKenzie v. Carson_dcd",
+    "custom_id": "uor-0018-0e584e779034",
+    "case_name": "Craig Steven MacKenzie v. Marcia L. Fudge, Secretary, U.S. Department of Housing and Urban Development",
+    "input_tokens": 5350,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0018-0e584e779034",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5350,
+          "output_tokens": 2400,
+          "total_tokens": 7750
+        },
+        "provider_response_id": "gen-1776326656-8GKSLVYOqKvgVi6UrGvS"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "4892967_2021_Lockey v. Carson_dcd",
+    "custom_id": "uor-0019-eaeba2c9ae8b",
+    "case_name": "Curtis Lockey, Jr. v. Marcia L. Fudge, Secretary, U.S. Department of Housing and Urban Development",
+    "input_tokens": 5358,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0019-eaeba2c9ae8b",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5358,
+          "output_tokens": 2400,
+          "total_tokens": 7758
+        },
+        "provider_response_id": "gen-1776326657-0nDykJ7Xf14uKq1xz5rf"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10221400_2020_Banks v. Gates Hudson _ Associates, Inc._vaed",
+    "custom_id": "uor-0004-13a1ea0e7559",
+    "case_name": "Banks v. Gates Hudson & Associates, Inc.",
+    "input_tokens": 5692,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0004-13a1ea0e7559",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5692,
+          "output_tokens": 2400,
+          "total_tokens": 8092
+        },
+        "provider_response_id": "gen-1776326585-Yw4QC4A0p5yduvU4BtgB"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10221825_2021_Fedynich v. Lozano_vaed",
+    "custom_id": "uor-0006-26cbc4388188",
+    "case_name": "Nicole Fedynich, et al. v. Juana Lozano, Assistant Manager, Valor Apartments, et al.",
+    "input_tokens": 6170,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0006-26cbc4388188",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 6170,
+          "output_tokens": 2400,
+          "total_tokens": 8570
+        },
+        "provider_response_id": "gen-1776326585-bekh2brKFIQPpDgI4XsT"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10225468_2021_Grant v. Albemarle County_vawd",
+    "custom_id": "uor-0007-4d8c4ef74605",
+    "case_name": "Antigone Grant v. Albemarle County",
+    "input_tokens": 5451,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0007-4d8c4ef74605",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5451,
+          "output_tokens": 2400,
+          "total_tokens": 7851
+        },
+        "provider_response_id": "gen-1776326585-ruJUCYzYfIUHuMTtWUh3"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "7230859_2015_Hoostein v. Mental Health Ass'n_mad",
+    "custom_id": "uor-0020-c1330933bb19",
+    "case_name": "Hoostein v. Mental Health Ass'n",
+    "input_tokens": 5611,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0020-c1330933bb19",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5611,
+          "output_tokens": 2400,
+          "total_tokens": 8011
+        },
+        "provider_response_id": "gen-1776326666-cR0DB0ubTFK5hrZxEt28"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "7230918_2015_Holy Ghost Revival Ministries v. City of Marysville_wawd",
+    "custom_id": "uor-0021-b8dc9090661f",
+    "case_name": "Holy Ghost Revival Ministries v. City of Marysville",
+    "input_tokens": 5514,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0021-b8dc9090661f",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5514,
+          "output_tokens": 2400,
+          "total_tokens": 7914
+        },
+        "provider_response_id": "gen-1776326667-z1trfTUgyTqwdIlXx4Ku"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "7250229_2018_S_R Dev. Estates, LLC v. Town of Greenburgh_ilsd",
+    "custom_id": "uor-0026-2467b4cc173d",
+    "case_name": "S & R Development Estates, LLC v. Sisters of the Blessed Sacrament, Inc.",
+    "input_tokens": 5392,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0026-2467b4cc173d",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5392,
+          "output_tokens": 2400,
+          "total_tokens": 7792
+        },
+        "provider_response_id": "gen-1776326677-nbrNHlagzXldeD1HCVJW"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "7249780_2018_Nat'l Fair Hous. Alliance v. Carson_cadc",
+    "custom_id": "uor-0025-4a2d0deda3bd",
+    "case_name": "Nat'l Fair Hous. Alliance v. Carson",
+    "input_tokens": 5374,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0025-4a2d0deda3bd",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5374,
+          "output_tokens": 2400,
+          "total_tokens": 7774
+        },
+        "provider_response_id": "gen-1776326676-fX0CJPSncClAqhccAai8"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "7253788_2019_Poursaied v. Reserve at Research Park LLC_alnd",
+    "custom_id": "uor-0027-5967d25dea29",
+    "case_name": "Shahnaz Poursaied v. Reserve at Research Park LLC",
+    "input_tokens": 5482,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0027-5967d25dea29",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5482,
+          "output_tokens": 2400,
+          "total_tokens": 7882
+        },
+        "provider_response_id": "gen-1776326687-QiH6glHQGbRWV9ors4ra"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9529383_2020_Harden v. CPLC Estancia LLC_azd",
+    "custom_id": "uor-0028-36a5b6314451",
+    "case_name": "Sharon D. Harden v. CPLC Estancia LLC, et al.",
+    "input_tokens": 5471,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0028-36a5b6314451",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5471,
+          "output_tokens": 2400,
+          "total_tokens": 7871
+        },
+        "provider_response_id": "gen-1776326688-3uH8NgYzlgukv6h8BkgL"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9529415_2020_Garnes v. Washington Manor_azd",
+    "custom_id": "uor-0029-616c72e421d0",
+    "case_name": "Sharon Garnes v. Washington Manor, et al.",
+    "input_tokens": 5594,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0029-616c72e421d0",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5594,
+          "output_tokens": 2400,
+          "total_tokens": 7994
+        },
+        "provider_response_id": "gen-1776326698-Fej3YdbHK9c0DoLcZZ8q"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9531932_2021_Petramala v. Phoenix, City of_azd",
+    "custom_id": "uor-0030-6267060c574c",
+    "case_name": "Michael Petramala v. City of Phoenix, et al.",
+    "input_tokens": 5908,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0030-6267060c574c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5908,
+          "output_tokens": 2400,
+          "total_tokens": 8308
+        },
+        "provider_response_id": "gen-1776326699-wapgsGcasQfFchCZxRa5"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9531969_2021_Arthur v. Windsor Shadows Homeowner's Association_azd",
+    "custom_id": "uor-0031-a6ba6b97de8c",
+    "case_name": "Francine M. Arthur v. Windsor Shadows Homeowner's Association",
+    "input_tokens": 6043,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0031-a6ba6b97de8c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 6043,
+          "output_tokens": 2400,
+          "total_tokens": 8443
+        },
+        "provider_response_id": "gen-1776326701-k97GwV1aLNvr9Pv51Il6"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9549164_2019_(PS) Trotter v. Con Am Group_caed",
+    "custom_id": "uor-0032-acbc7c7ce260",
+    "case_name": "Cupid Monique Trotter v. Con Am Group; Crisienna Vista Communities",
+    "input_tokens": 5472,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0032-acbc7c7ce260",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5472,
+          "output_tokens": 2400,
+          "total_tokens": 7872
+        },
+        "provider_response_id": "gen-1776326708-KdRdp4vRVtp3HjNSSjfX"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9551341_2020_Scoggin v. Turning Point Central California_caed",
+    "custom_id": "uor-0033-204e64e5e971",
+    "case_name": "Danelle Renee Scoggin v. Turning Point Central California",
+    "input_tokens": 5660,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0033-204e64e5e971",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5660,
+          "output_tokens": 2400,
+          "total_tokens": 8060
+        },
+        "provider_response_id": "gen-1776326710-9us84IGLLzUR3z9dW80o"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9556072_2020_(PS) Sharma v. Home Buyers Realty and HBR Rentals_caed",
+    "custom_id": "uor-0034-1bc3de4014f1",
+    "case_name": "Janavi Sharma v. Home Buyers Realty and HBR Rentals",
+    "input_tokens": 5276,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0034-1bc3de4014f1",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5276,
+          "output_tokens": 2400,
+          "total_tokens": 7676
+        },
+        "provider_response_id": "gen-1776326712-Uk1myADETNA7iaLp2pnW"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9557693_2020_Decheri Hafer v. Unknown_caed",
+    "custom_id": "uor-0035-dd101e804352",
+    "case_name": "Decheri Hafer v. Unknown",
+    "input_tokens": 5499,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0035-dd101e804352",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5499,
+          "output_tokens": 2400,
+          "total_tokens": 7899
+        },
+        "provider_response_id": "gen-1776326719-tBJrNicoS0UPyhXDUYsY"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9558121_2021_Courtney v. Housing Authority of the County of Kings_caed",
+    "custom_id": "uor-0036-931c0c0ea51c",
+    "case_name": "Colleen M. Courtney v. Housing Authority of the County of Kings",
+    "input_tokens": 5687,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0036-931c0c0ea51c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5687,
+          "output_tokens": 2400,
+          "total_tokens": 8087
+        },
+        "provider_response_id": "gen-1776326721-5qeSwrwigxUZIx6FKlic"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9565491_2021_Hamilton v. Madera County_caed",
+    "custom_id": "uor-0037-c21c817ef482",
+    "case_name": "Rick Hamilton, et al. v. County of Madera, et al.",
+    "input_tokens": 5518,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0037-c21c817ef482",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5518,
+          "output_tokens": 2400,
+          "total_tokens": 7918
+        },
+        "provider_response_id": "gen-1776326723-3nxd4Qc0pxjYNOyq9fd0"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9599868_2021_Vargas v. Facebook, Inc._cand",
+    "custom_id": "uor-0038-15a6a1f4d8f0",
+    "case_name": "Rosemarie Vargas, et al. v. Facebook, Inc.",
+    "input_tokens": 5499,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0038-15a6a1f4d8f0",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5499,
+          "output_tokens": 2400,
+          "total_tokens": 7899
+        },
+        "provider_response_id": "gen-1776326724-Obm6KqN2hIaJdRLaxWAm"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9602085_2021_Vargas v. Facebook, Inc._cand",
+    "custom_id": "uor-0040-2f0a58d74754",
+    "case_name": "Rosemarie Vargas, et al. v. Facebook, Inc.",
+    "input_tokens": 5567,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0040-2f0a58d74754",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5567,
+          "output_tokens": 2400,
+          "total_tokens": 7967
+        },
+        "provider_response_id": "gen-1776326733-Spt8Raf3lEhCQpzOa8jc"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9602094_2021_Wolf v. City of Millbrae_cand",
+    "custom_id": "uor-0041-8a2233e2bb58",
+    "case_name": "Wolf v. City of Millbrae",
+    "input_tokens": 5559,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0041-8a2233e2bb58",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5559,
+          "output_tokens": 2400,
+          "total_tokens": 7959
+        },
+        "provider_response_id": "gen-1776326735-1bqMcFBDBiC50GP1IyeP"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9602950_2021_Melton v. Regional Center of the East Bay, Inc._cand",
+    "custom_id": "uor-0042-3d860f484a93",
+    "case_name": "Melton v. Regional Center of the East Bay, Inc.",
+    "input_tokens": 5521,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0042-3d860f484a93",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " {\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"EXHAUSTION_OR_PRECLUSION\",\n  \"institutional_function_missing\": [\n    \"JURISDICTIONAL_TRIAGE\",\n    \"ADMINISTRATIVE_RECORD_BUILDING\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n   ",
+        "usage": {
+          "input_tokens": 5521,
+          "output_tokens": 2400,
+          "total_tokens": 7921
+        },
+        "provider_response_id": "gen-1776326737-uzFL6BaTcnIwzz5w5OKE"
+      }
+    ],
+    "error": "JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9613394_2019_White v. San Diego Sunrise Management Company_casd",
+    "custom_id": "uor-0043-0797d85ef760",
+    "case_name": "White v. San Diego Sunrise Management Company",
+    "input_tokens": 5612,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0043-0797d85ef760",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5612,
+          "output_tokens": 2400,
+          "total_tokens": 8012
+        },
+        "provider_response_id": "gen-1776326739-UDuzR4CmnaKJqz40zqPX"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9618024_2021_Musgrove v. Hanifin_casd",
+    "custom_id": "uor-0045-eb69a9f4e36b",
+    "case_name": "Irvin Musgrove v. Angie Hanifin, Margery Pierce, Keysa Machado, Susana Sandoval-Soto, and Oceanside Housing Authority",
+    "input_tokens": 5503,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0045-eb69a9f4e36b",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5503,
+          "output_tokens": 2400,
+          "total_tokens": 7903
+        },
+        "provider_response_id": "gen-1776326747-5BEau5gjqtajlmpXUBmS"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9614541_2020_Eulitt v. City of San Diego_casd",
+    "custom_id": "uor-0044-c9803a99efa3",
+    "case_name": "Sandy A. Eulitt v. City of San Diego",
+    "input_tokens": 5601,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0044-c9803a99efa3",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5601,
+          "output_tokens": 2400,
+          "total_tokens": 8001
+        },
+        "provider_response_id": "gen-1776326745-CaEvlMleoy1ZjkQVaolN"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9623848_2020_Hall v. Hilderbrand_cod",
+    "custom_id": "uor-0046-2473c1853c5b",
+    "case_name": "Vicki Hall v. Donna Hilderbrand",
+    "input_tokens": 5681,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0046-2473c1853c5b",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5681,
+          "output_tokens": 2400,
+          "total_tokens": 8081
+        },
+        "provider_response_id": "gen-1776326748-W2v7q37xNgmZ8I5aYcZ3"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "7232144_2015_Austin v. Town of Farmington_nywd",
+    "custom_id": "uor-0022-75fc0d0aa7a8",
+    "case_name": "Austin v. Town of Farmington",
+    "input_tokens": 5624,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0022-75fc0d0aa7a8",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5624,
+          "output_tokens": 2400,
+          "total_tokens": 8024
+        },
+        "provider_response_id": "gen-1776326672-v55EZpFN2xOgaKhxkHJq"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "7235405_2016_Louis ex rel. G.A.H. v. New York City Housing Authority_nysd",
+    "custom_id": "uor-0023-31c53213f898",
+    "case_name": "Mesline Louis ex rel. G.A.H. v. New York City Housing Authority",
+    "input_tokens": 5968,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0023-31c53213f898",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5968,
+          "output_tokens": 2400,
+          "total_tokens": 8368
+        },
+        "provider_response_id": "gen-1776326673-43XJm5Eotz7MbDqvuTvn"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9639620_2020_Cobb v. Citrus Falls at Westchase Apartments, LLC_flmd",
+    "custom_id": "uor-0047-e52d16524d35",
+    "case_name": "Tyrone Cobb v. Citrus Falls at Westchase Apartments, LLC",
+    "input_tokens": 5514,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0047-e52d16524d35",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5514,
+          "output_tokens": 2400,
+          "total_tokens": 7914
+        },
+        "provider_response_id": "gen-1776326750-XP7uNEPcRJ44neGUs9uK"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "7237363_2016_Logan v. Matveevskii_nysd",
+    "custom_id": "uor-0024-712e8ffcaf55",
+    "case_name": "Logan v. Matveevskii",
+    "input_tokens": 5872,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0024-712e8ffcaf55",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5872,
+          "output_tokens": 2400,
+          "total_tokens": 8272
+        },
+        "provider_response_id": "gen-1776326673-BgDnrRDs8IEHMFTpqGAg"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9651094_2020_Friedel v. Sun Communities, Inc._flsd",
+    "custom_id": "uor-0048-041d22650794",
+    "case_name": "George Friedel & Kathleen Friedel v. Sun Communities, Inc. & Park Place Community, LLC",
+    "input_tokens": 5739,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0048-041d22650794",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5739,
+          "output_tokens": 2400,
+          "total_tokens": 8139
+        },
+        "provider_response_id": "gen-1776326757-iGa8gnS26nfhK72C17qz"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9664602_2020_Scutt v. Family Life Center, Inc._hid",
+    "custom_id": "uor-0050-00bbba965267",
+    "case_name": "Jason Scutt v. Maui Family Life Center, Inc.",
+    "input_tokens": 5450,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0050-00bbba965267",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5450,
+          "output_tokens": 2400,
+          "total_tokens": 7850
+        },
+        "provider_response_id": "gen-1776326759-BENZ7vOTnmh15e586TzW"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9686868_2021_Karnes v. Bank of Whittington_ilsd",
+    "custom_id": "uor-0053-c178bfd983f0",
+    "case_name": "Karnes v. Bank of Whittington/Whittington Bancorp, Inc.",
+    "input_tokens": 5272,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0053-c178bfd983f0",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5272,
+          "output_tokens": 2400,
+          "total_tokens": 7672
+        },
+        "provider_response_id": "gen-1776326761-CMLeBpPqXLhbwnJpZqQH"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9695162_2021_Graham v. City of Elkhart_innd",
+    "custom_id": "uor-0055-5a178185cede",
+    "case_name": "DeAnn Graham v. City of Elkhart",
+    "input_tokens": 5545,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0055-5a178185cede",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5545,
+          "output_tokens": 2400,
+          "total_tokens": 7945
+        },
+        "provider_response_id": "gen-1776326768-kigMBeBvLJYQO5W4Rv9E"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9701453_2021_BARBOSA VASQUEZ v. HUNTER BLOOMINGTON PROPERTIES, LLC_insd",
+    "custom_id": "uor-0056-eb78bba19bc2",
+    "case_name": "Diego Felipe Barbosa Vasquez v. Hunter Bloomington Properties, LLC",
+    "input_tokens": 5322,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0056-eb78bba19bc2",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"JURISDICTION_OR_STANDING\",\n  \"institutional_function_missing\": [\n    \"JURISDICTIONAL_TRIAGE\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"LEASE_OR_POLICY_TEXT\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"",
+        "usage": {
+          "input_tokens": 5322,
+          "output_tokens": 2400,
+          "total_tokens": 7722
+        },
+        "provider_response_id": "gen-1776326768-8hrHGm2OG3YKM6nOV2nU"
+      }
+    ],
+    "error": "JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9704762_2019_Ngiendo v. Pep-KU, LLC_ksd",
+    "custom_id": "uor-0057-8e45ee485e3b",
+    "case_name": "Quinn Ngiendo v. Pep-KU, LLC, Amelia Ludlow, Madison Cline and Lucy Evans",
+    "input_tokens": 6135,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0057-8e45ee485e3b",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 6135,
+          "output_tokens": 2400,
+          "total_tokens": 8535
+        },
+        "provider_response_id": "gen-1776326770-0HpV90UdgiCQaLW8Vpk6"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9719433_2020_Briley v. Barreca_laed",
+    "custom_id": "uor-0058-4dab6aa4ad6d",
+    "case_name": "Russell Andre Briley v. Ignatius Barreca Jr. et al.",
+    "input_tokens": 5316,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0058-4dab6aa4ad6d",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5316,
+          "output_tokens": 2400,
+          "total_tokens": 7716
+        },
+        "provider_response_id": "gen-1776326771-hdrAMERuzmJH2nH4zN6S"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9719669_2021_Briley v. Barreca_laed",
+    "custom_id": "uor-0059-e12527e1b250",
+    "case_name": "Russell Andre Briley v. Ignatius Barreca, Jr. et al.",
+    "input_tokens": 5388,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0059-e12527e1b250",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5388,
+          "output_tokens": 2400,
+          "total_tokens": 7788
+        },
+        "provider_response_id": "gen-1776326778-Y8cNeLkFRRQnOJFR14hX"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9720727_2021_Winston v. Housing Authority of Jefferson Parish_laed",
+    "custom_id": "uor-0060-d3aefafb481a",
+    "case_name": "Nadia Winston v. Housing Authority of Jefferson Parish",
+    "input_tokens": 5590,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0060-d3aefafb481a",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5590,
+          "output_tokens": 2400,
+          "total_tokens": 7990
+        },
+        "provider_response_id": "gen-1776326778-3JtIQieHPzQUNCN1EZDr"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9727902_2021_Fenelon v. Housing _ Urban Development_lawd",
+    "custom_id": "uor-0061-ad7c8f796b6c",
+    "case_name": "Cheryl L Fenelon et al v. U.S. Dept of Housing & Urban Development et al",
+    "input_tokens": 5351,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0061-ad7c8f796b6c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5351,
+          "output_tokens": 2400,
+          "total_tokens": 7751
+        },
+        "provider_response_id": "gen-1776326781-CeSrtEUmQM2tDN8WHnRV"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9738717_2021_Manley v. Threeths_mdd",
+    "custom_id": "uor-0062-989664ad18cf",
+    "case_name": "Michael Manley, et al. v. Evette L. Threeths, et al.",
+    "input_tokens": 5639,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0062-989664ad18cf",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5639,
+          "output_tokens": 2400,
+          "total_tokens": 8039
+        },
+        "provider_response_id": "gen-1776326782-eEP4QlQHgrqZ1n7qnoTV"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9739061_2021_Stemmons v. Corsco_mdd",
+    "custom_id": "uor-0063-0a74d46926c4",
+    "case_name": "Adam Stemmons v. Georgia Corso",
+    "input_tokens": 5557,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0063-0a74d46926c4",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5557,
+          "output_tokens": 2400,
+          "total_tokens": 7957
+        },
+        "provider_response_id": "gen-1776326789-OTOptHIt7tUWdDC8tQWA"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9749355_2021_Johnson v. East Tawas Housing Commission_mied",
+    "custom_id": "uor-0064-881b72bd9c10",
+    "case_name": "Douglas J. Johnson v. East Tawas Housing Commission",
+    "input_tokens": 5458,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0064-881b72bd9c10",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5458,
+          "output_tokens": 2400,
+          "total_tokens": 7858
+        },
+        "provider_response_id": "gen-1776326789-xik7tBsEjVu25ORp6vor"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9750016_2021_Tranchmontagne v. United States Department of Housing and Urban Development_mied",
+    "custom_id": "uor-0065-ad008003ba87",
+    "case_name": "Tranchmontagne v. United States Department of Housing and Urban Development",
+    "input_tokens": 5674,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0065-ad008003ba87",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5674,
+          "output_tokens": 2400,
+          "total_tokens": 8074
+        },
+        "provider_response_id": "gen-1776326793-sFpXg3KPHiCWd0yw8kAw"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9750789_2021_McCree v. KMG Prestiege Company_mied",
+    "custom_id": "uor-0066-3eb874ab26b5",
+    "case_name": "McCree v. KMG Prestiege Company",
+    "input_tokens": 5455,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0066-3eb874ab26b5",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5455,
+          "output_tokens": 2400,
+          "total_tokens": 7855
+        },
+        "provider_response_id": "gen-1776326794-vy5DADcP4g8emfZjE513"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9766092_2020_Stroud v. Farr Rentals, LLC_moed",
+    "custom_id": "uor-0067-a24c65e56c0c",
+    "case_name": "Althea J. Stroud v. Farr Rentals, LLC, et al.",
+    "input_tokens": 5545,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0067-a24c65e56c0c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5545,
+          "output_tokens": 2400,
+          "total_tokens": 7945
+        },
+        "provider_response_id": "gen-1776326800-3cZmDSAZBeiLeqj97b5X"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9766529_2020_Jordan v. Sugartree Homes Association of St. Louis County_moed",
+    "custom_id": "uor-0068-f26f5d7490bc",
+    "case_name": "Cynthia E. Jordan v. Sugartree Homes Association of St. Louis County, et al.",
+    "input_tokens": 5536,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0068-f26f5d7490bc",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5536,
+          "output_tokens": 2400,
+          "total_tokens": 7936
+        },
+        "provider_response_id": "gen-1776326800-kFILEr4XNL6O9y0APFuF"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9767513_2020_Jones v. Deca Realty_moed",
+    "custom_id": "uor-0070-8b18d4b206d6",
+    "case_name": "Carolyn M. Jones, et al. v. Deca Realty, et al.",
+    "input_tokens": 5421,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0070-8b18d4b206d6",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5421,
+          "output_tokens": 2400,
+          "total_tokens": 7821
+        },
+        "provider_response_id": "gen-1776326805-3ui0EqLP3lAu65qiIybM"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9767259_2020_Stroud v. Farr Rentals, LLC_moed",
+    "custom_id": "uor-0069-4f4bb1bc24ed",
+    "case_name": "Althea J. Stroud v. Farr Rentals, LLC, et al.",
+    "input_tokens": 5741,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0069-4f4bb1bc24ed",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5741,
+          "output_tokens": 2400,
+          "total_tokens": 8141
+        },
+        "provider_response_id": "gen-1776326804-x9fM4t9xm0yIsvK2BSVg"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9768334_2021_Wheatley v. Beasley_moed",
+    "custom_id": "uor-0071-f9c84c4c7b4c",
+    "case_name": "Carol D. Wheatley v. Lilly Beasley",
+    "input_tokens": 5316,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0071-f9c84c4c7b4c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5316,
+          "output_tokens": 2400,
+          "total_tokens": 7716
+        },
+        "provider_response_id": "gen-1776326810-5ezKMh8eu9uVdpx5MErl"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9774614_2019_Barbero v. Wilhoit Property Management, Inc._mowd",
+    "custom_id": "uor-0072-835d01a7d769",
+    "case_name": "Theresa Marie Barbero v. Wilhoit Property Management, Inc.",
+    "input_tokens": 5724,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0072-835d01a7d769",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5724,
+          "output_tokens": 2400,
+          "total_tokens": 8124
+        },
+        "provider_response_id": "gen-1776326811-dhwNFZyBtOGhov9LBQ4m"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9785178_2021_Swanson v. King_nced",
+    "custom_id": "uor-0073-0e1ef59ec3d5",
+    "case_name": "Gary L. Swanson v. Alex King & King Management, LLC",
+    "input_tokens": 5345,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0073-0e1ef59ec3d5",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5345,
+          "output_tokens": 2400,
+          "total_tokens": 7745
+        },
+        "provider_response_id": "gen-1776326816-kzEaGRhfBtGO1BsF1c0n"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9795430_2020_Thompson v. Morgan Properties Management Company, LLC_ned",
+    "custom_id": "uor-0074-d053eedbcd60",
+    "case_name": "Dr. Franklin Thompson v. Morgan Properties Management Company, LLC",
+    "input_tokens": 5375,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0074-d053eedbcd60",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5375,
+          "output_tokens": 2400,
+          "total_tokens": 7775
+        },
+        "provider_response_id": "gen-1776326817-K4LRQWKx8V3pEPQr4ICe"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9796501_2021_Franklin v. Omaha Housing Authority_ned",
+    "custom_id": "uor-0075-f1d58d1969af",
+    "case_name": "Michael Franklin v. Omaha Housing Authority",
+    "input_tokens": 5726,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0075-f1d58d1969af",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5726,
+          "output_tokens": 2400,
+          "total_tokens": 8126
+        },
+        "provider_response_id": "gen-1776326821-WAtT5kvmmXukAM23XSrY"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9796832_2021_Knight v. Chatelain_ned",
+    "custom_id": "uor-0076-222e99f7d497",
+    "case_name": "Phyllis M. Knight v. John C. Chatelain",
+    "input_tokens": 5307,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0076-222e99f7d497",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5307,
+          "output_tokens": 2400,
+          "total_tokens": 7707
+        },
+        "provider_response_id": "gen-1776326821-zsMmgfoDa3F9v6hvzJKo"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9803908_2021_D'ANTONIO v. BOROUGH OF ALLENDALE_njd",
+    "custom_id": "uor-0077-42ce4707d4b1",
+    "case_name": "Michael A. D'Antonio v. Borough of Allendale, et al.",
+    "input_tokens": 5383,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0077-42ce4707d4b1",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5383,
+          "output_tokens": 2400,
+          "total_tokens": 7783
+        },
+        "provider_response_id": "gen-1776326827-jJn0FoErXLADMzWov8OQ"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9664705_2020_Scutt v. Dorris_hid",
+    "custom_id": "uor-0051-1354e1b0a3a4",
+    "case_name": "Jason Scutt v. Kelli Dorris, Xiayin (Gaoquiang) Lin, and Charlene Chen",
+    "input_tokens": 5670,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0051-1354e1b0a3a4",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5670,
+          "output_tokens": 2400,
+          "total_tokens": 8070
+        },
+        "provider_response_id": "gen-1776326761-9AlSUAqU6QngcAIBvvSf"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9694808_2021_Norman v. Northwest Indiana CA_innd",
+    "custom_id": "uor-0054-599ccf028a0d",
+    "case_name": "LaSandra Norman v. Northwest Indiana CA Section 8, et al.",
+    "input_tokens": 5810,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0054-599ccf028a0d",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5810,
+          "output_tokens": 2400,
+          "total_tokens": 8210
+        },
+        "provider_response_id": "gen-1776326761-34j04n5oYGsHbm4uBHcw"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9666500_2019_LaRosa v. River Quarry Apartments, LLC_idd",
+    "custom_id": "uor-0052-5fe613f44a45",
+    "case_name": "Robert LaRosa, Iva LaRosa, and Intermountain Fair Housing Council, Inc. v. River Quarry Apartments, LLC",
+    "input_tokens": 6057,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0052-5fe613f44a45",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 6057,
+          "output_tokens": 2400,
+          "total_tokens": 8457
+        },
+        "provider_response_id": "gen-1776326761-OZvg8O2qvICDsle9xWVa"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9804772_2021_LIVINGSTONE v. HUGO BOSS STORE, ATLANTIC CITY, NJ_njd",
+    "custom_id": "uor-0078-f3c5ac657d3a",
+    "case_name": "Livingstone v. Hugo Boss Store, Atlantic City, NJ",
+    "input_tokens": 5460,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0078-f3c5ac657d3a",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5460,
+          "output_tokens": 2400,
+          "total_tokens": 7860
+        },
+        "provider_response_id": "gen-1776326830-tztHek1hVJskh9xolpVf"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9823280_2020_Fulkerson v. The Hartford_nvd",
+    "custom_id": "uor-0079-f9bb77223109",
+    "case_name": "Fulkerson v. The Hartford",
+    "input_tokens": 5378,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0079-f9bb77223109",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5378,
+          "output_tokens": 2400,
+          "total_tokens": 7778
+        },
+        "provider_response_id": "gen-1776326832-MxrZIpqNt1OWTzIrHpeQ"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9824661_2021_O'Neil v. Salas_nvd",
+    "custom_id": "uor-0080-d209ac3ac100",
+    "case_name": "Aimee O'Neil v. Jovi Salas, et al.",
+    "input_tokens": 5388,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0080-d209ac3ac100",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5388,
+          "output_tokens": 2400,
+          "total_tokens": 7788
+        },
+        "provider_response_id": "gen-1776326833-KjSlFhx6tOdpo6MXKGgm"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9824801_2021_Godwin v. Senior Garden Apartments_nvd",
+    "custom_id": "uor-0081-009e88ce8a54",
+    "case_name": "Victoria-Joy Godwin v. Senior Garden Apartments, et al.",
+    "input_tokens": 5385,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0081-009e88ce8a54",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5385,
+          "output_tokens": 2400,
+          "total_tokens": 7785
+        },
+        "provider_response_id": "gen-1776326838-bWsn7OAN6IRBdHGrNQ78"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9838610_2020_Ortega v. Samaritan Village Myrtle Ave. Men's Shelter_nyed",
+    "custom_id": "uor-0085-daa23556e7a6",
+    "case_name": "Ivan Fernando Ortega v. Samaritan Village Myrtle Ave. Men's Shelter",
+    "input_tokens": 5526,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0085-daa23556e7a6",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5526,
+          "output_tokens": 2400,
+          "total_tokens": 7926
+        },
+        "provider_response_id": "gen-1776326840-RHXIsrc4UsOtcnDfPXGL"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9845340_2019_UMH Properties, Inc. v. Village of Coxsackie_nynd",
+    "custom_id": "uor-0086-ea7902e8916f",
+    "case_name": "UMH Properties, Inc. et al. v. Village of Coxsackie et al.",
+    "input_tokens": 5431,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0086-ea7902e8916f",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5431,
+          "output_tokens": 2400,
+          "total_tokens": 7831
+        },
+        "provider_response_id": "gen-1776326843-7su1NsuFRnY66Xmlrj3J"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9845882_2020_Doe v. YWCA of Northeastern NY_nynd",
+    "custom_id": "uor-0087-31d713fe9daf",
+    "case_name": "Doe v. YWCA of Northeastern NY",
+    "input_tokens": 5634,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0087-31d713fe9daf",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5634,
+          "output_tokens": 2400,
+          "total_tokens": 8034
+        },
+        "provider_response_id": "gen-1776326844-eqZPJxp1CTUZAJ4wVWBi"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9850350_2019_Harris v. The Yonkers Department of Social Services_OTDA_OAH_nysd",
+    "custom_id": "uor-0088-b23326f657ec",
+    "case_name": "Rhonda L. Harris v. The Yonkers Department of Social Services/OTDA/OAH",
+    "input_tokens": 5465,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0088-b23326f657ec",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5465,
+          "output_tokens": 2400,
+          "total_tokens": 7865
+        },
+        "provider_response_id": "gen-1776326849-u3unoIIpciSwEg2YoKda"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9850873_2019_Lopez v. New York City Dept. Homeless Services_nysd",
+    "custom_id": "uor-0089-bf91f96a24ca",
+    "case_name": "Lopez v. City of New York",
+    "input_tokens": 5589,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0089-bf91f96a24ca",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5589,
+          "output_tokens": 2400,
+          "total_tokens": 7989
+        },
+        "provider_response_id": "gen-1776326851-9aMPeJeg7EF4DtLEeBoV"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9853907_2020_Ochei v. Lapes_nysd",
+    "custom_id": "uor-0091-b42259f753d9",
+    "case_name": "Ochei v. Lapes",
+    "input_tokens": 5481,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0091-b42259f753d9",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5481,
+          "output_tokens": 2400,
+          "total_tokens": 7881
+        },
+        "provider_response_id": "gen-1776326855-SBzPln3mlfOSncitJcyF"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9850893_2019_Vinnie Hardee v. Pritchett_nysd",
+    "custom_id": "uor-0090-feadb232b752",
+    "case_name": "Vinnie Hardee v. City of New Rochelle Section 8 Housing Agency",
+    "input_tokens": 5480,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0090-feadb232b752",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5480,
+          "output_tokens": 2400,
+          "total_tokens": 7880
+        },
+        "provider_response_id": "gen-1776326855-bsB3ikIRRaNgHd9Ga0zw"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9855309_2020_Stone v. 23rd Chelsea Associates, LLC_nysd",
+    "custom_id": "uor-0092-6504e2471ee2",
+    "case_name": "Stone v. 23rd Chelsea Associates, LLC",
+    "input_tokens": 5628,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0092-6504e2471ee2",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5628,
+          "output_tokens": 2400,
+          "total_tokens": 8028
+        },
+        "provider_response_id": "gen-1776326861-uGOo3VTSU8uPHKt8Cqx2"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9855547_2020_Anderson-Bey v. ACS_nysd",
+    "custom_id": "uor-0093-1699281a3490",
+    "case_name": "Bernard T. Anderson Bey v. ACS; NYCHA; DCSE; HRA (referenced as New York State and the City of New York)",
+    "input_tokens": 5467,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0093-1699281a3490",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5467,
+          "output_tokens": 2400,
+          "total_tokens": 7867
+        },
+        "provider_response_id": "gen-1776326864-C8qElPWl1vl2HCff8Gwt"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9855791_2020_Barker v. Women In Need, Inc._nysd",
+    "custom_id": "uor-0094-7953a1f58737",
+    "case_name": "Akasha Tania Barker v. Women In Need, Inc.",
+    "input_tokens": 5618,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0094-7953a1f58737",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5618,
+          "output_tokens": 2400,
+          "total_tokens": 8018
+        },
+        "provider_response_id": "gen-1776326865-Il7YlUyJUkkGvsJdj4j8"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9856749_2020_Ash v. City of N.Y._nysd",
+    "custom_id": "uor-0095-879898236daa",
+    "case_name": "Ash v. City of New York",
+    "input_tokens": 5532,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0095-879898236daa",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5532,
+          "output_tokens": 2400,
+          "total_tokens": 7932
+        },
+        "provider_response_id": "gen-1776326867-JREkVwd6A1ZfGYaifWFm"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9857640_2020_Dames v. De Blasio_nysd",
+    "custom_id": "uor-0096-22f2d8334caa",
+    "case_name": "Roslyn Alma Dames v. Bill De Blasio, Mayor, New York City; Dean Santa, Director of Asset Management, United States Department of Housing and Urban Development; St. Margaret's House; Trinity Church Wall Street; St. Paul's Church",
+    "input_tokens": 5660,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0096-22f2d8334caa",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5660,
+          "output_tokens": 2400,
+          "total_tokens": 8060
+        },
+        "provider_response_id": "gen-1776326871-8nOMZCIPHJYQo1S3RxfW"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9857659_2020_Davis v. Port Jervis Community Development_nysd",
+    "custom_id": "uor-0097-e40d3660f2b3",
+    "case_name": "Daryl J. Davis v. Port Jervis Community Development",
+    "input_tokens": 5438,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0097-e40d3660f2b3",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5438,
+          "output_tokens": 2400,
+          "total_tokens": 7838
+        },
+        "provider_response_id": "gen-1776326874-8MjrBL1NYToyQ7Md2GmT"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9858791_2020_Jones v. Banks_nysd",
+    "custom_id": "uor-0098-27be9eddc377",
+    "case_name": "Keisha A. Jones v. Steven Banks, DSS Commissioner; Nonprofit Corporation 1-5; DSS Employee 1-5",
+    "input_tokens": 5527,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0098-27be9eddc377",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5527,
+          "output_tokens": 2400,
+          "total_tokens": 7927
+        },
+        "provider_response_id": "gen-1776326876-2kTAM8pg0FrZEwRwMOQb"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9858895_2020_Jones v. Thomas_nysd",
+    "custom_id": "uor-0099-d6a5afe0f33b",
+    "case_name": "Brandon C. Jones v. Ms. Jisin H. Thomas; Mr. Jonathan Tauarez; Volunteers of America Corporation; Volunteers of America, Swartz Shelter; Volunteers of America 135 W. 50th Street, NYC, NY 10024",
+    "input_tokens": 5661,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0099-d6a5afe0f33b",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5661,
+          "output_tokens": 2400,
+          "total_tokens": 8061
+        },
+        "provider_response_id": "gen-1776326876-3yISR2KO0Qt8bXjcJiya"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9862215_2021_Jones v. Banks_nysd",
+    "custom_id": "uor-0100-5ede53e2e334",
+    "case_name": "Keisha Jones v. Steven Banks",
+    "input_tokens": 5554,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0100-5ede53e2e334",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5554,
+          "output_tokens": 2400,
+          "total_tokens": 7954
+        },
+        "provider_response_id": "gen-1776326882-n9u59QvfqkMaWowxRBmm"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9862218_2021_Bell v. City of New York_nysd",
+    "custom_id": "uor-0101-d6cb849c1eef",
+    "case_name": "Melvin Bell, III v. City of New York; Susan Jackson; Shatara Pell; Victor M. Hernandez",
+    "input_tokens": 5527,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0101-d6cb849c1eef",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5527,
+          "output_tokens": 2400,
+          "total_tokens": 7927
+        },
+        "provider_response_id": "gen-1776326885-py7Db12bwV9BeoLvir2F"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9862537_2021_Mercer v. New York City Housing Authority_nysd",
+    "custom_id": "uor-0102-f997dbd6ad37",
+    "case_name": "Robert Mercer v. New York City Housing Authority",
+    "input_tokens": 5450,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0102-f997dbd6ad37",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5450,
+          "output_tokens": 2400,
+          "total_tokens": 7850
+        },
+        "provider_response_id": "gen-1776326887-stissczMOAoABZono5JZ"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9865041_2021_Brock v. The City of New York_nysd",
+    "custom_id": "uor-0103-e2dbdefb4cf5",
+    "case_name": "Mandela Brock v. City of New York",
+    "input_tokens": 5614,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0103-e2dbdefb4cf5",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5614,
+          "output_tokens": 2400,
+          "total_tokens": 8014
+        },
+        "provider_response_id": "gen-1776326887-5ItppRHnTP00CmVpQnpp"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9865092_2021_Davis v. Port Jervis Community Development_nysd",
+    "custom_id": "uor-0104-b6bbe139edce",
+    "case_name": "Daryl J. Davis v. Port Jervis Community Development; Nora Gallagher/Goetz; Valerie Maginsky",
+    "input_tokens": 5572,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0104-b6bbe139edce",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5572,
+          "output_tokens": 2400,
+          "total_tokens": 7972
+        },
+        "provider_response_id": "gen-1776326895-MUZO0ODpkjApyTPMpiXR"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9865413_2021_Mercer v. New York City Housing Authority_nysd",
+    "custom_id": "uor-0105-3581c399271c",
+    "case_name": "Robert Mercer v. New York City Housing Authority",
+    "input_tokens": 5588,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0105-3581c399271c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5588,
+          "output_tokens": 2400,
+          "total_tokens": 7988
+        },
+        "provider_response_id": "gen-1776326896-GuJZZ5J2bH1Tu7QYIH3T"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9866577_2021_Paynes El-Bey v. ADT Security Services, Inc._nysd",
+    "custom_id": "uor-0107-16884a1c2feb",
+    "case_name": "Queen Prinyah Godiah P. Paynes El-Bey v. ADT Security Services, Inc.",
+    "input_tokens": 5525,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0107-16884a1c2feb",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5525,
+          "output_tokens": 2400,
+          "total_tokens": 7925
+        },
+        "provider_response_id": "gen-1776326898-O5L8HE4Xa9v0LTFOanZz"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9866222_2021_Kellier v. Billups_nysd",
+    "custom_id": "uor-0106-e034f7a27ee9",
+    "case_name": "Joshua Kellier v. Billups",
+    "input_tokens": 5615,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0106-e034f7a27ee9",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5615,
+          "output_tokens": 2400,
+          "total_tokens": 8015
+        },
+        "provider_response_id": "gen-1776326898-X7K3zWRldDFZVSPp8QqI"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9826289_2021_Hansen v. Delaney_nvd",
+    "custom_id": "uor-0082-4fd4990db47e",
+    "case_name": "Hansen v. Delaney",
+    "input_tokens": 5306,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0082-4fd4990db47e",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5306,
+          "output_tokens": 2400,
+          "total_tokens": 7706
+        },
+        "provider_response_id": "gen-1776326839-TD21HsDg6pY0bhEKt3kg"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9827432_2021_Carpenter v. Southern Nevada Regional Housing Authority_nvd",
+    "custom_id": "uor-0083-4f47e042d551",
+    "case_name": "Phyllis J. Carpenter v. Southern Nevada Regional Housing Authority",
+    "input_tokens": 5477,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0083-4f47e042d551",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5477,
+          "output_tokens": 2400,
+          "total_tokens": 7877
+        },
+        "provider_response_id": "gen-1776326840-yowx3G93aRAEu14gYe76"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9866627_2021_Madison v. Gramm_nysd",
+    "custom_id": "uor-0108-d54ed135dd80",
+    "case_name": "Madison v. Graham",
+    "input_tokens": 5602,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0108-d54ed135dd80",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5602,
+          "output_tokens": 2400,
+          "total_tokens": 8002
+        },
+        "provider_response_id": "gen-1776326906-nmAiVqNM9jhxD4eHkeNu"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9868530_2021_Wood v. Mutual Redevelopment Houses, Inc._nysd",
+    "custom_id": "uor-0109-418b330619b9",
+    "case_name": "Wood et al. v. Mutual Redevelopment Houses, Inc. et al.",
+    "input_tokens": 5985,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0109-418b330619b9",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5985,
+          "output_tokens": 2400,
+          "total_tokens": 8385
+        },
+        "provider_response_id": "gen-1776326907-J1XPVh5CNBxWcp8WA9Xk"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9869575_2021_Zlotnick v. Crystal Run Village, Inc._nysd",
+    "custom_id": "uor-0111-f33e792c9a87",
+    "case_name": "Zlotnick v. Crystal Run Village, Inc.",
+    "input_tokens": 5913,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0111-f33e792c9a87",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5913,
+          "output_tokens": 2400,
+          "total_tokens": 8313
+        },
+        "provider_response_id": "gen-1776326910-xBAREfVp7AMCQ3aZTDKw"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9869240_2021_Currin v. Glenwood Management Corp._nysd",
+    "custom_id": "uor-0110-772aa991bb7c",
+    "case_name": "Charlie G. Currin v. Glenwood Management Corp.",
+    "input_tokens": 5674,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0110-772aa991bb7c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5674,
+          "output_tokens": 2400,
+          "total_tokens": 8074
+        },
+        "provider_response_id": "gen-1776326910-EgRsN1bQIYaa67yy6IGj"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9902915_2021_McCoy v. Akron Police Department_ohnd",
+    "custom_id": "uor-0114-1951e1876681",
+    "case_name": "McCoy v. Akron Police Department",
+    "input_tokens": 5397,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0114-1951e1876681",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5397,
+          "output_tokens": 2400,
+          "total_tokens": 7797
+        },
+        "provider_response_id": "gen-1776326917-tRoCCnwPcvPVYKDA4Fdd"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9903260_2021_Alghusain v. Nemeth_ohnd",
+    "custom_id": "uor-0115-b2116408bd09",
+    "case_name": "Ameer Alghusain v. Jason L. Nemeth, et al.",
+    "input_tokens": 5404,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0115-b2116408bd09",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5404,
+          "output_tokens": 2400,
+          "total_tokens": 7804
+        },
+        "provider_response_id": "gen-1776326917-bJ84CcVzHkAedo6TLdMT"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9911207_2021_Vanessa McQueen v. City of Cincinnati_ohsd",
+    "custom_id": "uor-0116-6af7ac87fec0",
+    "case_name": "Vanessa McQueen v. City of Cincinnati",
+    "input_tokens": 5280,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0116-6af7ac87fec0",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5280,
+          "output_tokens": 2400,
+          "total_tokens": 7680
+        },
+        "provider_response_id": "gen-1776326921-7GObqfb8lLYSL3QKE2Nq"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9912582_2021_Price v. Oxley_ohsd",
+    "custom_id": "uor-0117-255bed33ad88",
+    "case_name": "Katherine Bebe Price, et al. v. Scott G. Oxley, et al.",
+    "input_tokens": 5369,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0117-255bed33ad88",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5369,
+          "output_tokens": 2400,
+          "total_tokens": 7769
+        },
+        "provider_response_id": "gen-1776326922-10wtzfEIkoXqph71ytXx"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9920067_2021_Backus v. I.Q. Data International, Inc._oknd",
+    "custom_id": "uor-0118-11e66cc1a0e7",
+    "case_name": "Joseph Backus v. I.Q. Data International, Inc., Tulsa Greenbriar I, LLC, and Gaines Investment Trust",
+    "input_tokens": 5670,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0118-11e66cc1a0e7",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " {\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"REQUEST_NOT_ALLEGED\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"DOCUMENT_ASSEMBLY\",\n    \"FACT_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"NOTICE_OR_TIMELINE_RECORD\",\n    \"PHYSICAL_ACCESS_BARRIER\"\n  ],\n  \"raw_text_review_priority\": \"HIGH\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The pro se plaintiff with mobility limitations submitted a notice to vacate mentioning a need for a shorter walking distance, but the court dismissed under Iqbal/Twombly at the motion to dismiss stage because this document did not constitute a legally adequate reasonable accommodation request for a transfer. This represents a translation failure where the grievance was documented in the notice but not translated into a legally legible FHA accommodation request format, fixable through both standardized intake documentation (Tier ",
+        "usage": {
+          "input_tokens": 5670,
+          "output_tokens": 2400,
+          "total_tokens": 8070
+        },
+        "provider_response_id": "gen-1776326927-8Xi9gVFT3IQ1JUk3b9Iv"
+      }
+    ],
+    "error": "JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9922307_2021_Melton v. University of Oklahoma_okwd",
+    "custom_id": "uor-0119-9534790797bf",
+    "case_name": "Sarah Melton v. State of Oklahoma ex rel. University of Oklahoma",
+    "input_tokens": 5468,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0119-9534790797bf",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5468,
+          "output_tokens": 2400,
+          "total_tokens": 7868
+        },
+        "provider_response_id": "gen-1776326928-9Mfr22DF5F60UpgTJHAx"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9926959_2021_Macon v. Parker_ord",
+    "custom_id": "uor-0120-3ebf9b9df16a",
+    "case_name": "Jenine Kristina Macon v. Proud Ground Organization, Yesika Arevalo, Tyler Koski, Ryan Parker, Katie Ullrich, Pedro Cruz",
+    "input_tokens": 5451,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0120-3ebf9b9df16a",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5451,
+          "output_tokens": 2400,
+          "total_tokens": 7851
+        },
+        "provider_response_id": "gen-1776326932-uYNg1xH66GNVb5PhHVjp"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9931745_2020_EL v. PEOPLE'S EMERGENCY CENTER_paed",
+    "custom_id": "uor-0121-027497feebbb",
+    "case_name": "Magistrate Mahdi Sufi El v. People's Emergency Center",
+    "input_tokens": 5760,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0121-027497feebbb",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5760,
+          "output_tokens": 2400,
+          "total_tokens": 8160
+        },
+        "provider_response_id": "gen-1776326933-xYZKq1vxK3shPaDxpYa9"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9836268_2019_Koso v. St. Josephs Senior Housing Village_nyed",
+    "custom_id": "uor-0084-9bd6b012a417",
+    "case_name": "Linda Koso v. St. Joseph's Senior Housing Village and Stanan Management",
+    "input_tokens": 5346,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0084-9bd6b012a417",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5346,
+          "output_tokens": 2400,
+          "total_tokens": 7746
+        },
+        "provider_response_id": "gen-1776326840-SGCUbrRoJTxAMY8FaiYL"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9932121_2020_APONTE v. UNITED STATES DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT_paed",
+    "custom_id": "uor-0122-dc3dc26a16d6",
+    "case_name": "Shanicqua Aponte v. United States Department of Housing and Urban Development",
+    "input_tokens": 5504,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0122-dc3dc26a16d6",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5504,
+          "output_tokens": 2400,
+          "total_tokens": 7904
+        },
+        "provider_response_id": "gen-1776326937-tcDDTIpWibYNPT4tUXux"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9932283_2020_COYNE v. HOLY FAMILY APARTMENTS_paed",
+    "custom_id": "uor-0123-b864d70663f3",
+    "case_name": "Catherine Coyne v. Holy Family Apartments, Allentown Archdiocese, Randy Wadsworth, Karen Ohm, Sarosky Heating & Air Conditioning, and HUD",
+    "input_tokens": 6213,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0123-b864d70663f3",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 6213,
+          "output_tokens": 2400,
+          "total_tokens": 8613
+        },
+        "provider_response_id": "gen-1776326939-90LNZej9mA4O5HrF2Qsk"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9933567_2020_DAVIS v. RUBIN_paed",
+    "custom_id": "uor-0124-edd806f5f8b8",
+    "case_name": "Davis v. Rubin",
+    "input_tokens": 5661,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0124-edd806f5f8b8",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5661,
+          "output_tokens": 2400,
+          "total_tokens": 8061
+        },
+        "provider_response_id": "gen-1776326943-ozXtX0bOp0vPeamnGjjr"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9933772_2021_LEE v. HUD_paed",
+    "custom_id": "uor-0125-49013347903a",
+    "case_name": "Thermuthis Lee v. HUD, et al.",
+    "input_tokens": 5555,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0125-49013347903a",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5555,
+          "output_tokens": 2400,
+          "total_tokens": 7955
+        },
+        "provider_response_id": "gen-1776326944-EbCWyNkRCkFm59zKN4kU"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9934255_2021_DEJESUS v. VICKY_paed",
+    "custom_id": "uor-0126-c84d12594502",
+    "case_name": "Alexy Dejesus v. Vicky; Arbor Village & Old Forge Apartments",
+    "input_tokens": 5420,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0126-c84d12594502",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5420,
+          "output_tokens": 2400,
+          "total_tokens": 7820
+        },
+        "provider_response_id": "gen-1776326946-Niy5X4rSbXJesvCzlml8"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9934691_2021_EL v. PEOPLE'S EMERGENCY CENTER_paed",
+    "custom_id": "uor-0127-d1a813ce9e3a",
+    "case_name": "Magistrate Mahdi Sufi El v. People's Emergency Center, et al.",
+    "input_tokens": 5572,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0127-d1a813ce9e3a",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5572,
+          "output_tokens": 2400,
+          "total_tokens": 7972
+        },
+        "provider_response_id": "gen-1776326949-ES2VTwNi7FnD758ChIjn"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9935118_2021_CARTER v. MURRAY_paed",
+    "custom_id": "uor-0128-d76f980d0ccc",
+    "case_name": "Reginald Carter v. Donna M. Murray",
+    "input_tokens": 5667,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0128-d76f980d0ccc",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5667,
+          "output_tokens": 2400,
+          "total_tokens": 8067
+        },
+        "provider_response_id": "gen-1776326950-5sitJ5VC1xnBSoaXgpwW"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9935410_2021_HEIMBACH v. HILL_paed",
+    "custom_id": "uor-0129-2e1a6a616657",
+    "case_name": "Justin C. Heimbach v. Ronald Hill",
+    "input_tokens": 5287,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0129-2e1a6a616657",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5287,
+          "output_tokens": 2400,
+          "total_tokens": 7687
+        },
+        "provider_response_id": "gen-1776326955-evPgeAwKbz0sw1O1thsW"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9943863_2021_Mountainside Manor Real Estate Associates LLC v. Dallas Township_pamd",
+    "custom_id": "uor-0130-2a5cfa246946",
+    "case_name": "Mountainside Manor Real Estate Associates, LLC v. Dallas Township",
+    "input_tokens": 5564,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0130-2a5cfa246946",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5564,
+          "output_tokens": 2400,
+          "total_tokens": 7964
+        },
+        "provider_response_id": "gen-1776326955-spkHv5sUraFQ8gfWqZUs"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9950171_2021_FUNYAK v. PENNROSE MANAGEMENT COMPANY_pawd",
+    "custom_id": "uor-0131-f48511c99818",
+    "case_name": "Gregory Louis Funyak and Sharon Lynn Funyak v. Pennrose Management Company and Monroe Meadows Housing Partnership, LP",
+    "input_tokens": 5585,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0131-f48511c99818",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5585,
+          "output_tokens": 2400,
+          "total_tokens": 7985
+        },
+        "provider_response_id": "gen-1776326958-RMIzVDQOYlJuD2pFVEKt"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9953316_2020_Del Villar-Rosario v. Fernandez-Ramos_prd",
+    "custom_id": "uor-0133-b7de3cd227d1",
+    "case_name": "Euripides Del Villar-Rosario v. Victor Roberto Fernandez-Ramos, et al.",
+    "input_tokens": 5425,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0133-b7de3cd227d1",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5425,
+          "output_tokens": 2400,
+          "total_tokens": 7825
+        },
+        "provider_response_id": "gen-1776326961-kfkbLv0dY9aGLQ4SIw0w"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9950565_2021_MIMS v. CITY OF NEW CASTLE_pawd",
+    "custom_id": "uor-0132-c4ae7f85a7dc",
+    "case_name": "James Mims v. City of New Castle",
+    "input_tokens": 5479,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0132-c4ae7f85a7dc",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5479,
+          "output_tokens": 2400,
+          "total_tokens": 7879
+        },
+        "provider_response_id": "gen-1776326960-dMnTOvqB2jmVHwsA26LJ"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9953732_2021_Erazo-Santana v. Constructora Del Rio, Inc._prd",
+    "custom_id": "uor-0134-2dfa2f4d837e",
+    "case_name": "Carlos Erazo-Santana v. Constructora Del Río, Inc., et al.",
+    "input_tokens": 5408,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0134-2dfa2f4d837e",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5408,
+          "output_tokens": 2400,
+          "total_tokens": 7808
+        },
+        "provider_response_id": "gen-1776326966-s0gayxDzMlDv2P1TURfV"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9958680_2021_Hawkins v. Court of Common Pleas_scd",
+    "custom_id": "uor-0135-c0f0e8a8e83b",
+    "case_name": "Flordeliza A. Hawkins v. Court of Common Pleas of Anderson South Carolina",
+    "input_tokens": 5473,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0135-c0f0e8a8e83b",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5473,
+          "output_tokens": 2400,
+          "total_tokens": 7873
+        },
+        "provider_response_id": "gen-1776326967-uT5hq6U7cVrruGPfh3zK"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9964824_2018_Noble v. American National Property _ Casualty Insurance Co._sdd",
+    "custom_id": "uor-0136-f1acebb93738",
+    "case_name": "Marty Noble and Holli Telford v. American National Property & Casualty Insurance Co.; Boardwalk Property Management Co.; Kevin West; Lehi Oasis, LLC; David L. Parker; Austin B. Cales; Jared Eldridge; Larry Deiter; Robert J. Poulsen and Poulsen & Skousen",
+    "input_tokens": 5542,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0136-f1acebb93738",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5542,
+          "output_tokens": 2400,
+          "total_tokens": 7942
+        },
+        "provider_response_id": "gen-1776326969-0IAB5yXrnr7isFwHRzRO"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9965467_2020_Lundahl v. Gross_sdd",
+    "custom_id": "uor-0137-218a3075ff58",
+    "case_name": "Lundahl v. Gross",
+    "input_tokens": 5755,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0137-218a3075ff58",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " {\n  \"pleading_failure_family\": \"CAUSAL_LINK\",\n  \"pleading_failure_mechanism\": \"ADVERSE_ACTION_NOT_CONNECTED\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"NOTICE_OR_TIMELINE_RECORD\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The structured record shows a pro se plaintiff's reasonable accommodation claim dismissed at the motion-to-dismiss stage under Iqbal/Twombly because she failed to allege facts connecting the USDA's delayed appraisal and reduced loan amount to her disability. This causal-link failure in a USDA",
+        "usage": {
+          "input_tokens": 5755,
+          "output_tokens": 2400,
+          "total_tokens": 8155
+        },
+        "provider_response_id": "gen-1776326971-HjzNeOCc1bW041z2MBtW"
+      }
+    ],
+    "error": "JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9970186_2020_Norris v. Murfreesboro Leased Housing Associates_tnmd",
+    "custom_id": "uor-0138-c55848cb7e8f",
+    "case_name": "April Tenille Norris v. Murfreesboro Leased Housing Associates I, LP d/b/a Chariot Pointe Apartments, et al.",
+    "input_tokens": 5480,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0138-c55848cb7e8f",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5480,
+          "output_tokens": 2400,
+          "total_tokens": 7880
+        },
+        "provider_response_id": "gen-1776326972-xBBZbSBElqCDS68AVA55"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9981922_2020_Jackson v. City of Grand Prairie Texas_txnd",
+    "custom_id": "uor-0140-f57b10ba7583",
+    "case_name": "Cleveland Jackson, Jr. v. City of Grand Prairie Texas",
+    "input_tokens": 5539,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0140-f57b10ba7583",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5539,
+          "output_tokens": 2400,
+          "total_tokens": 7939
+        },
+        "provider_response_id": "gen-1776326980-yqNnTekfjOte0F1mYdVa"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9972972_2019_Alexander v. Lexington Associates II, L.P._tnwd",
+    "custom_id": "uor-0139-e42b4ef3e6a8",
+    "case_name": "Alexander v. Lexington Associates II, L.P.",
+    "input_tokens": 5458,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0139-e42b4ef3e6a8",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5458,
+          "output_tokens": 2400,
+          "total_tokens": 7858
+        },
+        "provider_response_id": "gen-1776326978-J6YLArytaNI9o8alu66t"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10221540_2020_Fedynich v. Boulder Housing Partners_vaed",
+    "custom_id": "uor-0005-5bcc113dea22",
+    "case_name": "Fedynich v. Boulder Housing Partners",
+    "input_tokens": 5431,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0005-5bcc113dea22",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"CAUSAL_LINK\",\n  \"pleading_failure_mechanism\": \"DISABILITY_NEXUS_MISSING\",\n  \"institutional_function_missing\": [\n    \"FACT_DEVELOPMENT\",\n    \"MEDICAL_OR_DISABILITY_CORROBORATION\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"MEDICAL_OR_PROVIDER_LETTER\",\n",
+        "usage": {
+          "input_tokens": 5431,
+          "output_tokens": 2400,
+          "total_tokens": 7831
+        },
+        "provider_response_id": "gen-1776326585-kzZ3obPtgkIntemkB42S"
+      }
+    ],
+    "error": "JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9870218_2021_Higgins v. 120 Riverside Boulevard at Trump Place Condominium_nysd",
+    "custom_id": "uor-0112-2dcf60d5eecb",
+    "case_name": "Joanne Noel Higgins v. 120 Riverside Boulevard at Trump Place Condominium",
+    "input_tokens": 5799,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0112-2dcf60d5eecb",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5799,
+          "output_tokens": 2400,
+          "total_tokens": 8199
+        },
+        "provider_response_id": "gen-1776326911-q7ba8fToUHEnE8R2k2do"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9900765_2019_Muhammad v. Wilhite_ohnd",
+    "custom_id": "uor-0113-1787351b4183",
+    "case_name": "Jerry Muhammad v. Jacob Wilhite",
+    "input_tokens": 5532,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0113-1787351b4183",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5532,
+          "output_tokens": 2400,
+          "total_tokens": 7932
+        },
+        "provider_response_id": "gen-1776326911-MsXsZR7sirN1QalAUJjh"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  }
+]

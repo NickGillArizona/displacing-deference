@@ -1,0 +1,434 @@
+{
+  "uor-0000-729dfb676404": {
+    "source_file": "10167751_2024_United African-Asian Abilities Club v. Alexander C. Freiberg_cacd",
+    "case_name": "United African-Asian Abilities Club et al v. Alexander C. Freiberg et al",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5753
+  },
+  "uor-0001-4fe7a2bb35ea": {
+    "source_file": "10182858_2022_Estate of DaMon R. Fisher v. City of Annapolis_mdd",
+    "case_name": "Estate of DaMon R. Fisher v. City of Annapolis",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5868
+  },
+  "uor-0002-428a176edd5b": {
+    "source_file": "10189320_2024_FRANKLIN v. THE JERSEY CITY HOUSING AUTHORITY_njd",
+    "case_name": "Edwina Franklin v. The Jersey City Housing Authority, Secretary, Department of Housing and Urban Development",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5485
+  },
+  "uor-0003-04f13d2d1cfa": {
+    "source_file": "10205156_2024_Bowman v. SWBC Real Estate Services LLC_txnd",
+    "case_name": "Bowman v. SWBC Real Estates Services, LLC",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5808
+  },
+  "uor-0004-828372d99f7f": {
+    "source_file": "10215657_2023_Ricks v. DMA Companies_txwd",
+    "case_name": "Stephan A. Ricks v. DMA Companies, Diana McIver, Nichole Guptill, Roxanne Marroquin, and OPC Services",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5954
+  },
+  "uor-0005-966957f0066b": {
+    "source_file": "10219582_2023_Ravines de Schur v. Department of Workforce Services_utd",
+    "case_name": "Ana Maria Ravines de Schur v. Utah Department of Workforce Services",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5780
+  },
+  "uor-0006-624a3e5a2d41": {
+    "source_file": "10241092_2023_Tajammul v. Everett Affordable Housing Portfolio LLLP_wawd",
+    "case_name": "Tajammul v. Everett Affordable Housing Portfolio LLLP",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5628
+  },
+  "uor-0007-21db9a7f2a7f": {
+    "source_file": "10244606_2024_Slaughter v. Valley View I LLP_wawd",
+    "case_name": "Slaughter v. Valley View I LLP",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 6012
+  },
+  "uor-0008-2178f5a5fb3c": {
+    "source_file": "10245021_2024_McIntire v. Housing Authority of Snohomish County_wawd",
+    "case_name": "Shawna McIntire v. Housing Authority of Snohomish County",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5724
+  },
+  "uor-0009-7490832edaef": {
+    "source_file": "10252595_2023_United States of America v. City of Milwaukee_wied",
+    "case_name": "United States of America ex rel. James Dieter and Karen Schwenke v. City of Milwaukee, City of Milwaukee Community Development Grants Administration, Housing Authority of the City of Milwaukee, and Milwaukee County",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5799
+  },
+  "uor-0010-8992a56442dd": {
+    "source_file": "10252951_2024_Kendrick v. Oakbrook Corporation_wied",
+    "case_name": "Kendrick v. Oakbrook Corporation",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5576
+  },
+  "uor-0011-1c9203b3e5f3": {
+    "source_file": "10252970_2024_Kendrick v. Brennan_wied",
+    "case_name": "Kendrick v. Brennan",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5603
+  },
+  "uor-0012-1e6fc8bde693": {
+    "source_file": "10693710_2022_Margaret Kris v. Dusseault Family Revocable Trust et al._nhd",
+    "case_name": "Margaret Kris v. Dusseault Family Revocable Trust et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5970
+  },
+  "uor-0013-1037d5091f91": {
+    "source_file": "6466947_2022_Birch v. Wlody_ca2",
+    "case_name": "Birch Family Services, Inc. v. Wlody",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5811
+  },
+  "uor-0014-d1c35ca07e0a": {
+    "source_file": "6472320_2022_Gene Phillips v. Acacia on the Green Condo Ass'n_ca6",
+    "case_name": "Gene B. Phillips; Babette R. Krause v. Acacia on the Green Condominium Association, Inc.; Scott D. Cohen; Richard N. Dettlebach; John F. Klein; James N. Kleinfelter; Diane E. Lombardy; Nina H. Rothman; Amy W. Wachs",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 6064
+  },
+  "uor-0015-ae32febb2ad6": {
+    "source_file": "8241798_2022_Jamal Akbar v. Interstate Realty Management Company_ca7",
+    "case_name": "Jamal A. Akbar v. Interstate Realty Management Company",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5931
+  },
+  "uor-0016-453f108de048": {
+    "source_file": "9354015_2022_Jackson v. Siegel Group_ca5",
+    "case_name": "Corla Jackson v. Siegel Group, L.L.C.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5558
+  },
+  "uor-0017-e580882fd863": {
+    "source_file": "9367727_2022_ASHLEY MCCLENDON V. PETER BRESLER_ca9",
+    "case_name": "Ashley Christina McClendon v. Peter Bresler",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 6024
+  },
+  "uor-0018-e65f0ac35ddb": {
+    "source_file": "9407177_2023_Theresa Thomas-Tupper v. Catholic Charities_ca2",
+    "case_name": "Theresa Thomas-Tupper v. Catholic Charities et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5921
+  },
+  "uor-0019-032f4bac1a5b": {
+    "source_file": "9426575_2023_Orlando Garcia v. Gateway Hotel L.P._ca9",
+    "case_name": "Orlando Garcia v. Gateway Hotel L.P.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5646
+  },
+  "uor-0020-3e8845b16ab9": {
+    "source_file": "9443643_2023_Dayton Veterans Residences Ltd. v. Dayton Metro. Housing Authority_ca6",
+    "case_name": "Dayton Veterans Residences Ltd. Partnership v. Dayton Metro. Housing Authority",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 6148
+  },
+  "uor-0021-c57c4e0cb099": {
+    "source_file": "9458353_2024_Adeyinka v. Project Home_dcd",
+    "case_name": "Emmanuel Adewale Adeyinka v. Project Home, et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5680
+  },
+  "uor-0022-457d74822fc4": {
+    "source_file": "9526362_2022_Yates v. Mack_alsd",
+    "case_name": "Yates v. Mack",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5766
+  },
+  "uor-0023-e7f0b66b7759": {
+    "source_file": "9585164_2023_Simmons v. Bauer Rentals_caed",
+    "case_name": "Simmons v. Bauer Rentals",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5424
+  },
+  "uor-0024-085d9f8597c5": {
+    "source_file": "9607428_2023_Rice v. City and County of San Francisco_cand",
+    "case_name": "Allison Barton Rice v. City and County of San Francisco",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 6035
+  },
+  "uor-0025-594520e0fc5d": {
+    "source_file": "9665723_2023_Lazarus v. Ouansafi_hid",
+    "case_name": "Lazarus v. Ouansafi",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5985
+  },
+  "uor-0026-feec64de294c": {
+    "source_file": "9717240_2023_Santiago v. Chill_kywd",
+    "case_name": "Alberto James Santiago, Sr. v. Elishia Chill, et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 6034
+  },
+  "uor-0027-c2313236bc1d": {
+    "source_file": "9717400_2023_Nance v. Mayfield Plaza Apartments Management_kywd",
+    "case_name": "Rodney L. Nance, Sr. v. Mayfield Plaza Apartments Management et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5545
+  },
+  "uor-0028-8f8ce7c53117": {
+    "source_file": "9741918_2023_Estate of DaMon R. Fisher v. City of Annapolis_mdd",
+    "case_name": "Tamara Johnson, et al. v. The City of Annapolis, et al. / The Estate of Damon R. Fisher, et al. v. The City of Annapolis, et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5695
+  },
+  "uor-0029-9f519e4ad066": {
+    "source_file": "9884412_2023_Avila v. Acacia Network Inc._nysd",
+    "case_name": "Jimmy Avila v. Acacia Network, Inc.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5498
+  },
+  "uor-0030-629f30047a6e": {
+    "source_file": "9888149_2023_Liboy v. Russ_nysd",
+    "case_name": "Mark Liboy v. Gregory Russ, Lisa Bova-Hiatt, and New York City Housing Authority",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5818
+  },
+  "uor-0031-753d3a7dd4b1": {
+    "source_file": "9888944_2023_Watts v. Brito_nysd",
+    "case_name": "Watts v. Brito",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5756
+  },
+  "uor-0032-2a0ab81ee4a1": {
+    "source_file": "9890096_2023_Noe v. Ray Realty_nysd",
+    "case_name": "Carol Noe v. Ray Realty, et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5479
+  },
+  "uor-0033-f335431a531c": {
+    "source_file": "9890838_2024_Gambaro v. 1917 ACP Owner LLC_nysd",
+    "case_name": "Jeanette Gambaro and Joseph Gambaro v. 1917 ACP Owner LLC, Bruce Lederman, Sharp Management Corp., and The Clearstone Group Inc.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5726
+  },
+  "uor-0034-94f53c807d25": {
+    "source_file": "9891146_2024_Monterroso v. City of New York_nysd",
+    "case_name": "Cynthia Monterroso v. City of New York, et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 6002
+  },
+  "uor-0035-4d4c96b5f1a1": {
+    "source_file": "9914173_2022_McComb v. Dominium Property Management_ohsd",
+    "case_name": "Robert McComb v. Dominium Property Management, et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5975
+  },
+  "uor-0036-8371eb3b8539": {
+    "source_file": "9927731_2022_Johnson v. Guardian Management_ord",
+    "case_name": "Larry Johnson v. Guardian Management and Uptown Towers",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5655
+  },
+  "uor-0037-177977c57023": {
+    "source_file": "9928421_2022_Johnson v. Brenneke_ord",
+    "case_name": "Larry Johnson v. Thomas Brenneke; Garrett Lamar Miles; Guardian Management, LLC; Guardian Real Estate Services; Uptown Tower Apartments; Lisa Simonson; Kelly Paine; and Sunshine Sales",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5385
+  },
+  "uor-0038-d0cd0e0d0a5f": {
+    "source_file": "9930903_2024_Washington v. Farmington Estates Owners Association_ord",
+    "case_name": "Wilmore Lee Washington, III v. Farmington Estates Owners Association",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5615
+  },
+  "uor-0039-445887215f08": {
+    "source_file": "9936019_2022_CHICK v. DOMINIC_paed",
+    "case_name": "Eldon Chick, et al. v. Serrano Acquisitions, et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5669
+  },
+  "uor-0040-9410fa4c7872": {
+    "source_file": "9940687_2024_ROBINSON v. PATHWAY TO HOUSING_paed",
+    "case_name": "Darlene Robinson v. Pathway to Housing",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5720
+  },
+  "uor-0041-311d59292fe2": {
+    "source_file": "9954334_2023_Rivera-De-Davila v. Mora Development Corporation_prd",
+    "case_name": "Gloria Rivera De Davila v. Mora Development Corporation",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5783
+  },
+  "uor-0042-1cd2681d330e": {
+    "source_file": "ABDELRASOUL v. Trustees of Boston University",
+    "case_name": "Abdelrasoul v. Trustees of Boston University",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5998
+  },
+  "uor-0043-f7d2f38701ee": {
+    "source_file": "Boyce v. ST. VINCENT DEPAUL",
+    "case_name": "Sonja Marie Boyce v. St. Vincent DePaul (Lane County), GBM Garder Beckley Meadows",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5754
+  },
+  "uor-0044-4b2270697e82": {
+    "source_file": "EWIDEH v. HOMESITE INS. CO. OF THE MIDWEST",
+    "case_name": "EWIDEH v. HOMESITE INS. CO. OF THE MIDWEST",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5757
+  },
+  "uor-0045-a51583a9a926": {
+    "source_file": "10089373_2024_Katalin Bloodgood-Loper v. Lenard Loper_ca9",
+    "case_name": "Katalin Bloodgood-Loper v. Lenard Loper; LVL Investments, LLC; Michelle L. Mercer",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5784
+  },
+  "uor-0046-ec70ee887c20": {
+    "source_file": "10178074_2024_Hauanio v. The Michaels Organization_hid",
+    "case_name": "Sunshine H. Hauanio v. The Michaels Organization",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 6094
+  },
+  "uor-0047-52c18c74ed62": {
+    "source_file": "10194816_2024_Moore v. City of New York_nysd",
+    "case_name": "Ali Moore v. City of New York",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5603
+  },
+  "uor-0048-19655bd8a5e9": {
+    "source_file": "11267613 - Joe v. OLIVE BRANCH ASSISTED LIVING LLC",
+    "case_name": "Hailei Joe v. Olive Branch Assisted Living LLC",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 6162
+  },
+  "uor-0049-2b741ef9a657": {
+    "source_file": "10600345_2025_Thorson v. Hawaii Public Housing Authority_hid",
+    "case_name": "Laurie Thorson v. Hawaii Public Housing Authority, Hakim Ouansafi, Ryan Akamine, and Lyle Matsuura",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 6339
+  },
+  "uor-0050-a2ddb267f6c2": {
+    "source_file": "10626360_2025_Earle v. Manchester Village Owners Association Inc_wied",
+    "case_name": "Dawn N. Earle v. Manchester Village Owners Association Inc, et al.",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5971
+  },
+  "uor-0051-a79a557c1e96": {
+    "source_file": "10645062_2025_Peters v. Caton Towers Owners Corp._nyed",
+    "case_name": "Jacqueline Peters v. Cafton Towers Owners Corp.",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 6020
+  },
+  "uor-0052-6d0fe21a657a": {
+    "source_file": "10655494_2025_Wallace v. John Stewart Co. _ Redwood Gardens_cand",
+    "case_name": "David Wallace v. John Stewart Company et al.",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5822
+  },
+  "uor-0053-67d3eb91e3e0": {
+    "source_file": "10688073_2025_Webster v. Fairway Management Inc_oknd",
+    "case_name": "Stephany Webster v. Fairway Management, Inc., Walnut Park Manor, L.P., JES Holdings, LLC",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 6755
+  }
+}

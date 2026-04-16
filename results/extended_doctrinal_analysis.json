@@ -1,0 +1,1269 @@
+{
+  "dataset": {
+    "total_cases": 3198,
+    "disability_screened_in": 1724,
+    "dated_disability": 1724,
+    "periods": {
+      "P1": "2013-2020",
+      "P2": "2021-2022",
+      "P3": "2023-2026"
+    }
+  },
+  "analysis_1_iqbal_evolution": {
+    "1a_citation_by_period": {
+      "P1": {
+        "n": 251,
+        "cited": 125,
+        "rate": 49.8
+      },
+      "P2": {
+        "n": 406,
+        "cited": 190,
+        "rate": 46.8
+      },
+      "P3": {
+        "n": 1067,
+        "cited": 500,
+        "rate": 46.86
+      }
+    },
+    "1a_citation_by_period_mtd": {
+      "P1": {
+        "n": 110,
+        "cited": 103,
+        "rate": 93.64
+      },
+      "P2": {
+        "n": 196,
+        "cited": 163,
+        "rate": 83.16
+      },
+      "P3": {
+        "n": 532,
+        "cited": 433,
+        "rate": 81.39
+      }
+    },
+    "1b_citation_by_representation": {
+      "Pro se": {
+        "n": 1034,
+        "cited": 610,
+        "rate": 58.99
+      },
+      "Represented": {
+        "n": 690,
+        "cited": 205,
+        "rate": 29.71
+      }
+    },
+    "1b_period_x_representation": {
+      "P1": {
+        "Pro se": {
+          "n": 101,
+          "cited": 73,
+          "rate": 72.28
+        },
+        "Represented": {
+          "n": 150,
+          "cited": 52,
+          "rate": 34.67
+        }
+      },
+      "P2": {
+        "Pro se": {
+          "n": 242,
+          "cited": 143,
+          "rate": 59.09
+        },
+        "Represented": {
+          "n": 164,
+          "cited": 47,
+          "rate": 28.66
+        }
+      },
+      "P3": {
+        "Pro se": {
+          "n": 691,
+          "cited": 394,
+          "rate": 57.02
+        },
+        "Represented": {
+          "n": 376,
+          "cited": 106,
+          "rate": 28.19
+        }
+      }
+    },
+    "1b_period_x_representation_mtd": {
+      "P1": {
+        "Pro se": {
+          "n": 64,
+          "cited": 61,
+          "rate": 95.31
+        },
+        "Represented": {
+          "n": 46,
+          "cited": 42,
+          "rate": 91.3
+        }
+      },
+      "P2": {
+        "Pro se": {
+          "n": 146,
+          "cited": 123,
+          "rate": 84.25
+        },
+        "Represented": {
+          "n": 50,
+          "cited": 40,
+          "rate": 80.0
+        }
+      },
+      "P3": {
+        "Pro se": {
+          "n": 431,
+          "cited": 347,
+          "rate": 80.51
+        },
+        "Represented": {
+          "n": 101,
+          "cited": 86,
+          "rate": 85.15
+        }
+      }
+    },
+    "1c_citation_by_claim_family": {
+      "specific_duty": {
+        "n": 1034,
+        "cited": 443,
+        "rate": 42.84
+      },
+      "open_textured": {
+        "n": 559,
+        "cited": 338,
+        "rate": 60.47
+      },
+      "other": {
+        "n": 131,
+        "cited": 34,
+        "rate": 25.95
+      }
+    },
+    "1c_period_x_family": {
+      "P1": {
+        "specific_duty": {
+          "n": 158,
+          "cited": 71,
+          "rate": 44.94
+        },
+        "open_textured": {
+          "n": 86,
+          "cited": 50,
+          "rate": 58.14
+        },
+        "other": {
+          "n": 7,
+          "cited": 4,
+          "rate": 57.14
+        }
+      },
+      "P2": {
+        "specific_duty": {
+          "n": 245,
+          "cited": 107,
+          "rate": 43.67
+        },
+        "open_textured": {
+          "n": 123,
+          "cited": 76,
+          "rate": 61.79
+        },
+        "other": {
+          "n": 38,
+          "cited": 7,
+          "rate": 18.42
+        }
+      },
+      "P3": {
+        "specific_duty": {
+          "n": 631,
+          "cited": 265,
+          "rate": 42.0
+        },
+        "open_textured": {
+          "n": 350,
+          "cited": 212,
+          "rate": 60.57
+        },
+        "other": {
+          "n": 86,
+          "cited": 23,
+          "rate": 26.74
+        }
+      }
+    },
+    "1d_mtd_contingency": {
+      "table": {
+        "pro_se_cited": 531,
+        "pro_se_nocited": 110,
+        "rep_cited": 168,
+        "rep_nocited": 29
+      },
+      "odds_ratio": 0.8333,
+      "chi2": 0.6484
+    },
+    "1e_mtd_outcomes_by_period_citation": {
+      "P1": {
+        "Cite I/T": {
+          "n": 103,
+          "dw": 55,
+          "pw": 22,
+          "mixed": 18,
+          "strict_pw_rate": 21.36,
+          "broad_win_rate": 38.83
+        },
+        "No Cite": {
+          "n": 7,
+          "dw": 4,
+          "pw": 1,
+          "mixed": 0,
+          "strict_pw_rate": 14.29,
+          "broad_win_rate": 14.29
+        }
+      },
+      "P2": {
+        "Cite I/T": {
+          "n": 163,
+          "dw": 113,
+          "pw": 23,
+          "mixed": 17,
+          "strict_pw_rate": 14.11,
+          "broad_win_rate": 24.54
+        },
+        "No Cite": {
+          "n": 33,
+          "dw": 20,
+          "pw": 3,
+          "mixed": 1,
+          "strict_pw_rate": 9.09,
+          "broad_win_rate": 12.12
+        }
+      },
+      "P3": {
+        "Cite I/T": {
+          "n": 433,
+          "dw": 327,
+          "pw": 37,
+          "mixed": 43,
+          "strict_pw_rate": 8.55,
+          "broad_win_rate": 18.48
+        },
+        "No Cite": {
+          "n": 99,
+          "dw": 69,
+          "pw": 5,
+          "mixed": 7,
+          "strict_pw_rate": 5.05,
+          "broad_win_rate": 12.12
+        }
+      }
+    },
+    "1e_mtd_by_period_rep_citation": {
+      "P1": {
+        "Pro se": {
+          "Cite": {
+            "n": 61,
+            "dw": 43,
+            "broad_win": 11,
+            "dw_rate": 70.49,
+            "broad_win_rate": 18.03
+          },
+          "NoCite": {
+            "n": 3,
+            "dw": 3,
+            "broad_win": 0,
+            "dw_rate": 100.0,
+            "broad_win_rate": 0.0
+          }
+        },
+        "Represented": {
+          "Cite": {
+            "n": 42,
+            "dw": 12,
+            "broad_win": 29,
+            "dw_rate": 28.57,
+            "broad_win_rate": 69.05
+          },
+          "NoCite": {
+            "n": 4,
+            "dw": 1,
+            "broad_win": 1,
+            "dw_rate": 25.0,
+            "broad_win_rate": 25.0
+          }
+        }
+      },
+      "P2": {
+        "Pro se": {
+          "Cite": {
+            "n": 123,
+            "dw": 98,
+            "broad_win": 16,
+            "dw_rate": 79.67,
+            "broad_win_rate": 13.01
+          },
+          "NoCite": {
+            "n": 23,
+            "dw": 17,
+            "broad_win": 1,
+            "dw_rate": 73.91,
+            "broad_win_rate": 4.35
+          }
+        },
+        "Represented": {
+          "Cite": {
+            "n": 40,
+            "dw": 15,
+            "broad_win": 24,
+            "dw_rate": 37.5,
+            "broad_win_rate": 60.0
+          },
+          "NoCite": {
+            "n": 10,
+            "dw": 3,
+            "broad_win": 3,
+            "dw_rate": 30.0,
+            "broad_win_rate": 30.0
+          }
+        }
+      },
+      "P3": {
+        "Pro se": {
+          "Cite": {
+            "n": 347,
+            "dw": 294,
+            "broad_win": 35,
+            "dw_rate": 84.73,
+            "broad_win_rate": 10.09
+          },
+          "NoCite": {
+            "n": 84,
+            "dw": 63,
+            "broad_win": 7,
+            "dw_rate": 75.0,
+            "broad_win_rate": 8.33
+          }
+        },
+        "Represented": {
+          "Cite": {
+            "n": 86,
+            "dw": 33,
+            "broad_win": 45,
+            "dw_rate": 38.37,
+            "broad_win_rate": 52.33
+          },
+          "NoCite": {
+            "n": 15,
+            "dw": 6,
+            "broad_win": 5,
+            "dw_rate": 40.0,
+            "broad_win_rate": 33.33
+          }
+        }
+      }
+    }
+  },
+  "analysis_2_settlement": {
+    "2a_settlement_by_representation": {
+      "Pro se": {
+        "n": 1034,
+        "settled": 10,
+        "rate": 0.97
+      },
+      "Represented": {
+        "n": 690,
+        "settled": 36,
+        "rate": 5.22
+      }
+    },
+    "2b_settlement_by_period_representation": {
+      "P1": {
+        "Pro se": {
+          "n": 101,
+          "settled": 1,
+          "rate": 0.99
+        },
+        "Represented": {
+          "n": 150,
+          "settled": 3,
+          "rate": 2.0
+        }
+      },
+      "P2": {
+        "Pro se": {
+          "n": 242,
+          "settled": 2,
+          "rate": 0.83
+        },
+        "Represented": {
+          "n": 164,
+          "settled": 7,
+          "rate": 4.27
+        }
+      },
+      "P3": {
+        "Pro se": {
+          "n": 691,
+          "settled": 7,
+          "rate": 1.01
+        },
+        "Represented": {
+          "n": 376,
+          "settled": 26,
+          "rate": 6.91
+        }
+      }
+    },
+    "2c_observed_win_rates": {
+      "P1": {
+        "Pro se": {
+          "n": 100,
+          "strict": 12.0,
+          "broad": 21.0
+        },
+        "Represented": {
+          "n": 147,
+          "strict": 30.61,
+          "broad": 54.42
+        }
+      },
+      "P2": {
+        "Pro se": {
+          "n": 240,
+          "strict": 7.08,
+          "broad": 13.33
+        },
+        "Represented": {
+          "n": 157,
+          "strict": 26.11,
+          "broad": 36.31
+        }
+      },
+      "P3": {
+        "Pro se": {
+          "n": 684,
+          "strict": 3.51,
+          "broad": 8.33
+        },
+        "Represented": {
+          "n": 350,
+          "strict": 22.86,
+          "broad": 38.57
+        }
+      }
+    },
+    "2d_adjusted_win_rates": {
+      "P1": {
+        "Pro se": {
+          "n": 101,
+          "adj_strict": 12.87,
+          "adj_broad": 21.78,
+          "settled_n": 1
+        },
+        "Represented": {
+          "n": 150,
+          "adj_strict": 32.0,
+          "adj_broad": 55.33,
+          "settled_n": 3
+        }
+      },
+      "P2": {
+        "Pro se": {
+          "n": 242,
+          "adj_strict": 7.85,
+          "adj_broad": 14.05,
+          "settled_n": 2
+        },
+        "Represented": {
+          "n": 164,
+          "adj_strict": 29.27,
+          "adj_broad": 39.02,
+          "settled_n": 7
+        }
+      },
+      "P3": {
+        "Pro se": {
+          "n": 691,
+          "adj_strict": 4.49,
+          "adj_broad": 9.26,
+          "settled_n": 7
+        },
+        "Represented": {
+          "n": 376,
+          "adj_strict": 28.19,
+          "adj_broad": 42.82,
+          "settled_n": 26
+        }
+      }
+    },
+    "2e_gap_change": {
+      "P1": {
+        "obs_gap_pp": 33.42,
+        "adj_gap_pp": 33.55,
+        "gap_change_pp": -0.13
+      },
+      "P2": {
+        "obs_gap_pp": 22.98,
+        "adj_gap_pp": 24.97,
+        "gap_change_pp": -1.99
+      },
+      "P3": {
+        "obs_gap_pp": 30.24,
+        "adj_gap_pp": 33.56,
+        "gap_change_pp": -3.32
+      }
+    },
+    "2f_settlement_by_claim_family": {
+      "specific_duty": {
+        "n": 1034,
+        "settled": 32,
+        "rate": 3.09
+      },
+      "open_textured": {
+        "n": 559,
+        "settled": 8,
+        "rate": 1.43
+      },
+      "other": {
+        "n": 131,
+        "settled": 6,
+        "rate": 4.58
+      }
+    }
+  },
+  "analysis_3_circuit": {
+    "3a_iqbal_by_circuit": {
+      "1st Circuit": {
+        "n": 45,
+        "cited": 26,
+        "rate": 57.78,
+        "conservatism": 0.17
+      },
+      "2nd Circuit": {
+        "n": 268,
+        "cited": 138,
+        "rate": 51.49,
+        "conservatism": 0.31
+      },
+      "3rd Circuit": {
+        "n": 156,
+        "cited": 98,
+        "rate": 62.82,
+        "conservatism": 0.43
+      },
+      "4th Circuit": {
+        "n": 130,
+        "cited": 69,
+        "rate": 53.08,
+        "conservatism": 0.47
+      },
+      "5th Circuit": {
+        "n": 131,
+        "cited": 51,
+        "rate": 38.93,
+        "conservatism": 0.76
+      },
+      "6th Circuit": {
+        "n": 136,
+        "cited": 57,
+        "rate": 41.91,
+        "conservatism": 0.63
+      },
+      "7th Circuit": {
+        "n": 127,
+        "cited": 62,
+        "rate": 48.82,
+        "conservatism": 0.36
+      },
+      "8th Circuit": {
+        "n": 77,
+        "cited": 38,
+        "rate": 49.35,
+        "conservatism": 0.82
+      },
+      "9th Circuit": {
+        "n": 358,
+        "cited": 163,
+        "rate": 45.53,
+        "conservatism": 0.31
+      },
+      "10th Circuit": {
+        "n": 113,
+        "cited": 39,
+        "rate": 34.51,
+        "conservatism": 0.42
+      },
+      "11th Circuit": {
+        "n": 125,
+        "cited": 55,
+        "rate": 44.0,
+        "conservatism": 0.75
+      },
+      "D.C. Circuit": {
+        "n": 36,
+        "cited": 17,
+        "rate": 47.22,
+        "conservatism": 0.36
+      }
+    },
+    "3b_p1_p3_decline": {
+      "1st Circuit": {
+        "p1_n": 15,
+        "p1_broad": 33.33,
+        "p3_n": 19,
+        "p3_broad": 31.58,
+        "delta_pp": -1.75,
+        "conservatism": 0.17
+      },
+      "2nd Circuit": {
+        "p1_n": 43,
+        "p1_broad": 48.84,
+        "p3_n": 164,
+        "p3_broad": 8.54,
+        "delta_pp": -40.3,
+        "conservatism": 0.31
+      },
+      "3rd Circuit": {
+        "p1_n": 24,
+        "p1_broad": 45.83,
+        "p3_n": 93,
+        "p3_broad": 24.73,
+        "delta_pp": -21.1,
+        "conservatism": 0.43
+      },
+      "4th Circuit": {
+        "p1_n": 13,
+        "p1_broad": 46.15,
+        "p3_n": 95,
+        "p3_broad": 10.53,
+        "delta_pp": -35.63,
+        "conservatism": 0.47
+      },
+      "5th Circuit": {
+        "p1_n": 14,
+        "p1_broad": 42.86,
+        "p3_n": 77,
+        "p3_broad": 15.58,
+        "delta_pp": -27.27,
+        "conservatism": 0.76
+      },
+      "6th Circuit": {
+        "p1_n": 16,
+        "p1_broad": 37.5,
+        "p3_n": 87,
+        "p3_broad": 19.54,
+        "delta_pp": -17.96,
+        "conservatism": 0.63
+      },
+      "7th Circuit": {
+        "p1_n": 21,
+        "p1_broad": 42.86,
+        "p3_n": 70,
+        "p3_broad": 27.14,
+        "delta_pp": -15.71,
+        "conservatism": 0.36
+      },
+      "8th Circuit": {
+        "p1_n": 19,
+        "p1_broad": 31.58,
+        "p3_n": 49,
+        "p3_broad": 16.33,
+        "delta_pp": -15.25,
+        "conservatism": 0.82
+      },
+      "9th Circuit": {
+        "p1_n": 37,
+        "p1_broad": 37.84,
+        "p3_n": 226,
+        "p3_broad": 22.57,
+        "delta_pp": -15.27,
+        "conservatism": 0.31
+      },
+      "10th Circuit": {
+        "p1_n": 16,
+        "p1_broad": 43.75,
+        "p3_n": 70,
+        "p3_broad": 10.0,
+        "delta_pp": -33.75,
+        "conservatism": 0.42
+      },
+      "11th Circuit": {
+        "p1_n": 22,
+        "p1_broad": 27.27,
+        "p3_n": 79,
+        "p3_broad": 20.25,
+        "delta_pp": -7.02,
+        "conservatism": 0.75
+      },
+      "D.C. Circuit": {
+        "p1_n": 11,
+        "p1_broad": 36.36,
+        "p3_n": 16,
+        "p3_broad": 25.0,
+        "delta_pp": -11.36,
+        "conservatism": 0.36
+      }
+    },
+    "3c_correlations": {
+      "conservatism_vs_decline": -0.0048,
+      "conservatism_vs_iqbal_rate": -0.4029,
+      "n_circuits_decline": 12,
+      "n_circuits_iqbal": 12
+    },
+    "3d_pro_se_surge": {
+      "1st Circuit": {
+        "p1_prose": 53.33,
+        "p3_prose": 73.68,
+        "delta_pp": 20.35
+      },
+      "2nd Circuit": {
+        "p1_prose": 41.86,
+        "p3_prose": 72.56,
+        "delta_pp": 30.7
+      },
+      "3rd Circuit": {
+        "p1_prose": 37.5,
+        "p3_prose": 66.67,
+        "delta_pp": 29.17
+      },
+      "4th Circuit": {
+        "p1_prose": 30.77,
+        "p3_prose": 69.47,
+        "delta_pp": 38.7
+      },
+      "5th Circuit": {
+        "p1_prose": 50.0,
+        "p3_prose": 63.64,
+        "delta_pp": 13.64
+      },
+      "6th Circuit": {
+        "p1_prose": 12.5,
+        "p3_prose": 59.77,
+        "delta_pp": 47.27
+      },
+      "7th Circuit": {
+        "p1_prose": 19.05,
+        "p3_prose": 51.43,
+        "delta_pp": 32.38
+      },
+      "8th Circuit": {
+        "p1_prose": 78.95,
+        "p3_prose": 69.39,
+        "delta_pp": -9.56
+      },
+      "9th Circuit": {
+        "p1_prose": 45.95,
+        "p3_prose": 69.91,
+        "delta_pp": 23.97
+      },
+      "10th Circuit": {
+        "p1_prose": 18.75,
+        "p3_prose": 57.14,
+        "delta_pp": 38.39
+      },
+      "11th Circuit": {
+        "p1_prose": 36.36,
+        "p3_prose": 62.03,
+        "delta_pp": 25.66
+      },
+      "D.C. Circuit": {
+        "p1_prose": 54.55,
+        "p3_prose": 62.5,
+        "delta_pp": 7.95
+      }
+    },
+    "3e_mtd_dw_by_circuit_period": {
+      "1st Circuit": {
+        "circuit": "1st Circuit",
+        "periods": {
+          "P1": {
+            "n": 8,
+            "dw_rate": 50.0
+          },
+          "P2": {
+            "n": 6,
+            "dw_rate": 50.0
+          },
+          "P3": {
+            "n": 11,
+            "dw_rate": 54.55
+          }
+        },
+        "p1_p3_delta": 4.549999999999997
+      },
+      "2nd Circuit": {
+        "circuit": "2nd Circuit",
+        "periods": {
+          "P1": {
+            "n": 27,
+            "dw_rate": 51.85
+          },
+          "P2": {
+            "n": 31,
+            "dw_rate": 67.74
+          },
+          "P3": {
+            "n": 90,
+            "dw_rate": 85.56
+          }
+        },
+        "p1_p3_delta": 33.71
+      },
+      "3rd Circuit": {
+        "circuit": "3rd Circuit",
+        "periods": {
+          "P1": {
+            "n": 10,
+            "dw_rate": 50.0
+          },
+          "P2": {
+            "n": 23,
+            "dw_rate": 86.96
+          },
+          "P3": {
+            "n": 65,
+            "dw_rate": 75.38
+          }
+        },
+        "p1_p3_delta": 25.379999999999995
+      },
+      "4th Circuit": {
+        "circuit": "4th Circuit",
+        "periods": {
+          "P1": {
+            "n": 8,
+            "dw_rate": 37.5
+          },
+          "P2": {
+            "n": 17,
+            "dw_rate": 82.35
+          },
+          "P3": {
+            "n": 48,
+            "dw_rate": 75.0
+          }
+        },
+        "p1_p3_delta": 37.5
+      },
+      "5th Circuit": {
+        "circuit": "5th Circuit",
+        "periods": {
+          "P1": {
+            "n": 6,
+            "dw_rate": 50.0
+          },
+          "P2": {
+            "n": 18,
+            "dw_rate": 33.33
+          },
+          "P3": {
+            "n": 35,
+            "dw_rate": 77.14
+          }
+        },
+        "p1_p3_delta": 27.14
+      },
+      "6th Circuit": {
+        "circuit": "6th Circuit",
+        "periods": {
+          "P1": {
+            "n": 6,
+            "dw_rate": 50.0
+          },
+          "P2": {
+            "n": 15,
+            "dw_rate": 73.33
+          },
+          "P3": {
+            "n": 41,
+            "dw_rate": 70.73
+          }
+        },
+        "p1_p3_delta": 20.730000000000004
+      },
+      "7th Circuit": {
+        "circuit": "7th Circuit",
+        "periods": {
+          "P1": {
+            "n": 6,
+            "dw_rate": 16.67
+          },
+          "P2": {
+            "n": 19,
+            "dw_rate": 63.16
+          },
+          "P3": {
+            "n": 40,
+            "dw_rate": 67.5
+          }
+        },
+        "p1_p3_delta": 50.83
+      },
+      "8th Circuit": {
+        "circuit": "8th Circuit",
+        "periods": {
+          "P1": {
+            "n": 10,
+            "dw_rate": 80.0
+          },
+          "P2": {
+            "n": 6,
+            "dw_rate": 66.67
+          },
+          "P3": {
+            "n": 19,
+            "dw_rate": 63.16
+          }
+        },
+        "p1_p3_delta": -16.840000000000003
+      },
+      "9th Circuit": {
+        "circuit": "9th Circuit",
+        "periods": {
+          "P1": {
+            "n": 16,
+            "dw_rate": 62.5
+          },
+          "P2": {
+            "n": 33,
+            "dw_rate": 69.7
+          },
+          "P3": {
+            "n": 111,
+            "dw_rate": 75.68
+          }
+        },
+        "p1_p3_delta": 13.180000000000007
+      },
+      "10th Circuit": {
+        "circuit": "10th Circuit",
+        "periods": {
+          "P1": {
+            "n": 4,
+            "dw_rate": null
+          },
+          "P2": {
+            "n": 12,
+            "dw_rate": 66.67
+          },
+          "P3": {
+            "n": 28,
+            "dw_rate": 64.29
+          }
+        },
+        "p1_p3_delta": null
+      },
+      "11th Circuit": {
+        "circuit": "11th Circuit",
+        "periods": {
+          "P1": {
+            "n": 4,
+            "dw_rate": null
+          },
+          "P2": {
+            "n": 10,
+            "dw_rate": 80.0
+          },
+          "P3": {
+            "n": 33,
+            "dw_rate": 63.64
+          }
+        },
+        "p1_p3_delta": null
+      },
+      "D.C. Circuit": {
+        "circuit": "D.C. Circuit",
+        "periods": {
+          "P1": {
+            "n": 5,
+            "dw_rate": 60.0
+          },
+          "P2": {
+            "n": 6,
+            "dw_rate": 50.0
+          },
+          "P3": {
+            "n": 9,
+            "dw_rate": 100.0
+          }
+        },
+        "p1_p3_delta": 40.0
+      }
+    },
+    "3f_decline_ranking": [
+      {
+        "circuit": "2nd Circuit",
+        "delta": -40.3
+      },
+      {
+        "circuit": "4th Circuit",
+        "delta": -35.63
+      },
+      {
+        "circuit": "10th Circuit",
+        "delta": -33.75
+      },
+      {
+        "circuit": "5th Circuit",
+        "delta": -27.27
+      },
+      {
+        "circuit": "3rd Circuit",
+        "delta": -21.1
+      },
+      {
+        "circuit": "6th Circuit",
+        "delta": -17.96
+      },
+      {
+        "circuit": "7th Circuit",
+        "delta": -15.71
+      },
+      {
+        "circuit": "9th Circuit",
+        "delta": -15.27
+      },
+      {
+        "circuit": "8th Circuit",
+        "delta": -15.25
+      },
+      {
+        "circuit": "D.C. Circuit",
+        "delta": -11.36
+      },
+      {
+        "circuit": "11th Circuit",
+        "delta": -7.02
+      },
+      {
+        "circuit": "1st Circuit",
+        "delta": -1.75
+      }
+    ],
+    "3g_iqbal_vs_dw_correlation": {
+      "pairs": [
+        {
+          "circuit": "1st Circuit",
+          "iqbal_rate": 88.0,
+          "mtd_dw_rate": 52.0
+        },
+        {
+          "circuit": "2nd Circuit",
+          "iqbal_rate": 80.41,
+          "mtd_dw_rate": 75.68
+        },
+        {
+          "circuit": "3rd Circuit",
+          "iqbal_rate": 89.8,
+          "mtd_dw_rate": 75.51
+        },
+        {
+          "circuit": "4th Circuit",
+          "iqbal_rate": 87.67,
+          "mtd_dw_rate": 72.6
+        },
+        {
+          "circuit": "5th Circuit",
+          "iqbal_rate": 69.49,
+          "mtd_dw_rate": 61.02
+        },
+        {
+          "circuit": "6th Circuit",
+          "iqbal_rate": 90.32,
+          "mtd_dw_rate": 69.35
+        },
+        {
+          "circuit": "7th Circuit",
+          "iqbal_rate": 80.0,
+          "mtd_dw_rate": 61.54
+        },
+        {
+          "circuit": "8th Circuit",
+          "iqbal_rate": 85.71,
+          "mtd_dw_rate": 68.57
+        },
+        {
+          "circuit": "9th Circuit",
+          "iqbal_rate": 83.12,
+          "mtd_dw_rate": 73.12
+        },
+        {
+          "circuit": "10th Circuit",
+          "iqbal_rate": 79.55,
+          "mtd_dw_rate": 63.64
+        },
+        {
+          "circuit": "11th Circuit",
+          "iqbal_rate": 91.49,
+          "mtd_dw_rate": 68.09
+        },
+        {
+          "circuit": "D.C. Circuit",
+          "iqbal_rate": 75.0,
+          "mtd_dw_rate": 75.0
+        }
+      ],
+      "pearson_r": 0.1083
+    }
+  },
+  "analysis_3_circuit_deep_dive": {
+    "integrated_script": "scripts/circuit_district_deep_dive.py",
+    "results_json": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/results/circuit_district_deep_dive_results.json",
+    "results_memo": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/results/circuit_district_deep_dive_analysis.md",
+    "top_5_circuits_by_full_decline": [
+      {
+        "circuit": "2nd Circuit",
+        "p1_n": 43,
+        "p3_n": 164,
+        "p1_broad_rate": 48.84,
+        "p3_broad_rate": 8.54,
+        "delta_pp": -40.3
+      },
+      {
+        "circuit": "4th Circuit",
+        "p1_n": 13,
+        "p3_n": 95,
+        "p1_broad_rate": 46.15,
+        "p3_broad_rate": 10.53,
+        "delta_pp": -35.63
+      },
+      {
+        "circuit": "10th Circuit",
+        "p1_n": 16,
+        "p3_n": 70,
+        "p1_broad_rate": 43.75,
+        "p3_broad_rate": 10.0,
+        "delta_pp": -33.75
+      },
+      {
+        "circuit": "5th Circuit",
+        "p1_n": 14,
+        "p3_n": 77,
+        "p1_broad_rate": 42.86,
+        "p3_broad_rate": 15.58,
+        "delta_pp": -27.27
+      },
+      {
+        "circuit": "3rd Circuit",
+        "p1_n": 24,
+        "p3_n": 93,
+        "p1_broad_rate": 45.83,
+        "p3_broad_rate": 24.73,
+        "delta_pp": -21.1
+      }
+    ],
+    "high_impact_full_circuit_shortfall_cutoff": 0.05,
+    "high_impact_judges_with_post_2025_appointments": [],
+    "unresolved_high_impact_judges": [
+      {
+        "circuit": "2nd Circuit",
+        "judge": "Laura Taylor Swain",
+        "district": "S.D.N.Y.",
+        "p3_n": 34,
+        "share_of_full_circuit_shortfall": 0.2364,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Deborah L. Boardman",
+        "district": "D. Md.",
+        "p3_n": 5,
+        "share_of_full_circuit_shortfall": 0.0806,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Stephanie A. Gallagher",
+        "district": "D. Md.",
+        "p3_n": 5,
+        "share_of_full_circuit_shortfall": 0.0806,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Brendan A. Hurson",
+        "district": "D. Md.",
+        "p3_n": 4,
+        "share_of_full_circuit_shortfall": 0.0645,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Matthew J. Maddox",
+        "district": "D. Md.",
+        "p3_n": 4,
+        "share_of_full_circuit_shortfall": 0.0645,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "10th Circuit",
+        "judge": "Eric F. Melgren",
+        "district": "D. Kan.",
+        "p3_n": 4,
+        "share_of_full_circuit_shortfall": 0.079,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "10th Circuit",
+        "judge": "Kea W. Riggs",
+        "district": "D.N.M.",
+        "p3_n": 3,
+        "share_of_full_circuit_shortfall": 0.0593,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "5th Circuit",
+        "judge": "Charles Eskridge",
+        "district": "S.D. Tex.",
+        "p3_n": 3,
+        "share_of_full_circuit_shortfall": 0.0857,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "5th Circuit",
+        "judge": "David L. Horan",
+        "district": "N.D. Tex.",
+        "p3_n": 3,
+        "share_of_full_circuit_shortfall": 0.0857,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      }
+    ]
+  }
+}

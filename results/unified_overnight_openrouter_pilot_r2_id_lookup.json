@@ -1,0 +1,290 @@
+{
+  "uor-0000-981599d15eb9": {
+    "source_file": "025 - MATTER OF HART v New York City Hous Auth 2",
+    "case_name": "Matter of Hart v. New York City Hous. Auth.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5644
+  },
+  "uor-0001-c53c8cca9bdf": {
+    "source_file": "025 - Arrington v MZ 2640 OWNER LLP",
+    "case_name": "Arrington v. MZ 2640 OWNER LLP",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5626
+  },
+  "uor-0002-f88e0c0a25fc": {
+    "source_file": "10328943_2025_Rodriguez v. City Of Chicago_ilnd",
+    "case_name": "Mari Rodriguez v. City of Chicago",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5911
+  },
+  "uor-0003-ee9ee0641ece": {
+    "source_file": "025 - MATTER OF HART v New York City Housing Authority",
+    "case_name": "Matter of Hart v New York City Housing Authority",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5634
+  },
+  "uor-0004-479e9d7410fe": {
+    "source_file": "025 - United States v FOX RUN APARTMENTS LLC",
+    "case_name": "United States v. Fox Run Apartments, LLC",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5823
+  },
+  "uor-0005-535780a511ca": {
+    "source_file": "10329480_2025_Hartley v. United Student Rentals_nynd",
+    "case_name": "Hartley v. United Student Rentals",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5532
+  },
+  "uor-0006-2d7817d67e78": {
+    "source_file": "10000566_2024_Robinson v. District of Columbia_dcd",
+    "case_name": "Robinson v. District of Columbia",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5838
+  },
+  "uor-0007-eb0dd3bfc5fe": {
+    "source_file": "034 - Collins v TEAM MANAGEMENT LLC",
+    "case_name": "Collins v. TEAM MANAGEMENT LLC",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5745
+  },
+  "uor-0008-7fc167a9d38d": {
+    "source_file": "10329734_2025_Hill v. Provident Asset Management LLC_mied",
+    "case_name": "Spring Hill v. Provident Asset Management LLC",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5720
+  },
+  "uor-0009-e94bf823e2fd": {
+    "source_file": "10166678_2024_Southwest Fair Housing Council v. WG Scottsdale LLC_azd",
+    "case_name": "Southwest Fair Housing Council v. WG Scottsdale LLC",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5749
+  },
+  "uor-0010-e00845c13342": {
+    "source_file": "10005587_2024_Allentown Victory Church v. City of Allentown_ca3",
+    "case_name": "Allentown Victory Church v. City of Allentown",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 6188
+  },
+  "uor-0011-853897b45ec5": {
+    "source_file": "10330608_2025_Morris v. City of Baltimore_mdd",
+    "case_name": "Deborah Morris v. City of Baltimore",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5828
+  },
+  "uor-0012-729dfb676404": {
+    "source_file": "10167751_2024_United African-Asian Abilities Club v. Alexander C. Freiberg_cacd",
+    "case_name": "United African-Asian Abilities Club et al v. Alexander C. Freiberg et al",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5753
+  },
+  "uor-0013-493504a3b700": {
+    "source_file": "10006353_2024_David Q. Webb v. Miami-Dade County Government_ca11",
+    "case_name": "David Q. Webb v. Miami-Dade County Government",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5856
+  },
+  "uor-0014-9df327209fdf": {
+    "source_file": "10330857_2025_Clark v. NYCHA_nysd",
+    "case_name": "Sean A. Clark v. NYCHA",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5911
+  },
+  "uor-0015-30b59cd1216f": {
+    "source_file": "10172026_2024_Filho v. Mercy Housing California XVII, LP_cand",
+    "case_name": "Filho v. Mercy Housing California XVII, LP",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5859
+  },
+  "uor-0016-3035f5cd993d": {
+    "source_file": "10006778_2024_Celia Litman v. Jennifer Guckin_ca3",
+    "case_name": "Celia Litman; et al. v. Jennifer Guckin; Township of Towamencin",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5816
+  },
+  "uor-0017-2b342761a566": {
+    "source_file": "10331659_2025_Chhang v. West Coast USA Properties LLC_caed",
+    "case_name": "Pharilyn Chhang v. West Coast USA Properties LLC, et al.",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 6234
+  },
+  "uor-0018-948a4c9fee95": {
+    "source_file": "10174550_2022_Gilead Community Services, Inc. v. Cromwell_ctd",
+    "case_name": "Gilead Community Services, Inc. v. Town of Cromwell",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5789
+  },
+  "uor-0019-d7c1b2e4d4d1": {
+    "source_file": "10038254_2024_Gilead Community Services, Inc. v. Town of Cromwell_ca2",
+    "case_name": "Gilead Community Services, Inc. v. Town of Cromwell",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 6139
+  },
+  "uor-0020-a3fd057672fa": {
+    "source_file": "10331798_2025_Doe v. 2001 Arthur LLC_nysd",
+    "case_name": "John Doe #1 v. 2001 Arthur LLC",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5383
+  },
+  "uor-0021-4fe7a2bb35ea": {
+    "source_file": "10182858_2022_Estate of DaMon R. Fisher v. City of Annapolis_mdd",
+    "case_name": "Estate of DaMon R. Fisher v. City of Annapolis",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5868
+  },
+  "uor-0022-ec12c7ecf311": {
+    "source_file": "10082236_2024_Joshua Debity v. Vintage Village Homeowners Ass'n_ca6",
+    "case_name": "Joshua A. Debity, et al. v. Vintage Village Homeowners Association",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5927
+  },
+  "uor-0023-9cd9ef935a03": {
+    "source_file": "10331885_2025_Doe v. McDonald_ca2",
+    "case_name": "John Doe v. James V. McDonald, M.D.",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5868
+  },
+  "uor-0024-99f82283d687": {
+    "source_file": "10183759_2024_Arnold v. Poinsettia Homeowners Association, Inc._mied",
+    "case_name": "Christine M. Arnold v. Poinsettia Homeowners Association, Inc.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5722
+  },
+  "uor-0025-a51583a9a926": {
+    "source_file": "10089373_2024_Katalin Bloodgood-Loper v. Lenard Loper_ca9",
+    "case_name": "Katalin Bloodgood-Loper v. Lenard Loper; LVL Investments, LLC; Michelle L. Mercer",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5784
+  },
+  "uor-0026-68b507720d22": {
+    "source_file": "10333364_2025_Ana Rodriguez v. Peppertree Place Apartment SPE LLC_cacd",
+    "case_name": "Ana Rodriguez v. Peppertree Place Apartment SPE LLC",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5850
+  },
+  "uor-0027-7ecd6250d470": {
+    "source_file": "10189004_2023_PRINCE v. PAJELA_njd",
+    "case_name": "Donnell L. Prince v. Priscilla Pajela",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5804
+  },
+  "uor-0028-db5723397dfe": {
+    "source_file": "10098080_2024_Neway Mengistu v. Forestview Apartments, LLC_ca9",
+    "case_name": "Neway Mengistu v. Forestview Apartments, LLC",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5939
+  },
+  "uor-0029-f54e79e50c38": {
+    "source_file": "10334655_2025_Larry Johnson v. Thomas Brenneke, Jr._ca9",
+    "case_name": "Larry Johnson v. Thomas Barry Brenneke, Jr.",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5723
+  },
+  "uor-0030-619d1de76c59": {
+    "source_file": "10189170_2023_431 E PALISADE AVENUE REAL ESTATE, LLC v. CITY OF ENGLEWOOD_njd",
+    "case_name": "431 E Palisade Avenue Real Estate, LLC v. City of Englewood",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 6181
+  },
+  "uor-0031-17617973d118": {
+    "source_file": "10099647_2024_Earlando Samuel v. Delaware County Housing Authority_ca3",
+    "case_name": "Earlando Samuel v. Delaware County Housing Authority",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5924
+  },
+  "uor-0032-5620f8f2e668": {
+    "source_file": "10335949_2025_Calderia, LLC v. Claremont, NH, City of_nhd",
+    "case_name": "Calderia, LLC, et al. v. City of Claremont, NH",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5992
+  },
+  "uor-0033-428a176edd5b": {
+    "source_file": "10189320_2024_FRANKLIN v. THE JERSEY CITY HOUSING AUTHORITY_njd",
+    "case_name": "Edwina Franklin v. The Jersey City Housing Authority, Secretary, Department of Housing and Urban Development",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5485
+  },
+  "uor-0034-37363bc64003": {
+    "source_file": "10113641_2024_Seals v. Itex Group_ca5",
+    "case_name": "J.W. Seals, Jr.; Vergie Seals; Marie L. Pace v. Itex Group L.L.C.",
+    "period": "P2",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5735
+  },
+  "uor-0035-5a1079e04564": {
+    "source_file": "10335987_2025_Watkins v. Housing Authority of the City of Hugo, The_oked",
+    "case_name": "Watkins v. Housing Authority of the City of Hugo",
+    "period": "P3",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5940
+  }
+}

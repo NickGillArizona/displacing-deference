@@ -1,0 +1,43 @@
+[
+  {
+    "source_file": "10213380_2021_Payne v. City of San Antonio, Texas_txwd",
+    "custom_id": "uor-0000-cf36d5adf2dc",
+    "case_name": "Payne v. City of San Antonio, Texas",
+    "input_tokens": 5891,
+    "output_tokens": 1423,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0000-cf36d5adf2dc",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"DISABILITY_NEXUS_MISSING\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"MEDICAL_OR_DISABILITY_CORROBORATION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"MEDICAL_OR_PROVIDER_LETTER\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"A pro se tenant with schizoaffective disorder requested a parking accommodation but was dismissed at MTD under Iqbal/Twombly for failing to plead how the disorder substantially limits a major life activity—a classic translation failure where the disability nexus was missing despite a concrete accommodation request. The Section 8 voucher context and SAHA employee defendant indicate public process involvement, while the core gap—articulating functional limitations and connecting them to the accommodation—could be addressed by both standardized intake documentation and institutional legal intermediation.\"\n}",
+        "usage": {
+          "input_tokens": 5891,
+          "output_tokens": 1423,
+          "total_tokens": 7314
+        },
+        "provider_response_id": "gen-1776327264-ZM2iTCvrzjobBLj32Ekm"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "TRANSLATION",
+      "pleading_failure_mechanism": "DISABILITY_NEXUS_MISSING",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "MEDICAL_OR_DISABILITY_CORROBORATION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "MEDICAL_OR_PROVIDER_LETTER",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "A pro se tenant with schizoaffective disorder requested a parking accommodation but was dismissed at MTD under Iqbal/Twombly for failing to plead how the disorder substantially limits a major life activity—a classic translation failure where the disability nexus was missing despite a concrete accommodation request. The Section 8 voucher context and SAHA employee defendant indicate public process involvement, while the core gap—articulating functional limitations and connecting them to the accommodation—could be addressed by both standardized intake documentation and institutional legal intermediation."
+    }
+  }
+]

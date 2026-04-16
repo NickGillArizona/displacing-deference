@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-04-15T15:49:30.678765+00:00",
+  "workspace_root": "/mnt/c/Users/nickg/OneDrive/Documents/Note",
+  "repo_root": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH",
+  "input_db": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/FHA_Unified_Database.json",
+  "schema_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/data/2/unified_overnight_schema.md",
+  "examples_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/data/2/unified_overnight_examples.json",
+  "subset": "disability-wave",
+  "selected_records": 1330,
+  "subset_scope_records": 1330,
+  "counts_by_period": {
+    "P1": 647,
+    "P2": 234,
+    "P3": 449
+  },
+  "counts_by_bucket": {
+    "disability": 1330
+  },
+  "token_estimates": {
+    "input_tokens": 7802913,
+    "output_tokens": 345800,
+    "method": "characters/4.0 + fixed output token estimate 260"
+  },
+  "offset": 0,
+  "limit": 0,
+  "only_source_files": ""
+}

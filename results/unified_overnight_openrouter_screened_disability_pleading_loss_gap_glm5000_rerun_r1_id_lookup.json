@@ -1,0 +1,50 @@
+{
+  "uor-0000-13a1ea0e7559": {
+    "source_file": "10221400_2020_Banks v. Gates Hudson _ Associates, Inc._vaed",
+    "case_name": "Banks v. Gates Hudson & Associates, Inc.",
+    "period": null,
+    "bucket": "disability",
+    "year": 2020,
+    "estimated_input_tokens": 5975
+  },
+  "uor-0001-26cbc4388188": {
+    "source_file": "10221825_2021_Fedynich v. Lozano_vaed",
+    "case_name": "Nicole Fedynich, et al. v. Juana Lozano, Assistant Manager, Valor Apartments, et al.",
+    "period": null,
+    "bucket": "disability",
+    "year": 2021,
+    "estimated_input_tokens": 6526
+  },
+  "uor-0002-8e89e0f6bd3c": {
+    "source_file": "10249834_2021_Huzjak v. Ellis_wied",
+    "case_name": "Debra Lee Huzjak v. Kim Ellis, et al.",
+    "period": null,
+    "bucket": "disability",
+    "year": 2021,
+    "estimated_input_tokens": 5803
+  },
+  "uor-0003-a6ba6b97de8c": {
+    "source_file": "9531969_2021_Arthur v. Windsor Shadows Homeowner's Association_azd",
+    "case_name": "Francine M. Arthur v. Windsor Shadows Homeowner's Association",
+    "period": null,
+    "bucket": "disability",
+    "year": 2021,
+    "estimated_input_tokens": 6292
+  },
+  "uor-0004-c21c817ef482": {
+    "source_file": "9565491_2021_Hamilton v. Madera County_caed",
+    "case_name": "Rick Hamilton, et al. v. County of Madera, et al.",
+    "period": null,
+    "bucket": "disability",
+    "year": 2021,
+    "estimated_input_tokens": 5811
+  },
+  "uor-0005-3eb874ab26b5": {
+    "source_file": "9750789_2021_McCree v. KMG Prestiege Company_mied",
+    "case_name": "McCree v. KMG Prestiege Company",
+    "period": null,
+    "bucket": "disability",
+    "year": 2021,
+    "estimated_input_tokens": 5790
+  }
+}

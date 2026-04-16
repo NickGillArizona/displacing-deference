@@ -1,0 +1,1035 @@
+{
+  "generated_at": "2026-04-16T08:41:33-07:00",
+  "workspace_root": "/mnt/c/Users/nickg/OneDrive/Documents/Note",
+  "repo_root": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH",
+  "task": "Prompt 22: Consent Decree Inventory \u2014 Integration Duties Require Inventories",
+  "source_documents": [
+    {
+      "path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/v89_MEMO_APPENDIX_C_LITIGATION.md",
+      "sections_used": "Sections 7-10",
+      "role": "Core workspace-local research memo on consent-decree / VCA / settlement inventory"
+    },
+    {
+      "path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/COMPLETED_RESEARCH_FINDINGS.md",
+      "sections_used": "Section IV",
+      "role": "Core workspace-local research memo on post-decree implementation overlay"
+    },
+    {
+      "path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/research_outputs/O_consent_decrees.md",
+      "sections_used": "Whole memo",
+      "role": "Existing appendix memo used to confirm coding details already compiled locally"
+    },
+    {
+      "path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/FUTURE_RESEARCH_DESIGN.md",
+      "sections_used": "Sections 4.5.1, 4.9.1, and key case notes",
+      "role": "Used only to resolve coding gaps already identified in local research (Bridgeport, PRPHA, Los Angeles, Cambridge, Atlanta, Chicopee, ADAPT)"
+    },
+    {
+      "path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/note_v89_A.md",
+      "sections_used": "Part III.F and related footnotes",
+      "role": "Used to confirm the note\u2019s own framing that Los Angeles, Baltimore, and Puerto Rico decrees enforced distribution mandates"
+    }
+  ],
+  "coding_scheme": {
+    "inventory_requirement": "Accessible-unit inventory, count verification, registry, or unit-by-unit accessibility audit/order.",
+    "occupancy_tracking": "Tracking who occupies accessible units or, in Olmstead cases, voucher utilization / housing placement / waiting-list / tenant-matching outcomes.",
+    "distribution_dispersal": "Express \u00a7 8.26 distribution/dispersal term or broader integration/distribution architecture coded in the local memo record.",
+    "accommodation_request_tracking": "Reasonable-accommodation request documentation or reporting.",
+    "public_registry": "Public-facing searchable registry, not internal list.",
+    "value_legend": {
+      "yes": "Expressly present in local source record",
+      "no": "Not described in local source record",
+      "unclear": "Source record underdescribed",
+      "na": "Not an accessible-unit inventory case"
+    }
+  },
+  "cases": [
+    {
+      "case_name": "U.S. v. Edward Rose & Sons",
+      "forum": "E.D. Mich./6th Cir.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "5 years; later extended",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Unit-by-unit accessibility status report across 57 properties.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:449-453"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Dawn Properties, Inc.",
+      "forum": "S.D. Miss.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "4 years",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Accessibility inventory by building, unit type, and feature.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:456-460"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Quality Built Construction, Inc.",
+      "forum": "E.D.N.C.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "5-year injunction",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Excerpt confirms ongoing monitoring, but does not expressly mention an inventory order.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:462-465"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Pulte Home Corp.",
+      "forum": "N.D. Ill.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Reporting to DOJ on inventory of condominium units made accessible.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:467-470"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Lettire Construction Corp.",
+      "forum": "S.D.N.Y.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Reporting to DOJ on accessibility inventory by building.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:472-475"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Humphrey-Stavrou Associates, Inc.",
+      "forum": "D. Md.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Building-by-building accessibility audits required.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:476-480"
+      ]
+    },
+    {
+      "case_name": "U.S. v. [Design Professionals]",
+      "forum": "S.D. Miss.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Settlement confirms retrofits and compensation, but excerpt does not expressly mention an inventory order.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:481-485"
+      ]
+    },
+    {
+      "case_name": "U.S. v. JPI Construction, L.P.",
+      "forum": "N.D. Tex.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "5 years",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Accessibility inventory by property with sub-unit feature tracking; reporting table lists 5-year reporting term.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:487-491",
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:715-719"
+      ]
+    },
+    {
+      "case_name": "U.S. v. A.G. Spanos Construction, Inc.",
+      "forum": "E.D. Cal.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Reporting to DOJ on inventory status by property.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:493-496"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Bruce J. Menin and Sutton Apartments Co.",
+      "forum": "S.D.N.Y.",
+      "category": "DOJ D&C",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Documented inventory of accessibility features.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:498-500"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Housing Authority of Baltimore City",
+      "forum": "D. Md.",
+      "category": "Section 504 / programmatic",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "yes",
+      "accommodation_request_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "2004 decree; modified 2015; 10+ years / ongoing monitoring",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": true,
+      "distribution_stat_broad": true,
+      "post_decree_implementation": "By August 2015 HABC had completed approximately 702 of the 755 required accessible units.",
+      "coding_notes": "Internal accessible-unit registry plus reports on tenant placement and accommodation requests.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:540-550",
+        "note_v89_A.md:410-410"
+      ]
+    },
+    {
+      "case_name": "U.S. v. City of Los Angeles (Voluntary Compliance Agreement)",
+      "forum": "HUD FHEO",
+      "category": "Section 504 / programmatic",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "yes",
+      "accommodation_request_tracking": "no",
+      "public_registry": "yes",
+      "monitoring_duration": "2019 multi-year VCA; HUD retained jurisdiction",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": true,
+      "post_decree_implementation": "HUD had already surveyed 120 developments before imposing the VCA; the AAHR/registry structure remained in place, but compliance lagged badly.",
+      "coding_notes": "HUD inventory of 120 developments plus searchable registry; supplementary memo describes waiting-list sign-up and policies ensuring accessible units are occupied by those who need them.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:553-562",
+        "FUTURE_RESEARCH_DESIGN.md:1005-1013",
+        "note_v89_A.md:202-204"
+      ]
+    },
+    {
+      "case_name": "Independent Living Center of Southern California v. City of Los Angeles",
+      "forum": "C.D. Cal.",
+      "category": "Section 504 / programmatic",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "yes",
+      "accommodation_request_tracking": "no",
+      "public_registry": "yes",
+      "monitoring_duration": "2016 settlement; 10-year term through 2026; monitor ongoing",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": true,
+      "post_decree_implementation": "As of May 2024, roughly 75% of the term had elapsed and only about one-quarter of the required units had been produced; about 3,000 units remained outstanding.",
+      "coding_notes": "AAHR database, application/wait-list sign-up, unit classification across 730+ developments, and policies ensuring units are occupied by those who need them.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:564-575",
+        "COMPLETED_RESEARCH_FINDINGS.md:307-323",
+        "FUTURE_RESEARCH_DESIGN.md:1007-1013",
+        "note_v89_A.md:202-204",
+        "note_v89_A.md:407-407"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Housing Authority of City of Bridgeport",
+      "forum": "D. Conn.",
+      "category": "Section 504 / programmatic",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "yes",
+      "accommodation_request_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "Consent order entered Nov. 5, 2019; 5+ years / ongoing",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": true,
+      "distribution_stat_broad": true,
+      "post_decree_implementation": "No public compliance monitoring reports were found; HACB reportedly still relies on individual RA forms rather than proactive unit matching.",
+      "coding_notes": "Supplementary memo provides the key inventory quote; main appendix adds availability, tenant matching, and accommodation-request reporting.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:577-584",
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:684-684",
+        "FUTURE_RESEARCH_DESIGN.md:1017-1025",
+        "FUTURE_RESEARCH_DESIGN.md:1726-1726",
+        "COMPLETED_RESEARCH_FINDINGS.md:344-348"
+      ]
+    },
+    {
+      "case_name": "Puerto Rico Public Housing Administration VCA",
+      "forum": "HUD FHEO",
+      "category": "Section 504 / programmatic",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "yes",
+      "accommodation_request_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "2003/2011/2016/2021 agreements; 5+ years and 23-year oversight span",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": true,
+      "distribution_stat_broad": true,
+      "post_decree_implementation": "Only 74 of 2,560 required accessible units had been certified by July 2016; the December 2021 deadline was missed, and substantial obligations remained outstanding in 2026.",
+      "coding_notes": "Local memos expressly show unit-creation/distribution targets, disability-needs updates, and reasonable-accommodation documentation, but do not quote a separate inventory/count-verification term.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:586-597",
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:685-685",
+        "FUTURE_RESEARCH_DESIGN.md:1027-1035",
+        "COMPLETED_RESEARCH_FINDINGS.md:334-342",
+        "note_v89_A.md:202-204",
+        "note_v89_A.md:574-574"
+      ]
+    },
+    {
+      "case_name": "Wallace v. Chicago Housing Authority",
+      "forum": "N.D. Ill.",
+      "category": "Section 504 / programmatic",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Settlement is described only as requiring accessibility remediation in senior housing and individual accommodation tracking.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:599-601"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Georgia",
+      "forum": "N.D. Ga.",
+      "category": "Olmstead housing",
+      "inventory_requirement": "na",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "na",
+      "accommodation_request_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "2010 settlement; annual reporting / 8+ years",
+      "inventory_stat_applicable": false,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Voucher utilization, housing placement, and housing stability tracking; not an accessible-unit inventory case.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:607-612",
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:719-721"
+      ]
+    },
+    {
+      "case_name": "U.S. v. North Carolina",
+      "forum": "E.D.N.C.",
+      "category": "Olmstead housing",
+      "inventory_requirement": "na",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "na",
+      "accommodation_request_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "8 years",
+      "inventory_stat_applicable": false,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "State required to maintain data on placements, unit availability, and integration outcomes.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:614-618"
+      ]
+    },
+    {
+      "case_name": "U.S. v. New York / DAI v. Paterson (Adult Home Settlement)",
+      "forum": "E.D.N.Y.",
+      "category": "Olmstead housing",
+      "inventory_requirement": "na",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "na",
+      "accommodation_request_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "5+ years",
+      "inventory_stat_applicable": false,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Reporting on placements, unit creation, and integration outcomes rather than accessible-unit inventory per se.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:620-624"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Mississippi",
+      "forum": "S.D. Miss.",
+      "category": "Olmstead housing",
+      "inventory_requirement": "na",
+      "occupancy_tracking": "unclear",
+      "distribution_dispersal": "na",
+      "accommodation_request_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "Ongoing",
+      "inventory_stat_applicable": false,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Source notes supported-housing obligations but does not spell out a tracking protocol in the excerpt.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:626-630"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Virginia",
+      "forum": "E.D. Va.",
+      "category": "Olmstead housing",
+      "inventory_requirement": "na",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "na",
+      "accommodation_request_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": false,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Creation of integrated community housing plus placement tracking.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:632-634"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Delaware / M.A.M.A. v. DeMarco",
+      "forum": "D. Del.",
+      "category": "Olmstead housing",
+      "inventory_requirement": "na",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "na",
+      "accommodation_request_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": false,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Quarterly reports on utilization and community-integration outcomes.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:636-638"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Rhode Island",
+      "forum": "Multiple Olmstead settlements (forum not specified in memo excerpt)",
+      "category": "Olmstead housing",
+      "inventory_requirement": "na",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "na",
+      "accommodation_request_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt",
+      "inventory_stat_applicable": false,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Inventory of supported housing and placement tracking, but not an accessible-unit inventory case.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:640-642"
+      ]
+    },
+    {
+      "case_name": "Philadelphia Housing Authority VCA / Consent Order",
+      "forum": "HUD FHEO",
+      "category": "Conciliation / VCA",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "Multi-year",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Local memo expressly describes accessible-unit vacancy tracking, an accessible-unit waiting list, and quarterly HUD reporting, but does not separately quote an inventory/count-verification term.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:652-656",
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:687-687"
+      ]
+    },
+    {
+      "case_name": "Chicago Housing Authority VCA",
+      "forum": "HUD FHEO",
+      "category": "Conciliation / VCA",
+      "inventory_requirement": "yes",
+      "occupancy_tracking": "yes",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "Multi-year",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": null,
+      "coding_notes": "Accessible-unit count verification, placement reporting, and accommodation-request tracking.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:663-667",
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:686-686"
+      ]
+    },
+    {
+      "case_name": "Cambridge Housing Authority VCA",
+      "forum": "HUD FHEO",
+      "category": "Implementation addendum",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Fulfilled by Oct. 2021",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": "Completed all 42 required wheelchair-accessible units; final five finished in September 2021 and the VCA was exceeded at Millers River.",
+      "coding_notes": "Implementation memos confirm a 42-unit accessible-unit production obligation across three developments, but do not quote a separate inventory/count-verification term.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:350-355",
+        "COMPLETED_RESEARCH_FINDINGS.md:621-622",
+        "FUTURE_RESEARCH_DESIGN.md:481-486",
+        "FUTURE_RESEARCH_DESIGN.md:1111-1116"
+      ]
+    },
+    {
+      "case_name": "Atlanta Housing Authority VCA",
+      "forum": "HUD FHEO",
+      "category": "Implementation addendum",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "unclear",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "unclear",
+      "public_registry": "no",
+      "monitoring_duration": "2022 VCA; ongoing / too early to assess",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": "Still too early in the local research record for an implementation assessment.",
+      "coding_notes": "Supplementary memo confirms tracking and reporting requirements, but the local record does not quote a separate accessible-unit inventory/count-verification term or tenant-level occupancy/RA fields.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:374-374",
+        "COMPLETED_RESEARCH_FINDINGS.md:621-622",
+        "FUTURE_RESEARCH_DESIGN.md:489-493"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Chicopee Housing Authority and Monica Blazic",
+      "forum": "D. Mass.",
+      "category": "Implementation addendum",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "unclear",
+      "public_registry": "no",
+      "monitoring_duration": "Consent order entered Oct. 11, 2024; ongoing",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": "Too early to assess in the local implementation memo.",
+      "coding_notes": "Source memo confirms new accessible-unit production and a disability-rights coordinator, but not a separate inventory or tracking protocol.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:371-371",
+        "FUTURE_RESEARCH_DESIGN.md:1040-1040",
+        "FUTURE_RESEARCH_DESIGN.md:1109-1109"
+      ]
+    },
+    {
+      "case_name": "ADAPT v. Philadelphia Housing Authority",
+      "forum": "Court not specified in local memo (Clearinghouse id 11022)",
+      "category": "Implementation addendum",
+      "inventory_requirement": "unclear",
+      "occupancy_tracking": "no",
+      "distribution_dispersal": "no",
+      "accommodation_request_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "2002 settlement; obligations satisfied by May 2006",
+      "inventory_stat_applicable": true,
+      "distribution_stat_strict": false,
+      "distribution_stat_broad": false,
+      "post_decree_implementation": "Local memo treats ADAPT as a rare small-scale success: 248 accessible units required and satisfied by May 2006.",
+      "coding_notes": "Settlement is included as implementation evidence, but the local memos do not describe an inventory or tracking architecture beyond the unit-production target.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:357-361",
+        "FUTURE_RESEARCH_DESIGN.md:1118-1122"
+      ]
+    }
+  ],
+  "summary_table_rows": [
+    {
+      "case": "U.S. v. Edward Rose & Sons (E.D. Mich./6th Cir.)",
+      "inventory": "yes",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "5 years; later extended"
+    },
+    {
+      "case": "U.S. v. Dawn Properties, Inc. (S.D. Miss.)",
+      "inventory": "yes",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "4 years"
+    },
+    {
+      "case": "U.S. v. Quality Built Construction, Inc. (E.D.N.C.)",
+      "inventory": "unclear",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "5-year injunction"
+    },
+    {
+      "case": "U.S. v. Pulte Home Corp. (N.D. Ill.)",
+      "inventory": "yes",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. Lettire Construction Corp. (S.D.N.Y.)",
+      "inventory": "yes",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. Humphrey-Stavrou Associates, Inc. (D. Md.)",
+      "inventory": "yes",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. [Design Professionals] (S.D. Miss.)",
+      "inventory": "unclear",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. JPI Construction, L.P. (N.D. Tex.)",
+      "inventory": "yes",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "5 years"
+    },
+    {
+      "case": "U.S. v. A.G. Spanos Construction, Inc. (E.D. Cal.)",
+      "inventory": "yes",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. Bruce J. Menin and Sutton Apartments Co. (S.D.N.Y.)",
+      "inventory": "yes",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. Housing Authority of Baltimore City (D. Md.)",
+      "inventory": "yes",
+      "occupancy_tracking": "yes",
+      "distribution": "yes",
+      "ra_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "2004 decree; modified 2015; 10+ years / ongoing monitoring"
+    },
+    {
+      "case": "U.S. v. City of Los Angeles (Voluntary Compliance Agreement) (HUD FHEO)",
+      "inventory": "yes",
+      "occupancy_tracking": "yes",
+      "distribution": "yes",
+      "ra_tracking": "no",
+      "public_registry": "yes",
+      "monitoring_duration": "2019 multi-year VCA; HUD retained jurisdiction"
+    },
+    {
+      "case": "Independent Living Center of Southern California v. City of Los Angeles (C.D. Cal.)",
+      "inventory": "yes",
+      "occupancy_tracking": "yes",
+      "distribution": "yes",
+      "ra_tracking": "no",
+      "public_registry": "yes",
+      "monitoring_duration": "2016 settlement; 10-year term through 2026; monitor ongoing"
+    },
+    {
+      "case": "U.S. v. Housing Authority of City of Bridgeport (D. Conn.)",
+      "inventory": "yes",
+      "occupancy_tracking": "yes",
+      "distribution": "yes",
+      "ra_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "Consent order entered Nov. 5, 2019; 5+ years / ongoing"
+    },
+    {
+      "case": "Puerto Rico Public Housing Administration VCA (HUD FHEO)",
+      "inventory": "unclear",
+      "occupancy_tracking": "no",
+      "distribution": "yes",
+      "ra_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "2003/2011/2016/2021 agreements; 5+ years and 23-year oversight span"
+    },
+    {
+      "case": "Wallace v. Chicago Housing Authority (N.D. Ill.)",
+      "inventory": "unclear",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. Georgia (N.D. Ga.)",
+      "inventory": "na",
+      "occupancy_tracking": "yes",
+      "distribution": "na",
+      "ra_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "2010 settlement; annual reporting / 8+ years"
+    },
+    {
+      "case": "U.S. v. North Carolina (E.D.N.C.)",
+      "inventory": "na",
+      "occupancy_tracking": "yes",
+      "distribution": "na",
+      "ra_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "8 years"
+    },
+    {
+      "case": "U.S. v. New York / DAI v. Paterson (Adult Home Settlement) (E.D.N.Y.)",
+      "inventory": "na",
+      "occupancy_tracking": "yes",
+      "distribution": "na",
+      "ra_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "5+ years"
+    },
+    {
+      "case": "U.S. v. Mississippi (S.D. Miss.)",
+      "inventory": "na",
+      "occupancy_tracking": "unclear",
+      "distribution": "na",
+      "ra_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "Ongoing"
+    },
+    {
+      "case": "U.S. v. Virginia (E.D. Va.)",
+      "inventory": "na",
+      "occupancy_tracking": "yes",
+      "distribution": "na",
+      "ra_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. Delaware / M.A.M.A. v. DeMarco (D. Del.)",
+      "inventory": "na",
+      "occupancy_tracking": "yes",
+      "distribution": "na",
+      "ra_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "U.S. v. Rhode Island (Multiple Olmstead settlements (forum not specified in memo excerpt))",
+      "inventory": "na",
+      "occupancy_tracking": "yes",
+      "distribution": "na",
+      "ra_tracking": "na",
+      "public_registry": "no",
+      "monitoring_duration": "Not specified in memo excerpt"
+    },
+    {
+      "case": "Philadelphia Housing Authority VCA / Consent Order (HUD FHEO)",
+      "inventory": "unclear",
+      "occupancy_tracking": "yes",
+      "distribution": "no",
+      "ra_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "Multi-year"
+    },
+    {
+      "case": "Chicago Housing Authority VCA (HUD FHEO)",
+      "inventory": "yes",
+      "occupancy_tracking": "yes",
+      "distribution": "no",
+      "ra_tracking": "yes",
+      "public_registry": "no",
+      "monitoring_duration": "Multi-year"
+    },
+    {
+      "case": "Cambridge Housing Authority VCA (HUD FHEO)",
+      "inventory": "unclear",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "Fulfilled by Oct. 2021"
+    },
+    {
+      "case": "Atlanta Housing Authority VCA (HUD FHEO)",
+      "inventory": "unclear",
+      "occupancy_tracking": "unclear",
+      "distribution": "no",
+      "ra_tracking": "unclear",
+      "public_registry": "no",
+      "monitoring_duration": "2022 VCA; ongoing / too early to assess"
+    },
+    {
+      "case": "U.S. v. Chicopee Housing Authority and Monica Blazic (D. Mass.)",
+      "inventory": "unclear",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "unclear",
+      "public_registry": "no",
+      "monitoring_duration": "Consent order entered Oct. 11, 2024; ongoing"
+    },
+    {
+      "case": "ADAPT v. Philadelphia Housing Authority (Court not specified in local memo (Clearinghouse id 11022))",
+      "inventory": "unclear",
+      "occupancy_tracking": "no",
+      "distribution": "no",
+      "ra_tracking": "no",
+      "public_registry": "no",
+      "monitoring_duration": "2002 settlement; obligations satisfied by May 2006"
+    }
+  ],
+  "summary_statistics": {
+    "total_coded_cases": 29,
+    "inventory_stat_conservative": {
+      "denominator_description": "Consent decrees/VCAs/settlements with physical accessibility or accessible-unit components; Olmstead voucher/supportive-housing matters coded N/A are excluded.",
+      "denominator": 22,
+      "inventory_yes_count": 13,
+      "inventory_yes_percent": 59.1,
+      "finding": "Of 22 consent decrees/VCAs/settlements with accessibility components, 59.1% (13) expressly required accessible-unit inventories, count verification, or registries."
+    },
+    "distribution_inventory_stat_strict": {
+      "denominator_description": "Strict express \u00a7 8.26 / dispersal cases in the local record (HABC, Bridgeport, PRPHA).",
+      "denominator": 3,
+      "inventory_yes_count": 2,
+      "inventory_yes_percent": 66.7,
+      "finding": "Of 3 decrees expressly enforcing \u00a7 8.26 distribution/dispersal, 66.7% (2 of 3) expressly required accessible-unit inventories, count verification, or registries."
+    },
+    "distribution_occupancy_stat_strict": {
+      "denominator_description": "Strict express \u00a7 8.26 / dispersal cases in the local record (HABC, Bridgeport, PRPHA).",
+      "denominator": 3,
+      "occupancy_yes_count": 2,
+      "occupancy_yes_percent": 66.7,
+      "finding": "Of 3 decrees expressly enforcing \u00a7 8.26 distribution/dispersal, 66.7% (2) also required occupancy, tenant-placement, or tenant-matching tracking."
+    },
+    "distribution_occupancy_stat_broad": {
+      "denominator_description": "Broader Section 504 integration/distribution set, treating the 2016 Los Angeles settlement and 2019 HUD VCA as separate instruments.",
+      "denominator": 5,
+      "occupancy_yes_count": 4,
+      "occupancy_yes_percent": 80.0,
+      "finding": "Treating Los Angeles's parallel Section 504 orders as separate instruments, 80.0% (4 of 5) of integration/distribution matters required occupancy or waiting-list tracking.",
+      "sensitivity_if_los_angeles_collapsed": {
+        "denominator": 4,
+        "occupancy_yes_count": 3,
+        "occupancy_yes_percent": 75.0,
+        "finding": "Collapsing the 2016 settlement and 2019 VCA into one Los Angeles legal architecture yields 75.0% (3 of 4)."
+      }
+    },
+    "lower_bound_explicit_infrastructure_orders": {
+      "count": 13,
+      "finding": "The coded record expressly shows courts and agencies ordering accessible-unit inventories, count verification, registries, or unit-by-unit audits at least 13 times.",
+      "case_names": [
+        "U.S. v. Edward Rose & Sons",
+        "U.S. v. Dawn Properties, Inc.",
+        "U.S. v. Pulte Home Corp.",
+        "U.S. v. Lettire Construction Corp.",
+        "U.S. v. Humphrey-Stavrou Associates, Inc.",
+        "U.S. v. JPI Construction, L.P.",
+        "U.S. v. A.G. Spanos Construction, Inc.",
+        "U.S. v. Bruce J. Menin and Sutton Apartments Co.",
+        "U.S. v. Housing Authority of Baltimore City",
+        "U.S. v. City of Los Angeles (Voluntary Compliance Agreement)",
+        "Independent Living Center of Southern California v. City of Los Angeles",
+        "U.S. v. Housing Authority of City of Bridgeport",
+        "Chicago Housing Authority VCA"
+      ]
+    },
+    "broader_data_infrastructure_count": {
+      "count": 20,
+      "description": "Cases with explicit inventory/count verification, occupancy/placement tracking, or public-registry architecture.",
+      "case_names": [
+        "U.S. v. Edward Rose & Sons",
+        "U.S. v. Dawn Properties, Inc.",
+        "U.S. v. Pulte Home Corp.",
+        "U.S. v. Lettire Construction Corp.",
+        "U.S. v. Humphrey-Stavrou Associates, Inc.",
+        "U.S. v. JPI Construction, L.P.",
+        "U.S. v. A.G. Spanos Construction, Inc.",
+        "U.S. v. Bruce J. Menin and Sutton Apartments Co.",
+        "U.S. v. Housing Authority of Baltimore City",
+        "U.S. v. City of Los Angeles (Voluntary Compliance Agreement)",
+        "Independent Living Center of Southern California v. City of Los Angeles",
+        "U.S. v. Housing Authority of City of Bridgeport",
+        "U.S. v. Georgia",
+        "U.S. v. North Carolina",
+        "U.S. v. New York / DAI v. Paterson (Adult Home Settlement)",
+        "U.S. v. Virginia",
+        "U.S. v. Delaware / M.A.M.A. v. DeMarco",
+        "U.S. v. Rhode Island",
+        "Philadelphia Housing Authority VCA / Consent Order",
+        "Chicago Housing Authority VCA"
+      ]
+    }
+  },
+  "post_decree_implementation_overlay": [
+    {
+      "case_name": "Independent Living Center of Southern California v. City of Los Angeles",
+      "status": "Chronic failure at scale",
+      "details": "At roughly 75% of the settlement period, only about 25% of required units had been produced; about 3,000 units remained outstanding; city still lacked an effective database system.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:305-323"
+      ]
+    },
+    {
+      "case_name": "Puerto Rico Public Housing Administration VCA",
+      "status": "23-year failure / repeated extensions",
+      "details": "Only 74 of 2,560 required units had been certified by July 2016; the December 2021 deadline was missed; oversight continued into 2026.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:334-342"
+      ]
+    },
+    {
+      "case_name": "U.S. v. Housing Authority of City of Bridgeport",
+      "status": "Transparency failure",
+      "details": "Inventory development was required, but no public monitoring reports were found; local memo says HACB still relies on individual RA forms rather than proactive unit matching.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:344-348"
+      ]
+    },
+    {
+      "case_name": "Cambridge Housing Authority VCA",
+      "status": "Rare success",
+      "details": "All 42 required accessible units were completed by September 2021, exceeding the requirement at Millers River.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:350-355"
+      ]
+    },
+    {
+      "case_name": "ADAPT v. Philadelphia Housing Authority",
+      "status": "Small-scale success",
+      "details": "248 accessible units were required by December 2005 and had been delivered by May 2006.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:357-361"
+      ]
+    }
+  ],
+  "excluded_or_noncoded_items": [
+    {
+      "name": "NYCHA informal resolution / compliance reviews",
+      "reason": "Section 10 identifies multiple informal monitoring arrangements but not a single public consent decree, VCA, or settlement with enough discrete terms to code case-by-case.",
+      "source_refs": [
+        "v89_MEMO_APPENDIX_C_LITIGATION.md:658-661"
+      ]
+    },
+    {
+      "name": "Thompson v. HUD",
+      "reason": "Section IV implementation comparator for Baltimore desegregation, but not an accessibility/accessible-unit inventory decree.",
+      "source_refs": [
+        "COMPLETED_RESEARCH_FINDINGS.md:325-333"
+      ]
+    }
+  ],
+  "notes": [
+    "The percentages are conservative lower bounds. Underdescribed matters (Quality Built, Design Professionals, Wallace, Chicopee, ADAPT) and inferential inventory cases (Philadelphia PHA, PRPHA, Cambridge, Atlanta) were left as unclear/no rather than inferred upward.",
+    "Los Angeles is represented as two separate legal instruments because the local research record distinguishes the 2016 court settlement from the 2019 HUD VCA; collapsing them into one architecture changes the broad distribution/occupancy statistic from 80.0% (4/5) to 75.0% (3/4).",
+    "Olmstead matters are retained because they reinforce the same tracking pattern, but they are coded N/A for accessible-unit inventory where the local source record centers vouchers or supported-housing slots rather than accessible units."
+  ]
+}

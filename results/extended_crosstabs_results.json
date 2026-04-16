@@ -1,0 +1,715 @@
+{
+  "metro_nonmetro": {
+    "White alone": {
+      "Metro": {
+        "disabled_cb_rate": 55.9,
+        "nondisabled_cb_rate": 38.5,
+        "disability_penalty_pp": 17.4,
+        "disabled_n": 2130463,
+        "nondisabled_n": 15424732
+      },
+      "Non-metro": {
+        "disabled_cb_rate": 50.1,
+        "nondisabled_cb_rate": 33.6,
+        "disability_penalty_pp": 16.6,
+        "disabled_n": 522015,
+        "nondisabled_n": 2376284
+      }
+    },
+    "Black/AA alone": {
+      "Metro": {
+        "disabled_cb_rate": 56.7,
+        "nondisabled_cb_rate": 46.6,
+        "disability_penalty_pp": 10.1,
+        "disabled_n": 908979,
+        "nondisabled_n": 5983250
+      },
+      "Non-metro": {
+        "disabled_cb_rate": 52.0,
+        "nondisabled_cb_rate": 40.5,
+        "disability_penalty_pp": 11.5,
+        "disabled_n": 85561,
+        "nondisabled_n": 417580
+      }
+    },
+    "AIAN alone": {
+      "Metro": {
+        "disabled_cb_rate": 51.7,
+        "nondisabled_cb_rate": 43.6,
+        "disability_penalty_pp": 8.2,
+        "disabled_n": 25233,
+        "nondisabled_n": 205026
+      },
+      "Non-metro": {
+        "disabled_cb_rate": 41.2,
+        "nondisabled_cb_rate": 31.8,
+        "disability_penalty_pp": 9.4,
+        "disabled_n": 12789,
+        "nondisabled_n": 60315
+      }
+    }
+  },
+  "age_disability": {
+    "White alone": {
+      "18-64": {
+        "disabled_cb_rate": 51.9,
+        "nondisabled_cb_rate": 35.7,
+        "disability_penalty_pp": 16.3,
+        "disabled_n": 1311484,
+        "nondisabled_n": 15321477
+      },
+      "65+": {
+        "disabled_cb_rate": 57.5,
+        "nondisabled_cb_rate": 51.1,
+        "disability_penalty_pp": 6.4,
+        "disabled_n": 1340786,
+        "nondisabled_n": 2476524
+      }
+    },
+    "Black/AA alone": {
+      "18-64": {
+        "disabled_cb_rate": 55.4,
+        "nondisabled_cb_rate": 45.6,
+        "disability_penalty_pp": 9.8,
+        "disabled_n": 593420,
+        "nondisabled_n": 5720035
+      },
+      "65+": {
+        "disabled_cb_rate": 57.7,
+        "nondisabled_cb_rate": 52.0,
+        "disability_penalty_pp": 5.7,
+        "disabled_n": 400993,
+        "nondisabled_n": 678239
+      }
+    },
+    "AIAN alone": {
+      "18-64": {
+        "disabled_cb_rate": 48.0,
+        "nondisabled_cb_rate": 40.8,
+        "disability_penalty_pp": 7.1,
+        "disabled_n": 25279,
+        "nondisabled_n": 247740
+      },
+      "65+": {
+        "disabled_cb_rate": 48.7,
+        "nondisabled_cb_rate": 41.5,
+        "disability_penalty_pp": 7.2,
+        "disabled_n": 12690,
+        "nondisabled_n": 17555
+      }
+    }
+  },
+  "housing_type": {
+    "White alone": {
+      "Single-family": {
+        "disabled_share_pct": 22.5,
+        "nondisabled_share_pct": 33.1,
+        "disabled_cb_rate": 45.8,
+        "nondisabled_cb_rate": 33.0,
+        "disabled_n": 706283,
+        "nondisabled_n": 6401386
+      },
+      "Small multifamily (2-4)": {
+        "disabled_share_pct": 16.9,
+        "nondisabled_share_pct": 17.5,
+        "disabled_cb_rate": 46.1,
+        "nondisabled_cb_rate": 34.2,
+        "disabled_n": 533122,
+        "nondisabled_n": 3380781
+      },
+      "Medium multifamily (5-19)": {
+        "disabled_share_pct": 19.0,
+        "nondisabled_share_pct": 21.8,
+        "disabled_cb_rate": 47.9,
+        "nondisabled_cb_rate": 36.3,
+        "disabled_n": 597770,
+        "nondisabled_n": 4210370
+      },
+      "Large multifamily (20+)": {
+        "disabled_share_pct": 36.2,
+        "nondisabled_share_pct": 23.5,
+        "disabled_cb_rate": 45.0,
+        "nondisabled_cb_rate": 37.2,
+        "disabled_n": 1139243,
+        "nondisabled_n": 4537912
+      },
+      "Mobile home": {
+        "disabled_share_pct": 5.2,
+        "nondisabled_share_pct": 4.0,
+        "disabled_cb_rate": 49.3,
+        "nondisabled_cb_rate": 32.4,
+        "disabled_n": 163092,
+        "nondisabled_n": 762957
+      },
+      "Other": {
+        "disabled_share_pct": 0.2,
+        "nondisabled_share_pct": 0.1,
+        "disabled_cb_rate": 51.8,
+        "nondisabled_cb_rate": 27.0,
+        "disabled_n": 6293,
+        "nondisabled_n": 17302
+      }
+    },
+    "Black/AA alone": {
+      "Single-family": {
+        "disabled_share_pct": 25.0,
+        "nondisabled_share_pct": 27.9,
+        "disabled_cb_rate": 46.1,
+        "nondisabled_cb_rate": 41.0,
+        "disabled_n": 308542,
+        "nondisabled_n": 2017284
+      },
+      "Small multifamily (2-4)": {
+        "disabled_share_pct": 20.1,
+        "nondisabled_share_pct": 19.0,
+        "disabled_cb_rate": 47.2,
+        "nondisabled_cb_rate": 39.8,
+        "disabled_n": 247695,
+        "nondisabled_n": 1373682
+      },
+      "Medium multifamily (5-19)": {
+        "disabled_share_pct": 21.8,
+        "nondisabled_share_pct": 26.8,
+        "disabled_cb_rate": 45.2,
+        "nondisabled_cb_rate": 41.8,
+        "disabled_n": 268440,
+        "nondisabled_n": 1939141
+      },
+      "Large multifamily (20+)": {
+        "disabled_share_pct": 31.3,
+        "nondisabled_share_pct": 24.2,
+        "disabled_cb_rate": 44.1,
+        "nondisabled_cb_rate": 41.1,
+        "disabled_n": 385297,
+        "nondisabled_n": 1750153
+      },
+      "Mobile home": {
+        "disabled_share_pct": 1.7,
+        "nondisabled_share_pct": 2.0,
+        "disabled_cb_rate": 44.0,
+        "nondisabled_cb_rate": 39.2,
+        "disabled_n": 21514,
+        "nondisabled_n": 141414
+      },
+      "Other": {
+        "disabled_share_pct": 0.0,
+        "nondisabled_share_pct": 0.1,
+        "disabled_cb_rate": 35.7,
+        "nondisabled_cb_rate": 42.0,
+        "disabled_n": 521,
+        "nondisabled_n": 3810
+      }
+    },
+    "AIAN alone": {
+      "Single-family": {
+        "disabled_share_pct": 35.7,
+        "nondisabled_share_pct": 38.6,
+        "disabled_cb_rate": 38.5,
+        "nondisabled_cb_rate": 33.6,
+        "disabled_n": 15503,
+        "nondisabled_n": 111542
+      },
+      "Small multifamily (2-4)": {
+        "disabled_share_pct": 20.9,
+        "nondisabled_share_pct": 19.7,
+        "disabled_cb_rate": 43.7,
+        "nondisabled_cb_rate": 39.4,
+        "disabled_n": 9075,
+        "nondisabled_n": 56886
+      },
+      "Medium multifamily (5-19)": {
+        "disabled_share_pct": 16.9,
+        "nondisabled_share_pct": 20.1,
+        "disabled_cb_rate": 44.8,
+        "nondisabled_cb_rate": 42.4,
+        "disabled_n": 7365,
+        "nondisabled_n": 57936
+      },
+      "Large multifamily (20+)": {
+        "disabled_share_pct": 20.0,
+        "nondisabled_share_pct": 15.8,
+        "disabled_cb_rate": 43.0,
+        "nondisabled_cb_rate": 39.7,
+        "disabled_n": 8691,
+        "nondisabled_n": 45591
+      },
+      "Mobile home": {
+        "disabled_share_pct": 6.3,
+        "nondisabled_share_pct": 5.7,
+        "disabled_cb_rate": 47.0,
+        "nondisabled_cb_rate": 35.4,
+        "disabled_n": 2740,
+        "nondisabled_n": 16425
+      },
+      "Other": {
+        "disabled_share_pct": 0.2,
+        "nondisabled_share_pct": 0.2,
+        "disabled_cb_rate": 54.5,
+        "nondisabled_cb_rate": 31.2,
+        "disabled_n": 101,
+        "nondisabled_n": 506
+      }
+    }
+  },
+  "state_rankings": [
+    {
+      "state_fips": "38",
+      "state_name": "North Dakota",
+      "disabled_cb_rate": 50.9,
+      "nondisabled_cb_rate": 27.7,
+      "disability_penalty_pp": 23.1,
+      "disabled_n_weighted": 13145,
+      "disabled_n_unweighted": 498
+    },
+    {
+      "state_fips": "02",
+      "state_name": "Alaska",
+      "disabled_cb_rate": 59.2,
+      "nondisabled_cb_rate": 36.5,
+      "disability_penalty_pp": 22.7,
+      "disabled_n_weighted": 7757,
+      "disabled_n_unweighted": 321
+    },
+    {
+      "state_fips": "46",
+      "state_name": "South Dakota",
+      "disabled_cb_rate": 51.5,
+      "nondisabled_cb_rate": 30.3,
+      "disability_penalty_pp": 21.2,
+      "disabled_n_weighted": 12643,
+      "disabled_n_unweighted": 573
+    },
+    {
+      "state_fips": "55",
+      "state_name": "Wisconsin",
+      "disabled_cb_rate": 53.7,
+      "nondisabled_cb_rate": 33.4,
+      "disability_penalty_pp": 20.3,
+      "disabled_n_weighted": 93679,
+      "disabled_n_unweighted": 3161
+    },
+    {
+      "state_fips": "19",
+      "state_name": "Iowa",
+      "disabled_cb_rate": 53.2,
+      "nondisabled_cb_rate": 33.4,
+      "disability_penalty_pp": 19.8,
+      "disabled_n_weighted": 44607,
+      "disabled_n_unweighted": 1994
+    },
+    {
+      "state_fips": "35",
+      "state_name": "New Mexico",
+      "disabled_cb_rate": 58.4,
+      "nondisabled_cb_rate": 39.4,
+      "disability_penalty_pp": 19.0,
+      "disabled_n_weighted": 29468,
+      "disabled_n_unweighted": 1174
+    },
+    {
+      "state_fips": "29",
+      "state_name": "Missouri",
+      "disabled_cb_rate": 53.4,
+      "nondisabled_cb_rate": 34.9,
+      "disability_penalty_pp": 18.5,
+      "disabled_n_weighted": 103168,
+      "disabled_n_unweighted": 4815
+    },
+    {
+      "state_fips": "20",
+      "state_name": "Kansas",
+      "disabled_cb_rate": 52.5,
+      "nondisabled_cb_rate": 34.0,
+      "disability_penalty_pp": 18.5,
+      "disabled_n_weighted": 44075,
+      "disabled_n_unweighted": 2046
+    },
+    {
+      "state_fips": "27",
+      "state_name": "Minnesota",
+      "disabled_cb_rate": 55.5,
+      "nondisabled_cb_rate": 37.7,
+      "disability_penalty_pp": 17.7,
+      "disabled_n_weighted": 75570,
+      "disabled_n_unweighted": 2504
+    },
+    {
+      "state_fips": "26",
+      "state_name": "Michigan",
+      "disabled_cb_rate": 55.9,
+      "nondisabled_cb_rate": 38.5,
+      "disability_penalty_pp": 17.4,
+      "disabled_n_weighted": 141016,
+      "disabled_n_unweighted": 5637
+    },
+    {
+      "state_fips": "41",
+      "state_name": "Oregon",
+      "disabled_cb_rate": 59.1,
+      "nondisabled_cb_rate": 41.7,
+      "disability_penalty_pp": 17.4,
+      "disabled_n_weighted": 71823,
+      "disabled_n_unweighted": 3103
+    },
+    {
+      "state_fips": "22",
+      "state_name": "Louisiana",
+      "disabled_cb_rate": 60.0,
+      "nondisabled_cb_rate": 42.9,
+      "disability_penalty_pp": 17.1,
+      "disabled_n_weighted": 64212,
+      "disabled_n_unweighted": 2952
+    },
+    {
+      "state_fips": "39",
+      "state_name": "Ohio",
+      "disabled_cb_rate": 52.2,
+      "nondisabled_cb_rate": 35.3,
+      "disability_penalty_pp": 16.9,
+      "disabled_n_weighted": 207466,
+      "disabled_n_unweighted": 8921
+    },
+    {
+      "state_fips": "50",
+      "state_name": "Vermont",
+      "disabled_cb_rate": 54.4,
+      "nondisabled_cb_rate": 37.5,
+      "disability_penalty_pp": 16.9,
+      "disabled_n_weighted": 9009,
+      "disabled_n_unweighted": 344
+    },
+    {
+      "state_fips": "05",
+      "state_name": "Arkansas",
+      "disabled_cb_rate": 51.5,
+      "nondisabled_cb_rate": 34.8,
+      "disability_penalty_pp": 16.7,
+      "disabled_n_weighted": 56650,
+      "disabled_n_unweighted": 2580
+    },
+    {
+      "state_fips": "53",
+      "state_name": "Washington",
+      "disabled_cb_rate": 56.6,
+      "nondisabled_cb_rate": 39.9,
+      "disability_penalty_pp": 16.6,
+      "disabled_n_weighted": 112425,
+      "disabled_n_unweighted": 4747
+    },
+    {
+      "state_fips": "54",
+      "state_name": "West Virginia",
+      "disabled_cb_rate": 54.0,
+      "nondisabled_cb_rate": 37.5,
+      "disability_penalty_pp": 16.5,
+      "disabled_n_weighted": 26839,
+      "disabled_n_unweighted": 1312
+    },
+    {
+      "state_fips": "17",
+      "state_name": "Illinois",
+      "disabled_cb_rate": 53.1,
+      "nondisabled_cb_rate": 36.9,
+      "disability_penalty_pp": 16.2,
+      "disabled_n_weighted": 170636,
+      "disabled_n_unweighted": 7229
+    },
+    {
+      "state_fips": "40",
+      "state_name": "Oklahoma",
+      "disabled_cb_rate": 51.8,
+      "nondisabled_cb_rate": 36.0,
+      "disability_penalty_pp": 15.9,
+      "disabled_n_weighted": 65967,
+      "disabled_n_unweighted": 3046
+    },
+    {
+      "state_fips": "56",
+      "state_name": "Wyoming",
+      "disabled_cb_rate": 50.6,
+      "nondisabled_cb_rate": 34.8,
+      "disability_penalty_pp": 15.9,
+      "disabled_n_weighted": 7185,
+      "disabled_n_unweighted": 334
+    },
+    {
+      "state_fips": "48",
+      "state_name": "Texas",
+      "disabled_cb_rate": 57.9,
+      "nondisabled_cb_rate": 42.3,
+      "disability_penalty_pp": 15.6,
+      "disabled_n_weighted": 333874,
+      "disabled_n_unweighted": 13883
+    },
+    {
+      "state_fips": "42",
+      "state_name": "Pennsylvania",
+      "disabled_cb_rate": 52.4,
+      "nondisabled_cb_rate": 36.9,
+      "disability_penalty_pp": 15.5,
+      "disabled_n_weighted": 207609,
+      "disabled_n_unweighted": 8319
+    },
+    {
+      "state_fips": "11",
+      "state_name": "District of Columbia",
+      "disabled_cb_rate": 49.8,
+      "nondisabled_cb_rate": 34.3,
+      "disability_penalty_pp": 15.5,
+      "disabled_n_weighted": 16423,
+      "disabled_n_unweighted": 539
+    },
+    {
+      "state_fips": "18",
+      "state_name": "Indiana",
+      "disabled_cb_rate": 52.4,
+      "nondisabled_cb_rate": 37.1,
+      "disability_penalty_pp": 15.3,
+      "disabled_n_weighted": 102196,
+      "disabled_n_unweighted": 4640
+    },
+    {
+      "state_fips": "21",
+      "state_name": "Kentucky",
+      "disabled_cb_rate": 49.5,
+      "nondisabled_cb_rate": 34.3,
+      "disability_penalty_pp": 15.2,
+      "disabled_n_weighted": 80978,
+      "disabled_n_unweighted": 3654
+    },
+    {
+      "state_fips": "37",
+      "state_name": "North Carolina",
+      "disabled_cb_rate": 54.1,
+      "nondisabled_cb_rate": 39.3,
+      "disability_penalty_pp": 14.8,
+      "disabled_n_weighted": 138662,
+      "disabled_n_unweighted": 6322
+    },
+    {
+      "state_fips": "04",
+      "state_name": "Arizona",
+      "disabled_cb_rate": 57.2,
+      "nondisabled_cb_rate": 42.4,
+      "disability_penalty_pp": 14.8,
+      "disabled_n_weighted": 80921,
+      "disabled_n_unweighted": 3563
+    },
+    {
+      "state_fips": "32",
+      "state_name": "Nevada",
+      "disabled_cb_rate": 60.3,
+      "nondisabled_cb_rate": 45.6,
+      "disability_penalty_pp": 14.7,
+      "disabled_n_weighted": 48250,
+      "disabled_n_unweighted": 2192
+    },
+    {
+      "state_fips": "08",
+      "state_name": "Colorado",
+      "disabled_cb_rate": 57.6,
+      "nondisabled_cb_rate": 42.9,
+      "disability_penalty_pp": 14.6,
+      "disabled_n_weighted": 62054,
+      "disabled_n_unweighted": 2690
+    },
+    {
+      "state_fips": "28",
+      "state_name": "Mississippi",
+      "disabled_cb_rate": 54.9,
+      "nondisabled_cb_rate": 40.3,
+      "disability_penalty_pp": 14.6,
+      "disabled_n_weighted": 42144,
+      "disabled_n_unweighted": 2057
+    },
+    {
+      "state_fips": "47",
+      "state_name": "Tennessee",
+      "disabled_cb_rate": 53.7,
+      "nondisabled_cb_rate": 39.3,
+      "disability_penalty_pp": 14.4,
+      "disabled_n_weighted": 95966,
+      "disabled_n_unweighted": 4478
+    },
+    {
+      "state_fips": "30",
+      "state_name": "Montana",
+      "disabled_cb_rate": 49.7,
+      "nondisabled_cb_rate": 35.6,
+      "disability_penalty_pp": 14.1,
+      "disabled_n_weighted": 15378,
+      "disabled_n_unweighted": 618
+    },
+    {
+      "state_fips": "51",
+      "state_name": "Virginia",
+      "disabled_cb_rate": 53.0,
+      "nondisabled_cb_rate": 39.0,
+      "disability_penalty_pp": 14.0,
+      "disabled_n_weighted": 97458,
+      "disabled_n_unweighted": 4357
+    },
+    {
+      "state_fips": "16",
+      "state_name": "Idaho",
+      "disabled_cb_rate": 52.9,
+      "nondisabled_cb_rate": 38.9,
+      "disability_penalty_pp": 14.0,
+      "disabled_n_weighted": 22248,
+      "disabled_n_unweighted": 990
+    },
+    {
+      "state_fips": "06",
+      "state_name": "California",
+      "disabled_cb_rate": 58.8,
+      "nondisabled_cb_rate": 45.7,
+      "disability_penalty_pp": 13.1,
+      "disabled_n_weighted": 472319,
+      "disabled_n_unweighted": 20842
+    },
+    {
+      "state_fips": "36",
+      "state_name": "New York",
+      "disabled_cb_rate": 53.2,
+      "nondisabled_cb_rate": 40.2,
+      "disability_penalty_pp": 13.0,
+      "disabled_n_weighted": 393065,
+      "disabled_n_unweighted": 14773
+    },
+    {
+      "state_fips": "25",
+      "state_name": "Massachusetts",
+      "disabled_cb_rate": 53.9,
+      "nondisabled_cb_rate": 41.0,
+      "disability_penalty_pp": 12.9,
+      "disabled_n_weighted": 121564,
+      "disabled_n_unweighted": 5041
+    },
+    {
+      "state_fips": "10",
+      "state_name": "Delaware",
+      "disabled_cb_rate": 53.5,
+      "nondisabled_cb_rate": 40.7,
+      "disability_penalty_pp": 12.8,
+      "disabled_n_weighted": 12781,
+      "disabled_n_unweighted": 433
+    },
+    {
+      "state_fips": "45",
+      "state_name": "South Carolina",
+      "disabled_cb_rate": 54.7,
+      "nondisabled_cb_rate": 42.0,
+      "disability_penalty_pp": 12.7,
+      "disabled_n_weighted": 60458,
+      "disabled_n_unweighted": 2589
+    },
+    {
+      "state_fips": "01",
+      "state_name": "Alabama",
+      "disabled_cb_rate": 51.2,
+      "nondisabled_cb_rate": 38.7,
+      "disability_penalty_pp": 12.5,
+      "disabled_n_weighted": 69685,
+      "disabled_n_unweighted": 3353
+    },
+    {
+      "state_fips": "24",
+      "state_name": "Maryland",
+      "disabled_cb_rate": 53.9,
+      "nondisabled_cb_rate": 41.4,
+      "disability_penalty_pp": 12.5,
+      "disabled_n_weighted": 70898,
+      "disabled_n_unweighted": 2970
+    },
+    {
+      "state_fips": "31",
+      "state_name": "Nebraska",
+      "disabled_cb_rate": 47.6,
+      "nondisabled_cb_rate": 35.1,
+      "disability_penalty_pp": 12.5,
+      "disabled_n_weighted": 30913,
+      "disabled_n_unweighted": 1211
+    },
+    {
+      "state_fips": "49",
+      "state_name": "Utah",
+      "disabled_cb_rate": 50.8,
+      "nondisabled_cb_rate": 38.4,
+      "disability_penalty_pp": 12.4,
+      "disabled_n_weighted": 28807,
+      "disabled_n_unweighted": 1080
+    },
+    {
+      "state_fips": "33",
+      "state_name": "New Hampshire",
+      "disabled_cb_rate": 49.7,
+      "nondisabled_cb_rate": 37.5,
+      "disability_penalty_pp": 12.2,
+      "disabled_n_weighted": 18675,
+      "disabled_n_unweighted": 706
+    },
+    {
+      "state_fips": "34",
+      "state_name": "New Jersey",
+      "disabled_cb_rate": 53.2,
+      "nondisabled_cb_rate": 41.9,
+      "disability_penalty_pp": 11.3,
+      "disabled_n_weighted": 116743,
+      "disabled_n_unweighted": 4497
+    },
+    {
+      "state_fips": "09",
+      "state_name": "Connecticut",
+      "disabled_cb_rate": 53.3,
+      "nondisabled_cb_rate": 42.1,
+      "disability_penalty_pp": 11.2,
+      "disabled_n_weighted": 57302,
+      "disabled_n_unweighted": 2235
+    },
+    {
+      "state_fips": "13",
+      "state_name": "Georgia",
+      "disabled_cb_rate": 53.4,
+      "nondisabled_cb_rate": 42.7,
+      "disability_penalty_pp": 10.7,
+      "disabled_n_weighted": 125605,
+      "disabled_n_unweighted": 5323
+    },
+    {
+      "state_fips": "12",
+      "state_name": "Florida",
+      "disabled_cb_rate": 61.0,
+      "nondisabled_cb_rate": 50.7,
+      "disability_penalty_pp": 10.3,
+      "disabled_n_weighted": 228540,
+      "disabled_n_unweighted": 9558
+    },
+    {
+      "state_fips": "23",
+      "state_name": "Maine",
+      "disabled_cb_rate": 48.6,
+      "nondisabled_cb_rate": 39.2,
+      "disability_penalty_pp": 9.4,
+      "disabled_n_weighted": 21466,
+      "disabled_n_unweighted": 812
+    },
+    {
+      "state_fips": "44",
+      "state_name": "Rhode Island",
+      "disabled_cb_rate": 44.2,
+      "nondisabled_cb_rate": 37.3,
+      "disability_penalty_pp": 6.8,
+      "disabled_n_weighted": 20885,
+      "disabled_n_unweighted": 808
+    },
+    {
+      "state_fips": "15",
+      "state_name": "Hawaii",
+      "disabled_cb_rate": 49.4,
+      "nondisabled_cb_rate": 48.8,
+      "disability_penalty_pp": 0.7,
+      "disabled_n_weighted": 15153,
+      "disabled_n_unweighted": 661
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+[
+  {
+    "source_file": "10167751_2024_United African-Asian Abilities Club v. Alexander C. Freiberg_cacd",
+    "case_name": "United African-Asian Abilities Club et al v. Alexander C. Freiberg et al",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10733,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10189170_2023_431 E PALISADE AVENUE REAL ESTATE, LLC v. CITY OF ENGLEWOOD_njd",
+    "case_name": "431 E Palisade Avenue Real Estate, LLC v. City of Englewood",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11754,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10182858_2022_Estate of DaMon R. Fisher v. City of Annapolis_mdd",
+    "case_name": "Estate of DaMon R. Fisher v. City of Annapolis",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11129,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10189320_2024_FRANKLIN v. THE JERSEY CITY HOUSING AUTHORITY_njd",
+    "case_name": "Edwina Franklin v. The Jersey City Housing Authority, Secretary, Department of Housing and Urban Development",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10328,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10241092_2023_Tajammul v. Everett Affordable Housing Portfolio LLLP_wawd",
+    "case_name": "Tajammul v. Everett Affordable Housing Portfolio LLLP",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10640,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10252595_2023_United States of America v. City of Milwaukee_wied",
+    "case_name": "United States of America ex rel. James Dieter and Karen Schwenke v. City of Milwaukee, City of Milwaukee Community Development Grants Administration, Housing Authority of the City of Milwaukee, and Milwaukee County",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10952,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10252970_2024_Kendrick v. Brennan_wied",
+    "case_name": "Kendrick v. Brennan",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10504,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10693710_2022_Margaret Kris v. Dusseault Family Revocable Trust et al._nhd",
+    "case_name": "Margaret Kris v. Dusseault Family Revocable Trust et al.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11380,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10264452_2023_The City of Huntington v. The Lifehouse, Inc.et al_wvsd",
+    "case_name": "The City of Huntington v. The Lifehouse, Inc.",
+    "error": "peer closed connection without sending complete message body (incomplete chunked read); escalation:No JSON object found",
+    "input_tokens": 5526,
+    "models": [
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "11267589 - Oxford House, Inc. v. Township of North Bergen",
+    "case_name": "Oxford House, Inc. v. Township of North Bergen",
+    "error": "peer closed connection without sending complete message body (incomplete chunked read); escalation:No JSON object found",
+    "input_tokens": 5532,
+    "models": [
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "8241798_2022_Jamal Akbar v. Interstate Realty Management Company_ca7",
+    "case_name": "Jamal A. Akbar v. Interstate Realty Management Company",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11145,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9354015_2022_Jackson v. Siegel Group_ca5",
+    "case_name": "Corla Jackson v. Siegel Group, L.L.C.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10431,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9367727_2022_ASHLEY MCCLENDON V. PETER BRESLER_ca9",
+    "case_name": "Ashley Christina McClendon v. Peter Bresler",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11475,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "7804109_2022_Sailboat Bend Sober Living v. City of Fort Lauderdale, FL._ca11",
+    "case_name": "Sailboat Bend Sober Living, LLC v. City of Fort Lauderdale, Florida",
+    "error": "peer closed connection without sending complete message body (incomplete chunked read); escalation:No JSON object found",
+    "input_tokens": 5785,
+    "models": [
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9385862_2023_Suellen Klossner v. IADU Table Mound MHP, LLC_ca8",
+    "case_name": "Klossner v. IADU Table Mound MHP, LLC",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11056,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9426575_2023_Orlando Garcia v. Gateway Hotel L.P._ca9",
+    "case_name": "Orlando Garcia v. Gateway Hotel L.P.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10752,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9443643_2023_Dayton Veterans Residences Ltd. v. Dayton Metro. Housing Authority_ca6",
+    "case_name": "Dayton Veterans Residences Ltd. Partnership v. Dayton Metro. Housing Authority",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11677,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9519145_2024_Sosa Guerrero v. Camp Pendelton and Quantico Housing, LLC_cacd",
+    "case_name": "Luis Sosa Guerrero, Ashley Sosa, and A.S. v. Camp Pendelton & Quantico Housing, LLC, et al.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10979,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9607428_2023_Rice v. City and County of San Francisco_cand",
+    "case_name": "Allison Barton Rice v. City and County of San Francisco",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 7130,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9608822_2023_Lu v. Vivente 1, Inc._cand",
+    "case_name": "Kai Lu v. Vivente 1, Inc.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11805,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9609703_2023_Silver v. Greystar Real Estate Partners, LLC_cand",
+    "case_name": "Aimee Silver v. Greystar California, Inc., et al.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10394,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9717400_2023_Nance v. Mayfield Plaza Apartments Management_kywd",
+    "case_name": "Rodney L. Nance, Sr. v. Mayfield Plaza Apartments Management et al.",
+    "error": "peer closed connection without sending complete message body (incomplete chunked read); escalation:No JSON object found",
+    "input_tokens": 5232,
+    "models": [
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9741144_2022_Smith v. New Rez, LLC_mdd",
+    "case_name": "Smith v. New Rez, LLC",
+    "error": "No JSON object found; escalation:peer closed connection without sending complete message body (incomplete chunked read)",
+    "input_tokens": 5282,
+    "models": [
+      "moonshotai/kimi-k2.5"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9741918_2023_Estate of DaMon R. Fisher v. City of Annapolis_mdd",
+    "case_name": "Tamara Johnson, et al. v. The City of Annapolis, et al. / The Estate of Damon R. Fisher, et al. v. The City of Annapolis, et al.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10897,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9890868_2024_Jane Doe v. Related Companies, LLP_nysd",
+    "case_name": "Jane Doe v. Related Companies, LLP",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10646,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9890838_2024_Gambaro v. 1917 ACP Owner LLC_nysd",
+    "case_name": "Jeanette Gambaro and Joseph Gambaro v. 1917 ACP Owner LLC, Bruce Lederman, Sharp Management Corp., and The Clearstone Group Inc.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10902,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9919451_2024_Metropolitan Fair Housing Council of Oklahoma, Inc v. Feiock_oked",
+    "case_name": "Metropolitan Fair Housing Council of Oklahoma, Inc. v. Feiock",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11115,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9927731_2022_Johnson v. Guardian Management_ord",
+    "case_name": "Larry Johnson v. Guardian Management and Uptown Towers",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10704,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9930903_2024_Washington v. Farmington Estates Owners Association_ord",
+    "case_name": "Wilmore Lee Washington, III v. Farmington Estates Owners Association",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10575,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "9936019_2022_CHICK v. DOMINIC_paed",
+    "case_name": "Eldon Chick, et al. v. Serrano Acquisitions, et al.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 10694,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": false
+  },
+  {
+    "source_file": "10600345_2025_Thorson v. Hawaii Public Housing Authority_hid",
+    "case_name": "Laurie Thorson v. Hawaii Public Housing Authority, Hakim Ouansafi, Ryan Akamine, and Lyle Matsuura",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 12001,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10645062_2025_Peters v. Caton Towers Owners Corp._nyed",
+    "case_name": "Jacqueline Peters v. Cafton Towers Owners Corp.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11381,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10688073_2025_Webster v. Fairway Management Inc_oknd",
+    "case_name": "Stephany Webster v. Fairway Management, Inc., Walnut Park Manor, L.P., JES Holdings, LLC",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 12853,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": true
+  }
+]

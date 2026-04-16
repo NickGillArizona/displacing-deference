@@ -1,0 +1,82 @@
+[
+  {
+    "source_file": "10164858_2021_Miller v. Coastline Management_alsd",
+    "custom_id": "uor-0000-976277295dbe",
+    "case_name": "Miller v. Coastline Management",
+    "input_tokens": 5446,
+    "output_tokens": 1440,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0000-976277295dbe",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"STATUTORY_HOOK_UNCLEAR\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"LEASE_OR_POLICY_TEXT\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"Pro se plaintiff alleged disability-based discrimination regarding delayed repairs and unlivable condo conditions but cited § 3601 (a mere policy statement) and § 3605 (real estate transactions) instead of the occupancy-discrimination provision § 3604, resulting in screening-stage dismissal under Iqbal/Twombly. This is a translation failure where a concrete housing grievance was not hooked to the correct statutory cause of action. Both Tier 1 documentation of the denial and repair timeline and Tier 2 theory selection and legal framing could have addressed the breakdown.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5446,
+          "output_tokens": 1440,
+          "total_tokens": 6886
+        },
+        "provider_response_id": "gen-1776327033-n3eBfT1xmybewYRlHINl"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "TRANSLATION",
+      "pleading_failure_mechanism": "STATUTORY_HOOK_UNCLEAR",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "DOCUMENT_ASSEMBLY"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "LEASE_OR_POLICY_TEXT",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "HIGH",
+      "reasoning": "Pro se plaintiff alleged disability-based discrimination regarding delayed repairs and unlivable condo conditions but cited § 3601 (a mere policy statement) and § 3605 (real estate transactions) instead of the occupancy-discrimination provision § 3604, resulting in screening-stage dismissal under Iqbal/Twombly. This is a translation failure where a concrete housing grievance was not hooked to the correct statutory cause of action. Both Tier 1 documentation of the denial and repair timeline and Tier 2 theory selection and legal framing could have addressed the breakdown."
+    }
+  },
+  {
+    "source_file": "10254272_2019_Manzke, Sara v. Jefferson County_wiwd",
+    "custom_id": "uor-0002-e02e18072b81",
+    "case_name": "Sara Manzke v. Jefferson County and Town of Ixonia",
+    "input_tokens": 5358,
+    "output_tokens": 2191,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0002-e02e18072b81",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"ELEMENT_MISMATCH\",\n  \"pleading_failure_mechanism\": \"ELEMENTS_NOT_TIED_TO_FACTS\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"JURISDICTIONAL_TRIAGE\",\n    \"FACT_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The pro se plaintiff alleged a reasonable accommodation claim against the Town of Ixonia for denying zoning variances to keep emotional support animals, but the court dismissed under Iqbal/Twombly because the town lacked delegated authority to modify the county's zoning ordinance. The identified FHA theory does not map onto the required elements as to this defendant, since the town could not legally grant the accommodation. This signals both a theory-selection failure (suing the wrong entity) and a jurisdictional-triage gap that institutional intermediation could address, while Tier 1 documentation of the authority structure would also help.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5358,
+          "output_tokens": 2191,
+          "total_tokens": 7549
+        },
+        "provider_response_id": "gen-1776327077-mAIHf7HYzScxYcEZ4jA2"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "ELEMENT_MISMATCH",
+      "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "JURISDICTIONAL_TRIAGE",
+        "FACT_DEVELOPMENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "DENIAL_OR_NO_RESPONSE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The pro se plaintiff alleged a reasonable accommodation claim against the Town of Ixonia for denying zoning variances to keep emotional support animals, but the court dismissed under Iqbal/Twombly because the town lacked delegated authority to modify the county's zoning ordinance. The identified FHA theory does not map onto the required elements as to this defendant, since the town could not legally grant the accommodation. This signals both a theory-selection failure (suing the wrong entity) and a jurisdictional-triage gap that institutional intermediation could address, while Tier 1 documentation of the authority structure would also help."
+    }
+  }
+]

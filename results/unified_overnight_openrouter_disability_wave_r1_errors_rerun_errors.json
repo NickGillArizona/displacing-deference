@@ -1,0 +1,37 @@
+[
+  {
+    "source_file": "9884412_2023_Avila v. Acacia Network Inc._nysd",
+    "custom_id": "uor-0029-9f519e4ad066",
+    "case_name": "Jimmy Avila v. Acacia Network, Inc.",
+    "input_tokens": 10397,
+    "output_tokens": 6400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0029-9f519e4ad066",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5199,
+          "output_tokens": 3200,
+          "total_tokens": 8399
+        },
+        "provider_response_id": "gen-1776274513-8y3mfnRq46TnR5E0okfq"
+      },
+      {
+        "custom_id": "uor-0029-9f519e4ad066",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"TIMING_OR_NOTICE_GAP\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"",
+        "usage": {
+          "input_tokens": 5198,
+          "output_tokens": 3200,
+          "total_tokens": 8398
+        },
+        "provider_response_id": "gen-1776274608-ONDA4jNLgKhg5Cu1Pb91"
+      }
+    ],
+    "error": "No JSON object found; escalation:JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  }
+]

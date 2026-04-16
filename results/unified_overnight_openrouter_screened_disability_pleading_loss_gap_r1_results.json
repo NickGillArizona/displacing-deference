@@ -1,0 +1,160 @@
+[
+  {
+    "source_file": "10171744_2021_Sam Sohn v. California Housing Financing Agency_cand",
+    "custom_id": "uor-0001-b8690956a38c",
+    "case_name": "Sam Sohn v. California Housing Financing Agency",
+    "input_tokens": 5435,
+    "output_tokens": 3682,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0001-b8690956a38c",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"FACTUAL_DETAIL\",\n  \"pleading_failure_mechanism\": \"DISABILITY_NEXUS_MISSING\",\n  \"institutional_function_missing\": [\n    \"MEDICAL_OR_DISABILITY_CORROBORATION\",\n    \"FACT_DEVELOPMENT\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"Pro se plaintiff’s reasonable accommodation claim was dismissed at the § 1915(e) screening stage for failure to allege facts showing she was disabled or that the denial of Keep Your Home California mortgage assistance was by reason of her disability. The record indicates a gap in medical/disability corroboration and factual development regarding the nexus between the public program denial and her protected status, suggesting fixability through both Tier 1 documentation support and Tier 2 legal translation.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5435,
+          "output_tokens": 3682,
+          "total_tokens": 9117
+        },
+        "provider_response_id": "gen-1776326585-4le4cyfRbholLwp7oLz6"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "FACTUAL_DETAIL",
+      "pleading_failure_mechanism": "DISABILITY_NEXUS_MISSING",
+      "institutional_function_missing": [
+        "MEDICAL_OR_DISABILITY_CORROBORATION",
+        "FACT_DEVELOPMENT",
+        "DOCUMENT_ASSEMBLY"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "Pro se plaintiff’s reasonable accommodation claim was dismissed at the § 1915(e) screening stage for failure to allege facts showing she was disabled or that the denial of Keep Your Home California mortgage assistance was by reason of her disability. The record indicates a gap in medical/disability corroboration and factual development regarding the nexus between the public program denial and her protected status, suggesting fixability through both Tier 1 documentation support and Tier 2 legal translation."
+    }
+  },
+  {
+    "source_file": "10212330_2020_Harmony Haus Westlake, LLC v. Parkstone Property Owners Association, Inc._txwd",
+    "custom_id": "uor-0002-db83b9d6f6a3",
+    "case_name": "Harmony Haus Westlake, LLC v. Parkstone Property Owners Association, Inc.",
+    "input_tokens": 5853,
+    "output_tokens": 4731,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0002-db83b9d6f6a3",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "{\n  \"pleading_failure_family\": \"MIXED\",\n  \"pleading_failure_mechanism\": \"MIXED\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"LEASE_OR_POLICY_TEXT\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The record shows a group home operator plaintiff with counsel whose primary reasonable accommodation claim was dismissed under IQBAL_TWOMBLY for failure to allege the parking waiver was necessary for the disability or reasonable given the counter-offer, while the retaliation claim survived MTD based on temporal proximity. This indicates a mixed pleading outcome where the accommodation theory suffered from element-mismatch and causal-link deficiencies regarding the nexus between substance-use disability and parking needs during COVID-19, suggesting missing institutional functions in theory selection and fact development to translate the operational need into legally sufficient necessity allegations.\"\n}",
+        "usage": {
+          "input_tokens": 5853,
+          "output_tokens": 4731,
+          "total_tokens": 10584
+        },
+        "provider_response_id": "gen-1776326585-2mQX9zLZlLKIPXQlfotJ"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "MIXED",
+      "pleading_failure_mechanism": "MIXED",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "DOCUMENT_ASSEMBLY"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "LEASE_OR_POLICY_TEXT",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "The record shows a group home operator plaintiff with counsel whose primary reasonable accommodation claim was dismissed under IQBAL_TWOMBLY for failure to allege the parking waiver was necessary for the disability or reasonable given the counter-offer, while the retaliation claim survived MTD based on temporal proximity. This indicates a mixed pleading outcome where the accommodation theory suffered from element-mismatch and causal-link deficiencies regarding the nexus between substance-use disability and parking needs during COVID-19, suggesting missing institutional functions in theory selection and fact development to translate the operational need into legally sufficient necessity allegations."
+    }
+  },
+  {
+    "source_file": "9600205_2021_Melton v. Regional Center of the East Bay, Inc._cand",
+    "custom_id": "uor-0039-46c14c2f6742",
+    "case_name": "Selena Melton, by and through her Guardian Ad Litem v. California Department of Developmental Services, et al.",
+    "input_tokens": 5445,
+    "output_tokens": 2216,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0039-46c14c2f6742",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " {\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"EXHAUSTION_OR_PRECLUSION\",\n  \"institutional_function_missing\": [\n    \"JURISDICTIONAL_TRIAGE\",\n    \"ADMINISTRATIVE_RECORD_BUILDING\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"HEARING_OR_GRIEVANCE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The court dismissed the FHA claim because the plaintiff failed to exhaust the Lanterman Act's administrative fair hearing process before seeking judicial relief. This procedural gateway dismissal reflects a failure in jurisdictional triage and administrative record building for a deaf-blind tenant seeking communication accommodations in supportive housing. The case involves a state disability services program and group home placement, indicating a public process failure.\"\n}",
+        "usage": {
+          "input_tokens": 5445,
+          "output_tokens": 2216,
+          "total_tokens": 7661
+        },
+        "provider_response_id": "gen-1776326730-C14EnRBQTvI5aDeIYE2y"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "PROCEDURAL_GATEWAY",
+      "pleading_failure_mechanism": "EXHAUSTION_OR_PRECLUSION",
+      "institutional_function_missing": [
+        "JURISDICTIONAL_TRIAGE",
+        "ADMINISTRATIVE_RECORD_BUILDING"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "HEARING_OR_GRIEVANCE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "HIGH",
+      "reasoning": "The court dismissed the FHA claim because the plaintiff failed to exhaust the Lanterman Act's administrative fair hearing process before seeking judicial relief. This procedural gateway dismissal reflects a failure in jurisdictional triage and administrative record building for a deaf-blind tenant seeking communication accommodations in supportive housing. The case involves a state disability services program and group home placement, indicating a public process failure."
+    }
+  },
+  {
+    "source_file": "9652704_2021_Hilliard, Sr. v. Gutierrez_flsd",
+    "custom_id": "uor-0049-101e7946c622",
+    "case_name": "Elgin Hilliard, Sr. v. Rene Gutierrez",
+    "input_tokens": 5584,
+    "output_tokens": 2249,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0049-101e7946c622",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": " ```json\n{\n  \"pleading_failure_family\": \"PROCEDURAL_GATEWAY\",\n  \"pleading_failure_mechanism\": \"EXHAUSTION_OR_PRECLUSION\",\n  \"institutional_function_missing\": [\n    \"JURISDICTIONAL_TRIAGE\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"HEARING_OR_GRIEVANCE_RECORD\",\n    \"NOTICE_OR_TIMELINE_RECORD\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"NONE\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"NEITHER\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"The court dismissed the FHA retaliation claim at the motion-to-dismiss stage based on res judicata, finding it arose from the same nucleus of operative facts as claims fully adjudicated in the prior Hilliard I action. Because the claim is legally barred by claim preclusion rather than deficient pleading or merits evidence, the loss reflects a procedural gateway defect that is not amenable to Tier 1 reporting architecture or Tier 2 institutional intermediation fixes.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5584,
+          "output_tokens": 2249,
+          "total_tokens": 7833
+        },
+        "provider_response_id": "gen-1776326757-ASDawo7NJr84eBSs6AEz"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "PROCEDURAL_GATEWAY",
+      "pleading_failure_mechanism": "EXHAUSTION_OR_PRECLUSION",
+      "institutional_function_missing": [
+        "JURISDICTIONAL_TRIAGE"
+      ],
+      "administratively_observable_fact_pattern": [
+        "HEARING_OR_GRIEVANCE_RECORD",
+        "NOTICE_OR_TIMELINE_RECORD",
+        "PUBLIC_PROGRAM_RULE_OR_DECISION"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "NONE",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "NEITHER",
+      "classification_confidence": "HIGH",
+      "reasoning": "The court dismissed the FHA retaliation claim at the motion-to-dismiss stage based on res judicata, finding it arose from the same nucleus of operative facts as claims fully adjudicated in the prior Hilliard I action. Because the claim is legally barred by claim preclusion rather than deficient pleading or merits evidence, the loss reflects a procedural gateway defect that is not amenable to Tier 1 reporting architecture or Tier 2 institutional intermediation fixes."
+    }
+  }
+]

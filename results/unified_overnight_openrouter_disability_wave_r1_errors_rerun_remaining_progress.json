@@ -1,0 +1,11 @@
+{
+  "updated_at": "2026-04-15T17:37:59.787945+00:00",
+  "total_requests": 0,
+  "completed_results": 0,
+  "completed_errors": 0,
+  "completed_malformed": 0,
+  "pending_requests": 0,
+  "max_concurrency": 20,
+  "primary_model": "moonshotai/kimi-k2.5",
+  "escalation_model": "z-ai/glm-5.1"
+}

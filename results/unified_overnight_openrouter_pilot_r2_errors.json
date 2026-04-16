@@ -1,0 +1,26 @@
+[
+  {
+    "source_file": "10113641_2024_Seals v. Itex Group_ca5",
+    "custom_id": "uor-0034-37363bc64003",
+    "case_name": "J.W. Seals, Jr.; Vergie Seals; Marie L. Pace v. Itex Group L.L.C.",
+    "input_tokens": 5472,
+    "output_tokens": 1400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0034-37363bc64003",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"NO_COGNIZABLE_FHA_THEORY\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"JURISDICTIONAL_TRIAGE\",\n    \"FACT_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n",
+        "usage": {
+          "input_tokens": 5472,
+          "output_tokens": 1400,
+          "total_tokens": 6872
+        },
+        "provider_response_id": "gen-1776239886-BosVsOIF22uJ6gGWiAgX"
+      }
+    ],
+    "error": "peer closed connection without sending complete message body (incomplete chunked read); escalation:JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  }
+]

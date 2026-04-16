@@ -1,0 +1,26 @@
+[
+  {
+    "source_file": "10213380_2021_Payne v. City of San Antonio, Texas_txwd",
+    "custom_id": "uor-0001-cf36d5adf2dc",
+    "case_name": "Payne v. City of San Antonio, Texas",
+    "input_tokens": 5891,
+    "output_tokens": 2400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0001-cf36d5adf2dc",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5891,
+          "output_tokens": 2400,
+          "total_tokens": 8291
+        },
+        "provider_response_id": "gen-1776327045-59fUyujfcziiqia8dGEc"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  }
+]

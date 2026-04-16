@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="80" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="bold">FHEO filed complaints: Massachusetts vs. average controls</text>
+<text x="80" y="54" font-family="Arial, sans-serif" font-size="12" fill="#555">Orange line is the average control state (not the pooled-control sum); 2020 is partial-year through 2020-06-30.</text>
+<text x="80" y="542" font-family="Arial, sans-serif" font-size="11" fill="#666">Counts are raw complaints, not population- or housing-stock-normalized; the August 2021 launch marker is reference only.</text>
+<line x1="80" y1="85" x2="80" y2="490" stroke="#333" stroke-width="1.2"/>
+<line x1="80" y1="490" x2="890" y2="490" stroke="#333" stroke-width="1.2"/>
+<line x1="80" y1="490.00" x2="890" y2="490.00" stroke="#e5e5e5" stroke-width="1"/>
+<text x="70" y="494.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#555">0</text>
+<line x1="80" y1="388.75" x2="890" y2="388.75" stroke="#e5e5e5" stroke-width="1"/>
+<text x="70" y="392.75" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#555">100</text>
+<line x1="80" y1="287.50" x2="890" y2="287.50" stroke="#e5e5e5" stroke-width="1"/>
+<text x="70" y="291.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#555">200</text>
+<line x1="80" y1="186.25" x2="890" y2="186.25" stroke="#e5e5e5" stroke-width="1"/>
+<text x="70" y="190.25" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#555">300</text>
+<line x1="80" y1="85.00" x2="890" y2="85.00" stroke="#e5e5e5" stroke-width="1"/>
+<text x="70" y="89.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#555">400</text>
+<line x1="80.00" y1="490" x2="80.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="80.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2006</text>
+<line x1="188.00" y1="490" x2="188.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="188.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2008</text>
+<line x1="296.00" y1="490" x2="296.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="296.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2010</text>
+<line x1="404.00" y1="490" x2="404.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="404.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2012</text>
+<line x1="512.00" y1="490" x2="512.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="512.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2014</text>
+<line x1="620.00" y1="490" x2="620.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="620.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2016</text>
+<line x1="728.00" y1="490" x2="728.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="728.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2018</text>
+<line x1="836.00" y1="490" x2="836.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="836.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2020</text>
+<line x1="890.00" y1="490" x2="890.00" y2="496" stroke="#333" stroke-width="1"/>
+<text x="890.00" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">2021</text>
+<line x1="890.00" y1="85" x2="890.00" y2="490" stroke="#999" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="896.00" y="99" font-family="Arial, sans-serif" font-size="11" fill="#666">2021 launch</text>
+<path d="M 80.00 203.46 L 134.00 188.27 L 188.00 147.78 L 242.00 221.69 L 296.00 235.86 L 350.00 247.00 L 404.00 225.74 L 458.00 163.97 L 512.00 187.26 L 566.00 181.19 L 620.00 154.86 L 674.00 152.84 L 728.00 154.86 L 782.00 105.25 L 836.00 362.43" fill="none" stroke="#1f77b4" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="80.00" cy="203.46" r="3.5" fill="#1f77b4"/>
+<circle cx="134.00" cy="188.27" r="3.5" fill="#1f77b4"/>
+<circle cx="188.00" cy="147.78" r="3.5" fill="#1f77b4"/>
+<circle cx="242.00" cy="221.69" r="3.5" fill="#1f77b4"/>
+<circle cx="296.00" cy="235.86" r="3.5" fill="#1f77b4"/>
+<circle cx="350.00" cy="247.00" r="3.5" fill="#1f77b4"/>
+<circle cx="404.00" cy="225.74" r="3.5" fill="#1f77b4"/>
+<circle cx="458.00" cy="163.97" r="3.5" fill="#1f77b4"/>
+<circle cx="512.00" cy="187.26" r="3.5" fill="#1f77b4"/>
+<circle cx="566.00" cy="181.19" r="3.5" fill="#1f77b4"/>
+<circle cx="620.00" cy="154.86" r="3.5" fill="#1f77b4"/>
+<circle cx="674.00" cy="152.84" r="3.5" fill="#1f77b4"/>
+<circle cx="728.00" cy="154.86" r="3.5" fill="#1f77b4"/>
+<circle cx="782.00" cy="105.25" r="3.5" fill="#1f77b4"/>
+<circle cx="836.00" cy="362.43" r="3.5" fill="#1f77b4"/>
+<path d="M 80.00 424.44 L 134.00 433.81 L 188.00 426.97 L 242.00 429.76 L 296.00 434.57 L 350.00 444.44 L 404.00 438.36 L 458.00 439.38 L 512.00 429.25 L 566.00 442.16 L 620.00 439.38 L 674.00 434.31 L 728.00 441.15 L 782.00 425.45 L 836.00 458.36" fill="none" stroke="#ff7f0e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="80.00" cy="424.44" r="3.5" fill="#ff7f0e"/>
+<circle cx="134.00" cy="433.81" r="3.5" fill="#ff7f0e"/>
+<circle cx="188.00" cy="426.97" r="3.5" fill="#ff7f0e"/>
+<circle cx="242.00" cy="429.76" r="3.5" fill="#ff7f0e"/>
+<circle cx="296.00" cy="434.57" r="3.5" fill="#ff7f0e"/>
+<circle cx="350.00" cy="444.44" r="3.5" fill="#ff7f0e"/>
+<circle cx="404.00" cy="438.36" r="3.5" fill="#ff7f0e"/>
+<circle cx="458.00" cy="439.38" r="3.5" fill="#ff7f0e"/>
+<circle cx="512.00" cy="429.25" r="3.5" fill="#ff7f0e"/>
+<circle cx="566.00" cy="442.16" r="3.5" fill="#ff7f0e"/>
+<circle cx="620.00" cy="439.38" r="3.5" fill="#ff7f0e"/>
+<circle cx="674.00" cy="434.31" r="3.5" fill="#ff7f0e"/>
+<circle cx="728.00" cy="441.15" r="3.5" fill="#ff7f0e"/>
+<circle cx="782.00" cy="425.45" r="3.5" fill="#ff7f0e"/>
+<circle cx="836.00" cy="458.36" r="3.5" fill="#ff7f0e"/>
+<line x1="700" y1="93" x2="722" y2="93" stroke="#1f77b4" stroke-width="3"/>
+<text x="730" y="97" font-family="Arial, sans-serif" font-size="12" fill="#333">Massachusetts</text>
+<line x1="700" y1="115" x2="722" y2="115" stroke="#ff7f0e" stroke-width="3"/>
+<text x="730" y="119" font-family="Arial, sans-serif" font-size="12" fill="#333">Average controls (CT/NH/VT/RI)</text>
+</svg>

@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-04-16T08:14:22.678325+00:00",
+  "workspace_root": "/mnt/c/Users/nickg/OneDrive/Documents/Note",
+  "repo_root": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH",
+  "input_db": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/FHA_Unified_Database.json",
+  "schema_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/data/2/unified_overnight_schema.md",
+  "examples_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/data/2/unified_overnight_examples.json",
+  "subset": "all-screened",
+  "selected_records": 1,
+  "subset_scope_records": 2522,
+  "counts_by_period": {
+    "P0": 1
+  },
+  "counts_by_bucket": {
+    "disability": 1
+  },
+  "token_estimates": {
+    "input_tokens": 6236,
+    "output_tokens": 260,
+    "method": "characters/4.0 + fixed output token estimate 260"
+  },
+  "offset": 0,
+  "limit": 0,
+  "only_source_files": "@results/tmp_payne_only.txt"
+}

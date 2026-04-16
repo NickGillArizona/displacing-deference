@@ -1,0 +1,2755 @@
+[
+  {
+    "source_file": "10189004_2023_PRINCE v. PAJELA_njd",
+    "case_name": "Donnell L. Prince v. Priscilla Pajela",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "DENIAL_OR_NO_RESPONSE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff's FHA claim survived the MTD on procedural grounds (jurisdiction and preclusion), but the claim is coded as reasonable accommodation despite no specific accommodation request being alleged, indicating a likely theory-selection mismatch. The underlying grievance—alleged toxic exposure as retaliation for pursuing lawsuits—may be better framed as retaliation rather than accommodation, and the survival on purely procedural grounds without merits review leaves the doctrinal fit uncertain. This misalignment between coded theory and alleged facts warrants high raw-text review priority."
+  },
+  {
+    "source_file": "10194512_2024_Avila v. ACACIA Network_nysd",
+    "case_name": "Avila v. Acacia Network",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "This is a pro se IFP service order with no substantive ruling on the FHA retaliation claim, which remains pending at a very early procedural stage. No pleading failure can be diagnosed because the court has not yet evaluated the complaint on the merits or addressed any motion to dismiss. The structured record is too thin to identify missing institutional functions or administratively observable facts with confidence."
+  },
+  {
+    "source_file": "10193953_2024_Avila v. ACACIA Network, Inc._nysd",
+    "case_name": "Jimmy Avila v. Acacia Network, Inc.",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "This record captures only a service-of-process order in a pro se FHA disability and retaliation action; all claims remain pending with no substantive ruling. The FHA theory is coded UNCLEAR, the accommodation request is undescribed, and housing type is undetermined, making any failure diagnosis premature. The case warrants high raw-text review priority because the pro se posture and unclear theory suggest significant classification ambiguity that later filings may resolve."
+  },
+  {
+    "source_file": "10219016_2022_Shepherd v. Cornerstone Residential_utd",
+    "case_name": "Denise Shepherd v. Cornerstone Residential LLC, et al.",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "MEDICAL_OR_PROVIDER_LETTER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The court ruled only on the pro se plaintiff's motion for appointment of counsel, denying it without prejudice; no FHA claims have been adjudicated and the fha_claims array is empty. The record shows critical gaps—no FHA section cited, accommodation type undetermined, interactive process not discussed—indicating the plaintiff lacks intermediation for theory selection and fact development. The thin structured record and early procedural posture make failure diagnosis unreliable, warranting high raw-text review priority."
+  },
+  {
+    "source_file": "10215742_2023_Lopez Carpintero v. Del Valle 969 Apartments, LTD_txwd",
+    "case_name": "Yvette Lopez Carpintero v. Del Valle 969 Apartments, LTD",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ADVERSE_ACTION_NOT_CONNECTED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff’s complaint was dismissed at the screening stage under 28 U.S.C. §1915(e)(2) for failure to state a claim, as she alleged general intimidation, assaults, and proposed evictions but failed to connect these adverse actions to any protected class status as required for FHA liability. The record indicates IQBAL_TWOMBLY concerns and a fundamental translation failure where the grievance was not pleaded in legally cognizable FHA terms, suggesting need for both Tier 1 intake clarification and Tier 2 legal framing support."
+  },
+  {
+    "source_file": "10243934_2023_Sandles v. Secretary of Veterans Affairs_wawd",
+    "case_name": "Ray A. Sandles et al v. Secretary of Veterans Affairs",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "This pro se action against a federal government defendant remains pending following a denial of appointed counsel, with the court noting plaintiffs could articulate claims but showed low likelihood of success. The structured record codes the claim theory as NOT_FHA despite alleging reasonable accommodation denial, and the specific accommodation request remains undetermined, indicating theory selection and jurisdictional triage gaps. The government defendant and essential services dispute warrant public process classification and high priority review to clarify the FHA theory and jurisdictional posture."
+  },
+  {
+    "source_file": "10252125_2023_Huzjak v. Ellis_wied",
+    "case_name": "Debrra Lee Huzjak v. Kim Ellis, Caitlin Sexton, Aurora St. Lukes Southshore, Aurora Zilber Family Hospice, Aurora Health, Eastshore Properties, Brenda Matheson, Steven Peters, Kathy Berlin, William Berlin and Chai Franciscan Villa Nursing Home",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff filed a complaint mixing neighbor harassment and nursing home care grievances, which the court dismissed under § 1915 screening for failure to state a cognizable FHA claim. The court found the FHA does not apply to disputes between neighbors and that plaintiff failed to allege facts connecting the alleged harassment to her protected class status, indicating a translation failure where grievances were not mapped to viable FHA theories. This suggests missing institutional functions at the intake and theory-selection stages that could have redirected the plaintiff or clarified the lack of statutory coverage."
+  },
+  {
+    "source_file": "10302577_2024_Carey v. Torres_cand",
+    "case_name": "Carey v. Torres",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "LEASE_OR_POLICY_TEXT",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se case was dismissed under Twombly/Iqbal for failing to allege membership in a protected class or a specific accommodation request under § 3604(f)(3)(B), despite describing grievances involving lockouts and storage access. The record indicates a translation failure where the plaintiff’s grievances were not legally framed as FHA claims, compounded by contradictory structured data regarding disability status that warrants raw-text verification."
+  },
+  {
+    "source_file": "9344939_2022_Joseph Phillips, Jr. v. City of Pittsburgh_ca3",
+    "case_name": "Joseph D.S. Phillips, Jr. v. City of Pittsburgh",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The record reflects a pro se plaintiff whose amended complaint was dismissed with prejudice under 28 U.S.C. § 1915(e)(2)(B) screening for incoherence, mixing disjointed references to the FHA with contract, constitutional, and tort claims against a municipal defendant. No specific accommodation was requested and the complaint failed to state a cognizable FHA theory, indicating a translation failure fixable through both Tier 1 intake screening and Tier 2 legal framing support."
+  },
+  {
+    "source_file": "9374094_2023_Elizabeth Fedynich v. Boulder Housing Partners_ca4",
+    "case_name": "Elizabeth Fedynich; Nicole Fedynich v. Boulder Housing Partners",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se tenants alleged reasonable accommodation violations against a housing authority but the accommodation type and description remain undetermined and no specific FHA section was cited, indicating a translation failure where the underlying grievance was not adequately articulated as a legally cognizable request. The per curiam affirmance without substantive analysis and absence of key case citations suggest the complaint lacked the factual and legal specificity needed to survive dismissal. The housing authority defendant and multiple statutory theories suggest a public-process dimension where both intake capture and institutional intermediation could have improved claim quality."
+  },
+  {
+    "source_file": "9399510_2023_Queen'Prinyah Godiah Nmiaa Pa El-Bey v. Social 2700 Student Spaces_ca11",
+    "case_name": "Queen'Prinyah Godiah Nmiaa Pa El-Bey v. Social 2700 Student Spaces",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "TIMING_OR_NOTICE_GAP",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "DOCUMENT_ASSEMBLY",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff's complaint was dismissed under § 1915(e)(2)(B) for failure to comply with court orders after she failed to respond to an order to file an amended complaint, claiming she never received the orders due to a change of address. The record indicates the initial complaint was vague, listed multiple statutes without elaboration, and failed to describe any specific accommodation requested, suggesting breakdowns in theory selection, document assembly, and jurisdictional notice."
+  },
+  {
+    "source_file": "9443269_2023_Women's Elevated v. City of Plano_ca5",
+    "case_name": "Women's Elevated Sober Living L.L.C. v. City of Plano",
+    "pleading_failure_family": "NO_FAILURE_DEFENDANT_WIN",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "EXPERT_OR_TECHNICAL_TRANSLATION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "MEDICAL_OR_PROVIDER_LETTER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "HIGH",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "The Fifth Circuit reversed a district court finding of liability, holding that plaintiffs failed to prove the zoning accommodation was 'indispensable or essential' rather than merely therapeutically beneficial under § 3604(f)(3)(B). Because the claim reached trial with counsel and involved a municipal zoning process for a group home, the loss reflects a developed merits determination rather than a pleading failure, with a strong doctrinal gap between therapeutic reality and the strict legal necessity standard."
+  },
+  {
+    "source_file": "9486151_2024_Briggs v. Campbell_dcd",
+    "case_name": "Frank C. Briggs v. James D. Campbell",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "POLICY_OR_PRACTICE_NOT_SPECIFIED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PHYSICAL_ACCESS_BARRIER",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se case was dismissed at the motion-to-dismiss stage under Iqbal/Twombly standards because the plaintiffs failed to translate their grievance about apartment maintenance into a legally cognizable FHA theory, specifically omitting the facially neutral policy required for disparate impact and factual allegations connecting conduct to protected class status for disparate treatment. The structured record indicates a private landlord tenant dispute with disability and race allegations, suggesting that both standardized intake forms capturing maintenance requests and disability-related barriers (Tier 1) and legal assistance to properly frame the discrimination theory (Tier 2) could have prevented this pleading failure."
+  },
+  {
+    "source_file": "9519849_2024_David Roy Winters v. West Oaks Housing LLC_cacd",
+    "case_name": "David Winters v. West Oaks Housing LLC, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "STATUTORY_HOOK_UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff was dismissed with prejudice at the § 1915 screening stage after failing to articulate a viable FHA claim across multiple opportunities, with the claim theory recorded as unclear and no specific accommodation request described. This is a classic translation failure: a housing grievance existed but was never rendered into a legally legible FHA theory, and both standardized intake documentation and institutional theory-selection support appear absent."
+  },
+  {
+    "source_file": "9524475_2022_Cash v. US Department of Housing and Urban Development_alnd",
+    "case_name": "Don Cash v. U.S. Department of Housing & Urban Development",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "DENIAL_OR_NO_RESPONSE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff’s complaint was dismissed under Twombly/Iqbal for failing to state a federal claim, with the court noting the vague air conditioner maintenance reference lacked a specific accommodation request or disability nexus despite the RA claim classification. The record indicates disability was not alleged and the grievance was characterized as a potential state-law contract claim, suggesting a translation failure where the housing problem was not converted into a legible FHA theory. Both Tier 1 standardized intake and Tier 2 theory selection could address this breakdown."
+  },
+  {
+    "source_file": "9577196_2022_Gomez v. Cedar Oaks Apartments L.P._caed",
+    "case_name": "Patricia Gomez v. Cedar Oaks Apartments L.P.",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "NONE_APPARENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "This is a discovery order in an ongoing case, not a dispositive ruling on the FHA claim. The fha_claims array is empty and the accommodation description explicitly states the underlying claim is not described in the order, making it impossible to classify a pleading failure or identify missing institutional functions. The ruling addresses only financial-records production and a prior settlement agreement relevant to punitive damages, with no indication of a doctrinal gap or public-process breakdown."
+  },
+  {
+    "source_file": "9533633_2022_Petramala v. Phoenix, City of_azd",
+    "case_name": "Michael Petramala v. City of Phoenix, et al.",
+    "pleading_failure_family": "FACTUAL_DETAIL",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY",
+      "MEDICAL_OR_DISABILITY_CORROBORATION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "MEDICAL_OR_PROVIDER_LETTER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff with a Section 8 voucher was dismissed at the pleading stage under Iqbal/Twombly for failing to allege his disability status with non-conclusory factual details, despite having a concrete accommodation request for closer parking. The record indicates a factual detail failure where the plaintiff lacked support to tie the statutory element of disability to concrete facts, suggesting missing institutional functions for medical documentation and fact development that could be addressed through both Tier 1 reporting architecture and Tier 2 intermediation."
+  },
+  {
+    "source_file": "9581094_2022_(PS) Roberts v. Sacramento Housing _ Redevelopment Agency_caed",
+    "case_name": "Sydney Brooke Roberts v. Sacramento Housing and Redevelopment Agency",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "This pro se Section 8 voucher tenant’s complaint was dismissed at the in forma pauperis screening stage under Iqbal/Twombly for failing to allege facts about her disability, the necessity of the room-allocation accommodation, or the Housing Authority’s refusal. The structured record shows a clear translation failure where the grievance was not tied to the four-element FHA reasonable accommodation test, indicating missing institutional support for theory selection and document assembly in a public subsidy context."
+  },
+  {
+    "source_file": "9586242_2023_Goodwin v. Yamada_caed",
+    "case_name": "Duchun Lafre Goodwin v. Michael M. Yamada",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The record reflects a pro se plaintiff whose complaint was screened and dismissed under 28 U.S.C. § 1915 for failure to state cognizable FHA claims, citing vague 'intentional discrimination' allegations without specifying any accommodation request or factual basis. The plaintiff’s subsequent failure to respond to the court’s order to amend or clarify the complaint indicates a translation failure rooted in missing theory selection and document assembly functions, fixable through both Tier 1 intake screening and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "9590670_2023_(PS) Peters v. Ervin_caed",
+    "case_name": "Caitlin Nicole Peters v. Charles Ervin, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "COMPARATOR_OR_INTENT_GAP",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff’s FHA claim was dismissed under Iqbal/Twombly as conclusory for failing to allege discriminatory reasons underlying the eviction or housing denial. The record indicates she challenged actions by county officials and public programs but did not translate those grievances into the required elements of a disparate-treatment claim. This reflects missing institutional support for theory selection and fact development, particularly in navigating the boundary between public-process grievances and cognizable FHA theories."
+  },
+  {
+    "source_file": "9587971_2023_Goodwin v. City Attorney's Office_caed",
+    "case_name": "Goodwin v. City Attorney's Office",
+    "pleading_failure_family": "FACTUAL_DETAIL",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff's complaint was screened under 28 U.S.C. § 1915(e)(2) and dismissed under Iqbal/Twombly for lacking any factual allegations identifying what happened, when, or who was involved, constituting a complete failure to tie legal elements to facts. The municipal defendant (City Attorney's Office) suggests a potential public-process dimension, but the record is too thin to identify specific observable facts beyond general administrative records."
+  },
+  {
+    "source_file": "9606994_2022_Christian v. Rancho Grande Manufactured Home Community_cand",
+    "case_name": "Emory D. Christian v. Rancho Grande Manufactured Home Community",
+    "pleading_failure_family": "CAUSAL_LINK",
+    "pleading_failure_mechanism": "ADVERSE_ACTION_NOT_CONNECTED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "LEASE_OR_POLICY_TEXT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The structured record reflects a pro se manufactured-housing tenant whose FHA disability claim was dismissed at the motion-to-dismiss stage under Twombly/Iqbal. The court specifically found that the plaintiff failed to allege that defendants acted 'because of' her disability, indicating a breakdown in translating the grievance into the required causal-link elements of an FHA claim. This pattern suggests missing institutional support for theory selection and fact development, and appears fixable through both standardized intake documentation and legal intermediation."
+  },
+  {
+    "source_file": "9609460_2023_Silver v. Greystar Real Estate Partners, LLC_cand",
+    "case_name": "Silver v. Greystar California, Inc.",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "THEORY_SELECTION",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects a pro se plaintiff who voluntarily dismissed her FHA claim under Rule 15(a)(2) before merits were reached, with disability_alleged marked false and accommodation_type undetermined, indicating no administratively observable facts were developed. The voluntary dismissal prevents a definitive pleading-failure diagnosis, but the complete absence of documented request or medical corroboration suggests systemic intake and translation failures that Tier 1 reporting and Tier 2 intermediation could potentially address."
+  },
+  {
+    "source_file": "9621223_2023_Moore v. Pacific View Apartments Carlsbad LLC_casd",
+    "case_name": "Moore v. Pacific View Apartments Carlsbad LLC",
+    "pleading_failure_family": "ELEMENT_MISMATCH",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "The court dismissed this pro se plaintiff's reasonable accommodation claim at the in forma pauperis screening stage because she failed to allege she belonged to the protected class of persons with disabilities, a required element under § 3604(f)(3)(B), and did not specify what accommodation was requested. This reflects an element mismatch where the plaintiff invoked the legal theory but failed to map facts onto its required elements, indicating missing institutional support for theory selection, fact development, and document assembly that could be addressed by both Tier 1 reporting architecture and Tier 2 intermediation."
+  },
+  {
+    "source_file": "9635704_2022_Webb v. State of Delaware_ded",
+    "case_name": "David Q. Webb v. State of Delaware, et al.",
+    "pleading_failure_family": "ELEMENT_MISMATCH",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "Pro se plaintiff alleged familial status discrimination but as a single male without minor children, he does not satisfy the statutory definition requiring minor children, resulting in an IQBAL_TWOMBLY dismissal for failure to state a claim. This constitutes an element mismatch where the selected theory's protected class requirement was not met by plaintiff's demographic status in the context of a state emergency hotel voucher program. The case implicates public process failures in subsidized housing administration and suggests need for both Tier 1 intake clarity on protected class definitions and Tier 2 legal theory selection support."
+  },
+  {
+    "source_file": "9680054_2022_Jackson v. Chicago Housing Authority_ilnd",
+    "case_name": "Curtis K. Jackson, Sr. v. Chicago Housing Authority, et al.",
+    "pleading_failure_family": "CAUSAL_LINK",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff’s FHA claims were dismissed at the motion-to-dismiss stage under Iqbal/Twombly because he failed to allege personal involvement by CHA defendants in the alleged denials of parking and laundry access, which the court found were attributable to Lake Street Studios. The record indicates CHA actually assisted plaintiff, revealing a misalignment between the defendant sued and the entity responsible for the adverse actions. This reflects a breakdown in intake screening and theory selection regarding proper defendant identification in the Section 8 voucher context, with administratively observable facts including the accommodation request and program rules."
+  },
+  {
+    "source_file": "9695454_2022_Black v. Friedrichsen_innd",
+    "case_name": "Sandra Black v. Naomi Friedrichsen, et al.",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "The court denied defendants' motion for a preliminary injunction to restrict the pro se plaintiff's social media posts, ruling on First Amendment and procedural grounds without reaching the underlying reasonable accommodation claim merits. Because the case remains pending with the plaintiff prevailing on this procedural motion, no pleading failure diagnosis applies, though the structured record is too thin to assess the FHA claim substance or identify specific missing institutional functions."
+  },
+  {
+    "source_file": "9695934_2022_Johnson v. South Bend Housing Authority_innd",
+    "case_name": "Darleana Johnson v. Housing Authority of South Bend, et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "THEORY_SELECTION",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff’s complaint was dismissed for lack of subject matter jurisdiction because she failed to adequately plead Fair Housing Act claims to establish federal question jurisdiction, despite alleging mold and heat issues in public housing and seeking relocation assistance. The court cited Iqbal/Twombly and noted she did not allege discrimination based on a protected ground, indicating a procedural gateway failure rooted in pleading deficiencies. This public housing case involves administratively observable requests for repairs but reflects missing institutional support for theory selection and jurisdictional triage."
+  },
+  {
+    "source_file": "9696473_2022_Graham v. Herron Management Property_innd",
+    "case_name": "Graham v. Herron Management Property",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "COMPARATOR_OR_INTENT_GAP",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "LEASE_OR_POLICY_TEXT",
+      "DENIAL_OR_NO_RESPONSE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "The pro se plaintiff’s complaint was dismissed at the motion-to-dismiss stage under Iqbal/Twombly for conclusory allegations that failed to plausibly allege discriminatory intent regarding delayed water heater repairs and a billing dispute. The structured record indicates a translation failure where a concrete housing grievance was not tied to the required elements of disparate treatment or interference claims. Both Tier 1 reporting architecture to document repair requests and Tier 2 intermediation to select appropriate legal theories and develop comparator evidence appear necessary."
+  },
+  {
+    "source_file": "9697450_2023_Black v. Friedrichsen_innd",
+    "case_name": "Sandra Black v. Naomi Friedrichsen, Erika Holiday (Liddick), Hunters Run Apartments and Owners, and Interstate Realty Management Co.",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "LEASE_OR_POLICY_TEXT",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "COMPARATOR_OR_PATTERN_EVIDENCE"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "LOW",
+    "reasoning": "Pro se plaintiff alleging race-based disparate treatment faces a summary judgment motion that the structured record codes as granted but the case summary describes as under advisement with an extended response deadline, creating unresolved ambiguity about case status. The denial of multiple procedural motions and pro se status indicate missing institutional intermediation functions, while the private landlord context confirms no public process failure."
+  },
+  {
+    "source_file": "9698376_2024_Mabry v. City of East Chicago_innd",
+    "case_name": "Mabry v. City of East Chicago",
+    "pleading_failure_family": "MERITS_EVIDENCE",
+    "pleading_failure_mechanism": "TECHNICAL_PROOF_GAP",
+    "institutional_function_missing": [
+      "EXPERT_OR_TECHNICAL_TRANSLATION",
+      "ADMINISTRATIVE_RECORD_BUILDING"
+    ],
+    "administratively_observable_fact_pattern": [
+      "INSPECTION_OR_MEASUREMENT_DATA",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The record reflects a post-judgment cost opinion where plaintiffs previously lost FHA claims at summary judgment on a developed record involving lead and arsenic contamination. The contamination context suggests a technical proof gap dominated the merits, while the municipal defendant and Section 8 subsidy indicate public process dimensions. The structured data contains contradictions regarding claim theory, warranting high priority review to clarify the actual basis for the summary judgment dismissal."
+  },
+  {
+    "source_file": "9734255_2023_Linardon v. Boston Housing Authority_mad",
+    "case_name": "Kelechi Linardon v. Boston Housing Authority et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff's complaint was deemed 'virtually impossible' to decipher and dismissed at the motion to dismiss stage under Iqbal/Twombly for failing to allege specific facts linking defendants to the housing decisions or supporting the accommodation denial. Because the case involves a public voucher program (MRVP) with administratively observable records, the pleading failure appears fixable through both Tier 1 standardized intake and reporting architecture and Tier 2 institutional support for theory selection and document assembly."
+  },
+  {
+    "source_file": "9735401_2024_Keating v. The Commonwealth of Massachusetts_mad",
+    "case_name": "Keating v. Commonwealth of Massachusetts",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "COMPARATOR_OR_INTENT_GAP",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "LEASE_OR_POLICY_TEXT",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff filed a 72-page amended complaint alleging a decades-long fraudulent scheme involving real estate transactions, but the court dismissed under Iqbal/Twombly for failure to articulate a coherent FHA claim or specify which defendants engaged in discriminatory conduct. The dismissal reflects a translation failure where the grievance was not mapped onto disparate-treatment elements, particularly missing allegations of discriminatory animus connecting each defendant to the alleged harm. This pattern suggests missing institutional support for theory selection and document assembly, and appears fixable through both standardized intake reporting and legal intermediation to focus the claims."
+  },
+  {
+    "source_file": "9741403_2023_Cooper v. Mr. Timmins_mdd",
+    "case_name": "Lynette Cooper v. Mr. Timmins, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The record reflects a pro se tenant's retaliation claim against a public housing authority dismissed at the motion-to-dismiss stage under Iqbal/Twombly. The structured summary explicitly notes that no specific accommodation request was described, suggesting a translation failure where the plaintiff could not allege the protected activity necessary to support a retaliation claim. This pattern indicates missing institutional support for theory selection and fact development in a public-process context."
+  },
+  {
+    "source_file": "9759789_2024_Servis v. Jang_miwd",
+    "case_name": "Robert Servis, Jr., et al. v. Inyoung Jang, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "STATUTORY_HOOK_UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "LEASE_OR_POLICY_TEXT",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se case was dismissed at the motion-to-dismiss stage under Iqbal/Twombly because the complaint failed to identify any specific FHA provision violated or allege facts supporting a cognizable theory, indicating a translation failure. The record notes an alternative res judicata bar from prior state litigation, but the primary deficiency is the lack of a statutory hook, suggesting missing institutional support for theory selection and document assembly."
+  },
+  {
+    "source_file": "9771854_2023_Richardson v. Cardinal Ritter Institute Residential Services Corporation_moed",
+    "case_name": "Genena V. Richardson v. Cardinal Ritter Residential Services",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "STATUTORY_HOOK_UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff’s Section 8 application was denied based on mental-health exclusion criteria, yet the court found she 'does not clearly articulate an FHA claim' despite referencing the Act in attachments, and instead analyzed deficient ADA Title II/III claims. This IQBAL_TWOMBLY dismissal under §1915(e)(2) reflects a translation failure where a cognizable housing-discrimination grievance was not mapped to the correct statutory theory, complicated by the public-subsidy context."
+  },
+  {
+    "source_file": "9797225_2022_Westjohn v. Seldin Co._ned",
+    "case_name": "Westjohn v. Seldin Co.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PHYSICAL_ACCESS_BARRIER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The court dismissed this pro se action on standing and mootness grounds because the plaintiff relocated to Illinois, eliminating any live controversy over injunctive relief regarding the inaccessible touchscreen entry and package systems. Although the plaintiff identified specific communication barriers and requested accommodations, the procedural gateway of mootness—potentially avoidable through damages or class-action framing—dominated the outcome."
+  },
+  {
+    "source_file": "9811823_2024_FRANKLIN v. THE JERSEY CITY HOUSING AUTHORITY_njd",
+    "case_name": "Edwina Franklin v. The Jersey City Housing Authority, Secretary, Department of Housing and Urban Development",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff's motion for default judgment was dismissed without prejudice due to failure to obtain a new Rule 55(a) default entry after filing an amended complaint, creating a procedural gateway barrier. The underlying FHA claims remain pending but are marked as UNCLEAR in the record, suggesting the need for raw-text review to assess the substantive theory against the public housing authority defendant."
+  },
+  {
+    "source_file": "9834629_2024_Perkins Jr. v. Panorama Towers Condo Unit Owners, Dennis Kariger_nvd",
+    "case_name": "Preston D. Perkins, Jr. v. Panorama Towers Condominium Complex, et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The structured record shows a pro se plaintiff who cited the Fair Housing Act by name but failed to allege any specific discrimination facts or protected-class nexus, resulting in dismissal for lack of subject matter jurisdiction. With claim_types marked UNCLEAR and disability_alleged false, the failure reflects a procedural gateway defect rooted in an inability to translate a grievance into a cognizable federal claim. This pattern indicates missing institutional functions in theory selection and document assembly that could be remedied through both Tier 1 standardized intake and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "9833039_2023_Kandell v. SUR 702_nvd",
+    "case_name": "Ronald Eric Kandell v. SUR 702, et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "This pro se disability discrimination claim was dismissed under 28 U.S.C. § 1915 screening because the plaintiff failed to file timely objections to the magistrate judge's report and recommendation. The record contains no specification of the accommodation request or factual basis for the disability claim, indicating a procedural gateway failure. The loss appears attributable to missing institutional support for procedural compliance and document assembly."
+  },
+  {
+    "source_file": "9833369_2023_Brown v. American Homes 4 Rent_nvd",
+    "case_name": "Ronald A. Brown, Sr. v. American Homes 4 Rent",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "LIMITATIONS_OR_TIMELINESS",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The pro se plaintiffs' FHA claims were dismissed at the in forma pauperis screening stage after multiple amendments, with the court citing that claims were time-barred or failed to state a viable claim. The accommodation request remained undetermined in the record, and jurisdictional issues arose from suing in Nevada federal court regarding Ohio property, suggesting failures in both initial intake documentation and jurisdictional triage."
+  },
+  {
+    "source_file": "9850828_2019_McKins v. Pye_nysd",
+    "case_name": "McKins v. Pye",
+    "pleading_failure_family": "CAUSAL_LINK",
+    "pleading_failure_mechanism": "ADVERSE_ACTION_NOT_CONNECTED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff requested railings to accommodate a mobility disability but was denied housing allegedly due to a criminal record. The court dismissed under Iqbal/Twombly because the plaintiff failed to plead facts showing the denial was 'because of' his disability or race rather than his criminal history, indicating a causal-link failure. This represents a breakdown in both theory selection—framing the claim as disparate treatment rather than reasonable accommodation—and fact development to show pretext or disparate impact. Both Tier 1 reporting architecture and Tier 2 institutional intermediation could help translate this administratively observable grievance into a legally legible FHA claim."
+  },
+  {
+    "source_file": "9860556_2023_Hendricks v. Urban _ Economic Development_nynd",
+    "case_name": "Danielle Hendricks v. Krystal Curley, et al.",
+    "pleading_failure_family": "CAUSAL_LINK",
+    "pleading_failure_mechanism": "ADVERSE_ACTION_NOT_CONNECTED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "MEDICAL_OR_PROVIDER_LETTER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff's FHA claim was dismissed at screening for NEXUS_FAILURE because she failed to allege facts showing her Section 8 voucher termination was taken 'because of' her mental health disability, despite notifying the Housing Authority of her condition. This represents a causal-link breakdown in a public-subsidy termination context where standardized intake prompts and institutional theory-selection support could have connected the disability to the adverse action."
+  },
+  {
+    "source_file": "9873146_2022_Sykes v. New York City Housing Authority_nysd",
+    "case_name": "Derry Sykes v. New York City Housing Authority",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "DISABILITY_NEXUS_MISSING",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PHYSICAL_ACCESS_BARRIER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The structured record shows a pro se public housing tenant with mental health disabilities whose complaint was dismissed under Iqbal/Twombly for failing to allege a sufficient nexus between his disability and the requested emergency repairs, or discriminatory animus for the disparate treatment claim. This represents a translation failure where the plaintiff's grievance about housing conditions was not legally articulated as a disability accommodation with the required causal linkage. The case involves a public housing authority and observable facts about repair requests and physical conditions, making it a strong candidate for both Tier 1 intake architecture and Tier 2 legal intermediation to bridge the gap between maintenance needs and accommodation theory."
+  },
+  {
+    "source_file": "9880628_2022_Jones v. City of New York_nysd",
+    "case_name": "Keisha A. Jones v. City of New York, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "This pro se case was dismissed at the motion-to-dismiss stage under Iqbal/Twombly for failure to state a claim, with the structured record indicating an unclear FHA theory and undetermined accommodation type that could not be identified from the procedural order. The plaintiff was granted leave to amend, suggesting a translation failure in the initial pleading that could benefit from both Tier 1 intake standardization and Tier 2 legal framing support. The defendant is a municipality, raising potential public process dimensions, though the record lacks sufficient detail to identify specific administratively observable facts. Given the procedural posture and thin factual summary, classification confidence is low and raw-text review is warranted to assess the underlying grievance."
+  },
+  {
+    "source_file": "9882824_2023_McKins v. Pye_nysd",
+    "case_name": "McKins v. Pye",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "DOCUMENT_ASSEMBLY",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects a pro se plaintiff overcoming a procedural dismissal and Order to Show Cause for failure to prosecute, with the court now ordering service via U.S. Marshals; substantive FHA claims have not been analyzed, indicating claim survival rather than pleading failure. The contradictory disability flags and undetermined accommodation details necessitate high-priority raw-text review."
+  },
+  {
+    "source_file": "9884189_2023_Syville v. City of New York_nysd",
+    "case_name": "Alphonso Syville v. City of New York",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The structured record reflects a pro se plaintiff challenging municipal shelter services during COVID-19, dismissed at initial screening under Iqbal-Twombly for failing to allege any specific accommodation request or factual details supporting the FHA claim. This indicates a translation failure where the underlying grievance was not converted into a legally legible reasonable accommodation theory, suggesting missing institutional support in theory selection, fact development, and document assembly. The public shelter context triggers the public-process flag and warrants high-priority raw-text review to assess the underlying administrative facts."
+  },
+  {
+    "source_file": "9890186_2023_Baltazar v. Pelican Managment Inc._nysd",
+    "case_name": "Mynor Federico Nunez Baltazar v. Pelican Management, Inc.",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "This is a purely procedural service order granting IFP status and directing U.S. Marshals to serve defendants; all FHA claims remain pending with no merits reached and no dismissal entered. The accommodation type, disability category, and specific FHA section are all undetermined in the structured record, making any failure diagnosis speculative. Raw-text review is needed to assess whether the pro se complaint adequately frames its accommodation and disparate-treatment theories."
+  },
+  {
+    "source_file": "9893379_2024_West v. The City of New York_nysd",
+    "case_name": "Helen Elaine West v. The City of New York, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff’s reasonable accommodation claim was dismissed at the motion to dismiss stage under Iqbal/Twombly because she failed to specify what type of accommodation she requested for her mental health condition while in the supportive housing shelter system. This represents a translation failure where the grievance about shelter accessibility was not converted into a legally cognizable specific accommodation request, a problem that appears fixable through both standardized intake documentation and legal intermediation."
+  },
+  {
+    "source_file": "9893243_2024_Ball v. Hope East of Fifth HDFC Inc._nysd",
+    "case_name": "Ball v. Hope East of Fifth HDFC Inc.",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The structured record reflects a pro se IFP plaintiff at the initial service stage with an undetermined accommodation type, non-specific FHA section citation, and empty fha_claims array. The court ordered U.S. Marshals service, indicating the claim survives initial screening rather than suffering a pleading dismissal, but the thin factual record and lack of structured claim data warrant low confidence and high priority for raw-text review to clarify the operative theory."
+  },
+  {
+    "source_file": "9898221_2022_Moore v. Capital Realty Group, Inc._nywd",
+    "case_name": "Jerry W. Moore v. Capital Realty Group, Inc.",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "Pro se plaintiff's FHA reasonable accommodation claim survived in forma pauperis screening against private landlord defendants, while non-FHA claims against HUD were dismissed for lack of private right of action. The structured record indicates the specific accommodation request and housing type were undetermined, suggesting gaps in theory selection and fact development despite the claim's survival. Given the pro se status and thin structured data on the alleged accommodation, raw text review is prioritized to verify the factual basis that supported the screening court's finding of a colorable claim."
+  },
+  {
+    "source_file": "9913834_2022_Chapman v. Franklin County Sheriff_ohsd",
+    "case_name": "Tasha Chapman v. Franklin County Sheriff",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The court recommitted the pro se plaintiff's case for § 1915A screening review to determine whether the FHA claims are plausibly alleged, indicating potential pleading deficiencies without a final dismissal. With accommodation type, housing type, and disability category all undetermined in the structured record, the case exhibits thin fact development and unclear theory selection against a government defendant, warranting low confidence classification and high priority raw-text review."
+  },
+  {
+    "source_file": "9914876_2022_Epps v. United States of America_ohsd",
+    "case_name": "Alicia A. Epps v. Carl Linder, III, et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "EXHAUSTION_OR_PRECLUSION",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff's complaint was dismissed under 28 U.S.C. § 1915(e)(2)(B)(i) as duplicative of prior litigation and malicious, constituting a procedural gateway barrier of res judicata. The claim was coded as 'NOT_FHA' and 'other' concerning the demolition of public housing for stadium construction, indicating a failure to translate the displacement grievance into a cognizable FHA theory or document a specific accommodation request. The public housing context and sovereign immunity dismissal suggest missing jurisdictional triage and theory selection functions, while the underlying demolition decision represents an administratively observable public program rule."
+  },
+  {
+    "source_file": "9927566_2022_Allen v. loanDepot.com, LLC_ord",
+    "case_name": "Tracie Allen v. loanDepot.com, LLC",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "NONE_APPARENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "NEITHER",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The key_holding and outcome fields explicitly indicate the plaintiff's FHA discriminatory lending claim survived the motion to dismiss, constituting a pleading-stage win, despite the fha_claims array containing contradictory outcome data. The dispute centers on alleged misrepresentations regarding a NeighborhoodLIFT program deadline and loan approval likelihood. Because the claim survived, no pleading failure diagnosis is appropriate, though the data inconsistency warrants high-priority raw text review."
+  },
+  {
+    "source_file": "9928262_2022_Johnson v. Brenneke_ord",
+    "case_name": "Larry Johnson v. Thomas Brenneke; Garrett Lamar Miles; Guardian Management, LLC; Guardian Real Estate Services; Uptown Tower Apartments; Lisa Simonson; Kelly Paine; and Sunshine Sales",
+    "pleading_failure_family": "MERITS_EVIDENCE",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY",
+      "THEORY_SELECTION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "Pro se plaintiff lost at summary judgment with accommodation type and disability nexus undetermined in the structured record, indicating insufficient evidentiary development to survive judgment. The contradictory disability indicators and empty claims array suggest the plaintiff lacked support for fact development, document assembly, and theory selection that both Tier 1 reporting architecture and Tier 2 institutional intermediation could have provided."
+  },
+  {
+    "source_file": "9928046_2022_Johnson v. Brenneke_ord",
+    "case_name": "Larry Johnson v. Thomas Brenneke; Garrett Lamar Miles; Guardian Management, LLC; Guardian Real Estate Services; Uptown Tower Apartments; Lisa Simonson; Kelly Paine; and Sunshine Sales",
+    "pleading_failure_family": "MERITS_EVIDENCE",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY",
+      "MEDICAL_OR_DISABILITY_CORROBORATION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The structured record reflects a pro se plaintiff who lost at summary judgment due to insufficient evidence supporting the reasonable accommodation claim. Because the specific accommodation request could not be determined from the provided text and the court resolved the case on a developed record rather than pleading defects, the failure appears to be a merits-stage evidence gap. The thin record warrants low confidence and high priority for raw-text review to identify the specific evidentiary deficiency."
+  },
+  {
+    "source_file": "9928755_2022_Gibson v. Community Development Partners (CDP)_ord",
+    "case_name": "Gibson v. Community Development Partners",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "The structured record shows a pro se plaintiff with gender dysphoria whose complaint was dismissed at the motion-to-dismiss stage under Iqbal/Twombly. The court found she failed to specify what concrete accommodation she sought to address unsafe housing conditions, indicating a translation failure centered on request formulation rather than a developed merits dispute. This pattern suggests missing institutional support for theory selection and document assembly that could be addressed through both Tier 1 standardized intake tools and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "9936037_2022_HEIMBACH v. HILL_paed",
+    "case_name": "Heimbach v. Hill",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "LEASE_OR_POLICY_TEXT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff attempted to challenge private eviction proceedings under the FHA without alleging specific discriminatory facts or identifying a reasonable accommodation request, resulting in dismissal under Iqbal/Twombly. The record explicitly notes no specific accommodation request was identified and disability was not actually alleged despite being listed as the protected class, indicating a translation failure where a landlord-tenant grievance was not connected to a cognizable FHA theory."
+  },
+  {
+    "source_file": "9935831_2022_DEJESUS v. LUCEY_paed",
+    "case_name": "Alex DeJesus v. Bill Lucey and Martin Garcia",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects a pro se plaintiff whose complaint was dismissed under § 1915(e) screening without prejudice for failing to adequately plead facts supporting any FHA theory. With the claim theory explicitly coded as 'UNCLEAR' and contradictory indicators regarding disability allegations (disability_alleged: false versus primary_protected_class: disability), the failure appears to be a fundamental translation problem at the pleading stage. This suggests missing institutional support for theory selection and document assembly, fixable through both Tier 1 standardized intake and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "9939724_2023_WISSMAN v. PGM REAL ESTATE LLC, PROPERTY MANAGEMENT_paed",
+    "case_name": "Lauren E. Wissman v. PGM Real Estate LLC, Property Management, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff with mental health disability filed a 218-page complaint regarding Section 8 voucher extension and lease non-renewal that the court dismissed as 'disjointed, vague, and incomprehensible' under Rule 8 and Iqbal/Twombly for conclusory allegations failing to plausibly allege intent or causal links. The dismissal reflects a translation failure where concrete administrative requests were not organized into legible FHA theories, indicating missing institutional support for theory selection and document assembly in a public housing authority context."
+  },
+  {
+    "source_file": "9939426_2023_WISSMAN v. PGM REAL ESTATE LLC, PROPERTY MANAGEMENT_paed",
+    "case_name": "Lauren E. Wissman v. PGM Real Estate LLC, Property Management",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "STATUTORY_HOOK_UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "A pro se tenant's FHA reasonable-accommodation claim was dismissed at § 1915 screening before any factual development, with the theory coded as UNCLEAR and the accommodation type UNDETERMINED, indicating the grievance was never translated into a legally legible FHA framework. The missing institutional functions center on theory selection, fact development, and document assembly. Both Tier 1 standardized intake capture and Tier 2 legal translation appear necessary to remediate the deficiency."
+  },
+  {
+    "source_file": "George v. OVERALL CREEK APARTMENTS, LLC (1)",
+    "case_name": "George v. Overall Creek Apartments, LLC",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "NONE_APPARENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PHYSICAL_ACCESS_BARRIER",
+      "INSPECTION_OR_MEASUREMENT_DATA",
+      "LEASE_OR_POLICY_TEXT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The record describes a design-and-construction claim alleging wheelchair accessibility barriers, with the court ruling at the motion-to-dismiss stage on FHA preemption of third-party indemnification claims. Although the structured data cites IQBAL_TWOMBLY, the holding addresses obstacle preemption doctrine and permits the contribution claim to proceed, suggesting the plaintiff’s primary FHA claim survives this procedural stage, warranting a no-failure classification pending further development."
+  },
+  {
+    "source_file": "10161706_2024_In re_ Nyah Sekel_ca4",
+    "case_name": "In re: Nyah Sekel",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "LOW",
+    "reasoning": "Pro se petitioner sought mandamus to compel summary judgment in an underlying FHA reasonable accommodation case, but the Fourth Circuit denied relief because mandamus is an extraordinary remedy requiring a clear right to relief and cannot substitute for an appeal. The loss stems from a procedural gateway defect regarding the availability of the writ rather than the merits of the accommodation claim, suggesting the petitioner lacked institutional support for proper jurisdictional triage and theory selection."
+  },
+  {
+    "source_file": "10166992_2024_Harvey v. Maxwell _ Morgan P.C._azd",
+    "case_name": "TL Harvey v. Maxwell & Morgan P.C., et al.",
+    "pleading_failure_family": "CAUSAL_LINK",
+    "pleading_failure_mechanism": "DISABILITY_NEXUS_MISSING",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY",
+      "MEDICAL_OR_DISABILITY_CORROBORATION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "LEASE_OR_POLICY_TEXT",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se case was dismissed at the motion-to-dismiss stage under Iqbal/Twombly because the complaint failed to identify the plaintiff’s disability or explain how the window air conditioner was necessary for that disability. The record indicates a clear request for a policy exception from HOA rules, but the missing medical corroboration and failure to tie the accommodation to the disability reflect gaps in fact development and document assembly that Tier 1 reporting and Tier 2 legal intermediation could address."
+  },
+  {
+    "source_file": "10171441_2024_(PS) Coleman v. Fang_caed",
+    "case_name": "Jacqueline Coleman v. Xiaoyan Fang and Ye Fang",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "STATUTORY_HOOK_UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "LEASE_OR_POLICY_TEXT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff filed an FHA complaint with no specified statutory section, an unclear theory, and a preliminary injunction motion denied for lacking any legal or factual basis; the underlying claim survives procedurally but the plaintiff has not translated a housing grievance—apparently rooted in a domestic-violence context—into a cognizable FHA framework. The record is contradictory (disability_alleged is false yet primary_protected_class is disability) and the claim specifics are entirely unspecified, making this a strong candidate for raw-text review to determine whether a viable FHA theory exists."
+  },
+  {
+    "source_file": "10183158_2024_Cooper v. Parham-Greene_mdd",
+    "case_name": "Lynette Cooper v. Housing Authority Baltimore City et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "EXHAUSTION_OR_PRECLUSION",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se retaliation claim was dismissed at initial screening under 28 U.S.C. § 1915(e)(2)(B) based on res judicata from prior dismissed cases and for failing to allege facts connecting the rent-payment dispute to the 2015 lawsuit. The defendant is a public housing authority, triggering the public-process flag, while the res judicata bar and incoherent pleading suggest missing institutional support for jurisdictional triage and theory selection."
+  },
+  {
+    "source_file": "10182119_2024_Believe TGH LLC v. Pointe Coupee Parish_lamd",
+    "case_name": "Believe TGH, LLC, et al. v. Pointe Coupee Parish",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "ADMINISTRATIVE_RECORD_BUILDING",
+      "EXPERT_OR_TECHNICAL_TRANSLATION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The detailed claim data and key holding indicate the court denied reconsideration of a prior denial of partial summary judgment, finding genuine disputes of material fact remain regarding the reasonableness and necessity of the zoning accommodation, suggesting the claim survives despite the contradictory top-level outcome field. The dispute involves a therapeutic group home operator against a municipality regarding a zoning variance for supportive housing, implicating public process failures and requiring both Tier 1 documentation and Tier 2 legal support to resolve the evidentiary disputes."
+  },
+  {
+    "source_file": "10195301_2024_MacNeal v. The State of New York_nysd",
+    "case_name": "Kelly MacNeal v. The State of New York, et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "LOW",
+    "reasoning": "Pro se plaintiff’s complaint was screened under § 1915 and dismissed against certain agency defendants for failure to state a claim because they are not separately suable entities under New York law, without reaching the merits of the FHA reasonable accommodation allegations. The record indicates no accommodation request was identified and the housing type remains undetermined, suggesting a procedural gateway failure centered on defendant capacity and jurisdictional triage rather than substantive pleading of the discrimination claim."
+  },
+  {
+    "source_file": "10199579_2024_Blackburn v. Webb_okwd",
+    "case_name": "Blackburn v. Webb",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "EXHAUSTION_OR_PRECLUSION",
+    "institutional_function_missing": [
+      "DOCUMENT_ASSEMBLY",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The structured record reflects a pro se plaintiff whose FHA reasonable accommodation claims survived initial pleading but were later dismissed with prejudice for procedural noncompliance under Fed. R. Civ. P. 16(f)(2) and 37(b)(2)(C), constituting a procedural gateway barrier. The absence of counsel and dismissal for failure to comply with discovery and scheduling orders rather than merits suggests the loss stems from missing institutional support for document assembly and procedural navigation, not a doctrinal gap."
+  },
+  {
+    "source_file": "10280905_2024_PRINCE v. PAJELA_njd",
+    "case_name": "Donell L. Prince v. Priscilla Pajela et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff's FHA claims were dismissed at the motion-to-dismiss stage as futile under Rule 15(a) for failing to identify the protected activity or connect proposed defendants to discrimination, indicating a translation failure where the grievance was not rendered into a legible reasonable accommodation theory. The record notes the accommodation request was not clearly identified and the theory is coded as UNCLEAR, suggesting missing institutional support for theory selection and fact development, while data inconsistencies (disability_alleged false vs. primary protected class disability) warrant high-priority raw text review."
+  },
+  {
+    "source_file": "10287444_2024_Morris v. Baltimore Municipal_mdd",
+    "case_name": "Deborah Morris v. Amtrak, et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff filed a 63-page sprawling complaint dismissed at the MTD stage for lack of standing (failure to allege particularized injury) and shotgun pleading under Iqbal/Twombly standards. The record indicates a failure of jurisdictional triage and document assembly, with no administratively observable facts such as documented requests or medical letters supporting the vague allegations of housing segregation against a municipal defendant."
+  },
+  {
+    "source_file": "10277927_2024_Morris v. Baltimore Municipal_mdd",
+    "case_name": "Deborah Morris v. Baltimore Municipal",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff's complaint was dismissed for lack of standing under Lujan and Spokeo and as an incomprehensible shotgun pleading under Twombly, with the court finding no particularized injury alleged regarding the tunnel construction and condemnation proceedings. The empty fha_claims array and 'other' primary claim type indicate a failure to translate the public infrastructure grievance into a cognizable FHA theory, suggesting missing jurisdictional triage and theory selection functions in a public process context."
+  },
+  {
+    "source_file": "10302146_2024_Tanner v. Rochdale Village Inc._nyed",
+    "case_name": "Walter Tanner v. Rochdale Village Inc.",
+    "pleading_failure_family": "FACTUAL_DETAIL",
+    "pleading_failure_mechanism": "COMPARATOR_OR_INTENT_GAP",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "COMPARATOR_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "Pro se plaintiff alleged disparate treatment based on perceived disability but the complaint was dismissed at the motion-to-dismiss stage under Iqbal/Twombly for presenting only conclusory allegations without factual support to raise an inference of discriminatory motive. The structured record indicates plaintiff identified specific adverse actions—refusal to perform repairs and threats of eviction—but failed to develop concrete facts connecting those actions to his perceived disability status, indicating gaps in fact development and comparator documentation that appear fixable through both Tier 1 reporting architecture and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "10397848_2025_(PS) Faruki v. Housing Authority for the County of Sacramento_caed",
+    "case_name": "Faruki v. Housing Authority for the County of Sacramento",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "DISABILITY_NEXUS_MISSING",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se Section 8 voucher applicant's complaint was dismissed under Iqbal/Twombly for conclusory allegations that failed to specifically allege defendants knew of his cancer-related disability or that he communicated the need for expedited processing as a reasonable accommodation. The structured record indicates a translation failure centered on the disability nexus and fact development, occurring within a public housing authority administrative process. Standardized intake documentation and institutional intermediation to develop the medical and timeline facts could have addressed the pleading deficiencies."
+  },
+  {
+    "source_file": "11267603 - How cited",
+    "case_name": "Group Home on Gibson Island v. Gibson Island Corp.",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "NONE_APPARENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "NEITHER",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The plaintiff's retaliation claim survived summary judgment, with the court finding a genuine dispute of material fact on whether the defendant's litigation updates constituted adverse action dissuading FHA-rights exercise, so no pleading-failure diagnosis applies. The retaliation theory resting on litigation-period communications as adverse action raises a moderately interesting doctrinal question about the boundaries of adverse-action doctrine. However, the record is notably thin—key holding, brief summary, defendant type, and housing type are all UNDETERMINED—making raw-text review important."
+  },
+  {
+    "source_file": "11267649 - Bowman v. SWBC REAL ESTATE SERVICES, LLC",
+    "case_name": "Dana Bowman v. SWBC Real Estate Services, LLC et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PHYSICAL_ACCESS_BARRIER",
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff's case was dismissed under Rule 12(b)(1) for lack of Article III standing because he failed to plead that he uses a wheelchair or was personally impeded by the accessibility barriers he observed while touring defendants' properties as a prospective tenant. Although the record identifies a design-and-construction claim under § 3604(f)(3)(C), the court's analysis references § 3604(f)(2) and standing requirements, creating ambiguity that warrants raw-text review. The failure reflects both missing fact-development support to connect the plaintiff's paraplegia to concrete injury and jurisdictional triage to navigate standing doctrine, which could be addressed through standardized intake capturing specific mobility aid use and barriers encountered."
+  },
+  {
+    "source_file": "10331798_2025_Doe v. 2001 Arthur LLC_nysd",
+    "case_name": "John Doe #1 v. 2001 Arthur LLC",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "The structured record reflects a preliminary procedural order granting in forma pauperis status and directing service, with the court explicitly noting it has not yet screened the FHA complaint or ruled on any merits. The plaintiff is pro se, the accommodation type and description are undetermined, and the fha_claims array is empty, rendering the record too thin to diagnose any specific pleading failure mechanism or missing institutional function."
+  },
+  {
+    "source_file": "10337087_2025_Anderson Bey v. Roc Nation LLC_nysd",
+    "case_name": "Bernard T. Anderson Bey v. Roc Nation LLC, et al.",
+    "pleading_failure_family": "NO_FAILURE_DEFENDANT_WIN",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "THEORY_SELECTION",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "Pro se plaintiff brought a mixed conspiracy complaint against a public housing authority and private entities; the court denied preliminary injunctive relief on grounds of irreparable harm and jurisdiction without reaching the FHA merits, leaving the claim pending but procedurally stalled. The record suggests the plaintiff conflated distinct legal theories and defendants, indicating breakdowns in intake screening and theory selection that Tier 1 reporting and Tier 2 intermediation could potentially address."
+  },
+  {
+    "source_file": "10346694_2025_Ballentine v. Barak_nysd",
+    "case_name": "Quintin J. Ballentine v. Postgraduate Center for Mental Health and Jacob Barak",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The case is at the SCREENING_1915 stage with merits not reached and outcome marked PENDING, so no failure diagnosis is appropriate yet. The pro se plaintiff's accommodation request remains UNDETERMINED per the record, suggesting missing institutional support for theory selection and fact development, while the thin early-stage record warrants high-priority raw-text review to assess the actual grievance."
+  },
+  {
+    "source_file": "10349111_2025_Durham v. Liberty Park Terrace Property Management_waed",
+    "case_name": "John Michael Ray Durham v. Liberty Park Terrace Property; Cliff Butler; Tenets of Apartment #4; and Spokane Police Department",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff sought preliminary injunction alleging retaliation and harassment but failed to allege facts showing discrimination on any protected basis under the FHA, resulting in an IQBAL_TWOMBLY dismissal at the pleading stage. The record indicates no reasonable accommodation was requested and the grievance was not translated into a legally cognizable disparate treatment claim with the required protected class nexus, indicating breakdowns in theory selection and fact development."
+  },
+  {
+    "source_file": "10358636_2025_Morris v. Baltimore Municipal_mdd",
+    "case_name": "Morris v. Baltimore Municipal",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PHYSICAL_ACCESS_BARRIER",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se public housing case was dismissed at the motion-to-dismiss stage under Iqbal/Twombly for a sprawling 55-page complaint containing conclusory assertions that violated Rule 8's brevity requirement. The structured record shows plaintiffs requested specific structural modifications (elevators, bathroom upgrades) but failed to allege facts connecting the municipal defendant to the housing conditions or demonstrating the disability nexus and necessity of the accommodations. This pattern indicates a translation failure where administratively observable facts were not legally framed, suggesting fixability through both Tier 1 intake documentation and Tier 2 theory-selection support."
+  },
+  {
+    "source_file": "10453952_2025_Maponga v. Hall Park Hotel_txed",
+    "case_name": "Stansly T. Maponga v. Hall Park Hotel, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "LEASE_OR_POLICY_TEXT",
+      "MEDICAL_OR_PROVIDER_LETTER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff’s complaint was dismissed under §1915(e)(2)(B) screening for failure to meet Iqbal/Twombly standards, specifically because he failed to identify any specific accommodation requested or tie his back disability to a particular housing need. The record indicates a translation failure where the grievance about removal from the hotel was not converted into a legible FHA reasonable accommodation claim, suggesting missing institutional support for theory selection and fact development."
+  },
+  {
+    "source_file": "10547446_2025_Green v. Allied First Bank SB_mssd",
+    "case_name": "Green v. Allied First Bank SB",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "EXHAUSTION_OR_PRECLUSION",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "NEITHER",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The court dismissed the pro se plaintiff's second lawsuit under claim preclusion (res judicata) because it involved the same parties, prior final judgment, and identical nucleus of facts regarding mortgage loss-mitigation and foreclosure. Although the record is tagged with reasonable accommodation denial, the description explicitly states no specific accommodation was alleged and disability was not invoked, revealing a mismatch between the grievance and FHA theory. This is a hard procedural bar that Tier 1 or Tier 2 interventions could not override once the prior judgment was entered, though better triage might have prevented the refiling."
+  },
+  {
+    "source_file": "10529865_2025_Munroe v. New York University_nysd",
+    "case_name": "Luis Ricardo Munroe v. New York University, Erin Jane Lynch, Legal Affairs Department, Office of Faculty Housing",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "The record captures only a preliminary procedural order granting in forma pauperis status and directing service, with no merits determination. The accommodation description is listed as undetermined and the disability allegation field contradicts the protected class designation, suggesting a thin pro se filing, but the claim has not yet been tested or dismissed."
+  },
+  {
+    "source_file": "10406261_2025_Raymond May, Jr. v. Martin Fein Interest Ltd._ca4",
+    "case_name": "Raymond Earl May, Jr.; Angela Dolores May v. Martin Fein Interest Ltd.",
+    "pleading_failure_family": "NO_FAILURE_DEFENDANT_WIN",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "The Fourth Circuit affirmed summary judgment for the defendant on a pro se reasonable accommodation claim, with the structured record noting only that no reversible error occurred and providing no substantive analysis of the specific FHA theory or factual basis. The record contains contradictory signals regarding whether disability was actually alleged and lists the FHA theory as 'UNCLEAR', making it impossible to determine whether the loss stemmed from insufficient evidence, legal interpretation, or a pleading defect that survived to summary judgment."
+  },
+  {
+    "source_file": "10567278_2025_Sexton v. Department of Homeless Services_nysd",
+    "case_name": "Charles H.M.S. Sexton v. Department of Homeless Services, et al.",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY",
+      "THEORY_SELECTION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff’s FHA discrimination and retaliation claims survived the motion to dismiss against seven defendants despite the accommodation type being undetermined and the legal theory coded as unclear, indicating the court found sufficient factual allegations to proceed past Iqbal/Twombly screening. The involvement of the Department of Homeless Services and supportive housing establishes a public-process context where administrative records and grievance procedures are observable, though the thin structured record regarding specific requests suggests gaps in fact development and document assembly that could benefit from both Tier 1 reporting architecture and Tier 2 institutional intermediation."
+  },
+  {
+    "source_file": "10453843_2025_Newman v. State of Delaware_ded",
+    "case_name": "Newman v. State of Delaware",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se case involving a Section 8 voucher was dismissed at the screening stage under 28 U.S.C. § 1915(e)(2)(B)(i) for frivolousness, with the court finding 'fantastic or delusional factual scenarios' and indisputably meritless legal theories rather than engaging with the reasonable accommodation claim's elements. The plaintiff's mental health disability and pro se status, combined with the public housing subsidy context, suggest a translation failure where grievances about voucher payments could not be rendered into a cognizable FHA theory without institutional support in theory selection and document assembly."
+  },
+  {
+    "source_file": "10593559_2025_Rivers v. Parkchester Condominium Complex_nysd",
+    "case_name": "Adrian Oree v. Parkchester Condominium Complex, PPC Residential, LLC, Parkchester Preservation Management LLC, Parkchester Preservation Company, LP",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "NONE_APPARENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "LOW",
+    "reasoning": "This is a pro se case at the initial service-of-process stage with no merits determination; the accommodation type and specific facts remain undetermined in the structured record. The court’s referral to the Pro Se Clinic suggests recognition that the plaintiff may benefit from institutional intermediation, but no pleading failure has occurred as the claim remains pending."
+  },
+  {
+    "source_file": "10584757_2025_Avila v. Davis_nysd",
+    "case_name": "Jimmy Avila; Mezie Oduka v. Danisha Davis; Lindsey M. Blackwell; City of New York; NYC Department of Housing Preservation and Development; Jane Doe; John Doe; Symone Elizabeth Sylvester; 1412 Col LLC; Basics, Inc.; JSAF Management LLC; Adult Protective Services; NYC Department of Homeless Services; City FHEPS; Breaking Ground; Harlem YMCA; Andrew Brain Bittens Esq.; Bronx Works; Office of Mental Health",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "THEORY_SELECTION",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiffs sued multiple NYC municipal agencies (HPD, DHS, APS, City FHEPS) alongside private landlords, but the court dismissed claims against the agencies because they are not suable entities under the NYC Charter—a clear jurisdictional/standing gateway defect. The FHA claims were never substantively framed (primary_claim_type is NOT_FHA, fha_claims is empty), indicating that theory selection and jurisdictional triage were both missing. The case involves public-program administration of homelessness-prevention subsidies and services, warranting the public-process flag and both Tier 1 and Tier 2 fixability."
+  },
+  {
+    "source_file": "10594319_2025_Randle v. Pearson_innd",
+    "case_name": "April Elisha Randle v. Shardai Pearson, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff's complaint was dismissed under § 1915(e)(2)(B) screening as frivolous because she failed to identify any protected class membership or specific FHA rights interfered with, despite alleging concrete housing condition deficiencies including cockroaches, mold, and leaking pipes. This reflects a fundamental translation failure where administratively observable grievances were not converted into a cognizable FHA theory, indicating missing institutional functions in theory selection, fact development, and document assembly that could be addressed by both Tier 1 reporting architecture and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "10599577_2025_ROSADO v. THE CITY OF CHESTER COUNTY PENNSYLVANIA_paed",
+    "case_name": "Geronimo F. Rosado, Jr. v. The City of Chester County, Pennsylvania, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se Section 8 voucher tenant's FHA claim was dismissed at screening under Iqbal/Twombly because the accommodation description indicates no specific request was clearly articulated regarding property retrieval after eviction. The plaintiff conflated FHA, ADA Title II, and Section 504 theories against mixed public and private defendants, suggesting a translation failure rooted in missing theory selection and document assembly functions. The Section 8 program context and eviction timeline present administratively observable patterns that could be captured by Tier 1 reporting architecture, while the legal theory confusion indicates a need for Tier 2 intermediation."
+  },
+  {
+    "source_file": "10615091_2025_Affinity Recovery Center LLC v. Town Commissioners of Sudlersville_ca4",
+    "case_name": "Affinity Recovery Center LLC v. Town Commissioners of Sudlersville",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "EXHAUSTION_OR_PRECLUSION",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "ADMINISTRATIVE_RECORD_BUILDING"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This case involves a represented group home operator challenging a municipal zoning decision under the FHA reasonable accommodation theory. The Fourth Circuit affirmed an early dismissal without reaching the merits, consistent with procedural gateway barriers like exhaustion or ripeness that commonly arise in zoning disputes against municipalities. The record lacks detail on the specific accommodation requested and cites no specific FHA section, suggesting gaps in jurisdictional triage and administrative record-building despite counsel representation."
+  },
+  {
+    "source_file": "10609257_2025_McLain v. Sedgwick County Sheriff's Office_ksd",
+    "case_name": "McLain v. Sedgwick County Sheriff's Office",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "LOW",
+    "reasoning": "Pro se plaintiffs sued a Sheriff's Office—a public law enforcement entity—seeking litigation accommodations (extended filing time, communication support) for documented PTSD and TBI, rather than a housing-related adverse action. The grievance describes a potential ADA public-entity or procedural access claim, but the FHA statutory hook is unclear given the defendant type and litigation-focused relief sought, suggesting a translation failure rooted in theory selection. The court declined to grant prospective accommodations without reaching housing discrimination merits."
+  },
+  {
+    "source_file": "10632353_2025_Waheed v. Ballon Stoll Bader and Nadler PC_nysd",
+    "case_name": "Sehra Waheed v. Ballon Stoll Bader and Nadler PC, et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION",
+      "INTAKE_SCREENING"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "Pro se plaintiff sued a law firm under the FHA in what appears to be a legal malpractice dispute, resulting in threshold jurisdictional challenges (improper service, lack of personal and subject matter jurisdiction) that have stayed the case before merits review. The structured record indicates no cognizable FHA theory against this defendant type and no documented accommodation request, pointing to fundamental intake screening and theory selection failures alongside jurisdictional triage gaps."
+  },
+  {
+    "source_file": "10631726_2025_Ballentine v. Cares for the Homeless_nysd",
+    "case_name": "Quentin Ballentine v. Cares for the Homeless",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "JURISDICTION_OR_STANDING",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "THEORY_SELECTION",
+      "INTAKE_SCREENING"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "DOCUMENTED_REQUEST",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The pro se plaintiff's claims against NYC DHS were dismissed on jurisdictional grounds because a municipal agency is not a suable entity, and no substantive FHA analysis occurred. The record shows no FHA section cited, no specified accommodation request, and disability not formally alleged, indicating intake and theory-selection failures alongside the jurisdictional misstep. The homeless-services context and public-process dimensions make this a HIGH priority for raw-text review despite the early procedural posture."
+  },
+  {
+    "source_file": "10634273_2025_Felicie v. Hill_nysd",
+    "case_name": "Bobby Felicie v. Octavia Hill, Assistant Inspector General of DOI",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff’s complaint was screened as frivolous under § 1915(e)(2)(B) for failure to state a claim, with the structured record noting he failed to allege disability status or specify any accommodation request under the FHA. The 'NOT_FHA' theory designation and IQBAL_TWOMBLY citation indicate a fundamental translation failure at the pleading stage. The supportive housing context and government-defendant configuration suggest a public-process dimension, while the absence of specific factual allegations points to missing institutional support for theory selection and document assembly."
+  },
+  {
+    "source_file": "10637328_2025_HAYWOOD v. WARNER ROBINS HOUSING AUTHORITY_gamd",
+    "case_name": "Stephanie Haywood v. Warner Robins Housing Authority, Africa Porter, Reginald Early, Robert Gidney, Andre Washington, Kesha Bray, Betty Ann Faulks, and John Does 1-10",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se public housing tenant filed a shotgun pleading mixing FHA retaliation with VAWA and state law claims, resulting in a screening order to recast under Iqbal/Twombly. The structured record indicates disability was not formally alleged despite retaliation claims for reporting violations, suggesting a theory selection failure where the grievance may not map onto a cognizable FHA theory without clearer disability nexus or protected activity framing. The public housing context and procedural posture indicate this is a public-process case amenable to both Tier 1 intake screening and Tier 2 theory translation."
+  },
+  {
+    "source_file": "10648578_2025_(PS) Holmstrand v. Mercy Housing of California_caed",
+    "case_name": "Holmstrand v. Mercy Housing of California",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se Section 202 tenant dismissed at screening under Iqbal/Twombly for failing to allege specific facts connecting the eviction and assault to cognizable FHA interference or disparate treatment elements. The record indicates the accommodation request was too vague to identify and the complaint lacked 'who, what, when, and where' details, suggesting a translation failure amenable to both Tier 1 standardized intake and Tier 2 theory-selection support."
+  },
+  {
+    "source_file": "10648540_2025_Son v. Oakmount Properties-Azure, LLC_nvd",
+    "case_name": "Dominic Son v. Oakmont Properties-Azure, LLC",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "MEDICAL_OR_DISABILITY_CORROBORATION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff's reasonable accommodation claim was dismissed at the motion to dismiss stage under Iqbal/Twombly for failing to specify what accommodation was requested or allege facts showing the adjustment disorder substantially limited major life activities. This reflects a translation failure where the grievance was not converted into legally legible FHA elements, indicating missing institutional support for theory selection, fact development, and medical corroboration that could be addressed through both Tier 1 standardized intake and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "10650712_2025_Johnson v. Guardian Management_ord",
+    "case_name": "Larry Johnson and Michelle Hume v. Guardian Management, LLC; Lisa Simonson; Kelly Paine; et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "LIMITATIONS_OR_TIMELINESS",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "FACT_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This is a pro se plaintiff whose underlying FHA claims were dismissed with prejudice in 2022 and affirmed on appeal; the current order denies a Rule 60 motion as untimely, nearly three years after the original judgment. The loss is driven entirely by procedural timeliness, not by the substance of the accommodation claim, and the fha_claims array is empty with no accommodation details described. The underlying claim merits are inaccessible from this record, warranting high raw-text review priority."
+  },
+  {
+    "source_file": "10652099_2025_Rosa v. Administration for Children's Services (ACS)_nysd",
+    "case_name": "Felicia Rosa v. Administration for Children's Services",
+    "pleading_failure_family": "FACTUAL_DETAIL",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The structured record reflects a pro se plaintiff’s FHA claim dismissed at screening under IQBAL_TWOMBLY for vague allegations lacking factual details about what the ACS employee said to the landlord. The court notes the complaint fails to plausibly allege membership in a protected class, adverse treatment, or discriminatory motivation, indicating a fact-development and document-assembly breakdown. Because the dispute involves Section 8 voucher termination by a public agency, it presents a public-process failure pattern amenable to both Tier 1 standardized reporting and Tier 2 institutional intermediation."
+  },
+  {
+    "source_file": "10662959_2025_Jeffcoat v. Brookings Housing _ Redevelopment Commission_sdd",
+    "case_name": "Estela Elizabeth Jeffcoat v. Brookings Housing & Redevelopment Commission",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects a pro se plaintiff granted in forma pauperis status against a public housing authority, with the court explicitly declining to address the FHA merits. The fha_claims array is empty, accommodation details are undetermined, and the record contains contradictory disability flags, rendering classification of any pleading failure or institutional gap speculative."
+  },
+  {
+    "source_file": "10671333_2025_AGiza v. Bexar County_txwd",
+    "case_name": "Dalila Agiza v. Bexar County, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff asserted FHA violations in conclusory terms without describing any specific accommodation request or factual basis, resulting in dismissal under § 1915(e)(2)(B) for frivolousness. Because the defendant is a municipality and the grievance arose from state-court eviction proceedings, this represents a public-process case where Tier 1 intake architecture and Tier 2 legal intermediation could have translated the dispute into a cognizable FHA theory."
+  },
+  {
+    "source_file": "10668166_2025_Gonzalez v. 2009 Houston Scott Street LP_txsd",
+    "case_name": "Lillian Gonzalez v. 2009 Houston Scott Street LP d/b/a Austin Development Lots, et al.",
+    "pleading_failure_family": "MERITS_EVIDENCE",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY",
+      "MEDICAL_OR_DISABILITY_CORROBORATION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "DENIAL_OR_NO_RESPONSE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects a pro se plaintiff who reached summary judgment but failed to establish a prima facie case for reasonable accommodation, with critical fields such as accommodation_type and disability_alleged marked undetermined or false despite the claim classification. The magistrate converted a motion to dismiss into summary judgment and recommended dismissal based on the evidentiary record, suggesting a failure to assemble necessary facts and documents. This indicates missing institutional support for fact development and medical corroboration, fixable through both Tier 1 documentation architecture and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "10676383_2025_Michel-Wiggins v. U.S. Housing and Urban Development_dcd",
+    "case_name": "Mirlande Dina Michel-Wiggins v. Department of Housing and Urban Development, et al.",
+    "pleading_failure_family": "MIXED",
+    "pleading_failure_mechanism": "MIXED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "JURISDICTIONAL_TRIAGE",
+      "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se Section 8 voucher case was dismissed at the motion-to-dismiss stage under Iqbal/Twombly standards for two reasonable accommodation claims and on jurisdictional grounds for a third. The first claim failed because the plaintiff sued HUD for a denial actually made by the local housing agency, indicating a theory-selection failure, while the second claim involved an interactive process breakdown regarding investigation interview locations, and the third claim foundered on sovereign immunity."
+  },
+  {
+    "source_file": "10671114_2025_Hunter-Bey v. Miller_ohnd",
+    "case_name": "Isaiah Hunter-Bey v. Allen Miller, et al.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "TIMING_OR_NOTICE_GAP",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT",
+      "THEORY_SELECTION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "MEDICAL_OR_PROVIDER_LETTER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff with mental health conditions requested litigation accommodations that the court denied without prejudice as premature given the early stage of proceedings and incomplete service. This presents a procedural timing issue rather than a merits failure, suggesting the plaintiff lacked support to navigate the procedural gateway of when to properly request accommodations. The record indicates observable facts including documented requests and medical needs, but the conflation of litigation and housing accommodations warrants review."
+  },
+  {
+    "source_file": "10671080_2025_Jacobson v. AH Gresham Park, LLC_ord",
+    "case_name": "James E. Jacobson, Jr. v. AH Gresham Park, LLC",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "LOW",
+    "reasoning": "The record captures only a procedural order denying appointment of pro bono counsel; no claims have been dismissed and the case remains pending with leave to renew. The structured data is internally contradictory—disability is the primary protected class yet disability_alleged is false, claim_types is empty, and primary_claim_type is NOT_FHA—making it impossible to diagnose a pleading failure from this record alone. A pro se litigant facing a property-management defendant with no discernible FHA theory strongly signals missing institutional intermediation, but the actual claim content requires raw-text review."
+  },
+  {
+    "source_file": "10690845_2025_Gokhberg v. 200 Corbin Owners Corp._nyed",
+    "case_name": "Gokhberg v. 200 Corbin Owners Corp.",
+    "pleading_failure_family": "MIXED",
+    "pleading_failure_mechanism": "MIXED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiffs alleged retaliation for raising accounting and governance concerns but failed to allege protected activity under the FHA (opposing discrimination), resulting in IQBAL_TWOMBLY dismissal, while the claim was also time-barred under the two-year limitations period. The record indicates a mixed translation and procedural gateway failure where Tier 1 deadline tracking and Tier 2 theory selection support could have prevented the loss."
+  },
+  {
+    "source_file": "10714396_2025_Estela Elizabeth Jeffcoat v. Brookings Housing _ Redevelopment Commission_sdd",
+    "case_name": "Estela Elizabeth Jeffcoat v. Brookings Housing & Redevelopment Commission",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "The court denied a pro se plaintiff's motion for appointment of counsel in a public housing reasonable accommodation case, explicitly noting her detailed complaint and successful service of process while the merits remain pending. Because the claims survive this procedural stage without any dismissal or pleading deficiency identified, and the specific accommodation requested is not described in this order, no pleading failure is diagnosed and the record is flagged for high-priority raw-text review to capture the underlying factual allegations."
+  },
+  {
+    "source_file": "10730134_2025_Mikel James Gueltzau v. Derek Warehime, Property Manager and Owner; and Cathy Warehime, Property Manager and Owner_ned",
+    "case_name": "Mikel James Gueltzau v. Derek Warehime, Property Manager and Owner; and Cathy Warehime, Property Manager and Owner",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "JURISDICTIONAL_TRIAGE",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "TIER2_INSTITUTIONAL_INTERMEDIATION",
+    "classification_confidence": "LOW",
+    "reasoning": "The structured record reflects a pro se plaintiff subject to procedural sanctions and revocation of electronic filing privileges for persistent non-compliance with court rules, rather than a substantive pleading dismissal under Iqbal/Twombly. With an empty FHA claims array, contradictory disability flags, and no administratively observable facts beyond the procedural misconduct, the specific pleading failure mechanism is unclassifiable from the structured data alone, though the barrier to court access suggests a procedural gateway issue and need for institutional intermediation to ensure proper document assembly."
+  },
+  {
+    "source_file": "10731728_2025_Irish Horton v. Beacon Woods East Master Association, Inc., Ronnie Armstrong, and Christopher Skene_flmd",
+    "case_name": "Irish Horton v. Beacon Woods East Master Association, Inc., Ronnie Armstrong, and Christopher Skene",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "COMPARATOR_OR_INTENT_GAP",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff’s race-based disparate treatment and interference claims were dismissed at the motion-to-dismiss stage under Iqbal/Twombly because the factual allegations showed animus toward his disability and service dog rather than racial animus or comparators. This reflects a translation failure where the concrete grievance—denial of access with a service animal—was not pled as a disability accommodation claim, suggesting missing institutional functions in theory selection and fact development. The record contains administratively observable facts including the service dog request and the May 2023 denial incident, indicating that Tier 1 reporting architecture and Tier 2 legal intermediation could have prevented the pleading failure."
+  },
+  {
+    "source_file": "10732345_2025_Ronald Satish Emrit and Presidential Committee_Political Action Committee_Separate Segregated Fund Number C00569897 d_b_a United Emrits of America v. Erin Burnett, et al._nmd",
+    "case_name": "Ronald Satish Emrit and Presidential Committee/Political Action Committee/Separate Segregated Fund Number C00569897 d/b/a United Emrits of America v. Erin Burnett, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "THEORY_SELECTION",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff alleged FHA violations against television personalities, a car manufacturer, and a Congresswoman based on failure to provide a Section 8 voucher, resulting in dismissal at screening under IQBAL_TWOMBLY for failure to identify statutory provisions or allege facts against housing providers. The record reflects a fundamental translation failure where the Section 8 grievance was not connected to cognizable FHA defendants, compounded by data inconsistencies regarding disability allegations and pleading standards that warrant raw-text verification."
+  },
+  {
+    "source_file": "10737104_2025_Dyshawn Underwood, individually, and as guardian of minor child K.U. v. Blue Leaf Residential Management, LLC, et al._ohsd",
+    "case_name": "Dyshawn Underwood, individually, and as guardian of minor child K.U. v. Blue Leaf Residential Management, LLC, et al.",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "INTAKE_SCREENING",
+      "THEORY_SELECTION",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects a pro se plaintiff with pending FHA reasonable accommodation and retaliation claims where the court has not yet reached the merits, having addressed only a procedural motion regarding counterclaims. Key structured fields including accommodation_type, disability_category, and the specific accommodation request remain undetermined or unspecified, indicating insufficient detail for confident pleading-failure classification and warranting high-priority raw-text review to assess claim viability."
+  },
+  {
+    "source_file": "10741255_2025_Jimmy Keels Williamson v. Christian Recovery Centers, Inc._nced",
+    "case_name": "Jimmy Keels Williamson v. Christian Recovery Centers, Inc.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff’s disability accommodation claim was dismissed under 28 U.S.C. § 1915(e) screening as frivolous for failure to state a claim, while the racial discrimination claim survived, indicating a translation failure specific to the disability theory. The record suggests the plaintiff merely referenced accommodation without adequately alleging a request or tying it to disability-related need, pointing to missing institutional support for theory selection and document assembly."
+  },
+  {
+    "source_file": "10732441_2025_Anthony George Bell v. Weinreb Management LLC; Abraham Reiss of Weinreb Management LLC; Pitor Piwowarczyk of 455 Ocean Associates LLC; 455 Ocean Associates LLC_nyed",
+    "case_name": "Anthony George Bell v. Weinreb Management LLC; Abraham Reiss of Weinreb Management LLC; Pitor Piwowarczyk of 455 Ocean Associates LLC; 455 Ocean Associates LLC",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff with HIV and asthma alleged housing quality defects but failed to allege a requested accommodation or connect his disabilities to the adverse action, resulting in dismissal under Iqbal/Twombly despite the FHA citation. The structured record reflects a translation failure where administratively observable facts—medical conditions and repair requests—were not assembled into a cognizable FHA theory, suggesting the claim could have been preserved through both standardized Tier 1 intake and Tier 2 legal framing."
+  },
+  {
+    "source_file": "10745833_2025_Mekal Faruki v. Housing Authority for the County of Sacramento, et al._caed",
+    "case_name": "Mekal Faruki v. Housing Authority for the County of Sacramento, et al.",
+    "pleading_failure_family": "ELEMENT_MISMATCH",
+    "pleading_failure_mechanism": "COMPARATOR_OR_INTENT_GAP",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "COMPARATOR_DEVELOPMENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This pro se Section 8 voucher applicant’s complaint was dismissed at the pleading stage under Iqbal/Twombly for speculative allegations and failure to properly allege a comparator showing disability-based discrimination, as the plaintiff’s cited comparator was also disabled. The record indicates a failure to translate the administrative grievance into legally sufficient FHA elements, suggesting missing institutional support for theory selection and comparator development. The public housing authority defendant and program-based nature of the dispute mark this as a public-process case with observable facts that could be captured by Tier 1 architecture while requiring Tier 2 legal translation."
+  },
+  {
+    "source_file": "10754293_2025_Stephen Gray, et al. v. Warren Verbanec, et al._cand",
+    "case_name": "Stephen Gray, et al. v. Warren Verbanec, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiffs alleged an eleven-year pattern of HOA harassment but failed to allege specific facts connecting defendants to state action for §1983 claims or to develop cognizable FHA theories, resulting in an IQBAL_TWOMBLY dismissal with the FHA claim coded as NOT_FHA. The record explicitly notes no accommodation was requested despite disability being alleged, and the primary race discrimination claims were dismissed as conclusory, indicating a translation failure where grievances were not developed into legally legible theories or tied to concrete facts."
+  },
+  {
+    "source_file": "10756321_2025_Anthony Montero v. New York City Housing Authority (NYCHA), et al._nysd",
+    "case_name": "Anthony Montero v. New York City Housing Authority (NYCHA), et al.",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY",
+      "THEORY_SELECTION"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NONE_APPARENT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "This 2025 pro se action against NYCHA remains at a pre-service procedural stage where the court added a defendant under Rule 21 and withheld service on others pending a fourth amended complaint with sufficient factual allegations. Because the FHA claims are marked pending with merits not yet reached and no dismissal entered, the claims survive but the plaintiff appears to lack support for factual development and document assembly needed to clear pleading thresholds."
+  },
+  {
+    "source_file": "10765243_2025_Justin Baker v. The Emerald Condos et al._wawd",
+    "case_name": "Justin Baker v. The Emerald Condos et al.",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "LEASE_OR_POLICY_TEXT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff underwent IFP screening where the court dismissed eight distinct claims under IQBAL_TWOMBLY for failure to allege specific elements of disparate treatment, retaliation, and design/construction theories, but allowed reasonable accommodation, discrimination, interference, and hostile environment claims to survive. This mixed outcome reflects pleading deficiencies in theory selection and fact development for the dismissed counts, while the surviving claims suggest the grievance had legal merit with proper translation."
+  },
+  {
+    "source_file": "10762570_2025_Shirley Drummer v. Southern Nevada Regional Housing Authority, et al._nvd",
+    "case_name": "Shirley Drummer v. Southern Nevada Regional Housing Authority, et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff with documented medical needs (live-in aide request supported by physician/therapist letters) lost at the screening stage under Iqbal/Twombly for failing to specify which of the four defendants was responsible for which violation. The structured record shows a translation failure where administratively observable facts (medical documentation, request record) existed but were not organized into a legally legible complaint with proper defendant attribution against the housing authority. This suggests missing institutional support for both fact development and document assembly in a public housing voucher context."
+  },
+  {
+    "source_file": "10776210_2026_Bolima Tafah et al. v. Lake Village Townhomes et al._mdd",
+    "case_name": "Bolima Tafah et al. v. Lake Village Townhomes et al.",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "Pro se plaintiffs alleged a refusal to accommodate postpartum recovery but failed to specify the nature of the accommodation request, resulting in dismissal under Iqbal/Twombly for conclusory allegations lacking factual content. The structured record indicates a translation failure where the grievance was not converted into a legally legible reasonable accommodation claim with adequate factual detail. This pattern suggests missing institutional support for both intake documentation and legal theory translation."
+  },
+  {
+    "source_file": "10770715_2026_Cincinnati Insurance Company v. Lost Run Farm Community Association, Inc., Armour Property Management, LLC, Vincent Kroon, Ben Wheat, Scott Bruns, Ashlee Wheat, Edward Kowlowitz, Rebecca Kiell, John Garcia,",
+    "case_name": "Cincinnati Insurance Company v. Lost Run Farm Community Association, Inc.",
+    "pleading_failure_family": "PROCEDURAL_GATEWAY",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "LEASE_OR_POLICY_TEXT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "NEITHER",
+    "classification_confidence": "LOW",
+    "reasoning": "The court resolved this insurance coverage dispute on summary judgment without reaching the merits of the underlying FHA reasonable accommodation and disparate treatment claims, finding that intentional discriminatory acts fell outside CGL coverage and policy exclusions applied. This procedural posture presents a gateway barrier rather than a pleading or merits failure of the housing discrimination claims themselves. The record indicates a documented request for a structural modification (fence) that was denied by the HOA board, with no interactive process discussed."
+  },
+  {
+    "source_file": "10768863_2025_Antony Montero v. New York City Housing Authority, et al._nysd",
+    "case_name": "Antony Montero v. New York City Housing Authority, et al.",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The court granted the pro se plaintiff's motion to amend and directed service on sixteen defendants, indicating the claim survives procedurally without a pleading failure. The record lacks specific accommodation details despite alleging reasonable accommodation denial, suggesting gaps in theory selection and document assembly that Tier 1 and Tier 2 support could address. As a public housing authority case, it warrants high priority for public-process tractability analysis despite the thin early-stage record."
+  },
+  {
+    "source_file": "10804889_2026_Perry v. Encore At Blvd One_ca10",
+    "case_name": "Shannon Perry v. Encore At Boulevard One LLC",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "REQUEST_NOT_ALLEGED",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "HEARING_OR_GRIEVANCE_RECORD",
+      "LEASE_OR_POLICY_TEXT"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The record reflects a pro se tenant's reasonable accommodation claim dismissed under IQBAL_TWOMBLY at the motion to dismiss stage, where the specific accommodation request was undetermined and the opinion focused on procedural waiver rather than merits. The structured data confirms the district court dismissed for failure to state a claim, indicating a translation failure where the tenant failed to adequately allege a cognizable accommodation request to support the eviction defense theory."
+  },
+  {
+    "source_file": "10803192_2026_Jermaine Capel v. Norfolk Redevelopment _ Housing Authority_ca4",
+    "case_name": "Jermaine M. Capel v. Norfolk Redevelopment & Housing Authority",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects a pro se plaintiff whose claims were dismissed at the § 1915(e)(2)(B) screening stage as frivolous or failing to state a claim, with the structured data labeling the theory as 'NOT_FHA' and leaving accommodation details undetermined. This suggests a fundamental translation failure where the grievance was not mapped onto a cognizable FHA theory, likely stemming from missing institutional support for theory selection and fact development in a public housing context."
+  },
+  {
+    "source_file": "10805479_2026_Jlyn Bryant et al. v. Tinker Federal Credit Union_okwd",
+    "case_name": "Jlyn Bryant et al. v. Tinker Federal Credit Union",
+    "pleading_failure_family": "TRANSLATION",
+    "pleading_failure_mechanism": "NO_COGNIZABLE_FHA_THEORY",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiffs advanced a legally frivolous 'vapor money' theory—treating their signed loan application as a financial asset lent to the credit union—rather than a cognizable FHA discriminatory lending claim. The court dismissed with prejudice under Iqbal/Twombly, finding the theory implausible and amendment futile, which reflects a translation failure where a concrete mortgage-denial grievance was rendered legally unintelligible due to missing theory selection and fact-development support."
+  },
+  {
+    "source_file": "10806870_2026_Metropolitan Fair Housing Council of Oklahoma, Inc., James McNamee, and Marta McNamee v. Frank Feiock and Glenna Feiock, both d_b_a Rockford Garden Apartments_oked",
+    "case_name": "Metropolitan Fair Housing Council of Oklahoma, Inc., James McNamee, and Marta McNamee v. Frank Feiock and Glenna Feiock, both d/b/a Rockford Garden Apartments",
+    "pleading_failure_family": "NO_FAILURE_DEFENDANT_WIN",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "NONE_APPARENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "NEITHER",
+    "classification_confidence": "LOW",
+    "reasoning": "The structured record indicates a represented fair housing organization lost on summary judgment after merits were reached, suggesting the claim was facially legible but failed on developed evidence or legal theory. Key fields show accommodation type and description are undetermined, while the key holding addresses post-judgment fee enforcement rather than the substantive FHA theory, leaving the specific loss mechanism unclear. This merits-stage defeat with organizational counsel suggests the breakdown is unlikely to be remedied by Tier 1 reporting architecture or Tier 2 institutional intermediation alone."
+  },
+  {
+    "source_file": "11267549 - BITTENBENDER v. FAMILY SERVICES ASSOCIATION OF BUCKS COUNTY",
+    "case_name": "Cynthia Bittenbender v. Family Services Association of Bucks County",
+    "pleading_failure_family": "ELEMENT_MISMATCH",
+    "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "MEDICAL_OR_DISABILITY_CORROBORATION",
+      "JURISDICTIONAL_TRIAGE"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "DENIAL_OR_NO_RESPONSE_RECORD",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "MEDIUM",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "Pro se plaintiff’s FHA claims were dismissed at the pleading stage under Iqbal/Twombly because the complaint failed to allege facts sufficient to establish statutory disability elements, that Extended Stay America qualified as an FHA 'dwelling,' or that defendants were covered entities subject to FHA liability. These failures indicate breakdowns in medical documentation support, theory selection regarding coverage gaps for temporary emergency housing, and defendant identification, all of which implicate both Tier 1 intake screening and Tier 2 legal translation functions."
+  },
+  {
+    "source_file": "11267565 - Herrera v. MADDOX MANAGEMENT, LLC",
+    "case_name": "James B. Herrera v. Maddox Management, LLC",
+    "pleading_failure_family": "CAUSAL_LINK",
+    "pleading_failure_mechanism": "TIMING_OR_NOTICE_GAP",
+    "institutional_function_missing": [
+      "THEORY_SELECTION",
+      "FACT_DEVELOPMENT",
+      "DOCUMENT_ASSEMBLY"
+    ],
+    "administratively_observable_fact_pattern": [
+      "NOTICE_OR_TIMELINE_RECORD",
+      "MEDICAL_OR_PROVIDER_LETTER",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "DOCUMENTED_REQUEST"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "MEDIUM",
+    "reasoning": "The pro se plaintiff’s retaliation claim was dismissed under Twombly/Iqbal because the alleged adverse action (rental verification dated January 2024) occurred before the protected activity (HUD complaint filed May 2024), creating a fatal temporal break in causation. The plaintiff also failed to allege specific facts establishing disability or articulate a concrete accommodation request, indicating failures in fact development, document assembly, and theory selection that could be mitigated by both Tier 1 intake systems and Tier 2 legal intermediation."
+  },
+  {
+    "source_file": "11267564 - Cincinnati Insurance Company v. LOST RUN FARM COMMUNITY ASSOCIATION, INC.",
+    "case_name": "Cincinnati Insurance Company v. Lost Run Farm Community Association, Inc.",
+    "pleading_failure_family": "NO_FAILURE_DEFENDANT_WIN",
+    "pleading_failure_mechanism": "UNCLEAR",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "LEASE_OR_POLICY_TEXT",
+      "NOTICE_OR_TIMELINE_RECORD"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "LOW",
+    "public_process_failure_flag": false,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects an insurance coverage declaratory judgment action where the court granted summary judgment without reaching the merits of the underlying FHA reasonable accommodation and disparate treatment claims. The outcome field indicates DEFENDANT_WIN contrary to the key holding describing a plaintiff insurer victory, creating material ambiguity. Because the FHA claims were sidestepped via coverage determinations rather than adjudicated on pleading or substantive grounds, the failure mechanism is unclear and the record requires raw-text review to resolve contradictions and clarify the procedural posture."
+  },
+  {
+    "source_file": "11267624 - Cooper v. Chicago Housing Authority",
+    "case_name": "Cooper v. Chicago Housing Authority",
+    "pleading_failure_family": "NO_FAILURE_PLAINTIFF_WIN",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "NONE_APPARENT"
+    ],
+    "administratively_observable_fact_pattern": [
+      "DOCUMENTED_REQUEST",
+      "NOTICE_OR_TIMELINE_RECORD",
+      "PUBLIC_PROGRAM_RULE_OR_DECISION",
+      "PHYSICAL_ACCESS_BARRIER"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "BOTH",
+    "classification_confidence": "HIGH",
+    "reasoning": "This is a plaintiff-prevailing settlement where the court approved $525,000 for a 788-day delay in providing a wheelchair-accessible transfer, indicating the reasonable accommodation claim was successfully translated and resolved. The public housing authority defendant and documented timeline support the public-process flag, while the absence of pleading defects suggests no institutional intermediation failure contributed to loss."
+  },
+  {
+    "source_file": "11267588 - Jeffcoat v. BROOKINGS HOUSING & REDEVELOPMENT COMMISSION",
+    "case_name": "Jeffcoat v. Brookings Housing & Redevelopment Commission",
+    "pleading_failure_family": "UNCLEAR",
+    "pleading_failure_mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+    "institutional_function_missing": [
+      "UNCLEAR"
+    ],
+    "administratively_observable_fact_pattern": [
+      "UNCLEAR"
+    ],
+    "raw_text_review_priority": "HIGH",
+    "doctrinal_gap_signal": "NONE",
+    "public_process_failure_flag": true,
+    "tier1_tier2_fixability": "UNCLEAR",
+    "classification_confidence": "LOW",
+    "reasoning": "The record reflects a pending procedural posture where the pro se plaintiff's motion for counsel was denied without prejudice, with the court noting a detailed complaint but the specific reasonable accommodation request remains undetermined. No pleading failure has occurred as the FHA claim survives, though the pro se status and public housing authority defendant indicate this is a public process case requiring careful monitoring."
+  }
+]

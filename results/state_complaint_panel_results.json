@@ -1,0 +1,1509 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-04-16T07:45:40.460959+00:00",
+    "script": "scripts/state_complaint_panel.py",
+    "source_file_used": "data/fheo-filed-cases.xlsx",
+    "source_download_url_if_missing": "https://inventory.data.gov/dataset/c592e01e-3ce8-4fb7-b112-8b5819fd2072/resource/94b8f073-7d71-4519-8a2b-2cec554e3dcd/download/fheo-filed-cases.xlsx",
+    "source_date_range": {
+      "min_filing_date": "2006-01-03",
+      "max_filing_date": "2020-06-30"
+    },
+    "target_states": [
+      {
+        "state_abbr": "MA",
+        "state_name": "Massachusetts"
+      },
+      {
+        "state_abbr": "CT",
+        "state_name": "Connecticut"
+      },
+      {
+        "state_abbr": "NH",
+        "state_name": "New Hampshire"
+      },
+      {
+        "state_abbr": "VT",
+        "state_name": "Vermont"
+      },
+      {
+        "state_abbr": "RI",
+        "state_name": "Rhode Island"
+      }
+    ],
+    "launch_event": {
+      "label": "Housing Navigator Massachusetts launch",
+      "date": "2021-08-18"
+    },
+    "comparison_construction": {
+      "average_control_state": {
+        "definition": "Simple mean of CT/NH/VT/RI state-year values; each control state receives equal weight.",
+        "used_in_plots": true
+      },
+      "pooled_controls": {
+        "definition": "Within-year sum of CT/NH/VT/RI state-year values; larger control states contribute more raw complaints.",
+        "used_in_plots": false,
+        "legacy_json_name": "combined_controls"
+      }
+    },
+    "count_normalization_note": "Complaint-volume comparisons use raw filed-complaint counts. They are not normalized by population, renter households, disability prevalence, or housing stock.",
+    "source_provenance": {
+      "primary_panel_source": {
+        "path": "data/fheo-filed-cases.xlsx",
+        "type": "HUD/FHEO case-level workbook",
+        "sheet_name": "Filed Title VIII Cases",
+        "why_used_here": "Provides filing dates and extends through 2020-06-30, allowing the script to rebuild the five-state panel directly from underlying rows and mark 2020 as a partial year."
+      },
+      "older_aggregate_reference": {
+        "path": "data/fha-cases-by-year.xls",
+        "type": "Older HUD/FHEO pre-aggregated year/state table",
+        "repo_documentation_coverage": "2000-2019",
+        "relationship_to_primary_source": "Useful as an older aggregate reference for overlapping pre-2020 years, but it lacks the case-level filing dates and later 2020 coverage used for this memo."
+      }
+    },
+    "plots": [
+      "results/state_complaint_panel_total_complaints.svg",
+      "results/state_complaint_panel_disability_share.svg"
+    ]
+  },
+  "panel": [
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2006,
+      "total_complaints": 125,
+      "disability_complaints": 67,
+      "disability_share": 0.536,
+      "disability_share_pct": 53.6,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2007,
+      "total_complaints": 126,
+      "disability_complaints": 85,
+      "disability_share": 0.674603,
+      "disability_share_pct": 67.46,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2008,
+      "total_complaints": 129,
+      "disability_complaints": 52,
+      "disability_share": 0.403101,
+      "disability_share_pct": 40.31,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2009,
+      "total_complaints": 124,
+      "disability_complaints": 47,
+      "disability_share": 0.379032,
+      "disability_share_pct": 37.9,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2010,
+      "total_complaints": 107,
+      "disability_complaints": 62,
+      "disability_share": 0.579439,
+      "disability_share_pct": 57.94,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2011,
+      "total_complaints": 84,
+      "disability_complaints": 56,
+      "disability_share": 0.666667,
+      "disability_share_pct": 66.67,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2012,
+      "total_complaints": 96,
+      "disability_complaints": 60,
+      "disability_share": 0.625,
+      "disability_share_pct": 62.5,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2013,
+      "total_complaints": 119,
+      "disability_complaints": 78,
+      "disability_share": 0.655462,
+      "disability_share_pct": 65.55,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2014,
+      "total_complaints": 132,
+      "disability_complaints": 65,
+      "disability_share": 0.492424,
+      "disability_share_pct": 49.24,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2015,
+      "total_complaints": 103,
+      "disability_complaints": 56,
+      "disability_share": 0.543689,
+      "disability_share_pct": 54.37,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2016,
+      "total_complaints": 99,
+      "disability_complaints": 55,
+      "disability_share": 0.555556,
+      "disability_share_pct": 55.56,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2017,
+      "total_complaints": 102,
+      "disability_complaints": 61,
+      "disability_share": 0.598039,
+      "disability_share_pct": 59.8,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2018,
+      "total_complaints": 97,
+      "disability_complaints": 63,
+      "disability_share": 0.649485,
+      "disability_share_pct": 64.95,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2019,
+      "total_complaints": 126,
+      "disability_complaints": 73,
+      "disability_share": 0.579365,
+      "disability_share_pct": 57.94,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "CT",
+      "state_name": "Connecticut",
+      "year": 2020,
+      "total_complaints": 68,
+      "disability_complaints": 41,
+      "disability_share": 0.602941,
+      "disability_share_pct": 60.29,
+      "is_partial_year": true
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2006,
+      "total_complaints": 283,
+      "disability_complaints": 124,
+      "disability_share": 0.438163,
+      "disability_share_pct": 43.82,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2007,
+      "total_complaints": 298,
+      "disability_complaints": 151,
+      "disability_share": 0.506711,
+      "disability_share_pct": 50.67,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2008,
+      "total_complaints": 338,
+      "disability_complaints": 133,
+      "disability_share": 0.393491,
+      "disability_share_pct": 39.35,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2009,
+      "total_complaints": 265,
+      "disability_complaints": 109,
+      "disability_share": 0.411321,
+      "disability_share_pct": 41.13,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2010,
+      "total_complaints": 251,
+      "disability_complaints": 102,
+      "disability_share": 0.406375,
+      "disability_share_pct": 40.64,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2011,
+      "total_complaints": 240,
+      "disability_complaints": 93,
+      "disability_share": 0.3875,
+      "disability_share_pct": 38.75,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2012,
+      "total_complaints": 261,
+      "disability_complaints": 127,
+      "disability_share": 0.48659,
+      "disability_share_pct": 48.66,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2013,
+      "total_complaints": 322,
+      "disability_complaints": 148,
+      "disability_share": 0.459627,
+      "disability_share_pct": 45.96,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2014,
+      "total_complaints": 299,
+      "disability_complaints": 158,
+      "disability_share": 0.528428,
+      "disability_share_pct": 52.84,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2015,
+      "total_complaints": 305,
+      "disability_complaints": 148,
+      "disability_share": 0.485246,
+      "disability_share_pct": 48.52,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2016,
+      "total_complaints": 331,
+      "disability_complaints": 177,
+      "disability_share": 0.534743,
+      "disability_share_pct": 53.47,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2017,
+      "total_complaints": 333,
+      "disability_complaints": 211,
+      "disability_share": 0.633634,
+      "disability_share_pct": 63.36,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2018,
+      "total_complaints": 331,
+      "disability_complaints": 194,
+      "disability_share": 0.586103,
+      "disability_share_pct": 58.61,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2019,
+      "total_complaints": 380,
+      "disability_complaints": 213,
+      "disability_share": 0.560526,
+      "disability_share_pct": 56.05,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "MA",
+      "state_name": "Massachusetts",
+      "year": 2020,
+      "total_complaints": 126,
+      "disability_complaints": 74,
+      "disability_share": 0.587302,
+      "disability_share_pct": 58.73,
+      "is_partial_year": true
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2006,
+      "total_complaints": 55,
+      "disability_complaints": 32,
+      "disability_share": 0.581818,
+      "disability_share_pct": 58.18,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2007,
+      "total_complaints": 23,
+      "disability_complaints": 12,
+      "disability_share": 0.521739,
+      "disability_share_pct": 52.17,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2008,
+      "total_complaints": 29,
+      "disability_complaints": 17,
+      "disability_share": 0.586207,
+      "disability_share_pct": 58.62,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2009,
+      "total_complaints": 27,
+      "disability_complaints": 12,
+      "disability_share": 0.444444,
+      "disability_share_pct": 44.44,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2010,
+      "total_complaints": 33,
+      "disability_complaints": 17,
+      "disability_share": 0.515152,
+      "disability_share_pct": 51.52,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2011,
+      "total_complaints": 25,
+      "disability_complaints": 18,
+      "disability_share": 0.72,
+      "disability_share_pct": 72.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2012,
+      "total_complaints": 37,
+      "disability_complaints": 7,
+      "disability_share": 0.189189,
+      "disability_share_pct": 18.92,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2013,
+      "total_complaints": 18,
+      "disability_complaints": 9,
+      "disability_share": 0.5,
+      "disability_share_pct": 50.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2014,
+      "total_complaints": 16,
+      "disability_complaints": 10,
+      "disability_share": 0.625,
+      "disability_share_pct": 62.5,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2015,
+      "total_complaints": 10,
+      "disability_complaints": 8,
+      "disability_share": 0.8,
+      "disability_share_pct": 80.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2016,
+      "total_complaints": 20,
+      "disability_complaints": 14,
+      "disability_share": 0.7,
+      "disability_share_pct": 70.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2017,
+      "total_complaints": 29,
+      "disability_complaints": 24,
+      "disability_share": 0.827586,
+      "disability_share_pct": 82.76,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2018,
+      "total_complaints": 25,
+      "disability_complaints": 20,
+      "disability_share": 0.8,
+      "disability_share_pct": 80.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2019,
+      "total_complaints": 28,
+      "disability_complaints": 22,
+      "disability_share": 0.785714,
+      "disability_share_pct": 78.57,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "NH",
+      "state_name": "New Hampshire",
+      "year": 2020,
+      "total_complaints": 17,
+      "disability_complaints": 12,
+      "disability_share": 0.705882,
+      "disability_share_pct": 70.59,
+      "is_partial_year": true
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2006,
+      "total_complaints": 47,
+      "disability_complaints": 24,
+      "disability_share": 0.510638,
+      "disability_share_pct": 51.06,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2007,
+      "total_complaints": 50,
+      "disability_complaints": 20,
+      "disability_share": 0.4,
+      "disability_share_pct": 40.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2008,
+      "total_complaints": 65,
+      "disability_complaints": 26,
+      "disability_share": 0.4,
+      "disability_share_pct": 40.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2009,
+      "total_complaints": 54,
+      "disability_complaints": 25,
+      "disability_share": 0.462963,
+      "disability_share_pct": 46.3,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2010,
+      "total_complaints": 52,
+      "disability_complaints": 23,
+      "disability_share": 0.442308,
+      "disability_share_pct": 44.23,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2011,
+      "total_complaints": 48,
+      "disability_complaints": 25,
+      "disability_share": 0.520833,
+      "disability_share_pct": 52.08,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2012,
+      "total_complaints": 42,
+      "disability_complaints": 23,
+      "disability_share": 0.547619,
+      "disability_share_pct": 54.76,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2013,
+      "total_complaints": 48,
+      "disability_complaints": 26,
+      "disability_share": 0.541667,
+      "disability_share_pct": 54.17,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2014,
+      "total_complaints": 75,
+      "disability_complaints": 53,
+      "disability_share": 0.706667,
+      "disability_share_pct": 70.67,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2015,
+      "total_complaints": 60,
+      "disability_complaints": 37,
+      "disability_share": 0.616667,
+      "disability_share_pct": 61.67,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2016,
+      "total_complaints": 70,
+      "disability_complaints": 36,
+      "disability_share": 0.514286,
+      "disability_share_pct": 51.43,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2017,
+      "total_complaints": 64,
+      "disability_complaints": 45,
+      "disability_share": 0.703125,
+      "disability_share_pct": 70.31,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2018,
+      "total_complaints": 56,
+      "disability_complaints": 29,
+      "disability_share": 0.517857,
+      "disability_share_pct": 51.79,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2019,
+      "total_complaints": 79,
+      "disability_complaints": 51,
+      "disability_share": 0.64557,
+      "disability_share_pct": 64.56,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "RI",
+      "state_name": "Rhode Island",
+      "year": 2020,
+      "total_complaints": 24,
+      "disability_complaints": 12,
+      "disability_share": 0.5,
+      "disability_share_pct": 50.0,
+      "is_partial_year": true
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2006,
+      "total_complaints": 32,
+      "disability_complaints": 21,
+      "disability_share": 0.65625,
+      "disability_share_pct": 65.62,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2007,
+      "total_complaints": 23,
+      "disability_complaints": 11,
+      "disability_share": 0.478261,
+      "disability_share_pct": 47.83,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2008,
+      "total_complaints": 26,
+      "disability_complaints": 11,
+      "disability_share": 0.423077,
+      "disability_share_pct": 42.31,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2009,
+      "total_complaints": 33,
+      "disability_complaints": 22,
+      "disability_share": 0.666667,
+      "disability_share_pct": 66.67,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2010,
+      "total_complaints": 27,
+      "disability_complaints": 17,
+      "disability_share": 0.62963,
+      "disability_share_pct": 62.96,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2011,
+      "total_complaints": 23,
+      "disability_complaints": 17,
+      "disability_share": 0.73913,
+      "disability_share_pct": 73.91,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2012,
+      "total_complaints": 29,
+      "disability_complaints": 23,
+      "disability_share": 0.793103,
+      "disability_share_pct": 79.31,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2013,
+      "total_complaints": 15,
+      "disability_complaints": 11,
+      "disability_share": 0.733333,
+      "disability_share_pct": 73.33,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2014,
+      "total_complaints": 17,
+      "disability_complaints": 12,
+      "disability_share": 0.705882,
+      "disability_share_pct": 70.59,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2015,
+      "total_complaints": 16,
+      "disability_complaints": 12,
+      "disability_share": 0.75,
+      "disability_share_pct": 75.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2016,
+      "total_complaints": 11,
+      "disability_complaints": 10,
+      "disability_share": 0.909091,
+      "disability_share_pct": 90.91,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2017,
+      "total_complaints": 25,
+      "disability_complaints": 21,
+      "disability_share": 0.84,
+      "disability_share_pct": 84.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2018,
+      "total_complaints": 15,
+      "disability_complaints": 12,
+      "disability_share": 0.8,
+      "disability_share_pct": 80.0,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2019,
+      "total_complaints": 22,
+      "disability_complaints": 16,
+      "disability_share": 0.727273,
+      "disability_share_pct": 72.73,
+      "is_partial_year": false
+    },
+    {
+      "state_abbr": "VT",
+      "state_name": "Vermont",
+      "year": 2020,
+      "total_complaints": 16,
+      "disability_complaints": 12,
+      "disability_share": 0.75,
+      "disability_share_pct": 75.0,
+      "is_partial_year": true
+    }
+  ],
+  "control_average_by_year": [
+    {
+      "year": 2006,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 64.75,
+      "average_disability_complaints": 36,
+      "average_disability_share": 0.571176,
+      "average_disability_share_pct": 57.12,
+      "is_partial_year": false
+    },
+    {
+      "year": 2007,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 55.5,
+      "average_disability_complaints": 32,
+      "average_disability_share": 0.518651,
+      "average_disability_share_pct": 51.87,
+      "is_partial_year": false
+    },
+    {
+      "year": 2008,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 62.25,
+      "average_disability_complaints": 26.5,
+      "average_disability_share": 0.453096,
+      "average_disability_share_pct": 45.31,
+      "is_partial_year": false
+    },
+    {
+      "year": 2009,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 59.5,
+      "average_disability_complaints": 26.5,
+      "average_disability_share": 0.488277,
+      "average_disability_share_pct": 48.83,
+      "is_partial_year": false
+    },
+    {
+      "year": 2010,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 54.75,
+      "average_disability_complaints": 29.75,
+      "average_disability_share": 0.541632,
+      "average_disability_share_pct": 54.16,
+      "is_partial_year": false
+    },
+    {
+      "year": 2011,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 45,
+      "average_disability_complaints": 29,
+      "average_disability_share": 0.661658,
+      "average_disability_share_pct": 66.17,
+      "is_partial_year": false
+    },
+    {
+      "year": 2012,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 51,
+      "average_disability_complaints": 28.25,
+      "average_disability_share": 0.538728,
+      "average_disability_share_pct": 53.87,
+      "is_partial_year": false
+    },
+    {
+      "year": 2013,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 50,
+      "average_disability_complaints": 31,
+      "average_disability_share": 0.607615,
+      "average_disability_share_pct": 60.76,
+      "is_partial_year": false
+    },
+    {
+      "year": 2014,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 60,
+      "average_disability_complaints": 35,
+      "average_disability_share": 0.632493,
+      "average_disability_share_pct": 63.25,
+      "is_partial_year": false
+    },
+    {
+      "year": 2015,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 47.25,
+      "average_disability_complaints": 28.25,
+      "average_disability_share": 0.677589,
+      "average_disability_share_pct": 67.76,
+      "is_partial_year": false
+    },
+    {
+      "year": 2016,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 50,
+      "average_disability_complaints": 28.75,
+      "average_disability_share": 0.669733,
+      "average_disability_share_pct": 66.97,
+      "is_partial_year": false
+    },
+    {
+      "year": 2017,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 55,
+      "average_disability_complaints": 37.75,
+      "average_disability_share": 0.742188,
+      "average_disability_share_pct": 74.22,
+      "is_partial_year": false
+    },
+    {
+      "year": 2018,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 48.25,
+      "average_disability_complaints": 31,
+      "average_disability_share": 0.691836,
+      "average_disability_share_pct": 69.18,
+      "is_partial_year": false
+    },
+    {
+      "year": 2019,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 63.75,
+      "average_disability_complaints": 40.5,
+      "average_disability_share": 0.684481,
+      "average_disability_share_pct": 68.45,
+      "is_partial_year": false
+    },
+    {
+      "year": 2020,
+      "control_states": [
+        "CT",
+        "NH",
+        "VT",
+        "RI"
+      ],
+      "average_total_complaints": 31.25,
+      "average_disability_complaints": 19.25,
+      "average_disability_share": 0.639706,
+      "average_disability_share_pct": 63.97,
+      "is_partial_year": true
+    }
+  ],
+  "control_combined_by_year": [
+    {
+      "year": 2006,
+      "combined_control_total_complaints": 259,
+      "combined_control_disability_complaints": 144,
+      "combined_control_disability_share": 0.555985,
+      "combined_control_disability_share_pct": 55.6,
+      "is_partial_year": false
+    },
+    {
+      "year": 2007,
+      "combined_control_total_complaints": 222,
+      "combined_control_disability_complaints": 128,
+      "combined_control_disability_share": 0.576577,
+      "combined_control_disability_share_pct": 57.66,
+      "is_partial_year": false
+    },
+    {
+      "year": 2008,
+      "combined_control_total_complaints": 249,
+      "combined_control_disability_complaints": 106,
+      "combined_control_disability_share": 0.425703,
+      "combined_control_disability_share_pct": 42.57,
+      "is_partial_year": false
+    },
+    {
+      "year": 2009,
+      "combined_control_total_complaints": 238,
+      "combined_control_disability_complaints": 106,
+      "combined_control_disability_share": 0.445378,
+      "combined_control_disability_share_pct": 44.54,
+      "is_partial_year": false
+    },
+    {
+      "year": 2010,
+      "combined_control_total_complaints": 219,
+      "combined_control_disability_complaints": 119,
+      "combined_control_disability_share": 0.543379,
+      "combined_control_disability_share_pct": 54.34,
+      "is_partial_year": false
+    },
+    {
+      "year": 2011,
+      "combined_control_total_complaints": 180,
+      "combined_control_disability_complaints": 116,
+      "combined_control_disability_share": 0.644444,
+      "combined_control_disability_share_pct": 64.44,
+      "is_partial_year": false
+    },
+    {
+      "year": 2012,
+      "combined_control_total_complaints": 204,
+      "combined_control_disability_complaints": 113,
+      "combined_control_disability_share": 0.553922,
+      "combined_control_disability_share_pct": 55.39,
+      "is_partial_year": false
+    },
+    {
+      "year": 2013,
+      "combined_control_total_complaints": 200,
+      "combined_control_disability_complaints": 124,
+      "combined_control_disability_share": 0.62,
+      "combined_control_disability_share_pct": 62.0,
+      "is_partial_year": false
+    },
+    {
+      "year": 2014,
+      "combined_control_total_complaints": 240,
+      "combined_control_disability_complaints": 140,
+      "combined_control_disability_share": 0.583333,
+      "combined_control_disability_share_pct": 58.33,
+      "is_partial_year": false
+    },
+    {
+      "year": 2015,
+      "combined_control_total_complaints": 189,
+      "combined_control_disability_complaints": 113,
+      "combined_control_disability_share": 0.597884,
+      "combined_control_disability_share_pct": 59.79,
+      "is_partial_year": false
+    },
+    {
+      "year": 2016,
+      "combined_control_total_complaints": 200,
+      "combined_control_disability_complaints": 115,
+      "combined_control_disability_share": 0.575,
+      "combined_control_disability_share_pct": 57.5,
+      "is_partial_year": false
+    },
+    {
+      "year": 2017,
+      "combined_control_total_complaints": 220,
+      "combined_control_disability_complaints": 151,
+      "combined_control_disability_share": 0.686364,
+      "combined_control_disability_share_pct": 68.64,
+      "is_partial_year": false
+    },
+    {
+      "year": 2018,
+      "combined_control_total_complaints": 193,
+      "combined_control_disability_complaints": 124,
+      "combined_control_disability_share": 0.642487,
+      "combined_control_disability_share_pct": 64.25,
+      "is_partial_year": false
+    },
+    {
+      "year": 2019,
+      "combined_control_total_complaints": 255,
+      "combined_control_disability_complaints": 162,
+      "combined_control_disability_share": 0.635294,
+      "combined_control_disability_share_pct": 63.53,
+      "is_partial_year": false
+    },
+    {
+      "year": 2020,
+      "combined_control_total_complaints": 125,
+      "combined_control_disability_complaints": 77,
+      "combined_control_disability_share": 0.616,
+      "combined_control_disability_share_pct": 61.6,
+      "is_partial_year": true
+    }
+  ],
+  "control_pooled_by_year": [
+    {
+      "year": 2006,
+      "combined_control_total_complaints": 259,
+      "combined_control_disability_complaints": 144,
+      "combined_control_disability_share": 0.555985,
+      "combined_control_disability_share_pct": 55.6,
+      "is_partial_year": false
+    },
+    {
+      "year": 2007,
+      "combined_control_total_complaints": 222,
+      "combined_control_disability_complaints": 128,
+      "combined_control_disability_share": 0.576577,
+      "combined_control_disability_share_pct": 57.66,
+      "is_partial_year": false
+    },
+    {
+      "year": 2008,
+      "combined_control_total_complaints": 249,
+      "combined_control_disability_complaints": 106,
+      "combined_control_disability_share": 0.425703,
+      "combined_control_disability_share_pct": 42.57,
+      "is_partial_year": false
+    },
+    {
+      "year": 2009,
+      "combined_control_total_complaints": 238,
+      "combined_control_disability_complaints": 106,
+      "combined_control_disability_share": 0.445378,
+      "combined_control_disability_share_pct": 44.54,
+      "is_partial_year": false
+    },
+    {
+      "year": 2010,
+      "combined_control_total_complaints": 219,
+      "combined_control_disability_complaints": 119,
+      "combined_control_disability_share": 0.543379,
+      "combined_control_disability_share_pct": 54.34,
+      "is_partial_year": false
+    },
+    {
+      "year": 2011,
+      "combined_control_total_complaints": 180,
+      "combined_control_disability_complaints": 116,
+      "combined_control_disability_share": 0.644444,
+      "combined_control_disability_share_pct": 64.44,
+      "is_partial_year": false
+    },
+    {
+      "year": 2012,
+      "combined_control_total_complaints": 204,
+      "combined_control_disability_complaints": 113,
+      "combined_control_disability_share": 0.553922,
+      "combined_control_disability_share_pct": 55.39,
+      "is_partial_year": false
+    },
+    {
+      "year": 2013,
+      "combined_control_total_complaints": 200,
+      "combined_control_disability_complaints": 124,
+      "combined_control_disability_share": 0.62,
+      "combined_control_disability_share_pct": 62.0,
+      "is_partial_year": false
+    },
+    {
+      "year": 2014,
+      "combined_control_total_complaints": 240,
+      "combined_control_disability_complaints": 140,
+      "combined_control_disability_share": 0.583333,
+      "combined_control_disability_share_pct": 58.33,
+      "is_partial_year": false
+    },
+    {
+      "year": 2015,
+      "combined_control_total_complaints": 189,
+      "combined_control_disability_complaints": 113,
+      "combined_control_disability_share": 0.597884,
+      "combined_control_disability_share_pct": 59.79,
+      "is_partial_year": false
+    },
+    {
+      "year": 2016,
+      "combined_control_total_complaints": 200,
+      "combined_control_disability_complaints": 115,
+      "combined_control_disability_share": 0.575,
+      "combined_control_disability_share_pct": 57.5,
+      "is_partial_year": false
+    },
+    {
+      "year": 2017,
+      "combined_control_total_complaints": 220,
+      "combined_control_disability_complaints": 151,
+      "combined_control_disability_share": 0.686364,
+      "combined_control_disability_share_pct": 68.64,
+      "is_partial_year": false
+    },
+    {
+      "year": 2018,
+      "combined_control_total_complaints": 193,
+      "combined_control_disability_complaints": 124,
+      "combined_control_disability_share": 0.642487,
+      "combined_control_disability_share_pct": 64.25,
+      "is_partial_year": false
+    },
+    {
+      "year": 2019,
+      "combined_control_total_complaints": 255,
+      "combined_control_disability_complaints": 162,
+      "combined_control_disability_share": 0.635294,
+      "combined_control_disability_share_pct": 63.53,
+      "is_partial_year": false
+    },
+    {
+      "year": 2020,
+      "combined_control_total_complaints": 125,
+      "combined_control_disability_complaints": 77,
+      "combined_control_disability_share": 0.616,
+      "combined_control_disability_share_pct": 61.6,
+      "is_partial_year": true
+    }
+  ],
+  "summary_stats": {
+    "full_year_window": {
+      "start_year": 2006,
+      "end_year": 2019
+    },
+    "massachusetts_full_year_averages": {
+      "average_total_complaints": 302.6429,
+      "average_disability_complaints": 149.1429,
+      "average_disability_share_pct": 48.7
+    },
+    "average_control_state_full_year_averages": {
+      "average_total_complaints": 54.7857,
+      "average_disability_complaints": 31.4464,
+      "average_disability_share_pct": 60.57
+    },
+    "massachusetts_change_first_to_latest_full_year": {
+      "first_year": 2006,
+      "latest_full_year": 2019,
+      "total_complaints_pct_change": 34.28,
+      "disability_complaints_pct_change": 71.77,
+      "disability_share_pp_change": 12.23
+    },
+    "average_control_state_change_first_to_latest_full_year": {
+      "first_year": 2006,
+      "latest_full_year": 2019,
+      "total_complaints_pct_change": -1.54,
+      "disability_complaints_pct_change": 12.5,
+      "disability_share_pp_change": 11.33
+    },
+    "latest_full_year_comparison": {
+      "year": 2019,
+      "massachusetts_total_complaints": 380,
+      "massachusetts_disability_complaints": 213,
+      "massachusetts_disability_share_pct": 56.05,
+      "average_control_total_complaints": 63.75,
+      "average_control_disability_complaints": 40.5,
+      "average_control_disability_share_pct": 68.45,
+      "combined_controls_total_complaints": 255,
+      "combined_controls_disability_complaints": 162,
+      "combined_controls_disability_share_pct": 63.53,
+      "pooled_controls_total_complaints": 255,
+      "pooled_controls_disability_complaints": 162,
+      "pooled_controls_disability_share_pct": 63.53,
+      "massachusetts_to_average_control_total_ratio": 5.96,
+      "massachusetts_to_average_control_disability_ratio": 5.26,
+      "massachusetts_vs_average_control_share_gap_pp": -12.4,
+      "massachusetts_to_pooled_controls_total_ratio": 1.49,
+      "massachusetts_to_pooled_controls_disability_ratio": 1.31,
+      "massachusetts_vs_pooled_controls_share_gap_pp": -7.48,
+      "massachusetts_vs_combined_controls_total_pct": 49.02,
+      "massachusetts_vs_combined_controls_disability_pct": 31.48
+    },
+    "massachusetts_peaks": {
+      "peak_total_complaints_year": 2019,
+      "peak_total_complaints": 380,
+      "peak_disability_share_year": 2017,
+      "peak_disability_share_pct": 63.36
+    },
+    "latest_full_year_state_rankings": [
+      {
+        "rank": 1,
+        "state_abbr": "MA",
+        "state_name": "Massachusetts",
+        "total_complaints": 380,
+        "disability_complaints": 213,
+        "disability_share_pct": 56.05
+      },
+      {
+        "rank": 2,
+        "state_abbr": "CT",
+        "state_name": "Connecticut",
+        "total_complaints": 126,
+        "disability_complaints": 73,
+        "disability_share_pct": 57.94
+      },
+      {
+        "rank": 3,
+        "state_abbr": "RI",
+        "state_name": "Rhode Island",
+        "total_complaints": 79,
+        "disability_complaints": 51,
+        "disability_share_pct": 64.56
+      },
+      {
+        "rank": 4,
+        "state_abbr": "NH",
+        "state_name": "New Hampshire",
+        "total_complaints": 28,
+        "disability_complaints": 22,
+        "disability_share_pct": 78.57
+      },
+      {
+        "rank": 5,
+        "state_abbr": "VT",
+        "state_name": "Vermont",
+        "total_complaints": 22,
+        "disability_complaints": 16,
+        "disability_share_pct": 72.73
+      }
+    ]
+  },
+  "did": {
+    "available": false,
+    "treatment_state": "MA",
+    "control_states": [
+      "CT",
+      "NH",
+      "VT",
+      "RI"
+    ],
+    "pre_period_rule": "year <= 2020",
+    "post_period_rule": "year >= 2022",
+    "excluded_transition_years": [
+      2021
+    ],
+    "annual_panel_note": "2021 is excluded from annual pre/post cells because treatment starts on 2021-08-18 and a single state-year row cannot separate pre- and post-launch filings.",
+    "reason": "No comparable post-launch full-year state panel exists in the FHEO file. The local case-level dataset ends on 2020-06-30, so it never reaches the first clean annual post period defined above; later supplementary series are Massachusetts-only or nationally aggregated rather than comparable state x year controls."
+  },
+  "supplementary_context": {
+    "nfha_national_series": [
+      {
+        "complaint_year": 2020,
+        "total_complaints": 28712,
+        "disability_complaints": 15664,
+        "disability_share_pct": 54.56,
+        "report_title": "2021 Fair Housing Trends Report",
+        "report_url": "https://nationalfairhousing.org/wp-content/uploads/2021/07/2021-Fair-Housing-Trends-Report_FINAL.pdf"
+      },
+      {
+        "complaint_year": 2021,
+        "total_complaints": 31216,
+        "disability_complaints": 16758,
+        "disability_share_pct": 53.68,
+        "report_title": "2022 Fair Housing Trends Report",
+        "report_url": "https://nationalfairhousing.org/wp-content/uploads/2022/11/2022-Fair-Housing-Trends-Report.pdf"
+      },
+      {
+        "complaint_year": 2022,
+        "total_complaints": 33007,
+        "disability_complaints": 17580,
+        "disability_share_pct": 53.26,
+        "report_title": "2023 Fair Housing Trends Report",
+        "report_url": "https://nationalfairhousing.org/wp-content/uploads/2023/08/2023-Trends-Report-Final.pdf"
+      },
+      {
+        "complaint_year": 2023,
+        "total_complaints": 34150,
+        "disability_complaints": 17986,
+        "disability_share_pct": 52.61,
+        "report_title": "2024 Fair Housing Trends Report",
+        "report_url": "https://nationalfairhousing.org/wp-content/uploads/2023/04/2024-Fair-Housing-Trends-Report-FINAL_07.2024.pdf"
+      },
+      {
+        "complaint_year": 2024,
+        "total_complaints": 32321,
+        "disability_complaints": 17645,
+        "disability_share_pct": 54.59,
+        "report_title": "2025 Fair Housing Trends Report",
+        "report_url": "https://nationalfairhousing.org/wp-content/uploads/2025/11/2025-NFHA-Fair-Housing-Trends-Report.pdf"
+      }
+    ],
+    "mcad_massachusetts_series": [
+      {
+        "fiscal_year": "FY20",
+        "period": "2019-07-01 to 2020-06-30",
+        "all_jurisdiction_complaints": 2778,
+        "housing_jurisdiction_complaints": 329,
+        "disability_protected_category_complaints": 1083,
+        "report_url": "https://www.mass.gov/doc/mcad-fy20-annual-report/download",
+        "comparability_note": "MCAD covers all commission jurisdictions; disability complaints are not housing-specific."
+      },
+      {
+        "fiscal_year": "FY21",
+        "period": "2020-07-01 to 2021-06-30",
+        "all_jurisdiction_complaints": 2463,
+        "housing_jurisdiction_complaints": 263,
+        "private_housing_complaints": 212,
+        "public_housing_complaints": 51,
+        "disability_protected_category_complaints": 1060,
+        "report_url": "https://www.mass.gov/doc/mcad-fy21-annual-report/download",
+        "comparability_note": "MCAD covers all commission jurisdictions; disability complaints are not housing-specific."
+      },
+      {
+        "fiscal_year": "FY22",
+        "period": "2021-07-01 to 2022-06-30",
+        "all_jurisdiction_complaints": 2822,
+        "housing_jurisdiction_complaints": 366,
+        "private_housing_complaints": 285,
+        "public_housing_complaints": 81,
+        "disability_protected_category_complaints": 1088,
+        "report_url": "https://www.mass.gov/doc/mcad-fy22-annual-report/download",
+        "comparability_note": "MCAD covers all commission jurisdictions; disability complaints are not housing-specific."
+      },
+      {
+        "fiscal_year": "FY23",
+        "period": "2022-07-01 to 2023-06-30",
+        "all_jurisdiction_complaints": 3086,
+        "housing_jurisdiction_complaints": 427,
+        "private_housing_complaints": 306,
+        "public_housing_complaints": 121,
+        "disability_protected_category_complaints": 1237,
+        "report_url": "https://www.mass.gov/doc/mcad-fy23-annual-report/download",
+        "comparability_note": "MCAD covers all commission jurisdictions; disability complaints are not housing-specific."
+      },
+      {
+        "fiscal_year": "FY24",
+        "period": "2023-07-01 to 2024-06-30",
+        "all_jurisdiction_complaints": 3553,
+        "housing_jurisdiction_complaints": null,
+        "disability_protected_category_complaints": null,
+        "report_url": "https://www.mass.gov/doc/mcad-fy24-annual-report/download",
+        "comparability_note": "The report text gives total complaints filed, but the housing/disability chart values were not machine-readable in text extraction."
+      },
+      {
+        "fiscal_year": "FY25",
+        "period": "2024-07-01 to 2025-06-30",
+        "all_jurisdiction_complaints": 3243,
+        "housing_jurisdiction_complaints": null,
+        "disability_protected_category_complaints": null,
+        "report_url": "https://www.mass.gov/doc/mcad-fy25-annual-report/download",
+        "comparability_note": "The report text gives total complaints filed, but the housing/disability chart values were not machine-readable in text extraction."
+      }
+    ]
+  },
+  "limitations": [
+    "Primary comparable state-level FHEO file ends on 2020-06-30, so 2020 is partial and there are no post-launch years for a clean DiD.",
+    "Annual DiD coding excludes 2021 as a transition year because the August 18, 2021 launch does not align with calendar-year state-panel boundaries.",
+    "Complaint-volume comparisons use raw filed-complaint counts and are not normalized by population, renter households, disability prevalence, or housing stock.",
+    "Disability basis counts are not mutually exclusive case categories; one complaint may list multiple bases.",
+    "MCAD post-2020 data are Massachusetts-only and broader than fair-housing-only Title VIII complaint counts.",
+    "NFHA post-2020 data are national aggregates and combine agencies reporting on different reporting calendars.",
+    "Small control states have low annual counts, which makes disability-share comparisons noisier."
+  ]
+}

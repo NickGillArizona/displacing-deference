@@ -1,0 +1,110 @@
+[
+  {
+    "source_file": "10089373_2024_Katalin Bloodgood-Loper v. Lenard Loper_ca9",
+    "case_name": "Katalin Bloodgood-Loper v. Lenard Loper; LVL Investments, LLC; Michelle L. Mercer",
+    "error": "No JSON object found; escalation:JSON object appears truncated",
+    "input_tokens": 11065,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": true,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10178074_2024_Hauanio v. The Michaels Organization_hid",
+    "case_name": "Sunshine H. Hauanio v. The Michaels Organization",
+    "error": "No JSON object found; escalation:JSON object appears truncated",
+    "input_tokens": 11520,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": true,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10194816_2024_Moore v. City of New York_nysd",
+    "case_name": "Ali Moore v. City of New York",
+    "error": "No JSON object found; escalation:JSON object appears truncated",
+    "input_tokens": 10547,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": true,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "11267613 - Joe v. OLIVE BRANCH ASSISTED LIVING LLC",
+    "case_name": "Hailei Joe v. Olive Branch Assisted Living LLC",
+    "error": "No JSON object found; escalation:JSON object appears truncated",
+    "input_tokens": 11656,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": true,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10600345_2025_Thorson v. Hawaii Public Housing Authority_hid",
+    "case_name": "Laurie Thorson v. Hawaii Public Housing Authority, Hakim Ouansafi, Ryan Akamine, and Lyle Matsuura",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 12001,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10626360_2025_Earle v. Manchester Village Owners Association Inc_wied",
+    "case_name": "Dawn N. Earle v. Manchester Village Owners Association Inc, et al.",
+    "error": "No JSON object found; escalation:JSON object appears truncated",
+    "input_tokens": 11352,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": true,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10645062_2025_Peters v. Caton Towers Owners Corp._nyed",
+    "case_name": "Jacqueline Peters v. Cafton Towers Owners Corp.",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 11381,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10655494_2025_Wallace v. John Stewart Co. _ Redwood Gardens_cand",
+    "case_name": "David Wallace v. John Stewart Company et al.",
+    "error": "No JSON object found; escalation:JSON object appears truncated",
+    "input_tokens": 10964,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": true,
+    "hit_2400_cap": true
+  },
+  {
+    "source_file": "10688073_2025_Webster v. Fairway Management Inc_oknd",
+    "case_name": "Stephany Webster v. Fairway Management, Inc., Walnut Park Manor, L.P., JES Holdings, LLC",
+    "error": "No JSON object found; escalation:No JSON object found",
+    "input_tokens": 12853,
+    "models": [
+      "moonshotai/kimi-k2.5",
+      "z-ai/glm-5.1"
+    ],
+    "any_raw": false,
+    "hit_2400_cap": true
+  }
+]

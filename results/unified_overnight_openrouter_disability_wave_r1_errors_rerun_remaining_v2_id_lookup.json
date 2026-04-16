@@ -1,0 +1,162 @@
+{
+  "uor-0000-30b59cd1216f": {
+    "source_file": "10172026_2024_Filho v. Mercy Housing California XVII, LP_cand",
+    "case_name": "Filho v. Mercy Housing California XVII, LP",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5859
+  },
+  "uor-0001-619d1de76c59": {
+    "source_file": "10189170_2023_431 E PALISADE AVENUE REAL ESTATE, LLC v. CITY OF ENGLEWOOD_njd",
+    "case_name": "431 E Palisade Avenue Real Estate, LLC v. City of Englewood",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 6181
+  },
+  "uor-0002-20e8da4f30d4": {
+    "source_file": "10189406_2024_CAREONE AT BIRCHWOOD, LLC v. TOWNSHIP OF EDISON_njd",
+    "case_name": "CareOne at Birchwood, LLC v. Township of Edison",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 6078
+  },
+  "uor-0003-dabc77f3f655": {
+    "source_file": "10203219_2024_George v. Overall Creek Apartments, LLC_tnmd",
+    "case_name": "George v. Overall Creek Apartments, LLC",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5830
+  },
+  "uor-0004-50bd5f634928": {
+    "source_file": "10264452_2023_The City of Huntington v. The Lifehouse, Inc.et al_wvsd",
+    "case_name": "The City of Huntington v. The Lifehouse, Inc.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5867
+  },
+  "uor-0005-e72c891d1d6f": {
+    "source_file": "11267589 - Oxford House, Inc. v. Township of North Bergen",
+    "case_name": "Oxford House, Inc. v. Township of North Bergen",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2025,
+    "estimated_input_tokens": 5910
+  },
+  "uor-0006-b0d4c2fbb4e4": {
+    "source_file": "6225633_2022_Karen C. Yeh Ho v. Valencia Isles Homeowners Association, Inc._ca11",
+    "case_name": "Karen C. Yeh Ho v. Valencia Isles Homeowners Association, Inc.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5760
+  },
+  "uor-0007-5d2d49ddccce": {
+    "source_file": "6245490_2022_Gatling v. Jubilee Housing, Inc._dcd",
+    "case_name": "Gatling v. Jubilee Housing, Inc.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 6014
+  },
+  "uor-0008-9f290e606636": {
+    "source_file": "7804109_2022_Sailboat Bend Sober Living v. City of Fort Lauderdale, FL._ca11",
+    "case_name": "Sailboat Bend Sober Living, LLC v. City of Fort Lauderdale, Florida",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 6158
+  },
+  "uor-0009-867af02d821a": {
+    "source_file": "9363862_2023_Socal Recovery, LLC v. City of Costa Mesa_ca9",
+    "case_name": "SoCal Recovery, LLC v. City of Costa Mesa",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 6242
+  },
+  "uor-0010-7d6f3f9a7cf9": {
+    "source_file": "9385862_2023_Suellen Klossner v. IADU Table Mound MHP, LLC_ca8",
+    "case_name": "Klossner v. IADU Table Mound MHP, LLC",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5844
+  },
+  "uor-0011-b64c30dbe565": {
+    "source_file": "9519145_2024_Sosa Guerrero v. Camp Pendelton and Quantico Housing, LLC_cacd",
+    "case_name": "Luis Sosa Guerrero, Ashley Sosa, and A.S. v. Camp Pendelton & Quantico Housing, LLC, et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5759
+  },
+  "uor-0012-66f84644625d": {
+    "source_file": "9608822_2023_Lu v. Vivente 1, Inc._cand",
+    "case_name": "Kai Lu v. Vivente 1, Inc.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 6220
+  },
+  "uor-0013-b60017b8a718": {
+    "source_file": "9609703_2023_Silver v. Greystar Real Estate Partners, LLC_cand",
+    "case_name": "Aimee Silver v. Greystar California, Inc., et al.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5511
+  },
+  "uor-0014-53b01def3966": {
+    "source_file": "9741144_2022_Smith v. New Rez, LLC_mdd",
+    "case_name": "Smith v. New Rez, LLC",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5585
+  },
+  "uor-0015-b722106f26ae": {
+    "source_file": "9890868_2024_Jane Doe v. Related Companies, LLP_nysd",
+    "case_name": "Jane Doe v. Related Companies, LLP",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5617
+  },
+  "uor-0016-5c7481c7f7dc": {
+    "source_file": "9898381_2022_Moore v. Capital Realty Group, Inc._nywd",
+    "case_name": "Jerry W. Moore v. Capital Realty Group, Inc.",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2022,
+    "estimated_input_tokens": 5845
+  },
+  "uor-0017-a0d2b7651940": {
+    "source_file": "9919221_2023_Watkins v. Housing Authority of the City of Hugo, The_oked",
+    "case_name": "Watkins v. Housing Authority of the City of Hugo",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2023,
+    "estimated_input_tokens": 5757
+  },
+  "uor-0018-d8e3865bb159": {
+    "source_file": "9919451_2024_Metropolitan Fair Housing Council of Oklahoma, Inc v. Feiock_oked",
+    "case_name": "Metropolitan Fair Housing Council of Oklahoma, Inc. v. Feiock",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5873
+  },
+  "uor-0019-da02a99d6252": {
+    "source_file": "EIGHT IS ENOUGH, LLC v. OHLIG",
+    "case_name": "Eight Is Enough, LLC v. Ohlig",
+    "period": "P1",
+    "bucket": "disability",
+    "year": 2024,
+    "estimated_input_tokens": 5842
+  }
+}

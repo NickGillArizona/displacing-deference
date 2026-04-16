@@ -1,0 +1,26 @@
+{
+  "uor-0000-976277295dbe": {
+    "source_file": "10164858_2021_Miller v. Coastline Management_alsd",
+    "case_name": "Miller v. Coastline Management",
+    "period": null,
+    "bucket": "disability",
+    "year": 2021,
+    "estimated_input_tokens": 5776
+  },
+  "uor-0001-cf36d5adf2dc": {
+    "source_file": "10213380_2021_Payne v. City of San Antonio, Texas_txwd",
+    "case_name": "Payne v. City of San Antonio, Texas",
+    "period": null,
+    "bucket": "disability",
+    "year": 2021,
+    "estimated_input_tokens": 6236
+  },
+  "uor-0002-e02e18072b81": {
+    "source_file": "10254272_2019_Manzke, Sara v. Jefferson County_wiwd",
+    "case_name": "Sara Manzke v. Jefferson County and Town of Ixonia",
+    "period": null,
+    "bucket": "disability",
+    "year": 2019,
+    "estimated_input_tokens": 5680
+  }
+}

@@ -1,0 +1,5233 @@
+{
+  "dataset": {
+    "total_cases": 3198,
+    "disability_screened_in_dated": 1724,
+    "periods": {
+      "P1": "2013-2020",
+      "P2": "2021-2022",
+      "P3": "2023-2026"
+    },
+    "raw_text_dir": "/mnt/c/Users/nickg/OneDrive/Documents/Note/allFHAcases",
+    "raw_text_indexed_files": 6507
+  },
+  "method": {
+    "top_circuits_n": 5,
+    "broad_win_definition": [
+      "PLAINTIFF_WIN",
+      "MIXED"
+    ],
+    "district_shortfall_definition": "expected P3 broad wins at the circuit's district-court P1 baseline minus actual P3 broad wins",
+    "mtd_survival_definition": "share of P3 district-court MTD cases that are not coded DEFENDANT_WIN",
+    "appointment_cutoff": "2025-01-31",
+    "high_impact_full_circuit_shortfall_cutoff": 0.05,
+    "judge_name_canonicalization_policy": "Singleton surnames and OCR-fragment strings are counted as identified judges only when they can be confidently canonicalized to a fuller identity; otherwise they remain unresolved.",
+    "share_of_full_shortfall_caveat": "District/judge shares of full-circuit shortfall are non-additive diagnostic ratios and may exceed 1.0 because the numerator is a district/judge shortfall while the denominator is the full-circuit shortfall, which also reflects non-district and offsetting components.",
+    "appointment_lookup_sources": [
+      "manual high-impact seeds and OCR corrections",
+      "cached prior lookups that already record an office-relevant selection basis",
+      "live Wikipedia lookup when needed"
+    ],
+    "appointment_lookup_rule": "Use an office-relevant appointment date when a single federal office can be tied to the judge's case district; otherwise leave the lookup unresolved.",
+    "appointment_lookup_reproducibility_note": "Appointment lookup uses manual seeds first, then prior district-keyed lookup entries cached from results/circuit_district_deep_dive_results.json when present, and only then live Wikipedia lookups as needed.",
+    "appointment_lookup_cache_seed_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/results/circuit_district_deep_dive_results.json",
+    "appointment_lookup_cache_seed_entries": 221
+  },
+  "top_5_circuits_by_full_decline": [
+    {
+      "circuit": "2nd Circuit",
+      "p1_n": 43,
+      "p3_n": 164,
+      "p1_broad_rate": 48.84,
+      "p3_broad_rate": 8.54,
+      "delta_pp": -40.3
+    },
+    {
+      "circuit": "4th Circuit",
+      "p1_n": 13,
+      "p3_n": 95,
+      "p1_broad_rate": 46.15,
+      "p3_broad_rate": 10.53,
+      "delta_pp": -35.63
+    },
+    {
+      "circuit": "10th Circuit",
+      "p1_n": 16,
+      "p3_n": 70,
+      "p1_broad_rate": 43.75,
+      "p3_broad_rate": 10.0,
+      "delta_pp": -33.75
+    },
+    {
+      "circuit": "5th Circuit",
+      "p1_n": 14,
+      "p3_n": 77,
+      "p1_broad_rate": 42.86,
+      "p3_broad_rate": 15.58,
+      "delta_pp": -27.27
+    },
+    {
+      "circuit": "3rd Circuit",
+      "p1_n": 24,
+      "p3_n": 93,
+      "p1_broad_rate": 45.83,
+      "p3_broad_rate": 24.73,
+      "delta_pp": -21.1
+    }
+  ],
+  "cross_circuit_findings": {
+    "districts_over_50pct_of_full_circuit_shortfall": [
+      {
+        "circuit": "2nd Circuit",
+        "district": "S.D.N.Y.",
+        "share_of_full_circuit_shortfall": 0.6044,
+        "share_of_district_court_shortfall": 0.6534
+      },
+      {
+        "circuit": "4th Circuit",
+        "district": "D. Md.",
+        "share_of_full_circuit_shortfall": 0.599,
+        "share_of_district_court_shortfall": 0.5284
+      },
+      {
+        "circuit": "3rd Circuit",
+        "district": "E.D. Pa.",
+        "share_of_full_circuit_shortfall": 0.7507,
+        "share_of_district_court_shortfall": 0.5711
+      },
+      {
+        "circuit": "3rd Circuit",
+        "district": "D.N.J.",
+        "share_of_full_circuit_shortfall": 0.5096,
+        "share_of_district_court_shortfall": 0.3876
+      }
+    ],
+    "districts_over_50pct_of_district_court_shortfall": [
+      {
+        "circuit": "2nd Circuit",
+        "district": "S.D.N.Y.",
+        "share_of_full_circuit_shortfall": 0.6044,
+        "share_of_district_court_shortfall": 0.6534
+      },
+      {
+        "circuit": "4th Circuit",
+        "district": "D. Md.",
+        "share_of_full_circuit_shortfall": 0.599,
+        "share_of_district_court_shortfall": 0.5284
+      },
+      {
+        "circuit": "3rd Circuit",
+        "district": "E.D. Pa.",
+        "share_of_full_circuit_shortfall": 0.7507,
+        "share_of_district_court_shortfall": 0.5711
+      }
+    ],
+    "judges_over_50pct_of_full_circuit_shortfall": [],
+    "judges_over_50pct_of_district_court_shortfall": [],
+    "single_judge_gt50_test_rows": [
+      {
+        "circuit": "2nd Circuit",
+        "judge": "Laura Taylor Swain",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.2364,
+        "observed_top_identified_share_of_district_court_shortfall": 0.2555,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.0695,
+        "unknown_judge_share_of_district_court_shortfall": 0.0752,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3059,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.3307,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Deborah L. Boardman",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.0806,
+        "observed_top_identified_share_of_district_court_shortfall": 0.0711,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.2632,
+        "unknown_judge_share_of_district_court_shortfall": 0.2322,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3438,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.3033,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "10th Circuit",
+        "judge": "Gerald L. Jackson",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.1185,
+        "observed_top_identified_share_of_district_court_shortfall": 0.1132,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.2709,
+        "unknown_judge_share_of_district_court_shortfall": 0.2588,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3894,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.372,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "5th Circuit",
+        "judge": "Susan Hightower",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.1429,
+        "observed_top_identified_share_of_district_court_shortfall": 0.0968,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.5143,
+        "unknown_judge_share_of_district_court_shortfall": 0.3484,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.6571,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.4452,
+        "gt_50pct_of_full_circuit_shortfall_status": "indeterminate",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "3rd Circuit",
+        "judge": "Susan D. Wigenton",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.2174,
+        "observed_top_identified_share_of_district_court_shortfall": 0.1654,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.6149,
+        "unknown_judge_share_of_district_court_shortfall": 0.4677,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.8323,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.6331,
+        "gt_50pct_of_full_circuit_shortfall_status": "indeterminate",
+        "gt_50pct_of_district_court_shortfall_status": "indeterminate"
+      }
+    ],
+    "circuits_with_indeterminate_single_judge_gt50_full_circuit_test": [
+      {
+        "circuit": "5th Circuit",
+        "judge": "Susan Hightower",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.1429,
+        "observed_top_identified_share_of_district_court_shortfall": 0.0968,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.5143,
+        "unknown_judge_share_of_district_court_shortfall": 0.3484,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.6571,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.4452,
+        "gt_50pct_of_full_circuit_shortfall_status": "indeterminate",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "3rd Circuit",
+        "judge": "Susan D. Wigenton",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.2174,
+        "observed_top_identified_share_of_district_court_shortfall": 0.1654,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.6149,
+        "unknown_judge_share_of_district_court_shortfall": 0.4677,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.8323,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.6331,
+        "gt_50pct_of_full_circuit_shortfall_status": "indeterminate",
+        "gt_50pct_of_district_court_shortfall_status": "indeterminate"
+      }
+    ],
+    "circuits_with_indeterminate_single_judge_gt50_district_court_test": [
+      {
+        "circuit": "3rd Circuit",
+        "judge": "Susan D. Wigenton",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.2174,
+        "observed_top_identified_share_of_district_court_shortfall": 0.1654,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.6149,
+        "unknown_judge_share_of_district_court_shortfall": 0.4677,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.8323,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.6331,
+        "gt_50pct_of_full_circuit_shortfall_status": "indeterminate",
+        "gt_50pct_of_district_court_shortfall_status": "indeterminate"
+      }
+    ],
+    "circuits_with_definitive_no_single_judge_gt50_full_circuit_test": [
+      {
+        "circuit": "2nd Circuit",
+        "judge": "Laura Taylor Swain",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.2364,
+        "observed_top_identified_share_of_district_court_shortfall": 0.2555,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.0695,
+        "unknown_judge_share_of_district_court_shortfall": 0.0752,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3059,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.3307,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Deborah L. Boardman",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.0806,
+        "observed_top_identified_share_of_district_court_shortfall": 0.0711,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.2632,
+        "unknown_judge_share_of_district_court_shortfall": 0.2322,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3438,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.3033,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "10th Circuit",
+        "judge": "Gerald L. Jackson",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.1185,
+        "observed_top_identified_share_of_district_court_shortfall": 0.1132,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.2709,
+        "unknown_judge_share_of_district_court_shortfall": 0.2588,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3894,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.372,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      }
+    ],
+    "circuits_with_definitive_no_single_judge_gt50_district_court_test": [
+      {
+        "circuit": "2nd Circuit",
+        "judge": "Laura Taylor Swain",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.2364,
+        "observed_top_identified_share_of_district_court_shortfall": 0.2555,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.0695,
+        "unknown_judge_share_of_district_court_shortfall": 0.0752,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3059,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.3307,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Deborah L. Boardman",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.0806,
+        "observed_top_identified_share_of_district_court_shortfall": 0.0711,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.2632,
+        "unknown_judge_share_of_district_court_shortfall": 0.2322,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3438,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.3033,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "10th Circuit",
+        "judge": "Gerald L. Jackson",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.1185,
+        "observed_top_identified_share_of_district_court_shortfall": 0.1132,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.2709,
+        "unknown_judge_share_of_district_court_shortfall": 0.2588,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3894,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.372,
+        "gt_50pct_of_full_circuit_shortfall_status": "definitive_no",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      },
+      {
+        "circuit": "5th Circuit",
+        "judge": "Susan Hightower",
+        "observed_top_identified_share_of_full_circuit_shortfall": 0.1429,
+        "observed_top_identified_share_of_district_court_shortfall": 0.0968,
+        "unknown_judge_share_of_full_circuit_shortfall": 0.5143,
+        "unknown_judge_share_of_district_court_shortfall": 0.3484,
+        "max_possible_single_judge_share_of_full_circuit_shortfall": 0.6571,
+        "max_possible_single_judge_share_of_district_court_shortfall": 0.4452,
+        "gt_50pct_of_full_circuit_shortfall_status": "indeterminate",
+        "gt_50pct_of_district_court_shortfall_status": "definitive_no"
+      }
+    ],
+    "circuits_with_post_2025_appointees": [],
+    "post_2025_appointee_check_status": "indeterminate",
+    "circuits_with_indeterminate_post_2025_appointee_check": [
+      {
+        "circuit": "2nd Circuit",
+        "resolved_lookup_count": 10,
+        "unresolved_lookup_count": 50,
+        "unknown_judge_p3_cases": 10
+      },
+      {
+        "circuit": "4th Circuit",
+        "resolved_lookup_count": 1,
+        "unresolved_lookup_count": 25,
+        "unknown_judge_p3_cases": 20
+      },
+      {
+        "circuit": "10th Circuit",
+        "resolved_lookup_count": 2,
+        "unresolved_lookup_count": 26,
+        "unknown_judge_p3_cases": 18
+      },
+      {
+        "circuit": "5th Circuit",
+        "resolved_lookup_count": 9,
+        "unresolved_lookup_count": 22,
+        "unknown_judge_p3_cases": 28
+      },
+      {
+        "circuit": "3rd Circuit",
+        "resolved_lookup_count": 25,
+        "unresolved_lookup_count": 4,
+        "unknown_judge_p3_cases": 32
+      }
+    ],
+    "circuits_with_definitive_no_post_2025_appointee_check": [],
+    "unresolved_appointment_lookup_counts": {
+      "2nd Circuit": 50,
+      "4th Circuit": 25,
+      "10th Circuit": 26,
+      "5th Circuit": 22,
+      "3rd Circuit": 4
+    },
+    "total_unresolved_appointment_lookups": 127,
+    "high_impact_judges_with_post_2025_appointments": [],
+    "unresolved_high_impact_judges": [
+      {
+        "circuit": "2nd Circuit",
+        "judge": "Laura Taylor Swain",
+        "district": "S.D.N.Y.",
+        "p3_n": 34,
+        "share_of_full_circuit_shortfall": 0.2364,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Deborah L. Boardman",
+        "district": "D. Md.",
+        "p3_n": 5,
+        "share_of_full_circuit_shortfall": 0.0806,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Stephanie A. Gallagher",
+        "district": "D. Md.",
+        "p3_n": 5,
+        "share_of_full_circuit_shortfall": 0.0806,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Brendan A. Hurson",
+        "district": "D. Md.",
+        "p3_n": 4,
+        "share_of_full_circuit_shortfall": 0.0645,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge": "Matthew J. Maddox",
+        "district": "D. Md.",
+        "p3_n": 4,
+        "share_of_full_circuit_shortfall": 0.0645,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "10th Circuit",
+        "judge": "Eric F. Melgren",
+        "district": "D. Kan.",
+        "p3_n": 4,
+        "share_of_full_circuit_shortfall": 0.079,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "10th Circuit",
+        "judge": "Kea W. Riggs",
+        "district": "D.N.M.",
+        "p3_n": 3,
+        "share_of_full_circuit_shortfall": 0.0593,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "5th Circuit",
+        "judge": "Charles Eskridge",
+        "district": "S.D. Tex.",
+        "p3_n": 3,
+        "share_of_full_circuit_shortfall": 0.0857,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      },
+      {
+        "circuit": "5th Circuit",
+        "judge": "David L. Horan",
+        "district": "N.D. Tex.",
+        "p3_n": 3,
+        "share_of_full_circuit_shortfall": 0.0857,
+        "appointment_lookup_status": "unresolved",
+        "appointment_date": null,
+        "office": null,
+        "lookup_method": null
+      }
+    ],
+    "judge_hhi_rows": [
+      {
+        "circuit": "2nd Circuit",
+        "judge_hhi_identified_only_10000": 680.73,
+        "judge_hhi_with_unknown_bucket_10000": 637.35
+      },
+      {
+        "circuit": "4th Circuit",
+        "judge_hhi_identified_only_10000": 508.88,
+        "judge_hhi_with_unknown_bucket_10000": 851.21
+      },
+      {
+        "circuit": "10th Circuit",
+        "judge_hhi_identified_only_10000": 528.0,
+        "judge_hhi_with_unknown_bucket_10000": 986.16
+      },
+      {
+        "circuit": "5th Circuit",
+        "judge_hhi_identified_only_10000": 464.85,
+        "judge_hhi_with_unknown_bucket_10000": 1767.35
+      },
+      {
+        "circuit": "3rd Circuit",
+        "judge_hhi_identified_only_10000": 621.3,
+        "judge_hhi_with_unknown_bucket_10000": 1689.34
+      }
+    ]
+  },
+  "circuits": {
+    "2nd Circuit": {
+      "circuit": "2nd Circuit",
+      "full_circuit_decline": {
+        "p1_n": 43,
+        "p1_broad_rate": 48.84,
+        "p3_n": 164,
+        "p3_broad_rate": 8.54,
+        "delta_pp": -40.3,
+        "full_circuit_shortfall_cases": 66.093
+      },
+      "district_court_component": {
+        "p1_n": 37,
+        "p1_broad_rate": 45.95,
+        "p3_n": 157,
+        "p3_broad_rate": 7.01,
+        "delta_pp": -38.94,
+        "district_court_shortfall_cases": 61.135,
+        "share_of_full_p3_cases": 0.9573,
+        "share_of_full_shortfall": 0.925
+      },
+      "districts": [
+        {
+          "district": "S.D.N.Y.",
+          "p1_n": 27,
+          "p1_broad_rate": 44.44,
+          "p3_n": 100,
+          "p3_broad_rate": 6.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 45.946,
+          "actual_p3_broad": 6,
+          "shortfall_cases": 39.946,
+          "share_of_district_court_shortfall": 0.6534,
+          "share_of_full_circuit_shortfall": 0.6044,
+          "p3_pro_se_share": 80.0,
+          "p3_mtd_n": 50,
+          "p3_mtd_survival_rate": 16.0,
+          "p3_identified_judges_n": 33,
+          "p3_identified_judges": [
+            "Alvin K. Hellerstein",
+            "Analisa Torres",
+            "Andrew L. Carter Jr.",
+            "Arun Subramanian",
+            "Dale E. Ho",
+            "Denise L. Cote",
+            "Edgardo Ramos",
+            "Gregory H. Woods",
+            "J. Paul Oetken",
+            "Jeannette A. Vargas",
+            "Jennifer H. Rearden",
+            "Jennifer L. Rochon",
+            "Jessica G. L. Clarke",
+            "Judith C. McCarthy",
+            "Katharine H. Parker",
+            "Katherine Polk Failla",
+            "Kenneth M. Karas",
+            "Kimba M. Wood",
+            "Laura Taylor Swain",
+            "Lorna G. Schofield",
+            "Louis L. Stanton",
+            "Mary Kay Vyskocil",
+            "Nelson S. Roman",
+            "Ona T. Wang",
+            "Paul A. Engelmayer",
+            "Paul G. Gardephe",
+            "Philip M. Halpern",
+            "Robyn F. Tarnofsky",
+            "Ronnie Abrams",
+            "Sidney H. Stein",
+            "Stewart D. Aaron",
+            "Vernon S. Broderick",
+            "Victor Marrero"
+          ],
+          "p3_unknown_judge_cases_n": 6
+        },
+        {
+          "district": "E.D.N.Y.",
+          "p1_n": 2,
+          "p1_broad_rate": 0.0,
+          "p3_n": 22,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 10.108,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 10.108,
+          "share_of_district_court_shortfall": 0.1653,
+          "share_of_full_circuit_shortfall": 0.1529,
+          "p3_pro_se_share": 68.18,
+          "p3_mtd_n": 15,
+          "p3_mtd_survival_rate": 0.0,
+          "p3_identified_judges_n": 11,
+          "p3_identified_judges": [
+            "Gary R. Brown",
+            "Hector Gonzalez",
+            "James M. Wicks",
+            "LaShann DeArcy Hall",
+            "Lois Bloom",
+            "Natasha C. Merle",
+            "Nicholas G. Garaufis",
+            "Orelia E. Merchant",
+            "Rachel P. Kovner",
+            "Ramón E. Reyes Jr.",
+            "Steven I. Locke"
+          ],
+          "p3_unknown_judge_cases_n": 3
+        },
+        {
+          "district": "N.D.N.Y.",
+          "p1_n": 4,
+          "p1_broad_rate": 50.0,
+          "p3_n": 21,
+          "p3_broad_rate": 19.05,
+          "expected_p3_broad_at_circuit_district_p1_rate": 9.649,
+          "actual_p3_broad": 4,
+          "shortfall_cases": 5.649,
+          "share_of_district_court_shortfall": 0.0924,
+          "share_of_full_circuit_shortfall": 0.0855,
+          "p3_pro_se_share": 57.14,
+          "p3_mtd_n": 17,
+          "p3_mtd_survival_rate": 29.41,
+          "p3_identified_judges_n": 10,
+          "p3_identified_judges": [
+            "Andrew T. Baxter",
+            "Anne M. Nardacci",
+            "Brenda K. Sannes",
+            "Christian F. Hummel",
+            "Daniel J. Stewart",
+            "Deborah A. Batts",
+            "Elizabeth C. Coombe",
+            "Kiyo A. Matsumoto",
+            "Mae A. D'Agostino",
+            "Paul J. Evangelista"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        },
+        {
+          "district": "D. Conn.",
+          "p1_n": 3,
+          "p1_broad_rate": 100.0,
+          "p3_n": 6,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 2.757,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 2.757,
+          "share_of_district_court_shortfall": 0.0451,
+          "share_of_full_circuit_shortfall": 0.0417,
+          "p3_pro_se_share": 83.33,
+          "p3_mtd_n": 5,
+          "p3_mtd_survival_rate": 0.0,
+          "p3_identified_judges_n": 3,
+          "p3_identified_judges": [
+            "Jeffrey Alker Meyer",
+            "Sarala V. Nagala",
+            "Stefan R. Underhill"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        },
+        {
+          "district": "W.D.N.Y.",
+          "p1_n": 1,
+          "p1_broad_rate": 0.0,
+          "p3_n": 6,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 2.757,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 2.757,
+          "share_of_district_court_shortfall": 0.0451,
+          "share_of_full_circuit_shortfall": 0.0417,
+          "p3_pro_se_share": 100.0,
+          "p3_mtd_n": 3,
+          "p3_mtd_survival_rate": 0.0,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Lawrence J. Vilardo",
+            "Leslie G. Foschio"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        },
+        {
+          "district": "D. Vt.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 2,
+          "p3_broad_rate": 50.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+          "actual_p3_broad": 1,
+          "shortfall_cases": -0.081,
+          "share_of_district_court_shortfall": -0.0013,
+          "share_of_full_circuit_shortfall": -0.0012,
+          "p3_pro_se_share": 50.0,
+          "p3_mtd_n": 0,
+          "p3_mtd_survival_rate": null,
+          "p3_identified_judges_n": 1,
+          "p3_identified_judges": [
+            "William K. Sessions III"
+          ],
+          "p3_unknown_judge_cases_n": 1
+        }
+      ],
+      "judges": {
+        "identified_p3_cases": 147,
+        "unknown_p3_cases": 10,
+        "identification_rate": 0.9363,
+        "unknown_shortfall_cases": 4.595,
+        "judge_hhi_identified_only_10000": 680.73,
+        "judge_hhi_with_unknown_bucket_10000": 637.35,
+        "judge_rows": [
+          {
+            "judge": "Laura Taylor Swain",
+            "district": "S.D.N.Y.",
+            "p3_n": 34,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 15.622,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 15.622,
+            "share_of_district_court_shortfall": 0.2555,
+            "share_of_full_circuit_shortfall": 0.2364
+          },
+          {
+            "judge": "Rachel P. Kovner",
+            "district": "E.D.N.Y.",
+            "p3_n": 5,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.297,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 2.297,
+            "share_of_district_court_shortfall": 0.0376,
+            "share_of_full_circuit_shortfall": 0.0348
+          },
+          {
+            "judge": "Ronnie Abrams",
+            "district": "S.D.N.Y.",
+            "p3_n": 5,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.297,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 2.297,
+            "share_of_district_court_shortfall": 0.0376,
+            "share_of_full_circuit_shortfall": 0.0348
+          },
+          {
+            "judge": "Kenneth M. Karas",
+            "district": "S.D.N.Y.",
+            "p3_n": 4,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.838,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.838,
+            "share_of_district_court_shortfall": 0.0301,
+            "share_of_full_circuit_shortfall": 0.0278
+          },
+          {
+            "judge": "Leslie G. Foschio",
+            "district": "W.D.N.Y.",
+            "p3_n": 4,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.838,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.838,
+            "share_of_district_court_shortfall": 0.0301,
+            "share_of_full_circuit_shortfall": 0.0278
+          },
+          {
+            "judge": "Sarala V. Nagala",
+            "district": "D. Conn.",
+            "p3_n": 4,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.838,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.838,
+            "share_of_district_court_shortfall": 0.0301,
+            "share_of_full_circuit_shortfall": 0.0278
+          },
+          {
+            "judge": "Daniel J. Stewart",
+            "district": "N.D.N.Y.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.378,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.378,
+            "share_of_district_court_shortfall": 0.0225,
+            "share_of_full_circuit_shortfall": 0.0209
+          },
+          {
+            "judge": "Kimba M. Wood",
+            "district": "S.D.N.Y.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.378,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.378,
+            "share_of_district_court_shortfall": 0.0225,
+            "share_of_full_circuit_shortfall": 0.0209
+          },
+          {
+            "judge": "Natasha C. Merle",
+            "district": "E.D.N.Y.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.378,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.378,
+            "share_of_district_court_shortfall": 0.0225,
+            "share_of_full_circuit_shortfall": 0.0209
+          },
+          {
+            "judge": "Paul A. Engelmayer",
+            "district": "S.D.N.Y.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.378,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.378,
+            "share_of_district_court_shortfall": 0.0225,
+            "share_of_full_circuit_shortfall": 0.0209
+          },
+          {
+            "judge": "Andrew L. Carter Jr.",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Andrew T. Baxter",
+            "district": "N.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Anne M. Nardacci",
+            "district": "N.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Christian F. Hummel",
+            "district": "N.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Denise L. Cote",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Gregory H. Woods",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "James M. Wicks",
+            "district": "E.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Jennifer H. Rearden",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Jennifer L. Rochon",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Katharine H. Parker",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Lawrence J. Vilardo",
+            "district": "W.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Louis L. Stanton",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Philip M. Halpern",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Robyn F. Tarnofsky",
+            "district": "S.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Steven I. Locke",
+            "district": "E.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.919,
+            "share_of_district_court_shortfall": 0.015,
+            "share_of_full_circuit_shortfall": 0.0139
+          },
+          {
+            "judge": "Alvin K. Hellerstein",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Analisa Torres",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Arun Subramanian",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Deborah A. Batts",
+            "district": "N.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Elizabeth C. Coombe",
+            "district": "N.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Gary R. Brown",
+            "district": "E.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Hector Gonzalez",
+            "district": "E.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "J. Paul Oetken",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Jeannette A. Vargas",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Jeffrey Alker Meyer",
+            "district": "D. Conn.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Jessica G. L. Clarke",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Judith C. McCarthy",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Katherine Polk Failla",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Kiyo A. Matsumoto",
+            "district": "N.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "LaShann DeArcy Hall",
+            "district": "E.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Lois Bloom",
+            "district": "E.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Lorna G. Schofield",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Mary Kay Vyskocil",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Nelson S. Roman",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Nicholas G. Garaufis",
+            "district": "E.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Ona T. Wang",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Orelia E. Merchant",
+            "district": "E.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Paul G. Gardephe",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Paul J. Evangelista",
+            "district": "N.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Ramón E. Reyes Jr.",
+            "district": "E.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Stefan R. Underhill",
+            "district": "D. Conn.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Stewart D. Aaron",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Vernon S. Broderick",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Victor Marrero",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.459,
+            "share_of_district_court_shortfall": 0.0075,
+            "share_of_full_circuit_shortfall": 0.007
+          },
+          {
+            "judge": "Dale E. Ho",
+            "district": "S.D.N.Y.",
+            "p3_n": 5,
+            "p3_broad_rate": 40.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.297,
+            "actual_p3_broad": 2,
+            "shortfall_cases": 0.297,
+            "share_of_district_court_shortfall": 0.0049,
+            "share_of_full_circuit_shortfall": 0.0045
+          },
+          {
+            "judge": "Mae A. D'Agostino",
+            "district": "N.D.N.Y.",
+            "p3_n": 2,
+            "p3_broad_rate": 50.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.919,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.081,
+            "share_of_district_court_shortfall": -0.0013,
+            "share_of_full_circuit_shortfall": -0.0012
+          },
+          {
+            "judge": "Brenda K. Sannes",
+            "district": "N.D.N.Y.",
+            "p3_n": 6,
+            "p3_broad_rate": 50.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.757,
+            "actual_p3_broad": 3,
+            "shortfall_cases": -0.243,
+            "share_of_district_court_shortfall": -0.004,
+            "share_of_full_circuit_shortfall": -0.0037
+          },
+          {
+            "judge": "Sidney H. Stein",
+            "district": "S.D.N.Y.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.541,
+            "share_of_district_court_shortfall": -0.0088,
+            "share_of_full_circuit_shortfall": -0.0082
+          },
+          {
+            "judge": "William K. Sessions III",
+            "district": "D. Vt.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.459,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.541,
+            "share_of_district_court_shortfall": -0.0088,
+            "share_of_full_circuit_shortfall": -0.0082
+          },
+          {
+            "judge": "Edgardo Ramos",
+            "district": "S.D.N.Y.",
+            "p3_n": 5,
+            "p3_broad_rate": 60.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.297,
+            "actual_p3_broad": 3,
+            "shortfall_cases": -0.703,
+            "share_of_district_court_shortfall": -0.0115,
+            "share_of_full_circuit_shortfall": -0.0106
+          }
+        ],
+        "appointment_lookup": {
+          "Alvin K. Hellerstein": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Analisa Torres": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Andrew L. Carter Jr.": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Andrew T. Baxter": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Anne M. Nardacci": {
+            "status": "resolved",
+            "page_title": "Anne M. Nardacci",
+            "appointment_date": "2022-12-16",
+            "office": "Judge of the [[United States District Court for the Northern District of New York]]",
+            "term_start_raw": "December 16, 2022",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Arun Subramanian": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Brenda K. Sannes": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Christian F. Hummel": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Dale E. Ho": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Daniel J. Stewart": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Deborah A. Batts": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Denise L. Cote": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Edgardo Ramos": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Elizabeth C. Coombe": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Gary R. Brown": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Gregory H. Woods": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Hector Gonzalez": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "J. Paul Oetken": {
+            "status": "resolved",
+            "page_title": "J. Paul Oetken",
+            "appointment_date": "2011-07-20",
+            "office": "Judge of the [[United States District Court for the Southern District of New York]]",
+            "term_start_raw": "July 20, 2011",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "James M. Wicks": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Jeannette A. Vargas": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Jeffrey Alker Meyer": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Jennifer H. Rearden": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Jennifer L. Rochon": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Jessica G. L. Clarke": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Judith C. McCarthy": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Katharine H. Parker": {
+            "status": "resolved",
+            "page_title": "Katharine Parker",
+            "appointment_date": "2016-11-04",
+            "office": "United States Magistrate Judge, Southern District of New York",
+            "term_start_raw": "November 4, 2016",
+            "lookup_method": "manual_seed",
+            "source_url": "https://ballotpedia.org/Katharine_Parker"
+          },
+          "Katherine Polk Failla": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Kenneth M. Karas": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Kimba M. Wood": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Kiyo A. Matsumoto": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "LaShann DeArcy Hall": {
+            "status": "resolved",
+            "page_title": "LaShann DeArcy Hall",
+            "appointment_date": "2015-11-17",
+            "office": "Judge of the [[United States District Court for the Eastern District of New York]]",
+            "term_start_raw": "November 17, 2015",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Laura Taylor Swain": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Lawrence J. Vilardo": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Leslie G. Foschio": {
+            "status": "resolved",
+            "page_title": null,
+            "appointment_date": "1991-02-01",
+            "office": "United States Magistrate Judge, Western District of New York",
+            "term_start_raw": "February 1, 1991",
+            "lookup_method": "manual_seed",
+            "source_url": "https://www.courtlistener.com/person/9454/leslie-g-foschio/"
+          },
+          "Lois Bloom": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Lorna G. Schofield": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Louis L. Stanton": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Mae A. D'Agostino": {
+            "status": "resolved",
+            "page_title": "Mae D'Agostino",
+            "appointment_date": "2011-03-30",
+            "office": "Judge of the [[United States District Court for the Northern District of New York]]",
+            "term_start_raw": "March 30, 2011",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:\"Mae A. D'Agostino\" federal judge"
+          },
+          "Mary Kay Vyskocil": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Natasha C. Merle": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Nelson S. Roman": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Nicholas G. Garaufis": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Ona T. Wang": {
+            "status": "resolved",
+            "page_title": "Ona Wang",
+            "appointment_date": "2018-03-05",
+            "office": "United States Magistrate Judge, Southern District of New York",
+            "term_start_raw": "March 5, 2018",
+            "lookup_method": "manual_seed",
+            "source_url": "https://ballotpedia.org/Ona_Wang"
+          },
+          "Orelia E. Merchant": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Paul A. Engelmayer": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Paul G. Gardephe": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Paul J. Evangelista": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Philip M. Halpern": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Rachel P. Kovner": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Ramón E. Reyes Jr.": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Robyn F. Tarnofsky": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Ronnie Abrams": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Sarala V. Nagala": {
+            "status": "resolved",
+            "page_title": "Sarala Nagala",
+            "appointment_date": "2021-11-02",
+            "office": "Judge of the [[United States District Court for the District of Connecticut]]",
+            "term_start_raw": "November 2, 2021",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:Sarala V. Nagala"
+          },
+          "Sidney H. Stein": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Stefan R. Underhill": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Steven I. Locke": {
+            "status": "resolved",
+            "page_title": null,
+            "appointment_date": "2014-08-01",
+            "office": "United States Magistrate Judge, Eastern District of New York",
+            "term_start_raw": "August 1, 2014",
+            "lookup_method": "manual_seed",
+            "source_url": "https://www.nyed.uscourts.gov/magistrate-judge-steven-i-locke"
+          },
+          "Stewart D. Aaron": {
+            "status": "resolved",
+            "page_title": "Stewart D. Aaron",
+            "appointment_date": "2017-12-01",
+            "office": "United States Magistrate Judge, Southern District of New York",
+            "term_start_raw": "December 1, 2017",
+            "lookup_method": "manual_seed",
+            "source_url": "https://www.uscourts.gov/about-federal-courts/about-federal-judges/judicial-milestones/stewart-d-aaron"
+          },
+          "Vernon S. Broderick": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Victor Marrero": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "William K. Sessions III": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          }
+        },
+        "appointed_after_2025_01_31": [],
+        "post_2025_appointee_check": {
+          "status": "indeterminate",
+          "resolved_lookup_count": 10,
+          "unresolved_lookup_count": 50,
+          "unknown_judge_p3_cases": 10,
+          "post_2025_appointees_found": 0
+        }
+      },
+      "threshold_tests": {
+        "top_district": {
+          "district": "S.D.N.Y.",
+          "share_of_district_court_shortfall": 0.6534,
+          "share_of_full_circuit_shortfall": 0.6044,
+          "gt_50pct_of_district_court_shortfall": true,
+          "gt_50pct_of_full_circuit_shortfall": true
+        },
+        "top_identified_judge": {
+          "scope": "identified_judges_only",
+          "judge": "Laura Taylor Swain",
+          "share_of_district_court_shortfall": 0.2555,
+          "share_of_full_circuit_shortfall": 0.2364,
+          "observed_gt_50pct_of_district_court_shortfall": false,
+          "observed_gt_50pct_of_full_circuit_shortfall": false
+        },
+        "unknown_judge_bucket": {
+          "p3_cases": 10,
+          "shortfall_cases": 4.595,
+          "share_of_district_court_shortfall": 0.0752,
+          "share_of_full_circuit_shortfall": 0.0695
+        },
+        "any_single_judge": {
+          "top_identified_judge": "Laura Taylor Swain",
+          "observed_top_identified_share_of_district_court_shortfall": 0.2555,
+          "observed_top_identified_share_of_full_circuit_shortfall": 0.2364,
+          "unknown_judge_share_of_district_court_shortfall": 0.0752,
+          "unknown_judge_share_of_full_circuit_shortfall": 0.0695,
+          "max_possible_single_judge_share_of_district_court_shortfall": 0.3307,
+          "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3059,
+          "gt_50pct_of_district_court_shortfall_status": "definitive_no",
+          "gt_50pct_of_full_circuit_shortfall_status": "definitive_no"
+        }
+      }
+    },
+    "4th Circuit": {
+      "circuit": "4th Circuit",
+      "full_circuit_decline": {
+        "p1_n": 13,
+        "p1_broad_rate": 46.15,
+        "p3_n": 95,
+        "p3_broad_rate": 10.53,
+        "delta_pp": -35.63,
+        "full_circuit_shortfall_cases": 33.846
+      },
+      "district_court_component": {
+        "p1_n": 11,
+        "p1_broad_rate": 54.55,
+        "p3_n": 85,
+        "p3_broad_rate": 9.41,
+        "delta_pp": -45.13,
+        "district_court_shortfall_cases": 38.364,
+        "share_of_full_p3_cases": 0.8947,
+        "share_of_full_shortfall": 1.1335
+      },
+      "districts": [
+        {
+          "district": "D. Md.",
+          "p1_n": 4,
+          "p1_broad_rate": 75.0,
+          "p3_n": 50,
+          "p3_broad_rate": 14.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 27.273,
+          "actual_p3_broad": 7,
+          "shortfall_cases": 20.273,
+          "share_of_district_court_shortfall": 0.5284,
+          "share_of_full_circuit_shortfall": 0.599,
+          "p3_pro_se_share": 62.0,
+          "p3_mtd_n": 30,
+          "p3_mtd_survival_rate": 23.33,
+          "p3_identified_judges_n": 13,
+          "p3_identified_judges": [
+            "Adam B. Abelson",
+            "Brendan A. Hurson",
+            "Catherine C. Blake",
+            "Deborah K. Chasanow",
+            "Deborah L. Boardman",
+            "George L. Russell III",
+            "Gina L. Simms",
+            "J. Mark Coulson",
+            "James K. Bredar",
+            "Julie R. Rubin",
+            "Lydia Kay Griggsby",
+            "Matthew J. Maddox",
+            "Stephanie A. Gallagher"
+          ],
+          "p3_unknown_judge_cases_n": 4
+        },
+        {
+          "district": "E.D.N.C.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 9,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 4.909,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 4.909,
+          "share_of_district_court_shortfall": 0.128,
+          "share_of_full_circuit_shortfall": 0.145,
+          "p3_pro_se_share": 100.0,
+          "p3_mtd_n": 6,
+          "p3_mtd_survival_rate": 16.67,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Richard E. Myers II",
+            "Robert B. Jones Jr."
+          ],
+          "p3_unknown_judge_cases_n": 6
+        },
+        {
+          "district": "D.S.C.",
+          "p1_n": 2,
+          "p1_broad_rate": 50.0,
+          "p3_n": 8,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 4.364,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 4.364,
+          "share_of_district_court_shortfall": 0.1137,
+          "share_of_full_circuit_shortfall": 0.1289,
+          "p3_pro_se_share": 87.5,
+          "p3_mtd_n": 4,
+          "p3_mtd_survival_rate": 25.0,
+          "p3_identified_judges_n": 3,
+          "p3_identified_judges": [
+            "Mary Geiger Lewis",
+            "Richard Mark Gergel",
+            "Thomas E. Rogers III"
+          ],
+          "p3_unknown_judge_cases_n": 3
+        },
+        {
+          "district": "M.D.N.C.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 6,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 3.273,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 3.273,
+          "share_of_district_court_shortfall": 0.0853,
+          "share_of_full_circuit_shortfall": 0.0967,
+          "p3_pro_se_share": 83.33,
+          "p3_mtd_n": 4,
+          "p3_mtd_survival_rate": 0.0,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Joi Elizabeth Peake",
+            "L. Patrick Auld"
+          ],
+          "p3_unknown_judge_cases_n": 2
+        },
+        {
+          "district": "W.D. Va.",
+          "p1_n": 1,
+          "p1_broad_rate": 100.0,
+          "p3_n": 5,
+          "p3_broad_rate": 20.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 2.727,
+          "actual_p3_broad": 1,
+          "shortfall_cases": 1.727,
+          "share_of_district_court_shortfall": 0.045,
+          "share_of_full_circuit_shortfall": 0.051,
+          "p3_pro_se_share": 40.0,
+          "p3_mtd_n": 1,
+          "p3_mtd_survival_rate": 100.0,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Jasmine H. Yoon",
+            "Thomas T. Cullen"
+          ],
+          "p3_unknown_judge_cases_n": 2
+        },
+        {
+          "district": "E.D. Va.",
+          "p1_n": 3,
+          "p1_broad_rate": 0.0,
+          "p3_n": 3,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 1.636,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 1.636,
+          "share_of_district_court_shortfall": 0.0427,
+          "share_of_full_circuit_shortfall": 0.0483,
+          "p3_pro_se_share": 100.0,
+          "p3_mtd_n": 1,
+          "p3_mtd_survival_rate": 0.0,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Michael S. Nachmanoff",
+            "Roderick C. Young"
+          ],
+          "p3_unknown_judge_cases_n": 1
+        },
+        {
+          "district": "S.D.W. Va.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 2,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 1.091,
+          "share_of_district_court_shortfall": 0.0284,
+          "share_of_full_circuit_shortfall": 0.0322,
+          "p3_pro_se_share": 50.0,
+          "p3_mtd_n": 1,
+          "p3_mtd_survival_rate": 100.0,
+          "p3_identified_judges_n": 1,
+          "p3_identified_judges": [
+            "Robert C. Chambers"
+          ],
+          "p3_unknown_judge_cases_n": 1
+        },
+        {
+          "district": "N.D.W. Va.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 1,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 0.545,
+          "share_of_district_court_shortfall": 0.0142,
+          "share_of_full_circuit_shortfall": 0.0161,
+          "p3_pro_se_share": 100.0,
+          "p3_mtd_n": 0,
+          "p3_mtd_survival_rate": null,
+          "p3_identified_judges_n": 1,
+          "p3_identified_judges": [
+            "Michael Jo"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        },
+        {
+          "district": "W.D.N.C.",
+          "p1_n": 1,
+          "p1_broad_rate": 100.0,
+          "p3_n": 1,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 0.545,
+          "share_of_district_court_shortfall": 0.0142,
+          "share_of_full_circuit_shortfall": 0.0161,
+          "p3_pro_se_share": 100.0,
+          "p3_mtd_n": 1,
+          "p3_mtd_survival_rate": 100.0,
+          "p3_identified_judges_n": 0,
+          "p3_identified_judges": [],
+          "p3_unknown_judge_cases_n": 1
+        }
+      ],
+      "judges": {
+        "identified_p3_cases": 65,
+        "unknown_p3_cases": 20,
+        "identification_rate": 0.7647,
+        "unknown_shortfall_cases": 8.909,
+        "judge_hhi_identified_only_10000": 508.88,
+        "judge_hhi_with_unknown_bucket_10000": 851.21,
+        "judge_rows": [
+          {
+            "judge": "Deborah L. Boardman",
+            "district": "D. Md.",
+            "p3_n": 5,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.727,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 2.727,
+            "share_of_district_court_shortfall": 0.0711,
+            "share_of_full_circuit_shortfall": 0.0806
+          },
+          {
+            "judge": "Stephanie A. Gallagher",
+            "district": "D. Md.",
+            "p3_n": 5,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.727,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 2.727,
+            "share_of_district_court_shortfall": 0.0711,
+            "share_of_full_circuit_shortfall": 0.0806
+          },
+          {
+            "judge": "Brendan A. Hurson",
+            "district": "D. Md.",
+            "p3_n": 4,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.182,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 2.182,
+            "share_of_district_court_shortfall": 0.0569,
+            "share_of_full_circuit_shortfall": 0.0645
+          },
+          {
+            "judge": "Matthew J. Maddox",
+            "district": "D. Md.",
+            "p3_n": 4,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.182,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 2.182,
+            "share_of_district_court_shortfall": 0.0569,
+            "share_of_full_circuit_shortfall": 0.0645
+          },
+          {
+            "judge": "J. Mark Coulson",
+            "district": "D. Md.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.636,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.636,
+            "share_of_district_court_shortfall": 0.0427,
+            "share_of_full_circuit_shortfall": 0.0483
+          },
+          {
+            "judge": "James K. Bredar",
+            "district": "D. Md.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.636,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.636,
+            "share_of_district_court_shortfall": 0.0427,
+            "share_of_full_circuit_shortfall": 0.0483
+          },
+          {
+            "judge": "Mary Geiger Lewis",
+            "district": "D.S.C.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.636,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.636,
+            "share_of_district_court_shortfall": 0.0427,
+            "share_of_full_circuit_shortfall": 0.0483
+          },
+          {
+            "judge": "Deborah K. Chasanow",
+            "district": "D. Md.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.091,
+            "share_of_district_court_shortfall": 0.0284,
+            "share_of_full_circuit_shortfall": 0.0322
+          },
+          {
+            "judge": "George L. Russell III",
+            "district": "D. Md.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.091,
+            "share_of_district_court_shortfall": 0.0284,
+            "share_of_full_circuit_shortfall": 0.0322
+          },
+          {
+            "judge": "Jasmine H. Yoon",
+            "district": "W.D. Va.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.091,
+            "share_of_district_court_shortfall": 0.0284,
+            "share_of_full_circuit_shortfall": 0.0322
+          },
+          {
+            "judge": "Joi Elizabeth Peake",
+            "district": "M.D.N.C.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.091,
+            "share_of_district_court_shortfall": 0.0284,
+            "share_of_full_circuit_shortfall": 0.0322
+          },
+          {
+            "judge": "Julie R. Rubin",
+            "district": "D. Md.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.091,
+            "share_of_district_court_shortfall": 0.0284,
+            "share_of_full_circuit_shortfall": 0.0322
+          },
+          {
+            "judge": "L. Patrick Auld",
+            "district": "M.D.N.C.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.091,
+            "share_of_district_court_shortfall": 0.0284,
+            "share_of_full_circuit_shortfall": 0.0322
+          },
+          {
+            "judge": "Lydia Kay Griggsby",
+            "district": "D. Md.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.091,
+            "share_of_district_court_shortfall": 0.0284,
+            "share_of_full_circuit_shortfall": 0.0322
+          },
+          {
+            "judge": "Robert B. Jones Jr.",
+            "district": "E.D.N.C.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.091,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.091,
+            "share_of_district_court_shortfall": 0.0284,
+            "share_of_full_circuit_shortfall": 0.0322
+          },
+          {
+            "judge": "Adam B. Abelson",
+            "district": "D. Md.",
+            "p3_n": 5,
+            "p3_broad_rate": 40.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.727,
+            "actual_p3_broad": 2,
+            "shortfall_cases": 0.727,
+            "share_of_district_court_shortfall": 0.019,
+            "share_of_full_circuit_shortfall": 0.0215
+          },
+          {
+            "judge": "Catherine C. Blake",
+            "district": "D. Md.",
+            "p3_n": 5,
+            "p3_broad_rate": 40.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.727,
+            "actual_p3_broad": 2,
+            "shortfall_cases": 0.727,
+            "share_of_district_court_shortfall": 0.019,
+            "share_of_full_circuit_shortfall": 0.0215
+          },
+          {
+            "judge": "Michael Jo",
+            "district": "N.D.W. Va.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.545,
+            "share_of_district_court_shortfall": 0.0142,
+            "share_of_full_circuit_shortfall": 0.0161
+          },
+          {
+            "judge": "Michael S. Nachmanoff",
+            "district": "E.D. Va.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.545,
+            "share_of_district_court_shortfall": 0.0142,
+            "share_of_full_circuit_shortfall": 0.0161
+          },
+          {
+            "judge": "Richard E. Myers II",
+            "district": "E.D.N.C.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.545,
+            "share_of_district_court_shortfall": 0.0142,
+            "share_of_full_circuit_shortfall": 0.0161
+          },
+          {
+            "judge": "Richard Mark Gergel",
+            "district": "D.S.C.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.545,
+            "share_of_district_court_shortfall": 0.0142,
+            "share_of_full_circuit_shortfall": 0.0161
+          },
+          {
+            "judge": "Robert C. Chambers",
+            "district": "S.D.W. Va.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.545,
+            "share_of_district_court_shortfall": 0.0142,
+            "share_of_full_circuit_shortfall": 0.0161
+          },
+          {
+            "judge": "Roderick C. Young",
+            "district": "E.D. Va.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.545,
+            "share_of_district_court_shortfall": 0.0142,
+            "share_of_full_circuit_shortfall": 0.0161
+          },
+          {
+            "judge": "Thomas E. Rogers III",
+            "district": "D.S.C.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.545,
+            "share_of_district_court_shortfall": 0.0142,
+            "share_of_full_circuit_shortfall": 0.0161
+          },
+          {
+            "judge": "Thomas T. Cullen",
+            "district": "W.D. Va.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.545,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.545,
+            "share_of_district_court_shortfall": 0.0142,
+            "share_of_full_circuit_shortfall": 0.0161
+          },
+          {
+            "judge": "Gina L. Simms",
+            "district": "D. Md.",
+            "p3_n": 4,
+            "p3_broad_rate": 50.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.182,
+            "actual_p3_broad": 2,
+            "shortfall_cases": 0.182,
+            "share_of_district_court_shortfall": 0.0047,
+            "share_of_full_circuit_shortfall": 0.0054
+          }
+        ],
+        "appointment_lookup": {
+          "Adam B. Abelson": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Brendan A. Hurson": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Catherine C. Blake": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Deborah K. Chasanow": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Deborah L. Boardman": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "George L. Russell III": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Gina L. Simms": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "J. Mark Coulson": {
+            "status": "resolved",
+            "page_title": null,
+            "appointment_date": "2014-08-01",
+            "office": "United States Magistrate Judge, District of Maryland",
+            "term_start_raw": "August 1, 2014",
+            "lookup_method": "manual_seed",
+            "source_url": "https://www.mdd.uscourts.gov/news/appointment-j-mark-coulson-us-magistrate-judge-2014-06-19t000000"
+          },
+          "James K. Bredar": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Jasmine H. Yoon": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Joi Elizabeth Peake": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Julie R. Rubin": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "L. Patrick Auld": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Lydia Kay Griggsby": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Mary Geiger Lewis": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Matthew J. Maddox": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Michael Jo": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Michael S. Nachmanoff": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Richard E. Myers II": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Richard Mark Gergel": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Robert B. Jones Jr.": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Robert C. Chambers": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Roderick C. Young": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Stephanie A. Gallagher": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Thomas E. Rogers III": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Thomas T. Cullen": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          }
+        },
+        "appointed_after_2025_01_31": [],
+        "post_2025_appointee_check": {
+          "status": "indeterminate",
+          "resolved_lookup_count": 1,
+          "unresolved_lookup_count": 25,
+          "unknown_judge_p3_cases": 20,
+          "post_2025_appointees_found": 0
+        }
+      },
+      "threshold_tests": {
+        "top_district": {
+          "district": "D. Md.",
+          "share_of_district_court_shortfall": 0.5284,
+          "share_of_full_circuit_shortfall": 0.599,
+          "gt_50pct_of_district_court_shortfall": true,
+          "gt_50pct_of_full_circuit_shortfall": true
+        },
+        "top_identified_judge": {
+          "scope": "identified_judges_only",
+          "judge": "Deborah L. Boardman",
+          "share_of_district_court_shortfall": 0.0711,
+          "share_of_full_circuit_shortfall": 0.0806,
+          "observed_gt_50pct_of_district_court_shortfall": false,
+          "observed_gt_50pct_of_full_circuit_shortfall": false
+        },
+        "unknown_judge_bucket": {
+          "p3_cases": 20,
+          "shortfall_cases": 8.909,
+          "share_of_district_court_shortfall": 0.2322,
+          "share_of_full_circuit_shortfall": 0.2632
+        },
+        "any_single_judge": {
+          "top_identified_judge": "Deborah L. Boardman",
+          "observed_top_identified_share_of_district_court_shortfall": 0.0711,
+          "observed_top_identified_share_of_full_circuit_shortfall": 0.0806,
+          "unknown_judge_share_of_district_court_shortfall": 0.2322,
+          "unknown_judge_share_of_full_circuit_shortfall": 0.2632,
+          "max_possible_single_judge_share_of_district_court_shortfall": 0.3033,
+          "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3438,
+          "gt_50pct_of_district_court_shortfall_status": "definitive_no",
+          "gt_50pct_of_full_circuit_shortfall_status": "definitive_no"
+        }
+      }
+    },
+    "10th Circuit": {
+      "circuit": "10th Circuit",
+      "full_circuit_decline": {
+        "p1_n": 16,
+        "p1_broad_rate": 43.75,
+        "p3_n": 70,
+        "p3_broad_rate": 10.0,
+        "delta_pp": -33.75,
+        "full_circuit_shortfall_cases": 23.625
+      },
+      "district_court_component": {
+        "p1_n": 15,
+        "p1_broad_rate": 46.67,
+        "p3_n": 68,
+        "p3_broad_rate": 10.29,
+        "delta_pp": -36.37,
+        "district_court_shortfall_cases": 24.733,
+        "share_of_full_p3_cases": 0.9714,
+        "share_of_full_shortfall": 1.0469
+      },
+      "districts": [
+        {
+          "district": "D. Kan.",
+          "p1_n": 1,
+          "p1_broad_rate": 0.0,
+          "p3_n": 15,
+          "p3_broad_rate": 6.67,
+          "expected_p3_broad_at_circuit_district_p1_rate": 7.0,
+          "actual_p3_broad": 1,
+          "shortfall_cases": 6.0,
+          "share_of_district_court_shortfall": 0.2426,
+          "share_of_full_circuit_shortfall": 0.254,
+          "p3_pro_se_share": 40.0,
+          "p3_mtd_n": 5,
+          "p3_mtd_survival_rate": 20.0,
+          "p3_identified_judges_n": 5,
+          "p3_identified_judges": [
+            "Brooks G. Severson",
+            "Eric F. Melgren",
+            "Holly L. Teeter",
+            "John W. Broomes",
+            "Toby Crouse"
+          ],
+          "p3_unknown_judge_cases_n": 1
+        },
+        {
+          "district": "E.D. Okla.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 10,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 4.667,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 4.667,
+          "share_of_district_court_shortfall": 0.1887,
+          "share_of_full_circuit_shortfall": 0.1975,
+          "p3_pro_se_share": 10.0,
+          "p3_mtd_n": 0,
+          "p3_mtd_survival_rate": null,
+          "p3_identified_judges_n": 3,
+          "p3_identified_judges": [
+            "D. Edward Snow",
+            "Gerald L. Jackson",
+            "John Fy Heil III"
+          ],
+          "p3_unknown_judge_cases_n": 1
+        },
+        {
+          "district": "D. Utah",
+          "p1_n": 6,
+          "p1_broad_rate": 50.0,
+          "p3_n": 14,
+          "p3_broad_rate": 14.29,
+          "expected_p3_broad_at_circuit_district_p1_rate": 6.533,
+          "actual_p3_broad": 2,
+          "shortfall_cases": 4.533,
+          "share_of_district_court_shortfall": 0.1833,
+          "share_of_full_circuit_shortfall": 0.1919,
+          "p3_pro_se_share": 57.14,
+          "p3_mtd_n": 7,
+          "p3_mtd_survival_rate": 42.86,
+          "p3_identified_judges_n": 5,
+          "p3_identified_judges": [
+            "David Barlow",
+            "Feae A. Oberg",
+            "Jared C. Bennett",
+            "Robert J. Shelby",
+            "Robert Qt"
+          ],
+          "p3_unknown_judge_cases_n": 8
+        },
+        {
+          "district": "D.N.M.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 9,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 4.2,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 4.2,
+          "share_of_district_court_shortfall": 0.1698,
+          "share_of_full_circuit_shortfall": 0.1778,
+          "p3_pro_se_share": 100.0,
+          "p3_mtd_n": 7,
+          "p3_mtd_survival_rate": 14.29,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Kea W. Riggs",
+            "Kirtan Khalsa"
+          ],
+          "p3_unknown_judge_cases_n": 4
+        },
+        {
+          "district": "N.D. Okla.",
+          "p1_n": 3,
+          "p1_broad_rate": 66.67,
+          "p3_n": 5,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 2.333,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 2.333,
+          "share_of_district_court_shortfall": 0.0943,
+          "share_of_full_circuit_shortfall": 0.0988,
+          "p3_pro_se_share": 60.0,
+          "p3_mtd_n": 1,
+          "p3_mtd_survival_rate": 100.0,
+          "p3_identified_judges_n": 4,
+          "p3_identified_judges": [
+            "Claire V.eagan",
+            "John D. Russell",
+            "John F. Heil III",
+            "Terence C. Kern"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        },
+        {
+          "district": "W.D. Okla.",
+          "p1_n": 2,
+          "p1_broad_rate": 50.0,
+          "p3_n": 7,
+          "p3_broad_rate": 14.29,
+          "expected_p3_broad_at_circuit_district_p1_rate": 3.267,
+          "actual_p3_broad": 1,
+          "shortfall_cases": 2.267,
+          "share_of_district_court_shortfall": 0.0916,
+          "share_of_full_circuit_shortfall": 0.0959,
+          "p3_pro_se_share": 85.71,
+          "p3_mtd_n": 4,
+          "p3_mtd_survival_rate": 25.0,
+          "p3_identified_judges_n": 4,
+          "p3_identified_judges": [
+            "Charles B. Goodwin",
+            "David L. Russell",
+            "Scott L. Palk",
+            "Suzanne Mitchell"
+          ],
+          "p3_unknown_judge_cases_n": 1
+        },
+        {
+          "district": "D. Colo.",
+          "p1_n": 3,
+          "p1_broad_rate": 33.33,
+          "p3_n": 8,
+          "p3_broad_rate": 37.5,
+          "expected_p3_broad_at_circuit_district_p1_rate": 3.733,
+          "actual_p3_broad": 3,
+          "shortfall_cases": 0.733,
+          "share_of_district_court_shortfall": 0.0296,
+          "share_of_full_circuit_shortfall": 0.031,
+          "p3_pro_se_share": 62.5,
+          "p3_mtd_n": 3,
+          "p3_mtd_survival_rate": 100.0,
+          "p3_identified_judges_n": 5,
+          "p3_identified_judges": [
+            "Kathryn A. Starnella",
+            "Regina M. Rodriguez",
+            "S. Kato Crews",
+            "Susan Prose",
+            "Timothy P. O'Hara"
+          ],
+          "p3_unknown_judge_cases_n": 3
+        }
+      ],
+      "judges": {
+        "identified_p3_cases": 50,
+        "unknown_p3_cases": 18,
+        "identification_rate": 0.7353,
+        "unknown_shortfall_cases": 6.4,
+        "judge_hhi_identified_only_10000": 528.0,
+        "judge_hhi_with_unknown_bucket_10000": 986.16,
+        "judge_rows": [
+          {
+            "judge": "Gerald L. Jackson",
+            "district": "E.D. Okla.",
+            "p3_n": 6,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.8,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 2.8,
+            "share_of_district_court_shortfall": 0.1132,
+            "share_of_full_circuit_shortfall": 0.1185
+          },
+          {
+            "judge": "Eric F. Melgren",
+            "district": "D. Kan.",
+            "p3_n": 4,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.867,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.867,
+            "share_of_district_court_shortfall": 0.0755,
+            "share_of_full_circuit_shortfall": 0.079
+          },
+          {
+            "judge": "Holly L. Teeter",
+            "district": "D. Kan.",
+            "p3_n": 4,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.867,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.867,
+            "share_of_district_court_shortfall": 0.0755,
+            "share_of_full_circuit_shortfall": 0.079
+          },
+          {
+            "judge": "Kea W. Riggs",
+            "district": "D.N.M.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.4,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.4,
+            "share_of_district_court_shortfall": 0.0566,
+            "share_of_full_circuit_shortfall": 0.0593
+          },
+          {
+            "judge": "Brooks G. Severson",
+            "district": "D. Kan.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.933,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.933,
+            "share_of_district_court_shortfall": 0.0377,
+            "share_of_full_circuit_shortfall": 0.0395
+          },
+          {
+            "judge": "Claire V.eagan",
+            "district": "N.D. Okla.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.933,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.933,
+            "share_of_district_court_shortfall": 0.0377,
+            "share_of_full_circuit_shortfall": 0.0395
+          },
+          {
+            "judge": "D. Edward Snow",
+            "district": "E.D. Okla.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.933,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.933,
+            "share_of_district_court_shortfall": 0.0377,
+            "share_of_full_circuit_shortfall": 0.0395
+          },
+          {
+            "judge": "Jared C. Bennett",
+            "district": "D. Utah",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.933,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.933,
+            "share_of_district_court_shortfall": 0.0377,
+            "share_of_full_circuit_shortfall": 0.0395
+          },
+          {
+            "judge": "Kirtan Khalsa",
+            "district": "D.N.M.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.933,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.933,
+            "share_of_district_court_shortfall": 0.0377,
+            "share_of_full_circuit_shortfall": 0.0395
+          },
+          {
+            "judge": "Charles B. Goodwin",
+            "district": "W.D. Okla.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "David L. Russell",
+            "district": "W.D. Okla.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "Feae A. Oberg",
+            "district": "D. Utah",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "John D. Russell",
+            "district": "N.D. Okla.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "John F. Heil III",
+            "district": "N.D. Okla.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "John Fy Heil III",
+            "district": "E.D. Okla.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "Regina M. Rodriguez",
+            "district": "D. Colo.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "Robert J. Shelby",
+            "district": "D. Utah",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "Robert Qt",
+            "district": "D. Utah",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "S. Kato Crews",
+            "district": "D. Colo.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "Susan Prose",
+            "district": "D. Colo.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "Suzanne Mitchell",
+            "district": "W.D. Okla.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "Terence C. Kern",
+            "district": "N.D. Okla.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "Toby Crouse",
+            "district": "D. Kan.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.467,
+            "share_of_district_court_shortfall": 0.0189,
+            "share_of_full_circuit_shortfall": 0.0198
+          },
+          {
+            "judge": "John W. Broomes",
+            "district": "D. Kan.",
+            "p3_n": 3,
+            "p3_broad_rate": 33.33,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.4,
+            "actual_p3_broad": 1,
+            "shortfall_cases": 0.4,
+            "share_of_district_court_shortfall": 0.0162,
+            "share_of_full_circuit_shortfall": 0.0169
+          },
+          {
+            "judge": "Scott L. Palk",
+            "district": "W.D. Okla.",
+            "p3_n": 3,
+            "p3_broad_rate": 33.33,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.4,
+            "actual_p3_broad": 1,
+            "shortfall_cases": 0.4,
+            "share_of_district_court_shortfall": 0.0162,
+            "share_of_full_circuit_shortfall": 0.0169
+          },
+          {
+            "judge": "David Barlow",
+            "district": "D. Utah",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.533,
+            "share_of_district_court_shortfall": -0.0216,
+            "share_of_full_circuit_shortfall": -0.0226
+          },
+          {
+            "judge": "Kathryn A. Starnella",
+            "district": "D. Colo.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.533,
+            "share_of_district_court_shortfall": -0.0216,
+            "share_of_full_circuit_shortfall": -0.0226
+          },
+          {
+            "judge": "Timothy P. O'Hara",
+            "district": "D. Colo.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.467,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.533,
+            "share_of_district_court_shortfall": -0.0216,
+            "share_of_full_circuit_shortfall": -0.0226
+          }
+        ],
+        "appointment_lookup": {
+          "Brooks G. Severson": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Charles B. Goodwin": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Claire V.eagan": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "D. Edward Snow": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "David Barlow": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "David L. Russell": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Eric F. Melgren": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Feae A. Oberg": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Gerald L. Jackson": {
+            "status": "resolved",
+            "page_title": null,
+            "appointment_date": "2022-08-01",
+            "office": "United States Magistrate Judge, Eastern District of Oklahoma",
+            "term_start_raw": "August 1, 2022",
+            "lookup_method": "manual_seed",
+            "source_url": "https://www.oked.uscourts.gov/sites/oked/files/GLJ%20-%20Press%20Release%20Final.pdf"
+          },
+          "Holly L. Teeter": {
+            "status": "resolved",
+            "page_title": "Holly L. Teeter",
+            "appointment_date": "2018-08-01",
+            "office": "Judge of the United States District Court for the District of Kansas",
+            "term_start_raw": "August 1, 2018",
+            "lookup_method": "manual_seed",
+            "source_url": "https://www.ksd.uscourts.gov/content/district-judge-holly-l-teeter"
+          },
+          "Jared C. Bennett": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "John D. Russell": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "John F. Heil III": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "John Fy Heil III": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "John W. Broomes": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Kathryn A. Starnella": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Kea W. Riggs": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Kirtan Khalsa": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Regina M. Rodriguez": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Robert J. Shelby": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Robert Qt": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "S. Kato Crews": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Scott L. Palk": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Susan Prose": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Suzanne Mitchell": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Terence C. Kern": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Timothy P. O'Hara": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Toby Crouse": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          }
+        },
+        "appointed_after_2025_01_31": [],
+        "post_2025_appointee_check": {
+          "status": "indeterminate",
+          "resolved_lookup_count": 2,
+          "unresolved_lookup_count": 26,
+          "unknown_judge_p3_cases": 18,
+          "post_2025_appointees_found": 0
+        }
+      },
+      "threshold_tests": {
+        "top_district": {
+          "district": "D. Kan.",
+          "share_of_district_court_shortfall": 0.2426,
+          "share_of_full_circuit_shortfall": 0.254,
+          "gt_50pct_of_district_court_shortfall": false,
+          "gt_50pct_of_full_circuit_shortfall": false
+        },
+        "top_identified_judge": {
+          "scope": "identified_judges_only",
+          "judge": "Gerald L. Jackson",
+          "share_of_district_court_shortfall": 0.1132,
+          "share_of_full_circuit_shortfall": 0.1185,
+          "observed_gt_50pct_of_district_court_shortfall": false,
+          "observed_gt_50pct_of_full_circuit_shortfall": false
+        },
+        "unknown_judge_bucket": {
+          "p3_cases": 18,
+          "shortfall_cases": 6.4,
+          "share_of_district_court_shortfall": 0.2588,
+          "share_of_full_circuit_shortfall": 0.2709
+        },
+        "any_single_judge": {
+          "top_identified_judge": "Gerald L. Jackson",
+          "observed_top_identified_share_of_district_court_shortfall": 0.1132,
+          "observed_top_identified_share_of_full_circuit_shortfall": 0.1185,
+          "unknown_judge_share_of_district_court_shortfall": 0.2588,
+          "unknown_judge_share_of_full_circuit_shortfall": 0.2709,
+          "max_possible_single_judge_share_of_district_court_shortfall": 0.372,
+          "max_possible_single_judge_share_of_full_circuit_shortfall": 0.3894,
+          "gt_50pct_of_district_court_shortfall_status": "definitive_no",
+          "gt_50pct_of_full_circuit_shortfall_status": "definitive_no"
+        }
+      }
+    },
+    "5th Circuit": {
+      "circuit": "5th Circuit",
+      "full_circuit_decline": {
+        "p1_n": 14,
+        "p1_broad_rate": 42.86,
+        "p3_n": 77,
+        "p3_broad_rate": 15.58,
+        "delta_pp": -27.27,
+        "full_circuit_shortfall_cases": 21.0
+      },
+      "district_court_component": {
+        "p1_n": 10,
+        "p1_broad_rate": 60.0,
+        "p3_n": 70,
+        "p3_broad_rate": 15.71,
+        "delta_pp": -44.29,
+        "district_court_shortfall_cases": 31.0,
+        "share_of_full_p3_cases": 0.9091,
+        "share_of_full_shortfall": 1.4762
+      },
+      "districts": [
+        {
+          "district": "N.D. Tex.",
+          "p1_n": 1,
+          "p1_broad_rate": 0.0,
+          "p3_n": 14,
+          "p3_broad_rate": 7.14,
+          "expected_p3_broad_at_circuit_district_p1_rate": 8.4,
+          "actual_p3_broad": 1,
+          "shortfall_cases": 7.4,
+          "share_of_district_court_shortfall": 0.2387,
+          "share_of_full_circuit_shortfall": 0.3524,
+          "p3_pro_se_share": 71.43,
+          "p3_mtd_n": 6,
+          "p3_mtd_survival_rate": 16.67,
+          "p3_identified_judges_n": 6,
+          "p3_identified_judges": [
+            "Brantle Bi",
+            "Brantley Starr",
+            "David C. Godbey",
+            "David L. Horan",
+            "Hal R. Ray Jr.",
+            "Sidney A. Fitzwater"
+          ],
+          "p3_unknown_judge_cases_n": 4
+        },
+        {
+          "district": "S.D. Tex.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 10,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 6.0,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 6.0,
+          "share_of_district_court_shortfall": 0.1935,
+          "share_of_full_circuit_shortfall": 0.2857,
+          "p3_pro_se_share": 90.0,
+          "p3_mtd_n": 5,
+          "p3_mtd_survival_rate": 20.0,
+          "p3_identified_judges_n": 6,
+          "p3_identified_judges": [
+            "Charles Eskridge",
+            "David Hittner",
+            "Dena Hanovice Palermo",
+            "George C. Hanks Jr.",
+            "Peter Bray",
+            "Yvonne Y. Ho"
+          ],
+          "p3_unknown_judge_cases_n": 2
+        },
+        {
+          "district": "W.D. Tex.",
+          "p1_n": 3,
+          "p1_broad_rate": 66.67,
+          "p3_n": 11,
+          "p3_broad_rate": 18.18,
+          "expected_p3_broad_at_circuit_district_p1_rate": 6.6,
+          "actual_p3_broad": 2,
+          "shortfall_cases": 4.6,
+          "share_of_district_court_shortfall": 0.1484,
+          "share_of_full_circuit_shortfall": 0.219,
+          "p3_pro_se_share": 90.91,
+          "p3_mtd_n": 7,
+          "p3_mtd_survival_rate": 28.57,
+          "p3_identified_judges_n": 6,
+          "p3_identified_judges": [
+            "David Alan Ezra",
+            "Dustin M. Howell",
+            "Fred Biery",
+            "Henry J. Bemporad",
+            "Susan Hightower",
+            "Xavier Rodriguez"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        },
+        {
+          "district": "E.D. Tex.",
+          "p1_n": 3,
+          "p1_broad_rate": 66.67,
+          "p3_n": 10,
+          "p3_broad_rate": 20.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 6.0,
+          "actual_p3_broad": 2,
+          "shortfall_cases": 4.0,
+          "share_of_district_court_shortfall": 0.129,
+          "share_of_full_circuit_shortfall": 0.1905,
+          "p3_pro_se_share": 60.0,
+          "p3_mtd_n": 7,
+          "p3_mtd_survival_rate": 14.29,
+          "p3_identified_judges_n": 3,
+          "p3_identified_judges": [
+            "Bill Davis",
+            "Michael J. Truncale",
+            "Roy S. Payne"
+          ],
+          "p3_unknown_judge_cases_n": 7
+        },
+        {
+          "district": "E.D. La.",
+          "p1_n": 1,
+          "p1_broad_rate": 0.0,
+          "p3_n": 12,
+          "p3_broad_rate": 33.33,
+          "expected_p3_broad_at_circuit_district_p1_rate": 7.2,
+          "actual_p3_broad": 4,
+          "shortfall_cases": 3.2,
+          "share_of_district_court_shortfall": 0.1032,
+          "share_of_full_circuit_shortfall": 0.1524,
+          "p3_pro_se_share": 33.33,
+          "p3_mtd_n": 5,
+          "p3_mtd_survival_rate": 40.0,
+          "p3_identified_judges_n": 3,
+          "p3_identified_judges": [
+            "Carl J. Barbier",
+            "Karen Wells",
+            "Wale M. Africk"
+          ],
+          "p3_unknown_judge_cases_n": 9
+        },
+        {
+          "district": "S.D. Miss.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 6,
+          "p3_broad_rate": 16.67,
+          "expected_p3_broad_at_circuit_district_p1_rate": 3.6,
+          "actual_p3_broad": 1,
+          "shortfall_cases": 2.6,
+          "share_of_district_court_shortfall": 0.0839,
+          "share_of_full_circuit_shortfall": 0.1238,
+          "p3_pro_se_share": 83.33,
+          "p3_mtd_n": 3,
+          "p3_mtd_survival_rate": 33.33,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Louis Guirola Jr.",
+            "Tom S. Lee"
+          ],
+          "p3_unknown_judge_cases_n": 4
+        },
+        {
+          "district": "M.D. La.",
+          "p1_n": 1,
+          "p1_broad_rate": 100.0,
+          "p3_n": 4,
+          "p3_broad_rate": 25.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 2.4,
+          "actual_p3_broad": 1,
+          "shortfall_cases": 1.4,
+          "share_of_district_court_shortfall": 0.0452,
+          "share_of_full_circuit_shortfall": 0.0667,
+          "p3_pro_se_share": 25.0,
+          "p3_mtd_n": 1,
+          "p3_mtd_survival_rate": 0.0,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Richard L. Bourgeois Jr.",
+            "Shelly D. Dick"
+          ],
+          "p3_unknown_judge_cases_n": 2
+        },
+        {
+          "district": "W.D. La.",
+          "p1_n": 1,
+          "p1_broad_rate": 100.0,
+          "p3_n": 2,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 1.2,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 1.2,
+          "share_of_district_court_shortfall": 0.0387,
+          "share_of_full_circuit_shortfall": 0.0571,
+          "p3_pro_se_share": 50.0,
+          "p3_mtd_n": 1,
+          "p3_mtd_survival_rate": 0.0,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Kayla Dye McClusky",
+            "Mark L. Hornsby"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        },
+        {
+          "district": "N.D. Miss.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 1,
+          "p3_broad_rate": 0.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+          "actual_p3_broad": 0,
+          "shortfall_cases": 0.6,
+          "share_of_district_court_shortfall": 0.0194,
+          "share_of_full_circuit_shortfall": 0.0286,
+          "p3_pro_se_share": 0.0,
+          "p3_mtd_n": 0,
+          "p3_mtd_survival_rate": null,
+          "p3_identified_judges_n": 1,
+          "p3_identified_judges": [
+            "Michael P. Mills"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        }
+      ],
+      "judges": {
+        "identified_p3_cases": 42,
+        "unknown_p3_cases": 28,
+        "identification_rate": 0.6,
+        "unknown_shortfall_cases": 10.8,
+        "judge_hhi_identified_only_10000": 464.85,
+        "judge_hhi_with_unknown_bucket_10000": 1767.35,
+        "judge_rows": [
+          {
+            "judge": "Susan Hightower",
+            "district": "W.D. Tex.",
+            "p3_n": 5,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 3.0,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 3.0,
+            "share_of_district_court_shortfall": 0.0968,
+            "share_of_full_circuit_shortfall": 0.1429
+          },
+          {
+            "judge": "Charles Eskridge",
+            "district": "S.D. Tex.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.8,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.8,
+            "share_of_district_court_shortfall": 0.0581,
+            "share_of_full_circuit_shortfall": 0.0857
+          },
+          {
+            "judge": "David L. Horan",
+            "district": "N.D. Tex.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.8,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.8,
+            "share_of_district_court_shortfall": 0.0581,
+            "share_of_full_circuit_shortfall": 0.0857
+          },
+          {
+            "judge": "Hal R. Ray Jr.",
+            "district": "N.D. Tex.",
+            "p3_n": 3,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.8,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.8,
+            "share_of_district_court_shortfall": 0.0581,
+            "share_of_full_circuit_shortfall": 0.0857
+          },
+          {
+            "judge": "Bill Davis",
+            "district": "E.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Brantley Starr",
+            "district": "N.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Carl J. Barbier",
+            "district": "E.D. La.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "David Alan Ezra",
+            "district": "W.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "David C. Godbey",
+            "district": "N.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "David Hittner",
+            "district": "S.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Dena Hanovice Palermo",
+            "district": "S.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "George C. Hanks Jr.",
+            "district": "S.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Henry J. Bemporad",
+            "district": "W.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Karen Wells",
+            "district": "E.D. La.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Kayla Dye McClusky",
+            "district": "W.D. La.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Louis Guirola Jr.",
+            "district": "S.D. Miss.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Mark L. Hornsby",
+            "district": "W.D. La.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Michael J. Truncale",
+            "district": "E.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Michael P. Mills",
+            "district": "N.D. Miss.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Peter Bray",
+            "district": "S.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Richard L. Bourgeois Jr.",
+            "district": "M.D. La.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Shelly D. Dick",
+            "district": "M.D. La.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Sidney A. Fitzwater",
+            "district": "N.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Tom S. Lee",
+            "district": "S.D. Miss.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Xavier Rodriguez",
+            "district": "W.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Yvonne Y. Ho",
+            "district": "S.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0194,
+            "share_of_full_circuit_shortfall": 0.0286
+          },
+          {
+            "judge": "Fred Biery",
+            "district": "W.D. Tex.",
+            "p3_n": 2,
+            "p3_broad_rate": 50.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.2,
+            "actual_p3_broad": 1,
+            "shortfall_cases": 0.2,
+            "share_of_district_court_shortfall": 0.0065,
+            "share_of_full_circuit_shortfall": 0.0095
+          },
+          {
+            "judge": "Brantle Bi",
+            "district": "N.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.4,
+            "share_of_district_court_shortfall": -0.0129,
+            "share_of_full_circuit_shortfall": -0.019
+          },
+          {
+            "judge": "Dustin M. Howell",
+            "district": "W.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.4,
+            "share_of_district_court_shortfall": -0.0129,
+            "share_of_full_circuit_shortfall": -0.019
+          },
+          {
+            "judge": "Roy S. Payne",
+            "district": "E.D. Tex.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.4,
+            "share_of_district_court_shortfall": -0.0129,
+            "share_of_full_circuit_shortfall": -0.019
+          },
+          {
+            "judge": "Wale M. Africk",
+            "district": "E.D. La.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.6,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.4,
+            "share_of_district_court_shortfall": -0.0129,
+            "share_of_full_circuit_shortfall": -0.019
+          }
+        ],
+        "appointment_lookup": {
+          "Bill Davis": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Brantle Bi": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Brantley Starr": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Carl J. Barbier": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Charles Eskridge": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "David Alan Ezra": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "David C. Godbey": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "David Hittner": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "David L. Horan": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Dena Hanovice Palermo": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Dustin M. Howell": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Fred Biery": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "George C. Hanks Jr.": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Hal R. Ray Jr.": {
+            "status": "resolved",
+            "page_title": "Hal R. Ray Jr.",
+            "appointment_date": "2016-06-24",
+            "office": "United States Magistrate Judge, Northern District of Texas",
+            "term_start_raw": "June 24, 2016",
+            "lookup_method": "manual_seed",
+            "source_url": "https://ballotpedia.org/Hal_Ray"
+          },
+          "Henry J. Bemporad": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Karen Wells": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Kayla Dye McClusky": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Louis Guirola Jr.": {
+            "status": "resolved",
+            "page_title": "Louis Guirola Jr.",
+            "appointment_date": "2004-03-22",
+            "office": "Judge of the [[United States District Court for the Southern District of Mississippi]]",
+            "term_start_raw": "March 22, 2004",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Mark L. Hornsby": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Michael J. Truncale": {
+            "status": "resolved",
+            "page_title": "Michael J. Truncale",
+            "appointment_date": "2019-05-16",
+            "office": "Judge of the [[United States District Court for the Eastern District of Texas]]",
+            "term_start_raw": "May 16, 2019",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Michael P. Mills": {
+            "status": "resolved",
+            "page_title": "Michael P. Mills",
+            "appointment_date": "2001-10-16",
+            "office": "Judge of the [[United States District Court for the Northern District of Mississippi]]",
+            "term_start_raw": "October 16, 2001",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Peter Bray": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Richard L. Bourgeois Jr.": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Roy S. Payne": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Shelly D. Dick": {
+            "status": "resolved",
+            "page_title": "Shelly Dick",
+            "appointment_date": "2013-05-10",
+            "office": "Judge of the [[United States District Court for the Middle District of Louisiana]]",
+            "term_start_raw": "May 10, 2013",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:Shelly D. Dick"
+          },
+          "Sidney A. Fitzwater": {
+            "status": "resolved",
+            "page_title": "Sidney A. Fitzwater",
+            "appointment_date": "1986-03-19",
+            "office": "Judge of the [[United States District Court for the Northern District of Texas]]",
+            "term_start_raw": "March 19, 1986",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Susan Hightower": {
+            "status": "resolved",
+            "page_title": null,
+            "appointment_date": "2019-07-01",
+            "office": "United States Magistrate Judge, Western District of Texas",
+            "term_start_raw": "July 1, 2019",
+            "lookup_method": "manual_seed",
+            "source_url": "https://ballotpedia.org/Susan_Hightower_(Texas)"
+          },
+          "Tom S. Lee": {
+            "status": "resolved",
+            "page_title": "Tom Stewart Lee",
+            "appointment_date": "1984-06-11",
+            "office": "Judge of the [[United States District Court for the Southern District of Mississippi]]",
+            "term_start_raw": "June 11, 1984",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:\"Tom S. Lee\" federal judge"
+          },
+          "Wale M. Africk": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Xavier Rodriguez": {
+            "status": "resolved",
+            "page_title": "Xavier Rodriguez",
+            "appointment_date": "2003-08-01",
+            "office": "Judge of the [[United States District Court for the Western District of Texas]]",
+            "term_start_raw": "August 1, 2003",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Yvonne Y. Ho": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          }
+        },
+        "appointed_after_2025_01_31": [],
+        "post_2025_appointee_check": {
+          "status": "indeterminate",
+          "resolved_lookup_count": 9,
+          "unresolved_lookup_count": 22,
+          "unknown_judge_p3_cases": 28,
+          "post_2025_appointees_found": 0
+        }
+      },
+      "threshold_tests": {
+        "top_district": {
+          "district": "N.D. Tex.",
+          "share_of_district_court_shortfall": 0.2387,
+          "share_of_full_circuit_shortfall": 0.3524,
+          "gt_50pct_of_district_court_shortfall": false,
+          "gt_50pct_of_full_circuit_shortfall": false
+        },
+        "top_identified_judge": {
+          "scope": "identified_judges_only",
+          "judge": "Susan Hightower",
+          "share_of_district_court_shortfall": 0.0968,
+          "share_of_full_circuit_shortfall": 0.1429,
+          "observed_gt_50pct_of_district_court_shortfall": false,
+          "observed_gt_50pct_of_full_circuit_shortfall": false
+        },
+        "unknown_judge_bucket": {
+          "p3_cases": 28,
+          "shortfall_cases": 10.8,
+          "share_of_district_court_shortfall": 0.3484,
+          "share_of_full_circuit_shortfall": 0.5143
+        },
+        "any_single_judge": {
+          "top_identified_judge": "Susan Hightower",
+          "observed_top_identified_share_of_district_court_shortfall": 0.0968,
+          "observed_top_identified_share_of_full_circuit_shortfall": 0.1429,
+          "unknown_judge_share_of_district_court_shortfall": 0.3484,
+          "unknown_judge_share_of_full_circuit_shortfall": 0.5143,
+          "max_possible_single_judge_share_of_district_court_shortfall": 0.4452,
+          "max_possible_single_judge_share_of_full_circuit_shortfall": 0.6571,
+          "gt_50pct_of_district_court_shortfall_status": "definitive_no",
+          "gt_50pct_of_full_circuit_shortfall_status": "indeterminate"
+        }
+      }
+    },
+    "3rd Circuit": {
+      "circuit": "3rd Circuit",
+      "full_circuit_decline": {
+        "p1_n": 24,
+        "p1_broad_rate": 45.83,
+        "p3_n": 93,
+        "p3_broad_rate": 24.73,
+        "delta_pp": -21.1,
+        "full_circuit_shortfall_cases": 19.625
+      },
+      "district_court_component": {
+        "p1_n": 15,
+        "p1_broad_rate": 53.33,
+        "p3_n": 84,
+        "p3_broad_rate": 22.62,
+        "delta_pp": -30.71,
+        "district_court_shortfall_cases": 25.8,
+        "share_of_full_p3_cases": 0.9032,
+        "share_of_full_shortfall": 1.3146
+      },
+      "districts": [
+        {
+          "district": "E.D. Pa.",
+          "p1_n": 6,
+          "p1_broad_rate": 33.33,
+          "p3_n": 37,
+          "p3_broad_rate": 13.51,
+          "expected_p3_broad_at_circuit_district_p1_rate": 19.733,
+          "actual_p3_broad": 5,
+          "shortfall_cases": 14.733,
+          "share_of_district_court_shortfall": 0.5711,
+          "share_of_full_circuit_shortfall": 0.7507,
+          "p3_pro_se_share": 83.78,
+          "p3_mtd_n": 31,
+          "p3_mtd_survival_rate": 9.68,
+          "p3_identified_judges_n": 11,
+          "p3_identified_judges": [
+            "Cynthia M. Rufe",
+            "Gail A. Weilheimer",
+            "Gene E. K. Pratter",
+            "Gerald J. Pappert",
+            "Harvey Bartle III",
+            "John F. Murphy",
+            "John R. Padova",
+            "Joseph F. Leeson Jr.",
+            "Joshua D. Wolson",
+            "Mark A. Kearney",
+            "Mia R. Perez"
+          ],
+          "p3_unknown_judge_cases_n": 19
+        },
+        {
+          "district": "D.N.J.",
+          "p1_n": 6,
+          "p1_broad_rate": 83.33,
+          "p3_n": 30,
+          "p3_broad_rate": 20.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 16.0,
+          "actual_p3_broad": 6,
+          "shortfall_cases": 10.0,
+          "share_of_district_court_shortfall": 0.3876,
+          "share_of_full_circuit_shortfall": 0.5096,
+          "p3_pro_se_share": 63.33,
+          "p3_mtd_n": 19,
+          "p3_mtd_survival_rate": 36.84,
+          "p3_identified_judges_n": 11,
+          "p3_identified_judges": [
+            "Brian R. Martinotti",
+            "Claire C. Cecchi",
+            "Edward S. Kiel",
+            "Esther Salas",
+            "John Michael Vazquez",
+            "Julien Xavier Neals",
+            "Michael E. Farbiarz",
+            "Renée Marie Bumb",
+            "Richard L. Williams",
+            "Susan D. Wigenton",
+            "Zahid N. Quraishi"
+          ],
+          "p3_unknown_judge_cases_n": 7
+        },
+        {
+          "district": "D. Del.",
+          "p1_n": 1,
+          "p1_broad_rate": 100.0,
+          "p3_n": 7,
+          "p3_broad_rate": 42.86,
+          "expected_p3_broad_at_circuit_district_p1_rate": 3.733,
+          "actual_p3_broad": 3,
+          "shortfall_cases": 0.733,
+          "share_of_district_court_shortfall": 0.0284,
+          "share_of_full_circuit_shortfall": 0.0374,
+          "p3_pro_se_share": 57.14,
+          "p3_mtd_n": 6,
+          "p3_mtd_survival_rate": 33.33,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Gregory B. Williams",
+            "Richard L. Williams"
+          ],
+          "p3_unknown_judge_cases_n": 4
+        },
+        {
+          "district": "M.D. Pa.",
+          "p1_n": 1,
+          "p1_broad_rate": 0.0,
+          "p3_n": 5,
+          "p3_broad_rate": 40.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 2.667,
+          "actual_p3_broad": 2,
+          "shortfall_cases": 0.667,
+          "share_of_district_court_shortfall": 0.0258,
+          "share_of_full_circuit_shortfall": 0.034,
+          "p3_pro_se_share": 60.0,
+          "p3_mtd_n": 5,
+          "p3_mtd_survival_rate": 40.0,
+          "p3_identified_judges_n": 3,
+          "p3_identified_judges": [
+            "Keli M. Neary",
+            "Malachy E. Mannion",
+            "Martin C. Carlson"
+          ],
+          "p3_unknown_judge_cases_n": 1
+        },
+        {
+          "district": "D.V.I.",
+          "p1_n": 1,
+          "p1_broad_rate": 0.0,
+          "p3_n": 2,
+          "p3_broad_rate": 50.0,
+          "expected_p3_broad_at_circuit_district_p1_rate": 1.067,
+          "actual_p3_broad": 1,
+          "shortfall_cases": 0.067,
+          "share_of_district_court_shortfall": 0.0026,
+          "share_of_full_circuit_shortfall": 0.0034,
+          "p3_pro_se_share": 50.0,
+          "p3_mtd_n": 1,
+          "p3_mtd_survival_rate": 0.0,
+          "p3_identified_judges_n": 1,
+          "p3_identified_judges": [
+            "Wilma A. Lewis"
+          ],
+          "p3_unknown_judge_cases_n": 1
+        },
+        {
+          "district": "W.D. Pa.",
+          "p1_n": 0,
+          "p1_broad_rate": null,
+          "p3_n": 3,
+          "p3_broad_rate": 66.67,
+          "expected_p3_broad_at_circuit_district_p1_rate": 1.6,
+          "actual_p3_broad": 2,
+          "shortfall_cases": -0.4,
+          "share_of_district_court_shortfall": -0.0155,
+          "share_of_full_circuit_shortfall": -0.0204,
+          "p3_pro_se_share": 33.33,
+          "p3_mtd_n": 3,
+          "p3_mtd_survival_rate": 66.67,
+          "p3_identified_judges_n": 2,
+          "p3_identified_judges": [
+            "Christopher B. Brown",
+            "Susan Paradise Baxter"
+          ],
+          "p3_unknown_judge_cases_n": 0
+        }
+      ],
+      "judges": {
+        "identified_p3_cases": 52,
+        "unknown_p3_cases": 32,
+        "identification_rate": 0.619,
+        "unknown_shortfall_cases": 12.067,
+        "judge_hhi_identified_only_10000": 621.3,
+        "judge_hhi_with_unknown_bucket_10000": 1689.34,
+        "judge_rows": [
+          {
+            "judge": "Susan D. Wigenton",
+            "district": "D.N.J.",
+            "p3_n": 8,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 4.267,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 4.267,
+            "share_of_district_court_shortfall": 0.1654,
+            "share_of_full_circuit_shortfall": 0.2174
+          },
+          {
+            "judge": "Gerald J. Pappert",
+            "district": "E.D. Pa.",
+            "p3_n": 6,
+            "p3_broad_rate": 16.67,
+            "expected_p3_broad_at_circuit_district_p1_rate": 3.2,
+            "actual_p3_broad": 1,
+            "shortfall_cases": 2.2,
+            "share_of_district_court_shortfall": 0.0853,
+            "share_of_full_circuit_shortfall": 0.1121
+          },
+          {
+            "judge": "Esther Salas",
+            "district": "D.N.J.",
+            "p3_n": 4,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 2.133,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 2.133,
+            "share_of_district_court_shortfall": 0.0827,
+            "share_of_full_circuit_shortfall": 0.1087
+          },
+          {
+            "judge": "Gene E. K. Pratter",
+            "district": "E.D. Pa.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.067,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.067,
+            "share_of_district_court_shortfall": 0.0413,
+            "share_of_full_circuit_shortfall": 0.0544
+          },
+          {
+            "judge": "Zahid N. Quraishi",
+            "district": "D.N.J.",
+            "p3_n": 2,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.067,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 1.067,
+            "share_of_district_court_shortfall": 0.0413,
+            "share_of_full_circuit_shortfall": 0.0544
+          },
+          {
+            "judge": "Richard L. Williams",
+            "district": "D. Del.",
+            "p3_n": 3,
+            "p3_broad_rate": 33.33,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.6,
+            "actual_p3_broad": 1,
+            "shortfall_cases": 0.6,
+            "share_of_district_court_shortfall": 0.0233,
+            "share_of_full_circuit_shortfall": 0.0306
+          },
+          {
+            "judge": "Claire C. Cecchi",
+            "district": "D.N.J.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Cynthia M. Rufe",
+            "district": "E.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Edward S. Kiel",
+            "district": "D.N.J.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Gail A. Weilheimer",
+            "district": "E.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Harvey Bartle III",
+            "district": "E.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "John R. Padova",
+            "district": "E.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Joshua D. Wolson",
+            "district": "E.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Julien Xavier Neals",
+            "district": "D.N.J.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Keli M. Neary",
+            "district": "M.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Mark A. Kearney",
+            "district": "E.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Martin C. Carlson",
+            "district": "M.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Mia R. Perez",
+            "district": "E.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Renée Marie Bumb",
+            "district": "D.N.J.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Susan Paradise Baxter",
+            "district": "W.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 0.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 0,
+            "shortfall_cases": 0.533,
+            "share_of_district_court_shortfall": 0.0207,
+            "share_of_full_circuit_shortfall": 0.0272
+          },
+          {
+            "judge": "Joseph F. Leeson Jr.",
+            "district": "E.D. Pa.",
+            "p3_n": 2,
+            "p3_broad_rate": 50.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.067,
+            "actual_p3_broad": 1,
+            "shortfall_cases": 0.067,
+            "share_of_district_court_shortfall": 0.0026,
+            "share_of_full_circuit_shortfall": 0.0034
+          },
+          {
+            "judge": "Gregory B. Williams",
+            "district": "D. Del.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.467,
+            "share_of_district_court_shortfall": -0.0181,
+            "share_of_full_circuit_shortfall": -0.0238
+          },
+          {
+            "judge": "John F. Murphy",
+            "district": "E.D. Pa.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.467,
+            "share_of_district_court_shortfall": -0.0181,
+            "share_of_full_circuit_shortfall": -0.0238
+          },
+          {
+            "judge": "John Michael Vazquez",
+            "district": "D.N.J.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.467,
+            "share_of_district_court_shortfall": -0.0181,
+            "share_of_full_circuit_shortfall": -0.0238
+          },
+          {
+            "judge": "Michael E. Farbiarz",
+            "district": "D.N.J.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.467,
+            "share_of_district_court_shortfall": -0.0181,
+            "share_of_full_circuit_shortfall": -0.0238
+          },
+          {
+            "judge": "Wilma A. Lewis",
+            "district": "D.V.I.",
+            "p3_n": 1,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 0.533,
+            "actual_p3_broad": 1,
+            "shortfall_cases": -0.467,
+            "share_of_district_court_shortfall": -0.0181,
+            "share_of_full_circuit_shortfall": -0.0238
+          },
+          {
+            "judge": "Brian R. Martinotti",
+            "district": "D.N.J.",
+            "p3_n": 2,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.067,
+            "actual_p3_broad": 2,
+            "shortfall_cases": -0.933,
+            "share_of_district_court_shortfall": -0.0362,
+            "share_of_full_circuit_shortfall": -0.0476
+          },
+          {
+            "judge": "Christopher B. Brown",
+            "district": "W.D. Pa.",
+            "p3_n": 2,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.067,
+            "actual_p3_broad": 2,
+            "shortfall_cases": -0.933,
+            "share_of_district_court_shortfall": -0.0362,
+            "share_of_full_circuit_shortfall": -0.0476
+          },
+          {
+            "judge": "Malachy E. Mannion",
+            "district": "M.D. Pa.",
+            "p3_n": 2,
+            "p3_broad_rate": 100.0,
+            "expected_p3_broad_at_circuit_district_p1_rate": 1.067,
+            "actual_p3_broad": 2,
+            "shortfall_cases": -0.933,
+            "share_of_district_court_shortfall": -0.0362,
+            "share_of_full_circuit_shortfall": -0.0476
+          }
+        ],
+        "appointment_lookup": {
+          "Brian R. Martinotti": {
+            "status": "resolved",
+            "page_title": "Brian R. Martinotti",
+            "appointment_date": "2016-07-11",
+            "office": "Judge of the [[United States District Court for the District of New Jersey]]",
+            "term_start_raw": "July 11, 2016",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Christopher B. Brown": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Claire C. Cecchi": {
+            "status": "resolved",
+            "page_title": "Claire C. Cecchi",
+            "appointment_date": "2011-06-14",
+            "office": "Judge of the [[United States District Court for the District of New Jersey]]",
+            "term_start_raw": "June 14, 2011",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Cynthia M. Rufe": {
+            "status": "resolved",
+            "page_title": "Cynthia M. Rufe",
+            "appointment_date": "2002-05-03",
+            "office": "Judge of the [[United States District Court for the Eastern District of Pennsylvania]]",
+            "term_start_raw": "May 3, 2002",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Edward S. Kiel": {
+            "status": "resolved",
+            "page_title": "Kevin McNulty (judge)",
+            "appointment_date": "2012-07-18",
+            "office": "Judge of the [[United States District Court for the District of New Jersey]]",
+            "term_start_raw": "July 18, 2012",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:\"Edward S. Kiel\" federal judge"
+          },
+          "Esther Salas": {
+            "status": "resolved",
+            "page_title": "Esther Salas",
+            "appointment_date": "2011-06-14",
+            "office": "Judge of the United States District Court for the District of New Jersey",
+            "term_start_raw": "June 14, 2011",
+            "lookup_method": "manual_seed",
+            "source_url": "https://en.wikipedia.org/wiki/Esther_Salas"
+          },
+          "Gail A. Weilheimer": {
+            "status": "resolved",
+            "page_title": "Gail A. Weilheimer",
+            "appointment_date": "2025-01-02",
+            "office": "Judge of the [[United States District Court for the Eastern District of Pennsylvania]]",
+            "term_start_raw": "January 2, 2025",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Gene E. K. Pratter": {
+            "status": "resolved",
+            "page_title": "Gene E. K. Pratter",
+            "appointment_date": "2004-06-16",
+            "office": "Judge of the United States District Court for the Eastern District of Pennsylvania",
+            "term_start_raw": "June 16, 2004",
+            "lookup_method": "manual_seed",
+            "source_url": "https://en.wikipedia.org/wiki/Gene_E._K._Pratter"
+          },
+          "Gerald J. Pappert": {
+            "status": "resolved",
+            "page_title": "Jerry Pappert",
+            "appointment_date": "2014-12-04",
+            "office": "Judge of the United States District Court for the Eastern District of Pennsylvania",
+            "term_start_raw": "December 4, 2014",
+            "lookup_method": "manual_seed",
+            "source_url": "https://en.wikipedia.org/wiki/Gerald_J._Pappert"
+          },
+          "Gregory B. Williams": {
+            "status": "resolved",
+            "page_title": "Gregory B. Williams",
+            "appointment_date": "2022-09-01",
+            "office": "Judge of the [[United States District Court for the District of Delaware]]",
+            "term_start_raw": "September 1, 2022",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Harvey Bartle III": {
+            "status": "resolved",
+            "page_title": "Harvey Bartle III",
+            "appointment_date": "1991-09-16",
+            "office": "Judge of the [[United States District Court for the Eastern District of Pennsylvania]]",
+            "term_start_raw": "September 16, 1991",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "John F. Murphy": {
+            "status": "resolved",
+            "page_title": "John Frank Murphy",
+            "appointment_date": "2022-12-23",
+            "office": "Judge of the [[United States District Court for the Eastern District of Pennsylvania]]",
+            "term_start_raw": "December 23, 2022",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:\"John F. Murphy\" federal judge"
+          },
+          "John Michael Vazquez": {
+            "status": "resolved",
+            "page_title": "John Michael Vazquez",
+            "appointment_date": "2016-01-29",
+            "office": "Judge of the [[United States District Court for the District of New Jersey]]",
+            "term_start_raw": "January 29, 2016",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "John R. Padova": {
+            "status": "resolved",
+            "page_title": "John R. Padova",
+            "appointment_date": "1992-03-18",
+            "office": "Judge of the [[United States District Court for the Eastern District of Pennsylvania]]",
+            "term_start_raw": "March 18, 1992",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Joseph F. Leeson Jr.": {
+            "status": "resolved",
+            "page_title": "Joseph F. Leeson Jr.",
+            "appointment_date": "2014-12-05",
+            "office": "Judge of the [[United States District Court for the Eastern District of Pennsylvania]]",
+            "term_start_raw": "December 5, 2014",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Joshua D. Wolson": {
+            "status": "resolved",
+            "page_title": "Joshua Wolson",
+            "appointment_date": "2019-05-28",
+            "office": "Judge of the [[United States District Court for the Eastern District of Pennsylvania]]",
+            "term_start_raw": "May 28, 2019",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:\"Joshua D. Wolson\" federal judge"
+          },
+          "Julien Xavier Neals": {
+            "status": "resolved",
+            "page_title": "Julien Neals",
+            "appointment_date": "2021-06-22",
+            "office": "Judge of the [[United States District Court for the District of New Jersey]]",
+            "term_start_raw": "June 22, 2021",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:\"Julien Xavier Neals\" federal judge"
+          },
+          "Keli M. Neary": {
+            "status": "resolved",
+            "page_title": "Keli M. Neary",
+            "appointment_date": "2025-01-17",
+            "office": "Judge of the [[United States District Court for the Middle District of Pennsylvania]]",
+            "term_start_raw": "January 17, 2025",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Malachy E. Mannion": {
+            "status": "resolved",
+            "page_title": "Malachy E. Mannion",
+            "appointment_date": "2012-12-27",
+            "office": "Judge of the [[United States District Court for the Middle District of Pennsylvania]]",
+            "term_start_raw": "December 27, 2012",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Mark A. Kearney": {
+            "status": "resolved",
+            "page_title": "Mark A. Kearney",
+            "appointment_date": "2014-12-04",
+            "office": "Judge of the [[United States District Court for the Eastern District of Pennsylvania]]",
+            "term_start_raw": "December 4, 2014",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Martin C. Carlson": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Mia R. Perez": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Michael E. Farbiarz": {
+            "status": "resolved",
+            "page_title": "Michael E. Farbiarz",
+            "appointment_date": "2023-05-05",
+            "office": "Judge of the [[United States District Court for the District of New Jersey]]",
+            "term_start_raw": "May 5, 2023",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Renée Marie Bumb": {
+            "status": "resolved",
+            "page_title": "Renée Marie Bumb",
+            "appointment_date": "2006-06-12",
+            "office": "Judge of the [[United States District Court for the District of New Jersey]]",
+            "term_start_raw": "June 12, 2006",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Richard L. Williams": {
+            "status": "unresolved",
+            "page_title": null,
+            "appointment_date": null,
+            "office": null,
+            "term_start_raw": null,
+            "lookup_method": null,
+            "office_selection_basis": null
+          },
+          "Susan D. Wigenton": {
+            "status": "resolved",
+            "page_title": "Susan D. Wigenton",
+            "appointment_date": "2006-06-12",
+            "office": "Judge of the United States District Court for the District of New Jersey",
+            "term_start_raw": "June 12, 2006",
+            "lookup_method": "manual_seed",
+            "source_url": "https://en.wikipedia.org/wiki/Susan_D._Wigenton"
+          },
+          "Susan Paradise Baxter": {
+            "status": "resolved",
+            "page_title": "Sean J. McLaughlin",
+            "appointment_date": "1994-10-13",
+            "office": "Judge of the [[United States District Court for the Western District of Pennsylvania]]",
+            "term_start_raw": "October 13, 1994",
+            "office_selection_basis": "district_match",
+            "lookup_method": "search:\"Susan Paradise Baxter\" federal judge"
+          },
+          "Wilma A. Lewis": {
+            "status": "resolved",
+            "page_title": "Wilma A. Lewis",
+            "appointment_date": "2011-11-10",
+            "office": "Judge of the [[District Court of the Virgin Islands]]",
+            "term_start_raw": "November 10, 2011",
+            "office_selection_basis": "district_match",
+            "lookup_method": "exact_title"
+          },
+          "Zahid N. Quraishi": {
+            "status": "resolved",
+            "page_title": "Zahid Quraishi",
+            "appointment_date": "2021-06-22",
+            "office": "Judge of the United States District Court for the District of New Jersey",
+            "term_start_raw": "June 22, 2021",
+            "lookup_method": "manual_seed",
+            "source_url": "https://en.wikipedia.org/wiki/Zahid_Quraishi"
+          }
+        },
+        "appointed_after_2025_01_31": [],
+        "post_2025_appointee_check": {
+          "status": "indeterminate",
+          "resolved_lookup_count": 25,
+          "unresolved_lookup_count": 4,
+          "unknown_judge_p3_cases": 32,
+          "post_2025_appointees_found": 0
+        }
+      },
+      "threshold_tests": {
+        "top_district": {
+          "district": "E.D. Pa.",
+          "share_of_district_court_shortfall": 0.5711,
+          "share_of_full_circuit_shortfall": 0.7507,
+          "gt_50pct_of_district_court_shortfall": true,
+          "gt_50pct_of_full_circuit_shortfall": true
+        },
+        "top_identified_judge": {
+          "scope": "identified_judges_only",
+          "judge": "Susan D. Wigenton",
+          "share_of_district_court_shortfall": 0.1654,
+          "share_of_full_circuit_shortfall": 0.2174,
+          "observed_gt_50pct_of_district_court_shortfall": false,
+          "observed_gt_50pct_of_full_circuit_shortfall": false
+        },
+        "unknown_judge_bucket": {
+          "p3_cases": 32,
+          "shortfall_cases": 12.067,
+          "share_of_district_court_shortfall": 0.4677,
+          "share_of_full_circuit_shortfall": 0.6149
+        },
+        "any_single_judge": {
+          "top_identified_judge": "Susan D. Wigenton",
+          "observed_top_identified_share_of_district_court_shortfall": 0.1654,
+          "observed_top_identified_share_of_full_circuit_shortfall": 0.2174,
+          "unknown_judge_share_of_district_court_shortfall": 0.4677,
+          "unknown_judge_share_of_full_circuit_shortfall": 0.6149,
+          "max_possible_single_judge_share_of_district_court_shortfall": 0.6331,
+          "max_possible_single_judge_share_of_full_circuit_shortfall": 0.8323,
+          "gt_50pct_of_district_court_shortfall_status": "indeterminate",
+          "gt_50pct_of_full_circuit_shortfall_status": "indeterminate"
+        }
+      }
+    }
+  }
+}

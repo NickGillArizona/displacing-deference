@@ -1,0 +1,1417 @@
+{
+  "generated_at": "2026-04-16T07:57:06.130655Z",
+  "count": 141,
+  "all_missing_lack_period_assignment": true,
+  "rows": [
+    {
+      "source_file": "2961319_2015_Freedman v. Suntrust Banks, Inc._dcd",
+      "case_name": "Shana Freedman v. SunTrust Banks, Inc. and SunTrust Mortgage, Inc.",
+      "year": 2015,
+      "court": "D.D.C.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "7230859_2015_Hoostein v. Mental Health Ass'n_mad",
+      "case_name": "Hoostein v. Mental Health Ass'n",
+      "year": 2015,
+      "court": "D. Mass.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "7230918_2015_Holy Ghost Revival Ministries v. City of Marysville_wawd",
+      "case_name": "Holy Ghost Revival Ministries v. City of Marysville",
+      "year": 2015,
+      "court": "W.D. Wash.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "7232144_2015_Austin v. Town of Farmington_nywd",
+      "case_name": "Austin v. Town of Farmington",
+      "year": 2015,
+      "court": "W.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "3171091_2016_Richard Wolf v. Bank of America, N.A., et a_ca5",
+      "case_name": "Richard B. Wolf; Marcia A. Wolf v. Bank of America National Association; Marvin Blankenship; Kianie King; Jimmy Widdle; Phil Gonzalez",
+      "year": 2016,
+      "court": "5th Cir.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "4110396_2016_Abdus-Sabur v. Corrections Corporation of America_dcd",
+      "case_name": "Jason Abdus-Sabur v. Hope Village, Inc., et al.",
+      "year": 2016,
+      "court": "D.D.C.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "7235405_2016_Louis ex rel. G.A.H. v. New York City Housing Authority_nysd",
+      "case_name": "Mesline Louis ex rel. G.A.H. v. New York City Housing Authority",
+      "year": 2016,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "7237363_2016_Logan v. Matveevskii_nysd",
+      "case_name": "Logan v. Matveevskii",
+      "year": 2016,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10697217_2017_Lath v. Oak Brook Condominium Owners Assoc., et al._nhd",
+      "case_name": "Sanjeev Lath v. Oak Brook Condominium Owners' Association, et al.",
+      "year": 2017,
+      "court": "D.N.H.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10258314_2018_Thomas v. Nationstar Mortgage, LLC_wvnd",
+      "case_name": "Thomas v. Nationstar Mortgage, LLC",
+      "year": 2018,
+      "court": "N.D.W. Va.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "4274256_2018_Collington v. District of Columbia Housing Authority_dcd",
+      "case_name": "William Hugh Collington v. District of Columbia Housing Authority et al.",
+      "year": 2018,
+      "court": "D.D.C.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "4309890_2018_Carol Vorchheimer v. Philadelphian Owners Associati_ca3",
+      "case_name": "Carol Vorchheimer v. The Philadelphian Owners Association; June Idzal; Frank J. Bonom",
+      "year": 2018,
+      "court": "3d Cir.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "7249780_2018_Nat'l Fair Hous. Alliance v. Carson_cadc",
+      "case_name": "Nat'l Fair Hous. Alliance v. Carson",
+      "year": 2018,
+      "court": "D.D.C.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "7250229_2018_S_R Dev. Estates, LLC v. Town of Greenburgh_ilsd",
+      "case_name": "S & R Development Estates, LLC v. Sisters of the Blessed Sacrament, Inc.",
+      "year": 2018,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9964824_2018_Noble v. American National Property _ Casualty Insurance Co._sdd",
+      "case_name": "Marty Noble and Holli Telford v. American National Property & Casualty Insurance Co.; Boardwalk Property Management Co.; Kevin West; Lehi Oasis, LLC; David L. Parker; Austin B. Cales; Jared Eldridge; Larry Deiter; Robert J. Poulsen and Poulsen & Skousen",
+      "year": 2018,
+      "court": "D.S.D.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10254272_2019_Manzke, Sara v. Jefferson County_wiwd",
+      "case_name": "Sara Manzke v. Jefferson County and Town of Ixonia",
+      "year": 2019,
+      "court": "W.D. Wis.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10696687_2019_Scott Chandler v. Chartwell Holdings, Inc., et al._nhd",
+      "case_name": "Scott Chandler v. Chartwell Holdings, Inc., et al.",
+      "year": 2019,
+      "court": "D.N.H.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "7253788_2019_Poursaied v. Reserve at Research Park LLC_alnd",
+      "case_name": "Shahnaz Poursaied v. Reserve at Research Park LLC",
+      "year": 2019,
+      "court": "N.D. Ala.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9549164_2019_(PS) Trotter v. Con Am Group_caed",
+      "case_name": "Cupid Monique Trotter v. Con Am Group; Crisienna Vista Communities",
+      "year": 2019,
+      "court": "E.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9613394_2019_White v. San Diego Sunrise Management Company_casd",
+      "case_name": "White v. San Diego Sunrise Management Company",
+      "year": 2019,
+      "court": "S.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9666500_2019_LaRosa v. River Quarry Apartments, LLC_idd",
+      "case_name": "Robert LaRosa, Iva LaRosa, and Intermountain Fair Housing Council, Inc. v. River Quarry Apartments, LLC",
+      "year": 2019,
+      "court": "D. Idaho",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9704762_2019_Ngiendo v. Pep-KU, LLC_ksd",
+      "case_name": "Quinn Ngiendo v. Pep-KU, LLC, Amelia Ludlow, Madison Cline and Lucy Evans",
+      "year": 2019,
+      "court": "D. Kan.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9774614_2019_Barbero v. Wilhoit Property Management, Inc._mowd",
+      "case_name": "Theresa Marie Barbero v. Wilhoit Property Management, Inc.",
+      "year": 2019,
+      "court": "W.D. Mo.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9836268_2019_Koso v. St. Josephs Senior Housing Village_nyed",
+      "case_name": "Linda Koso v. St. Joseph's Senior Housing Village and Stanan Management",
+      "year": 2019,
+      "court": "E.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9845340_2019_UMH Properties, Inc. v. Village of Coxsackie_nynd",
+      "case_name": "UMH Properties, Inc. et al. v. Village of Coxsackie et al.",
+      "year": 2019,
+      "court": "N.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9850350_2019_Harris v. The Yonkers Department of Social Services_OTDA_OAH_nysd",
+      "case_name": "Rhonda L. Harris v. The Yonkers Department of Social Services/OTDA/OAH",
+      "year": 2019,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9850873_2019_Lopez v. New York City Dept. Homeless Services_nysd",
+      "case_name": "Lopez v. City of New York",
+      "year": 2019,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9850893_2019_Vinnie Hardee v. Pritchett_nysd",
+      "case_name": "Vinnie Hardee v. City of New Rochelle Section 8 Housing Agency",
+      "year": 2019,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9900765_2019_Muhammad v. Wilhite_ohnd",
+      "case_name": "Jerry Muhammad v. Jacob Wilhite",
+      "year": 2019,
+      "court": "N.D. Ohio",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9972972_2019_Alexander v. Lexington Associates II, L.P._tnwd",
+      "case_name": "Alexander v. Lexington Associates II, L.P.",
+      "year": 2019,
+      "court": "W.D. Tenn.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "10212330_2020_Harmony Haus Westlake, LLC v. Parkstone Property Owners Association, Inc._txwd",
+      "case_name": "Harmony Haus Westlake, LLC v. Parkstone Property Owners Association, Inc.",
+      "year": 2020,
+      "court": "W.D. Tex.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "10221400_2020_Banks v. Gates Hudson _ Associates, Inc._vaed",
+      "case_name": "Banks v. Gates Hudson & Associates, Inc.",
+      "year": 2020,
+      "court": "E.D. Va.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10221540_2020_Fedynich v. Boulder Housing Partners_vaed",
+      "case_name": "Fedynich v. Boulder Housing Partners",
+      "year": 2020,
+      "court": "E.D. Va.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9529383_2020_Harden v. CPLC Estancia LLC_azd",
+      "case_name": "Sharon D. Harden v. CPLC Estancia LLC, et al.",
+      "year": 2020,
+      "court": "D. Ariz.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9529415_2020_Garnes v. Washington Manor_azd",
+      "case_name": "Sharon Garnes v. Washington Manor, et al.",
+      "year": 2020,
+      "court": "D. Ariz.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9551341_2020_Scoggin v. Turning Point Central California_caed",
+      "case_name": "Danelle Renee Scoggin v. Turning Point Central California",
+      "year": 2020,
+      "court": "E.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9556072_2020_(PS) Sharma v. Home Buyers Realty and HBR Rentals_caed",
+      "case_name": "Janavi Sharma v. Home Buyers Realty and HBR Rentals",
+      "year": 2020,
+      "court": "E.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9557693_2020_Decheri Hafer v. Unknown_caed",
+      "case_name": "Decheri Hafer v. Unknown",
+      "year": 2020,
+      "court": "E.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9614541_2020_Eulitt v. City of San Diego_casd",
+      "case_name": "Sandy A. Eulitt v. City of San Diego",
+      "year": 2020,
+      "court": "S.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9623848_2020_Hall v. Hilderbrand_cod",
+      "case_name": "Vicki Hall v. Donna Hilderbrand",
+      "year": 2020,
+      "court": "D. Colo.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9639620_2020_Cobb v. Citrus Falls at Westchase Apartments, LLC_flmd",
+      "case_name": "Tyrone Cobb v. Citrus Falls at Westchase Apartments, LLC",
+      "year": 2020,
+      "court": "M.D. Fla.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9651094_2020_Friedel v. Sun Communities, Inc._flsd",
+      "case_name": "George Friedel & Kathleen Friedel v. Sun Communities, Inc. & Park Place Community, LLC",
+      "year": 2020,
+      "court": "S.D. Fla.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9664602_2020_Scutt v. Family Life Center, Inc._hid",
+      "case_name": "Jason Scutt v. Maui Family Life Center, Inc.",
+      "year": 2020,
+      "court": "D. Haw.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9664705_2020_Scutt v. Dorris_hid",
+      "case_name": "Jason Scutt v. Kelli Dorris, Xiayin (Gaoquiang) Lin, and Charlene Chen",
+      "year": 2020,
+      "court": "D. Haw.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9719433_2020_Briley v. Barreca_laed",
+      "case_name": "Russell Andre Briley v. Ignatius Barreca Jr. et al.",
+      "year": 2020,
+      "court": "E.D. La.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9766092_2020_Stroud v. Farr Rentals, LLC_moed",
+      "case_name": "Althea J. Stroud v. Farr Rentals, LLC, et al.",
+      "year": 2020,
+      "court": "E.D. Mo.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9766529_2020_Jordan v. Sugartree Homes Association of St. Louis County_moed",
+      "case_name": "Cynthia E. Jordan v. Sugartree Homes Association of St. Louis County, et al.",
+      "year": 2020,
+      "court": "E.D. Mo.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9767259_2020_Stroud v. Farr Rentals, LLC_moed",
+      "case_name": "Althea J. Stroud v. Farr Rentals, LLC, et al.",
+      "year": 2020,
+      "court": "E.D. Mo.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9767513_2020_Jones v. Deca Realty_moed",
+      "case_name": "Carolyn M. Jones, et al. v. Deca Realty, et al.",
+      "year": 2020,
+      "court": "E.D. Mo.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9795430_2020_Thompson v. Morgan Properties Management Company, LLC_ned",
+      "case_name": "Dr. Franklin Thompson v. Morgan Properties Management Company, LLC",
+      "year": 2020,
+      "court": "D. Neb.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9823280_2020_Fulkerson v. The Hartford_nvd",
+      "case_name": "Fulkerson v. The Hartford",
+      "year": 2020,
+      "court": "D. Nev.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9838610_2020_Ortega v. Samaritan Village Myrtle Ave. Men's Shelter_nyed",
+      "case_name": "Ivan Fernando Ortega v. Samaritan Village Myrtle Ave. Men's Shelter",
+      "year": 2020,
+      "court": "E.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9845882_2020_Doe v. YWCA of Northeastern NY_nynd",
+      "case_name": "Doe v. YWCA of Northeastern NY",
+      "year": 2020,
+      "court": "N.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9853907_2020_Ochei v. Lapes_nysd",
+      "case_name": "Ochei v. Lapes",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9855309_2020_Stone v. 23rd Chelsea Associates, LLC_nysd",
+      "case_name": "Stone v. 23rd Chelsea Associates, LLC",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9855547_2020_Anderson-Bey v. ACS_nysd",
+      "case_name": "Bernard T. Anderson Bey v. ACS; NYCHA; DCSE; HRA (referenced as New York State and the City of New York)",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9855791_2020_Barker v. Women In Need, Inc._nysd",
+      "case_name": "Akasha Tania Barker v. Women In Need, Inc.",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9856749_2020_Ash v. City of N.Y._nysd",
+      "case_name": "Ash v. City of New York",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9857640_2020_Dames v. De Blasio_nysd",
+      "case_name": "Roslyn Alma Dames v. Bill De Blasio, Mayor, New York City; Dean Santa, Director of Asset Management, United States Department of Housing and Urban Development; St. Margaret's House; Trinity Church Wall Street; St. Paul's Church",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9857659_2020_Davis v. Port Jervis Community Development_nysd",
+      "case_name": "Daryl J. Davis v. Port Jervis Community Development",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9858791_2020_Jones v. Banks_nysd",
+      "case_name": "Keisha A. Jones v. Steven Banks, DSS Commissioner; Nonprofit Corporation 1-5; DSS Employee 1-5",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9858895_2020_Jones v. Thomas_nysd",
+      "case_name": "Brandon C. Jones v. Ms. Jisin H. Thomas; Mr. Jonathan Tauarez; Volunteers of America Corporation; Volunteers of America, Swartz Shelter; Volunteers of America 135 W. 50th Street, NYC, NY 10024",
+      "year": 2020,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9931745_2020_EL v. PEOPLE'S EMERGENCY CENTER_paed",
+      "case_name": "Magistrate Mahdi Sufi El v. People's Emergency Center",
+      "year": 2020,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9932121_2020_APONTE v. UNITED STATES DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT_paed",
+      "case_name": "Shanicqua Aponte v. United States Department of Housing and Urban Development",
+      "year": 2020,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9932283_2020_COYNE v. HOLY FAMILY APARTMENTS_paed",
+      "case_name": "Catherine Coyne v. Holy Family Apartments, Allentown Archdiocese, Randy Wadsworth, Karen Ohm, Sarosky Heating & Air Conditioning, and HUD",
+      "year": 2020,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9933567_2020_DAVIS v. RUBIN_paed",
+      "case_name": "Davis v. Rubin",
+      "year": 2020,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9953316_2020_Del Villar-Rosario v. Fernandez-Ramos_prd",
+      "case_name": "Euripides Del Villar-Rosario v. Victor Roberto Fernandez-Ramos, et al.",
+      "year": 2020,
+      "court": "D.P.R.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9965467_2020_Lundahl v. Gross_sdd",
+      "case_name": "Lundahl v. Gross",
+      "year": 2020,
+      "court": "D.S.D.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9970186_2020_Norris v. Murfreesboro Leased Housing Associates_tnmd",
+      "case_name": "April Tenille Norris v. Murfreesboro Leased Housing Associates I, LP d/b/a Chariot Pointe Apartments, et al.",
+      "year": 2020,
+      "court": "M.D. Tenn.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9981922_2020_Jackson v. City of Grand Prairie Texas_txnd",
+      "case_name": "Cleveland Jackson, Jr. v. City of Grand Prairie Texas",
+      "year": 2020,
+      "court": "N.D. Tex.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10164858_2021_Miller v. Coastline Management_alsd",
+      "case_name": "Miller v. Coastline Management",
+      "year": 2021,
+      "court": "S.D. Ala.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10171744_2021_Sam Sohn v. California Housing Financing Agency_cand",
+      "case_name": "Sam Sohn v. California Housing Financing Agency",
+      "year": 2021,
+      "court": "N.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10213380_2021_Payne v. City of San Antonio, Texas_txwd",
+      "case_name": "Payne v. City of San Antonio, Texas",
+      "year": 2021,
+      "court": "W.D. Tex.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10221825_2021_Fedynich v. Lozano_vaed",
+      "case_name": "Nicole Fedynich, et al. v. Juana Lozano, Assistant Manager, Valor Apartments, et al.",
+      "year": 2021,
+      "court": "E.D. Va.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "10225468_2021_Grant v. Albemarle County_vawd",
+      "case_name": "Antigone Grant v. Albemarle County",
+      "year": 2021,
+      "court": "W.D. Va.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "10249834_2021_Huzjak v. Ellis_wied",
+      "case_name": "Debra Lee Huzjak v. Kim Ellis, et al.",
+      "year": 2021,
+      "court": "E.D. Wis.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "4865538_2021_MacKenzie v. Carson_dcd",
+      "case_name": "Craig Steven MacKenzie v. Marcia L. Fudge, Secretary, U.S. Department of Housing and Urban Development",
+      "year": 2021,
+      "court": "D.D.C.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "4892967_2021_Lockey v. Carson_dcd",
+      "case_name": "Curtis Lockey, Jr. v. Marcia L. Fudge, Secretary, U.S. Department of Housing and Urban Development",
+      "year": 2021,
+      "court": "D.D.C.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9531932_2021_Petramala v. Phoenix, City of_azd",
+      "case_name": "Michael Petramala v. City of Phoenix, et al.",
+      "year": 2021,
+      "court": "D. Ariz.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9531969_2021_Arthur v. Windsor Shadows Homeowner's Association_azd",
+      "case_name": "Francine M. Arthur v. Windsor Shadows Homeowner's Association",
+      "year": 2021,
+      "court": "D. Ariz.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9558121_2021_Courtney v. Housing Authority of the County of Kings_caed",
+      "case_name": "Colleen M. Courtney v. Housing Authority of the County of Kings",
+      "year": 2021,
+      "court": "E.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9565491_2021_Hamilton v. Madera County_caed",
+      "case_name": "Rick Hamilton, et al. v. County of Madera, et al.",
+      "year": 2021,
+      "court": "E.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9599868_2021_Vargas v. Facebook, Inc._cand",
+      "case_name": "Rosemarie Vargas, et al. v. Facebook, Inc.",
+      "year": 2021,
+      "court": "N.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9600205_2021_Melton v. Regional Center of the East Bay, Inc._cand",
+      "case_name": "Selena Melton, by and through her Guardian Ad Litem v. California Department of Developmental Services, et al.",
+      "year": 2021,
+      "court": "N.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9602085_2021_Vargas v. Facebook, Inc._cand",
+      "case_name": "Rosemarie Vargas, et al. v. Facebook, Inc.",
+      "year": 2021,
+      "court": "N.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9602094_2021_Wolf v. City of Millbrae_cand",
+      "case_name": "Wolf v. City of Millbrae",
+      "year": 2021,
+      "court": "N.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9602950_2021_Melton v. Regional Center of the East Bay, Inc._cand",
+      "case_name": "Melton v. Regional Center of the East Bay, Inc.",
+      "year": 2021,
+      "court": "N.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9618024_2021_Musgrove v. Hanifin_casd",
+      "case_name": "Irvin Musgrove v. Angie Hanifin, Margery Pierce, Keysa Machado, Susana Sandoval-Soto, and Oceanside Housing Authority",
+      "year": 2021,
+      "court": "S.D. Cal.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9652704_2021_Hilliard, Sr. v. Gutierrez_flsd",
+      "case_name": "Elgin Hilliard, Sr. v. Rene Gutierrez",
+      "year": 2021,
+      "court": "S.D. Fla.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9686868_2021_Karnes v. Bank of Whittington_ilsd",
+      "case_name": "Karnes v. Bank of Whittington/Whittington Bancorp, Inc.",
+      "year": 2021,
+      "court": "S.D. Ill.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9694808_2021_Norman v. Northwest Indiana CA_innd",
+      "case_name": "LaSandra Norman v. Northwest Indiana CA Section 8, et al.",
+      "year": 2021,
+      "court": "N.D. Ind.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9695162_2021_Graham v. City of Elkhart_innd",
+      "case_name": "DeAnn Graham v. City of Elkhart",
+      "year": 2021,
+      "court": "N.D. Ind.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9701453_2021_BARBOSA VASQUEZ v. HUNTER BLOOMINGTON PROPERTIES, LLC_insd",
+      "case_name": "Diego Felipe Barbosa Vasquez v. Hunter Bloomington Properties, LLC",
+      "year": 2021,
+      "court": "S.D. Ind.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9719669_2021_Briley v. Barreca_laed",
+      "case_name": "Russell Andre Briley v. Ignatius Barreca, Jr. et al.",
+      "year": 2021,
+      "court": "E.D. La.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9720727_2021_Winston v. Housing Authority of Jefferson Parish_laed",
+      "case_name": "Nadia Winston v. Housing Authority of Jefferson Parish",
+      "year": 2021,
+      "court": "E.D. La.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9727902_2021_Fenelon v. Housing _ Urban Development_lawd",
+      "case_name": "Cheryl L Fenelon et al v. U.S. Dept of Housing & Urban Development et al",
+      "year": 2021,
+      "court": "W.D. La.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9738717_2021_Manley v. Threeths_mdd",
+      "case_name": "Michael Manley, et al. v. Evette L. Threeths, et al.",
+      "year": 2021,
+      "court": "D. Md.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9739061_2021_Stemmons v. Corsco_mdd",
+      "case_name": "Adam Stemmons v. Georgia Corso",
+      "year": 2021,
+      "court": "D. Md.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9749355_2021_Johnson v. East Tawas Housing Commission_mied",
+      "case_name": "Douglas J. Johnson v. East Tawas Housing Commission",
+      "year": 2021,
+      "court": "E.D. Mich.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9750016_2021_Tranchmontagne v. United States Department of Housing and Urban Development_mied",
+      "case_name": "Tranchmontagne v. United States Department of Housing and Urban Development",
+      "year": 2021,
+      "court": "E.D. Mich.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9750789_2021_McCree v. KMG Prestiege Company_mied",
+      "case_name": "McCree v. KMG Prestiege Company",
+      "year": 2021,
+      "court": "E.D. Mich.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9768334_2021_Wheatley v. Beasley_moed",
+      "case_name": "Carol D. Wheatley v. Lilly Beasley",
+      "year": 2021,
+      "court": "E.D. Mo.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9785178_2021_Swanson v. King_nced",
+      "case_name": "Gary L. Swanson v. Alex King & King Management, LLC",
+      "year": 2021,
+      "court": "E.D.N.C.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9796501_2021_Franklin v. Omaha Housing Authority_ned",
+      "case_name": "Michael Franklin v. Omaha Housing Authority",
+      "year": 2021,
+      "court": "D. Neb.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9796832_2021_Knight v. Chatelain_ned",
+      "case_name": "Phyllis M. Knight v. John C. Chatelain",
+      "year": 2021,
+      "court": "D. Neb.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9803908_2021_D'ANTONIO v. BOROUGH OF ALLENDALE_njd",
+      "case_name": "Michael A. D'Antonio v. Borough of Allendale, et al.",
+      "year": 2021,
+      "court": "D.N.J.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9804772_2021_LIVINGSTONE v. HUGO BOSS STORE, ATLANTIC CITY, NJ_njd",
+      "case_name": "Livingstone v. Hugo Boss Store, Atlantic City, NJ",
+      "year": 2021,
+      "court": "D.N.J.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9824661_2021_O'Neil v. Salas_nvd",
+      "case_name": "Aimee O'Neil v. Jovi Salas, et al.",
+      "year": 2021,
+      "court": "D. Nev.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9824801_2021_Godwin v. Senior Garden Apartments_nvd",
+      "case_name": "Victoria-Joy Godwin v. Senior Garden Apartments, et al.",
+      "year": 2021,
+      "court": "D. Nev.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9826289_2021_Hansen v. Delaney_nvd",
+      "case_name": "Hansen v. Delaney",
+      "year": 2021,
+      "court": "D. Nev.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9827432_2021_Carpenter v. Southern Nevada Regional Housing Authority_nvd",
+      "case_name": "Phyllis J. Carpenter v. Southern Nevada Regional Housing Authority",
+      "year": 2021,
+      "court": "D. Nev.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9862215_2021_Jones v. Banks_nysd",
+      "case_name": "Keisha Jones v. Steven Banks",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9862218_2021_Bell v. City of New York_nysd",
+      "case_name": "Melvin Bell, III v. City of New York; Susan Jackson; Shatara Pell; Victor M. Hernandez",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9862537_2021_Mercer v. New York City Housing Authority_nysd",
+      "case_name": "Robert Mercer v. New York City Housing Authority",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9865041_2021_Brock v. The City of New York_nysd",
+      "case_name": "Mandela Brock v. City of New York",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9865092_2021_Davis v. Port Jervis Community Development_nysd",
+      "case_name": "Daryl J. Davis v. Port Jervis Community Development; Nora Gallagher/Goetz; Valerie Maginsky",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9865413_2021_Mercer v. New York City Housing Authority_nysd",
+      "case_name": "Robert Mercer v. New York City Housing Authority",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9866222_2021_Kellier v. Billups_nysd",
+      "case_name": "Joshua Kellier v. Billups",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9866577_2021_Paynes El-Bey v. ADT Security Services, Inc._nysd",
+      "case_name": "Queen Prinyah Godiah P. Paynes El-Bey v. ADT Security Services, Inc.",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9866627_2021_Madison v. Gramm_nysd",
+      "case_name": "Madison v. Graham",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "PROCEDURAL",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9868530_2021_Wood v. Mutual Redevelopment Houses, Inc._nysd",
+      "case_name": "Wood et al. v. Mutual Redevelopment Houses, Inc. et al.",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9869240_2021_Currin v. Glenwood Management Corp._nysd",
+      "case_name": "Charlie G. Currin v. Glenwood Management Corp.",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9869575_2021_Zlotnick v. Crystal Run Village, Inc._nysd",
+      "case_name": "Zlotnick v. Crystal Run Village, Inc.",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9870218_2021_Higgins v. 120 Riverside Boulevard at Trump Place Condominium_nysd",
+      "case_name": "Joanne Noel Higgins v. 120 Riverside Boulevard at Trump Place Condominium",
+      "year": 2021,
+      "court": "S.D.N.Y.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9902915_2021_McCoy v. Akron Police Department_ohnd",
+      "case_name": "McCoy v. Akron Police Department",
+      "year": 2021,
+      "court": "N.D. Ohio",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9903260_2021_Alghusain v. Nemeth_ohnd",
+      "case_name": "Ameer Alghusain v. Jason L. Nemeth, et al.",
+      "year": 2021,
+      "court": "N.D. Ohio",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9911207_2021_Vanessa McQueen v. City of Cincinnati_ohsd",
+      "case_name": "Vanessa McQueen v. City of Cincinnati",
+      "year": 2021,
+      "court": "S.D. Ohio",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9912582_2021_Price v. Oxley_ohsd",
+      "case_name": "Katherine Bebe Price, et al. v. Scott G. Oxley, et al.",
+      "year": 2021,
+      "court": "S.D. Ohio",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9920067_2021_Backus v. I.Q. Data International, Inc._oknd",
+      "case_name": "Joseph Backus v. I.Q. Data International, Inc., Tulsa Greenbriar I, LLC, and Gaines Investment Trust",
+      "year": 2021,
+      "court": "N.D. Okla.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9922307_2021_Melton v. University of Oklahoma_okwd",
+      "case_name": "Sarah Melton v. State of Oklahoma ex rel. University of Oklahoma",
+      "year": 2021,
+      "court": "W.D. Okla.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9926959_2021_Macon v. Parker_ord",
+      "case_name": "Jenine Kristina Macon v. Proud Ground Organization, Yesika Arevalo, Tyler Koski, Ryan Parker, Katie Ullrich, Pedro Cruz",
+      "year": 2021,
+      "court": "D. Or.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9933772_2021_LEE v. HUD_paed",
+      "case_name": "Thermuthis Lee v. HUD, et al.",
+      "year": 2021,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9934255_2021_DEJESUS v. VICKY_paed",
+      "case_name": "Alexy Dejesus v. Vicky; Arbor Village & Old Forge Apartments",
+      "year": 2021,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9934691_2021_EL v. PEOPLE'S EMERGENCY CENTER_paed",
+      "case_name": "Magistrate Mahdi Sufi El v. People's Emergency Center, et al.",
+      "year": 2021,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9935118_2021_CARTER v. MURRAY_paed",
+      "case_name": "Reginald Carter v. Donna M. Murray",
+      "year": 2021,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9935410_2021_HEIMBACH v. HILL_paed",
+      "case_name": "Justin C. Heimbach v. Ronald Hill",
+      "year": 2021,
+      "court": "E.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9943863_2021_Mountainside Manor Real Estate Associates LLC v. Dallas Township_pamd",
+      "case_name": "Mountainside Manor Real Estate Associates, LLC v. Dallas Township",
+      "year": 2021,
+      "court": "M.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": false,
+      "period": null
+    },
+    {
+      "source_file": "9950171_2021_FUNYAK v. PENNROSE MANAGEMENT COMPANY_pawd",
+      "case_name": "Gregory Louis Funyak and Sharon Lynn Funyak v. Pennrose Management Company and Monroe Meadows Housing Partnership, LP",
+      "year": 2021,
+      "court": "W.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9950565_2021_MIMS v. CITY OF NEW CASTLE_pawd",
+      "case_name": "James Mims v. City of New Castle",
+      "year": 2021,
+      "court": "W.D. Pa.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9953732_2021_Erazo-Santana v. Constructora Del Rio, Inc._prd",
+      "case_name": "Carlos Erazo-Santana v. Constructora Del Río, Inc., et al.",
+      "year": 2021,
+      "court": "D.P.R.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    },
+    {
+      "source_file": "9958680_2021_Hawkins v. Court of Common Pleas_scd",
+      "case_name": "Flordeliza A. Hawkins v. Court of Common Pleas of Anderson South Carolina",
+      "year": 2021,
+      "court": "D.S.C.",
+      "procedural_posture": "MOTION_TO_DISMISS",
+      "outcome": "DEFENDANT_WIN",
+      "pro_se": true,
+      "period": null
+    }
+  ]
+}

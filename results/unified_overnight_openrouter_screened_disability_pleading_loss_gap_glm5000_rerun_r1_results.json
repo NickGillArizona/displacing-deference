@@ -1,0 +1,243 @@
+[
+  {
+    "source_file": "10221400_2020_Banks v. Gates Hudson _ Associates, Inc._vaed",
+    "custom_id": "uor-0000-13a1ea0e7559",
+    "case_name": "Banks v. Gates Hudson & Associates, Inc.",
+    "input_tokens": 5673,
+    "output_tokens": 2384,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0000-13a1ea0e7559",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"MIXED\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"DOCUMENT_ASSEMBLY\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"LEASE_OR_POLICY_TEXT\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"Pro se plaintiffs sued over an emotional support animal accommodation that was actually granted, alleging neighbor mistreatment about the dog's size and waste rather than disability-based discrimination. The court dismissed all claims under Iqbal/Twombly because no FHA violation was plausibly stated—no denial of accommodation, vague disability allegations, and no adverse action by defendants. This is primarily a translation failure where the grievance existed but could not be mapped onto a cognizable FHA theory, compounded by missing disability nexus and factual specificity.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5673,
+          "output_tokens": 2384,
+          "total_tokens": 8057
+        },
+        "provider_response_id": "gen-1776329843-viSV6uiTwAvmqhEYjbSB"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "TRANSLATION",
+      "pleading_failure_mechanism": "MIXED",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "DOCUMENT_ASSEMBLY"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "LEASE_OR_POLICY_TEXT",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "Pro se plaintiffs sued over an emotional support animal accommodation that was actually granted, alleging neighbor mistreatment about the dog's size and waste rather than disability-based discrimination. The court dismissed all claims under Iqbal/Twombly because no FHA violation was plausibly stated—no denial of accommodation, vague disability allegations, and no adverse action by defendants. This is primarily a translation failure where the grievance existed but could not be mapped onto a cognizable FHA theory, compounded by missing disability nexus and factual specificity."
+    }
+  },
+  {
+    "source_file": "10221825_2021_Fedynich v. Lozano_vaed",
+    "custom_id": "uor-0001-26cbc4388188",
+    "case_name": "Nicole Fedynich, et al. v. Juana Lozano, Assistant Manager, Valor Apartments, et al.",
+    "input_tokens": 6118,
+    "output_tokens": 1844,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0001-26cbc4388188",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"MIXED\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"MEDICAL_OR_DISABILITY_CORROBORATION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"MEDICAL_OR_PROVIDER_LETTER\",\n    \"LEASE_OR_POLICY_TEXT\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"Pro se tenants in LIHTC housing alleged multiple FHA theories arising from secondhand smoke aggravating asthma, but the court dismissed all claims except retaliation under Iqbal/Twombly—primarily for failure to plausibly allege disability status and its nexus to the requested accommodation, failure to identify a specific disparate-impact policy, and failure to meet hostile-environment elements. The core problem is translation: a concrete housing grievance existed but could not be framed in legally cognizable FHA terms, compounded by missing medical corroboration of disability severity. Both Tier 1 documentation (request logging, medical letters) and Tier 2 intermediation (theory selection, fact development) would address the observed failures.\"\n}\n```",
+        "usage": {
+          "input_tokens": 6118,
+          "output_tokens": 1844,
+          "total_tokens": 7962
+        },
+        "provider_response_id": "gen-1776329938-lXMDE6aNV1EG7xQPn7dG"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "TRANSLATION",
+      "pleading_failure_mechanism": "MIXED",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "MEDICAL_OR_DISABILITY_CORROBORATION"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "MEDICAL_OR_PROVIDER_LETTER",
+        "LEASE_OR_POLICY_TEXT"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "Pro se tenants in LIHTC housing alleged multiple FHA theories arising from secondhand smoke aggravating asthma, but the court dismissed all claims except retaliation under Iqbal/Twombly—primarily for failure to plausibly allege disability status and its nexus to the requested accommodation, failure to identify a specific disparate-impact policy, and failure to meet hostile-environment elements. The core problem is translation: a concrete housing grievance existed but could not be framed in legally cognizable FHA terms, compounded by missing medical corroboration of disability severity. Both Tier 1 documentation (request logging, medical letters) and Tier 2 intermediation (theory selection, fact development) would address the observed failures."
+    }
+  },
+  {
+    "source_file": "10249834_2021_Huzjak v. Ellis_wied",
+    "custom_id": "uor-0002-8e89e0f6bd3c",
+    "case_name": "Debra Lee Huzjak v. Kim Ellis, et al.",
+    "input_tokens": 5507,
+    "output_tokens": 2491,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0002-8e89e0f6bd3c",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"ELEMENTS_NOT_TIED_TO_FACTS\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"JURISDICTIONAL_TRIAGE\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"COMPARATOR_OR_PATTERN_EVIDENCE\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"Pro se plaintiff alleged neighbor harassment directed at her mother based on disability, race, and religion but failed to allege personal discrimination rising to constructive eviction, resulting in an IQBAL_TWOMBLY dismissal at screening. The grievance was not translated into a legally cognizable personal FHA claim, and she lacked standing to pursue her mother's claims without estate authorization, reflecting missing theory selection and jurisdictional triage. The harassment pattern and reports to the Department of Aging are administratively observable facts that better intake documentation could have captured.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5507,
+          "output_tokens": 2491,
+          "total_tokens": 7998
+        },
+        "provider_response_id": "gen-1776330008-DDa2t9z3Pi71DvR5moqf"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "TRANSLATION",
+      "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "JURISDICTIONAL_TRIAGE"
+      ],
+      "administratively_observable_fact_pattern": [
+        "COMPARATOR_OR_PATTERN_EVIDENCE",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "Pro se plaintiff alleged neighbor harassment directed at her mother based on disability, race, and religion but failed to allege personal discrimination rising to constructive eviction, resulting in an IQBAL_TWOMBLY dismissal at screening. The grievance was not translated into a legally cognizable personal FHA claim, and she lacked standing to pursue her mother's claims without estate authorization, reflecting missing theory selection and jurisdictional triage. The harassment pattern and reports to the Department of Aging are administratively observable facts that better intake documentation could have captured."
+    }
+  },
+  {
+    "source_file": "9531969_2021_Arthur v. Windsor Shadows Homeowner's Association_azd",
+    "custom_id": "uor-0003-a6ba6b97de8c",
+    "case_name": "Francine M. Arthur v. Windsor Shadows Homeowner's Association",
+    "input_tokens": 6023,
+    "output_tokens": 3257,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0003-a6ba6b97de8c",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"ELEMENTS_NOT_TIED_TO_FACTS\",\n  \"institutional_function_missing\": [\"THEORY_SELECTION\", \"FACT_DEVELOPMENT\", \"DOCUMENT_ASSEMBLY\"],\n  \"administratively_observable_fact_pattern\": [\"DOCUMENTED_REQUEST\", \"DENIAL_OR_NO_RESPONSE_RECORD\", \"LEASE_OR_POLICY_TEXT\", \"PHYSICAL_ACCESS_BARRIER\"],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"A pro se plaintiff with mobility-related accommodation needs (wheelchair ramp and street access) had her FHA claims survive the MTD, but the 80-page complaint was dismissed without prejudice for violating Rule 8's short-and-plain-statement requirement. The core problem is translation of legitimate grievances into a concise, legally legible pleading—too much disorganized factual detail rather than too little—indicating both Tier 1 document-assembly support and Tier 2 theory-selection intermediation could meaningfully improve outcomes.\"\n}\n```",
+        "usage": {
+          "input_tokens": 6023,
+          "output_tokens": 3257,
+          "total_tokens": 9280
+        },
+        "provider_response_id": "gen-1776330088-gfDCDsmpSvqRjZjn7Na5"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "TRANSLATION",
+      "pleading_failure_mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "DOCUMENT_ASSEMBLY"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DOCUMENTED_REQUEST",
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "LEASE_OR_POLICY_TEXT",
+        "PHYSICAL_ACCESS_BARRIER"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "A pro se plaintiff with mobility-related accommodation needs (wheelchair ramp and street access) had her FHA claims survive the MTD, but the 80-page complaint was dismissed without prejudice for violating Rule 8's short-and-plain-statement requirement. The core problem is translation of legitimate grievances into a concise, legally legible pleading—too much disorganized factual detail rather than too little—indicating both Tier 1 document-assembly support and Tier 2 theory-selection intermediation could meaningfully improve outcomes."
+    }
+  },
+  {
+    "source_file": "9565491_2021_Hamilton v. Madera County_caed",
+    "custom_id": "uor-0004-c21c817ef482",
+    "case_name": "Rick Hamilton, et al. v. County of Madera, et al.",
+    "input_tokens": 5501,
+    "output_tokens": 1359,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0004-c21c817ef482",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"POLICY_OR_PRACTICE_NOT_SPECIFIED\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"COMPARATOR_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\",\n    \"COMPARATOR_OR_PATTERN_EVIDENCE\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"Property owners challenged a county short-term vacation rental policy under disparate impact and constitutional theories but were dismissed at the MTD stage as conclusory and insufficiently pleaded. The core failure is translating a land-use grievance into a legally legible FHA disparate impact claim—plaintiffs did not identify the specific policy practice with sufficient specificity, failed to allege aggrieved-person status, and could not connect injury to a discriminatory housing practice. Both Tier 1 reporting (documenting the policy and its disparate effects) and Tier 2 intermediation (theory selection and legal framing) could address this failure pattern.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5501,
+          "output_tokens": 1359,
+          "total_tokens": 6860
+        },
+        "provider_response_id": "gen-1776330230-sQjddgPawH332P140ky6"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "TRANSLATION",
+      "pleading_failure_mechanism": "POLICY_OR_PRACTICE_NOT_SPECIFIED",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "COMPARATOR_DEVELOPMENT"
+      ],
+      "administratively_observable_fact_pattern": [
+        "PUBLIC_PROGRAM_RULE_OR_DECISION",
+        "COMPARATOR_OR_PATTERN_EVIDENCE",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "MEDIUM",
+      "public_process_failure_flag": true,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "MEDIUM",
+      "reasoning": "Property owners challenged a county short-term vacation rental policy under disparate impact and constitutional theories but were dismissed at the MTD stage as conclusory and insufficiently pleaded. The core failure is translating a land-use grievance into a legally legible FHA disparate impact claim—plaintiffs did not identify the specific policy practice with sufficient specificity, failed to allege aggrieved-person status, and could not connect injury to a discriminatory housing practice. Both Tier 1 reporting (documenting the policy and its disparate effects) and Tier 2 intermediation (theory selection and legal framing) could address this failure pattern."
+    }
+  },
+  {
+    "source_file": "9750789_2021_McCree v. KMG Prestiege Company_mied",
+    "custom_id": "uor-0005-3eb874ab26b5",
+    "case_name": "McCree v. KMG Prestiege Company",
+    "input_tokens": 5440,
+    "output_tokens": 1700,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0005-3eb874ab26b5",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"TRANSLATION\",\n  \"pleading_failure_mechanism\": \"STATUTORY_HOOK_UNCLEAR\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"INTAKE_SCREENING\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"LEASE_OR_POLICY_TEXT\",\n    \"NOTICE_OR_TIMELINE_RECORD\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"LOW\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"HIGH\",\n  \"reasoning\": \"Pro se Section 8 tenant alleged stigma discrimination, threats to evict, and refusal to renew her lease but could not identify her disability, connect any landlord action to a protected characteristic, or specify a valid FHA or ADA legal theory, resulting in dismissal with prejudice at the IFP screening stage under Iqbal/Twombly. This is a classic translation failure: a concrete housing grievance existed but was never mapped onto any cognizable statutory framework. Both Tier 1 intake/screening support and Tier 2 institutional theory selection would have materially improved claim articulation.\"\n}\n```",
+        "usage": {
+          "input_tokens": 5440,
+          "output_tokens": 1700,
+          "total_tokens": 7140
+        },
+        "provider_response_id": "gen-1776330272-UaKXNVCilEGrALUJpJdR"
+      }
+    ],
+    "classification": {
+      "pleading_failure_family": "TRANSLATION",
+      "pleading_failure_mechanism": "STATUTORY_HOOK_UNCLEAR",
+      "institutional_function_missing": [
+        "THEORY_SELECTION",
+        "FACT_DEVELOPMENT",
+        "INTAKE_SCREENING"
+      ],
+      "administratively_observable_fact_pattern": [
+        "DENIAL_OR_NO_RESPONSE_RECORD",
+        "LEASE_OR_POLICY_TEXT",
+        "NOTICE_OR_TIMELINE_RECORD"
+      ],
+      "raw_text_review_priority": "MEDIUM",
+      "doctrinal_gap_signal": "LOW",
+      "public_process_failure_flag": false,
+      "tier1_tier2_fixability": "BOTH",
+      "classification_confidence": "HIGH",
+      "reasoning": "Pro se Section 8 tenant alleged stigma discrimination, threats to evict, and refusal to renew her lease but could not identify her disability, connect any landlord action to a protected characteristic, or specify a valid FHA or ADA legal theory, resulting in dismissal with prejudice at the IFP screening stage under Iqbal/Twombly. This is a classic translation failure: a concrete housing grievance existed but was never mapped onto any cognizable statutory framework. Both Tier 1 intake/screening support and Tier 2 institutional theory selection would have materially improved claim articulation."
+    }
+  }
+]

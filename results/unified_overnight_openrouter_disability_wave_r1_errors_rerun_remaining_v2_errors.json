@@ -1,0 +1,37 @@
+[
+  {
+    "source_file": "7804109_2022_Sailboat Bend Sober Living v. City of Fort Lauderdale, FL._ca11",
+    "custom_id": "uor-0008-9f290e606636",
+    "case_name": "Sailboat Bend Sober Living, LLC v. City of Fort Lauderdale, Florida",
+    "input_tokens": 11588,
+    "output_tokens": 6400,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0008-9f290e606636",
+        "model": "moonshotai/kimi-k2.5",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5803,
+          "output_tokens": 3200,
+          "total_tokens": 9003
+        },
+        "provider_response_id": "gen-1776274733-LDkyUUD7oPjxODqnNgGo"
+      },
+      {
+        "custom_id": "uor-0008-9f290e606636",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"NO_FAILURE_DEFENDANT_WIN\",\n  \"pleading_failure_mechanism\": \"DISABILITY_NEXUS_MISSING\",\n  \"institutional_function_missing\": [\n    \"EXPERT_OR_TECHNICAL_TRANSLATION\",\n    \"FACT_DEVELOPMENT\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"PUBLIC_PROGRAM_RULE_OR_DECISION\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": true,\n  \"tier1_tier2_fixability\": \"TIER2_INSTITUTIONAL_INTERMEDIATION\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"The Eleventh Circuit affirmed summary judgment for the City on all claims, holding that plaintiffs failed to establish a causal nexus between residents' substance use",
+        "usage": {
+          "input_tokens": 5785,
+          "output_tokens": 3200,
+          "total_tokens": 8985
+        },
+        "provider_response_id": "gen-1776274976-mB9FOnlNMVulnlNIz8k7"
+      }
+    ],
+    "error": "No JSON object found; escalation:JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  }
+]

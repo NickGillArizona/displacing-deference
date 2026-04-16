@@ -1,0 +1,1337 @@
+{
+  "generated_at": "2026-04-16T07:32:22.077982+00:00",
+  "input_files": {
+    "db_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/data/FHA_Unified_Database.json",
+    "merged_path": "/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH/results/unified_overnight_openrouter_disability_wave_r1_final_resolved_merged.json"
+  },
+  "selection_method": {
+    "selection_label": "public_defendant_process_cases",
+    "selection_source": "Replicates scripts/unified_raw_text_target_inventory.py bucket logic to match the previously reported 413-case universe.",
+    "selection_rule": {
+      "screening_result": "YES",
+      "defendant_type_in": [
+        "GOVERNMENT",
+        "HOUSING_AUTHORITY",
+        "MUNICIPALITY"
+      ],
+      "process_signal_any_of": [
+        "interactive_process_discussed is truthy",
+        "primary_claim_type in ['reasonable_accommodation_denial', 'reasonable_modification_denial']",
+        "'accommodation' in brief_summary + key_holding",
+        "'request' in brief_summary + key_holding",
+        "'process' in brief_summary + key_holding"
+      ]
+    },
+    "schema_adaptation": "Classification fields were read from unified_overnight.classification inside the merged disability-wave file, because the repository does not expose them as top-level columns.",
+    "no_new_classification_performed": true
+  },
+  "universe_counts": {
+    "public_defendant_process_cases": 413,
+    "coded_public_defendant_process_cases": 278,
+    "uncoded_public_defendant_process_cases": 135,
+    "coded_share_pct": 67.3,
+    "adverse_outcome_losses_total_413": 325,
+    "adverse_outcome_losses_coded": 229,
+    "diagnosed_losses_excluding_unclear_or_survival_labels": 163,
+    "adverse_losses_unclear_or_survival_mechanism": 66
+  },
+  "defendant_type_counts": {
+    "all_public_defendant_process_cases": {
+      "HOUSING_AUTHORITY": 185,
+      "MUNICIPALITY": 184,
+      "GOVERNMENT": 44
+    },
+    "coded_public_defendant_process_cases": {
+      "HOUSING_AUTHORITY": 126,
+      "MUNICIPALITY": 118,
+      "GOVERNMENT": 34
+    },
+    "diagnosed_losses": {
+      "HOUSING_AUTHORITY": 72,
+      "MUNICIPALITY": 63,
+      "GOVERNMENT": 28
+    }
+  },
+  "housing_type_counts": {
+    "all_public_defendant_process_cases": {
+      "SECTION_8_VOUCHER": 95,
+      "PRIVATE_MARKET": 89,
+      "SUPPORTIVE_HOUSING": 80,
+      "PUBLIC_HOUSING": 74,
+      "UNDETERMINED": 44,
+      "OTHER_SUBSIDIZED": 11,
+      "SECTION_8_PBV": 11,
+      "MANUFACTURED_HOUSING": 6,
+      "HOA_CONDO": 1,
+      "LIHTC": 1,
+      "OTHER": 1
+    },
+    "coded_public_defendant_process_cases": {
+      "SUPPORTIVE_HOUSING": 64,
+      "SECTION_8_VOUCHER": 58,
+      "PUBLIC_HOUSING": 55,
+      "PRIVATE_MARKET": 51,
+      "UNDETERMINED": 31,
+      "OTHER_SUBSIDIZED": 8,
+      "SECTION_8_PBV": 8,
+      "HOA_CONDO": 1,
+      "LIHTC": 1,
+      "MANUFACTURED_HOUSING": 1
+    },
+    "diagnosed_losses": {
+      "SECTION_8_VOUCHER": 40,
+      "SUPPORTIVE_HOUSING": 33,
+      "PRIVATE_MARKET": 31,
+      "PUBLIC_HOUSING": 29,
+      "UNDETERMINED": 19,
+      "OTHER_SUBSIDIZED": 5,
+      "SECTION_8_PBV": 4,
+      "HOA_CONDO": 1,
+      "MANUFACTURED_HOUSING": 1
+    }
+  },
+  "outcome_counts": {
+    "all_public_defendant_process_cases": {
+      "DEFENDANT_WIN": 253,
+      "PROCEDURAL": 72,
+      "PLAINTIFF_WIN": 43,
+      "MIXED": 42,
+      "SETTLEMENT": 3
+    },
+    "coded_public_defendant_process_cases": {
+      "DEFENDANT_WIN": 179,
+      "PROCEDURAL": 50,
+      "PLAINTIFF_WIN": 26,
+      "MIXED": 20,
+      "SETTLEMENT": 3
+    }
+  },
+  "coded_cross_tabs": {
+    "pleading_failure_mechanism_by_housing_type": {
+      "rows": {
+        "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS": {
+          "SUPPORTIVE_HOUSING": 24,
+          "SECTION_8_VOUCHER": 11,
+          "PUBLIC_HOUSING": 14,
+          "PRIVATE_MARKET": 14,
+          "UNDETERMINED": 7,
+          "OTHER_SUBSIDIZED": 2,
+          "SECTION_8_PBV": 2
+        },
+        "UNCLEAR": {
+          "SUPPORTIVE_HOUSING": 5,
+          "SECTION_8_VOUCHER": 6,
+          "PUBLIC_HOUSING": 9,
+          "PRIVATE_MARKET": 5,
+          "UNDETERMINED": 5,
+          "SECTION_8_PBV": 2,
+          "LIHTC": 1
+        },
+        "JURISDICTION_OR_STANDING": {
+          "SUPPORTIVE_HOUSING": 5,
+          "SECTION_8_VOUCHER": 2,
+          "PUBLIC_HOUSING": 5,
+          "PRIVATE_MARKET": 7,
+          "UNDETERMINED": 7,
+          "OTHER_SUBSIDIZED": 2,
+          "SECTION_8_PBV": 1,
+          "MANUFACTURED_HOUSING": 1
+        },
+        "REQUEST_NOT_ALLEGED": {
+          "SUPPORTIVE_HOUSING": 5,
+          "SECTION_8_VOUCHER": 5,
+          "PUBLIC_HOUSING": 7,
+          "PRIVATE_MARKET": 3,
+          "UNDETERMINED": 6,
+          "SECTION_8_PBV": 1
+        },
+        "ELEMENTS_NOT_TIED_TO_FACTS": {
+          "SUPPORTIVE_HOUSING": 5,
+          "SECTION_8_VOUCHER": 9,
+          "PUBLIC_HOUSING": 7,
+          "PRIVATE_MARKET": 2,
+          "OTHER_SUBSIDIZED": 1,
+          "SECTION_8_PBV": 2
+        },
+        "MIXED": {
+          "SUPPORTIVE_HOUSING": 4,
+          "SECTION_8_VOUCHER": 5,
+          "PUBLIC_HOUSING": 4,
+          "PRIVATE_MARKET": 3,
+          "OTHER_SUBSIDIZED": 1
+        },
+        "DISABILITY_NEXUS_MISSING": {
+          "SUPPORTIVE_HOUSING": 1,
+          "SECTION_8_VOUCHER": 5,
+          "PUBLIC_HOUSING": 3,
+          "PRIVATE_MARKET": 3,
+          "OTHER_SUBSIDIZED": 1,
+          "HOA_CONDO": 1
+        },
+        "ADVERSE_ACTION_NOT_CONNECTED": {
+          "SECTION_8_VOUCHER": 6,
+          "PUBLIC_HOUSING": 3,
+          "PRIVATE_MARKET": 3
+        },
+        "EXHAUSTION_OR_PRECLUSION": {
+          "SUPPORTIVE_HOUSING": 6,
+          "SECTION_8_VOUCHER": 3,
+          "PRIVATE_MARKET": 3
+        },
+        "NO_COGNIZABLE_FHA_THEORY": {
+          "SECTION_8_VOUCHER": 3,
+          "PUBLIC_HOUSING": 2,
+          "PRIVATE_MARKET": 1,
+          "UNDETERMINED": 4,
+          "OTHER_SUBSIDIZED": 1
+        },
+        "TECHNICAL_PROOF_GAP": {
+          "SUPPORTIVE_HOUSING": 7,
+          "PRIVATE_MARKET": 3,
+          "UNDETERMINED": 1
+        },
+        "COMPARATOR_OR_INTENT_GAP": {
+          "SUPPORTIVE_HOUSING": 2,
+          "SECTION_8_VOUCHER": 1,
+          "PRIVATE_MARKET": 1
+        },
+        "LIMITATIONS_OR_TIMELINESS": {
+          "SECTION_8_VOUCHER": 1,
+          "PRIVATE_MARKET": 2
+        },
+        "STATUTORY_HOOK_UNCLEAR": {
+          "PUBLIC_HOUSING": 1,
+          "PRIVATE_MARKET": 1,
+          "UNDETERMINED": 1
+        },
+        "TIMING_OR_NOTICE_GAP": {
+          "SECTION_8_VOUCHER": 1
+        }
+      },
+      "row_totals": {
+        "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS": 74,
+        "UNCLEAR": 33,
+        "JURISDICTION_OR_STANDING": 30,
+        "REQUEST_NOT_ALLEGED": 27,
+        "ELEMENTS_NOT_TIED_TO_FACTS": 26,
+        "MIXED": 17,
+        "DISABILITY_NEXUS_MISSING": 14,
+        "ADVERSE_ACTION_NOT_CONNECTED": 12,
+        "EXHAUSTION_OR_PRECLUSION": 12,
+        "NO_COGNIZABLE_FHA_THEORY": 11,
+        "TECHNICAL_PROOF_GAP": 11,
+        "COMPARATOR_OR_INTENT_GAP": 4,
+        "LIMITATIONS_OR_TIMELINESS": 3,
+        "STATUTORY_HOOK_UNCLEAR": 3,
+        "TIMING_OR_NOTICE_GAP": 1
+      },
+      "column_totals": {
+        "SUPPORTIVE_HOUSING": 64,
+        "SECTION_8_VOUCHER": 58,
+        "PUBLIC_HOUSING": 55,
+        "PRIVATE_MARKET": 51,
+        "UNDETERMINED": 31,
+        "OTHER_SUBSIDIZED": 8,
+        "SECTION_8_PBV": 8,
+        "HOA_CONDO": 1,
+        "LIHTC": 1,
+        "MANUFACTURED_HOUSING": 1
+      }
+    },
+    "institutional_function_missing_by_housing_type": {
+      "rows": {
+        "FACT_DEVELOPMENT": {
+          "SECTION_8_VOUCHER": 45,
+          "PUBLIC_HOUSING": 32,
+          "SUPPORTIVE_HOUSING": 26,
+          "PRIVATE_MARKET": 20,
+          "UNDETERMINED": 13,
+          "OTHER_SUBSIDIZED": 4,
+          "SECTION_8_PBV": 4,
+          "HOA_CONDO": 1,
+          "LIHTC": 1
+        },
+        "THEORY_SELECTION": {
+          "SECTION_8_VOUCHER": 39,
+          "PUBLIC_HOUSING": 31,
+          "SUPPORTIVE_HOUSING": 13,
+          "PRIVATE_MARKET": 22,
+          "UNDETERMINED": 21,
+          "OTHER_SUBSIDIZED": 6,
+          "SECTION_8_PBV": 4,
+          "LIHTC": 1,
+          "MANUFACTURED_HOUSING": 1
+        },
+        "DOCUMENT_ASSEMBLY": {
+          "SECTION_8_VOUCHER": 27,
+          "PUBLIC_HOUSING": 24,
+          "SUPPORTIVE_HOUSING": 11,
+          "PRIVATE_MARKET": 10,
+          "UNDETERMINED": 11,
+          "OTHER_SUBSIDIZED": 1,
+          "SECTION_8_PBV": 1,
+          "HOA_CONDO": 1
+        },
+        "JURISDICTIONAL_TRIAGE": {
+          "SECTION_8_VOUCHER": 12,
+          "PUBLIC_HOUSING": 8,
+          "SUPPORTIVE_HOUSING": 13,
+          "PRIVATE_MARKET": 17,
+          "UNDETERMINED": 10,
+          "OTHER_SUBSIDIZED": 3,
+          "SECTION_8_PBV": 3,
+          "MANUFACTURED_HOUSING": 1
+        },
+        "ADMINISTRATIVE_RECORD_BUILDING": {
+          "SECTION_8_VOUCHER": 12,
+          "PUBLIC_HOUSING": 8,
+          "SUPPORTIVE_HOUSING": 20,
+          "PRIVATE_MARKET": 6,
+          "UNDETERMINED": 2,
+          "OTHER_SUBSIDIZED": 2,
+          "SECTION_8_PBV": 2
+        },
+        "NONE_APPARENT": {
+          "SECTION_8_VOUCHER": 3,
+          "PUBLIC_HOUSING": 8,
+          "SUPPORTIVE_HOUSING": 19,
+          "PRIVATE_MARKET": 10,
+          "UNDETERMINED": 4,
+          "OTHER_SUBSIDIZED": 1,
+          "SECTION_8_PBV": 2
+        },
+        "MEDICAL_OR_DISABILITY_CORROBORATION": {
+          "SECTION_8_VOUCHER": 9,
+          "PUBLIC_HOUSING": 11,
+          "SUPPORTIVE_HOUSING": 5,
+          "PRIVATE_MARKET": 3,
+          "UNDETERMINED": 1,
+          "OTHER_SUBSIDIZED": 1,
+          "HOA_CONDO": 1
+        },
+        "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT": {
+          "SECTION_8_VOUCHER": 8,
+          "PUBLIC_HOUSING": 6,
+          "SUPPORTIVE_HOUSING": 7,
+          "PRIVATE_MARKET": 4,
+          "UNDETERMINED": 3,
+          "OTHER_SUBSIDIZED": 1,
+          "SECTION_8_PBV": 1
+        },
+        "EXPERT_OR_TECHNICAL_TRANSLATION": {
+          "PUBLIC_HOUSING": 1,
+          "SUPPORTIVE_HOUSING": 12,
+          "PRIVATE_MARKET": 9,
+          "UNDETERMINED": 2
+        },
+        "COMPARATOR_DEVELOPMENT": {
+          "SECTION_8_VOUCHER": 2,
+          "PUBLIC_HOUSING": 2,
+          "SUPPORTIVE_HOUSING": 2,
+          "PRIVATE_MARKET": 4,
+          "SECTION_8_PBV": 1
+        },
+        "INTAKE_SCREENING": {
+          "SECTION_8_VOUCHER": 2,
+          "PUBLIC_HOUSING": 2,
+          "SUPPORTIVE_HOUSING": 1,
+          "PRIVATE_MARKET": 3,
+          "UNDETERMINED": 3
+        },
+        "UNCLEAR": {
+          "PUBLIC_HOUSING": 1,
+          "SUPPORTIVE_HOUSING": 1
+        }
+      },
+      "row_totals": {
+        "FACT_DEVELOPMENT": 146,
+        "THEORY_SELECTION": 138,
+        "DOCUMENT_ASSEMBLY": 86,
+        "JURISDICTIONAL_TRIAGE": 67,
+        "ADMINISTRATIVE_RECORD_BUILDING": 52,
+        "NONE_APPARENT": 47,
+        "MEDICAL_OR_DISABILITY_CORROBORATION": 31,
+        "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT": 30,
+        "EXPERT_OR_TECHNICAL_TRANSLATION": 24,
+        "COMPARATOR_DEVELOPMENT": 11,
+        "INTAKE_SCREENING": 11,
+        "UNCLEAR": 2
+      },
+      "column_totals": {
+        "SECTION_8_VOUCHER": 159,
+        "PUBLIC_HOUSING": 134,
+        "SUPPORTIVE_HOUSING": 130,
+        "PRIVATE_MARKET": 108,
+        "UNDETERMINED": 70,
+        "OTHER_SUBSIDIZED": 19,
+        "SECTION_8_PBV": 18,
+        "HOA_CONDO": 3,
+        "LIHTC": 2,
+        "MANUFACTURED_HOUSING": 2
+      }
+    },
+    "administratively_observable_fact_pattern_by_housing_type": {
+      "rows": {
+        "PUBLIC_PROGRAM_RULE_OR_DECISION": {
+          "SUPPORTIVE_HOUSING": 62,
+          "SECTION_8_VOUCHER": 58,
+          "PUBLIC_HOUSING": 45,
+          "PRIVATE_MARKET": 47,
+          "UNDETERMINED": 16,
+          "SECTION_8_PBV": 8,
+          "OTHER_SUBSIDIZED": 8,
+          "HOA_CONDO": 1,
+          "LIHTC": 1,
+          "MANUFACTURED_HOUSING": 1
+        },
+        "DOCUMENTED_REQUEST": {
+          "SUPPORTIVE_HOUSING": 61,
+          "SECTION_8_VOUCHER": 54,
+          "PUBLIC_HOUSING": 44,
+          "PRIVATE_MARKET": 45,
+          "UNDETERMINED": 17,
+          "SECTION_8_PBV": 8,
+          "OTHER_SUBSIDIZED": 7,
+          "HOA_CONDO": 1,
+          "LIHTC": 1,
+          "MANUFACTURED_HOUSING": 1
+        },
+        "NOTICE_OR_TIMELINE_RECORD": {
+          "SUPPORTIVE_HOUSING": 52,
+          "SECTION_8_VOUCHER": 52,
+          "PUBLIC_HOUSING": 47,
+          "PRIVATE_MARKET": 41,
+          "UNDETERMINED": 19,
+          "SECTION_8_PBV": 7,
+          "OTHER_SUBSIDIZED": 7,
+          "LIHTC": 1
+        },
+        "HEARING_OR_GRIEVANCE_RECORD": {
+          "SUPPORTIVE_HOUSING": 37,
+          "SECTION_8_VOUCHER": 16,
+          "PUBLIC_HOUSING": 20,
+          "PRIVATE_MARKET": 25,
+          "UNDETERMINED": 3,
+          "SECTION_8_PBV": 1,
+          "OTHER_SUBSIDIZED": 1,
+          "MANUFACTURED_HOUSING": 1
+        },
+        "MEDICAL_OR_PROVIDER_LETTER": {
+          "SUPPORTIVE_HOUSING": 4,
+          "SECTION_8_VOUCHER": 15,
+          "PUBLIC_HOUSING": 13,
+          "PRIVATE_MARKET": 6,
+          "UNDETERMINED": 5,
+          "SECTION_8_PBV": 1,
+          "OTHER_SUBSIDIZED": 2,
+          "HOA_CONDO": 1
+        },
+        "DENIAL_OR_NO_RESPONSE_RECORD": {
+          "SUPPORTIVE_HOUSING": 5,
+          "SECTION_8_VOUCHER": 14,
+          "PUBLIC_HOUSING": 9,
+          "PRIVATE_MARKET": 5,
+          "UNDETERMINED": 3,
+          "SECTION_8_PBV": 3,
+          "OTHER_SUBSIDIZED": 2
+        },
+        "PHYSICAL_ACCESS_BARRIER": {
+          "SUPPORTIVE_HOUSING": 1,
+          "PUBLIC_HOUSING": 4,
+          "PRIVATE_MARKET": 3,
+          "UNDETERMINED": 2,
+          "SECTION_8_PBV": 1,
+          "OTHER_SUBSIDIZED": 1
+        },
+        "LEASE_OR_POLICY_TEXT": {
+          "SUPPORTIVE_HOUSING": 5,
+          "SECTION_8_VOUCHER": 1,
+          "PUBLIC_HOUSING": 2,
+          "PRIVATE_MARKET": 1,
+          "SECTION_8_PBV": 1
+        },
+        "COMPARATOR_OR_PATTERN_EVIDENCE": {
+          "SUPPORTIVE_HOUSING": 3,
+          "PUBLIC_HOUSING": 3,
+          "PRIVATE_MARKET": 1,
+          "UNDETERMINED": 1
+        },
+        "NONE_APPARENT": {
+          "UNDETERMINED": 7
+        },
+        "INSPECTION_OR_MEASUREMENT_DATA": {
+          "PUBLIC_HOUSING": 1,
+          "UNDETERMINED": 1
+        },
+        "UNCLEAR": {
+          "PUBLIC_HOUSING": 2
+        }
+      },
+      "row_totals": {
+        "PUBLIC_PROGRAM_RULE_OR_DECISION": 247,
+        "DOCUMENTED_REQUEST": 239,
+        "NOTICE_OR_TIMELINE_RECORD": 226,
+        "HEARING_OR_GRIEVANCE_RECORD": 104,
+        "MEDICAL_OR_PROVIDER_LETTER": 47,
+        "DENIAL_OR_NO_RESPONSE_RECORD": 41,
+        "PHYSICAL_ACCESS_BARRIER": 12,
+        "LEASE_OR_POLICY_TEXT": 10,
+        "COMPARATOR_OR_PATTERN_EVIDENCE": 8,
+        "NONE_APPARENT": 7,
+        "INSPECTION_OR_MEASUREMENT_DATA": 2,
+        "UNCLEAR": 2
+      },
+      "column_totals": {
+        "SUPPORTIVE_HOUSING": 230,
+        "SECTION_8_VOUCHER": 210,
+        "PUBLIC_HOUSING": 190,
+        "PRIVATE_MARKET": 174,
+        "UNDETERMINED": 74,
+        "SECTION_8_PBV": 30,
+        "OTHER_SUBSIDIZED": 28,
+        "HOA_CONDO": 3,
+        "LIHTC": 3,
+        "MANUFACTURED_HOUSING": 3
+      }
+    }
+  },
+  "loss_analysis": {
+    "loss_definition": {
+      "adverse_outcome_losses": "outcome in {'DEFENDANT_WIN', 'PROCEDURAL'}",
+      "diagnosed_losses": "adverse outcome losses excluding pleading_failure_mechanism in {'UNCLEAR', 'CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS'}"
+    },
+    "adverse_outcome_losses_coded": {
+      "total_cases": 229,
+      "component_pattern_map": {
+        "accommodation_request_logs": [
+          "DENIAL_OR_NO_RESPONSE_RECORD",
+          "DOCUMENTED_REQUEST",
+          "HEARING_OR_GRIEVANCE_RECORD",
+          "NOTICE_OR_TIMELINE_RECORD",
+          "PUBLIC_PROGRAM_RULE_OR_DECISION"
+        ],
+        "accessible_unit_inventories": [
+          "PHYSICAL_ACCESS_BARRIER"
+        ],
+        "inspection_flags": [
+          "INSPECTION_OR_MEASUREMENT_DATA",
+          "PHYSICAL_ACCESS_BARRIER"
+        ],
+        "any_direct_reporting_architecture_pattern": [
+          "DENIAL_OR_NO_RESPONSE_RECORD",
+          "DOCUMENTED_REQUEST",
+          "HEARING_OR_GRIEVANCE_RECORD",
+          "INSPECTION_OR_MEASUREMENT_DATA",
+          "NOTICE_OR_TIMELINE_RECORD",
+          "PHYSICAL_ACCESS_BARRIER",
+          "PUBLIC_PROGRAM_RULE_OR_DECISION"
+        ]
+      },
+      "component_case_counts": {
+        "accommodation_request_logs": 220,
+        "accessible_unit_inventories": 10,
+        "inspection_flags": 12,
+        "any_direct_reporting_architecture_pattern": 220
+      },
+      "component_case_shares_pct": {
+        "accommodation_request_logs": 96.1,
+        "accessible_unit_inventories": 4.4,
+        "inspection_flags": 5.2,
+        "any_direct_reporting_architecture_pattern": 96.1
+      },
+      "fixability": {
+        "BOTH": {
+          "count": 141,
+          "pct": 61.6
+        },
+        "TIER2_INSTITUTIONAL_INTERMEDIATION": {
+          "count": 77,
+          "pct": 33.6
+        },
+        "NEITHER": {
+          "count": 10,
+          "pct": 4.4
+        },
+        "UNCLEAR": {
+          "count": 1,
+          "pct": 0.4
+        }
+      },
+      "pleading_failure_family": {
+        "TRANSLATION": {
+          "count": 52,
+          "pct": 22.7
+        },
+        "PROCEDURAL_GATEWAY": {
+          "count": 48,
+          "pct": 21.0
+        },
+        "NO_FAILURE_DEFENDANT_WIN": {
+          "count": 32,
+          "pct": 14.0
+        },
+        "NO_FAILURE_PLAINTIFF_WIN": {
+          "count": 23,
+          "pct": 10.0
+        },
+        "ELEMENT_MISMATCH": {
+          "count": 22,
+          "pct": 9.6
+        },
+        "CAUSAL_LINK": {
+          "count": 20,
+          "pct": 8.7
+        },
+        "MERITS_EVIDENCE": {
+          "count": 14,
+          "pct": 6.1
+        },
+        "UNCLEAR": {
+          "count": 10,
+          "pct": 4.4
+        },
+        "MIXED": {
+          "count": 8,
+          "pct": 3.5
+        }
+      },
+      "pleading_failure_mechanism": {
+        "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS": {
+          "count": 33,
+          "pct": 14.4
+        },
+        "UNCLEAR": {
+          "count": 33,
+          "pct": 14.4
+        },
+        "JURISDICTION_OR_STANDING": {
+          "count": 30,
+          "pct": 13.1
+        },
+        "REQUEST_NOT_ALLEGED": {
+          "count": 27,
+          "pct": 11.8
+        },
+        "ELEMENTS_NOT_TIED_TO_FACTS": {
+          "count": 26,
+          "pct": 11.4
+        },
+        "DISABILITY_NEXUS_MISSING": {
+          "count": 14,
+          "pct": 6.1
+        },
+        "EXHAUSTION_OR_PRECLUSION": {
+          "count": 12,
+          "pct": 5.2
+        },
+        "ADVERSE_ACTION_NOT_CONNECTED": {
+          "count": 11,
+          "pct": 4.8
+        },
+        "MIXED": {
+          "count": 11,
+          "pct": 4.8
+        },
+        "NO_COGNIZABLE_FHA_THEORY": {
+          "count": 11,
+          "pct": 4.8
+        },
+        "TECHNICAL_PROOF_GAP": {
+          "count": 11,
+          "pct": 4.8
+        },
+        "COMPARATOR_OR_INTENT_GAP": {
+          "count": 3,
+          "pct": 1.3
+        },
+        "LIMITATIONS_OR_TIMELINESS": {
+          "count": 3,
+          "pct": 1.3
+        },
+        "STATUTORY_HOOK_UNCLEAR": {
+          "count": 3,
+          "pct": 1.3
+        },
+        "TIMING_OR_NOTICE_GAP": {
+          "count": 1,
+          "pct": 0.4
+        }
+      },
+      "institutional_function_missing": {
+        "FACT_DEVELOPMENT": {
+          "count": 133,
+          "pct": 58.1
+        },
+        "THEORY_SELECTION": {
+          "count": 129,
+          "pct": 56.3
+        },
+        "DOCUMENT_ASSEMBLY": {
+          "count": 84,
+          "pct": 36.7
+        },
+        "JURISDICTIONAL_TRIAGE": {
+          "count": 66,
+          "pct": 28.8
+        },
+        "ADMINISTRATIVE_RECORD_BUILDING": {
+          "count": 45,
+          "pct": 19.7
+        },
+        "MEDICAL_OR_DISABILITY_CORROBORATION": {
+          "count": 27,
+          "pct": 11.8
+        },
+        "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT": {
+          "count": 27,
+          "pct": 11.8
+        },
+        "EXPERT_OR_TECHNICAL_TRANSLATION": {
+          "count": 22,
+          "pct": 9.6
+        },
+        "NONE_APPARENT": {
+          "count": 15,
+          "pct": 6.6
+        },
+        "INTAKE_SCREENING": {
+          "count": 11,
+          "pct": 4.8
+        },
+        "COMPARATOR_DEVELOPMENT": {
+          "count": 8,
+          "pct": 3.5
+        },
+        "UNCLEAR": {
+          "count": 2,
+          "pct": 0.9
+        }
+      },
+      "administratively_observable_fact_pattern": {
+        "PUBLIC_PROGRAM_RULE_OR_DECISION": {
+          "count": 200,
+          "pct": 87.3
+        },
+        "DOCUMENTED_REQUEST": {
+          "count": 191,
+          "pct": 83.4
+        },
+        "NOTICE_OR_TIMELINE_RECORD": {
+          "count": 186,
+          "pct": 81.2
+        },
+        "HEARING_OR_GRIEVANCE_RECORD": {
+          "count": 81,
+          "pct": 35.4
+        },
+        "MEDICAL_OR_PROVIDER_LETTER": {
+          "count": 41,
+          "pct": 17.9
+        },
+        "DENIAL_OR_NO_RESPONSE_RECORD": {
+          "count": 34,
+          "pct": 14.8
+        },
+        "PHYSICAL_ACCESS_BARRIER": {
+          "count": 10,
+          "pct": 4.4
+        },
+        "LEASE_OR_POLICY_TEXT": {
+          "count": 8,
+          "pct": 3.5
+        },
+        "NONE_APPARENT": {
+          "count": 7,
+          "pct": 3.1
+        },
+        "COMPARATOR_OR_PATTERN_EVIDENCE": {
+          "count": 3,
+          "pct": 1.3
+        },
+        "INSPECTION_OR_MEASUREMENT_DATA": {
+          "count": 2,
+          "pct": 0.9
+        },
+        "UNCLEAR": {
+          "count": 2,
+          "pct": 0.9
+        }
+      },
+      "direct_pattern_case_counts": {
+        "PUBLIC_PROGRAM_RULE_OR_DECISION": 200,
+        "DOCUMENTED_REQUEST": 191,
+        "NOTICE_OR_TIMELINE_RECORD": 186,
+        "HEARING_OR_GRIEVANCE_RECORD": 81,
+        "DENIAL_OR_NO_RESPONSE_RECORD": 34,
+        "PHYSICAL_ACCESS_BARRIER": 10,
+        "INSPECTION_OR_MEASUREMENT_DATA": 2
+      },
+      "cases_without_direct_reporting_pattern_count": 9,
+      "cases_without_direct_reporting_pattern_preview": [
+        {
+          "case_name": "Kelly MacNeal v. The State of New York, et al.",
+          "source_file": "10195301_2024_MacNeal v. The State of New York_nysd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "JURISDICTION_OR_STANDING",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Johnny Lee Richmond v. Assessors Office, et al.",
+          "source_file": "10700725_2025_Richmond v. Assessors Office_wied",
+          "outcome": "DEFENDANT_WIN",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "NO_COGNIZABLE_FHA_THEORY",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Estela Elizabeth Jeffcoat v. Brookings Housing & Redevelopment Commission",
+          "source_file": "10714396_2025_Estela Elizabeth Jeffcoat v. Brookings Housing _ Redevelopment Commission_sdd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "PUBLIC_HOUSING",
+          "mechanism": "CLAIM_SURVIVES_OR_PLAINTIFF_PREVAILS",
+          "fact_patterns": [
+            "UNCLEAR"
+          ]
+        },
+        {
+          "case_name": "Jermaine M. Capel v. Norfolk Redevelopment & Housing Authority",
+          "source_file": "10803192_2026_Jermaine Capel v. Norfolk Redevelopment _ Housing Authority_ca4",
+          "outcome": "DEFENDANT_WIN",
+          "housing_type": "PUBLIC_HOUSING",
+          "mechanism": "NO_COGNIZABLE_FHA_THEORY",
+          "fact_patterns": [
+            "UNCLEAR"
+          ]
+        },
+        {
+          "case_name": "Kimberley Steele v. Simone Neal, Armid Erneja, Hija Johnson, Director of Division of Family Development, Department of Human Services Division of Social Services Union County",
+          "source_file": "9811067_2023_STEELE v. NEAL_njd",
+          "outcome": "DEFENDANT_WIN",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Keisha A. Jones v. City of New York",
+          "source_file": "9879567_2022_Jones v. City of New York_nysd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Keisha A. Jones v. City of New York, et al.",
+          "source_file": "9880628_2022_Jones v. City of New York_nysd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Franklin Mendez v. Commissioner Molly Waslow Park",
+          "source_file": "9893305_2024_Mendez v. Commissioner Molly Waslow Park_nysd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "JURISDICTION_OR_STANDING",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Tasha Chapman v. Franklin County Sheriff",
+          "source_file": "9913834_2022_Chapman v. Franklin County Sheriff_ohsd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "UNCLEAR",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        }
+      ]
+    },
+    "diagnosed_losses_excluding_unclear_or_survival_labels": {
+      "total_cases": 163,
+      "component_pattern_map": {
+        "accommodation_request_logs": [
+          "DENIAL_OR_NO_RESPONSE_RECORD",
+          "DOCUMENTED_REQUEST",
+          "HEARING_OR_GRIEVANCE_RECORD",
+          "NOTICE_OR_TIMELINE_RECORD",
+          "PUBLIC_PROGRAM_RULE_OR_DECISION"
+        ],
+        "accessible_unit_inventories": [
+          "PHYSICAL_ACCESS_BARRIER"
+        ],
+        "inspection_flags": [
+          "INSPECTION_OR_MEASUREMENT_DATA",
+          "PHYSICAL_ACCESS_BARRIER"
+        ],
+        "any_direct_reporting_architecture_pattern": [
+          "DENIAL_OR_NO_RESPONSE_RECORD",
+          "DOCUMENTED_REQUEST",
+          "HEARING_OR_GRIEVANCE_RECORD",
+          "INSPECTION_OR_MEASUREMENT_DATA",
+          "NOTICE_OR_TIMELINE_RECORD",
+          "PHYSICAL_ACCESS_BARRIER",
+          "PUBLIC_PROGRAM_RULE_OR_DECISION"
+        ]
+      },
+      "component_case_counts": {
+        "accommodation_request_logs": 156,
+        "accessible_unit_inventories": 9,
+        "inspection_flags": 11,
+        "any_direct_reporting_architecture_pattern": 156
+      },
+      "component_case_shares_pct": {
+        "accommodation_request_logs": 95.7,
+        "accessible_unit_inventories": 5.5,
+        "inspection_flags": 6.7,
+        "any_direct_reporting_architecture_pattern": 95.7
+      },
+      "fixability": {
+        "BOTH": {
+          "count": 110,
+          "pct": 67.5
+        },
+        "TIER2_INSTITUTIONAL_INTERMEDIATION": {
+          "count": 51,
+          "pct": 31.3
+        },
+        "NEITHER": {
+          "count": 2,
+          "pct": 1.2
+        }
+      },
+      "pleading_failure_family": {
+        "TRANSLATION": {
+          "count": 52,
+          "pct": 31.9
+        },
+        "PROCEDURAL_GATEWAY": {
+          "count": 46,
+          "pct": 28.2
+        },
+        "ELEMENT_MISMATCH": {
+          "count": 22,
+          "pct": 13.5
+        },
+        "CAUSAL_LINK": {
+          "count": 20,
+          "pct": 12.3
+        },
+        "MERITS_EVIDENCE": {
+          "count": 14,
+          "pct": 8.6
+        },
+        "MIXED": {
+          "count": 8,
+          "pct": 4.9
+        },
+        "NO_FAILURE_DEFENDANT_WIN": {
+          "count": 1,
+          "pct": 0.6
+        }
+      },
+      "pleading_failure_mechanism": {
+        "JURISDICTION_OR_STANDING": {
+          "count": 30,
+          "pct": 18.4
+        },
+        "REQUEST_NOT_ALLEGED": {
+          "count": 27,
+          "pct": 16.6
+        },
+        "ELEMENTS_NOT_TIED_TO_FACTS": {
+          "count": 26,
+          "pct": 16.0
+        },
+        "DISABILITY_NEXUS_MISSING": {
+          "count": 14,
+          "pct": 8.6
+        },
+        "EXHAUSTION_OR_PRECLUSION": {
+          "count": 12,
+          "pct": 7.4
+        },
+        "ADVERSE_ACTION_NOT_CONNECTED": {
+          "count": 11,
+          "pct": 6.7
+        },
+        "MIXED": {
+          "count": 11,
+          "pct": 6.7
+        },
+        "NO_COGNIZABLE_FHA_THEORY": {
+          "count": 11,
+          "pct": 6.7
+        },
+        "TECHNICAL_PROOF_GAP": {
+          "count": 11,
+          "pct": 6.7
+        },
+        "COMPARATOR_OR_INTENT_GAP": {
+          "count": 3,
+          "pct": 1.8
+        },
+        "LIMITATIONS_OR_TIMELINESS": {
+          "count": 3,
+          "pct": 1.8
+        },
+        "STATUTORY_HOOK_UNCLEAR": {
+          "count": 3,
+          "pct": 1.8
+        },
+        "TIMING_OR_NOTICE_GAP": {
+          "count": 1,
+          "pct": 0.6
+        }
+      },
+      "institutional_function_missing": {
+        "THEORY_SELECTION": {
+          "count": 113,
+          "pct": 69.3
+        },
+        "FACT_DEVELOPMENT": {
+          "count": 110,
+          "pct": 67.5
+        },
+        "DOCUMENT_ASSEMBLY": {
+          "count": 70,
+          "pct": 42.9
+        },
+        "JURISDICTIONAL_TRIAGE": {
+          "count": 57,
+          "pct": 35.0
+        },
+        "ADMINISTRATIVE_RECORD_BUILDING": {
+          "count": 21,
+          "pct": 12.9
+        },
+        "MEDICAL_OR_DISABILITY_CORROBORATION": {
+          "count": 19,
+          "pct": 11.7
+        },
+        "EXPERT_OR_TECHNICAL_TRANSLATION": {
+          "count": 14,
+          "pct": 8.6
+        },
+        "INTAKE_SCREENING": {
+          "count": 9,
+          "pct": 5.5
+        },
+        "NEGOTIATION_OR_INTERACTIVE_PROCESS_SUPPORT": {
+          "count": 9,
+          "pct": 5.5
+        },
+        "COMPARATOR_DEVELOPMENT": {
+          "count": 5,
+          "pct": 3.1
+        },
+        "NONE_APPARENT": {
+          "count": 1,
+          "pct": 0.6
+        }
+      },
+      "administratively_observable_fact_pattern": {
+        "PUBLIC_PROGRAM_RULE_OR_DECISION": {
+          "count": 140,
+          "pct": 85.9
+        },
+        "DOCUMENTED_REQUEST": {
+          "count": 135,
+          "pct": 82.8
+        },
+        "NOTICE_OR_TIMELINE_RECORD": {
+          "count": 129,
+          "pct": 79.1
+        },
+        "HEARING_OR_GRIEVANCE_RECORD": {
+          "count": 53,
+          "pct": 32.5
+        },
+        "MEDICAL_OR_PROVIDER_LETTER": {
+          "count": 31,
+          "pct": 19.0
+        },
+        "DENIAL_OR_NO_RESPONSE_RECORD": {
+          "count": 29,
+          "pct": 17.8
+        },
+        "PHYSICAL_ACCESS_BARRIER": {
+          "count": 9,
+          "pct": 5.5
+        },
+        "LEASE_OR_POLICY_TEXT": {
+          "count": 6,
+          "pct": 3.7
+        },
+        "NONE_APPARENT": {
+          "count": 6,
+          "pct": 3.7
+        },
+        "INSPECTION_OR_MEASUREMENT_DATA": {
+          "count": 2,
+          "pct": 1.2
+        },
+        "COMPARATOR_OR_PATTERN_EVIDENCE": {
+          "count": 1,
+          "pct": 0.6
+        },
+        "UNCLEAR": {
+          "count": 1,
+          "pct": 0.6
+        }
+      },
+      "direct_pattern_case_counts": {
+        "PUBLIC_PROGRAM_RULE_OR_DECISION": 140,
+        "DOCUMENTED_REQUEST": 135,
+        "NOTICE_OR_TIMELINE_RECORD": 129,
+        "HEARING_OR_GRIEVANCE_RECORD": 53,
+        "DENIAL_OR_NO_RESPONSE_RECORD": 29,
+        "PHYSICAL_ACCESS_BARRIER": 9,
+        "INSPECTION_OR_MEASUREMENT_DATA": 2
+      },
+      "cases_without_direct_reporting_pattern_count": 7,
+      "cases_without_direct_reporting_pattern_preview": [
+        {
+          "case_name": "Kelly MacNeal v. The State of New York, et al.",
+          "source_file": "10195301_2024_MacNeal v. The State of New York_nysd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "JURISDICTION_OR_STANDING",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Johnny Lee Richmond v. Assessors Office, et al.",
+          "source_file": "10700725_2025_Richmond v. Assessors Office_wied",
+          "outcome": "DEFENDANT_WIN",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "NO_COGNIZABLE_FHA_THEORY",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Jermaine M. Capel v. Norfolk Redevelopment & Housing Authority",
+          "source_file": "10803192_2026_Jermaine Capel v. Norfolk Redevelopment _ Housing Authority_ca4",
+          "outcome": "DEFENDANT_WIN",
+          "housing_type": "PUBLIC_HOUSING",
+          "mechanism": "NO_COGNIZABLE_FHA_THEORY",
+          "fact_patterns": [
+            "UNCLEAR"
+          ]
+        },
+        {
+          "case_name": "Kimberley Steele v. Simone Neal, Armid Erneja, Hija Johnson, Director of Division of Family Development, Department of Human Services Division of Social Services Union County",
+          "source_file": "9811067_2023_STEELE v. NEAL_njd",
+          "outcome": "DEFENDANT_WIN",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Keisha A. Jones v. City of New York",
+          "source_file": "9879567_2022_Jones v. City of New York_nysd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Keisha A. Jones v. City of New York, et al.",
+          "source_file": "9880628_2022_Jones v. City of New York_nysd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        },
+        {
+          "case_name": "Franklin Mendez v. Commissioner Molly Waslow Park",
+          "source_file": "9893305_2024_Mendez v. Commissioner Molly Waslow Park_nysd",
+          "outcome": "PROCEDURAL",
+          "housing_type": "UNDETERMINED",
+          "mechanism": "JURISDICTION_OR_STANDING",
+          "fact_patterns": [
+            "NONE_APPARENT"
+          ]
+        }
+      ]
+    }
+  },
+  "housing_type_highlights_diagnosed_losses": {
+    "SECTION_8_VOUCHER": {
+      "case_count": 40,
+      "top_mechanisms": [
+        {
+          "mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+          "count": 9,
+          "pct": 22.5
+        },
+        {
+          "mechanism": "ADVERSE_ACTION_NOT_CONNECTED",
+          "count": 5,
+          "pct": 12.5
+        },
+        {
+          "mechanism": "DISABILITY_NEXUS_MISSING",
+          "count": 5,
+          "pct": 12.5
+        },
+        {
+          "mechanism": "MIXED",
+          "count": 5,
+          "pct": 12.5
+        },
+        {
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "count": 5,
+          "pct": 12.5
+        }
+      ]
+    },
+    "SUPPORTIVE_HOUSING": {
+      "case_count": 33,
+      "top_mechanisms": [
+        {
+          "mechanism": "TECHNICAL_PROOF_GAP",
+          "count": 7,
+          "pct": 21.2
+        },
+        {
+          "mechanism": "EXHAUSTION_OR_PRECLUSION",
+          "count": 6,
+          "pct": 18.2
+        },
+        {
+          "mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+          "count": 5,
+          "pct": 15.2
+        },
+        {
+          "mechanism": "JURISDICTION_OR_STANDING",
+          "count": 5,
+          "pct": 15.2
+        },
+        {
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "count": 5,
+          "pct": 15.2
+        }
+      ]
+    },
+    "PRIVATE_MARKET": {
+      "case_count": 31,
+      "top_mechanisms": [
+        {
+          "mechanism": "JURISDICTION_OR_STANDING",
+          "count": 7,
+          "pct": 22.6
+        },
+        {
+          "mechanism": "ADVERSE_ACTION_NOT_CONNECTED",
+          "count": 3,
+          "pct": 9.7
+        },
+        {
+          "mechanism": "DISABILITY_NEXUS_MISSING",
+          "count": 3,
+          "pct": 9.7
+        },
+        {
+          "mechanism": "EXHAUSTION_OR_PRECLUSION",
+          "count": 3,
+          "pct": 9.7
+        },
+        {
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "count": 3,
+          "pct": 9.7
+        }
+      ]
+    },
+    "PUBLIC_HOUSING": {
+      "case_count": 29,
+      "top_mechanisms": [
+        {
+          "mechanism": "ELEMENTS_NOT_TIED_TO_FACTS",
+          "count": 7,
+          "pct": 24.1
+        },
+        {
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "count": 7,
+          "pct": 24.1
+        },
+        {
+          "mechanism": "JURISDICTION_OR_STANDING",
+          "count": 5,
+          "pct": 17.2
+        },
+        {
+          "mechanism": "ADVERSE_ACTION_NOT_CONNECTED",
+          "count": 3,
+          "pct": 10.3
+        },
+        {
+          "mechanism": "DISABILITY_NEXUS_MISSING",
+          "count": 3,
+          "pct": 10.3
+        }
+      ]
+    },
+    "UNDETERMINED": {
+      "case_count": 19,
+      "top_mechanisms": [
+        {
+          "mechanism": "JURISDICTION_OR_STANDING",
+          "count": 7,
+          "pct": 36.8
+        },
+        {
+          "mechanism": "REQUEST_NOT_ALLEGED",
+          "count": 6,
+          "pct": 31.6
+        },
+        {
+          "mechanism": "NO_COGNIZABLE_FHA_THEORY",
+          "count": 4,
+          "pct": 21.1
+        },
+        {
+          "mechanism": "STATUTORY_HOOK_UNCLEAR",
+          "count": 1,
+          "pct": 5.3
+        },
+        {
+          "mechanism": "TECHNICAL_PROOF_GAP",
+          "count": 1,
+          "pct": 5.3
+        }
+      ]
+    }
+  },
+  "notes": [
+    "The requested 413-case public-defendant universe is a process-filtered subset, not the much broader set of all public or subsidized housing cases.",
+    "Because only 278 of the 413 cases appear in the disability-wave matched tranche, cross-tabs necessarily rest on the coded subset rather than the full 413-case universe.",
+    "I did not infer new classifications for uncoded cases; the results preserve the repository's existing classification boundary."
+  ]
+}

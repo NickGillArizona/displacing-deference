@@ -1,0 +1,134 @@
+[
+  {
+    "source_file": "10221825_2021_Fedynich v. Lozano_vaed",
+    "custom_id": "uor-0006-26cbc4388188",
+    "case_name": "Nicole Fedynich, et al. v. Juana Lozano, Assistant Manager, Valor Apartments, et al.",
+    "input_tokens": 6118,
+    "output_tokens": 3200,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0006-26cbc4388188",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "```json\n{\n  \"pleading_failure_family\": \"CAUSAL_LINK\",\n  \"pleading_failure_mechanism\": \"DISABILITY_NEXUS_MISSING\",\n  \"institutional_function_missing\": [\n    \"THEORY_SELECTION\",\n    \"FACT_DEVELOPMENT\",\n    \"MEDICAL_OR_DISABILITY_CORROBORATION\"\n  ],\n  \"administratively_observable_fact_pattern\": [\n    \"DOCUMENTED_REQUEST\",\n    \"DENIAL_OR_NO_RESPONSE_RECORD\",\n    \"MEDICAL_OR_PROVIDER_LETTER\",\n    \"LEASE_OR_POLICY_TEXT\"\n  ],\n  \"raw_text_review_priority\": \"MEDIUM\",\n  \"doctrinal_gap_signal\": \"MEDIUM\",\n  \"public_process_failure_flag\": false,\n  \"tier1_tier2_fixability\": \"BOTH\",\n  \"classification_confidence\": \"MEDIUM\",\n  \"reasoning\": \"Pro se tenants alleged severe asthma as a disability requiring accommodation (air purifiers, smoke-free environment) but the court dismissed the primary RA claims under Iqbal/T",
+        "usage": {
+          "input_tokens": 6118,
+          "output_tokens": 3200,
+          "total_tokens": 9318
+        },
+        "provider_response_id": "gen-1776327400-8sOHoLz1B9mk1AmKBL7G"
+      }
+    ],
+    "error": "JSON object appears truncated",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10249834_2021_Huzjak v. Ellis_wied",
+    "custom_id": "uor-0008-8e89e0f6bd3c",
+    "case_name": "Debra Lee Huzjak v. Kim Ellis, et al.",
+    "input_tokens": 5507,
+    "output_tokens": 3200,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0008-8e89e0f6bd3c",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5507,
+          "output_tokens": 3200,
+          "total_tokens": 8707
+        },
+        "provider_response_id": "gen-1776327455-q4xRt7SKT4WFYrBBnohG"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "10221400_2020_Banks v. Gates Hudson _ Associates, Inc._vaed",
+    "custom_id": "uor-0004-13a1ea0e7559",
+    "case_name": "Banks v. Gates Hudson & Associates, Inc.",
+    "input_tokens": 5673,
+    "output_tokens": 3200,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0004-13a1ea0e7559",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5673,
+          "output_tokens": 3200,
+          "total_tokens": 8873
+        },
+        "provider_response_id": "gen-1776327388-kmwnqR9SQDakMN1VVECU"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9531969_2021_Arthur v. Windsor Shadows Homeowner's Association_azd",
+    "custom_id": "uor-0031-a6ba6b97de8c",
+    "case_name": "Francine M. Arthur v. Windsor Shadows Homeowner's Association",
+    "input_tokens": 6023,
+    "output_tokens": 3200,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0031-a6ba6b97de8c",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 6023,
+          "output_tokens": 3200,
+          "total_tokens": 9223
+        },
+        "provider_response_id": "gen-1776327765-lSTbJbao6cVCII7xOldT"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9565491_2021_Hamilton v. Madera County_caed",
+    "custom_id": "uor-0037-c21c817ef482",
+    "case_name": "Rick Hamilton, et al. v. County of Madera, et al.",
+    "input_tokens": 5501,
+    "output_tokens": 3200,
+    "provider_trace": [
+      {
+        "custom_id": "uor-0037-c21c817ef482",
+        "model": "z-ai/glm-5.1",
+        "raw_text": "",
+        "usage": {
+          "input_tokens": 5501,
+          "output_tokens": 3200,
+          "total_tokens": 8701
+        },
+        "provider_response_id": "gen-1776327854-FMdMsCmGHVfQUWjpbdtf"
+      }
+    ],
+    "error": "No JSON object found",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  },
+  {
+    "source_file": "9750789_2021_McCree v. KMG Prestiege Company_mied",
+    "custom_id": "uor-0066-3eb874ab26b5",
+    "case_name": "McCree v. KMG Prestiege Company",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "provider_trace": [],
+    "error": "peer closed connection without sending complete message body (incomplete chunked read)",
+    "issues": [
+      "no_parsed_payload"
+    ]
+  }
+]
