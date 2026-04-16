@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this dataset or replication package, please cite as below."
-title: "FHA Unified Database: Replication Package for Displacing Deference"
+title: "FHA Unified Database: Replication Package"
 authors:
   - family-names: Gill
     given-names: Nicholas
@@ -8,25 +8,25 @@ authors:
     affiliation: "J.D. Candidate, 2027, University of Arizona James E. Rogers College of Law"
 type: dataset
 date-released: 2026-04-01
-url: "https://github.com/NickGillArizona/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH"
-repository-code: "https://github.com/NickGillArizona/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH"
+url: "https://github.com/NickGillArizona/displacing-deference"
+repository-code: "https://github.com/NickGillArizona/displacing-deference"
 abstract: >-
-  Replication package for a Note arguing that AFFH's present problem is a
-  durability failure, that disability exposes it most clearly, and that
-  the reinforcement/replication distinction supplies a limiting principle.
-  Contains the FHA Unified Database (2,522 screened-in federal FHA cases;
-  1,770 disability), race-by-disability housing cost-burden
-  cross-tabulations, HUD administrative-system analyses (CDBG, REAC/NSPIRE,
-  POSH), classification pipeline documentation, and supplementary appendices.
+  Replication package containing the FHA Unified Database (2,522 screened-in
+  federal FHA opinions; 1,770 disability), LLM classification pipeline
+  documentation, race-by-disability housing cost-burden cross-tabulations
+  from ACS PUMS, HUD administrative-system analyses (CDBG, REAC/NSPIRE,
+  POSH), and supplementary appendices. Supports two publications: an
+  empirical article on composition effects in disability fair housing
+  litigation and a companion doctrinal note on disability-centered AFFH.
 keywords:
   - fair housing act
   - disability
   - AFFH
-  - administrative law
-  - HUD
   - empirical legal studies
   - LLM classification
+  - composition effect
   - housing cost burden
   - replication package
   - census pums
+  - computational legal studies
 license: MIT AND CC-BY-4.0

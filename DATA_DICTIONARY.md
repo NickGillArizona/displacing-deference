@@ -70,6 +70,16 @@ The unified database merges records from three source corpora:
 | 2015 FHA Database | `FHA_3604_Database_unified_*.json` | § 3604(f) cases from 2015 FHA Database | 665 |
 | **Unified** | `FHA_Unified_Database.json` | **Deduplicated merge (all protected classes)** | **2,522** |
 
+## Within-Group Analysis: Strong-Case Represented Subset
+
+The within-group analysis reported in the Note uses a "strong-case represented subset" to test whether represented plaintiffs experienced any deterioration beyond the composition effect. This subset is defined as:
+
+1. **Represented**: `pro_se` = false (plaintiff has counsel)
+2. **Specific-duty claim**: `primary_claim_type` in {`reasonable_accommodation`, `design_and_construction`} (excludes open-textured discrimination claims)
+3. **Dated**: case has an exact decision date within the P1 or P3 period windows
+
+This subset isolates the cases most likely to reflect genuine judicial treatment effects, filtering out the pro se filing surge and vague claims that drive the aggregate decline. In this subset, broad win rates fell from 69.0% (P1) to 52.3% (P3), indicating a residual within-group deterioration consistent with a tightening pleading gate even for represented plaintiffs. The database does not contain a dedicated `strong_case_subset` flag; the subset is constructed analytically by applying the three filters above.
+
 ## Notes
 
 - Enum values are lowercase with underscores. Array fields may contain multiple values.

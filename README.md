@@ -1,154 +1,79 @@
-# Displacing Deference: Reinforcement, Replication, and Disability-Centered AFFH
+# The FHA Unified Database
+
+### 2,522 federal fair housing opinions. Classified by AI. Built for $135.
 
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE) [![License: CC BY 4.0](https://img.shields.io/badge/Data-CC_BY_4.0-lightgrey.svg)](LICENSE-DATA)
 
-**Nicholas Gill** | J.D. Candidate, 2027 | University of Arizona James E. Rogers College of Law | nickgill@arizona.edu
-
-## What This Project Is About
-
-The Fair Housing Act (FHA) requires federal agencies to "affirmatively further fair housing" (AFFH) — meaning they must do more than just avoid discrimination; they must actively promote equal housing opportunity. But the law never defined what that means in practice. The Department of Housing and Urban Development (HUD) has tried four different regulatory frameworks since 2015, each reversing the last. None has survived a change in administration.
-
-This project asks: what can be built that will last? The answer is a narrower model focused on disability — the protected class generating 55% of all fair housing complaints — where Congress already enacted specific duties (accessible design, reasonable accommodations, reasonable modifications) that HUD can verify through reporting and inspection, without needing the kind of broad, politically vulnerable planning regime that keeps getting dismantled.
-
-The repository contains the data, code, and methodology behind that argument: a classified database of 1,770 federal disability housing cases, analyses of HUD's own administrative systems, and Census-derived housing cost-burden estimates.
+**Nicholas Gill** | J.D. Candidate 2027 | University of Arizona James E. Rogers College of Law
 
 ---
 
-## Abstract
+## The short version
 
-This replication package supports a law review Note arguing that AFFH's present problem is a durability failure and that disability exposes it most clearly. Four incompatible AFFH frameworks from 2015 to 2025 demonstrate that affirmative content built chiefly on the statute's undefined language (42 U.S.C. § 3608(d)) has not survived political turnover. HUD's 2015 Rule operationalized race-centered integration planning while leaving disability structurally underbuilt — and no published federal AFFH decision applies the affirmative integration obligation to disability.
+Disability generates **55% of all fair housing complaints** in the United States. After *Loper Bright* and HUD's 2025 enforcement withdrawal, aggregate plaintiff win rates dropped from 18% to 11%. The natural conclusion is that courts turned against disability plaintiffs.
 
-The empirical foundation is the **FHA Unified Database**: 2,522 federal FHA cases across all protected classes (1,770 disability), constructed through a multi-model LLM consensus pipeline. The central empirical finding is a **composition effect**: plaintiffs with lawyers recovered to roughly their pre-*Loper Bright* success rates (Level C), but the share of self-represented (pro se) plaintiffs surged to 76.7% as the fair housing organizations that screen and develop cases contracted, concentrating the aggregate decline at the pleading stage. The post-2024 downturn is better understood as an enforcement-pipeline failure — disability complaints reached approximately 17,600 in 2024 while only ~1.5% resulted in charges and roughly 53 complaints entered the administrative system for every case reaching federal litigation — than as generalized judicial hostility.
+**That conclusion is wrong.**
 
-The Note's doctrinal contribution is a limiting principle distinguishing *reinforcement* from *replication*. Reinforcement means using HUD's existing authority to verify compliance with specific disability duties Congress already enacted — accessible design, reasonable accommodations, reasonable modifications (42 U.S.C. § 3604(f)(3)). Replication means trying to rebuild broad integration-planning obligations from the statute's undefined "affirmatively further" text. The Note argues that reinforcement is the more defensible present path. The repository also contains race-by-disability housing cost-burden estimates derived from American Community Survey (ACS) 2020–2024 5-Year Public Use Microdata Sample (PUMS) data with confidence intervals.
+We built a classified database of 1,770 federal disability FHA opinions and decomposed the decline. The drop is **dominantly compositional** — roughly **76% is a composition effect** driven by the surge in pro se (unrepresented) filers from 59% to 77% as the fair housing organizations that screen and develop cases got defunded. Represented plaintiffs held steady at 34.3% in both periods. A residual within-group deterioration is detectable in the strongest-case represented subset (broad win rates fell from 69.0% to 52.3%), consistent with a tightening pleading gate even for represented plaintiffs — but the primary driver is infrastructure collapse, not judicial hostility.
 
----
-
-## Original Contributions
-
-- **A proposed legal limiting principle** (reinforcement vs. replication): Rather than trying to rebuild a broad integration-planning regime from vague statutory text, the Note argues HUD should focus on verifying compliance with the specific disability duties Congress already enacted — accessible design, reasonable accommodations, and reasonable modifications
-- **Classified litigation dataset**: 1,770 federal disability housing decisions (from 2,522 total FHA cases), each coded across 28 fields, built using multi-model AI consensus classification — no comparable classified FHA litigation dataset exists in the published literature
-- **Enforcement-pipeline analysis**: An examination of HUD's own grant-reporting systems (CDBG activity codes), property inspection program (REAC/NSPIRE), subsidized-housing data (Picture of Subsidized Households), and complaint records (FHEO), showing that the administrative systems covering ~1.8 million disabled households contain no field for housing accessibility
-- **Housing cost-burden estimates**: First published race-by-disability cross-tabulations with confidence intervals, derived from Census Bureau ACS 2020–2024 microdata
+*Represented plaintiffs recovered. The system did not.*
 
 ---
 
-## Key Findings
+## What's in the database
 
-The data support an institutional account of the post-2024 downturn: the problem is the collapse of the enforcement infrastructure, not a generalized turn by courts against disability plaintiffs.
+| | Count |
+|---|---:|
+| Federal FHA opinions screened in (all protected classes) | 2,522 |
+| Disability opinions (primary analysis population) | 1,770 |
+| With exact decision dates (Jan 2022 -- Mar 2026) | 1,191 |
+| With resolved outcomes (win/lose/mixed) | 889 |
+| Individual claims extracted (per-claim decomposition) | 6,718 |
+| Classified fields per opinion | 28 |
 
-**Who is winning, who is losing, and why.** Plaintiffs with lawyers recovered to roughly their pre-2024 success rates (34.3% win rate in both the baseline and post-withdrawal periods). But self-represented plaintiffs surged to 76.7% of all disability filings as the fair housing organizations that screen, investigate, and develop cases contracted. Self-represented plaintiffs win on the merits only 5.3% of the time versus 32.1% for represented plaintiffs. A Kitagawa decomposition — a standard technique for separating "who is filing" effects from "how each group fares" effects — attributes 76% of the aggregate win-rate decline to this shift in the plaintiff pool's composition. See [Appendix A-5](appendices/Appendix_A5_Robustness_Checks.md) for robustness checks.
-
-**The pipeline is broken.** Disability complaints reached ~17,600 in 2024 (+8.7% since 2018) — people are still reporting violations at record levels. But the organizations that process 74% of all fair housing complaints declined from 86 to 82 in a single year, only ~1.5% of disability complaints resulted in a formal charge, and roughly 53 complaints enter the administrative system for every case that reaches federal court. The violation rate is not declining; the infrastructure converting complaints into enforceable cases is thinning at every stage.
-
-**HUD's own systems can't see the problem.** HUD's grant-reporting system has ~50 activity codes for tracking how federal housing dollars are spent; none covers housing accessibility. HUD's property inspection program (REAC/NSPIRE) inspects over 34,000 public-housing and assisted properties nationwide, but the inspection output is a single aggregate score with no accessibility field. Approximately 1.8 million disabled households live in federally subsidized housing, yet the systems that fund, certify, and inspect their housing cannot measure whether it is accessible.
-
-**Plaintiff outcomes are falling at the front door.** Win rates fell from 18.0% (baseline) to 7.8% (transition) to 10.7% (post-withdrawal). But represented plaintiffs survived motions to dismiss at stable rates across all three periods (82.0%/76.1%/82.8%), while aggregate dismissal-survival rates fell from 53.6% to 38.6%. The decline is concentrated at the pleading stage among unrepresented plaintiffs — not at the merits.
-
-**Specific legal claims win; vague ones don't.** Claims grounded in Congress's specific disability duties (accessible design, reasonable accommodations) win 39.3% of the time; claims relying on broad, undefined statutory language win 1.0%. After statistical controls, specific-duty framing increases odds of success more than twelvefold. This is the empirical basis for the Note's argument that enforcement built on specific enacted duties is more viable than enforcement built on vague statutory text.
-
-**Disability imposes a larger housing cost burden than race alone.** The "disability penalty" — the additional housing cost burden disabled renters bear compared to non-disabled renters of the same race — ranges from 7.3 to 16.9 percentage points, exceeding the 8.4-point racial cost-burden gap among non-disabled renters. An estimated 823,000 disabled renters of color live in communities that HUD's prior integration model never directly reached.
-
-**Widespread noncompliance, almost no enforcement.** An estimated 47% of covered multifamily buildings violate federal accessibility requirements, but design-and-construction complaints constitute only 0.8% of fair housing filings and 2.2% of litigated cases. Physical evidence of accessibility violations is present in 37 of 40 decided cases — these are the kind of concrete, inspectable violations that a reporting-and-verification system would catch.
+Every opinion is coded for outcome, procedural posture, accommodation type, defendant type, plaintiff type, disability category, *Iqbal*/*Twombly* citation, and more — with full pipeline provenance metadata tracking which model classified each field and how disagreements were resolved.
 
 ---
 
-## The Dataset
+## How it was built
 
-HUD does not maintain a structured, classified dataset of federal fair housing litigation outcomes. This repository provides one — built from federal court opinions, classified by AI with human-equivalent reliability, and organized into a single searchable database.
+Traditional approach: manually read 2,500 opinions, train coders, run inter-rater reliability. ~600 researcher-hours. Institutional funding. Months of work.
 
-| Scope | Cases |
-|-------|:---:|
-| Total federal fair housing cases screened in (all protected classes) | 2,522 |
-| **Disability cases (primary analysis population)** | **1,770** |
-| Disability cases with exact decision dates (for three-period analysis) | 1,191 |
-| Disability cases with resolved outcomes (for win-rate analysis) | 889 |
-
-**Three-Period Design:**
-
-| Period | Date Range | n |
-|--------|-----------|:---:|
-| P1: Baseline (pre-*Loper Bright v. Raimondo*) | Jan 1, 2022 – June 28, 2024 | 456 |
-| P2: Transition (post-*Loper Bright*, pre-HUD withdrawal) | June 28, 2024 – Feb 5, 2025 | 116 |
-| P3: Post-withdrawal (HUD enforcement contraction) | Feb 5, 2025 – present | 317 |
-
-Each case record contains 28 classified fields — including procedural posture, outcome, accommodation type, disability category, plaintiff and defendant type, *Iqbal*/*Twombly* citation, and nested per-claim decomposition — plus full pipeline provenance metadata. For the complete field-level schema with types, enumerated values, and examples, see [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
-
-The repository also includes Census PUMS analysis producing the first published race-by-disability cost-burden cross-tabulations with confidence intervals, using successive-differences replication with 80 replicate weights per the Census Bureau's recommended variance estimation method.
-
----
-
-## Methodology: Agile ELS
-
-Traditional empirical legal studies at this scale — manually reading and coding 2,522 court opinions into structured data — would require roughly 600 researcher-hours, substantial institutional funding, and extensive inter-rater reliability testing. This dataset was constructed in one week for approximately $200.
-
-The approach, which this Note terms **Agile Empirical Legal Studies (Agile ELS)**, rests on a straightforward methodological insight: rather than trusting a single LLM to classify thousands of cases, each opinion is processed by three architecturally independent models, and their disagreement is treated as a quality signal — the same logic that governs inter-rater reliability in traditional human-coded empirical legal research, transposed to computational classifiers.
-
-**Independence by design.** The three primary classifiers (MiniMax M2.7, DeepSeek V3.2, Kimi K2.5) were selected for training-corpus independence: different training data (Chinese and Western sources), different parameter scales, and different fine-tuning approaches. This ensures that consensus reflects textual signal in the opinion rather than shared model bias.
-
-**Tiered adjudication.** When all three models agree, the classification is accepted without further review. When they disagree, contested fields escalate to progressively stronger adjudicators — first Claude Haiku 4.5, then Claude Sonnet 4.6 with fresh narrative extraction. Every record carries full provenance metadata: which tier resolved it, which models agreed, and what the adjudicator decided.
-
-**Cost structure.** 46% of cases resolved through consensus or majority vote alone, requiring no additional API call. The remaining cases escalated, concentrating cost on the genuinely difficult classifications. Total pipeline cost for 2,522 cases: approximately $160.
-
-To the best of the author's knowledge, no published legal study has employed multi-model LLM consensus with tiered adjudication for structured legal data extraction at this scale.
-
-### Pipeline Architecture
+Our approach: **three independent LLMs classify each opinion, and their disagreement is the quality signal.** Same logic as inter-rater reliability, transposed to computational classifiers.
 
 ```
-                          ┌─────────────────────┐
-                          │   CourtListener API  │
-                          │   (4,027 opinions)   │
-                          └──────────┬──────────┘
-                                     │
-                          ┌──────────▼──────────┐
-                    ┌─────┤  Stage 1: Screening  ├─────┐
-                    │     │  Gemini Flash Lite    │    │
-                    │     │  Binary FHA filter    │    │
-                    │     └──────────────────────┘     │
-                    │                                  │
-                 YES (2,522)                       NO (1,505)
-                    │                             [discarded]
-                    │
-         ┌──────────▼──────────────────────────────────┐
-         │    Stage 2: Triple-Model Classification     │
-         │  ┌──────────┐ ┌──────────┐ ┌──────────────┐ │
-         │  │ MiniMax  │ │ DeepSeek │ │    Kimi      │ │
-         │  │  M2.7    │ │  V3.2    │ │    K2.5      │ │
-         │  └────┬─────┘ └────┬─────┘ └──────┬───────┘ │
-         │       │             │              │        │
-         │       └─────────────┼──────────────┘        │
-         └─────────────────────┼───────────────────────┘
-                               │
-              ┌────────────────▼────────────────┐
-              │  Stage 3: Tiered Consensus      │
-              │                                 │
-              │  Tier 0: Unanimous    (0.6%)    │──► Accept
-              │  Tier 1-2: Majority   (45.4%)   │──► Accept
-              │  Tier 3: Haiku 4.5    (37.5%)   │──► Adjudicate
-              │  Tier 4: Sonnet 4.6   (16.3%)   │──► Re-extract
-              └────────────────┬────────────────┘
-                               │
-              ┌────────────────▼────────────────┐
-              │  Stage 4: Per-Claim Extraction  │
-              │  Haiku 4.5 decomposes           │
-              │  3,193 cases → 6,718 claims     │
-              └────────────────┬────────────────┘
-                               │
-              ┌────────────────▼────────────────┐
-              │  Stage 5: Reproducibility Audit │
-              │  Opus 4.6 re-classifies         │
-              │  50-case stratified sample      │
-              │  Cohen's κ: 0.56–0.74           │
-              └─────────────────────────────────┘
+CourtListener API (4,027 opinions)
+        │
+        ▼
+  Stage 1: Screening ──────────── Gemini Flash Lite (< $5)
+  Binary FHA relevance filter      1,505 discarded → 2,522 kept
+        │
+        ▼
+  Stage 2: Triple Classification
+  ┌─────────────┐ ┌──────────────┐ ┌───────────┐
+  │ MiniMax M2.7 │ │ DeepSeek V3.2│ │  Kimi K2.5│    $85 total
+  └──────┬──────┘ └──────┬───────┘ └─────┬─────┘
+         └───────────────┼───────────────┘
+                         ▼
+  Stage 3: Consensus Resolution
+  Unanimous?  → accept (0.6%)
+  Majority?   → accept (45.4%)
+  Split?      → escalate to Haiku 4.5 (37.5%)
+  Critical split? → Sonnet 4.6 re-extracts (16.3%)
+                         │
+                         ▼
+  Stage 4: Per-Claim Extraction ── Haiku 4.5 batch ($18)
+  3,193 opinions → 6,718 individual claims
+                         │
+                         ▼
+  Stage 5: Reproducibility Audit ── Opus 4.6 ($4.56)
+  50-case stratified sample
+  81.5% inter-classifier agreement | κ = 0.561
 ```
 
-See [`pipeline/`](pipeline/) for full model specifications, cost breakdowns, agreement rates, and resolution algorithms.
+**Why three models?** MiniMax, DeepSeek, and Kimi were chosen for training-corpus independence — different training data, parameter scales, and fine-tuning approaches. When all three agree, the signal is strong. When they disagree, the contested fields escalate to more powerful adjudicators. Every record carries provenance metadata: which tier resolved it, which models agreed, what the adjudicator decided.
 
----
-
-## Validation and Limitations
-
-The multi-model design performed well on objective fields and showed meaningful divergence on interpretive fields where human coders would also disagree:
+**How often do the models agree?**
 
 | Field | Unanimous (3/3) | Majority (2/3) | No Majority |
 |-------|:---:|:---:|:---:|
@@ -158,91 +83,272 @@ The multi-model design performed well on objective fields and showed meaningful 
 | Primary Claim Type | 62.6% | 32.2% | 5.2% |
 | Accommodation Type | 34.7% | 45.8% | 19.5% |
 
-Only 0.6% of cases achieved full unanimous consensus across all fields — meaning the multi-model design caught disagreements requiring resolution in 99.4% of records.
+Objective fields (court, year) hit near-perfect consensus. Interpretive fields (accommodation type) diverge — exactly where human coders would too. Only 0.6% of cases achieved full unanimous consensus across *all* fields, meaning the multi-model design caught disagreements in 99.4% of records.
 
-**Reproducibility audit.** Opus 4.6 independently re-classified a stratified random sample of 50 cases. Cohen's Kappa ranged from Moderate to Substantial (κ = 0.56–0.74) across substantive fields, consistent with inter-rater reliability benchmarks in empirical legal research. The outcome kappa (κ = 0.561) warrants context: of 15 disagreements, 11 (73%) involved the procedural/substantive boundary — whether a dismissal without prejudice constitutes a "Defendant Win" or a "Procedural" disposition. These are genuine boundary disputes that produce moderate kappa scores even among trained human coders. Because the disagreement pattern is directional — pipeline classifications skewing toward "procedural" — any resulting measurement error attenuates regression coefficients toward the null, making statistically significant findings conservative estimates.
-
-**What this audit does and does not show.** The reproducibility audit measures inter-classifier agreement, not accuracy against human-coded ground truth. No human-coded FHA litigation dataset of comparable scope exists against which to benchmark. The kappa scores are consistent with published inter-rater reliability standards — but the claim is that independent classifiers operating under identical protocols reach substantially similar results, not that the pipeline achieves perfect accuracy.
-
-**Additional limitations.** The dataset captures federal written opinions only, not the universe of FHA disputes, settlements, or administrative resolutions. Small-N subgroup analyses (n < 30) are flagged as suggestive throughout the article. Causal claims about *Loper Bright*'s independent judicial effect are expressly disclaimed; this Note treats the post-2024 period as a changed legal-administrative environment encompassing guidance withdrawal, FHIP defunding, and zero reasonable-cause charges alongside the elimination of *Chevron* deference.
+**Total cost: $134.90.** One week from first API call to validated database.
 
 ---
 
-## Supplementary Appendices
+## What we found
 
-The following appendices are referenced throughout the Note's footnotes. Each is available as a standalone document in [`appendices/`](appendices/).
+### The composition effect (the headline)
 
-| Appendix | Title |
-|----------|-------|
-| [A](appendices/Appendix_A_Case_Dataset_Methodology.md) | FHA Case Dataset — Construction Methodology |
-| [A-2](appendices/Appendix_A2_PUMS_Replication.md) | PUMS Replication Methodology |
-| [A-3](appendices/Appendix_A3_Extended_Empirical_Analysis.md) | Extended Empirical Analysis |
-| [A-4](appendices/Appendix_A4_Reproducibility_Audit.md) | Classification Reproducibility Audit |
-| [B](appendices/Appendix_B_Results_Tables.md) | Post-*Loper Bright* Analysis |
-| [C](appendices/Appendix_C_Iqbal_Citation_Analysis.md) | *Iqbal* Citation Analysis |
-| [D](appendices/Appendix_D_Protected_Class_Distribution.md) | Protected-Class Distribution |
-| [E](appendices/Appendix_E_Accommodation_Defendant_Analysis.md) | Accommodation & Defendant-Type Analysis |
-| [F](appendices/Appendix_F_Galanter_Plaintiff_Type.md) | Galanter Plaintiff-Type Analysis |
-| [G](appendices/Appendix_G_Circuit_Level_Analysis.md) | Circuit-Level Analysis |
-| [H](appendices/Appendix_H_Supplementary_Data.md) | Supplementary Data |
-| [I](appendices/Appendix_I_AFFH_Case_Classification.md) | AFFH Case Classification |
-| [J](appendices/Appendix_J_Safe_Harbor_Detail.md) | Safe Harbor Operational Detail |
-| [K](appendices/Appendix_K_Classification_Prompts.md) | Classification Prompts |
-| [L](appendices/Appendix_L_HUD_Administrative_Data.md) | HUD Administrative Data (CDBG, POSH, REAC/NSPIRE) |
+| | P1: Baseline | P2: Transition | P3: Post-Withdrawal |
+|---|---|---|---|
+| Aggregate strict win rate | 18.0% | 7.8% | 10.7% |
+| **Represented** win rate | **34.3%** | 19.0% | **34.3%** |
+| Pro se win rate | 7.3% | 1.4% | 4.4% |
+| Pro se filing share | 58.9% | 56.6% | **76.7%** |
+
+P1 = pre-*Loper Bright* (Jan 2022 -- June 2024). P2 = transition. P3 = post-HUD withdrawal (Feb 2025 -- present).
+
+A [Kitagawa-Oaxaca-Blinder decomposition](appendices/Appendix_A5_Robustness_Checks.md) confirms: **76% composition effect, 24% rate effect.** The rate-effect coefficient is p = 0.991 — statistically indistinguishable from zero. A residual within-group deterioration is detectable in the strongest-case represented subset (broad win rates fell from 69.0% to 52.3%), consistent with a tightening pleading gate even for represented plaintiffs. Five robustness checks (reclassification sensitivity, boundary shifts, category exclusion, bootstrap CIs, Oaxaca-Blinder) all converge.
+
+### The pipeline is broken
+
+- **17,600** disability complaints filed in 2024 (+8.7% since 2018)
+- **1.5%** result in a formal charge
+- **53:1** ratio of complaints to federal cases
+- **78** FHIP grants across 66 organizations in 33 states (~87% of U.S. population) terminated (Feb 2025); FHEO charges fell from ~25/year to 4 between January and July 2025; at least 115 cases closed or halted
+- Fair housing orgs dropped from 86 → 82 in one year
+
+### The decline concentrates at the gate
+
+Represented plaintiffs survived motions to dismiss at stable rates across all three periods — courts aren't dismissing good cases more often:
+
+| | P1 | P2 | P3 |
+|---|---|---|---|
+| Represented MTD survival | 82.0% | 76.1% | 82.8% |
+| Aggregate MTD survival | 53.6% | — | 38.6% |
+| Merits broad win rate | 39.8% | — | 42.1% |
+
+The aggregate MTD survival fell because more pro se cases are hitting the gate, not because the gate got narrower for represented plaintiffs. Cases that reach the merits actually win at *slightly higher* rates in P3 than P1.
+
+### Institutional plaintiffs outperform — and they're disappearing
+
+| Plaintiff type | N | Broad win |
+|---|---|---|
+| Government | 10 | 90.0% |
+| Fair housing organizations | 31 | 67.7% |
+| Group home operators | 78 | 42.3% |
+| Individual tenants | 740 | 20.0% |
+
+Chi-squared = 76.7 (p < 0.0001). Institutional status predicts reaching the merits (OR = 1.41, p = 0.037) but not winning once there (OR = 1.27, p = 0.21) — institutions get cases past the pleading stage; case quality takes over from there. The mechanism is representation: 72% of individual tenants are pro se.
+
+Institutional plaintiffs shrank from 16.9% of filings (P1) to 12.1% (P3). The screening infrastructure is contracting.
+
+### Specific claims win; vague claims don't
+
+| Claim type | Broad win rate |
+|---|---|
+| Specific-duty (accessible design, accommodations) | 39.3% |
+| Open-textured (general discrimination) | 1.0% |
+
+OR = 12.33 (p < 10^-17). Statutory precision is the strongest predictor of outcome — stronger than representation, period, or defendant type. 88.5% of open-textured cases are pro se.
+
+Within specific-duty claims, the hierarchy tracks verifiability:
+
+| Accommodation type | Strict win | Broad win | N |
+|---|---|---|---|
+| Design & construction | 46.7% | 70.0% | 30 |
+| Assistance animal | 35.3% | 56.9% | 102 |
+| Parking | 34.0% | 55.3% | 47 |
+| Policy exception | 14.2% | 25.9% | 197 |
+| Eviction defense | 14.5% | 18.2% | 55 |
+
+Design-and-construction claims win most often — but constitute only **2.2%** of litigated cases despite widespread documented noncompliance. The Housing Equality Center of Pennsylvania found 47% noncompliance across 38 covered communities tested regionally (2005–2014); the Equal Rights Center documented a 69.6% violation rate in its 2019 D.C. testing. The 2003 HUD/Steven Winter national study found composite conformance scores of 73–95%, indicating substantial but uneven compliance. A massive gap persists between known violations and litigated cases.
+
+### Circuit-level variation
+
+MTD survival rates vary wildly across circuits — from 14.5% (2d Cir.) to 45.8% (1st Cir.):
+
+| Circuit | P1 Broad % | P2+P3 Broad % | Delta |
+|---|---|---|---|
+| 11th Circuit | 38.1% (n=21) | 0.0% (n=12) | -38.1 pp |
+| 5th Circuit | 45.0% (n=20) | 19.0% (n=21) | -26.0 pp |
+| 3rd Circuit | 20.0% (n=35) | 20.6% (n=34) | +0.6 pp |
+| 10th Circuit | 27.3% (n=11) | 26.3% (n=19) | -1.0 pp |
+
+The Eleventh Circuit went from 38.1% to literally zero. The Third and Tenth Circuits barely moved. Geographic heterogeneity this large suggests circuit-level factors beyond *Loper Bright*.
+
+### HUD can't see the problem
+
+- **$67.7 billion** in cumulative CDBG grants → none of the housing rehabilitation activity codes (14A–14L) records whether rehabilitation added accessibility features
+- **34,000+** properties inspected through NSPIRE → **no** accessibility output
+- **1.8 million** disabled households in subsidized housing → **no** accessible-unit data
+- NSPIRE failure rates jumped from 4.4% → 16.8% after updated standards — showing that inspection changes actually work
+- Among federal Section 504 agencies, HUD is an outlier: ED's CRDC, DOT's NTD, and DOL's Form CC-305 all produce recurring disability-compliance data that HUD has never built
+
+### The disability penalty
+
+Disabled renters face a cost-burden penalty **larger than the Black-White racial gap**:
+
+| Race | Disability Penalty (pp) | SE |
+|---|---|---|
+| White | 16.9 | 0.25 |
+| Black | 10.1 | 0.43 |
+| AIAN | 7.3 | 1.40 |
+
+For comparison: the Black-White cost-burden gap among non-disabled renters is 8.4 pp.
+
+An estimated **823,000** disabled renters of color live in communities that HUD's prior AFFH model never directly reached.
 
 ---
 
-## Data Sources
+## Validation — what we know and what we don't
 
-| Source | Description |
-|--------|-------------|
-| [CourtListener REST API v4](https://www.courtlistener.com/api/rest/v4/) | Federal court opinion text |
-| [ACS 2020-2024 5-Year PUMS](https://api.census.gov/data/2024/acs/acs5/pums) | Census microdata for housing analysis |
-| [OpenRouter API](https://openrouter.ai/) | Multi-model LLM access for classification pipeline |
+**What the audit shows:** An independent classifier (Opus 4.6) re-classified 50 opinions from scratch. Inter-classifier agreement: 81.5%. Cohen's kappa: 0.561 (moderate-to-substantial). 73% of disagreements are boundary disputes (e.g., dismissal without prejudice: "defendant win" or "procedural"?).
+
+**What the audit does not show:** Accuracy against human-coded ground truth. No comparable human-coded FHA dataset exists to benchmark against. The claim is reproducibility — independent classifiers reaching substantially similar results — not perfection.
+
+**Measurement error direction:** The disagreement pattern skews toward "procedural" — meaning classification error attenuates findings toward the null. Significant results are conservative estimates.
+
+**Other limitations:** Federal written opinions only (no settlements, no administrative resolutions). Small-N subgroups flagged throughout. No causal claims about *Loper Bright* specifically — the post-2024 period is a changed legal-administrative environment encompassing multiple concurrent shocks.
 
 ---
 
-## Replication
+## Repo structure
+
+```
+.
+├── data/                     # FHA Unified Database (JSON)
+├── results/                  # Computed statistics, reports, CSVs
+├── scripts/                  # 31 Python analysis scripts
+│   ├── run_all.py            # Master replication script
+│   ├── recompute_stats_unified.py
+│   ├── robustness_checks.py
+│   ├── census_pums_replication.py
+│   └── ...
+├── appendices/               # Extended analyses (A-3 through K)
+├── pipeline/                 # Classification pipeline docs
+│   ├── consensus_resolution.md
+│   ├── model_configuration.md
+│   └── per_claim_extraction_schema.json
+├── prompts/                  # Full LLM classification prompts
+├── queries/                  # CourtListener + Census API queries
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── CREDITS.md
+└── requirements.txt
+```
+
+---
+
+## Appendices
+
+| Appendix | What's in it |
+|----------|-------------|
+| [A-3](appendices/Appendix_A3_Extended_Empirical_Analysis.md) | Extended analysis: regression models, pro se three-population framework, interactive process reversal, Hispanic/Latino convergence, invisible population, CHAS feasibility |
+| [A-4](appendices/Appendix_A4_Reproducibility_Audit.md) | Full reproducibility audit: per-field agreement, tier-disaggregated results, error anatomy, attenuation bias defense |
+| [A-5](appendices/Appendix_A5_Robustness_Checks.md) | Five robustness checks: reclassification, boundary sensitivity, category exclusion, bootstrap CIs, Oaxaca-Blinder |
+| [B](appendices/Appendix_B_Results_Tables.md) | Core results tables: three-period, year-by-year, procedural disposition, chi-squared tests |
+| [C](appendices/Appendix_C_Iqbal_Citation_Analysis.md) | *Iqbal*/*Twombly* citation analysis with cross-class comparison |
+| [D](appendices/Appendix_D_Protected_Class_Distribution.md) | Protected-class distribution across the database |
+| [E](appendices/Appendix_E_Accommodation_Defendant_Analysis.md) | Win rates by accommodation type (13 categories) and defendant type (8 categories), all with three-period breakdowns |
+| [F](appendices/Appendix_F_Galanter_Plaintiff_Type.md) | Galanter repeat-player analysis with pro se cross-tabulation |
+| [G](appendices/Appendix_G_Circuit_Level_Analysis.md) | Circuit-level win rates, MTD survival, and interactive process discussion rates |
+| [H](appendices/Appendix_H_Supplementary_Data.md) | Modification desert data, design-and-construction noncompliance ratio, enforcement infrastructure, pro se x defendant cross-tab |
+| [J](appendices/Appendix_J_Safe_Harbor_Detail.md) | Safe harbor operational detail (population thresholds, cost analysis, FCA enforcement) |
+| [K](appendices/Appendix_K_Classification_Prompts.md) | Full text of all LLM classification prompts |
+
+---
+
+## Mapping: article sections to scripts
+
+If you're trying to replicate a specific finding from the empirical article:
+
+| Finding / Section | Run this | Check this output |
+|---|---|---|
+| Database composition | `recompute_stats_unified.py` | `results/unified_stats_report.md` Sec. A |
+| Three-period win rates | `recompute_stats_unified.py` | `results/unified_stats_report.md` Sec. B |
+| Composition effect / Oaxaca-Blinder | `robustness_checks.py` | `results/robustness_checks_output.txt` |
+| Procedural-stage analysis | `h7_analysis.py` | Appendix A-3 Sec. B |
+| Institutional plaintiff hierarchy | `h5_analysis.py` | Appendix F |
+| Claim specificity (OR = 12.33) | `h1_h2_analysis.py` | — |
+| Physical evidence effect | `h6_analysis.py` | — |
+| Circuit-level variation | `recompute_all_appendices.py` | Appendix G |
+| Disability cost-burden penalty | `census_pums_replication.py` | `results/pums_results.csv` |
+| Sensitivity (DIS=1 vs. DPHY/DOUT) | `pums_dis1_sensitivity.py` | `results/pums_sensitivity_results.json` |
+| Housing stock analysis | `pums_housing_stock_analysis.py` | `results/housing_stock_results.json` |
+| CDBG measurement gap | `cdbg_analysis.py` | — |
+| POSH disability rates | `posh_analysis.py` | — |
+| NSPIRE inspection analysis | `reac_analysis.py` | — |
+
+---
+
+## Data sources
+
+| Source | What we use it for | Link |
+|---|---|---|
+| CourtListener REST API v4 | Federal court opinion text | [courtlistener.com/api](https://www.courtlistener.com/api/rest/v4/) |
+| ACS 2020-2024 5-Year PUMS | Census microdata for disability housing analysis | [Census API](https://api.census.gov/data/2024/acs/acs5/pums) |
+| OpenRouter | Multi-model LLM access for classification | [openrouter.ai](https://openrouter.ai/) |
+
+---
+
+## Run it yourself
 
 ```bash
 pip install -r requirements.txt
-python scripts/run_all.py              # Full replication (litigation + PUMS)
-python scripts/run_all.py --litigation-only
-python scripts/run_all.py --pums-only
+
+# Everything
+python scripts/run_all.py
+
+# Litigation stats only
+python scripts/recompute_stats_unified.py
+python scripts/recompute_all_appendices.py
+python scripts/robustness_checks.py
+
+# Census PUMS only
+python scripts/census_pums_replication.py
+python scripts/pums_dis1_sensitivity.py
+python scripts/pums_housing_stock_analysis.py
 ```
 
-The FHA Unified Database JSON files are included in `data/`. PUMS scripts query the Census Bureau's public API and do not require an API key. Individual analysis scripts are documented in [`scripts/`](scripts/); see [`scripts/run_all.py`](scripts/run_all.py) for the complete execution sequence.
+The database JSON files are included in `data/`. PUMS scripts hit the Census Bureau's public API — no API key needed.
 
 ---
 
-## How to Cite
+## Publications
 
-Nicholas Gill, *Displacing Deference: Reinforcement, Replication, and Disability-Centered AFFH* (forthcoming 2026).
+This repository supports two articles:
+
+- **Empirical article:** "Beyond Aggregate Win Rates: Composition Effects and Measurement Failure in Disability Fair Housing Litigation" — the dataset, methodology, and results as a standalone contribution
+- **Doctrinal note:** "The Enacted Floor: Reinforcement, Not Replication in Disability-Centered AFFH" — the legal argument, using the empirical findings as its evidentiary foundation
+
+---
+
+## How to cite
 
 ```bibtex
-@article{gill_displacing_2026,
-  author    = {Gill, Nicholas},
-  title     = {Displacing Deference: Reinforcement, Replication, and Disability-Centered AFFH},
-  year      = {2026},
-  note      = {Forthcoming}
+@article{gill_composition_2026,
+  author  = {Gill, Nicholas},
+  title   = {Beyond Aggregate Win Rates: Composition Effects and
+             Measurement Failure in Disability Fair Housing Litigation},
+  year    = {2026},
+  note    = {Manuscript}
+}
+
+@misc{gill_fha_database_2026,
+  author  = {Gill, Nicholas},
+  title   = {FHA Unified Database: Replication Package},
+  year    = {2026},
+  url     = {https://github.com/NickGillArizona/displacing-deference}
 }
 ```
 
 ---
 
-## About the Author
-
-**Nicholas Gill** is a J.D. Candidate (2027) at the University of Arizona James E. Rogers College of Law. The FHA Unified Database was designed and built by the author. Contact: [nickgill@arizona.edu](mailto:nickgill@arizona.edu).
-
----
-## AI Use Policy
-
-Artificial-intelligence tools assisted limited aspects of research, document classification, data processing, and drafting in this project. The empirical methodology is also intended to show that AI-assisted legal classification can help individual researchers construct and validate datasets at a scale that previously required institutional resources. AI outputs were used as research aids and analytical instruments, not as legal authority and not as substitutes for primary-source analysis. The author independently reviewed and verified all cited authorities, quotations, source characterizations, coding judgments, and empirical results, and made all analytical, doctrinal, and editorial decisions. No confidential or privileged information was submitted to external AI systems. The full classification pipeline and replication materials are documented here.
-
----
 ## License
 
-- **Code** (scripts/, pipeline/, queries/, prompts/): [MIT](LICENSE)
-- **Data and documentation** (data/, appendices/): [CC BY 4.0](LICENSE-DATA)
+- **Code**: [MIT](LICENSE)
+- **Data and documentation**: [CC BY 4.0](LICENSE-DATA)
+- Court opinions are public domain. See [CREDITS.md](CREDITS.md) for source attributions.
 
-The underlying court opinions are public domain. See [CREDITS.md](CREDITS.md) for full data source attributions.
+---
+
+## AI disclosure
+
+LLMs were used for corpus assembly, classification, data processing, and reproducibility checks. The pipeline is part of the methodology — it's what we're studying, not something we're hiding. All analytical, doctrinal, and editorial decisions are the author's. Full classification prompts and pipeline documentation are in this repo.
+
+**Contact:** [nickgill@arizona.edu](mailto:nickgill@arizona.edu)
