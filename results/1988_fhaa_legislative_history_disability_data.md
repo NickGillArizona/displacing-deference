@@ -2,7 +2,7 @@
 
 Generated: 2026-04-16T02:33:00-07:00
 Repo: `/mnt/c/Users/nickg/OneDrive/Documents/Note/Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH`
-Status: partial historical support; direct committee/hearing proof not recovered
+Status: partial historical support; direct hearing materials and contemporaneous rulemaking text recovered, but the exact House report still not recovered
 
 ## Research question
 
@@ -16,9 +16,11 @@ The strongest defensible conclusion is narrower, but stronger than the pre-run s
 - Congress enacted the disability duties, the disability-inclusive HUD reporting/data clause, and `§ 3614a` rulemaking authority in the same 1988 legislative package.
 - The Senate Kennedy-Specter substitute retained both the reporting/data clause and `§ 3614a`'s "appropriate data" rulemaking language.
 - I found one direct 1988 House floor statement defending the reporting provision as necessary to give Congress statistical information on continuing discrimination and to evaluate whether the enforcement mechanism was working.
+- I directly recovered the House and Senate hearing volumes and found hearing-material passages tying annual reporting and data collection to congressional/public oversight and compliance incentives, even though the disability-advocacy witnesses I inspected did not themselves make a disability-data argument.
+- The November 1988 proposed Part 121 rule directly stated that HUD's authorities required the Secretary to collect certain data "to assess the extent of compliance with these policies."
 - HUD's immediately following 1989 Part 121 preamble treated `§ 808(e)(6)` as imposing disability-inclusive data-collection responsibilities and described Part 121 as the implementation vehicle for those responsibilities.
 
-That combination supports a real monitoring/enforcement-feedback rationale for the reporting provision and a stronger enacted-package argument than the draft currently states. But I still did **not** recover direct inspected committee-report, hearing, or floor language expressly stating that Congress meant `§ 3608(e)(6)` or `§ 3614a` to monitor the new disability duties in `§ 3604(f)(3)` specifically. Because the sole committee report itself was not recovered in directly inspectable form, this memo cannot honestly claim to have completed the prompt's exact House-report requirement; the most I can say is that the indirectly recovered report excerpts I did inspect are silent on that specific linkage.
+That combination supports a real monitoring/enforcement-feedback rationale for the reporting provision and a stronger enacted-package argument than the draft currently states. But I still did **not** recover direct inspected committee-report language, or direct disability-advocacy hearing language, expressly stating that Congress meant `§ 3608(e)(6)` or `§ 3614a` to monitor the new disability duties in `§ 3604(f)(3)` specifically. Because the sole committee report itself was not recovered in directly inspectable form, this memo cannot honestly claim to have completed the prompt's exact House-report requirement; the most I can say is that the directly inspected hearing/rulemaking materials and the indirectly recovered report excerpts all stop short of that specific linkage.
 
 ## Sources actually inspected
 
@@ -30,6 +32,11 @@ Primary/near-primary materials inspected during this run:
 - `tmp_prompt20/FR_1989_01_23.txt` — 1989 Part 121 final-rule preamble
 - `tmp_prompt20/ext_1988_04_29.txt` — contemporaneous congressional remarks citing National Council on the Handicapped material
 - `https://www.govinfo.gov/content/pkg/HOB-1988/html/HOB-1988-hr1158.htm` — History of Bills entry for H.R. 1158 confirming that the bill was reported with amendments as `H. Rept. 100-711`
+- `https://books.google.com/books?id=P2wFAAAAIAAJ&output=html_text&source=gbs_navlinks_s` — House hearing volume on H.R. 1158 (`Fair Housing Amendments Act of 1987`)
+- `https://books.google.com/books?id=DZ-mn0VYLt8C&output=html_text&source=gbs_navlinks_s` — Senate hearing volume on S. 558 (`Fair Housing Amendments Act of 1987`, vol. 4)
+- `https://www.govinfo.gov/content/pkg/FR-1988-11-07/pdf/FR-1988-11-07.pdf` — November 7, 1988 proposed Part 121 rule / FHAA implementation proposal
+- `https://www.ncd.gov/report/national-disability-policy-a-progress-report-february-1986/` — `Toward Independence`
+- `https://www.ncd.gov/report/national-disability-policy-a-progress-report-january-1988/` — `On the Threshold of Independence`
 
 Secondary sources inspected for mediated legislative-history recovery:
 - `allFHAcases/1683995_1991_Seniors Civil Liberties Ass'n, Inc. v. Kemp_flmd.txt` — later case describing the titles of the principal House and Senate hearing volumes on H.R. 1158 / S. 558
@@ -102,6 +109,33 @@ The Senate substitute also retained the explicit rulemaking clause:
 
 So the Senate substitute did not strip the data/reporting provisions or the data-rulemaking authority from the disability package.
 
+### 2A. The directly inspected hearing materials provide an oversight/compliance rationale, but not an explicit disability-advocacy data rationale
+
+I was able to recover and inspect the actual House and Senate hearing volumes through Google Books.
+
+The hearing materials themselves directly preserve the bill text tying reporting and data collection to the protected-class categories including handicap:
+
+> "annually report to Congress, and make available to the public, data on the race, color, religion, sex, national origin, age, handicap, and family characteristics ..."  
+> — House hearing volume, `https://books.google.com/books?id=P2wFAAAAIAAJ&pg=PA10&output=html_text`; see also Senate hearing volume, `https://books.google.com/books?id=DZ-mn0VYLt8C&pg=PA21&output=html_text`
+
+The same hearing bill text continued with the Secretary's data-collection authority:
+
+> "the Secretary shall, without regard to any other provision of law, collect such information relating to those characteristics as the Secretary determines to be necessary or appropriate."  
+> — House hearing volume, `https://books.google.com/books?id=P2wFAAAAIAAJ&pg=PA11&output=html_text`; see also Senate hearing volume, `https://books.google.com/books?id=DZ-mn0VYLt8C&pg=PA22&output=html_text`
+
+I also found directly inspected hearing testimony giving an oversight/compliance rationale for the annual-report requirement:
+
+> "H.R. 1158 requires that the Secretary provide the Congress an annual report specifying, in part, the nature and extent of progress made nationally in eliminating discriminatory housing practices."  
+> — House hearing volume, `https://books.google.com/books?id=P2wFAAAAIAAJ&pg=PA253&output=html_text`
+
+> "It is especially important to determine how aggressive the Secretary will be in initiating investigations ..."  
+> — House hearing volume, `https://books.google.com/books?id=P2wFAAAAIAAJ&pg=PA253&output=html_text`
+
+> "The Secretary's report to the Congress and made available to the public could provide a very real incentive for compliance."  
+> — Senate hearing volume, `https://books.google.com/books?id=DZ-mn0VYLt8C&pg=PA324&output=html_text`
+
+These passages are significant because they show that directly inspected hearing materials linked the annual-report/data architecture to congressional/public oversight and compliance incentives. But they still do **not** expressly say that Congress viewed `§ 3608(e)(6)` or `§ 3614a` as the monitoring mechanism for the new disability duties in `§ 3604(f)(3)` specifically.
+
 ## What the Kennedy substitute summary does **not** show
 
 The best negative evidence I found is the Senate summary of the Kennedy-Specter substitute. It described the substitute's changes in eight areas:
@@ -128,7 +162,16 @@ That absence does not disprove the inference, but it means the substitute materi
 
 ## Strongest contemporaneous administrative evidence
 
-The 1989 Part 121 preamble is still the strongest source tying disability-inclusive data to statutory responsibilities.
+The administrative record is now stronger than before because I recovered both the November 1988 proposed rule and the January 1989 final-rule preamble.
+
+The strongest direct public statement I found linking the data provisions to compliance monitoring appears in the proposed rule:
+
+> "These authorities prohibit discrimination in housing and in programs receiving financial assistance from the Department, and they direct the Secretary, among other things, to collect certain data to assess the extent of compliance with these policies."  
+> — `https://www.govinfo.gov/content/pkg/FR-1988-11-07/pdf/FR-1988-11-07.pdf` (53 Fed. Reg. 45029)
+
+The same proposal then described `§ 121.2` as the provision for furnishing data concerning protected-class characteristics including handicap.
+
+The 1989 Part 121 preamble remains the strongest post-proposal source tying disability-inclusive data to statutory responsibilities.
 
 HUD said Part 121 was designed to create a:
 
@@ -145,35 +188,74 @@ And HUD responded:
 > "The language of proposed § 121.2 was drawn largely from that contained in section 808(e)(6) of the Fair Housing Act ... to enable HUD to meet the responsibilities mandated by that legislation. HUD remains committed to that objective ..."  
 > — `tmp_prompt20/FR_1989_01_23.txt`, lines 56938-56951
 
-This is highly useful for both Branch A and Branch B. But it is still post-enactment administrative history, not committee-report or hearing proof of original congressional intent.
+Together, the proposed rule and final rule are highly useful for both Branch A and Branch B. But they are still contemporaneous administrative history, not committee-report proof of original congressional intent.
 
 ## Disability-advocacy / NCH / NCD / CCD material recovered
 
 ### Hearing testimony from disability advocates
 
-I did **not** recover the underlying House or Senate hearing transcripts themselves from govinfo in this run. But I did recover useful mediated evidence about those hearing records from later cases that cite them.
+I was able to recover and inspect the underlying House and Senate hearing volumes themselves through Google Books:
+- House volume: `https://books.google.com/books?id=P2wFAAAAIAAJ&output=html_text&source=gbs_navlinks_s`
+- Senate volume: `https://books.google.com/books?id=DZ-mn0VYLt8C&output=html_text&source=gbs_navlinks_s`
 
-Most importantly:
-- a later district court described the principal hearing volumes as the House hearings on `H.R. 1158, Fair Housing Amendments Act of 1987` before the House Judiciary Subcommittee on Civil and Constitutional Rights, and the Senate hearings on `S. 558` before the Senate Judiciary Subcommittee on the Constitution. See `allFHAcases/1683995_1991_Seniors Civil Liberties Ass'n, Inc. v. Kemp_flmd.txt`, lines 245-247.
-- the Fifth Circuit later cited `Hearing on H.R. 1158, 100th Cong. 582 (1987)` for testimony by Edward Roberts, President of the World Institute on Disability, stating:  
-  > "Throughout the ten year history of this bill there have been ongoing attempts to provide protections for people living in group homes. These efforts have been undertaken in recognition of the history of obstructionist practices by many local jurisdictions."  
-  > — `allFHAcases/22775_2000_Groome Resources Ltd v. Parish of Jefferson_ca5.txt`, lines 2372-2378
-- the same case cited `Hearing on S. 558, 100th Cong. at 95-102 (1987)` for testimony by Marcia Bristo, President of the National Centers on Independent Living, "testifying about the 36 million Americans who have disabilities and the resultant difficulties obtaining housing."  
-  > — `allFHAcases/22775_2000_Groome Resources Ltd v. Parish of Jefferson_ca5.txt`, lines 2380-2384; see also the alternate text capture at `allFHAcases/771341_2000_Groome Resources Ltd, Llc, United States of America, Intervenor v. Parish of Jefferson_ca5.txt`, lines 489-490
+That let me directly inspect the two disability-advocacy witnesses previously known only through later case citations.
 
-So I can now say something more precise than before:
-- disability-advocacy hearing testimony in the 1987 House and Senate record does appear to exist,
-- at least some of the cited testimony focused on group homes, exclusionary local practices, and the general housing difficulties faced by people with disabilities,
-- but I still did **not** recover a directly inspected hearing passage tying disability data collection or `§ 3608(e)(6)` / `§ 3614a` to monitoring the new `§ 3604(f)(3)` duties.
+House: Edward Roberts, President, World Institute on Disability:
+- `https://books.google.com/books?id=P2wFAAAAIAAJ&pg=PA576&output=html_text`
+- `https://books.google.com/books?id=P2wFAAAAIAAJ&pg=PA581&output=html_text`
+
+Relevant quote:
+
+> "Throughout the ten year history of this bill there have been ongoing attempts to provide protections for people living in group homes. These efforts have been undertaken in recognition of the history of obstructionist practices by many local jurisdictions."  
+> — House hearing, H.R. 1158, p. 582
+
+Senate: Marca Bristo, President, National Centers on Independent Living:
+- `https://books.google.com/books?id=DZ-mn0VYLt8C&pg=PA95&output=html_text`
+- `https://books.google.com/books?id=DZ-mn0VYLt8C&pg=PA100&output=html_text`
+
+Relevant quote:
+
+> "I am here today on behalf of 40 national disability organizations representing 36 million Americans who have disabilities."  
+> — Senate hearing, S. 558, p. 95
+
+And:
+
+> "Such prejudice has resulted in more than 120,000 people with mental retardation unnecessarily and expensively institutionalized ... and approximately 200,000 who must call psychiatric institutions their home; and finally, more than 20 million people with physical disabilities who find themselves excluded from most private housing."  
+> — Senate hearing, S. 558, pp. 95-102
+
+What matters for Prompt 20 is what these directly inspected disability-advocacy passages do **not** say:
+- I checked the Roberts and Bristo testimony for data, report, reporting, monitor, monitoring, survey, HUD, and annual-report language.
+- I did **not** find a directly inspected passage in either witness's testimony linking disability data collection or `§ 3608(e)(6)` / `§ 3614a` to monitoring the new `§ 3604(f)(3)` duties.
+
+So the hearing component is now stronger in one sense and weaker in another:
+- stronger, because I directly recovered the actual hearing texts and confirmed the existence/content of disability-advocacy testimony;
+- weaker, because the directly inspected disability-advocacy passages I found do **not** supply the missing disability-data rationale.
 
 ### NCH / NCD material
 
-I did recover a contemporaneous congressional remark drawing on National Council on the Handicapped work:
+I recovered direct NCD materials from 1986 and 1988, plus the contemporaneous congressional remark already in the workspace.
+
+In `Toward Independence` (1986), NCD stated:
+
+> "The Federal Fair Housing Act-Title VIII of the Civil Rights Act of 1968-prohibits discrimination in housing on the basis of race, color, religion, sex, and national origin, but does not address discrimination on the basis of handicap."  
+> — `https://www.ncd.gov/report/national-disability-policy-a-progress-report-february-1986/`
+
+And recommended:
+
+> "Congress should prohibit housing discrimination against persons with disabilities on as broad a basis as race, color, religion, sex, and national origin discrimination are prohibited under Title VIII of the Civil Rights Act of 1968."  
+> — `https://www.ncd.gov/report/national-disability-policy-a-progress-report-february-1986/`
+
+In `On the Threshold of Independence` (1988), NCD said of the pending FHA disability provisions:
+
+> "The standards are drawn from the current version of the disability portions of the Federal Fair Housing Amendments bill in the Senate Judiciary Committee. Their primary focus is upon accessibility in future design and construction of housing."  
+> — `https://www.ncd.gov/report/national-disability-policy-a-progress-report-january-1988/`
+
+I also recovered a contemporaneous congressional remark drawing on National Council on the Handicapped work:
 
 > "[S]ecuring appropriate housing is a major prerequisite to social integration and living independently for persons with disabilities."  
 > — `tmp_prompt20/ext_1988_04_29.txt`, lines 492-500
 
-This helps show that disability-accessibility and housing-integration concerns were salient in 1988. But it does **not** itself establish that disability advocates or Congress specifically conceived `§ 3608(e)(6)` / `§ 3614a` as the monitoring mechanism for `§ 3604(f)(3)`.
+This strengthens the showing that disability-accessibility and housing-integration concerns were salient in 1988. But these NCD/NCH materials still do **not** themselves establish that disability advocates or Congress specifically conceived `§ 3608(e)(6)` / `§ 3614a` as the monitoring mechanism for `§ 3604(f)(3)`.
 
 ### CCD material
 
@@ -206,18 +288,20 @@ So the best answer is:
 
 ## Part 121 commenters specifically
 
-What I could establish from the preamble:
-- HUD said a number of commenters argued the Department already had authority to collect the needed data and had failed to generate them.
-- HUD also said commenters proposed restructuring Part 121 to accomplish that purpose.
+What I could establish from directly inspected public sources:
+- In the November 1988 proposed rule, HUD said the governing authorities directed the Secretary "to collect certain data to assess the extent of compliance with these policies." See `https://www.govinfo.gov/content/pkg/FR-1988-11-07/pdf/FR-1988-11-07.pdf`.
+- In the January 1989 final rule, HUD said a number of commenters argued the Department already had authority to collect the needed data and had failed to generate them.
+- The January 1989 final rule also publicly identifies some commenters on other parts of the same rulemaking, including Senators Kennedy and Specter, Representative Edwards, and Representative Barney Frank.
 
 What I could **not** establish in this run:
-- the identity of those commenters,
-- whether they were disability advocacy organizations,
-- or the text of their submissions.
+- the identity of the specific commenter(s) who made the Part 121 complaint that HUD had failed to generate the needed data,
+- whether those specific commenter(s) were disability advocacy organizations,
+- or the text of the underlying submission(s).
 
-So the commenter point remains:
-- strong evidence that the issue was raised in the rulemaking record,
-- but commenter identity and wording remain unrecovered here.
+So the commenter point now is:
+- strong direct evidence that the issue was raised in the rulemaking record,
+- plus a direct proposed-rule statement linking data collection to compliance assessment,
+- but no recovered public copy yet of the exact comment letter(s) making the quoted criticism.
 
 ## Best note-usable conclusion
 
@@ -225,12 +309,13 @@ The historical record I actually inspected supports a **partial-support** propos
 
 1. Congress enacted disability duties and disability-inclusive reporting/data authority together in 1988.
 2. The Senate substitute retained the data provisions.
-3. HUD immediately read `§ 808(e)(6)` as requiring disability-inclusive data collection and treated Part 121 as the regulatory framework for carrying out those responsibilities.
-4. But I did **not** recover direct committee-report, hearing, or floor language expressly stating that Congress meant `§ 3608(e)(6)` / `§ 3614a` to monitor `§ 3604(f)(3)`.
+3. Directly inspected hearing materials tied annual reporting and data collection to congressional/public oversight and compliance incentives, and the bill text in those hearing materials expressly included handicap in the reporting/data categories.
+4. The November 1988 proposed rule directly said HUD's authorities required data collection "to assess the extent of compliance with these policies," and HUD's January 1989 final rule treated Part 121 as the regulatory framework for carrying out those data responsibilities.
+5. But I did **not** recover direct committee-report language or direct disability-advocacy hearing language expressly stating that Congress meant `§ 3608(e)(6)` / `§ 3614a` to monitor `§ 3604(f)(3)`.
 
 So the safest upgraded claim for the note is:
 
-> The 1988 record strongly supports a contemporaneous enacted-package inference: Congress paired disability duties with disability-inclusive reporting authority, and HUD immediately implemented that authority on the understanding that it carried new disability-data responsibilities. But the inspected legislative-history materials do not yet convert that inference into a fully explicit historical proposition.
+> The 1988 record strongly supports a contemporaneous enacted-package inference: Congress paired disability duties with disability-inclusive reporting authority; directly inspected hearing and rulemaking materials tied that reporting/data architecture to oversight and compliance; and HUD immediately implemented the provisions on the understanding that they carried new disability-data responsibilities. But the inspected materials still do not convert that inference into a fully explicit historical proposition that Congress specifically meant `§ 3608(e)(6)` / `§ 3614a` to monitor `§ 3604(f)(3)`.
 
 ## Drafting recommendation
 
@@ -244,7 +329,8 @@ Best use:
 
 ## Remaining gap
 
-The dispositive blocker to full prompt compliance is still the same:
-- recover the actual full text of `H.R. Rep. No. 100-711`, and/or
-- recover a hearing document in the 100th Congress disability/fair-housing record,
-so the note can confirm whether any explicit monitoring rationale exists beyond the structural inference and the 1989 preamble.
+The dispositive blocker to full prompt compliance is now narrower than before:
+- recover the actual full text of `H.R. Rep. No. 100-711`, so the note can determine whether the unrecovered committee-report pages discussing the reporting/data provisions expressly link them to the new disability duties; and
+- if possible, recover a directly inspected disability-advocacy statement specifically asking for disability data/reporting as part of FHAA implementation.
+
+I have now recovered the hearing volumes themselves, the key floor materials, the proposed and final Part 121 rule texts, and contemporaneous NCD materials. The main unrecovered target is the report itself.
