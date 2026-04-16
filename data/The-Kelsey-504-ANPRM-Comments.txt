@@ -1,0 +1,1723 @@
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+July 24, 2023
+
+Office of General Counsel, Rules Docket Clerk
+Department of Housing and Urban Development
+451 7th Street SW, Room 10276
+Washington, DC 20410-0500
+
+RE: [Docket No. FR-6257-A-01] Nondiscrimination on the Basis of Disability:
+Updates to HUD’s Section 504 Regulations. RIN 2529-AB03
+To Whom it May Concern,
+The Kelsey is grateful for the opportunity to submit feedback prior to HUD initiating
+rulemaking for Section 504 Regulations. Co-led by people with and without disabilities,
+The Kelsey advances accessible, affordable, and inclusive housing through public,
+private, and philanthropic partnerships to develop mixed-income, disability-forward
+residential communities. We have secured financing on over 230 homes in a $170M
+housing pipeline in one of the nation’s most challenging housing markets: the Bay Area
+and are actively expanding into other markets across the country.
+As a co-developer, we work with market rate and affordable housing developers to build
+inclusive and accessible homes for residents with and without disabilities of all
+backgrounds and income levels. We engage communities and provide innovative
+disability-forward standards for better housing design and experiences for all residents.
+We leverage new sources of capital and unrealized land value to accelerate
+development for a faster housing development process. Each one of our communities is
+unique to the local needs, but all are: affordable to people at the very lowest and
+moderate-income levels; accessible to people with a range of disabilities and access
+needs; and inclusive, with culture, staffing, leasing, and amenity spaces that support
+thriving, connected, service-rich community life.
+Beyond our role as a co-developer, The Kelsey envisions scale through building
+capacity and sharing resources across the housing and disability fields to support
+organizations nationally to become disability-forward housing providers and meet critical
+local needs across multiple markets. We have received inquiries from over 36 states
+asking for support developing or advocating for disability-forward housing, and
+0
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+individuals from 48 states have accessed our open-source resources in our Learn
+Center and our Housing Design Standards for Accessibility and Inclusion. These include
+developers, city and state housing staff, designers, and advocates. They represent all
+kinds of communities – rural, suburban, and urban – in every part of the country.
+Disabled people live everywhere, and their housing needs are experienced in diverse
+locations. Federal action that can benefit all communities can be critical in meeting
+these needs and helping to draw additional local and regional support for new disabilityforward housing communities.
+Alongside housing development and field building, The Kelsey drives policy change to
+create the conditions so that disability-forward housing can become the norm
+nationwide. We currently lead national advocacy initiatives to embed accessibility and
+inclusivity within the Low-Income Housing Tax Credit (LIHTC) and to strengthen existing
+HUD programs that explicitly serve extremely low- and low-income disabled adults, like
+HUD Section 811 and Mainstream Housing Vouchers. Moreover, we build state-specific
+coalitions and advocacy agendas focused on new funding sources and increasing
+interagency housing and services coordination.
+Core to The Kelsey’s approach is an understanding that people with disabilities have
+intersectional identities and may experience marginalization on multiple levels, so we
+center racial, gender, and age equity across our work. By being a team that is co-led by
+people with and without disabilities, we embed authentic, lived experience; reject
+paternalism and ableism; and support cross-disability inclusion. Additionally, disability
+and economic justice are deeply connected. Disability is both a cause and a
+consequence of economic insecurity; this is specifically true in housing. People who are
+housing insecure are more likely to experience related health issues and permanent
+disabling conditions. People with disabilities are also more likely to experience poverty
+and be unable to afford housing. While the critical role of housing is a central tenet of
+economic justice and highlighted in mainstream policies and narrative, disability is rarely
+included. The Kelsey’s work embeds disability in the center of these conversations with
+the goal of advancing a more inclusive vision of economic justice.
+In response to the ANPRM, the content of this letter is based on The Kelsey’s
+experience at local, state, and federal levels, as well as the feedback from our partner
+organizations, including consultation with accessible design experts and disabled-led
+organizations.
+Section 504 has played a pivotal role in combating housing discrimination against
+individuals with disabilities in federally funded housing. Since the original application of
+1
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Section 504 most of the country’s new housing development stock has been built by the
+private sector. These entities use a variety of subsidies to build deed-restricted
+affordable housing, including LIHTC, state and local subsidies. The lack of updated
+guidance of what defines “public housing” and where Section 504 applies and does not
+apply leaves many local jurisdictions and private housing developers to spend
+significant resources on legal interpretations and code compliance review consultants.
+The use of scarce resources on interpretation results in less housing being built, higher
+rents, or, in cases of our own project, accessibility features being removed because of
+cost pressures. We urge HUD to provide as much guidance and clarity as possible
+through explicit regulations, advisory tools for local jurisdictions and developers to direct
+more resources towards resident-centered outcomes.
+One such example of the lack of certainty is whether a project that uses LIHTC is
+considered to have received federal financial assistance. This interpretation varies on a
+state-by-state level; our research on this topic shows that 15 states require LIHTCfinanced homes to be 504 compliant through QAP requirements or legislative changes.
+In California, for instance, developers and designers rely on a guidance published from
+the Division of State Architects whether 2010 ADA through the 2013 California Building
+Code Chapter 11B is applicable to projects built using LIHTC financing. In other states
+when we inquired about whether LIHTC units should apply Section 504 to the state
+housing finance agency, their response was to “ask legal counsel.” Without clear
+guidance, developers and designers operate on a compliance-centered mindset rather
+than a resident-centered mindset and take more time and investment in navigating flow
+charts and conflicting requirements rather than spending their time designing housing
+projects that would truly benefit the intended recipients of federally funded and LIHTCfinanced affordable housing: marginalized populations who need healthy, safe, and
+community-oriented housing.
+Proven through our work, to create more fair and equitable housing access for disabled
+people means to create more housing access for all people. What is also known as the
+“curb cut” effect will apply to the strengthening of HUD Section 504; to advance Section
+504 regulations will improve the experiences of all people with and without disabilities.
+
+Response to 1:
+As HUD considers updating the definition of disability, it is critical for it to be as
+expansive as possible, due to the very nature of disability diversity; that the definition
+can be in as much alignment with other federal programs; and HUD must always look
+
+2
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+towards the leadership of disabled people when adopting most inclusive terminology.
+Specifically, we recommend the following:
+● HUD should revise the definition of “individuals with disabilities” to align with the
+ADA Amendments Act of 2008 and DOJ’s Title II ADA regulations. This revision
+will ensure consistency between the Fair Housing Act (FHA) and Section 504
+and help protect people with substance use disorder and ensure these
+individuals can still be considered people with disabilities under Section 504.
+● “Individuals with disabilities” should also be expanded to include people with
+long-COVID. A 2021 study estimates that 1.2 million more people became
+disabled because of COVID-19, and estimates suggest that up to 1.3 million
+people are unable to return to work.1
+● The current definition notes that a qualified person with a disability must meet
+essential eligibility requirements, such as being “capable of complying with all
+obligations of occupancy with or without supportive services provided by persons
+other than the recipient.” HUD should clarify that disabled persons may be able
+to meet essential eligibility requirements through reasonable accommodations,
+and individuals should not be excluded from HUD programs if they require these
+accommodations.
+● The sentence “substantially impedes the individual’s ability to live independently”
+is vague and needs additional clarity because many individuals with disabilities
+can live independently if the necessary accommodations, housing, and
+supportive services would be made available.
+● “Disabled household” should be revised to include families with a head of
+household without a disability, but who take care of children or other dependents
+who are disabled. For example, families that have a child with mobility or sensory
+disabilities have difficulty accessing the affordable, accessible housing they need
+to thrive.
+● HUD should consult the Diagnostic and Statistical Manual of Mental Disorders 5TR, that was updated in 2022 for current terms and disability-related definitions.
+For example, “individuals with handicaps,” should be replaced with “disabilities.”
+
+Lily Roberts, Mia Ives-Rublee, Rose Khattar, “COVID-19 Likely Resulted in 1.2 Million More Disabled
+People by the End of 2021 – Workplaces and Policy Will Need to Adapt,” February 9, 2022,
+https://www.americanprogress.org/article/covid-19-likely-resulted-in-1-2-million-more-disabled-people-bythe-end-of-2021-workplaces-and-policy-will-need-to-adapt/
+1
+
+3
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+HUD should also change terms like “alcoholic and drug user” with “an individual
+with alcoholism or an individual with a substance use disorder.”
+
+Response to 2 (a):
+The Kelsey was founded to help fill a critical gap in the U.S. housing market: the severe
+deficit of affordable, accessible, integrated, and inclusive housing, particularly inclusive
+to those who have higher support needs. Beginning with the lived experiences of our
+co-founders Micaela and Kelsey Connery, followed by Micaela Connery’s 2016 Harvard
+Joint Center for Housing Studies’ research,2 it was clear that disabled people with high
+support needs were still at serious risk of entering institutional settings or being unable
+to transition from institutional or group home settings into community-based options.
+Even though people with disabilities have had the legal right to community living for
+almost 24 years, people are still not able to move into the communities and housing of
+their choice because supply does not exist. Community-based housing is not only good
+for people; it is more cost-effective than when people are relegated to live in institutional
+settings. Community-based models also can be built with recognition of local context
+and state-specific needs, creating solutions that are driven by local developers and
+providers and more responsive to the diverse needs of constituents.
+Yet, this supply deficit of affordable, accessible, integrated, and inclusive housing is
+creating a crisis and results in people with disabilities being displaced from their
+communities and forced to reside in institutions. The U.S. Census Bureau’s Household
+Pulse Survey revealed that people with disabilities experience higher rates of housing
+insecurity and are at a much higher risk of becoming unhoused than people without
+disabilities.3 In 2021, only 16 percent of disabled Americans with low incomes received
+housing assistance through either public housing or rental assistance. This means that
+15.6 million households were eligible for housing assistance but did not receive it. 4
+
+Micaela Connery, "Disability Housing: What’s happening? What’s challenging? What’s needed?," April
+11, 2016,
+https://www.jchs.harvard.edu/research-areas/working-papers/disability-housing-what%E2%80%99shappening-what%E2%80%99s-challenging-what%E2%80%99s-needed
+3
+Jaboa Lake, Valerie Novack, & Mia Ives-Rublee, “Recognizing and Addressing Housing Insecurity for
+Disabled Renters,” Center for American Progress, May 27, 2021,
+https://www.americanprogress.org/article/recognizing-addressing-housing-insecurity-disabled-renters/
+4
+Susan J. Popkin et. al, "People with Disabilities Living in the US Face Urgent Barriers to Housing,"
+October 21, 2022, https://www.urban.org/sites/default/files/202210/People%20with%20Disabilities%20Living%20in%20the%20US%20Face%20Urgent%20Barriers%20t
+o%20Housing_0.pdf
+2
+
+4
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Greater access to tenant- and project-based vouchers supports long-term housing
+affordability.
+As the disability population continues to rise, including older adults, the need for
+supportive services in their own homes also continues to rise. As of 2022, there are 4.2
+million people who use Medicaid home and community-based services (HCBS) and
+819,886 people are on the waitlist for Medicaid HCBS.5 Federal investment in HCBS
+continues to be prioritized over institutional care but the need for further investment is
+critical. Those who are still impacted by institutionalization, in part because of lack of
+supportive housing, include the roughly 1.2 million adults living in nursing homes,6 more
+than 360,000 people in psychiatric facilities,7 and the more than 268,980 people with
+I/DD who live in congregate, institutional settings or are on waitlists for services and
+residential programs.8
+Additionally, the 2011 American Housing Survey discovered that less than 4 percent of
+U.S. homes offered a combination of a no-step entry into the home, single-floor living,
+and wide halls and doors that could accommodate a wheelchair. In the 2019 American
+Housing Survey, about 5 percent of households reported that they had trouble
+navigating or using their homes, amounting to a total of 6.8 million households.9 As a
+result, individuals are likely to stay in institutional or group home settings to comfortably
+use their unit, however, these settings decrease independence and self-determination
+for people with disabilities. Similarly, when an individual needs to temporarily enter an
+institution, they can often lose access to their housing because their housing voucher
+expires after a period of 60 days10 and/or they are not able to work thus they cannot
+afford to continue paying rent.
+
+5
+
+Molly O'Malley Watts, Mary Beth Musumeci, and Meghana Ammula, "Medicaid Home & CommunityBased Services: People Served and Spending During Covid-19," March 4, 2022,
+https://www.kff.org/medicaid/issue-brief/medicaid-home-community-based-services-people-served-andspending-during-covid-19/
+6
+Kaiser Family Foundation, "Total Number of Residents in Certified Nursing Facilities," 2022
+https://www.kff.org/other/state-indicator/number-of-nursing-facilityresidents/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%
+22%7D
+7
+Ted Lutterman et. al, "Trend in Psychiatric Inpatient Capacity, United States and Each State, 1970 to
+2014, National Association of State Mental Health Program Directors," August 2017,
+https://www.nasmhpd.org/sites/default/files/TACPaper.2.Psychiatric-Inpatient-Capacity_508C.pdf
+8
+Corporation for Supportive Housing, "Estimated Supportive Housing Need", May, 2019,
+https://www.csh.org/wp-content/uploads/2019/05/IDD_web.pdf
+9
+United States Census Bureau, "American Housing Survey (AHS)," May 17, 2023,
+https://www.census.gov/programs-surveys/ahs.html
+10
+U.S. Department of Housing and Urban Development: Office of Public and Indian Housing, "Voucher:
+Housing Choice Voucher Program," n.d., https://www.hud.gov/sites/documents/DOC_11741.PDF
+
+5
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Based on The Kelsey’s developments and our technical assistance nationwide, it is
+evident that there are concrete solutions that HUD can implement that will decrease the
+rate of institutionalization and increase people’s ability to live in the community:
+● Increase affordable housing developments capacity to be service-linked
+and ready for people who need in-home supports and services: Servicelinked and ready housing means that housing developments are equipped
+through design and operations to support tenants who need supportive services
+in their own homes. Through existing initiatives, such as the ACL & HUD Housing
+Services and Resource Center, HUD can provide clearer guidance through
+publishing best practices and case examples of service-ready housing;
+particularly with the assurance that the tenants have full choice over the services
+they receive in their own homes. HUD improving its guidance in this area will
+support the implementation of the Home & Community Based (HCBS) Settings
+Rule.
+● Strengthen referral and waiting list practices: HUD does not have guidance
+for PHAs and HUD-assisted housing providers to identify people with disabilities
+who are existing institutions. PIH Notice 2012-31 states, “PHAs cannot restrict
+the [people exiting institutions] preference to those referred or approved by a
+single state agency or to persons with specific disabilities or diagnoses unless
+such a restriction is related to a HUD-approved remedial action.” This
+requirement grants more control to HUD than in most aspects of housing
+operations and contributes to PHAs having difficulty serving people exiting
+institutions. A PHA should be allowed to implement a preference for referrals of
+people with disabilities.
+● Increase partnerships between service providers and PHAs: Partnerships
+between PHAs and service providers and coordinators are critical for communitybased housing, and particularly for special voucher holders. HUD should issue
+joint guidance with ACL, CMS, and SAMHSA to encourage housing providers to
+coordinate with community organizations serving people with disabilities.
+● Income documentation: For individuals seeking to leave institutional settings,
+securing the necessary documentation for income verification is extremely
+challenging and results in delays in obtaining permanent, supportive housing.
+HUD should instruct PHAs and housing providers to assist these individuals in
+this process and provide presumptive financial eligibility for people whose sole
+source of income is Supplemental Security Income (SSI), among other
+scenarios.
+
+6
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+● Disability documentation: It can take substantial amounts of time to receive
+documentation from medical providers because their profession is understaffed,
+and in some cases, you need to wait for an appointment with your medical
+provider to request the documentation, which can take months. Presumptive
+eligibility should also be given in these scenarios.
+
+Response to 2 (b):
+● Regulations should require PHAs and other housing providers to provide
+accommodations that address issues like those raised by the EHV waivers listed
+here:
+○ Any member of the family has been evicted from federally assisted
+housing.
+○ PHA has ever terminated assistance under the program for any member
+of the family.
+○ The family currently owes rent or other amounts to the PHA or to another
+PHA in connection with Section 8 or public housing assistance under the
+1937 Act.
+○ The family has not reimbursed any PHA for amounts paid to an owner
+under a HAP contract for rent, damages to the unit, or other amounts
+owed by the family under the lease.
+○ The family breached an agreement with the PHA to pay amounts owed to
+a PHA, or amounts paid to an owner by a PHA.
+○ The family would otherwise be prohibited admission under alcohol abuse
+standards established by the PHA in accordance with §982.553(a)(3).
+○ The PHA determines that any household member is currently engaged in
+or has engaged in during a reasonable time before the admission, drugrelated criminal activity.
+● During The Kelsey’s development processes, as well as broader local inclusive
+housing advocacy, we have witnessed and pushed back against discriminatory
+narratives that pit disabled people against one another. For example, in multiple
+places we have worked, inclusive housing for people with IDD is advocated for at
+the expense of further stigmatizing people with psychiatric and mental health
+
+7
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+disabilities. This an unacceptable and discriminatory means of advocating for
+housing to include one group and not the other.
+● People with mental illness are discriminated against in very inconspicuous ways.
+Landlords and property owners generally do not understand what support
+services there are for people with mental illness and will avoid renting a unit by
+prioritizing other potential tenants or stating the unit is no longer available; this is
+especially acute in areas where there is a lack of affordable housing already and
+many potential tenants to rent to. Property owners have stated to us that they
+have been “burned” in the past by renting to individuals who did not have
+sufficient support services to be able to live independently. To overcome these
+cultural barriers and learned behaviors by property owners, HUD could partner
+with larger nongovernmental organizations and service agencies to demonstrate
+to property owners, property managers, neighbors, and housing organizations
+the types of support services available for people with mental illness through
+Medicaid and other programs that help them live and thrive in the community.
+
+Response to 2 (c):
+When it comes to the approximately 7.4 million people with intellectual and
+developmental disabilities (I/DD),11 75 percent of these adults live with a parent or other
+caregiver and are not connected to publicly available services and supports, and at
+least one million of those households have a caregiver over the age of 60.12 Moreover,
+only 12 percent of people with intellectual and developmental disabilities own or rent
+their own homes.13 This low percentage does not reflect what people want, which is to
+own or rent their own home.14
+● Plain language: 4 CFR 8.4 does not provide usable, plain language examples
+that would help to guide decision-makers. HUD should provide more plain
+University of Minnesota, Center on Community Integration, “Residential Information Systems Project
+Annual Report: Status and Trends Through 2018,” December, 2022, https://icis.umn.edu/files/y_7tYyJDmn/risp_2019_v6
+12
+The Arc and The Council on Quality and Leadership,
+“There's No Place Like Home: A National Study of How People with Intellectual and/or Developmental
+Disabilities and Their Families Choose Where to Live,” 2019,
+https://futureplanning.thearc.org/assets/CFP_Housing_Survey_Technical_Report80e6eb718c816d07a15a9972df06a6e73b1393d5b56ae145acc058fce243cd93.pdf
+13
+University of Minnesota, Center on Community Integration, Residential Information Systems Project
+“Annual Report: Status and Trends Through 2018,” December, 2022, https://icis.umn.edu/files/y_7tYyJDmn/risp_2019_v6
+14
+The Arc and The Council on Quality and Leadership, “There's No Place Like Home: A National Study of
+How People with Intellectual and/or Developmental Disabilities and Their Families Choose Where to
+11
+
+8
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+language examples and online and in-person training, and technical assistance
+to agency administrators, advocates, housing providers, tenants, etc.
+Additionally, plain applications, explanation of leases and other agreements or
+contracts should be provided in plain language. For example, currently the
+Section 811 PRA lease approved by HUD is written at a graduate school level
+according to a plain language expert, whereas plain Language for accessibility,
+geared toward audiences with cognitive disabilities, typically sits at the 5-6 grade
+level. Staff should also be provided to proactively facilitate access to programs,
+services, and activities. Covered entities should be expected to develop
+procedures to ensure essential information is effectively communicated to people
+who have disabilities that can interfere with typical ways of reading and
+understanding content. Also, someone with cognitive disabilities may have
+difficulty using the computer and websites and should be able to submit materials
+via the mail or other non-electric means.
+● Supported Decision-Making: Supported decision making is a tool that allows
+people with disabilities, often people with intellectual and developmental
+disabilities, to retain their decision-making capacity by choosing supporters to
+help them make choices. HUD can provide guidance on ways that federal
+housing assistance programs can promote and implement practices that enable
+future or current tenants to use supported decision making. We recommend that
+HUD partner with the Administration on Community Living, as well as the
+National Resource Center for Supported Decision Making and people with lived
+experience to ensure appropriate resources and guidance be issued.
+● Service-linked and Ready Housing: See 2(a) comment.
+
+Response to 2 (d):
+As mentioned in 2a, one of the reasons people are unable to remain in their own homes
+or move from institutional settings into community is because of the lack of housing
+accessibility for those with physical disabilities.
+Examples of discrimination include:
+● Accessible Housing Stock Is Non-existent: Often voucher holders with
+physical disabilities are unable to find a unit to lease due to lack of accessibility.
+For example, the Housing Authority of Birmingham District opened their waiting
+Live,” 2019, https://futureplanning.thearc.org/assets/CFP_Housing_Survey_Technical_Report80e6eb718c816d07a15a9972df06a6e73b1393d5b56ae145acc058fce243cd93.pdf
+
+9
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+list for the Mainstream Voucher program – which serves families who have a
+disabled loved one – for the first time since 2019 this year and nearly 600 people
+applied, but they only had 10 units available.15
+● Refusals or extended wait times to provide home modification or
+reasonable accommodations: This applies to people with physical disabilities
+and other disabilities that require higher in-home support. Housing providers are
+not always amenable to providing an extra bedroom for a caregiver. This applies
+both to people with physical disabilities, as well as other people with disabilities
+that require 24-hour in-home support. It is commonplace for requests for
+accommodations to take extensively longer to be filled than should be allowed.
+The delay of having reasonable accommodations met can lead to housing
+insecurity and risks to a tenant’s health and wellbeing.
+People with physical and sensory disabilities should always have coverage under
+Section 504, including when they reside or are applying for a LIHTC funded unit. LIHTC
+funds the vast majority of affordable housing available to low-income families, and
+because it is administered at the state level there are no accessibility requirements
+beyond the Fair Housing Act (FHA), which is insufficient for: the 12.1 percent of U.S.
+adults that have a mobility disability with serious difficulty walking, the 6.1 percent of
+U.S. adults who are deaf or have serious difficulty hearing, and the 4.8 percent of U.S.
+adults who have a vision disability with blindness or serious difficulty seeing even when
+wearing glasses. For example, FHA only requires a 30-inch by 48-inch clear floor space
+in front of a toilet, while other higher standards require more space, such as UFAS
+which requires 60 inches of clear floor space, which allows wheelchair users to have a
+sufficient turning radius. Additionally, UFAS requires that electrical outlets and switches
+be installed no more than 44 inches above the floor, while FHA does not require any
+accessibility for these essential utilities. UFAS also requires unit emergency alarms to
+have a visual component while FHA does not, which could result in a deaf or hard-ofhearing individual not evacuating during a life-threatening emergency. FHA also has
+several exemptions to its design requirements, including but not limited to multi-family
+buildings without elevator access (excluding the ground floor), townhouses, and
+duplexes. This contributes significantly to the shortage of accessible, affordable housing
+for people with disabilities and older adults. Therefore, we recommend that HUD and
+the Department of Treasury align to increase the accessibility required and incentivized
+through LIHTC.
+Brittany Dionne, “HABD offers resources to help with lack of affordable housing as need grows,”
+February 15, 2023, https://www.wbrc.com/2023/02/15/habd-opens-waiting-list-program-help-families-withdisabled-loved-ones-find-affordable-housing/
+15
+
+10
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+HUD should also reinforce that state and local tax credit allocating agencies must follow
+S. 504 requirements where federal funds are allocated. Which means they must include
+the required percentage of accessible units, pay for reasonable accommodations and
+modifications, accept vouchers, etc.
+
+Response to 3:
+There are a robust set of auxiliary aids and services that people with disabilities need in
+housing and community development programs and activities. Housing developers and
+practitioners, at every stage of the development process, including operations, should
+provide such services and aids through the reasonable accommodation process.
+Examples include:
+● Screen reader software on property management websites for applications, lease
+signing, payments, maintenance requests, etc.
+● Technical advancements in communication access for deaf and hard of hearing
+communities that must be available and used across federal housing programs.
+This includes video relays services, video remote interpreting (VRI), as well as
+greater availability of CART captioning. However, VRI and CART cannot be a
+replacement to fulfill the request of an onsite interpreter.
+● Large print materials and braille
+● Audio Description
+● Video Conferencing
+● Emergency technologies specifically for people with speech disabilities (including
+users of augmentative and alternative communications (AAC)), people with
+cognitive disabilities, Deaf/Blind people, and people with multiple disabilities. The
+Kelsey defers to partners like CommunicationFIRST to provide further expertise.
+HUD and covered entities can improve the experiences and therefore housing
+outcomes of people with disabilities by:
+● Asking applicants/tenants whether they have communication disabilities and
+record their needed auxiliary aid or service in their application or tenant file so
+that they can consistently receive effective communication from the covered
+entity.
+
+11
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+● Clarifying that if an individual requests that all written communications be
+rendered in alternative formats or in other languages, then all future
+communications should be provided in the requested format or language.
+● Developing template notices in plain language formats that will make information
+accessible to people with intellectual and developmental disabilities.
+
+Response to 4 (a):
+● Challenges:
+○ Identifying accessible units: Research on NED vouchers and the Money
+Follows the Person programs found that identification of accessible units
+was a barrier for people with disabilities attempting to leave institutions to
+live in community-based housing.16 HUD can invest in a database for
+individuals to search for affordable, accessible housing and provide
+resources, monetary and others, to recipients on how to best identify
+accessible units and match those units to those who need them.
+Depending on the jurisdiction, Chapter 11B units only need to be held for
+a person with disabilities for a discrete time period ahead of being rented
+to the general eligible population. In practice, although not legal, some
+owners do not proactively advertise those units to the disabled population
+because of perceived risks associated with renting to people with
+disabilities. There should be a requirement that all accessible units that
+are built with federal funding should be advertised through local service
+providers who are providing federally funded services to people with
+disabilities, including independent living centers, Medicaid-funded
+institutions and in-home support services, and continuum of care
+responsible agencies.
+○ Allowing for operating reserves of accessible units: Property owners
+should be allowed and encouraged to keep a reserve of operating
+expenses for accessibility-related relocation purposes. If a property owner
+rents an accessible unit to someone that does not need the accessible
+features because the waiting period has lapsed, they should inform the
+16
+
+Washington, DC: U.S. Department of Health and Human Services, Office of the Assistant Secretary for
+Planning and Evaluation, Office of Disability, Aging and Long-Term Care Policy, "Non-Elder Disabled
+Category 2 Housing Choice Voucher Program: An Implementation and Impact Analysis," January 31,
+2014, https://mathematica.org/publications/nonelderly-disabled-category-2-housing-choice-voucherprogram-an-implementation-and-impact-analysis
+
+12
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+forthcoming tenant that a relocation within the same project may be
+required. In the case a non-accessible unit becomes available and an
+eligible resident needing accessible features qualifies for an inaccessible
+unit, the resident in the accessible unit can be compensated to relocate to
+the inaccessible unit, and the new resident can have access to the
+features they need.
+○ Website accessibility: HUD needs to do more to instruct housing entities
+that website and application accessibility compliance is mandatory. There
+is strong support for the Web Content Accessibility Guidelines (WCAG) as
+an instructive tool to make websites and applications accessible for users
+with disabilities, and these standards are not currently adopted law.
+Similarly, a study carried out by the Department of Justice and the
+General Services Administration (GSA) found that many federal agencies,
+such as HUD, failed to make their websites fully accessible.
+○ Excessive paperwork: The plethora of questions asked and documents
+that need to be submitted and then resubmitted each year to the PHAs
+while people are on the waiting list for a home is an unnecessary barrier.
+Individuals have also complained that PHA offices are unorganized and
+tend to lose documentation, so there needs to be regulations around
+organization of materials.
+○ Addressing repairs: The lack of accessibility in housing is also
+perpetuated by the backlog of repairs and modifications needed to
+people’s homes. For example, by 2019, the capital fund backlog for public
+housing repairs grew to around $70 billion and continues to rise.17 Many
+residents, including people with disabilities, continue to live in homes
+made unsafe by mold, lead, or disrepair. This directly threatens the health
+and safety of residents and can cause additional disabilities.
+● Sources of data:
+○ A 2022 Urban Institute report found that 84 percent of disabled people
+with low incomes in the United States — nearly 18 million people across
+15.6 million households — were eligible for housing assistance but did not
+receive it. The group of 18 million disabled people with low incomes who
+17
+
+Jackson Gandour, "The Promise of Public Housing," April 14, 2021,
+https://www.hrw.org/news/2021/04/14/promise-publichousing#:~:text=By%202019%2C%20the%20capital%20fund,mold%2C%20lead%2C%20or%20disrepair
+
+13
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+are not receiving housing assistance may face other significant financial
+barriers to accessing housing. For example, 14 percent of this population
+receives SSI, but SSI payments are not enough for recipients to afford
+rent in any U.S. housing market. Without housing assistance, this group
+will continue to struggle to meet their housing needs. Disabled people who
+are eligible for housing assistance— especially those at the lowest income
+thresholds—are also more racially and ethnically diverse than the noneligible disabled population.18
+○ According to the Harvard Joint Center for Housing Studies, “Homes that
+include universal design features or are designed to be easily adapted to
+resident needs are more likely to fit the needs of residents without major
+interventions. However, the U.S. housing stock does not regularly
+incorporate accessibility and includes very few housing units that offer
+multiple accessibility features.”19
+○ Additional sources to help capture the growth of the disability population
+include:
+■ Center for Disease Control data
+■ U.S. Census, especially the American Community Survey
+■ Current Population Survey
+■ Coleman Institute State of the States in Development Disabilities
+■ Technical Assistance Collaborative’s Annual Priced Out Survey
+■ Brandeis University Community Living Policy Institute
+■ Local and state organizations, such as: local disability commission;
+state Medicaid Office; state Money Follows the Person program;
+
+18
+
+Susan J. Popkin et. al, "People with Disabilities Living in the US Face Urgent Barriers to Housing,"
+October 21, 2022, https://www.urban.org/research/publication/people-disabilities-living-us-face-urgentbarriers-housing
+19
+Samara Scheckler, Jennifer Molinsky, Whitney Airgood-Obrycki, "How Well Does the Housing Stock
+Meet Accessibility Needs?: An Analysis of the 2019 American Housing Survey," March 2022,
+https://www.jchs.harvard.edu/sites/default/files/research/files/harvard_jchs_housing_stock_accessibility_s
+checkler_2022_0.pdf
+
+14
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Centers for Independent Living, Area Agencies on Aging, Legal Aid
+and Protection & Advocacy agencies.
+
+Response to 4 (b):
+HUD can issue clear guidance on standards with diagrams and harmonization between
+codes. Additionally, guidance is needed on what is considered “federally funded
+housing.” Currently, it is a jurisdiction-by-jurisdiction interpretation. For example, in San
+Francisco the interpretation of whether a site that was privately developed but was
+involved in a land swap with a public entity had below market rate units stay unoccupied
+for close to a year after the building was completed because of a question of whether it
+was considered “public housing”. The uncertainty, legal costs, and additional time for
+interpretation could be better spent in resident-centered costs.
+The flow charts on pages 13-20 of “Guide to Public Housing Regulated by Chapter 11B
+of the California Building Code” (see attachment 1) published by the Division of State
+Architects in California demonstrate the difficulty of interpreting what accessibility codes
+apply in which contexts. These are used to define “public housing” as it applies to ADA
+2010 and Section 504, as well as Chapter 11B of the California Building Code. These
+were only published after the Governor of California appointed a Certified Access
+Specialist (CAS) as the State Architect. Prior to the publishing of these materials, there
+was no state-published source that supported the private sector in differentiated
+different access codes. As far as we know, there is nothing of such material at the
+federal level. The result is millions of dollars that would be better spent towards more
+affordable housing, being spent on code interpretation.
+Regarding LIHTC, HUD should engage these properties in training and technical
+assistance efforts around reasonable accommodations, including the obligation to pay
+for reasonable modifications; and HUD requires states to widely advertise in ways that
+are accessible for all the federal and state funding sources provided to each LIHTC
+property, thus allowing easier identification of LIHTC properties that are covered by
+Section 504.
+
+Response to 5 (a):
+The disproportionate rates of poverty and housing discrimination compounded by the
+lack of affordable, accessible, and integrated housing stock, leads to people with
+disabilities experiencing acute challenges in accessing vouchers and using them. We
+recommend that HUD make following improvements:
+
+15
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+● Increase the competitiveness of voucher holders who have a disability:
+HUD should ensure that housing providers have access to incentives that
+increase their acceptance of Mainstream, NED, and related programs that
+target disabled households. HUD provided an additional $500 per unit to PHAs
+administering the Mainstream program, but $2,500 to PHAs administering
+EHV. The competition for units means that when a participant is required to
+take extra steps and extra time to let a landlord know they want to apply for a
+unit, they are more likely to lose the unit to another housing seeker.
+● Provide clear guidance on extra bedrooms for caregivers: Many disabled
+households require an additional bedroom for 24-hour caregivers, such as a
+live-in aide. HUD PIH Notice 2008-20 made some PHAs more wary of allowing
+an extra bedroom for caregivers. Some PHAs require paperwork to request an
+extra bedroom (or any reasonable accommodation) and/or deny requests.
+PHAs should not require unnecessary documentation and HUD should amend
+§8.28 to clarify that PHAs must approve an extra bedroom under a reasonable
+accommodation request.
+● Provide guidance on extended absences: People with disabilities who have
+HCVs need to be absent from their unit for weeks or months after experiencing
+medical emergencies or necessary institutional care. These absences put
+tenants at risk of eviction from their homes and termination from the HCV
+program. HUD should include in §8.28 the obligation to grant reasonable
+accommodations for disability-related extended absences.
+● Model regulations from the Emergency Housing Voucher (EHV) program:
+EHV leased up more quickly than previous HUD-funded voucher programs.
+The characteristics of this program that appear to have led to this success and
+could be considered best practices include (but are not limited to):
+o Waivers that remove many eligibility and access barriers that vulnerable
+populations experience when trying to access the HCV program. The
+full use of the waivers and alternative requirements aids in centering
+equity in a community’s EHV program and creates a more equitable
+program overall.
+o Administrative fee funding to PHAs for expenses that are not normally
+eligible under the HCV program, as well as fees designated for the cost
+of administering the EHV program generally. PHAs receive the following
+fees as part of their EHV allocation: Preliminary Fee, Issuance Fee,
+16
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Placement Fee, Ongoing Administrative Fee, and Service Fees.
+o A requirement for PHAs to work with community partners to determine
+the best use and targeting for the vouchers to ensure EHVs assist
+households who are most in need.
+o Waivers that allow PHAs to establish a separate waiting list for the EHV
+program and to accept direct referrals from the local continuum of care
+and/or victim service providers.
+o Funding for service fees to pay for some short-term service needs to
+obtain housing.
+
+Response to 5 (b):
+We have assisted people with disabilities, including those who need physical, sensory,
+and cognitive access needs, look for apartments that are within the FMR range in the
+high cost, urban San Francisco Bay Area. Because the housing stock is older, there are
+little to no apartments within the FMR range that are accessible to people who have
+mobility access needs. Many newer apartments are accessible, but priced above FMRs.
+New apartments positioned as co-housing, meaning smaller units with efficiencies
+instead of full kitchen, are within the FMR range, but because they are leased on a
+bedroom-by-bedroom basis, there are more barriers to the landlord accepting the tenant
+because it is questionable whether those bedrooms are covered under FHA nondiscrimination clauses. We recommend HUD allowing for higher rents for individuals
+with mobility access needs in urban areas where the proportion of housing built after
+1991 is relatively low compared to other housing.
+We have interviewed people with disabilities in rural areas in Massachusetts that have a
+strong tourism industry. In these areas, access to housing where a voucher can be used
+is difficult because of the limitations of year-round leases. Many rentals will only give offseason leases, which means housing vouchers cannot be used. There should be
+dedicated investment in year-round housing in those areas that are priced at fair market
+rents and are accessible. The understanding of people who receive an HCV (whether
+they have a disability or access needs that could be met locally) is that they need to
+leave the county to find a rental where they could use their voucher.
+
+Response to 6:
+Too often accessibility is seen as a risk that projects take on by not meeting code and/or
+inviting lawsuits around compliance. Due to a lack of clear guidance of what standards
+17
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+apply in what settings and what is permissible from those standards, accessibility
+access is a perceived barrier to housing development, rather than something that
+creates value for the end resident. By taking a strong, clear, and definitive approach to
+how accessible spaces are created, housing developers and municipalities can spend
+less resources on code interpretation and more on accessibility and other residentbenefiting features.
+We urge HUD to shift towards a uniform accessibility standard that is already adopted
+within states rather than introduce more technical requirements within 504. HUD should
+partner with the author of these technical requirements to provide extensive diagrams,
+bulletins and other advisory materials for that design and develop housing.
+Some examples that HUD should review:
+● 2019 California Building Code (CBC): CBC uses 2010 ADA Standards for
+Accessible Design as the model code for chapter 11B. There are several
+exceptions that the 2010 ADA Standards that CBC did not adopt, but none of
+those pertain to multifamily housing. In some places, CBC is more stringent than
+2010 ADA Standards for Accessible Design, for example with the requirement of
+visual carbon monoxide alarms in addition to fire alarms. Until there are
+considerable updates to the 2010 ADA Standards for Accessible Design, the
+2019 CBC should be considered for a safe harbor for Section 504.
+● For states that use the International Building Code, the 2017 ICC A117.1 goes
+beyond ADA 2010 Standards by requiring a 67 turning radius in kitchen,
+bathrooms, and bedrooms. This is to accommodate larger spaces for power
+wheelchair maneuvering. They also have other recommendations that require
+grab bars to be put in place at the time of construction. These features would be
+important to consider as an additional requirement beyond ADA 2010 Standards
+or UFAS.
+● The Kelsey’s Inclusive Design Standards provide guidelines to take a
+progressive approach to disability access that encourages developers to go
+beyond code. These guidelines could be used as an incentive for projects to
+include the voices of disabled people throughout the design process and to
+include resident-centered features that go beyond code compliance:
+○ The Design Standards define multifamily housing elements throughout the
+development process and address everything from the design approach to
+physical spaces, to mobility and reach to healthy materials selection, to
+18
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+amenities, outdoor spaces, on-site staffing, and resident supports. A
+cross-disability approach provides elements that are specific to
+individualized access needs and others that benefit a diversity of
+disabilities. The elements were assessed on intersectional benefits
+alongside affordability options, considerations for racial equity,
+sustainability, and a better resident experience. The below goals were
+embedded throughout the creation of the standards:
+■ Cross Disability: Support access and inclusion for the broad and
+diverse needs of people with disabilities.
+■
+
+Multidimensional: Address the many elements of housing
+development, design, and operations that impact accessibility and
+inclusion. Often, accessibility discussions are limited to physical
+spaces — only considered once it is too late — in certain moments
+within the design process or among certain project team members.
+Design and development teams must consider strategies at all
+phases of the project to support accessibility and inclusion that
+accommodates more people. Members of the team must recognize
+and address multiple dimensions of a housing community’s needs,
+understanding conflicts and creating solutions that address a
+resident’s access needs.
+
+■ Implementable and Expandable: Provide standards that can be
+clearly and swiftly adopted into projects and policies while evolving
+and expanding over time. These standards are meant to be
+immediately usable by project development teams, including
+funders, designers, project managers, city officials, community
+members, engineers, and owners. Some people will come to these
+standards with a mission-oriented approach to inclusion and
+access, and others will be thinking about these issues for the first
+time beyond basic code requirements.
+■ Value Creation: Disability-forward design supports better, more
+efficient, equitable, building development. In addition to the explicit
+goals outlined above, the standards are developed with an eye
+towards value creation for the communities they inform and the
+future residents of those communities. Embedding access and
+inclusion as a fundamental design strategy is an opportunity for
+value creation in a resident-centered approach.
+19
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+A lack of coordination between codes results in costly delays in development and deters
+the production of new or rehabilitated accessible homes, but more importantly, results in
+poorer design outcomes for disabled residents. HUD could solve this by shifting to a
+universal accessibility standard that is supported by “cheat sheets” that are similar to
+San Francisco’s Mayor's Officer on Disability’s design bulletins (see attachment 3 &
+4).20 Whatever standards that are adopted should strive to be performance-based or
+functional design criteria to meet the fundamental purpose of accessibility standards,
+rather than a well-intentioned, but possibly too stringent criteria that creates spaces to
+be less functional for different types of people with disabilities. Below are some issues
+that currently exist within safe harbor accessibility code that should be addressed in
+functional accessibility standards, if they were to exist:
+● Storage cabinets: There is a significant discrepancy between state, local, and
+federal code regarding kitchen storage which often catches designers by
+surprise. For example, 2010 ADA Standards require 50% of storage to be within
+reach range. The ADA standards, nor CBC modeled off the ADA standards, offer
+cost effective, approved solutions on how to accomplish these goals. The result
+is that designers and developers commonly remove out of reach cabinetry from
+accessible units and sometimes from non-accessible units because of the
+interpretation that all units should have similar features; result is all residents
+receive less storage. With additional guidance about suggested cost-effective
+alterations to add to cabinets that increase reach range, like drawers and
+moveable shelving that are pre-approved, housing developers will be less
+trepidatious to add low-tech assistive devices in storage areas.
+● Electrical outlets: Complying with both electrical code (NEC) and accessibility
+code regarding outlet placement is challenging. This often results in outlets being
+placed where they are not accessible.
+● Kitchen layout: Because of reach range requirements, kitchens with corners are
+more difficult to get reach ranges correct leading to less “L” shaped kitchens.
+This conflicts with the need for a lot of turning space within a kitchen and the
+requirement of 180-degree open requirements. Exceptions for reach ranges for
+corners may be important to encourage “L” shape or straight kitchens which
+provide more floor space for units.
+San Francisco Government, “Design bulletins, informational sheets, and access plan review forms for
+architectural access,” n.d., https://sf.gov/resource/2022/design-bulletins-informational-sheets-and-accessplan-review-forms-architectural
+20
+
+20
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+● Bathroom design: There needs to be more clarity or alignment with the Type-A
+ICC standard for bathrooms. Safe Harbor guidelines are a step in the right
+direction, but UFAS and other codes do not always align. Also, the requirements
+of larger bathrooms are conflicting with cost pressures from affordable housing
+developers to build more units of smaller units. Bathroom size has grown, but in
+high-cost areas the total unit size remains the same. There should be efforts to
+reconcile the size of the bathroom with the remainder of the unit where residents
+spend most of their time.
+● Handrail height: Handrails must be between 30”-34” high (UFAS) and between
+34” and 38” (IBC), thereby making handrails only acceptable at exactly 34”. This
+could lead to conflict in spaces where flexibility is needed because of
+programming (for example more children in a space) or other physical restrictions
+to where handrails can be placed (windows, etc.)
+● Door swings within restrooms: There is conflicting code of whether a
+bathroom door can swing into an accessible bathroom; this should be left up to
+the designer of an accessible dwelling unit when deciding what is better for
+general access within the unit.
+● Hearing and Mobility Units: Clarification of whether you can have both sensory
+and mobility units counting for the same accessible unit if needed; with current
+guidance the assumption is these should be different units but when building
+housing for people with significant support needs, these features may be needed
+within the same unit.
+● Communication tools: ADA 2010 Standards still require the use of TTY despite
+being an outdated technology; standards should allow for the equivalent
+facilitation/provide a different means of communication. Affordable housing
+developers are not installing updated, safer, more accessible video
+communication options for door security systems which would benefit multiple
+access needs because it does not use TTY.
+● Misalignment with standardized products: Items that make affordable housing
+more feasible because they come pre-built may have aspects that are not
+aligned with existing accessibility standards. One example that gets removed
+altogether from units – because products without thresholds do not exist – is
+prefabricated balconies. Another that is unclear whether they are allowable, but
+incredibly important for cost-efficiency, is prefabricated tubs. By default, the
+industry makes 60” tubs which are 58” installed; some designers question
+whether this meets the requirements of a 60” bathtub with a seat included.
+21
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Furthermore, we encourage HUD to update its method of determining what is a
+“substantial alteration”, which results in very few alterations being considered
+“substantial”. Additionally, there is no codified definition for what it means to alter a unit;
+it is only spelled out in the official HUD Section 504 FAQ. We would like this to be
+formally defined, and in a better way. The International Existing Building Code uses a
+“work area” formula that results in far greater accessibility because of an alteration.
+
+Response to 8 (a):
+Often accessibility discussions are limited to physical space. However, design process
+and operation strategies should be considered as tools that support more inclusion and
+equity for their residents in public and common use areas. Also, most physical
+compliance requirements focus on mobility access for common use areas; more crossdisability access like vision, hearing, cognitive, and wellness are a needed addition to
+federally assisted housing.
+The types of barriers that people with disabilities face in public housing are similar to the
+barriers that all residents face and expanded to additional access needs would both
+benefit residents with disabilities and other residents who deserve safe and healthy
+housing. When developers and housing designers are encouraged to design for a
+cross-disability access, all residents benefit.
+Some accessibility features and operational practices to include:
+● Shared Spaces:
+○ Activity Areas and Places to Socialize: Provide shared social spaces
+for activities and interactions. This supports output such as stronger
+community connections, cultivation of informal support networks, and
+decrease in loneliness. These outputs relate to health outcomes such as
+prevention of heart disease, stroke, dementia, depression, and anxiety,21
+as well better neighborhood resilience during and after natural disasters:22
+■ Sensory gardens, demonstration or shared-use kitchens, fitness
+areas, game/TV rooms, and similar spaces – that are thoughtful
+
+Julianne Holt-Lunstad, “Social Connection as a Public Health Issue: The Evidence and a Systemic
+Framework for Prioritizing the “Social” in Social Determinants of Health,” Annual Review of Public Health
+2022 43:1, 193-213, https://www.annualreviews.org/doi/10.1146/annurev-publhealth-052020-110732
+22
+Karen Feldscher, “Social connections boost resilience among elderly after disaster,” October 8, 2019,
+https://www.hsph.harvard.edu/news/features/social-connections-boost-resilience-among-elderly-afterdisaster/
+21
+
+22
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+and intentional in their design – are important for resident mental
+and physical health.
+■ Design shared spaces and their furnishings to be flexible and easily
+moved, to accommodate multiple uses that may develop over time.
+■ Staff help create a sense of community, build trust with and among
+residents, and facilitate relationships.
+○ Public Restrooms: Projects that have over 50 units, a common area
+restroom close to the main entrance or community space should be
+incentivized to provide closer access to restrooms rather than requiring
+residents to return to their dwelling units. Encourage adult size changing
+tables in public restrooms. Encourage common area bathrooms in
+residential facilities to be single user non-gendered. Bathrooms should
+also have safe sharps containers.
+● Signage:
+○ Assistance Signage: Use signage to alert people that support is
+available. "Need something? Just ask.” signs in common rooms. Sets a
+positive tone, lets everyone know there is support available from building
+staff. Include a phone number for texting or QR code to make it easy to
+contact staff.
+○ Directional Signage: Design site directional signage to be clear and
+broadly usable. Signs are high contrast (light text on a dark field that yields
+the least glare), in raised text, and in braille. Text should use sans serif
+font. Signs have pictograms for children, non-English speakers, people
+with learning disabilities, and others who cannot read.
+○ Clean Air & COVID-19 Conscious Protocols: Many people with
+disabilities, including people who are immunocompromised, have been
+forced into further isolation due to the removal of masking protocols.
+Public spaces should be inclusive to those who are immunocompromised.
+Therefore, we encourage HUD to work with disabled, chronically ill, and
+long haul covid advocates to publish best practices for how shared spaces
+across federal housing programs can implement harm reduction efforts to
+prevent the spreading of COVID19. This can include, but is not limited to,
+mask use indoors, providing free masks and COVID tests for residents
+and guests, as well as implementing clean air efforts with air purifiers. We
+refer to experts from entities such as Project N95, Strategies for High
+
+23
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Impact, and COVID-19 Longhauler Advocacy Project (C19LAP), among
+others.
+● Resident Services:
+○ Inclusion Supports & Services Personnel: A dedicated resident
+services staff trained in inclusion, disability, supports, and services on staff
+to:
+■ Assist with connecting residents to services they require.
+■ Manage events and promote social connections for all residents,
+promoting long-term residency.
+■ Manage outreach and engagement with the neighborhood
+community outside the building.
+■ Assist with wayfinding and assistive technology like listening
+devices, etc.
+○ Inclusion, Equity and Disability Training: All building staff and
+personnel receive training in disability rights, inclusion, accessibility, and
+equity prior to building occupancy or within the first 60 days of onboarding.
+This training should apply an intersectional lens, centering first-hand lived
+experience of multiply marginalized disabled people. This training should
+be provided to all management, resident-facing, and maintenance staff.
+After the initial trainings, ongoing professional development opportunities
+must be provided.
+○ Resident Programs and Events: Ongoing building events and activities.
+Allow projects to fund in-person events, art activations, and non-traditional
+partnerships. These provide regular opportunities for residents to connect
+with one another and the surrounding community members who live
+nearby and include them in processes to promote civic trust and
+strengthen a sense of community.
+○ Culture of Interdependence: Community staff creates a culture of mutual
+support through strong presence in the community, a natural ability and
+interest to connect residents to each other, and an ability to connect
+residents to the larger community. Gives opportunities for residents to
+support and be supported.
+
+24
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+○ Trauma-informed housing: To create equitable and accessible
+experiences for residents with disabilities, a trauma informed approach
+must be applied. We refer to our partners at Preservation of Affordable
+Housing (POAH) who released a Trauma-Informed Housing toolkit.23
+
+Response to 8 (b):
+In general, we encourage the flexibility of homes as much as possible to accommodate
+mobility accessibility because people with mobility disabilities use assisted devices that
+vary in size and maneuverability. Some people with mobility disabilities may switch
+between different devices day-to-day (e.g., between a manual wheelchair to walker to
+cane). Others may always use a larger power wheelchair with a larger turning radius.
+We also consider height as an access need that is adjacent to mobility-access needs
+and benefits from similar design features. To that end, we have included access needs
+for people with smaller stature in the list below.
+We have separated our comments into adaptations that can be made at move-in of a
+resident with height and mobility access needs and elements that should be integrated
+into initial construction, rehabilitation, or during modifications:
+● Adaptations:
+○ Washer and Dryers: Front loading, combined washer and dryer so that
+individuals who cannot reach a top loading machine can do their own
+laundry.
+○ Toilet Adaptation: Raised toilet seats on top of default lower tower seats
+to add options for different access needs.
+○ Roll-in Shower Mount: For roll-in showers a second mount in the shower
+for the hose so that the bathroom does not get drenched in water when
+the water turns on; hoses should also be long enough to reach second
+mount.
+○ Entry Door Security: Selected doors can be secured and unsecured
+using magnetic swipe cards, electronic key fobs, smart phones, numeric
+
+Trauma Informed Housing, “A Toolkit for Advancing Equity and Economic Opportunity in Affordable
+Housing,” 2023, https://traumainformedhousing.poah.org/
+23
+
+25
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+keypads, or other technology in lieu of keys for more convenient entry by
+residents with low dexterity or limited reach.
+○ Window Controls: Ensure window treatments have controls that come
+down to a maximum 44 inches high. Specify windows with mechanisms
+that meet ADA requirements for controls, and ensure there are no
+secondary latches mounted high, which is the case with many casement
+windows.
+○ Smart Home Controls: Allow and encourage the use of smart home
+controls that control lighting, local smoke alarms, HVAC, or other controls
+that can be activated by remote control (smartphone app, or similar) or
+voice command. Unit smoke/carbon monoxide alarms can be
+controlled/silenced with, and send notifications to, a smartphone app
+(should not include fire detection that is required to be build-wide).
+Incorporation will allow extensibility in the future as new technologies
+continue to develop.
+○ Outlet Extensions: Extensions for controls, switches, and outlets to
+increase vertical reachability. At the minimum they should be 18’’ min. to
+bottom of device, 42” max. to top of device, whether side or front reach, or
+reaching over obstruction and 25” max reach if across obstruction.
+○ Kick plates and wall protectors: Install additional kick plates and wall
+protectors for units that have wheelchairs that can be easier to keep clean
+and aesthetically pleasing than drywall.
+● Design:
+○ Navigable Floor Plans: Lay out dwelling units to ensure navigability.
+Especially in small units, ensure that standard-size beds and furniture will
+not prevent wheelchair maneuverability. Encourage open interior design
+which provides better natural light, enhancing well-being for everyone.
+Explore navigable floor plans early in the design process which can help
+determine placement of closets, windows, or similar, to yield a more
+usable unit. Avoid placing protruding mechanical equipment under
+windows that impair reach and reduce leverage for opening windows.
+Consider navigation of a unit with a ceiling-mounted Hoyer-type lift, or
+ceiling reinforcement for future lifts.
+
+26
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+○ Single-Story Units: If site topography or local parking requirements
+dictate it, a maximum of 25% of all units may be multi-story dwelling units
+or dwelling units that are not served by elevators but must meet the
+following requirements. The kitchen, one full bathroom, the living space,
+and at least one bedroom on an accessible floor level with the main entry.
+○ Kitchen Layout: Galley or U-shaped kitchens provide minimum 60 inches
+between cabinet faces or cabinets and projecting appliance faces.
+○ Kitchen & Bathroom faucets: Faucets should have a single lever for
+temperature and water flow control. Use levers that are easy to control for
+people with less dexterity. Select longer levers that require less reach over
+the sink. Longer spouts bring the water closer to the user.
+○ Dwelling Unit Closets: Provide accessible closet storage within the unit.
+Doors to closets should allow a minimum 32-inch clear width for forward
+approach (more stable and generally stronger than a side reach). Closets
+should include closet rods/shelves that are adjustable between 36 and 60
+inches for flexible use by people with different reach abilities and strength.
+○ Enable future installation of automatic door openers in Chapter 11B
+units: Units are equipped with a junction box and cover plate adjacent to
+the head of the door, on the dwelling unit side, to support easy future
+installation of a plug-in automatic door operator. Future operators can use
+a hand-held remote control or radio frequency wall-mounted button(s)
+inside the unit. Unlocking and unlatching for this type of installation still
+needs to be performed by the resident.
+○ Drawers in Base Cabinets: Provide drawers or roll-out shelves in 5075% of base cabinets. Provides more usable storage space that is easier
+to reach for someone who cannot stoop down to get items in the back of
+base cabinets. Provide some deeper drawers to allow for storage of larger
+items such as pots and other cookware.
+○ Door Viewers: Provide high and low, wide-angle door viewers (peep
+holes) in every unit entry door. Door viewers centered at 42 inches and 56
+inches high can benefit including but not limited to: children, wheelchair
+riders, and shorter adults. 180-degree door viewers allow people to better
+identify who is at the door for better security.
+
+27
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+○ Kitchen Countertop: Include at least one variable height kitchen
+countertop. Can be for the sink, work surface, and/or cooktop. Varies from
+28 to 42 inches high with a crank or by electric switch (with safety bar
+sensor on bottom to detect knees). Solid surface is more durable than
+plastic laminate.
+○ Roll in showers: Build into project 10-50% roll-in showers to
+accommodate as many access needs as possible. Distribute throughout
+project and unit types.
+○ Modeling assistive technology: Make sure units model the use of Hoyer
+lifts in bedrooms and tracks and harnesses in bathrooms to ensure there
+are units where these technologies can fit.
+
+Response to 8 (c):
+Increasing access for people with vision and hearing disabilities is essential to creating
+fair and inclusive housing experiences. Additionally, as with all advancements in
+accessibility, there will be benefits to all residents, those with and without disabilities.
+For those with vision disabilities, it is essential that HUD develop and maintain
+relationships with Blind and Low Vision-led organizations who can provide feedback on
+technological advancements and existing barriers within HUD and HUD recipients.
+For those with hearing disabilities, it is critical that HUD consider the shared language
+and cultures of Deaf, Hard of Hearing, and Blind communities. We urge HUD to partner
+with Deaf-led organizations and entities to ensure that federal housing solutions actively
+support Deaf culture(s) and sign languages.
+Below are examples of accessibility features for people with vision and hearing
+disabilities:
+● Paving Surface Wayfinding: Change of materials at entrance doors, transitions
+from one space to another, and in front of stairs and elevators. Assists in
+navigating the building. Should be cane detectable and not too rough to disrupt
+travel. Select colors for visibility to people with different sorts of color blindness;
+minimum luminance contrast of 50 percent as well.
+● Noise Isolation: Exceed required STC and IIC ratings to limit noise between
+dwelling units and between units and corridors. In addition to supporting a
+
+28
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+diverse range of access needs, it enhances privacy, enhances user comfort, and
+reduces neighbor disputes.
+● Outdoor Noise Control: All doors and windows exceed the required Sound
+Transmission Class (STC) to control outside noise sources. Enhances hearing
+and communication, reduces distractions, and enhances user comfort.
+● Low Glare Materials: Use wall and floor surfaces that are low glare. Matte
+surfaces and medium-value surfaces are better for reducing glare. This facilitates
+wayfinding for people with low vision and results in lower-slip floors.
+● Video Conferencing and Touch Screen with Audible Controls Call Boxes:
+Deaf and hard of hearing individuals need the ability to let visitors into their
+building. Most people use their smartphones or email to communicate with their
+visitors instead. Built in screen reading technology to digital interfaces can
+support people with vision impairments as well.
+● Acoustic Wayfinding: Use wall and ceiling surface materials and ceiling heights
+to differentiate spaces. Audible changes in the acoustic environment are a helpful
+guide for visually impaired people. Ceiling heights can indicate different functions
+for visual orientation. Circulation paths, atriums, or other large spaces can be
+articulated with spaces with different acoustic responses to indicate location
+(e.g., corridor intersections, unit entries, sitting areas vs. circulation areas, etc.).
+● Kitchen Lighting: Provide task lighting below upper cabinets. Specify
+downward-facing strip LEDs with a diffuser to avoid reflected glare off a tall, shiny
+backsplash for seated or shorter users. Creates shadow-free lighting for better
+visibility and safety for everyone. Provides another option for creating lighting
+moods for different users and seasons, thereby increasing a sense of comfort
+and wellness.
+
+Response to 8 (d):
+Similar to our earlier note that designing for people with disabilities benefits all
+residents, designing for people with disabilities especially benefits the increasing aging
+population. To that end, many of our recommendations are not senior specific but the
+access areas addressed in questions 8(a), 8(b) and 8(c) will benefit older adults. Other
+access needs that we see as needing accommodations are cognitive access, those
+who have support needs, and those who would benefit from better health and
+wellness – all of which benefit the aging populations.
+
+29
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+● Cognitive access: Defined as individuals who process information differently,
+have alternative language reception and/or communication preferences and
+needs, and need items or materials presented in different ways or speeds of
+information, and/or who use supports in understanding and content retention,
+information processing, and decision making/choice selection. Examples of
+cognitive access include:
+○ Entry Doors Hardware: Entry door manual hardware is cognitively clear.
+Hardware has design cues indicating the appropriate pushing or pulling
+action to open (e.g., plate or bar for pushing, U-shaped handle for pulling).
+○ Entry Doors Security: Exterior doors balance security and ease of
+resident entry. Self-locking exterior doors eliminate the possibility of
+residents forgetting to lock doors and outside people infiltrating the
+property.
+○ Background Noise: Avoid introducing background noise that can hamper
+communication. Video displays (in lobbies, gyms, etc.) should be silent or
+the volume should be easily controlled by occupants. Avoid background
+music in lobbies and other shared spaces.
+○ Differentiation of Spaces: Interior wayﬁnding system differentiates
+primary routes, zones, or nodes using variations in ﬂooring, lighting, color,
+ceiling height, materials, and/or other architectural features.
+■ Color-code or have unique materials for each floors' elevator
+lobbies for orientation.
+■ Select colors for visibility to people with different sorts of color
+blindness; minimum luminance contrast of 50 percent as well.
+■ Assists older adults with memory issues, people with cognitive
+impairments that affect orientation, and people who cannot read or
+understand signage.
+○ Walking Surface Patterns:
+■ Avoid confusing patterns on interior floor and exterior paving
+walking surfaces.
+
+30
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+■ Carpets and flooring with busy visual patterns can be distracting for
+people with low vision and disorienting to people with cognitive
+differences.
+■ Complex patterns can obscure tripping hazards, especially rocks,
+branches, etc. outside.
+● Support Needs is defined as individuals who use support services in their home
+and/or the community including but not limited to direct support professionals,
+health aides, nursing support, behavioral supports, and individualized therapies.
+This also includes individuals using in-house family support for mobility or other
+assistance. Examples include:
+○ In overall design and operations, there can be designated staff and
+support provider spaces.
+○ Staffing elements such as: 24/7 On-Call Support and Service-Provider
+Gap Support.
+○ Carsharing Support.
+○ Adult changing room in common area restrooms.
+● Health and Wellness is defined as individuals who have chronic health
+conditions, who have allergies and chemical sensitivities, are
+immunocompromised, and/or regularly utilize medical and/or therapeutic
+services. Examples include:
+○ Building Components related to Air Quality / HVAC should address
+pollution, filtration, ceiling fans, amongst others.
+○ Elevator Foot Controls.
+○ Hazardous Waste Disposal Bins in common restrooms.
+○ Flexibility lighting in units.
+○ Unit Trash Collection.
+
+31
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Response to 8 (e):
+Some suggestions of accessibility features that could benefit children along with people
+with disabilities:
+● Dual Handrails: Stairs and ramps have high and low handrails – one handrail at
+36” and another at 30” above the nosing – which provides safety for children and
+shorter adults. For ramps, someone in a wheelchair can slow their descent or pull
+themselves up the ramp more easily with better leverage than pushing a
+wheelchair.
+● Directional Signage: Signs have pictograms for children, also benefits nonEnglish speakers, people with learning disabilities, and others who cannot read.
+
+Response to 8 (f):
+In older buildings, the number one complaint we hear is about people with disabilities
+who are stuck in their homes for days, weeks, or months because of elevator outages.
+For new construction there should be a second elevator in case the first one requires
+maintenance so that people with disabilities do not get stuck on non-ground floors.
+Additionally, requiring more regular maintenance of elevators and allowing for elevator
+repair and replacement reserve funds should be encouraged.
+
+Response to 9 (a):
+As more jurisdictions consider cost-saving measures to build affordable housing,
+industrialized construction (IC) or modular construction technologies are being used
+more often. To take advantage of cost and time saving related to IC, factories order bulk
+materials in advance and configure their factory assembly when building permits are
+reviewed. When there are changes that are required by municipalities after permit
+approval there is an outsized impact than on traditionally built construction. Anecdotally
+we hear that many of the changes requested by municipalities that result in changes in
+cost estimates or timelines in IC are related to interpretation of disability access code
+and what is permissible. HUD should encourage jurisdictions to restrict changes in
+accessibility requirements after permit approval to reduce the uncertainty of this
+emerging technology and bring affordable housing units online faster.
+
+32
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Response to 9 (b):
+Overall, we see a significant need to improve evacuation measures in multi-story
+buildings. Currently, people with disabilities are instructed to go to the stairwell and wait
+for help if the elevator is out of service or should not be used (e.g., in a fire emergency),
+but not every building has a designated person to help people evacuate from the
+stairwell or neighbors are unable to provide help.
+A couple of suggestions that could strengthen people’s safety in the case of an
+emergency:
+● A requirement for buildings to have a protected Areas of Refuge (usually at the
+elevator lobby), with increased communication tools to communicate with first
+responders.
+● Backup power that is based on regenerative batteries rather than diesel-powered
+generators. This power could be used to safely operate elevators for evacuation
+purposes only. Also, in the event of a disaster that results in power outage, these
+could be important for refrigeration back-up for important medications, air
+purification systems when the air quality outside is dangerous, and other back up
+power mechanisms for people who need power for their medical and access
+devices. The technology for regenerative batteries in multi-family housing is not
+there yet, so we would encourage government investment to identify a scalable
+solution.
+
+Response to 10:
+A reasonable accommodation process should be seen as a stopgap measure for
+residents with disabilities. When cross-disability access needs are considered and
+flexible approaches are taken to multi-family residential design, less structural
+reasonable accommodations should be needed. A key feature of cross-disability design
+is to recognize that one size does not fit all, and to consciously discuss and pinpoint
+when access needs may not be met, such as why the access needs could not be fully
+met for certain individuals or when there are competing access needs. At these points
+the reasonable accommodation process should begin.
+Our comments for reasonable accommodations are both procedural and identify the
+type of accommodations that should be within a list that can be requested:
+● Procedural:
+
+33
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+○ In February 2022, the Office of the Inspector General at HUD found that
+the agency “Did Not Have Adequate Policies and Procedures for Ensuring
+Public Housing Agencies Properly Processed Requests for Reasonable
+Accommodation.” 24 These findings validate the stories disabled people
+and their families have been sharing for generations: that people struggle
+tremendously to get their accommodations met in both the process of
+applying for housing and when they are living there. The ramifications of
+not providing reasonable accommodation can directly threaten the health
+and well-being of residents and can create barriers for people to get into
+housing.25 There are recommendations in the report that HUD must
+implement.
+○ Texas Administrative Code §1.204 (see attachment 5) is an example of a
+superior accommodation procedure that HUD can model and PHAs
+should follow to reduce barriers to housing access and increase the
+timeliness of response by housing providers. Rules can decrease the
+burden on housing providers as well as make them responsive and
+accountable. The rule also includes examples, which helps housing
+entities understand how this will play out in real life.
+● Examples of accommodations include but are not limited to:
+○ An individual with a mental health disability may request a reasonable
+modification to have additional locks on their door so that they have a
+better sense of safety and security.
+○ A housing provider might be asked to waive a requirement for a guest fee
+or lease addition for a live-in home health aide.
+○ A housing provider may be asked to waive their no-cosigners rule for an
+applicant with a disability who was unable to work and therefore could not
+meet the minimum income requirement.
+
+United States Department of Housing and Urban Development: Office of Inspector General, “HUD Did
+Not Have Adequate Policies and Procedures for Ensuring That Public Housing Agencies Properly
+Processed Requests for Reasonable Accommodation,” February 7, 2022,
+https://www.hudoig.gov/reports-publications/report/hud-did-not-have-adequate-policies-and-proceduresensuring-public
+25
+National Library of Medicine: National Center for Biotechnology Information, “Housing Accessibility WHO Housing and Health Guidelines,” 2018, https://www.ncbi.nlm.nih.gov/books/NBK535300/
+24
+
+34
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+○ A housing provider may be asked to provide the resident additional time to
+come into compliance with various lease requirements. For example, an
+individual with a hoarding mental illness may be asked to clean their home
+to provide adequate fire routes but the housing provider should give the
+resident at minimum two weeks to become in compliance because
+cleaning their home is a difficult process both emotionally and physically.
+○ A housing provider may be asked to waive their requirement that rent be
+paid in person when someone has a disability that limits their ability to use
+transportation or a mental health disability where they are not able to
+leave their home.
+○ An individual with intellectual and developmental disabilities or a mental
+health disability may need support with housing-related management
+activities. For example, a housing provider may be asked to call with a
+reminder that rent is due in a couple of days if someone has difficulty
+remembering to pay.
+○ Service animals: For non-pet rentals, property owners will often ask on
+rental applications if you have an “animal” or even a “service animal”
+instead of a “pet” which requires the applicant to either disclose their
+protected status (which is likely to result in the property owner not
+responding back to the applicant as opposed to an outright denial) or lie
+on their rental application which is often a lease violation that can justify
+eviction proceedings. There should be a prohibition on these types of
+questions on rental applications so that a disabled person’s protected
+class is not revealed. HUD regulations on service animals already state
+that the reasonable accommodation can be requested after the resident
+has already moved in so this needs to be harmonized with rental
+application questions. The same protection should be given to individuals
+who need an emotional support animal. Additionally, housing providers will
+pass on additional unnecessary costs after move-out which may or may
+not be outlined in a “service animal addendum.” For example, even if the
+service animal did not cause any damage to the property housing
+providers often require a deodorization and/or defleaing of the unit which
+is exorbitantly expensive for the tenant and unnecessary unless urine and
+fleas are detected.
+
+35
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+Response to 11:
+As a production focused organization, The Kelsey looks to our partners in tenant rights
+and protection for comprehensive recommendations on how 504 investigations can be
+improved. We recommend the following improvements to be made:
+● The entities that can file complaints should be expanded to include organizations
+and associations. Currently, organizations and associations whose members
+include people with disabilities are not authorized to file complaints on behalf of
+their members, which places the burden on the members who have less
+resources and capacity.
+● Section 504 regulation should provide guidance explaining what circumstances
+complaints should be kept with HUD and not referred to state or other agencies
+because non-federal agencies have less capacity and usually have backlogs of
+several months, which results in dismissals despite the complacent having
+sufficient evidence to pursue a claim of discrimination.
+● HUD should increase the expiration date for filing S504 complaints from 180
+days to one year which would mirror the Fair Housing Act timeline and reduce
+confusion.
+
+Response to 13 (a):
+Due to the disproportionality of disability across LGBTQIA+ populations, communities of
+color, unhoused people, and immigrant communities, among others, improving access
+and fairness for disabled people in federal housing can only be realized by using an
+intersectional approach to access and inclusion.
+Disability-related discrimination reports to FHOs, HUD, and FHAP agencies account for
+53.68 percent of all submissions, and race-related complaints account for the second
+highest at 18.97 percent.26 Therefore, non-white disabled people, as well as disabled
+people who hold multiple marginalized identities and/or who receive federal assistance,
+are at risk of experiencing compounded types of discrimination.27
+Moreover, there is a historic lack of trust in government officials and federal agencies
+that should be considered when attempting to share information with multiply
+marginalized disabled people. Many people may be reluctant to utilize the services
+available to them because of past discriminatory experiences.
+Lindsay Augustine et. al, “2022 Fair Housing Trends Report,” 2022, https://nationalfairhousing.org/wpcontent/uploads/2022/11/2022-Fair-Housing-Trends-Report.pdf
+27
+Lindsay Augustine et. al, “2021 Fair Housing Trends Report,” 2021, https://nationalfairhousing.org/wpcontent/uploads/2021/10/trends-2021-c.pdf
+26
+
+36
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+People in marginalized communities are disproportionately policed which results in
+higher rates of criminal records which impacts their ability to be fairly considered for
+housing and housing assistance programs. HUD must continue to reduce housing
+barriers for people with criminal records. Yet, as more HUD guidance comes out
+related to people with criminal records, there should be explicit inclusion of program
+and protocol best practices for people with disabilities who have criminal records.
+Additionally, HUD should also consider the use of artificial intelligence, or AI, as a
+unique barrier faced by multiply marginalized disabled people attempting to access
+housing.28 AI software is often used by housing administration to determine who is
+“appropriate for” housing. AI pulls unfair predictors such as credit, education, and
+criminal history, and this practice disproportionately impacts multiply marginalized
+people with disabilities who may not have access to a certain social status.
+Below we break down some of the specific experiences of multiply marginalized
+people with disabilities:
+● Native Americans and Native Alaskans with disabilities
+○ A disproportionate number of American Indians and Alaska Natives have
+a disability. The Centers for Disease Control and Prevention found that
+Native people overall are 50.3% more likely to have a disability, when
+compared to the national average.29 Some barriers to access to services
+within housing are inadequate funding and personnel shortages. HUD can
+make regulatory changes that improve coordination among agencies and
+that help identify persons eligible for services.
+○ Native Hawaiians were three times less likely to have access to mental
+health resources than their white counterparts, on top of experiencing
+increasing housing crises and gentrification in Hawaii.
+○ What constitutes a disability can vary across cultures and given that every
+tribe across the U.S. has its own cultural traditions and beliefs, it is
+important to recognize this and seek to incorporate varying perspectives in
+Charlton McIlwain, “AI has exacerbated racial bias in housing. Could it help eliminate it instead?,”
+October 20, 2020, https://www.technologyreview.com/2020/10/20/1009452/ai-has-exacerbated-racialbias-in-housing-could-it-help-eliminate-it-instead/
+29
+Centers for Disease Control and Prevention, “Racial/Ethnic Disparities in Self-Rated Health Status
+Among Adults With and Without Disabilities—United States, 2004-2006,”
+http://www.cdc.gov/mmwr/preview/mmwrhtml/mm5739a1.htm
+28
+
+37
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+the definition of “person with a disability.” In fact, most Native languages
+do not include a word equivalent to “disability.”30
+○ Colonial context frames attitudes around federal administered and
+financed programs and services for tribal governments and individual
+Native Americans with disabilities. HUD should explicitly recognize that
+tribal governments are distinct sovereign entities that should have
+increased flexibility around implementing their funding and programs,
+while also ensuring that they follow necessary guidelines for accessibility
+and inclusion. To achieve this there needs to be extensive consultation
+with tribes to ensure that cultural differences are considered.
+○ HUD has been tasked with the responsibility to carry out trust obligations
+between the federal government and Native Nations in the housing realm,
+but officials are not well versed in disability issues and need culturally
+informed training. Conversely, national disability organizations are
+knowledgeable about disability, but not about Native culture. This hinders
+the development of successful policies and services for Native people with
+disabilities.
+○ Many Native tribes and individuals believe that mental illness is a
+disruption of one’s spirituality or spiritual belonging and therefore need
+spiritual support and interventions. HUD should make it clear that Native
+people (and other individuals from non-western religions) may request
+reasonable accommodations or modifications based on their religious
+beliefs. For example, a person who is mentally ill may submit a reasonable
+accommodation to use medicinal sage in their home or a reasonable
+modification to build a sweat lodge on their property if their community
+does not provide one. Cultural renewal and deepened connection to one’s
+spirituality has been shown to be an effective strategy in addressing
+negative health outcomes.31
+○ Despite the disproportionate rate of disability among Native people, they
+are less likely to seek institutional or formal services and supports,
+primarily because of a lack of trust in the U.S. healthcare system because
+it has historically been a source of discrimination and violence (i.e. forced
+
+30
+
+Hilary N. Weaver, "Disability through a Native American lens: Examining influences of culture and
+colonization,” pp. 18-32, August 19, 2015, doi: 10.1080/1536710X.2015.1068256
+31
+F. W. Young, “Social activism and disability rates in American Indian tribes, Cross-Cultural Research,”
+p. 418–432, 2005, doi:10.1177/1069397105276691
+
+38
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+sterilizations).32 HUD should issue guidance that Native people are able to
+choose their own service providers to ensure they are offering culturally
+appropriate care. For example, Assist to Independence provides services
+on the Navajo, Hopi, and Southern Paiute reservations to help people
+improve functional skills and enhance their overall quality of life.
+○ Due to the ongoing legacy of colonial violence and other systemic
+injustices, Native Americans have higher rates of alcohol use disorders
+compared with other racial groups (10.7% versus 7.6%)33 and as a result
+are at risk of higher rates of discrimination based on this disability.
+Additionally, the 2018 NSDUH revealed that nearly 1 in 5 Native American
+young adults (aged 18-25 years) has a substance use disorder, including
+11% with illicit drugs and 10% with alcohol.34 non-tribal grantees and other
+entities need guidance on how to adequately provide accommodations
+and other supports to these individuals without perpetuating long standing
+stereotypes and harm.
+○ Native people need equal access to cultural spaces that the tribe provides
+(e.g., sweat lodges, community houses, recreational rooms).
+● African American/Black people with disabilities
+○ In 2020, one in four disabled Black adults lived in poverty compared to
+just over one in seven of their white counterparts35. The high rates of
+poverty and struggle to afford housing have only exasperated during the
+pandemic. One year after the pandemic, nearly 40 percent of renters
+with any disability experienced housing insecurity, in that they either
+deferred paying their rent or reported no or slight confidence in their
+ability to pay next month’s rent. This is substantially higher than the
+national average of 25 percent. Disabled Black and Hispanic renters
+were especially likely to be housing insecure, at 52 percent and 50
+percent.36
+
+32
+
+Gregory W. Rutecki, "Forced sterilization of Native Americans: Later twentieth century physician
+cooperation with national eugenics policies?," p. 33-42, 2011.
+33
+Native American Center for Excellence. (2008). Environmental Scan Summary Report.
+34
+Substance Abuse and Mental Health Services Administration, “2018 National Survey on Drug Use and
+Health Detailed Tables,” 2019, https://www.samhsa.gov/data/report/2018-nsduh-detailed-tables
+35
+Rebecca Vallas et. al, "Economic Justice Is Disability Justice," April 21, 2022,
+https://tcf.org/content/report/economic-justice-disability-justice/
+36
+Jaboa Lake, Valerie Novack, Mia Ives-Rublee, "Recognizing and Addressing Housing Insecurity for
+Disabled Renters," May 27, 2021, https://www.americanprogress.org/article/recognizing-addressing-
+
+39
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+○ As HUD continues its efforts of closing the African American
+homeownership gap, there should be an evaluation and the appropriate
+changes made to ensure that Black disabled people are not left behind
+or experience access barriers.
+○ Because of redlining and other discriminatory land use policies, Black
+Americans disproportionately endure housing barriers related to HUD
+construction backlogs and impacts of environmental racism. All of which
+can lead to new disabilities developing or worsening of existing
+disability-related symptoms.
+● Asian Americans and Pacific Islanders with disabilities
+○ Asians and Asian Americans face unique social barriers and stigma
+surrounding both mental health and socioeconomic status. Not only do
+familial and cultural values lead Asians to struggle more in bringing up any
+mental health issues they suffer,37 but the model-minority myth also leads
+to a general societal bias against the idea of Asians needing either mental
+health or economic assistance.
+● Immigrants with disabilities:
+○ HUD can apply an access and inclusion lens to ensure that disabled
+immigrants are accessing all programs they are eligible for. HUD can
+continue to expand guidance and flexibility for immigrants with and without
+disabilities and build from the existing resources including “Operation
+Allies Welcome.”38
+
+Response to 13 (b):
+● Complaint forms are available in non-English languages, but navigating to them
+on the HUD website can be incredibly difficult because government agency
+websites are in English.
+● Many housing providers covered by Section 504 fail to provide language
+housing-insecurity-disabled-renters/
+37
+Grace Galletti, “How the Mental Health System Fails Asian Americans - And How to Help,” February 2,
+2022, https://www.calhealthreport.org/2022/02/02/heres-why-many-asian-americans-dont-get-mentalhealth-care-and-how-to-help/
+38
+U.S. Department of Housing and Urban Development, "Operation Allies Welcome - HUD Programs &
+Resources," November, 29, 2021, https://www.hud.gov/sites/dfiles/FPM/documents/HUD-HCCFactsheet-4-22.pdf.pdf
+
+40
+
+One Sansome Street, 35th Floor
+San Francisco, CA 94103
+www.thekelsey.org
+
+assistance services for people with limited English proficiency (LEP) as
+required under Title VI. HUD should make clear that the provision of auxiliary
+aids and services in English only for people with disabilities who also have LEP
+may violate Section 504 (as well as Title VI and the Fair Housing Act).
+● All auxiliary aids and services should be translatable into the language of the
+tenant.
+● It is also critical to fund and partner with auxiliary aids and service providers
+that are led and/or co-led by those with lived experience. This will increase the
+effectiveness of the translations and will help to resource minority-run entities.
+Thank you for your consideration of these comments. Any questions can be directed to
+Allie Cannington (allie@thekelsey.org) or Hunter Herrera-McFarland
+(hunter@thekelsey.org). We look forward to commenting on the NPRM.
+
+Sincerely,
+The Kelsey
+
+41
+
+

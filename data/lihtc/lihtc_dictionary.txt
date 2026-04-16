@@ -1,0 +1,1195 @@
+HUD National Low Income Housing Tax Credit (LIHTC) Database
+1987-2023 Data Dictionary (April 2025)
+File name: LIHTCPUB, n=54,102
+
+Variable Name Variable Definition
+HUD_ID
+Unique Project Identifier for the Database —
+characters 1-3: Allocating agency code (see table below)
+digits 4-7: Year placed in service (0000 or 0001 if unknown or
+missing)
+digit 8: Number of years record was added to database after
+initial request, e.g. 1= 2015 property reported to HUD with
+2016 update (0 if property added to DB prior to 2015 update)
+digits 9-11: Record number within allocating agency and year
+placed in service
+PROJECT
+Project name
+PROJ_ADD
+
+Variable
+Type*
+A
+
+Decimal
+Places
+
+A
+
+Project street address
+
+A
+
+PROJ_CTY
+
+Project city
+
+A
+
+PROJ_ST
+
+Project state
+
+A
+
+PROJ_ZIP
+
+Project zip
+
+A
+
+STATE_ID
+
+State-defined Project ID
+
+A
+
+LATITUDE
+
+Latitude: Degrees Decimal
+
+N
+
+6
+
+LONGITUD
+
+N
+
+6
+
+PLACE1990
+
+Longitude: Negative Degrees Decimal -- GIS Mapping
+Convention
+Census Place Code (1990)
+
+PLACE2000
+
+FIPS Place Code (2000)
+
+A
+
+PLACE2010
+
+FIPS Place Code (2010)
+
+A
+
+PLACE2020
+
+FIPS Place Code (2020)
+Unique 1990 Census Tract ID -digits 1-2: State FIPS Code
+digits 3-5: County FIPS Code
+digits 6-11: Census Tract Number (decimal point excluded)
+Unique 2000 Census Tract ID -digits 1-2: State FIPS Code
+digits 3-5: County FIPS Code
+digits 6-11: Census Tract Number (decimal point excluded)
+Unique 2010 Census Tract:
+digits 1-2: State FIPS Code
+digits 3-5: County FIPS Code
+digits 6-11: Census Tract Number (decimal point excluded)
+Unique 2020 Census Tract:
+digits 1-2: State FIPS Code
+digits 3-5: County FIPS Code
+digits 6-11: Census Tract Number (decimal point excluded)
+
+A
+
+SCATTERED
+
+Scattered Site Property 2017
+
+N
+
+RESYND
+
+Resyndicated Property 2017
+
+FIPS1990
+
+FIPS2000
+
+FIPS2010
+
+FIPS2020
+
+ALLOCAMT
+N_UNITS
+
+Annual dollar amount of tax credits allocated
+Total number of units as reported by HFA
+
+A
+
+A
+
+If county or tract missing, replaced
+with ‘X’.
+
+A
+
+If county or tract missing, replaced
+with ‘X’.
+
+A
+
+If county or tract missing, replaced
+with ‘X’.
+
+A
+
+If county or tract missing, replaced
+with ‘X’.
+
+N
+2006
+
+Value Labels
+* Note: Beginning with the 2015
+database update, digit 8 (see
+variable definition) was added to
+HUD_ID.
+
+1=Yes
+2=No
+1=Yes
+2=No
+
+N
+N
+
+LI_UNITS
+
+Total number of low income units as reported by HFA
+
+N
+
+N_0BR
+
+Number of efficiencies
+
+N
+
+N_1BR
+
+Number of 1-bedroom units
+
+N
+
+N_2BR
+
+Number of 2-bedroom units
+
+N
+
+N_3BR
+
+Number of 3-bedroom units
+
+N
+
+N_4BR
+
+Number of 4-bedroom units
+
+N
+
+AFF_PERIOD
+
+Affordability period longer than the LIHTC minimum of 30 years
+
+N
+
+AFF_YRS
+
+Affordability Period if more than 30 years
+
+N
+
+INC_CEIL
+
+Elected rent/income ceiling for low income units
+
+N
+
+LOW_CEIL
+
+Units set aside with rents lower than elected rent/income
+ceiling 2006
+
+N
+
+1=Yes
+2=No
+3=not reported
+1=50% AMGI
+2=60% AMGI
+3=Income Average
+9=Not Reported
+1=Yes
+2=No
+
+1
+
+Variable Name
+CEILUNIT
+
+Variable
+Type*
+N
+
+YR_PIS
+
+Variable Definition
+Number of units set aside with rents lower than elected
+rent/income ceiling 2006
+Year placed in service
+
+YR_ALLOC
+
+Allocation year
+
+A
+
+NON_PROF
+
+Non-profit sponsor
+
+N
+
+BASIS
+
+Increase in eligible basis
+
+N
+
+BOND
+
+Tax-exempt bond received
+
+N
+
+MFF_RA
+
+HUD Multi-Family financing/rental assistance
+
+N
+
+FMHA_514
+
+FmHA (RHS) Section 514 loan
+
+N
+
+FMHA_515
+
+FmHA (RHS) Section 515 loan
+
+N
+
+FMHA_538
+
+FmHA (RHS) Section 538 loan
+
+N
+
+HOME
+
+HOME Investment Partnership Program funds 2003
+
+N
+
+HOME_AMT
+
+Dollar amount of HOME funds 2006
+
+N
+
+TCAP
+
+Tax Credit Assistance Program (TCAP) funds 2012
+
+N
+
+TCAP_AMT
+
+TCAP Amount 2012
+
+N
+
+CDBG
+
+Community Development Block Grant (CDBG) funds 2003
+
+N
+
+CDBG_AMT
+
+Dollar amount of CDBG funds 2006
+
+N
+
+HTF
+
+Housing Trust Fund funds 2018
+
+N
+
+HTF_AMT
+
+Dollar amount of Housing Trust Fund funds 2018
+
+N
+
+FHA
+
+FHA-insured loan 2003 (FHA Loan Numbers 2006)
+
+N
+
+HOPEVI
+
+Forms part of a HOPEVI development 2003
+
+N
+
+HPVI_AMT
+
+N
+
+TCEP
+
+Dollar amount of HOPEVI funds for development or building
+costs 2006
+Tax Credit Exchange Program (TCEP) funds 2012
+
+TCEP_AMT
+
+Dollar amount of TCEP funds 2012
+
+N
+
+RAD
+
+Housing Trust Fund funds 2018
+
+N
+
+QOZF
+
+Qualified Opportunity Zone Fund funds 2018
+
+N
+
+QOZF_AMT
+
+Dollar amount of Qualified Opportunity Zone Fund funds 2018
+
+N
+
+RENTASST
+
+Federal or state project-based rental assistance contract 2006
+(HUD Property ID 2012)
+
+N
+
+TRGT_POP
+
+N
+
+TRGT_FAM
+
+Targets a specific population with specialized services or
+facilities 2003
+Targets a specific population – families 2003
+
+TRGT_ELD
+
+Targets a specific population – elderly 2003
+
+A
+
+TRGT_DIS
+
+Targets a specific population – disabled 2003
+
+A
+
+TRGT_HML
+
+Targets a specific population – homeless 2003
+
+A
+
+A
+
+N
+
+A
+
+Decimal
+Places
+
+Value Labels
+
+1987-2023=year placed in service
+8888=placed in service status not
+confirmed
+9999=placed in service status
+confirmed, but placed in service
+year missing
+See YR_PIS for missing codes
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+
+1=Yes
+2=No
+1=Yes
+2=No
+1=Yes
+2=No
+1=Federal
+2=State
+3=Both Federal and State
+4=Neither
+5=Unknown whether Federal or
+State
+1=Yes
+2=No
+1=Yes
+2=No
+0 or blank = Not indicated
+1=Yes
+2=No
+0 or blank = Not indicated
+1=Yes
+2=No
+0 or blank = Not indicated
+1=Yes
+2=No
+0 or blank = Not indicated
+
+2
+
+Variable
+Type*
+A
+
+Variable Name
+TRGT_OTH
+
+Variable Definition
+Targets a specific population – other 2003
+
+TRGT_SPC
+
+Targets a specific population – other as specified 2003
+
+A
+
+TYPE
+
+Type of construction
+
+N
+
+CREDIT
+
+Type of credit percentage
+
+N
+
+N_UNITSR
+
+Total number of units or if total units missing or inconsistent,
+total low-income units
+Total number of low-income units or if total low-income units
+missing, total units
+Is the census tract metro or non-metro at the time the property
+was placed into serivce?
+
+N
+
+Is the census tract in a difficult development area?
+
+N
+
+LI_UNITR
+METRO
+DDA
+
+Is the census tract a qualified census tract?
+
+N
+
+N
+
+(For projects placed in service prior to 2003, QCT is based on 1990 Census tract
+boundaries. For projects placed in service between 2004 and 2012, QCT is
+based on 2000 Census tract boundaries. For properties placed in service
+between 2013 and 2023, QCT is based on 2010 Census tract boundaries.
+
+NONPROG
+
+No longer monitored for LIHTC program compliance due to
+expired use or other reason 2012
+
+Value Labels
+1=Yes
+2=No
+0 or blank = Not indicated
+1=New construction
+2=Acquisition and Rehab
+3=Both new construction and A/R
+4=Existing
+1=30 percent present value
+2=70 percent present value
+3=Both
+4=TCEP only
+
+N
+
+(DDA status is based on placed in service year.)
+
+QCT
+
+Decimal
+Places
+
+A
+
+1=Metro/Non-Central City
+2=Metro/Central City
+3=Non-Metro
+0=Not in DDA
+1=In Metro DDA
+2=In Non-Metro DDA
+3=In Metro GO Zone DDA
+4=In Non-Metro GO Zone DDA
+1=In a qualified tract
+2=Not in a qualified tract
+1=Yes
+
+(Status of no longer being monitored for the LIHTC Program is indicated for projects
+as specified by the allocating agency. This does not indicate whether or not a
+project remains affordable to low income populations.)
+
+NLM_REASON
+
+Reason property is no longer monitored for LIHTC 2018
+
+Reason property is no longer monitored for LIHTC – other as
+specified 2018
+DATANOTE
+Notes about data record changes processed for database
+update.
+RECORD_STAT Record Status compared to previous version of LIHTC database
+
+1=Completed Extended-Use
+Period
+2=Sale under Qualified Contract
+3=Other
+
+NLM_SPC
+
+A
+A
+
+N=New
+U=Updated
+X=Existing (Unchanged from
+previous DB version)
+
+* A=Alphanumeric, contains characters and numbers; N=Numeric, contains numbers including decimal points and negative signs.
+2003
+
+Information first requested with the 2003 properties: HOME; CDBG; FHA; HOPEVI; TRGT_POP; TRGT_FAM; TRGT_ELD; TRGT_DIS;
+TRGT_HML; TRGT_OTH; TRGT_SPC
+2006
+Information first requested with the 2006 properties: INC_CEIL; LOW_CEIL; HOME_AMT; CDBG_AMT; RENTASST
+2009
+Information first requested with the 2009 properties:
+2012
+Information first requested with the 2012 properties: TCAP; TCAP_AMT; TCEP; TCEP_AMT
+2015
+Prior to collection of 2012 properties, NONPROG was informally reported to HUD.
+2018
+Information first requested with the 2018 properties: SCATTERED; RESYND; HTF; HTF_AMT; RAD; QOZF; QOZF_AMT
+
+3
+
+Multi-Address / BIN File
+File name: LIHTCPUB_BIN, n=145,059
+Variable Name
+
+Variable Definition
+
+HUD_ID
+
+Unique Project Identifier for the Database —
+characters 1-3: Allocating agency code (see table below)
+digits 4-7: Year placed in service (0000 or 0001 if unknown or
+missing)
+digit 8: Number of years property was added to database after
+initial request, e.g. 1= 2015 property reported to HUD with
+2016 update (0 if property added to DB prior to 2015 update)
+digits 9-11: Record number within allocating agency and year
+placed in service
+Project name
+
+PROJECT
+
+Variable
+Type*
+A
+
+Decimal
+Places
+
+Value Labels
+* Note: Beginning with the 2015
+database update, digit 8 (see
+variable definition) was added to
+HUD_ID.
+
+A
+
+PROJ_ST
+
+Project state
+
+A
+
+STATE_ID
+
+State-defined Project ID
+
+A
+
+BIN
+
+Building Identification Number
+
+A
+
+BIN_ADD
+
+Building street address
+
+A
+
+BIN_CTY
+
+Building city
+
+A
+
+BIN_ZIP
+
+Building ZIP code
+
+A
+
+4
+
+Allocating Agency Codes Used in HUD_ID
+AKA
+
+Alaska Housing Finance Corporation
+
+NCA
+
+North Carolina Housing Finance Agency
+
+ALA
+
+Alabama Housing Finance Authority
+
+NDA
+
+North Dakota Housing Finance Agency
+
+ARA
+
+Arkansas Development Finance Authority
+
+NEA
+
+Nebraska Investment Finance Authority
+
+AZA
+
+Arizona Department of Housing
+
+NHA
+
+New Hampshire Housing Finance Authority
+
+ASA
+
+Development Bank of American Samoa
+
+NJA
+
+New Jersey Housing and Mortgage Finance Agency
+
+CAA
+
+California Tax Credit Allocation Committee
+
+NMA
+
+New Mexico Mortgage Finance Agency
+
+COA
+
+Colorado Housing and Finance Authority
+
+NVA
+
+Nevada Department of Business and Industry - Housing Division
+
+CTA
+
+Connecticut Housing Finance Authority
+
+NYA
+
+New York State Division of Housing and Community Renewal
+
+DCA
+
+District of Columbia Housing Finance Agency
+
+NYB
+
+New York State Housing Finance Agency
+
+DCB
+
+DC Department of Housing and Community Development
+
+NYC
+
+DEA
+
+Delaware State Housing Authority
+
+NYD
+
+City of New York, Department of Housing Preservation and
+Development
+Development Authority of the North Country (NY)
+
+FLA
+
+Florida Housing Finance Corporation
+
+NYE
+
+New York City Housing Development Corporation
+
+GAA
+
+OHA
+
+Ohio Housing Finance Agency
+
+GUA
+
+Georgia Department of Community Affairs/
+Georgia Housing and Finance Authority
+Guam Housing and Urban Renewal Authority
+
+OKA
+
+Oklahoma Housing Finance Agency
+
+HIA
+
+Hawaii Housing and Community Development Corporation
+
+ORA
+
+Oregon Housing and Community Services
+
+IAA
+
+Iowa Finance Authority
+
+PAA
+
+Pennsylvania Housing Finance Agency
+
+IDA
+
+Idaho Housing and Finance Association
+
+PRA
+
+Puerto Rico Housing Finance Corporation
+
+ILA
+
+Illinois Housing Development Authority
+
+RIA
+
+Rhode Island Housing
+
+ILB
+
+City of Chicago Department of Housing
+
+SCA
+
+South Carolina State Housing Finance and Development Authority
+
+INA
+
+Indiana Housing Finance Authority
+
+SDA
+
+South Dakota Housing Development Authority
+
+KSA
+
+TNA
+
+Tennessee Housing Development Agency
+
+KYA
+
+Kansas Department of Commerce and Housing/
+Kansas Housing Resources Corporation
+Kentucky Housing Corporation
+
+TXA
+
+Texas Department of Housing and Community Affairs
+
+LAA
+
+Louisiana Housing Finance Agency
+
+UTA
+
+Utah Housing Finance Agency/Utah Housing Corporation
+
+MAA
+
+MassHousing/Massachusetts Housing Finance Agency
+
+VAA
+
+Virginia Housing Development Authority
+
+MAB
+
+Massachusetts Department of Housing and Community Development
+
+VIA
+
+Virgin Islands Housing Finance Authority
+
+MAC
+
+MassDevelopment
+
+VTA
+
+Vermont Housing Finance Agency
+
+MDA
+
+Maryland Department of Housing and Community Development
+
+WAA Washington State Housing Finance Commission
+
+MEA
+
+Maine State Housing Authority
+
+WIA
+
+MIA
+
+Michigan State Housing Development Authority
+
+WVA West Virginia Housing Development Fund
+
+MNA
+
+Minnesota Housing Finance Authority
+
+WYA Wyoming Community Development Authority
+
+MOA Missouri Housing Development Commission
+MPA
+
+Northern Marianas Housing Corporation
+
+MSA
+
+Mississippi Home Corporation
+
+MTA
+
+Montana Department of Commerce, Board of Housing
+
+Wisconsin Housing and Economic Development Authority
+
+YR_PIS
+1987
+1988
+1989
+1990
+1991
+1992
+1993
+1994
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+8888
+9999
+Total
+
+N
+(new)
+
+1
+2
+7
+3
+4
+3
+1
+1
+5
+1
+2
+2
+3
+5
+3
+2
+4
+2
+1
+2
+9
+4
+6
+8
+29
+44
+98
+282
+514
+24
+1
+125
+1,198
+
+RECORD_STAT
+U
+X
+(updated)
+(existing)
+3
+746
+13
+1,677
+18
+1,618
+23
+1,313
+47
+1,412
+39
+1,322
+56
+1,346
+148
+1,288
+135
+1,505
+140
+1,343
+161
+1,236
+165
+1,217
+173
+1,435
+198
+1,241
+211
+1,301
+197
+1,254
+228
+1,431
+267
+1,400
+289
+1,419
+281
+1,481
+316
+1,488
+376
+1,251
+289
+985
+295
+1,017
+356
+1,417
+264
+1,382
+299
+1,070
+261
+921
+243
+975
+237
+1,023
+247
+823
+287
+822
+257
+792
+213
+918
+244
+658
+205
+435
+86
+28
+8
+1
+253
+131
+7,659
+
+1,769
+485
+45,245
+
+Total
+749
+1,690
+1,636
+1,336
+1,459
+1,361
+1,403
+1,438
+1,647
+1,486
+1,401
+1,385
+1,609
+1,440
+1,517
+1,452
+1,661
+1,669
+1,711
+1,767
+1,807
+1,629
+1,274
+1,316
+1,775
+1,647
+1,369
+1,184
+1,227
+1,264
+1,076
+1,117
+1,078
+1,175
+1,000
+922
+628
+33
+1
+2,022
+741
+54,102
+
+6
+
+

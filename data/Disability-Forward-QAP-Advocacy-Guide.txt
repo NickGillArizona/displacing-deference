@@ -1,0 +1,1088 @@
+An Advocate’s Guide to
+Advancing Disability-Forward
+Housing through Qualified
+Allocation Plans
+February 2025
+
+Table of Contents
+Introduction
+
+05
+
+Section 1: Advocacy Opportunities
+
+08
+
+Process for Submitting Public Comment
+Tips for Your Public Comment
+Increasing Your Impact
+
+12
+
+Section 2: Disability-Forward QAP Recommendations
+Accessibility Provisions
+Adherence to ANSI Type A accessibility should be a threshold requirement
+for all projects.
+Incentivize projects that build units beyond the minimum accessibility
+requirements
+
+Affordability provisions
+Permit the creation of a Rental Subsidy Fund for accessible units
+Encourage income averaging
+Increase affordability periods
+
+Inclusivity provisions
+Create a tax-credit allocation pool for Accessible Supportive Housing (ASH)
+Disabled people who use supportive services should be a distinct category for
+point criteria
+Property owners should be required to develop a comprehensive marketing
+plan to lease the units to disabled people
+Require that all lease-up documents are in plain language
+
+Section 3: Template
+Written Public Comment Template
+
+Section 4: Conclusion
+Additional Resources
+
+26
+28
+
+Executive Summary
+In 2022, over 70 million adults in the U.S. reported having a disability, yet less than 5% of the
+national housing supply is accessible, and less than 1% of housing is wheelchair-accessible. The
+nation’s severe shortage of accessible housing is one of the primary reasons disabled people are
+at higher risk of experiencing poverty, housing instability, homelessness, and institutionalization.
+The Low-Income Housing Tax Credit (LIHTC) has been the primary driver of affordable rental
+housing since its creation by Congress in 1986, making housing available to over 9 million
+households. However, federal LIHTC guidelines do not require the creation of deeply affordable,
+accessible housing for people with mobility and sensory impairments, nor do they incentivize
+inclusive housing for individuals who need supportive services to live in integrated, community
+settings.
+State housing agencies play a crucial role in determining how Housing Credits are distributed
+through their Qualified Allocation Plan (QAP), directly shaping the availability, affordability,
+and accessibility of housing within their state. These agencies establish specific priorities and
+selection criteria that developers must meet to secure tax credit allocations, ensuring that
+resources are directed toward projects that align with state and local housing needs. By shaping
+both the immediate distribution of Housing Credits and the broader housing policy landscape,
+state housing agencies play a pivotal role in fostering inclusive, sustainable, and affordable
+communities.
+Advocates have a key opportunity to influence these decisions during public comment periods,
+where they can push for policies that prioritize accessible housing, integrated supportive services,
+and deeply affordable units for people with disabilities. By engaging in this process, advocates can
+help ensure that housing policies reflect the needs of their communities.
+This advocacy guide equips disability and housing advocates with the tools to craft compelling
+public comments. By leveraging these strategies, advocates can amplify their impact, drive
+meaningful policy changes, and advance housing inclusion for people with disabilities.
+
+Questions?
+If you have questions about this guide or need additional advocacy support, please email hello@
+thekelsey.org. The Kelsey is available to help you throughout your QAP advocacy journey.
+
+3
+
+Plain Language Summary
+Note: Plain language is a style of writing where documents and communications are easily
+understandable on the first read.
+The Low-Income Housing Tax Credit (LIHTC) is
+the main program that helps create affordable
+rental housing in the United States. Since 1986,
+it has helped create nearly 4 million homes for
+about 9 million low-income families. But the
+program has gaps. Right now, it does not require
+housing to be:
+• Affordable for people with the lowest
+incomes
+• Accessible for people with disabilities
+• Connected to support services that help
+people live independently
+As more people age and develop disabilities, the
+need for home support services grows. Without
+affordable, accessible homes, many disabled
+people are at risk of:
+• Paying too much for rent
+• Becoming homeless
+• Living in nursing homes or psychiatric
+facilities
+Each state decides how to distribute housing tax
+credits. Each year, the state writes a Qualified
+Allocation Plan (QAP).
+Each state decides how to use Low-Income Housing Tax Credit (LIHTC) funding by creating a
+Qualified Allocation Plan (QAP) every year. The QAP is a set of rules that explains:
+• What kinds of housing projects the state will fund
+• What requirements developers must follow
+• How the state will choose which projects get funding
+You don’t need to know very much to share your thoughts! By speaking up, you can help ensure
+LIHTC housing includes:
+• Accessible homes
+• Housing that supports independent living
+
+4
+
+Introduction
+The Low-income Housing Tax Credit
+(LIHTC), also known as the Housing Credit,
+is responsible for nearly all of the affordable
+rental housing built and preserved since
+the program was authorized in the Tax
+Reform Act of 1986. It has financed 4 million
+affordable homes, which have benefited
+over 9 million low-income families. LIHTC
+Disabled and Here
+finances the construction, rehabilitation, and
+preservation of affordable housing. The program encourages private investment by providing a
+tax credit to developers, who then exchange their tax credit for the finance capital needed for the
+building’s construction costs.
+The federal government does not require or incentivize the housing built or preserved with
+Housing Credits to be deeply affordable, accessible to people with mobility and sensory
+impairments, and inclusive to individuals who need supportive services to live in the community.
+Because the IRS allocates the tax credits to state allocating agencies, LIHTC is not subject
+to all federal civil rights laws, except the Fair Housing Act. This includes Section 504 of the
+Rehabilitation Act, which protects individuals from discrimination based on their disability. Section
+504 also requires federally funded developers to make 5% of their units accessible to people with
+mobility disabilities and 2% accessible to people with sensory disabilities.
+
+Why Disability-Forward Housing?
+Disability-forward housing is housing that is inclusive, affordable, and accessible for people with
+and without disabilities. This approach goes beyond minimum compliance with accessibility laws
+to create integrated, community-driven solutions that prioritize universal design, affordability, and
+housing equity. Disability-forward housing is critical because:
+•
+•
+•
+•
+
+People with disabilities face severe housing barriers – including affordability challenges, lack
+of accessible units, and systemic discrimination.
+Most housing is not designed with disability in mind – leading to exclusion and limited
+independent living options.
+Inclusive housing benefits everyone – fostering diverse, interdependent communities where
+people of all abilities can thrive.
+Policy and funding systems must change – to prioritize cross-disability accessibility,
+affordability, and supportive services.
+
+5
+
+According to the Centers for Disease Control and Prevention (CDC), more than 1 in 4 adults in
+the United States—over 70 million people—reported having a disability in 2022. A study by the
+U.S. Department of Housing and Urban Development (HUD) found that less than 1% of the U.S.
+housing stock is wheelchair accessible, and fewer than 5% of homes are accessible to individuals
+with moderate mobility difficulties. Regarding sensory disabilities, specific statistics on are limited.
+However, the overall shortage of accessible housing suggests that individuals with sensory
+disabilities face similar or greater challenges in finding suitable accommodations. Additionally,
+people with disabilities experience poverty at more than twice the rate of nondisabled adults.
+Those who are still impacted by institutionalization, in part because of lack of supportive housing,
+include the roughly 1.2 million adults living in nursing homes, more than 360,000 people in
+psychiatric facilities, and the more than 268,980 people with intellectual and developmental
+disabilities (IDD) who live in congregate, institutional settings or are on waitlists for services and
+residential programs.
+As the disability population continues to rise, including older adults, the need for supportive
+services also continues to rise. As of 2022, 4.2 million people use Medicaid home and communitybased services (HCBS), and 819,886 people are on the waitlist for Medicaid HCBS. Federal
+investment in HCBS continues to be prioritized over institutional care, but the need for further
+investment is critical. Therefore, LIHTC properties must have accessible units that are deeply
+affordable and have robust resident services.
+
+What is a Qualified Allocation Plan (QAP)?
+Each state has an independent agency, typically
+called an Allocating Agency or a Housing Finance
+Authority, that decides how to allocate the state’s
+share of federal housing tax credits. The framework
+they create is called a Qualified Allocation Plan
+(QAP). Annually or semi-annually, tax credit allocation
+agencies release a draft of the QAP and are required
+by federal law to open a public comment period to
+inform the final version. Through QAP advocacy,
+housing developers can be required and incentivized
+to go beyond minimum accessibility requirements
+through tools like point-based scoring criteria,
+minimum thresholds, set-asides, and basis boosts. At a
+minimum, a QAP must:
+
+Disabled and Here
+
+6
+
+1. Set forth tax credit application selection criteria that reflect the allocating agency’s housing
+priorities as determined by local characteristics;
+2. Give preference to:
+• Projects serving low-income tenants,
+• Projects obligated to serve qualified tenants for the longest period and,
+• Projects located in a qualified census tract and the development will contribute to a concerted community revitalization plan;
+3. Provide the procedures the allocating agency must follow to monitor program compliance and
+the steps to notify the IRS of noncompliance.
+Additionally, due to the limited number of credits available each year, states implement detailed
+selection criteria to allocate them effectively, encouraging developers to propose housing
+projects that address the state’s specific needs. Since each state’s priorities differ significantly,
+the criteria can vary widely but often emphasize factors such as housing location, construction
+and operation standards, target populations, and included services or amenities. These priorities
+are typically reflected through:
+•
+
+•
+
+•
+
+Thresholds represent baseline criteria that developments must meet to qualify. For instance,
+a state might require a project to achieve certification under LEED (Leadership in Energy and
+Environmental Design) or Enterprise Green Communities or mandate a minimum number of
+units designated for households with extremely low incomes.
+Set-asides allocate funding or credits for particular types of developments or target
+populations. For example, some states designate resources specifically for permanent
+supportive housing for individuals needing additional services or for developments in rural
+areas.
+Competitive points incentivize desirable features in proposed developments. A state’s QAP
+might grant more points to projects located within 0.25 miles of a grocery store compared to
+those 1 mile away or award points to projects that include units for certain populations.
+
+7
+
+SECTION 1:
+
+Advocacy Opportunities
+The QAP is a critical tool advocates can use to influence their state’s supply of affordable housing.
+You do not have to be an expert on this highly complex program to advocate for changes to it.
+Advocates should use the public hearing and comment requirements to urge their allocating
+agency to prioritize the development of accessible units, incentivize service-ready housing, require
+more extremely low-income units, locate projects in priority areas, preserve the existing stock of
+affordable housing, and other critical reforms.
+While understanding the intricacies of your state’s QAP can be helpful, it is not a prerequisite for
+taking action. Your experiences, insights, and willingness to engage are what truly matter. By
+focusing on what you know, seeking help when needed, and collaborating with others, you can
+effectively influence your state’s QAP and advocate for policies that better serve your community.
+Consider the following:
+•
+
+•
+
+•
+
+•
+
+Lived Experience Matters: While technical expertise is valuable, your lived experience and
+understanding of local housing needs are equally important. You bring a unique perspective
+that can highlight issues or opportunities that experts might overlook.
+Community Insight: If you are someone directly impacted by housing policies, your insights into
+how the QAP affects your community are critical. Your input helps ensure that the plan reflects
+the real-world needs and challenges of those it is meant to serve.
+Diverse Input Strengthens Policy: Policymakers benefit from hearing a range of voices, not
+just those of experts. Your input adds diversity to the feedback, helping to create a more wellrounded and effective QAP.
+Encourages Further Participation: By participating, you encourage others in your community
+to do the same. Collective action from advocates can drive meaningful change, showing that
+you don’t need to be a policy expert to make a difference.
+
+Process for Submitting Public Comment
+State tax credit agencies, also known as allocating agencies, have broad discretion over
+their QAPs, which allows advocates to engage them directly to pursue policy objectives that
+federal mandates do not address. Each year, allocating agencies release a draft QAP for public
+comments and host workshops or public hearings to gather feedback on the proposed changes.
+Unfortunately, they receive mostly comments from large, legally-savvy housing developers and
+architectural firms. Often, these companies are more interested in adjusting rules and ensuring
+their projects will be awarded tax credits. Resident experience, the design environment, and
+ensuring that disabled people and older adults can live and thrive in the communities of their
+choosing are not often discussed.
+8
+
+Submitting comments during the QAP draft
+process is one important way to make an impact.
+Still, advocates should also schedule meetings
+with their state and federal policymakers to
+educate them on this issue. Integrating local
+and state statistics into talking points will help
+emphasize the need for more accessible
+housing. Lived experience is also a powerful tool
+that advocates can use to shift the dominant
+narrative that inclusive design for people with
+disabilities is too expensive or that the demand
+does not exist. Letter-writing campaigns can be
+used as a strategy to influence decision-makers.
+Organizations can circulate a sign-on letter to
+send to allocating agency staff or draft a template
+letter for partner organizations to modify and send to allocating agency staff on their own.
+
+Disabled and Here
+
+In summary, there are several ways to get involved in ensuring that your state’s QAP meets the
+needs of people with disabilities and their families:
+•
+
+•
+
+•
+
+Submit written public comments to your state’s allocating agency
+• Subscribe to their newsletters to ensure you get all the public comment windows. You can
+find their websites here.
+• Submit comments via email before and during the public comment period to ensure the
+agency has time to incorporate your suggestions.
+• Since every allocating agency operates differently, you should confirm how to submit the
+written comments. For example, there might be an online portal that you have to use or a
+template form they post you have to download and complete.
+Speak at a public comment hearing hosted by your state’s allocating agency
+• You can adapt your written comments into a few sentences that summarize your key recommendations that can be shared verbally.
+Schedule a meeting with your state’s allocating agency
+• Allocation agency staff may be willing to meet with members of the public to discuss ways
+they can improve their QAP. However, most of the staff members do not make their emails
+public. Please email Hunter Herrera-McFarland at hello@thekelsey.org, and we will try to
+help you get in touch with your state’s allocating agency staff.
+
+Tips for Your Public Comment
+•
+
+Start with What You Know
+• Identify Key Issues: Focus on specific aspects of the QAP that align with your concerns or
+
+9
+
+•
+
+•
+
+•
+
+•
+
+•
+
+areas of knowledge. Whether it’s affordability, accessibility, or geographic equity, starting
+with what you know will make your input more effective.
+Review the Current QAP
+• Identify agency priorities: Look beyond housing to understand other state priorities, such
+as de-concentration efforts or alignment with strategic zones.
+• Analyze scoring criteria: Review the QAP’s point system thoroughly to understand how
+different project aspects are weighted.
+Learn As You Go
+• Ask Questions: Don’t hesitate to ask questions or seek clarification on aspects of the QAP
+you don’t understand. Engaging with the process can be a learning experience, helping
+you build knowledge over time.
+• Tap Into Resources: To learn more about the QAP, utilize resources such as community
+organizations, advocacy groups, or public forums. Many organizations provide summaries or guidance that make the QAP more accessible.
+Focus on Impact
+• Review the Impact: Consider how the QAP affects different types of developments. Identify any assumptions or policies that might inadvertently hinder certain projects.
+• Emphasize Outcomes: Rather than getting bogged down in technical details, focus on the
+outcomes you want to achieve. Whether it’s more affordable units, better accessibility,
+or improved community engagement, clearly stating your desired impact can be more
+persuasive than technical arguments alone.
+• Share Real Stories: Use real-life examples and personal stories to illustrate how the QAP
+impacts people’s lives. Storytelling is a powerful tool to make your input more relatable
+and compelling to decision-makers.
+Provide Effective Input
+• Propose balanced solutions: Advocate for scoring criteria that balance financial feasibility
+with community needs and long-term impact.
+• Be detailed: Clearly outline your requests or concerns with detailed explanations. Vague
+or general comments are less likely to lead to action. Don’t assume the agency knows the
+background or context of your input.
+• Use data-driven approaches: Leverage historical data and market studies to support your
+position and validate assumptions.
+• Highlight key takeaways: Focus on the points you want the agency to remember. Highlight these takeaways clearly to ensure they stand out.
+• Make it easy for the agency: If suggesting changes, write out the proposed text word for
+word. This clarity helps the agency understand what you’re advocating for.
+• Provide evidence: Back up your suggestions with examples, data, or case studies. Concrete evidence is more convincing than mere opinions.
+Weigh in Early and Often
+• Provide input early: Submit comments early, especially if you advocate for significant
+changes. Many agencies welcome input year-round, even if they have not officially requested input. Take advantage of this and provide feedback before the draft is posted on
+10
+
+•
+
+•
+
+the agency’s website.
+• Be persistent: If needed, submit comments more than once throughout the process. However, avoid repeating the same points to ensure each submission adds value.
+Communicate and Learn
+• Influence often: Submitting emails or letters should be part of a broader communication
+strategy. Engage with agency personnel directly, whether through meetings or at industry
+events.
+• Ask questions and listen: Understanding the agency’s goals, concerns, and limitations can
+inform your future advocacy.
+• Engage with stakeholders: Pay attention to the views of other stakeholders and how they
+might influence or conflict with your position. This awareness can help you craft more
+effective arguments.
+Express Support
+• Don’t just criticize: Highlight what you like about current policies. Positive feedback can
+help preserve beneficial aspects that might otherwise be overlooked or eliminated.
+
+Increasing Your Impact
+•
+
+•
+
+Use Available Tools
+• Comment Templates: Many organizations provide templates or sample comments that
+you can adapt to your situation.
+• Simplified Guides: Look for simplified guides or summaries of the QAP that break down
+complex information into more digestible pieces. These can help you understand the
+most important aspects of the plan without needing to delve into every detail. Your state’s
+allocating agencies will likely post these along with the draft QAP to their website.
+Collaborate with Others
+• Join Forces: Partner with others who have different expertise or perspectives. By collaborating with other stakeholders, you can pool knowledge and resources to provide more
+comprehensive input.
+• Leverage Advocacy Groups: Many housing advocacy organizations specialize in understanding and influencing QAPs. They can offer guidance and support.
+
+11
+
+SECTION 2:
+
+Disability-Forward QAP
+Recommendations
+Disability-forward housing prioritizes creating inclusive, accessible, and supportive environments
+where people with all types of disabilities can thrive and choose their community. A cross-disability inclusive approach ensures that the diverse needs of individuals with physical, sensory, cognitive, and other disabilities are met through thoughtful design, programming, and policy.
+Below, you’ll find a menu of actionable recommendations that you can encourage your state’s
+allocating agency to incorporate into their next QAP. These suggestions are designed to advance
+disability-forward practices in affordable housing development.
+
+How to Use This Resource
+•
+•
+•
+
+Recommendations: These are crafted to be copy-pasted or adapted to fit your state’s unique
+context and policy framework
+Impact: Provides insight into how each recommendation benefits people with disabilities and
+their communities
+Implementation Considerations: Highlights potential challenges, resources, or steps to bring
+the recommendation to life effectively
+
+Not all of these recommendations may be relevant to your particular state. You can find and
+review your state’s QAP here. If you need assistance deciphering the technical language, please
+contact Hunter Herrera-McFarland at hello@thekelsey.org.
+
+I. Accessibility Provisions
+
+Adherence to ANSI Type A accessibility should be a threshold
+requirement for all projects
+RECOMMENDATION
+Awarding tax credits only to projects constructing at least 10% of units to meet the 2021 International Building Code ANSI Type A standards supports a specific, rigorous benchmark. This
+requirement should be the floor, not the ceiling. Requirements should match, at minimum, American Community Survey data on the disability needs of specific areas. Accessibility standards are
+crucial for ensuring that units are usable by people with and without disabilities. The ANSI Type
+A accessibility standard provides a higher level of accessibility compared to basic compliance
+requirements, offering design features that support aging in place and enable people with disabilities to live more independently.
+12
+
+Type A standards include adaptable features that support residents with limited mobility and allow for future modifications if a resident’s needs change. Requiring even a small portion of units to
+meet these standards ensures a base level of accessibility across new projects, meeting immediate needs and allowing for long-term adaptability.
+The ANSI Type A standard offers a more accessible and adaptable layout than other building
+codes. Key features of ANSI Type A accessibility include:
+• Wider doorways and hallways to accommodate wheelchairs and mobility aids.
+• Reinforced bathroom walls for grab bars, making bathrooms safer for those with mobility
+impairments.
+• Kitchens and bathrooms designed to allow for maneuverability and adaptability.
+• Lowered countertops and accessible cabinets for ease of use by individuals with physical
+disabilities.
+IMPACT
+• Enhanced Accessibility: This requirement would create an accessible housing baseline,
+increasing the availability of affordable, accessible housing that is urgently needed across
+communities.
+• Improved Quality of Life: By integrating accessibility from the beginning, LIHTC-funded housing can better support residents with disabilities and older adults, allowing them to live more
+comfortably and independently.
+• Economic Efficiency: The up-front cost of building to ANSI Type A standards is often lower
+than the cost of retrofitting units later, leading to long-term cost savings for both developers
+and residents.
+IMPLEMENTATION CONSIDERATIONS
+• Stakeholder Engagement: Collaborate with housing developers, architects, disability advocates, and community organizations to ensure the ANSI Type A requirements are clearly
+understood and feasible for all LIHTC projects.
+• Compliance Support and Education: Provide developers and project managers with resources, such as guidelines and training sessions, to facilitate adherence to ANSI Type A
+standards.
+• Resistance from Developers: Some developers may initially resist the additional requirements. Engaging developers early and providing education on cost-effective compliance
+approaches can help mitigate this.
+• Design and Layout Adjustments: Not all LIHTC projects are designed with accessibility in
+mind, and changes may impact unit layouts. By working closely with designers to integrate
+ANSI Type A features, it is possible to implement these changes without significantly impacting overall design aesthetics or unit count.
+• Monitoring and Enforcement: Integrate ANSI Type A compliance into the LIHTC project
+approval and monitoring processes. Conduct inspections during project development and
+13
+
+•
+
+post-completion to verify compliance with ANSI Type A standards.
+Incentives for Early Adoption: To ease the transition, offer additional incentives, such as
+accelerated application review or additional points, for developers who adopt ANSI Type A
+requirements before the official threshold date.
+
+Incentivize projects that build units beyond the minimum
+accessibility requirements
+RECOMMENDATION
+Should the QAP already require accessible units, the QAP should also incentivize projects that
+go beyond the minimum accessibility requirements. Not only is there a high need for accessible
+homes, but research shows that most residents want to age in place, and it is more cost-effective
+for them to do so. Allocating agencies can take leadership and ensure that new and renovated
+housing is accessible, or adaptable, to all eligible residents, including seniors and people with
+disabilities. With allocating agency leadership incentivizing increased accessibility, the affordable
+housing industry will better meet the growing needs of the state’s extremely low and low-income
+residents.
+Incentivizing enhanced accessibility in affordable housing could be operationalized through a
+structured points system, as demonstrated in models like The Kelsey Inclusive Design Standards
+and ANSI Type A accessibility standards.
+IMPACT
+• Increased Accessible Housing Stock: Incentivizing projects to exceed minimum accessibility
+standards will lead to more housing that accommodates a broader range of physical needs,
+creating safer, more comfortable options for seniors and individuals with disabilities who face
+difficulty finding appropriate, affordable housing.
+• Enhanced Quality of Life and Aging in Place: Since many residents want to age in place,
+accessible housing would support this goal, reducing the likelihood of costly moves to assisted living or nursing facilities. Accessible homes allow residents to live more independently for
+longer, improving their quality of life and personal agency.
+• Cost-Effective Housing Solutions: Creating homes that are already accessible or adaptable is typically more cost-effective than retrofitting homes later on. Incentives for increased
+accessibility can thus reduce long-term healthcare costs and public spending on emergency
+housing adaptations.
+• Stronger Agency Leadership and Policy Alignment: Allocating agencies would show leadership by actively promoting inclusive housing solutions, which could encourage broader policy
+changes and inspire other stakeholders to prioritize accessibility across different housing
+programs. This aligns with the growing public awareness of and commitment to inclusive and
+universal design.
+• Better Meeting of State Needs: By prioritizing accessibility, the affordable housing industry
+14
+
+would more effectively address the growing needs of low-income and extremely low-income
+households, especially as the population ages. This would help fulfill a broader mandate to
+serve all residents equitably, reinforcing the role of housing as a foundational public good.
+IMPLEMENTATION CONSIDERATIONS
+• Lack of Awareness: Developers and stakeholders may be unaware of the benefits of accessible design or the specific standards and incentives available.
+• Training Gaps: Insufficient training for architects, builders, and developers on inclusive design
+principles may limit the quality of accessible housing.
+• Deprioritization: If the QAP incentives for accessibility are not substantial enough, developers
+might deprioritize accessibility in favor of other, higher-point scoring options within the QAP,
+especially if they are costly or require significant adjustments to standard building plans.
+
+II. Affordability provisions
+
+Permit the creation of a rental subsidy fund for accessible unit
+RECOMMENDATION
+Many extremely low-income households, especially those on fixed incomes like Supplemental
+Security Income (SSI), face a significant affordability gap in housing despite meeting the qualifications for affordable units. For these individuals, the cost of rent remains out of reach without further subsidy, leading to a precarious housing situation even within “affordable” housing programs.
+Implementing an internal rent subsidy policy within affordable housing developments could be a
+transformative approach to bridging this gap and providing stability for those most in need.
+An internal rent subsidy model would allow developers to directly subsidize rents for extremely
+low-income tenants rather than depending exclusively on external sources, such as vouchers or
+government-funded rental assistance programs, which are often scarce or unreliable. To make
+this feasible, developers could be permitted to increase their development fees6, stipulating that
+a portion of these fees be allocated specifically for subsidizing rents within the project. This approach incentivizes developers to incorporate an internal subsidy system while preserving project
+viability and reducing reliance on unpredictable external funding streams.
+Pennsylvania’s QAP provides a noteworthy example of this type of internal rent subsidy policy. In
+Pennsylvania, developers who receive tax credits can increase their allowable developer fees by a
+certain percentage if they commit to setting aside funds for an internal rent subsidy. This increase
+enables developers to subsidize extremely low-income residents’ rent while preserving the project’s financial viability. Key components of Pennsylvania’s model include:
+• Increased Allowable Developer Fees: Developers can raise their fees beyond standard levels, specifically when committing a portion of this increase to an internal rent subsidy fund.
+• Flexible Use of Subsidy Funds: The allocated subsidy can be applied directly to reduce rents
+Developer fees are payments made to the developer of a housing project as compensation for their time, effort, and risk in
+managing the development process. These fees typically cover tasks such as project planning, securing financing, coordinating
+construction, and navigating regulatory requirements. Developer fees are a standard line item in a project’s budget and are often
+funded through project financing sources, including LIHTC.
+1
+
+15
+
+•
+
+for tenants with the greatest need, typically those earning 20-30% of the area median income
+(AMI) or who are on fixed incomes like SSI.
+Alignment with Tax Credits: This model works within the LIHTC framework, allowing developers to meet affordability requirements while creating a financial cushion that is a sustainable
+subsidy source.
+
+IMPACT
+• Reduced Dependence on External Funding: External subsidies, such as Housing Choice
+Vouchers, are often limited and subject to unpredictable funding streams. By creating a
+self-contained subsidy mechanism within each development, developers ensure greater
+financial stability for the project and tenants, reducing the volatility associated with external
+subsidies.
+• Incentivizing Development of Extremely Low-Income Units: Many developers face challenges in creating units for extremely low-income tenants, as the rents generated may not be
+sufficient to cover operating costs. The internal subsidy mechanism provides developers with
+a viable means to fill this gap, enabling more units to be targeted to those with the greatest
+need.
+• Strengthened Financial Viability: Increasing developer fees can compensate for the lower
+rents collected through internal subsidies, keeping projects financially viable. This mechanism
+incentivizes developers to take part in housing initiatives for extremely low-income populations while maintaining their financial
+goals.
+• Scalability and Sustainability: By
+leveraging a model that integrates
+internal subsidies into the financial
+planning of each development, this
+policy can be scaled across different
+regions and contexts, addressing
+the affordability crisis on a broader
+level.
+IMPLEMENTATION CONSIDERATIONS
+• Establish clear guidelines: Eligible
+uses of increased developer fees
+for subsidies should be provided to
+developers.
+• Frequent reporting: Require developers to report on how the subsidy
+is being used and demonstrate its
+impact on affordability.
+• Compliance: Monitor and ensure
+16
+
+•
+
+compliance to ensure that the increased fees are effectively lowering rents for the intended
+populations.
+Incentivize: Consider offering additional points in competitive funding rounds for projects that
+adopt internal subsidies, providing further incentives to developers.
+
+Encourage income averaging
+RECOMMENDATION
+Allocating agencies should adopt policies that explicitly allow income averaging in LIHTC properties. Instead of restricting eligibility to a narrow band of low-income households, properties can
+include units for households earning up to 80% of the Area Median Income (AMI) alongside those
+earning as low as 20% of AMI, which ensures more affordability for people with disabilities on SSI.
+This flexibility is crucial in high-cost housing markets, where many working families earn slightly
+above the traditional LIHTC limits yet still struggle to find affordable housing.
+IMPACT
+• Inclusion of a Wider Range of Incomes: Income averaging allows LIHTC (Low-Income Housing Tax Credit) properties to serve households with a broader range of incomes.
+• Flexibility for Tenants: This flexibility helps to create mixed-income communities where
+residents at different income levels can coexist, making the property more inclusive and financially diverse. Having a diversity of tenants can also create informal systems of support and
+interdependence.
+• Higher Rents from Higher AMI Units: By allowing some units to be rented at rates affordable
+to households earning up to 80% of AMI, developers can charge higher rents for those units.
+This can help offset the lower rents charged for units targeted at very low-income households, such as those earning 20%, 30% or 40% of AMI.
+• Improved Cash Flow: This balance improves the financial viability of the property, ensuring
+that it generates enough income to cover operating expenses, debt service, and necessary
+reserves. It can make LIHTC projects more attractive to investors and lenders by reducing
+financial risk.
+• More Units Serving More People: Income averaging can encourage the development of
+more LIHTC properties, as it allows developers to serve a broader range of income levels
+within a single project. This can result in the construction of more affordable units overall,
+addressing the high demand for affordable housing.
+• Tailored to Local Markets: Different communities have varying levels of need across income
+ranges. Income averaging allows developers to tailor their projects to the specific needs of
+the local market, ensuring that the property meets the demands of the community it serves.
+• Greater Alignment with Housing Policy Goals: Many state and local governments are increasingly focused on creating housing solutions that address the needs of a wide spectrum
+of low- and moderate-income households. Income averaging aligns with these policy goals by
+providing housing for a diverse range of incomes within a single development.
+17
+
+IMPLEMENTATION CONSIDERATIONS
+• Understanding IRS Guidelines: Allocating agencies must thoroughly understand and communicate the IRS guidelines for income averaging, including the requirements for calculating
+average incomes and ensuring compliance with AMI thresholds.
+• Documentation Requirements: Agencies should establish clear documentation protocols for
+property owners to verify tenant incomes and ensure that the average income remains within
+acceptable limits.
+• Training for Property Managers: Allocating agencies should provide training for property
+managers on how to implement income averaging effectively, including best practices for
+tenant outreach, income verification, and compliance monitoring.
+• Ongoing Monitoring and Reporting: Establishing a system for regular monitoring and reporting of tenant incomes and occupancy levels will help ensure that properties remain compliant
+with income averaging requirements.
+
+Increase affordability periods
+RECOMMENDATION
+Federal law requires LIHTC properties to be rent-restricted and only available to low-income
+tenants for a minimum of 15 years. In 1990, Congress created an “extended use period” of an
+additional 15 years, for a total of 30 years. Though LIHTC property owners can still opt out of
+affordability requirements after the first 15 years through a regulatory relief process, research
+has shown that most LIHTC developments remain affordable past the 15-year initial compliance
+period. This period of required affordability beyond Year 15 is called the extended-use period.
+Some states require LIHTC-financed properties to be affordable for longer than the federal mandate of 30 years, which helps low-income families stay in their homes and supports overall neighborhood stability:
+• Vermont: Requires affordability in perpetuity
+• California: Requires 55 years of affordability
+• Nevada: Requires up to 50 years of affordability, and in 2021, removed the expiration date for
+the LIHTC program
+• Utah: Requires 99 years of affordability
+• Texas: Offers incentives for up to 45 years of affordability
+IMPACT
+• Reduced Risk of Displacement: Estimates find that nearly 500,000 current LIHTC units—
+representing nearly a quarter of the total stock—will reach their 30-year mark by the end of
+this decade. A longer affordability period helps protect tenants from sudden rent increases or
+displacement when the affordability restrictions expire. This stability is particularly crucial for
+low-income families who may struggle to find alternative, affordable housing.
+
+18
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Broader Availability of Affordable Units: By extending the affordability period, more units will
+remain affordable over a longer timeframe, increasing access for low- and moderate-income
+households. This helps to meet the ongoing demand for affordable housing in many communities.
+Mitigation of Housing Crisis: In areas facing a housing affordability crisis, extending the affordability period can provide a critical buffer, ensuring that low-income families can continue
+to afford housing as market rates rise.
+Predictable Housing Costs: With a longer affordability period, tenants can better plan their
+finances, knowing that their housing costs will remain stable for an extended period. This predictability allows families to allocate resources to other essential needs, such as education and
+healthcare.
+Opportunities for Community Engagement: Longer affordability periods encourage tenants
+to invest in their neighborhoods, leading to increased participation in local events, advocacy,
+and community improvement efforts.
+Reduced Turnover for Property Owners: A longer affordability period can lead to more stable
+tenant relationships, reducing turnover rates for property owners. This can result in lower
+costs associated with tenant turnover and enhance the overall management of the property.
+
+IMPLEMENTATION CONSIDERATIONS
+• Impact on Developer Incentives: Agencies should assess how extending the affordability period may affect the financial feasibility of LIHTC projects. Developers must balance the potential for long-term returns with the commitment to maintain affordability.
+• Funding and Resources: Consider the availability of additional funding or financial incentives
+to support property owners in managing extended affordability. This could include grants,
+low-interest loans, or other financial assistance.
+• Oversight Mechanisms: Establish clear compliance and monitoring requirements to ensure
+properties adhere to extended affordability commitments. Regular reporting and audits may
+be necessary to maintain accountability.
+• Enforcement of Regulations: Agencies should be prepared to enforce compliance measures
+and address any violations promptly to maintain the integrity of the affordability period.
+
+III. Inclusivity provisions
+
+Create a tax-credit allocation pool for Accessible Supportive
+Housing (ASH)
+RECOMMENDATION
+Establish a dedicated Accessible Supportive Housing (ASH) Tax Credit Allocation Pool within
+the state’s Low-Income Housing Tax Credit (LIHTC) program. Modeled after Virginia’s Qualified
+Allocation Plan (QAP), this pool would prioritize developments that:
+19
+
+•
+•
+•
+
+Designate at least 15% of units for individuals with disabilities
+who require supportive services.
+Comply with HUD Section 504 accessibility standards to ensure fully accessible housing options.
+Include project-based rental assistance to make units affordable for extremely low-income households.
+
+Several states have successfully implemented dedicated LIHTC
+allocation pools for supportive housing, for example:
+• The Illinois Housing Development Authority (IHDA) reserves a
+portion of its LIHTC allocation specifically for supportive housing. The state has successfully utilized this model to develop
+deeply affordable, accessible housing linked with services,
+leveraging federal and state resources, including Medicaid
+waivers and Section 811 PRA.
+• Pennsylvania has a dedicated set-aside within its LIHTC Qualified Allocation Plan (QAP) for
+projects that provide housing for persons with disabilities and other vulnerable populations.
+This pool has facilitated the expansion of disability-inclusive housing across the state by offering competitive but protected funding opportunities.
+By setting aside a specific portion of tax credits for ASH developments, states would streamline
+funding for disability-inclusive housing and incentivize developers to integrate accessibility and
+supportive services into their projects.
+IMPACT
+• Increased Housing Availability: More deeply affordable and accessible housing units for people with disabilities, reducing homelessness and institutionalization risks.
+• Enhanced Integration: Encourages mixed-income, community-based housing models rather
+than segregated or institutional settings.
+• Stronger Developer Incentives: Provides clearer funding pathways for developers, reducing
+barriers to incorporating accessible and supportive housing components.
+• Improved Compliance with Federal Standards: Aligns state housing policy with the Fair
+Housing Act, Americans with Disabilities Act (ADA), and Olmstead principles.
+IMPLEMENTATION CONSIDERATIONS
+• Funding Allocation: Determine the percentage of total LIHTC allocations dedicated to the
+ASH pool, ensuring adequate resources for sustainable development.
+• Scoring Criteria: Develop scoring incentives within the QAP to reward projects that exceed
+the 15% minimum, provide robust supportive services, or incorporate universal design.
+• Coordination with Service Providers: Establish partnerships with Medicaid-funded services,
+20
+
+•
+•
+
+state developmental disability agencies, and local service providers to ensure residents receive necessary supports.
+Monitoring and Compliance: Implement tracking mechanisms to verify compliance with accessibility standards, service provision, and affordability commitments.
+Stakeholder Engagement: Engage disability advocacy organizations, developers, and policymakers to refine program guidelines and address potential barriers to implementation.
+
+Disabled people who use supportive services should be a
+distinct category for point criteria
+RECOMMENDATION
+As housing needs become increasingly diverse, there is a pressing need to ensure that individuals
+requiring supportive services to live independently—such as seniors and people with disabilities—can access safe, affordable housing with services tailored to their needs. Disabled people,
+particularly those who have high support needs, are often at heightened risk of institutionalization
+due to the lack of accessible, affordable housing combined with inadequate supportive services.
+This risk is especially acute for low-income people who lack family support or live in areas with
+limited community-based services. Institutional settings undermine self-determination and are
+isolating and costly. For disabled individuals, the choice to live in a community setting with proper
+support is not just a preference but a fundamental right under Title II of the Americans with Disabilities Act, affirmed by the Supreme Court in the Olmstead v. Lois Curtis decision.
+Currently, 51 allocating agencies have general scoring incentives encouraging supportive housing, special-needs housing, and housing for people with disabilities. However, a more targeted
+approach is needed to address the specific requirements of those who need supportive services
+to live independently. Creating a distinct category within QAPs for housing projects that serve individuals requiring supportive services, particularly those at risk of institutionalization, is a vital step in
+enhancing independence, dignity, and well-being for people with disabilities. It is critical to ensure
+that every disabled person can live out their rights to community living. Ultimately, it contributes to
+stronger, more cohesive communities that value and support all their members.
+IMPACT
+• Focused Resource Allocation: Establishing a specific point category ensures that housing
+resources are directed toward creating environments where disabled individuals can live independently with dignity. It encourages developers to incorporate accessible units and supportive services within their projects, making it more likely that these individuals can avoid institutionalization and transition from institutions to affordable, accessible, and integrated homes.
+• Promotion of Independent Living: Independent living is not only a preferred option for many
+disabled individuals and a protected right but also a more cost-effective one for many states.
+Community-based housing with appropriate support services is generally less expensive than
+institutional care. The point category can help to expand the availability of such housing, align21
+
+•
+
+•
+
+•
+
+•
+
+ing with both ethical imperatives and economic considerations.
+Encouraging Best Practices: A dedicated point category can encourage developers to adopt
+best practices in designing and managing housing for people with disabilities. This can include
+partnerships with service providers, incorporation of inclusive design principles, and ensuring
+that housing is located near public transportation and community services.
+Fulfilling Legal and Ethical Obligations: Creating this point category helps states meet their
+obligations under the Americans with Disabilities Act (ADA) and the Olmstead decision, which
+mandate that disabled people have the right to live in the most integrated setting appropriate
+to their needs.
+Community Integration: Housing developments that serve individuals at risk of institutionalization can promote greater community integration. By living in mixed-income, inclusive communities, disabled individuals can participate more fully in society, benefiting both the individuals and the community at large.
+Setting a National Example: If adopted widely, this approach could set a precedent for other
+states, leading to a broader national movement towards inclusive housing policies that prioritize the needs of people with disabilities. This could influence federal housing policies and
+funding priorities, further expanding the availability of appropriate housing.
+
+IMPLEMENTATION CONSIDERATIONS
+• Defining Eligibility: States must clearly define the criteria for being “at risk of institutionalization.” This could include individuals who are currently in institutions but are eligible for community-based care, those on waiting lists for such care, or those in precarious housing situations
+that could lead to institutionalization if not addressed. One of the most relevant programs
+where this term is defined and applied is the Home and Community-Based Services (HCBS)
+waiver program under Medicaid. This program allows states to provide services to individuals
+in their homes or communities rather than in institutional settings. Another program where this
+term is used is the Money Follows the Person (MFP) program. This federal program helps people transition from institutions back into the community and often includes individuals “at risk of
+institutionalization.” Each program or state may have its own specific criteria or definitions, but
+the underlying concept is consistent across these federal initiatives.
+• Stakeholder Collaboration: Work with local agencies, service providers, advocacy groups,
+and potential residents to ensure that the criteria accurately reflect the needs of those requiring supportive services.
+• Designing and Operating for Resident Needs: Projects that elect to claim points for including
+homes/units for people with disabilities who use supportive services should be required to
+demonstrate that the project provides design approaches, affordability, and supportive services that meet the needs of this population.
+• Supportive Service Integration: Projects that serve people with disabilities who use services
+must design their resident services program to meet the specific needs of people with disabilities and be aligned with the HCBS Settings rule. Developments should connect to and integrate supportive services that meet the needs of the target population but only require some
+residents to access the same services or utilize a single service provider. Service linkages
+22
+
+•
+
+should include access to case management, personal care attendants, mental health support,
+and other community-based services that enable independent living.
+Monitoring and Accountability: To ensure that the intended outcomes are achieved, states
+should establish mechanisms for monitoring and evaluating the effectiveness of the housing
+projects developed under this category. This might involve regular reporting on the number of
+disabled individuals served, the services provided, and the success rates in preventing institutionalization.
+
+Property owners should be required to develop a
+comprehensive marketing plan to lease the units to disabled
+people
+RECOMMENDATION
+People with disabilities, who often face significant housing barriers, remain underrepresented
+among LIHTC tenants. This population requires targeted outreach and accessible information to
+ensure equitable access to affordable housing units. By requiring property owners to develop a
+comprehensive marketing plan to lease LIHTC units to individuals with disabilities, allocating agencies can improve access, promote inclusivity, and fulfill the program’s intent of providing housing
+to those in need.
+Allocating agencies can encourage the following outreach strategies:
+• Partner with Disability-related Organizations: Collaborate with local, regional, statewide, and
+national disability advocacy groups, service providers, fair housing organizations, and support
+networks to spread the word about available units. These organizations often have established connections with potential tenants and can help disseminate information effectively.
+• Utilize Multiple Channels: Use a variety of marketing channels, including social media, community newsletters, local newspapers, and online housing portals. Ensure that these channels
+are accessible to people with different types of disabilities, such as those who use screen
+readers or need easy-to-read formats.
+IMPACT
+• Addressing Unmet Housing Needs: People with disabilities face high rates of poverty, housing insecurity, and discrimination. Yet, a lack of targeted outreach often limits their access to
+affordable housing. A dedicated marketing plan will raise awareness and streamline the application process for LIHTC units.
+• Stronger Community Relationships: Partnerships with disability advocacy organizations and
+other disability service organizations will foster stronger community bonds, enhancing the
+property’s reputation and community engagement.
+• Enhanced Compliance with Fair Housing and Accessibility Laws: The proposed requirement will reinforce non-discriminatory practices and adherence to FHA and ADA standards in
+housing.
+23
+
+•
+
+•
+
+Data Collection and Continuous Improvement: A periodic reporting requirement can provide
+data on outreach effectiveness, enabling adjustments and refinements to meet the needs of
+people with disabilities better.
+Regulatory Compliance: Federal and state guidelines already outline the importance of
+non-discriminatory marketing. A targeted marketing plan helps ensure that property owners
+meet FHA and ADA requirements by creating accessible outreach materials and strategies.
+
+IMPLEMENTATION CONSIDERATIONS
+• Develop Guidelines: State housing agencies can develop a standardized set of marketing
+guidelines that includes strategies for accessible advertising, community outreach, and reporting.
+• Training and Education: Provide property managers with training on disability awareness,
+accessible marketing practices, and partnership building with disability organizations.
+• Integration: Incorporate the marketing plan as a requirement in the LIHTC application process; this should include ongoing compliance checks to assess adherence to the marketing
+plan.
+• Increased Administrative Burden on Property Managers: Allocating agencies should provide templates, training, and technical assistance to streamline the marketing plan and development process.
+• Resistance to Additional Marketing Costs: Allow property owners to leverage free or lowcost outreach options through partnerships with community organizations. State agencies
+could also consider offering small grants or incentives to assist with these efforts. Cost should
+not be an excuse for providing inaccessible marketing materials.
+• Difficulty Reaching Target Audiences: Facilitate partnerships with local disability organizations to bridge the gap and support property managers in effectively reaching potential tenants with disabilities.
+
+Disabled and Here
+
+24
+
+Require that all lease-up documents are in plain language
+RECOMMENDATION
+Plain language is a style of writing crafted to make documents and communications understandable on the first read. It involves simplifying language by avoiding jargon, technical terms, and
+complex sentence structures that may confuse or alienate readers. This approach is essential
+in housing documents, such as applications, lease agreements, and notices, as it ensures that all
+individuals—regardless of literacy level, cognitive ability, or primary language—can understand
+critical information without additional assistance.
+Plain language is particularly beneficial for individuals with cognitive access needs, lower literacy
+levels, and those facing language barriers, such as non-native English speakers. By making information clear and direct, plain language improves accessibility, empowering individuals to make
+informed decisions and engage fully with the information provided. This is especially important
+in housing, where misunderstandings can lead to missed deadlines, non-compliance with lease
+terms, and loss of essential benefits or housing stability. The Kelsey has an online plain language
+leasing guide where stakeholders can learn more about plain language in housing.
+IMPACT
+• Enhanced Trust and Transparency: When residents feel that documents are straightforward,
+they are more likely to trust the agency, improving overall relationships and reducing stress on
+the allocating agency or property management staff.
+• Reduced Administrative Burden: Clearer documents mean fewer follow-up questions and
+misunderstandings, which can reduce the time agencies spend on clarifications and conflict
+resolution.
+• Increased Compliance and Engagement: Residents are more likely to understand their responsibilities, leading to higher compliance and engagement rates with housing programs.
+IMPLEMENTATION CONSIDERATIONS
+Collaboration with Plain Language and Legal Experts: Agencies can partner with experts to create
+documents that are both clear and legally compliant. These professionals can review current documents and identify areas where language or structure may confuse or mislead readers.
+• Training for Staff: Training staff on plain language principles enables them to produce clear
+communications consistently and respond to residents’ questions in understandable terms.
+• Testing and Feedback: Testing documents with a diverse sample of the intended audience
+can provide insight into areas where language might still be unclear. Feedback from individuals with disabilities, non-native speakers, and individuals with lower literacy levels can guide
+further refinements. When requesting feedback from individuals who represent the end-user,
+their time should be compensated.
+• Continual Review and Updates: As policies and community needs evolve, agencies should
+periodically review documents to ensure they remain current, clear, and accessible.
+
+25
+
+SECTION 3:
+
+Template
+Written Public Comment Template
+Dear Housing Tax Credit Staff,
+
+[Insert brief description of your organization or your personal
+connection to disability]
+Thank you for the opportunity to comment on the [Insert given
+QAP you are commenting on, i.e., 2025-2026 Qualified Allocation Plan]. Our comments are focused on the impact the QAP has on the production of affordable,
+accessible, integrated, and inclusive housing that meets the needs of disabled residents who
+are extremely low-income and who need supportive services to live and thrive in the communities of their choice. Although the Americans with Disabilities Act (ADA) Title II, as affirmed by the
+Olmstead Supreme Court case, mandates community integration, [x state] has underinvested in
+developing community-based integrated housing for disabled people that meets that mandate.
+According to the U.S. Census Bureau, [nearly one in four adults in x state] lives with a disability.
+Despite this, the availability of disability-inclusive housing units remains low. Without a combination
+of increased mandates and incentives, developers will not prioritize the construction of units that
+meet the needs of this growing segment of the state’s population.
+People with disabilities face unique challenges that can significantly impact their ability to secure
+and maintain affordable housing. For example:
+•
+
+•
+
+•
+
+Limited Income: Many individuals with disabilities rely on fixed incomes such as Supplemental Security Income (SSI) or Social Security Disability Insurance (SSDI). These benefits fall
+well below the federal poverty line, making it extremely difficult to afford market-rate housing.
+Low-income housing provides a solution, offering affordability and stability.
+Higher Costs of Living: Disabled people often have additional costs related to their disability,
+such as medical expenses, assistive devices, personal care, and specialized transportation.
+These extra costs can further strain their limited financial resources, making affordable housing even more important.
+Barriers to Access: Accessible low-income housing ensures that the built environment accommodates the physical needs of individuals with disabilities. Features such as wheelchair
+ramps, wider doorways, roll-in showers, and lower countertops are not luxuries but necessi-
+
+26
+
+•
+
+•
+
+ties that enable people with disabilities to live independently and with dignity.
+Disproportionate Rates of Homelessness: Lack of affordable housing disproportionately
+affects disabled individuals, increasing their risk of homelessness. Ensuring that there are
+sufficient low-income housing options available can prevent individuals from experiencing the
+instability and health risks associated with homelessness.
+Disproportionate Rates of Institutionalization: People with disabilities experience disproportionately high rates of institutionalization due to systemic barriers,, Without sufficient community-based housing options, individuals are often forced into institutional settings where their
+independence, choice, and opportunities for social integration are limited. This issue is further
+compounded by policies and funding structures that historically prioritize institutional care
+over community-based solutions despite evidence showing that most people with disabilities
+prefer to live independently in their communities.
+
+To increase the supply of accessible, affordable housing and improve the quality of life for disabled
+residents, we recommend the following:
+
+1. [Insert the recommendations that apply to your state’s housing context]
+Sincerely,
+[Your Name & Role]
+
+27
+
+SECTION 4:
+
+Conclusion
+Advocating for disability-forward housing through QAPs is
+a crucial tool for developing more inclusive and accessible
+communities. By engaging in the QAP process, advocates
+can significantly impact the development of affordable
+housing that meets the diverse needs of people with disabilities.
+Key takeaways from this guide include:
+• LIHTC is a powerful tool for creating affordable housing, but reforms are needed to better serve people with
+disabilitie
+• Advocates can make a difference by participating in
+public comment periods and urging state agencies to
+prioritize accessible housing, resident services, and
+deeply affordable units
+• Lived experience and community insights are valuable
+contributions to the QAP process, even without technical expertise
+• Collaboration with other advocates and community
+members can amplify the impact of advocacy efforts
+
+Disabled and Here
+
+By applying the strategies outlined in this guide, advocates
+can work towards:
+• Increasing the number of accessible units in LIHTC-funded projects
+• Promoting service-linked housing options
+• Ensuring affordability for individuals relying on programs like SSI
+• Advancing an intersectional approach to disability inclusion in housing
+Remember, every voice matters and has the power to influence housing policies that impact millions of Americans with disabilities and older adults. By speaking up, sharing experiences, and advocating for equitable policies, you contribute to a movement that drives meaningful change. Your
+efforts can lead to tangible improvements—expanding access to affordable, accessible housing,
+strengthening protections against discrimination, and ensuring that all individuals have the opportunity to live independently in the communities of their choice. Your advocacy will help build a more
+inclusive and just housing system for generations to come.
+
+28
+
+Additional Resources
+•
+
+National Low Income Housing Coalition (NLIHC) | NLIHC State Housing Profiles
+Access state-specific data on affordable housing needs and advocacy efforts through NLIHC’s comprehensive profiles. These resources provide key statistics and actionable insights
+for driving state-level policy change.
+
+•
+
+ACTION Campaign | National, State, AND District Fact Sheets
+The ACTION Campaign has factsheets highlight the critical role of LIHTC in addressing affordable housing needs across the U.S. These fact sheets offer detailed data at the national,
+state, and congressional district levels, showcasing the impact of the program.
+
+•
+
+Technical Assistance Collaborative (TAC) | Priced Out Report
+This report highlights the affordability gap faced by people with disabilities relying on SSI and
+compares it to local rental costs. It is essential for demonstrating the critical need for affordable, accessible housing.
+
+•
+
+Center for American Progress | Center for American Progress: Disability and Housing
+The Center for American Progress provides research and policy recommendations on issues
+affecting people with disabilities, including housing.
+
+•
+
+The Kelsey | The Kelsey Learn Center
+The Kelsey Learn Center provides research, tools, and best practices for inclusive housing
+solutions, with a focus on disability-forward housing policies and developments.
+
+•
+
+The National Housing Trust (NHT) | NHT’s Info Briefs
+NHT conducts research on Qualified Allocation Plans (QAPs) to analyze how states prioritize
+housing investments, particularly in sustainability, equity, and resident needs.
+
+•
+
+The Corporation for Supportive Housing (CSH) | CSH Policy Brief
+CSH provides in-depth research on QAPs, evaluating how these plans incorporate supportive
+housing and services for vulnerable populations.
+
+•
+
+National Council of State Housing Agencies (NCSHA) | NCSHA Research & Reports
+NCSHA offers extensive resources on affordable housing policies, including research on
+LIHTC, Qualified Allocation Plans, and state housing finance agency initiatives.
+
+29
+
+
