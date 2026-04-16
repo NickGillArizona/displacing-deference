@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .env
+.venv/
 *.json
 !pipeline/per_claim_extraction_schema.json
 !results/*.json
@@ -13,3 +14,13 @@ __pycache__/
 *.csv
 !results/*.csv
 push.bat
+
+# Session / tool artifacts
+.codex
+=*
+
+# Large external datasets — see data/README.md for retrieval instructions
+data/ahs_accessibility/
+
+# Ad-hoc exploratory probes (not part of replication pipeline)
+scripts/tmp_*.py
