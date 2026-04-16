@@ -4,7 +4,7 @@
 
 This Appendix describes the construction of the **FHA Unified Database**, the principal empirical dataset underlying the case-classification analysis in this Note.
 
-**The FHA Unified Database** (n=2,522 screened-in FHA cases; **1,720 disability cases**) is the single source of truth for all statistical claims in this Note. It was constructed by merging two overlapping source corpora — the RA Database (1,857 all-protected-class FHA cases, 2021–2026) and the 2015 FHA Database (1,461 screened-in § 3604(f) disability cases, 2015–2026) — with 796 cases appearing in both. A per-claim structured extraction via Haiku 4.5 Batch API enriched each record with detailed claim-level data. For the Note's disability-focused analysis, the unified database is filtered to the 1,720 cases where disability is a protected class.
+**The FHA Unified Database** (n=2,522 screened-in FHA cases; **1,770 disability cases**) is the single source of truth for all statistical claims in this Note. It was constructed by merging two overlapping source corpora — the RA Database (1,857 all-protected-class FHA cases, 2021–2026) and the 2015 FHA Database (1,461 screened-in § 3604(f) disability cases, 2015–2026) — with 796 cases appearing in both. A per-claim structured extraction via Haiku 4.5 Batch API enriched each record with detailed claim-level data. For the Note's disability-focused analysis, the unified database is filtered to the 1,770 cases where disability is a protected class.
 
 **Three-Period Temporal Design.** Exact decision dates (resolved for all cases via CourtListener API, opinion text extraction, and Google Scholar) enable a three-period analysis:
 
@@ -14,7 +14,7 @@ This Appendix describes the construction of the **FHA Unified Database**, the pr
 | P2 | June 28, 2024 – Feb 5, 2025 | *Loper Bright* decision → HUD Secretary confirmation | 116 |
 | P3 | Feb 5, 2025 – present | Post-HUD Secretary change | 317 |
 
-Of 1,720 disability cases, 1,191 have exact decision dates falling within the study period (2022–present). The remaining 529 are undated or pre-2022; they are included in overall statistics but excluded from three-period analysis.
+Of 1,770 disability cases, 1,191 have exact decision dates falling within the study period (2022–present). The remaining 579 are undated or pre-2022; they are included in overall statistics but excluded from three-period analysis.
 
 **Source corpora.** The unified database draws from:
 

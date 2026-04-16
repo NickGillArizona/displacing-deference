@@ -8,7 +8,7 @@
     "CDBG grantees must certify they will affirmatively further fair housing (AFFH) under 42 USC 5304(b)(2)",
     "Matrix codes 05B and 03B are the only disability-specific CDBG categories",
     "No separate category exists for ADA compliance, housing accessibility, or disability-related housing modifications",
-    "Housing rehabilitation (14A-14J) may include some accessibility modifications but these are not tracked separately"
+    "Housing rehabilitation (14A-14L) may include some accessibility modifications but these are not tracked separately"
   ],
   "cdbg_formula_grant_appropriations_billions": {
     "2005": 4.117,
@@ -485,10 +485,10 @@
     "total_cdbg_formula_grants_20yr_billions": 67.652
   },
   "argument_support": {
-    "finding_1": "HUD CDBG accomplishment data contains exactly TWO disability-specific activity categories out of approximately 50 total: 05B (Services for Persons with Disabilities) and 03B (Facility for Persons with Disabilities).",
+    "finding_1": "HUD CDBG accomplishment data contains exactly TWO disability-specific activity categories: 05B (Services for Persons with Disabilities) and 03B (Facility for Persons with Disabilities).",
     "finding_2": "Over 20 years (FY2005-FY2024), disability services (05B) served 4,610,160 persons - only 2.51% of all 183,710,667 public service beneficiaries.",
     "finding_3": "Disability facilities (03B) served 765,191 persons - only 1.32% of all 58,135,081 public improvement beneficiaries.",
-    "finding_4": "NO separate CDBG category exists for ADA compliance, housing accessibility modifications, or disability-related housing rehabilitation. Any accessibility work is buried in general rehabilitation codes (14A-14J) with no disability-specific tracking.",
+    "finding_4": "NO separate CDBG category exists for ADA compliance, housing accessibility modifications, or disability-related housing rehabilitation. Any accessibility work is buried in general rehabilitation codes (14A-14L) with no disability-specific tracking.",
     "finding_5": "Fair Housing Activities (05J) served 1,645,069 persons over 20 years, but there is no subcategory for disability-specific fair housing work, despite disability being a protected class under the Fair Housing Act.",
     "finding_6": "CDBG grantees received $67.7 billion in formula grants over this period while certifying they would affirmatively further fair housing, yet disability-specific accomplishments represent a negligible fraction of total activity.",
     "finding_7": "The absence of disability-specific tracking categories for housing accessibility is itself evidence of performative AFFH certification - grantees cannot meaningfully report on disability accessibility because the reporting system does not require it.",

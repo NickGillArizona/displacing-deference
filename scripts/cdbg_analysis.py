@@ -95,7 +95,7 @@ results = {
         "CDBG grantees must certify they will affirmatively further fair housing (AFFH) under 42 USC 5304(b)(2)",
         "Matrix codes 05B and 03B are the only disability-specific CDBG categories",
         "No separate category exists for ADA compliance, housing accessibility, or disability-related housing modifications",
-        "Housing rehabilitation (14A-14J) may include some accessibility modifications but these are not tracked separately"
+        "Housing rehabilitation (14A-14L) may include some accessibility modifications but these are not tracked separately"
     ],
     "cdbg_formula_grant_appropriations_billions": cdbg_formula_grants,
     "activity_categories": {
@@ -185,7 +185,7 @@ results["summary_statistics"] = {
 results["argument_support"] = {
     "finding_1": (
         "HUD CDBG accomplishment data contains exactly TWO disability-specific activity "
-        "categories out of approximately 50 total: 05B (Services for Persons with "
+        "categories: 05B (Services for Persons with "
         "Disabilities) and 03B (Facility for Persons with Disabilities)."
     ),
     "finding_2": (
@@ -202,7 +202,7 @@ results["argument_support"] = {
     "finding_4": (
         "NO separate CDBG category exists for ADA compliance, housing accessibility "
         "modifications, or disability-related housing rehabilitation. Any accessibility "
-        "work is buried in general rehabilitation codes (14A-14J) with no disability-specific tracking."
+        "work is buried in general rehabilitation codes (14A-14L) with no disability-specific tracking."
     ),
     "finding_5": (
         f"Fair Housing Activities (05J) served {int(total_05j):,} persons over 20 years, "

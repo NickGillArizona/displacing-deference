@@ -14,14 +14,14 @@ This appendix documents the methodology and detailed findings from three HUD adm
 
 ### Activity Code Inventory
 
-HUD's CDBG accomplishment system uses approximately 50 activity codes organized into categories: housing (12+13+14A–14J+16A), public services (03T+05A–05Z), public improvements (03A–03Z), and economic development. Of these, exactly two are disability-specific:
+HUD's CDBG accomplishment system uses activity codes organized into categories: housing (12+13+14A–14L+16A), public services (03T+05A–05Z), public improvements (03A–03Z), and economic development. Of these, exactly two are disability-specific. Critically, none of the housing rehabilitation codes (14A–14L) records whether rehabilitation added accessibility features:
 
 | Code | Name | Category |
 |------|------|----------|
 | 05B | Services for Persons with Disabilities | Public Services |
 | 03B | Facility for Persons with Disabilities | Public Improvements |
 
-No code covers housing accessibility, ADA compliance, disability-specific housing rehabilitation, or accessible-unit modifications. Housing rehabilitation codes 14A–14J may include some accessibility work, but the system does not track such spending separately. Code 05J (Fair Housing Activities) contains no disability subcategory despite disability being a protected class under the Fair Housing Act.
+No code covers housing accessibility, ADA compliance, disability-specific housing rehabilitation, or accessible-unit modifications. Housing rehabilitation codes 14A–14L may include some accessibility work, but the system does not track such spending separately. Code 05J (Fair Housing Activities) contains no disability subcategory despite disability being a protected class under the Fair Housing Act.
 
 ### Twenty-Year Summary Statistics
 
@@ -72,7 +72,7 @@ No code covers housing accessibility, ADA compliance, disability-specific housin
 
 ### Caveats
 
-- Grantees may spend on disability accessibility under generic rehabilitation codes (14A–14J); the 2.2% disability share captures only spending coded specifically to disability. Actual disability-related spending may be higher but is unmeasurable—which is itself the point.
+- Grantees may spend on disability accessibility under generic rehabilitation codes (14A–14L); the 2.2% disability share captures only spending coded specifically to disability. Actual disability-related spending may be higher but is unmeasurable—which is itself the point.
 - CDBG is one of several federal housing programs. HOME, HOPWA, Section 811, and other programs may have disability-specific reporting that CDBG lacks. The CDBG finding should not be generalized to all federal housing spending without checking.
 
 ---

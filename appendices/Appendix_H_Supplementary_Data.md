@@ -11,9 +11,9 @@
 
 ### H.2 Design-and-Construction Noncompliance Ratio
 
-- Noncompliance rate: 47% of covered multifamily communities (HUD-commissioned study)
+- Noncompliance rate: 47% of covered multifamily communities (Housing Equality Center of Pennsylvania regional testing, 18/38 communities, 2005–2014); Equal Rights Center 2019 D.C. testing found 69.6% violation rate. The 2003 HUD/Steven Winter national study found composite conformance scores of 73–95%, indicating substantial but geographically uneven compliance.
 - Complaint rate: 0.8% of all HUD/FHAP complaints (FY2021)
-- **Ratio: 56:1** -- noncompliance exceeds complaint-filing by a factor of 56
+- **Ratio:** noncompliance far exceeds complaint-filing across all testing sources
 
 ### H.3 PUMS Disability Housing Data Summary
 

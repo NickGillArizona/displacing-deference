@@ -1,6 +1,6 @@
 # FHA Unified Database — Disability Cases — Three-Period Report
 
-Generated: 2026-04-01 16:22
+Generated: 2026-04-15 19:11
 
 **Database:** FHA Unified Database, filtered to disability cases (disability in protected_classes)
 - Total FHA screened-in: 2522

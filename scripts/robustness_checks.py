@@ -26,8 +26,7 @@ from datetime import datetime
 
 # -- Paths --
 DB_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)),
-    "Displacing-Deference-Data-and-Doctrine-for-a-Disability-Centered-AFFH",
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
     "data", "FHA_Unified_Database.json"
 )
 
