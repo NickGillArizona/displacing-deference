@@ -5,47 +5,47 @@
         "disabled_cb_rate": 55.9,
         "nondisabled_cb_rate": 38.5,
         "disability_penalty_pp": 17.4,
-        "disabled_n": 2130463,
-        "nondisabled_n": 15424732
+        "disabled_n": 2091241,
+        "nondisabled_n": 15234649
       },
       "Non-metro": {
-        "disabled_cb_rate": 50.1,
-        "nondisabled_cb_rate": 33.6,
-        "disability_penalty_pp": 16.6,
-        "disabled_n": 522015,
-        "nondisabled_n": 2376284
+        "disabled_cb_rate": 50.5,
+        "nondisabled_cb_rate": 34.0,
+        "disability_penalty_pp": 16.5,
+        "disabled_n": 561237,
+        "nondisabled_n": 2566367
       }
     },
     "Black/AA alone": {
       "Metro": {
         "disabled_cb_rate": 56.7,
-        "nondisabled_cb_rate": 46.6,
+        "nondisabled_cb_rate": 46.7,
         "disability_penalty_pp": 10.1,
-        "disabled_n": 908979,
-        "nondisabled_n": 5983250
+        "disabled_n": 898233,
+        "nondisabled_n": 5914200
       },
       "Non-metro": {
-        "disabled_cb_rate": 52.0,
-        "nondisabled_cb_rate": 40.5,
-        "disability_penalty_pp": 11.5,
-        "disabled_n": 85561,
-        "nondisabled_n": 417580
+        "disabled_cb_rate": 52.2,
+        "nondisabled_cb_rate": 41.0,
+        "disability_penalty_pp": 11.2,
+        "disabled_n": 96307,
+        "nondisabled_n": 486630
       }
     },
     "AIAN alone": {
       "Metro": {
-        "disabled_cb_rate": 51.7,
-        "nondisabled_cb_rate": 43.6,
-        "disability_penalty_pp": 8.2,
-        "disabled_n": 25233,
-        "nondisabled_n": 205026
+        "disabled_cb_rate": 51.8,
+        "nondisabled_cb_rate": 43.5,
+        "disability_penalty_pp": 8.3,
+        "disabled_n": 25212,
+        "nondisabled_n": 203995
       },
       "Non-metro": {
-        "disabled_cb_rate": 41.2,
-        "nondisabled_cb_rate": 31.8,
-        "disability_penalty_pp": 9.4,
-        "disabled_n": 12789,
-        "nondisabled_n": 60315
+        "disabled_cb_rate": 41.0,
+        "nondisabled_cb_rate": 32.3,
+        "disability_penalty_pp": 8.7,
+        "disabled_n": 12810,
+        "nondisabled_n": 61346
       }
     }
   },
@@ -248,6 +248,350 @@
         "nondisabled_cb_rate": 31.2,
         "disabled_n": 101,
         "nondisabled_n": 506
+      }
+    }
+  },
+  "joint_cube": {
+    "White alone": {
+      "Metro": {
+        "Single-family": {
+          "disabled_share_pct": 21.1,
+          "nondisabled_share_pct": 31.5,
+          "disabled_cb_rate": 52.9,
+          "nondisabled_cb_rate": 36.1,
+          "disability_penalty_pp": 16.8,
+          "disabled_n": 529757,
+          "nondisabled_n": 5208253
+        },
+        "Small multifamily (2-4)": {
+          "disabled_share_pct": 15.6,
+          "nondisabled_share_pct": 16.9,
+          "disabled_cb_rate": 55.1,
+          "nondisabled_cb_rate": 37.5,
+          "disability_penalty_pp": 17.6,
+          "disabled_n": 390485,
+          "nondisabled_n": 2796238
+        },
+        "Medium multifamily (5-19)": {
+          "disabled_share_pct": 19.3,
+          "nondisabled_share_pct": 22.9,
+          "disabled_cb_rate": 57.5,
+          "nondisabled_cb_rate": 39.7,
+          "disability_penalty_pp": 17.9,
+          "disabled_n": 485181,
+          "nondisabled_n": 3786206
+        },
+        "Large multifamily (20+)": {
+          "disabled_share_pct": 39.8,
+          "nondisabled_share_pct": 25.8,
+          "disabled_cb_rate": 57.1,
+          "nondisabled_cb_rate": 41.3,
+          "disability_penalty_pp": 15.8,
+          "disabled_n": 999555,
+          "nondisabled_n": 4279454
+        },
+        "Mobile home": {
+          "disabled_share_pct": 4.0,
+          "nondisabled_share_pct": 2.9,
+          "disabled_cb_rate": 55.0,
+          "nondisabled_cb_rate": 36.1,
+          "disability_penalty_pp": 18.9,
+          "disabled_n": 99989,
+          "nondisabled_n": 475536
+        },
+        "Other": {
+          "disabled_share_pct": 0.2,
+          "nondisabled_share_pct": 0.1,
+          "disabled_cb_rate": 60.5,
+          "nondisabled_cb_rate": 27.4,
+          "disability_penalty_pp": 33.1,
+          "disabled_n": 4549,
+          "nondisabled_n": 13146
+        }
+      },
+      "Non-metro": {
+        "Single-family": {
+          "disabled_share_pct": 27.7,
+          "nondisabled_share_pct": 43.4,
+          "disabled_cb_rate": 52.2,
+          "nondisabled_cb_rate": 31.5,
+          "disability_penalty_pp": 20.7,
+          "disabled_n": 176526,
+          "nondisabled_n": 1193133
+        },
+        "Small multifamily (2-4)": {
+          "disabled_share_pct": 22.4,
+          "nondisabled_share_pct": 21.2,
+          "disabled_cb_rate": 49.5,
+          "nondisabled_cb_rate": 34.7,
+          "disability_penalty_pp": 14.8,
+          "disabled_n": 142637,
+          "nondisabled_n": 584543
+        },
+        "Medium multifamily (5-19)": {
+          "disabled_share_pct": 17.7,
+          "nondisabled_share_pct": 15.4,
+          "disabled_cb_rate": 50.6,
+          "nondisabled_cb_rate": 37.1,
+          "disability_penalty_pp": 13.5,
+          "disabled_n": 112589,
+          "nondisabled_n": 424164
+        },
+        "Large multifamily (20+)": {
+          "disabled_share_pct": 22.0,
+          "nondisabled_share_pct": 9.4,
+          "disabled_cb_rate": 45.8,
+          "nondisabled_cb_rate": 40.9,
+          "disability_penalty_pp": 5.0,
+          "disabled_n": 139688,
+          "nondisabled_n": 258458
+        },
+        "Mobile home": {
+          "disabled_share_pct": 9.9,
+          "nondisabled_share_pct": 10.4,
+          "disabled_cb_rate": 57.2,
+          "nondisabled_cb_rate": 32.3,
+          "disability_penalty_pp": 24.9,
+          "disabled_n": 63103,
+          "nondisabled_n": 287421
+        },
+        "Other": {
+          "disabled_share_pct": 0.3,
+          "nondisabled_share_pct": 0.2,
+          "disabled_cb_rate": 46.4,
+          "nondisabled_cb_rate": 33.5,
+          "disability_penalty_pp": 13.0,
+          "disabled_n": 1744,
+          "nondisabled_n": 4156
+        }
+      }
+    },
+    "Black/AA alone": {
+      "Metro": {
+        "Single-family": {
+          "disabled_share_pct": 24.3,
+          "nondisabled_share_pct": 27.3,
+          "disabled_cb_rate": 58.6,
+          "nondisabled_cb_rate": 46.8,
+          "disability_penalty_pp": 11.8,
+          "disabled_n": 271849,
+          "nondisabled_n": 1823076
+        },
+        "Small multifamily (2-4)": {
+          "disabled_share_pct": 19.2,
+          "nondisabled_share_pct": 18.4,
+          "disabled_cb_rate": 59.3,
+          "nondisabled_cb_rate": 45.8,
+          "disability_penalty_pp": 13.4,
+          "disabled_n": 215200,
+          "nondisabled_n": 1230637
+        },
+        "Medium multifamily (5-19)": {
+          "disabled_share_pct": 22.2,
+          "nondisabled_share_pct": 27.5,
+          "disabled_cb_rate": 57.6,
+          "nondisabled_cb_rate": 47.2,
+          "disability_penalty_pp": 10.4,
+          "disabled_n": 248946,
+          "nondisabled_n": 1840203
+        },
+        "Large multifamily (20+)": {
+          "disabled_share_pct": 33.1,
+          "nondisabled_share_pct": 25.4,
+          "disabled_cb_rate": 53.6,
+          "nondisabled_cb_rate": 46.6,
+          "disability_penalty_pp": 7.0,
+          "disabled_n": 370727,
+          "nondisabled_n": 1696457
+        },
+        "Mobile home": {
+          "disabled_share_pct": 1.1,
+          "nondisabled_share_pct": 1.3,
+          "disabled_cb_rate": 53.3,
+          "nondisabled_cb_rate": 45.6,
+          "disability_penalty_pp": 7.7,
+          "disabled_n": 12774,
+          "nondisabled_n": 87670
+        },
+        "Other": {
+          "disabled_share_pct": 0.0,
+          "nondisabled_share_pct": 0.1,
+          "disabled_cb_rate": 43.5,
+          "nondisabled_cb_rate": 46.3,
+          "disability_penalty_pp": -2.9,
+          "disabled_n": 506,
+          "nondisabled_n": 3442
+        }
+      },
+      "Non-metro": {
+        "Single-family": {
+          "disabled_share_pct": 32.8,
+          "nondisabled_share_pct": 35.7,
+          "disabled_cb_rate": 56.0,
+          "nondisabled_cb_rate": 42.2,
+          "disability_penalty_pp": 13.8,
+          "disabled_n": 36693,
+          "nondisabled_n": 194208
+        },
+        "Small multifamily (2-4)": {
+          "disabled_share_pct": 29.0,
+          "nondisabled_share_pct": 26.3,
+          "disabled_cb_rate": 51.5,
+          "nondisabled_cb_rate": 40.2,
+          "disability_penalty_pp": 11.3,
+          "disabled_n": 32495,
+          "nondisabled_n": 143045
+        },
+        "Medium multifamily (5-19)": {
+          "disabled_share_pct": 17.4,
+          "nondisabled_share_pct": 18.2,
+          "disabled_cb_rate": 46.6,
+          "nondisabled_cb_rate": 39.3,
+          "disability_penalty_pp": 7.3,
+          "disabled_n": 19494,
+          "nondisabled_n": 98938
+        },
+        "Large multifamily (20+)": {
+          "disabled_share_pct": 13.0,
+          "nondisabled_share_pct": 9.9,
+          "disabled_cb_rate": 53.1,
+          "nondisabled_cb_rate": 41.9,
+          "disability_penalty_pp": 11.1,
+          "disabled_n": 14570,
+          "nondisabled_n": 53696
+        },
+        "Mobile home": {
+          "disabled_share_pct": 7.8,
+          "nondisabled_share_pct": 9.9,
+          "disabled_cb_rate": 51.0,
+          "nondisabled_cb_rate": 40.6,
+          "disability_penalty_pp": 10.3,
+          "disabled_n": 8740,
+          "nondisabled_n": 53744
+        },
+        "Other": {
+          "disabled_share_pct": 0.0,
+          "nondisabled_share_pct": 0.1,
+          "disabled_cb_rate": 0.0,
+          "nondisabled_cb_rate": 59.6,
+          "disability_penalty_pp": -59.6,
+          "disabled_n": 15,
+          "nondisabled_n": 368
+        }
+      }
+    },
+    "AIAN alone": {
+      "Metro": {
+        "Single-family": {
+          "disabled_share_pct": 31.3,
+          "nondisabled_share_pct": 34.1,
+          "disabled_cb_rate": 44.2,
+          "nondisabled_cb_rate": 39.8,
+          "disability_penalty_pp": 4.4,
+          "disabled_n": 9298,
+          "nondisabled_n": 76077
+        },
+        "Small multifamily (2-4)": {
+          "disabled_share_pct": 20.3,
+          "nondisabled_share_pct": 19.8,
+          "disabled_cb_rate": 57.0,
+          "nondisabled_cb_rate": 45.5,
+          "disability_penalty_pp": 11.5,
+          "disabled_n": 6036,
+          "nondisabled_n": 44265
+        },
+        "Medium multifamily (5-19)": {
+          "disabled_share_pct": 19.6,
+          "nondisabled_share_pct": 22.9,
+          "disabled_cb_rate": 56.7,
+          "nondisabled_cb_rate": 47.1,
+          "disability_penalty_pp": 9.6,
+          "disabled_n": 5807,
+          "nondisabled_n": 51132
+        },
+        "Large multifamily (20+)": {
+          "disabled_share_pct": 24.0,
+          "nondisabled_share_pct": 18.9,
+          "disabled_cb_rate": 52.6,
+          "nondisabled_cb_rate": 44.8,
+          "disability_penalty_pp": 7.7,
+          "disabled_n": 7116,
+          "nondisabled_n": 42084
+        },
+        "Mobile home": {
+          "disabled_share_pct": 4.6,
+          "nondisabled_share_pct": 4.0,
+          "disabled_cb_rate": 58.4,
+          "nondisabled_cb_rate": 38.4,
+          "disability_penalty_pp": 20.0,
+          "disabled_n": 1352,
+          "nondisabled_n": 8987
+        },
+        "Other": {
+          "disabled_share_pct": 0.3,
+          "nondisabled_share_pct": 0.2,
+          "disabled_cb_rate": 64.0,
+          "nondisabled_cb_rate": 31.0,
+          "disability_penalty_pp": 33.0,
+          "disabled_n": 86,
+          "nondisabled_n": 477
+        }
+      },
+      "Non-metro": {
+        "Single-family": {
+          "disabled_share_pct": 45.0,
+          "nondisabled_share_pct": 53.8,
+          "disabled_cb_rate": 40.5,
+          "nondisabled_cb_rate": 27.7,
+          "disability_penalty_pp": 12.8,
+          "disabled_n": 6205,
+          "nondisabled_n": 35465
+        },
+        "Small multifamily (2-4)": {
+          "disabled_share_pct": 22.1,
+          "nondisabled_share_pct": 19.2,
+          "disabled_cb_rate": 40.0,
+          "nondisabled_cb_rate": 35.7,
+          "disability_penalty_pp": 4.3,
+          "disabled_n": 3039,
+          "nondisabled_n": 12621
+        },
+        "Medium multifamily (5-19)": {
+          "disabled_share_pct": 11.3,
+          "nondisabled_share_pct": 10.3,
+          "disabled_cb_rate": 38.9,
+          "nondisabled_cb_rate": 39.0,
+          "disability_penalty_pp": -0.1,
+          "disabled_n": 1558,
+          "nondisabled_n": 6804
+        },
+        "Large multifamily (20+)": {
+          "disabled_share_pct": 11.4,
+          "nondisabled_share_pct": 5.3,
+          "disabled_cb_rate": 40.7,
+          "nondisabled_cb_rate": 44.0,
+          "disability_penalty_pp": -3.3,
+          "disabled_n": 1575,
+          "nondisabled_n": 3507
+        },
+        "Mobile home": {
+          "disabled_share_pct": 10.1,
+          "nondisabled_share_pct": 11.3,
+          "disabled_cb_rate": 49.1,
+          "nondisabled_cb_rate": 37.2,
+          "disability_penalty_pp": 11.9,
+          "disabled_n": 1388,
+          "nondisabled_n": 7438
+        },
+        "Other": {
+          "disabled_share_pct": 0.1,
+          "nondisabled_share_pct": 0.0,
+          "disabled_cb_rate": 0.0,
+          "nondisabled_cb_rate": 88.0,
+          "disability_penalty_pp": -88.0,
+          "disabled_n": 15,
+          "nondisabled_n": 29
+        }
       }
     }
   },

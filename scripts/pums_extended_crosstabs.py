@@ -1,13 +1,14 @@
 """
 Extended PUMS Cross-Tabulations for Disability-Centered AFFH Note
 =================================================================
-Produces four new cross-tabulation analyses using the same Census API
+Produces five cross-tabulation analyses using the same Census API
 approach as census_pums_replication.py:
 
   (a) Metro vs. Non-Metro Disability Cost Burden
   (b) Age-Disability Interaction (working-age vs. elderly)
   (c) Housing Type Distribution by Disability Status
-  (d) State-Level Disability Penalty Rankings
+  (d) Joint race × metro/non-metro × housing-type cube
+  (e) State-Level Disability Penalty Rankings
 
 Data Source: U.S. Census Bureau, ACS 2020-2024 5-Year PUMS
 API Endpoint: https://api.census.gov/data/2024/acs/acs5/pums
@@ -40,9 +41,21 @@ import time
 import csv
 import io
 import os
+import zipfile
+from collections import Counter, defaultdict
+import xml.etree.ElementTree as ET
 
 BASE_URL = "https://api.census.gov/data/2024/acs/acs5/pums"
 RACE_LABELS = {1: "White alone", 2: "Black/AA alone", 3: "AIAN alone"}
+TRACT_TO_PUMA_URL = (
+    "https://www2.census.gov/geo/docs/maps-data/data/rel2020/"
+    "2020_Census_Tract_to_2020_PUMA.txt"
+)
+CBSA_DELINEATION_URL = (
+    "https://www2.census.gov/programs-surveys/metro-micro/geographies/"
+    "reference-files/2023/delineation-files/list1_2023.xlsx"
+)
+EXCLUDED_STATE_CODES = {"72"}  # Puerto Rico
 
 STATE_FIPS = {
     "01": "Alabama", "02": "Alaska", "04": "Arizona", "05": "Arkansas",
@@ -86,6 +99,47 @@ def pct(num, den):
     return num / den * 100 if den > 0 else 0.0
 
 
+def download_bytes(url, timeout=120, retries=4):
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read()
+        except Exception as exc:
+            if attempt == retries:
+                raise
+            wait = 3 * attempt
+            print(f"  retrying download after error: {exc} (sleep {wait}s)", flush=True)
+            time.sleep(wait)
+    raise RuntimeError(f"unreachable download retry loop for {url}")
+
+
+def parse_xlsx_rows(raw, worksheet_name="xl/worksheets/sheet1.xml"):
+    namespace = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+    with zipfile.ZipFile(io.BytesIO(raw)) as zf:
+        shared_strings = []
+        if "xl/sharedStrings.xml" in zf.namelist():
+            root = ET.fromstring(zf.read("xl/sharedStrings.xml"))
+            for si in root.findall(f"{namespace}si"):
+                text = "".join((t.text or "") for t in si.findall(f".//{namespace}t"))
+                shared_strings.append(text)
+
+        sheet = ET.fromstring(zf.read(worksheet_name))
+        for row in sheet.findall(f".//{namespace}row"):
+            values = []
+            for cell in row.findall(f"{namespace}c"):
+                cell_type = cell.attrib.get("t")
+                value_node = cell.find(f"{namespace}v")
+                if value_node is None:
+                    values.append("")
+                    continue
+                value = value_node.text or ""
+                if cell_type == "s" and value:
+                    value = shared_strings[int(value)]
+                values.append(value)
+            yield values
+
+
 # ── (a) METRO vs NON-METRO ──────────────────────────────────────────────
 
 def build_puma_metro_map():
@@ -97,109 +151,52 @@ def build_puma_metro_map():
     fall in counties that belong to a Metropolitan Statistical Area.
     """
     print("  Downloading tract-to-PUMA crosswalk ...", flush=True)
-    url_tract = ("https://www2.census.gov/geo/docs/maps-data/data/rel2020/"
-                 "2020_Census_Tract_to_2020_PUMA.txt")
-    req = urllib.request.Request(url_tract)
-    req.add_header("User-Agent", "Mozilla/5.0")
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        raw = resp.read().decode("utf-8-sig")
+    tract_raw = download_bytes(TRACT_TO_PUMA_URL, timeout=180)
+    tract_text = tract_raw.decode("utf-8-sig")
 
-    # Parse: STATEFP,COUNTYFP,TRACTCE,PUMA5CE
-    puma_counties = {}  # (state, puma) -> Counter of county occurrences
-    reader = csv.reader(io.StringIO(raw))
-    header = next(reader)
+    puma_counties = defaultdict(Counter)
+    reader = csv.DictReader(io.StringIO(tract_text))
     for row in reader:
-        if len(row) < 4:
+        st = row.get("STATEFP", "")
+        co = row.get("COUNTYFP", "")
+        puma = row.get("PUMA5CE", "")
+        if not st or not co or not puma or st in EXCLUDED_STATE_CODES:
             continue
-        st, co, tract, puma = row[0], row[1], row[2], row[3]
-        key = (st, puma)
-        if key not in puma_counties:
-            puma_counties[key] = {}
-        county_fips = st + co
-        puma_counties[key][county_fips] = puma_counties[key].get(county_fips, 0) + 1
+        puma_counties[(st, puma)][st + co] += 1
 
-    print("  Downloading OMB CBSA delineation ...", flush=True)
-    url_cbsa = ("https://www2.census.gov/programs-surveys/metro-micro/"
-                "geographies/reference-files/2020/delineation-files/list1_2020.xls")
-    req2 = urllib.request.Request(url_cbsa)
-    req2.add_header("User-Agent", "Mozilla/5.0")
-    with urllib.request.urlopen(req2, timeout=60) as resp2:
-        xls_data = resp2.read()
+    print("  Downloading metropolitan delineation file ...", flush=True)
+    cbsa_raw = download_bytes(CBSA_DELINEATION_URL, timeout=180)
+    rows = list(parse_xlsx_rows(cbsa_raw))
+    if len(rows) < 4:
+        raise RuntimeError("unexpected CBSA worksheet shape")
 
-    # Parse XLS with openpyxl (save to temp, read)
-    import tempfile
-    tmp = tempfile.NamedTemporaryFile(suffix=".xls", delete=False)
-    tmp.write(xls_data)
-    tmp.close()
-
-    # Use pandas to read the .xls
-    import pandas as pd
+    header = rows[2]
     try:
-        df = pd.read_excel(tmp.name, header=2)
-    except Exception:
-        # If header row is different, try without header spec
-        df = pd.read_excel(tmp.name)
-    os.unlink(tmp.name)
+        metro_type_idx = header.index("Metropolitan/Micropolitan Statistical Area")
+        state_idx = header.index("FIPS State Code")
+        county_idx = header.index("FIPS County Code")
+    except ValueError as exc:
+        raise RuntimeError(f"CBSA header mismatch: {header}") from exc
 
-    # Find the FIPS State + FIPS County columns and CBSA type
-    # Column names vary; look for them
-    cols = list(df.columns)
     metro_counties = set()
-    fips_st_col = None
-    fips_co_col = None
-    type_col = None
-
-    for c in cols:
-        cl = str(c).lower().strip()
-        if "fips state" in cl:
-            fips_st_col = c
-        elif "fips county" in cl:
-            fips_co_col = c
-        elif "metropolitan/micropolitan" in cl or "metro/micro" in cl:
-            type_col = c
-
-    if fips_st_col and fips_co_col and type_col:
-        for _, row in df.iterrows():
-            try:
-                st_fips = str(int(row[fips_st_col])).zfill(2)
-                co_fips = str(int(row[fips_co_col])).zfill(3)
-                cbsa_type = str(row[type_col]).strip().lower()
-                if "metropolitan" in cbsa_type and "micro" not in cbsa_type:
-                    metro_counties.add(st_fips + co_fips)
-            except (ValueError, TypeError):
-                continue
-    else:
-        # Fallback: try column indices typical for Census delineation files
-        print(f"    [warn] Column names: {cols[:10]}", file=sys.stderr)
-        for _, row in df.iterrows():
-            try:
-                vals = list(row)
-                # Typical layout: CBSA Code, Metro Division, CSA Code,
-                #   CBSA Title, Metro/Micro, ... FIPS State, FIPS County
-                for i, v in enumerate(vals):
-                    s = str(v).lower()
-                    if "metropolitan statistical area" in s:
-                        # This row's county is metro
-                        # Find FIPS values in earlier columns
-                        for j in range(len(vals)):
-                            try:
-                                fips_val = str(int(vals[j])).zfill(5)
-                                if len(fips_val) == 5 and j > 3:
-                                    metro_counties.add(fips_val)
-                                    break
-                            except (ValueError, TypeError):
-                                continue
-            except Exception:
-                continue
+    for row in rows[3:]:
+        if len(row) <= max(metro_type_idx, state_idx, county_idx):
+            continue
+        metro_type = row[metro_type_idx].strip().lower()
+        if metro_type != "metropolitan statistical area":
+            continue
+        st = row[state_idx].zfill(2)
+        co = row[county_idx].zfill(3)
+        if st in EXCLUDED_STATE_CODES:
+            continue
+        metro_counties.add(st + co)
 
     print(f"  Metro counties identified: {len(metro_counties)}", flush=True)
 
-    # Classify each PUMA: metro if majority of tracts are in metro counties
     puma_metro = {}
     for (st, puma), county_counts in puma_counties.items():
         total_tracts = sum(county_counts.values())
-        metro_tracts = sum(ct for fips, ct in county_counts.items()
-                          if fips in metro_counties)
+        metro_tracts = sum(ct for fips, ct in county_counts.items() if fips in metro_counties)
         puma_metro[(st, puma)] = metro_tracts > total_tracts / 2
 
     metro_count = sum(1 for v in puma_metro.values() if v)
@@ -485,6 +482,126 @@ def query_housing_type():
 
 # ── (d) STATE-LEVEL DISABILITY PENALTY RANKINGS ─────────────────────────
 
+def query_joint_cube(puma_metro):
+    """
+    Cross-tab (d): race × metro/non-metro × housing type.
+
+    For each race group and metro bucket, computes:
+    - disabled and non-disabled housing-type shares within that geo bucket
+    - disabled and non-disabled cost-burden rates within that geo/type cell
+    - the disability penalty within that geo/type cell
+
+    Distribution shares use all weighted renter records in the geo/type cell.
+    Cost-burden rates exclude GRPIP=101, matching the main cost-burden logic.
+    """
+    print("\n" + "=" * 65)
+    print("Analysis (d): Joint race × metro/non-metro × housing type cube")
+    print("=" * 65)
+
+    results = {}
+
+    for race_code, race_label in RACE_LABELS.items():
+        print(f"\n  Querying {race_label} ...", flush=True)
+        data = fetch_pums("DPHY,DOUT,GRPIP,PUMA,STATE,BLD", f"&RAC1P={race_code}")
+        header = data[0]
+        rows = data[1:]
+
+        pwgtp_idx = header.index("PWGTP")
+        dphy_idx = header.index("DPHY")
+        dout_idx = header.index("DOUT")
+        grpip_idx = header.index("GRPIP")
+        puma_idx = header.index("PUMA")
+        state_idx = header.index("STATE")
+        bld_idx = header.index("BLD")
+
+        geo_totals = {
+            "Metro": {"dis_total_all": 0, "nondis_total_all": 0},
+            "Non-metro": {"dis_total_all": 0, "nondis_total_all": 0},
+        }
+        cube = {
+            geo: {
+                group: {
+                    "dis_total_all": 0,
+                    "nondis_total_all": 0,
+                    "dis_total_cb": 0,
+                    "nondis_total_cb": 0,
+                    "dis_burd": 0,
+                    "nondis_burd": 0,
+                }
+                for group in BLD_GROUPS
+            }
+            for geo in ["Metro", "Non-metro"]
+        }
+        unmatched = 0
+
+        for r in rows:
+            weight = int(r[pwgtp_idx])
+            st = r[state_idx]
+            puma = r[puma_idx]
+            key = (st, puma)
+            if key not in puma_metro:
+                unmatched += weight
+                continue
+
+            geo = "Metro" if puma_metro[key] else "Non-metro"
+            bld = r[bld_idx]
+            grpip = int(r[grpip_idx])
+            disabled = is_disabled(r, dphy_idx, dout_idx)
+
+            group = "Other"
+            for g_label, g_codes in BLD_GROUPS.items():
+                if bld in g_codes:
+                    group = g_label
+                    break
+
+            cell = cube[geo][group]
+            if disabled:
+                geo_totals[geo]["dis_total_all"] += weight
+                cell["dis_total_all"] += weight
+                if grpip != 101:
+                    cell["dis_total_cb"] += weight
+                    if grpip > 30:
+                        cell["dis_burd"] += weight
+            else:
+                geo_totals[geo]["nondis_total_all"] += weight
+                cell["nondis_total_all"] += weight
+                if grpip != 101:
+                    cell["nondis_total_cb"] += weight
+                    if grpip > 30:
+                        cell["nondis_burd"] += weight
+
+        race_results = {}
+        for geo in ["Metro", "Non-metro"]:
+            geo_results = {}
+            for group_label in BLD_GROUPS:
+                cell = cube[geo][group_label]
+                dis_share = pct(cell["dis_total_all"], geo_totals[geo]["dis_total_all"])
+                nondis_share = pct(cell["nondis_total_all"], geo_totals[geo]["nondis_total_all"])
+                dis_cb = pct(cell["dis_burd"], cell["dis_total_cb"])
+                nondis_cb = pct(cell["nondis_burd"], cell["nondis_total_cb"])
+                geo_results[group_label] = {
+                    "disabled_share_pct": round(dis_share, 1),
+                    "nondisabled_share_pct": round(nondis_share, 1),
+                    "disabled_cb_rate": round(dis_cb, 1),
+                    "nondisabled_cb_rate": round(nondis_cb, 1),
+                    "disability_penalty_pp": round(dis_cb - nondis_cb, 1),
+                    "disabled_n": cell["dis_total_all"],
+                    "nondisabled_n": cell["nondis_total_all"],
+                }
+            race_results[geo] = geo_results
+
+            lm = geo_results["Large multifamily (20+)"]
+            print(f"    {geo}: large multifamily share disabled={lm['disabled_share_pct']:.1f}% nondisabled={lm['nondisabled_share_pct']:.1f}% penalty={lm['disability_penalty_pp']:.1f} pp")
+
+        if unmatched:
+            print(f"    [Unmatched weight (PR etc.): {unmatched:,}]")
+        results[race_label] = race_results
+
+    return results
+
+
+# ── (e) STATE-LEVEL DISABILITY PENALTY RANKINGS ─────────────────────────
+
 def query_state_rankings():
     """
     Cross-tab (d): Disability cost-burden penalty by state.
@@ -603,7 +720,10 @@ def main():
     # (c) Housing Type Distribution
     all_results["housing_type"] = query_housing_type()
 
-    # (d) State-Level Rankings
+    # (d) Joint race × metro/non-metro × housing type cube
+    all_results["joint_cube"] = query_joint_cube(puma_metro)
+
+    # (e) State-Level Rankings
     all_results["state_rankings"] = query_state_rankings()
 
     # Save results as JSON

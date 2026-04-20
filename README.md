@@ -250,6 +250,8 @@ An estimated **823,000** disabled renters of color live in communities that HUD'
 | [H](appendices/Appendix_H_Supplementary_Data.md) | Modification desert data, design-and-construction noncompliance ratio, enforcement infrastructure, pro se x defendant cross-tab |
 | [J](appendices/Appendix_J_Safe_Harbor_Detail.md) | Safe harbor operational detail (population thresholds, cost analysis, FCA enforcement) |
 | [K](appendices/Appendix_K_Classification_Prompts.md) | Full text of all LLM classification prompts |
+| [L](appendices/Appendix_L_HUD_Administrative_Data.md) | HUD administrative data: CDBG accessibility-code gap, POSH subsidized-household disability rates, REAC/NSPIRE published-schema audit, FHEO historical enforcement |
+| [M](appendices/Appendix_M_Doctrinal_Audit_Methodology.md) | Doctrinal audit methodology: Westlaw / Federal Register / OMB / HUD audit memoranda keyed to the footnote apparatus of the doctrinal note (v100) |
 
 ---
 

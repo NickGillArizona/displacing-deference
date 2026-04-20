@@ -20,7 +20,7 @@ The strongest defensible conclusion is narrower, but stronger than the pre-run s
 - The November 1988 proposed Part 121 rule directly stated that HUD's authorities required the Secretary to collect certain data "to assess the extent of compliance with these policies."
 - HUD's immediately following 1989 Part 121 preamble treated `§ 808(e)(6)` as imposing disability-inclusive data-collection responsibilities and described Part 121 as the implementation vehicle for those responsibilities.
 
-That combination supports a real monitoring/enforcement-feedback rationale for the reporting provision and a stronger enacted-package argument than the draft currently states. But I still did **not** recover direct inspected committee-report language, or direct disability-advocacy hearing language, expressly stating that Congress meant `§ 3608(e)(6)` or `§ 3614a` to monitor the new disability duties in `§ 3604(f)(3)` specifically. Because the sole committee report itself was not recovered in directly inspectable form, this memo cannot honestly claim to have completed the prompt's exact House-report requirement; the most I can say is that the directly inspected hearing/rulemaking materials and the indirectly recovered report excerpts all stop short of that specific linkage.
+That combination supports a real general monitoring/enforcement-feedback rationale for the reporting provision and a stronger enacted-package argument than the draft currently states. But I still did **not** recover direct inspected committee-report language, or direct disability-advocacy hearing language, expressly stating that Congress meant `§ 3608(e)(6)` or `§ 3614a` to monitor the new disability duties in `§ 3604(f)(3)` specifically. Because the sole committee report itself was not recovered in directly inspectable form, this memo cannot honestly claim to have completed the prompt's exact House-report requirement; the most I can say is that the directly inspected hearing/rulemaking materials and the indirectly recovered report excerpts all stop short of that specific linkage.
 
 ## Sources actually inspected
 
@@ -30,6 +30,7 @@ Primary/near-primary materials inspected during this run:
 - `tmp_prompt20/senate_1988_08_01.txt` — Kennedy-Specter substitute summary memorandum / Senate printed material
 - `tmp_prompt20/senate_1988_08_02.txt` — Senate printed substitute text in the Congressional Record
 - `tmp_prompt20/FR_1989_01_23.txt` — 1989 Part 121 final-rule preamble
+- `/mnt/c/Users/nickg/Downloads/3182-3291.pdf` — user-provided PDF of the January 23, 1989 Federal Register issue containing the Part 121 final rule text
 - `tmp_prompt20/ext_1988_04_29.txt` — contemporaneous congressional remarks citing National Council on the Handicapped material
 - `https://www.govinfo.gov/content/pkg/HOB-1988/html/HOB-1988-hr1158.htm` — History of Bills entry for H.R. 1158 confirming that the bill was reported with amendments as `H. Rept. 100-711`
 - `https://books.google.com/books?id=P2wFAAAAIAAJ&output=html_text&source=gbs_navlinks_s` — House hearing volume on H.R. 1158 (`Fair Housing Amendments Act of 1987`)
@@ -37,6 +38,7 @@ Primary/near-primary materials inspected during this run:
 - `https://www.govinfo.gov/content/pkg/FR-1988-11-07/pdf/FR-1988-11-07.pdf` — November 7, 1988 proposed Part 121 rule / FHAA implementation proposal
 - `https://www.ncd.gov/report/national-disability-policy-a-progress-report-february-1986/` — `Toward Independence`
 - `https://www.ncd.gov/report/national-disability-policy-a-progress-report-january-1988/` — `On the Threshold of Independence`
+- `/mnt/c/Users/nickg/Downloads/STATUTE-102-Pg1619 (1).pdf` — user-provided Statutes at Large PDF for Public Law 100-430, confirming the enacted text of the FHAA provisions
 
 Secondary sources inspected for mediated legislative-history recovery:
 - `allFHAcases/1683995_1991_Seniors Civil Liberties Ass'n, Inc. v. Kemp_flmd.txt` — later case describing the titles of the principal House and Senate hearing volumes on H.R. 1158 / S. 558
@@ -299,7 +301,7 @@ What I could **not** establish in this run:
 - or the text of the underlying submission(s).
 
 So the commenter point now is:
-- strong direct evidence that the issue was raised in the rulemaking record,
+- strong direct evidence, through HUD's own characterization of the rulemaking record, that the issue was raised in the Part 121 comments,
 - plus a direct proposed-rule statement linking data collection to compliance assessment,
 - but no recovered public copy yet of the exact comment letter(s) making the quoted criticism.
 
@@ -315,7 +317,7 @@ The historical record I actually inspected supports a **partial-support** propos
 
 So the safest upgraded claim for the note is:
 
-> The 1988 record strongly supports a contemporaneous enacted-package inference: Congress paired disability duties with disability-inclusive reporting authority; directly inspected hearing and rulemaking materials tied that reporting/data architecture to oversight and compliance; and HUD immediately implemented the provisions on the understanding that they carried new disability-data responsibilities. But the inspected materials still do not convert that inference into a fully explicit historical proposition that Congress specifically meant `§ 3608(e)(6)` / `§ 3614a` to monitor `§ 3604(f)(3)`.
+> The 1988 record strongly supports a contemporaneous enacted-package inference and a general oversight/compliance rationale for the reporting/data architecture: Congress paired disability duties with disability-inclusive reporting authority; directly inspected hearing and rulemaking materials tied that reporting/data architecture to oversight and compliance; and HUD immediately implemented the provisions on the understanding that they carried new disability-data responsibilities. But the inspected materials still do not convert that inference into a fully explicit historical proposition that Congress specifically meant `§ 3608(e)(6)` / `§ 3614a` to monitor `§ 3604(f)(3)`.
 
 ## Drafting recommendation
 

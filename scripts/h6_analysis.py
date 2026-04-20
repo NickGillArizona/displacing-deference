@@ -9,6 +9,7 @@ other physical-accessibility disputes.
 
 Outputs: h6_results.json
 """
+import sys
 import json
 import pandas as pd
 import numpy as np
@@ -16,12 +17,18 @@ import statsmodels.api as sm
 from statsmodels.formula.api import logit
 from scipy import stats
 from collections import Counter
+import os
 import warnings
 warnings.filterwarnings('ignore')
 
-DB_PATH = 'data/2/FHA_Unified_Database.json'
-SUPP_PATH = 'supplemental_classification_results.json'
-OUTPUT_PATH = 'h6_results.json'
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+from config import UNIFIED_DB_PATH, RESULTS_DIR
+
+DB_PATH = UNIFIED_DB_PATH
+SUPP_PATH = os.path.join(RESULTS_DIR, 'supplemental_classification_results.json')
+OUTPUT_PATH = os.path.join(RESULTS_DIR, 'h6_results.json')
 
 # ============================================================
 # 1. LOAD AND MERGE
