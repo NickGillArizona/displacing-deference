@@ -103,6 +103,20 @@ The Note's footnote-level citations rely on fourteen human-authored audit memora
 | HMDA disclosure-effect meta-analysis | `results/disclosure_effect_meta_analysis.md` | M.13 |
 | Australia SDA comparative note | `results/australia_sda_analysis.md` | M.14 |
 
+## Canonical corpus-tier counts (current snapshot)
+
+All note-level claims are nested inside the following reproducible tiers on the committed `data/FHA_Unified_Database.json`:
+
+| Tier | Filter | n |
+|---|---|---|
+| T0 Raw unified corpus | all records | 3,198 |
+| T1 Screened-in | `screening_result == "YES"` | 2,522 |
+| T2 Screened-in disability population | T1 AND (`protected_classes` contains `"disability"` OR `disability_alleged == True`) | 1,770 |
+| T3 Disability-wave tranche | T2 AND `date_filed >= 2022-01-01` | 1,330 |
+| T4 Pleading-loss universe | T2 AND pleading-stage loss filter (see Appendix A / Appendix M.10) | 676 (= 535 + 141) |
+
+Narrower filter `protected_classes` ∋ `"disability"` alone yields 1,720; T2's disjunctive definition is canonical.
+
 ## Known numerical gaps flagged by reproduction run
 
 Running the current scripts against the committed `data/FHA_Unified_Database.json` surfaces a few minor gaps worth documenting before final submission:
@@ -111,7 +125,7 @@ Running the current scripts against the committed `data/FHA_Unified_Database.jso
 
 2. **Dated-decided N.** The note's Section III.A reports "P1: n = 615, 456 decided; P2: n = 159, 116 decided; P3: n = 417, 317 decided" (1,191 dated, 889 decided). Current scripts produce 911 decided against the committed database (P1=467, P2=120, P3=324). This is a 22-case drift, most likely reflecting reclassification after the note's data snapshot. Decide whether the note's numbers should be updated to the current snapshot or whether the note should cite the specific snapshot date and commit hash.
 
-3. **Institutional plaintiff win rates.** `h5_results.json` yields Government broad win ~86-87% and Fair Housing Org broad win ~60-67%. The note (Table 3) reports 90.0% and 67.7%. The 3-7 pp gap likely reflects the sample-definition difference: the note appears to include undated cases (n=1,720) while the current h5 run filters more tightly. Either reconcile definitions or add a footnote specifying which population Table 3 summarizes.
+3. **Institutional plaintiff win rates.** `h5_results.json` yields Government broad win ~86-87% and Fair Housing Org broad win ~60-67%. The note (Table 3) reports 90.0% and 67.7%. The 3-7 pp gap likely reflects the sample-definition difference: the note appears to include undated cases (n ≈ 1,720 narrower disability filter) while the current h5 run filters more tightly. Either reconcile definitions against the canonical T2 = 1,770 population or add a footnote specifying which tier Table 3 summarizes.
 
 ## Data-snapshot discipline
 

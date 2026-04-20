@@ -27,6 +27,22 @@ Every claim in the Note's main text relies only on cited Westlaw, Federal Regist
 
 ---
 
+## M.1.1 Canonical corpus-tier definitions (mechanism-divergence audit)
+
+Several audits in this Appendix are computed on subsets of `data/FHA_Unified_Database.json`. To avoid ambiguity about which population each number refers to, the Note uses five canonical tiers, each expressible as a reproducible filter on the committed database:
+
+| Tier | Label | Filter | n |
+|---|---|---|---|
+| T0 | Raw unified corpus | all records (union of RA Database + 2015 § 3604(f) Database by `source_file`) | 3,198 |
+| T1 | Screened-in federal FHA cases | T0 AND `screening_result == "YES"` | 2,522 |
+| T2 | Screened-in disability cases (primary disability-analysis population) | T1 AND (`protected_classes` contains `"disability"` OR `disability_alleged == True`) | 1,770 |
+| T3 | Disability-wave tranche (fully classified) | T2 AND `date_filed >= 2022-01-01` | 1,330 |
+| T4 | Pleading-loss universe | T2 AND `procedural_posture ∈ {MOTION_TO_DISMISS, SCREENING_ORDER}` AND `outcome ∈ {DEFENDANT_WIN, PROCEDURAL}` | 676 |
+
+T4 decomposes as 535 disability-wave + 141 pre-2022 cases. The mechanism-divergence contingency test in Part II.C uses T4. The narrower filter `protected_classes` contains `"disability"` alone (without the `disability_alleged` disjunct) yields 1,720 — the 50-case gap is records flagged `disability_alleged=True` but lacking an explicit protected-class entry. T2 (1,770) is the canonical disability-analysis population; all downstream subsets are nested within it.
+
+---
+
 ## M.2 Westlaw Citation-Count Audits
 
 ### M.2.1 24 C.F.R. Part 121 / DOJ § 3604(f)(3) joint audit
@@ -219,8 +235,8 @@ Every claim in the Note's main text relies only on cited Westlaw, Federal Regist
 
 **Sources.**
 
-- FHA Unified Database (n=2,522; 1,770 disability; see Appendix A). 1,330-case disability-wave tranche fully classified.
-- 676-case pleading-loss universe, constructed as 535 disability-wave cases plus 141 pre-wave cases, all with MTD or Rule 12(c) pleading-stage dispositions.
+- FHA Unified Database: raw union n = 3,198; screened-in n = 2,522; disability population n = 1,770 (see Appendix A and DATA_DICTIONARY.md for tier definitions). 1,330-case disability-wave tranche (T2 AND `date_filed >= 2022-01-01`) fully classified.
+- 676-case pleading-loss universe, constructed within T2 as 535 disability-wave cases plus 141 pre-2022 cases, all with pleading-stage dispositions (`procedural_posture ∈ {MOTION_TO_DISMISS, SCREENING_ORDER}` AND `outcome ∈ {DEFENDANT_WIN, PROCEDURAL}`).
 
 **Coding rule.** Each MTD/12(c) loss is assigned to one of nine mechanism families, coded by Haiku 4.5 over the extracted `reasoning` text. Mechanism families include TRANSLATION (plaintiff failed to identify the operative legal theory), PROCEDURAL_GATEWAY (exhaustion, standing, ripeness), and seven others. Cases may appear in multiple families; the primary family is used for the contingency table.
 

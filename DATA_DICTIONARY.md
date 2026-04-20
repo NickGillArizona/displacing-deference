@@ -1,6 +1,8 @@
 # Data Dictionary — FHA Unified Database
 
-The FHA Unified Database (`data/FHA_Unified_Database.json`) contains 2,522 screened-in federal FHA cases (1,720 disability). Each record is a JSON object with the following 28 fields, produced by the Agile ELS multi-model consensus pipeline.
+The FHA Unified Database (`data/FHA_Unified_Database.json`) contains **3,198 federal FHA opinions** in the raw corpus (RA Database 2,366 ∪ 2015 § 3604(f) Database 1,661; 829 overlap by `source_file`). Of these, **2,522** are screened-in federal FHA cases (`screening_result == "YES"`), and **1,770** are screened-in disability cases (`screening_result == "YES"` AND (`protected_classes` contains `"disability"` OR `disability_alleged == True`)). The narrower filter `protected_classes` contains `"disability"` alone yields **1,720**; the 50-case gap is records flagged `disability_alleged=True` without `"disability"` appearing in `protected_classes`. **1,770** is the canonical disability-analysis population; all downstream subsets (disability-wave tranche, pleading-loss universe, etc.) are nested within it.
+
+Each record is a JSON object with the following 28 fields, produced by the Agile ELS multi-model consensus pipeline.
 
 ## Case Identification
 
@@ -62,13 +64,15 @@ The FHA Unified Database (`data/FHA_Unified_Database.json`) contains 2,522 scree
 
 ## Source Databases
 
-The unified database merges records from three source corpora:
+The unified database merges records from two source corpora:
 
-| Database | File | Scope | n |
-|----------|------|-------|---|
-| RA Database | `FHA_RA_Database_unified_*.json` | Reasonable accommodation cases, all protected classes, 2021+ | 1,857 |
-| 2015 FHA Database | `FHA_3604_Database_unified_*.json` | § 3604(f) cases from 2015 FHA Database | 665 |
-| **Unified** | `FHA_Unified_Database.json` | **Deduplicated merge (all protected classes)** | **2,522** |
+| Database | File | Scope | Raw n | Screened-in n |
+|----------|------|-------|-------|---------------|
+| RA Database | `FHA_RA_Database_unified_20260328_090852.json` | Reasonable accommodation cases, all protected classes, 2021+ | 2,366 | 1,857 |
+| 2015 FHA Database | `FHA_3604_Database_unified_20260328_104352.json` | § 3604(f) cases from 2015 FHA Database, 2015+ | 1,661 | 1,461 |
+| **Unified (raw)** | `FHA_Unified_Database.json` | Raw union (by `source_file`); 829 raw overlap | **3,198** | — |
+| **Unified (screened)** | `FHA_Unified_Database.json`, filtered | `screening_result == "YES"`; 796 screened overlap | — | **2,522** |
+| **Disability population** | `FHA_Unified_Database.json`, filtered | Screened-in AND (`protected_classes` ∋ `"disability"` OR `disability_alleged`) | — | **1,770** |
 
 ## Within-Group Analysis: Strong-Case Represented Subset
 

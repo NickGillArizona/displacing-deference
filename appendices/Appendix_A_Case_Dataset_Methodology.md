@@ -4,7 +4,15 @@
 
 This Appendix describes the construction of the **FHA Unified Database**, the principal empirical dataset underlying the case-classification analysis in this Note.
 
-**The FHA Unified Database** (n=2,522 screened-in FHA cases; **1,770 disability cases**) is the single source of truth for all statistical claims in this Note. It was constructed by merging two overlapping source corpora — the RA Database (1,857 all-protected-class FHA cases, 2021–2026) and the 2015 FHA Database (1,461 screened-in § 3604(f) disability cases, 2015–2026) — with 796 cases appearing in both. A per-claim structured extraction via Haiku 4.5 Batch API enriched each record with detailed claim-level data. For the Note's disability-focused analysis, the unified database is filtered to the 1,770 cases where disability is a protected class.
+**The FHA Unified Database** (raw union n = 3,198; screened-in n = 2,522; **disability population n = 1,770**) is the single source of truth for all statistical claims in this Note. It was constructed by merging two overlapping source corpora — the RA Database (raw 2,366 / screened-in 1,857 all-protected-class FHA cases, 2021–2026) and the 2015 FHA Database (raw 1,661 / screened-in 1,461 § 3604(f) disability cases, 2015–2026) — with 829 raw cases (796 screened-in) appearing in both. The three tiers are:
+
+| Tier | Definition | n |
+|---|---|---|
+| T0 Raw corpus | Full union by `source_file` | 3,198 |
+| T1 Screened-in | `screening_result == "YES"` | 2,522 |
+| T2 Disability population | T1 AND (`protected_classes` contains `"disability"` OR `disability_alleged == True`) | 1,770 |
+
+A per-claim structured extraction via Haiku 4.5 Batch API enriched each record with detailed claim-level data. For the Note's disability-focused analysis, the unified database is filtered to the T2 population of 1,770 screened-in disability cases. All downstream subsets (three-period cohorts, pleading-loss universe, disability-wave tranche) are nested inside T2.
 
 **Three-Period Temporal Design.** Exact decision dates (resolved for all cases via CourtListener API, opinion text extraction, and Google Scholar) enable a three-period analysis:
 
